@@ -1,16 +1,17 @@
 {
-  "name": "material",
+  "name": "material-lite",
   "version": "1.0.0",
-  "description": "Material Theme for Sublime Text 3",
+  "description": "Material Lite Theme for Sublime Text 3",
   "main": "index.js",
   "scripts": {
-    "build": "node ./node_modules/gulp/bin/gulp.js merge",
+    "build": "node ./node_modules/gulp/bin/gulp.js build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "sublime"
+    "sublime-text",
+    "material-theme",
   ],
-  "author": "mauroreisvieira@gmail.com",
+  "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^4.0.0"
