@@ -25,7 +25,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-        "color": "color(var(--purplish) blend(rgb(255, 255, 255) 75%))"
+        "color": [66, 162, 144]
     },
     {
         "class": "sidebar_label",
