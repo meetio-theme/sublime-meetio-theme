@@ -4,7 +4,7 @@ const gulp = require('gulp');
 const array = [];
 let object = {};
 
-gulp.task('merge', () => {
+gulp.task('build', () => {
     fs.readdirSync('./modules').forEach(file => {
         file = path.join(__dirname, '/modules/' + file);
         fs.readFile(file, 'utf8', function (err, data) {
@@ -15,7 +15,7 @@ gulp.task('merge', () => {
                 array.push(value);
             });
             const json = JSON.stringify(array, null, 4);
-            fs.writeFile("Material.sublime-theme", json, function(err) {
+            fs.writeFile("Material-Lite.sublime-theme", json, function(err) {
                 if (err) console.log(err);
                 console.log("The file was saved!");
             });

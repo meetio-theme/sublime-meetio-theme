@@ -86,14 +86,12 @@
             0
         ]
     },
-
-
     {
         "class": "sidebar_label",
-        "color": [96, 125, 139],
+        "color": [255, 255, 255],
         "font.bold": false,
+        "font.size": 12,
         "font.italic": false,
-        "shadow_color": [255, 255, 255, 0],
         "shadow_offset": [0, 0]
     },
 
@@ -114,7 +112,6 @@
             "class": "tree_row",
             "attributes": ["selected"]
         }],
-        "font.bold": false,
         "color": [128, 203, 196]
     },
 

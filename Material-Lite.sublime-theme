@@ -58,10 +58,10 @@
     },
     {
         "class": "fold_button_control",
-        "layer0.texture": "Material/assets/default/fold_right.png",
+        "layer0.texture": "material-lite-theme/assets/default/fold_right.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Material/assets/commons/fold_right--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/fold_right--hover.png",
         "layer1.opacity": 0,
         "layer1.inner_margin": 0,
         "content_margin": [
@@ -84,8 +84,8 @@
         "attributes": [
             "expanded"
         ],
-        "layer0.texture": "Material/assets/default/fold_down.png",
-        "layer1.texture": "Material/assets/commons/fold_down--hover.png"
+        "layer0.texture": "material-lite-theme/assets/default/fold_down.png",
+        "layer1.texture": "material-lite-theme/assets/commons/fold_down--hover.png"
     },
     {
         "class": "popup_control",
@@ -186,7 +186,7 @@
     },
     {
         "class": "overlay_control",
-        "layer0.texture": "Material/assets/default/overlay-bg.png",
+        "layer0.texture": "material-lite-theme/assets/default/overlay-bg.png",
         "layer0.inner_margin": [
             24,
             4,
@@ -194,7 +194,7 @@
             33
         ],
         "layer0.opacity": 1,
-        "layer1.texture": "Material/assets/commons/quick-panel-background.png",
+        "layer1.texture": "material-lite-theme/assets/commons/quick-panel-background.png",
         "layer1.inner_margin": [
             16,
             0,
@@ -211,10 +211,10 @@
     },
     {
         "class": "disclosure_button_control",
-        "layer0.texture": "Material/assets/default/folder.png",
+        "layer0.texture": "material-lite-theme/assets/default/folder.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Material/assets/commons/folder--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/folder--hover.png",
         "layer1.opacity": 0,
         "layer1.inner_margin": 0,
         "content_margin": [
@@ -242,7 +242,7 @@
         "attributes": [
             "expanded"
         ],
-        "layer0.texture": "Material/assets/commons/folder_opened--hover.png"
+        "layer0.texture": "material-lite-theme/assets/commons/folder_opened--hover.png"
     },
     {
         "class": "close_button",
@@ -250,7 +250,7 @@
             8,
             8
         ],
-        "layer0.texture": "Material/assets/default/close_icon.png",
+        "layer0.texture": "material-lite-theme/assets/default/close_icon.png",
         "layer0.opacity": {
             "target": 0,
             "speed": 7,
@@ -260,7 +260,7 @@
             0,
             0
         ],
-        "layer1.texture": "Material/assets/commons/close_icon--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/close_icon--hover.png",
         "layer1.opacity": 0,
         "layer1.inner_margin": [
             0,
@@ -277,7 +277,7 @@
                 ]
             }
         ],
-        "layer0.texture": "Material/assets/default/close_icon.png",
+        "layer0.texture": "material-lite-theme/assets/default/close_icon.png",
         "layer0.opacity": {
             "target": 1,
             "speed": 7,
@@ -293,7 +293,7 @@
         "attributes": [
             "dirty"
         ],
-        "layer0.texture": "Material/assets/commons/dirty_icon--hover.png",
+        "layer0.texture": "material-lite-theme/assets/commons/dirty_icon--hover.png",
         "layer0.opacity": 1
     },
     {
@@ -316,7 +316,7 @@
             6
         ],
         "layer0.opacity": 1,
-        "layer1.texture": "Material/assets/default/normal_bar_vertical.png",
+        "layer1.texture": "material-lite-theme/assets/default/normal_bar_vertical.png",
         "layer1.opacity": 1,
         "layer1.inner_margin": [
             0,
@@ -339,7 +339,7 @@
             6
         ],
         "layer0.opacity": 1,
-        "layer1.texture": "Material/assets/default/normal_bar_horizontal.png",
+        "layer1.texture": "material-lite-theme/assets/default/normal_bar_horizontal.png",
         "layer1.opacity": 1,
         "layer1.inner_margin": [
             6,
@@ -349,7 +349,7 @@
     },
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "Material/assets/default/normal_bar_corner.png",
+        "layer0.texture": "material-lite-theme/assets/default/normal_bar_corner.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": [
             1,
@@ -369,7 +369,7 @@
             10,
             10
         ],
-        "layer1.texture": "Material/assets/default/thumb_vertical.png",
+        "layer1.texture": "material-lite-theme/assets/default/thumb_vertical.png",
         "layer1.opacity": 1,
         "layer1.inner_margin": [
             8,
@@ -386,7 +386,7 @@
         "attributes": [
             "horizontal"
         ],
-        "layer0.texture": "Material/assets/default/thumb_horizontal.png",
+        "layer0.texture": "material-lite-theme/assets/default/thumb_horizontal.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": [
             10,
@@ -441,7 +441,7 @@
         "settings": [
             "overlay_scroll_bars"
         ],
-        "layer0.texture": "Material/assets/default/normal_bar_vertical.png",
+        "layer0.texture": "material-lite-theme/assets/default/normal_bar_vertical.png",
         "layer0.inner_margin": [
             0,
             5
@@ -456,13 +456,13 @@
         "attributes": [
             "horizontal"
         ],
-        "layer0.texture": "Material/assets/default/normal_bar_horizontal.png",
+        "layer0.texture": "material-lite-theme/assets/default/normal_bar_horizontal.png",
         "layer0.inner_margin": [
             5,
             0
         ],
         "layer0.opacity": 0,
-        "layer1.texture": "Material/assets/default/normal_bar_horizontal.png",
+        "layer1.texture": "material-lite-theme/assets/default/normal_bar_horizontal.png",
         "layer1.inner_margin": [
             5,
             0
@@ -484,7 +484,7 @@
             1,
             8
         ],
-        "layer1.texture": "Material/assets/default/thumb_vertical.png",
+        "layer1.texture": "material-lite-theme/assets/default/thumb_vertical.png",
         "layer1.inner_margin": [
             1,
             8,
@@ -514,7 +514,7 @@
             8,
             1
         ],
-        "layer1.texture": "Material/assets/default/thumb_horizontal.png",
+        "layer1.texture": "material-lite-theme/assets/default/thumb_horizontal.png",
         "layer1.inner_margin": [
             8,
             1,
@@ -592,7 +592,7 @@
     },
     {
         "class": "panel_button_control",
-        "layer0.texture": "Material/assets/default/overflow_menu.png",
+        "layer0.texture": "material-lite-theme/assets/default/overflow_menu.png",
         "layer0.opacity": 1,
         "content_margin": [
             10,
@@ -604,7 +604,7 @@
         "attributes": [
             "hover"
         ],
-        "layer0.texture": "Material/assets/commons/overflow_menu--hover.png"
+        "layer0.texture": "material-lite-theme/assets/commons/overflow_menu--hover.png"
     },
     {
         "class": "panel_control",
@@ -641,9 +641,9 @@
     },
     {
         "class": "panel_close_button",
-        "layer0.texture": "Material/assets/default/close_icon.png",
+        "layer0.texture": "material-lite-theme/assets/default/close_icon.png",
         "layer0.opacity": 0.6,
-        "layer1.texture": "Material/assets/commons/close_icon--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/close_icon--hover.png",
         "layer1.opacity": 0,
         "content_margin": [
             0,
@@ -660,7 +660,7 @@
     },
     {
         "class": "text_line_control",
-        "layer0.texture": "Material/assets/default/input_field_border.png",
+        "layer0.texture": "material-lite-theme/assets/default/input_field_border.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": [
             20,
@@ -683,7 +683,7 @@
                 "class": "overlay_control"
             }
         ],
-        "layer0.texture": "Material/assets/default/input_field_border--short.png",
+        "layer0.texture": "material-lite-theme/assets/default/input_field_border--short.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": [
             32,
@@ -705,13 +705,13 @@
             12,
             12
         ],
-        "layer0.texture": "Material/assets/default/overflow_menu.png",
+        "layer0.texture": "material-lite-theme/assets/default/overflow_menu.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": [
             0,
             0
         ],
-        "layer1.texture": "Material/assets/commons/overflow_menu--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/overflow_menu--hover.png",
         "layer1.opacity": 0,
         "layer1.inner_margin": [
             0,
@@ -777,13 +777,13 @@
             6,
             6
         ],
-        "layer1.texture": "Material/assets/commons/full_button_indented.png",
+        "layer1.texture": "material-lite-theme/assets/commons/full_button_indented.png",
         "layer1.opacity": 0,
         "layer1.inner_margin": [
             6,
             6
         ],
-        "layer2.texture": "Material/assets/default/blue_highlight.png",
+        "layer2.texture": "material-lite-theme/assets/default/blue_highlight.png",
         "layer2.opacity": {
             "target": 0,
             "speed": 5,
@@ -911,18 +911,13 @@
     {
         "class": "sidebar_label",
         "color": [
-            96,
-            125,
-            139
+            255,
+            255,
+            255
         ],
         "font.bold": false,
+        "font.size": 12,
         "font.italic": false,
-        "shadow_color": [
-            255,
-            255,
-            255,
-            0
-        ],
         "shadow_offset": [
             0,
             0
@@ -964,7 +959,6 @@
                 ]
             }
         ],
-        "font.bold": false,
         "color": [
             128,
             203,
@@ -1126,11 +1120,11 @@
             56
         ],
         "layer0.opacity": 0,
-        "layer1.texture": "Material/assets/default/folder.png",
+        "layer1.texture": "material-lite-theme/assets/default/folder.png",
         "layer1.opacity": 1,
-        "layer2.texture": "Material/assets/commons/folder--hover.png",
+        "layer2.texture": "material-lite-theme/assets/commons/folder--hover.png",
         "layer2.opacity": 0,
-        "layer3.texture": "Material/assets/commons/folder_opened--hover.png",
+        "layer3.texture": "material-lite-theme/assets/commons/folder_opened--hover.png",
         "layer3.opacity": 0
     },
     {
@@ -1139,11 +1133,11 @@
             "material_theme_arrow_folders"
         ],
         "layer0.opacity": 0,
-        "layer1.texture": "Material/assets/default/arrow_folder.png",
+        "layer1.texture": "material-lite-theme/assets/default/arrow_folder.png",
         "layer1.opacity": 1,
-        "layer2.texture": "Material/assets/commons/arrow_folder--hover.png",
+        "layer2.texture": "material-lite-theme/assets/commons/arrow_folder--hover.png",
         "layer2.opacity": 0,
-        "layer3.texture": "Material/assets/commons/arrow_folder--opened.png",
+        "layer3.texture": "material-lite-theme/assets/commons/arrow_folder--opened.png",
         "layer3.opacity": 0
     },
     {
@@ -1187,19 +1181,19 @@
         ],
         "layer3.texture": {
             "keyframes": [
-                "Material/assets/commons/folder_opened--hover-0.png",
-                "Material/assets/commons/folder_opened--hover-1.png",
-                "Material/assets/commons/folder_opened--hover-2.png",
-                "Material/assets/commons/folder_opened--hover-3.png",
-                "Material/assets/commons/folder_opened--hover-4.png",
-                "Material/assets/commons/folder_opened--hover-5.png",
-                "Material/assets/commons/folder_opened--hover-5.png",
-                "Material/assets/commons/folder_opened--hover-5.png",
-                "Material/assets/commons/folder_opened--hover-6.png",
-                "Material/assets/commons/folder_opened--hover-6.png",
-                "Material/assets/commons/folder_opened--hover-6.png",
-                "Material/assets/commons/folder_opened--hover-6.png",
-                "Material/assets/commons/folder_opened--hover-7.png"
+                "material-lite-theme/assets/commons/folder_opened--hover-0.png",
+                "material-lite-theme/assets/commons/folder_opened--hover-1.png",
+                "material-lite-theme/assets/commons/folder_opened--hover-2.png",
+                "material-lite-theme/assets/commons/folder_opened--hover-3.png",
+                "material-lite-theme/assets/commons/folder_opened--hover-4.png",
+                "material-lite-theme/assets/commons/folder_opened--hover-5.png",
+                "material-lite-theme/assets/commons/folder_opened--hover-5.png",
+                "material-lite-theme/assets/commons/folder_opened--hover-5.png",
+                "material-lite-theme/assets/commons/folder_opened--hover-6.png",
+                "material-lite-theme/assets/commons/folder_opened--hover-6.png",
+                "material-lite-theme/assets/commons/folder_opened--hover-6.png",
+                "material-lite-theme/assets/commons/folder_opened--hover-6.png",
+                "material-lite-theme/assets/commons/folder_opened--hover-7.png"
             ],
             "loop": false,
             "frame_time": 0.02
@@ -1222,7 +1216,7 @@
                 ]
             }
         ],
-        "layer3.texture": "Material/assets/commons/arrow_folder--opened.png"
+        "layer3.texture": "material-lite-theme/assets/commons/arrow_folder--opened.png"
     },
     {
         "class": "icon_folder",
@@ -1234,24 +1228,24 @@
                 ]
             }
         ],
-        "layer1.texture": "Material/assets/commons/folder--hover.png"
+        "layer1.texture": "material-lite-theme/assets/commons/folder--hover.png"
     },
     {
         "class": "icon_folder_loading",
         "layer0.texture": {
             "keyframes": [
-                "Material/assets/commons/spinner11.png",
-                "Material/assets/commons/spinner10.png",
-                "Material/assets/commons/spinner9.png",
-                "Material/assets/commons/spinner8.png",
-                "Material/assets/commons/spinner7.png",
-                "Material/assets/commons/spinner6.png",
-                "Material/assets/commons/spinner5.png",
-                "Material/assets/commons/spinner4.png",
-                "Material/assets/commons/spinner3.png",
-                "Material/assets/commons/spinner2.png",
-                "Material/assets/commons/spinner1.png",
-                "Material/assets/commons/spinner.png"
+                "material-lite-theme/assets/commons/spinner11.png",
+                "material-lite-theme/assets/commons/spinner10.png",
+                "material-lite-theme/assets/commons/spinner9.png",
+                "material-lite-theme/assets/commons/spinner8.png",
+                "material-lite-theme/assets/commons/spinner7.png",
+                "material-lite-theme/assets/commons/spinner6.png",
+                "material-lite-theme/assets/commons/spinner5.png",
+                "material-lite-theme/assets/commons/spinner4.png",
+                "material-lite-theme/assets/commons/spinner3.png",
+                "material-lite-theme/assets/commons/spinner2.png",
+                "material-lite-theme/assets/commons/spinner1.png",
+                "material-lite-theme/assets/commons/spinner.png"
             ],
             "loop": true,
             "frame_time": 0.075
@@ -1264,7 +1258,7 @@
     },
     {
         "class": "icon_folder_dup",
-        "layer0.texture": "Material/assets/default/folder_dup.png",
+        "layer0.texture": "material-lite-theme/assets/default/folder_dup.png",
         "layer0.opacity": 1,
         "content_margin": [
             11,
@@ -1281,7 +1275,7 @@
                 ]
             }
         ],
-        "layer0.texture": "Material/assets/commons/folder_dup--hover.png"
+        "layer0.texture": "material-lite-theme/assets/commons/folder_dup--hover.png"
     },
     {
         "class": "icon_folder_dup",
@@ -1293,17 +1287,17 @@
                 ]
             }
         ],
-        "layer0.texture": "Material/assets/commons/folder_dup--hover.png"
+        "layer0.texture": "material-lite-theme/assets/commons/folder_dup--hover.png"
     },
     {
         "class": "icon_context",
-        "layer0.texture": "Material/assets/commons/find_context--hover.png",
+        "layer0.texture": "material-lite-theme/assets/commons/find_context--hover.png",
         "layer0.opacity": {
             "target": 0,
             "speed": 6,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "Material/assets/default/find_context.png",
+        "layer1.texture": "material-lite-theme/assets/default/find_context.png",
         "layer1.opacity": {
             "target": 1,
             "speed": 6,
@@ -1337,13 +1331,13 @@
     },
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Material/assets/commons/use_buffer--hover.png",
+        "layer0.texture": "material-lite-theme/assets/commons/use_buffer--hover.png",
         "layer0.opacity": {
             "target": 0,
             "speed": 6,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "Material/assets/default/use_buffer.png",
+        "layer1.texture": "material-lite-theme/assets/default/use_buffer.png",
         "layer1.opacity": {
             "target": 1,
             "speed": 6,
@@ -1377,13 +1371,13 @@
     },
     {
         "class": "icon_reverse",
-        "layer0.texture": "Material/assets/commons/find_reverse--hover.png",
+        "layer0.texture": "material-lite-theme/assets/commons/find_reverse--hover.png",
         "layer0.opacity": {
             "target": 0,
             "speed": 6,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "Material/assets/default/find_reverse.png",
+        "layer1.texture": "material-lite-theme/assets/default/find_reverse.png",
         "layer1.opacity": {
             "target": 1,
             "speed": 6,
@@ -1444,13 +1438,13 @@
     },
     {
         "class": "icon_regex",
-        "layer0.texture": "Material/assets/commons/find_regex--hover.png",
+        "layer0.texture": "material-lite-theme/assets/commons/find_regex--hover.png",
         "layer0.opacity": {
             "target": 0,
             "speed": 6,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "Material/assets/default/find_regex.png",
+        "layer1.texture": "material-lite-theme/assets/default/find_regex.png",
         "layer1.opacity": {
             "target": 1,
             "speed": 6,
@@ -1484,13 +1478,13 @@
     },
     {
         "class": "icon_case",
-        "layer0.texture": "Material/assets/commons/find_case--hover.png",
+        "layer0.texture": "material-lite-theme/assets/commons/find_case--hover.png",
         "layer0.opacity": {
             "target": 0,
             "speed": 6,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "Material/assets/default/find_case.png",
+        "layer1.texture": "material-lite-theme/assets/default/find_case.png",
         "layer1.opacity": {
             "target": 1,
             "speed": 6,
@@ -1524,13 +1518,13 @@
     },
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Material/assets/commons/find_word--hover.png",
+        "layer0.texture": "material-lite-theme/assets/commons/find_word--hover.png",
         "layer0.opacity": {
             "target": 0,
             "speed": 6,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "Material/assets/default/find_word.png",
+        "layer1.texture": "material-lite-theme/assets/default/find_word.png",
         "layer1.opacity": {
             "target": 1,
             "speed": 6,
@@ -1564,13 +1558,13 @@
     },
     {
         "class": "icon_wrap",
-        "layer0.texture": "Material/assets/commons/find_wrap--hover.png",
+        "layer0.texture": "material-lite-theme/assets/commons/find_wrap--hover.png",
         "layer0.opacity": {
             "target": 0,
             "speed": 6,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "Material/assets/default/find_wrap.png",
+        "layer1.texture": "material-lite-theme/assets/default/find_wrap.png",
         "layer1.opacity": {
             "target": 1,
             "speed": 6,
@@ -1604,13 +1598,13 @@
     },
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Material/assets/commons/find_inselection--hover.png",
+        "layer0.texture": "material-lite-theme/assets/commons/find_inselection--hover.png",
         "layer0.opacity": {
             "target": 0,
             "speed": 6,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "Material/assets/default/find_inselection.png",
+        "layer1.texture": "material-lite-theme/assets/default/find_inselection.png",
         "layer1.opacity": {
             "target": 1,
             "speed": 6,
@@ -1644,13 +1638,13 @@
     },
     {
         "class": "icon_highlight",
-        "layer0.texture": "Material/assets/commons/find_highlight--hover.png",
+        "layer0.texture": "material-lite-theme/assets/commons/find_highlight--hover.png",
         "layer0.opacity": {
             "target": 0,
             "speed": 6,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "Material/assets/default/find_highlight.png",
+        "layer1.texture": "material-lite-theme/assets/default/find_highlight.png",
         "layer1.opacity": {
             "target": 1,
             "speed": 6,
@@ -1684,13 +1678,13 @@
     },
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Material/assets/commons/replace_preserve_case--hover.png",
+        "layer0.texture": "material-lite-theme/assets/commons/replace_preserve_case--hover.png",
         "layer0.opacity": {
             "target": 0,
             "speed": 6,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "Material/assets/default/replace_preserve_case.png",
+        "layer1.texture": "material-lite-theme/assets/default/replace_preserve_case.png",
         "layer1.opacity": {
             "target": 1,
             "speed": 6,
@@ -1923,7 +1917,7 @@
     },
     {
         "class": "tree_row",
-        "layer1.texture": "Material/assets/commons/tree_highlight.png",
+        "layer1.texture": "material-lite-theme/assets/commons/tree_highlight.png",
         "layer1.opacity": {
             "target": 0,
             "speed": 5,
@@ -1955,7 +1949,7 @@
         "attributes": [
             "selected"
         ],
-        "layer1.texture": "Material/assets/commons/tree_highlight--bullet.png",
+        "layer1.texture": "material-lite-theme/assets/commons/tree_highlight--bullet.png",
         "layer1.inner_margin": [
             22,
             16,
@@ -2129,7 +2123,7 @@
         ],
         "layer0.opacity": 1,
         "tint_index": 0,
-        "layer1.texture": "Material/assets/default/tab_current.png",
+        "layer1.texture": "material-lite-theme/assets/default/tab_current.png",
         "layer1.inner_margin": [
             0,
             0
@@ -2161,19 +2155,19 @@
         },
         "layer3.texture": {
             "keyframes": [
-                "Material/assets/default/tab_animation1.png",
-                "Material/assets/default/tab_animation2.png",
-                "Material/assets/default/tab_animation3.png",
-                "Material/assets/default/tab_animation4.png",
-                "Material/assets/default/tab_animation5.png",
-                "Material/assets/default/tab_animation6.png",
-                "Material/assets/default/tab_animation7.png",
-                "Material/assets/default/tab_animation8.png",
-                "Material/assets/default/tab_animation9.png",
-                "Material/assets/default/tab_animation10.png",
-                "Material/assets/default/tab_animation11.png",
-                "Material/assets/default/tab_animation12.png",
-                "Material/assets/default/tab_animation13.png"
+                "material-lite-theme/assets/default/tab_animation1.png",
+                "material-lite-theme/assets/default/tab_animation2.png",
+                "material-lite-theme/assets/default/tab_animation3.png",
+                "material-lite-theme/assets/default/tab_animation4.png",
+                "material-lite-theme/assets/default/tab_animation5.png",
+                "material-lite-theme/assets/default/tab_animation6.png",
+                "material-lite-theme/assets/default/tab_animation7.png",
+                "material-lite-theme/assets/default/tab_animation8.png",
+                "material-lite-theme/assets/default/tab_animation9.png",
+                "material-lite-theme/assets/default/tab_animation10.png",
+                "material-lite-theme/assets/default/tab_animation11.png",
+                "material-lite-theme/assets/default/tab_animation12.png",
+                "material-lite-theme/assets/default/tab_animation13.png"
             ],
             "loop": false,
             "frame_time": 0.015
@@ -2289,18 +2283,18 @@
             0,
             0
         ],
-        "layer0.texture": "Material/assets/default/close_icon.png",
+        "layer0.texture": "material-lite-theme/assets/default/close_icon.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Material/assets/commons/close_icon--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/close_icon--hover.png",
         "layer1.opacity": {
             "target": 0,
             "speed": 5,
             "interpolation": "smoothstep"
         },
-        "layer2.texture": "Material/assets/default/dirty_icon.png",
+        "layer2.texture": "material-lite-theme/assets/default/dirty_icon.png",
         "layer2.inner_margin": 0,
-        "layer3.texture": "Material/assets/commons/dirty_icon--hover.png",
+        "layer3.texture": "material-lite-theme/assets/commons/dirty_icon--hover.png",
         "layer3.opacity": {
             "target": 0,
             "speed": 5,
@@ -2422,10 +2416,10 @@
             14,
             7
         ],
-        "layer0.texture": "Material/assets/default/arrow_left.png",
+        "layer0.texture": "material-lite-theme/assets/default/arrow_left.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Material/assets/commons/arrow_left--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/arrow_left--hover.png",
         "layer1.opacity": {
             "target": 0,
             "speed": 8,
@@ -2450,10 +2444,10 @@
             14,
             7
         ],
-        "layer0.texture": "Material/assets/default/arrow_right.png",
+        "layer0.texture": "material-lite-theme/assets/default/arrow_right.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Material/assets/commons/arrow_right--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/arrow_right--hover.png",
         "layer1.opacity": {
             "target": 0,
             "speed": 8,
@@ -2478,10 +2472,10 @@
             12,
             12
         ],
-        "layer0.texture": "Material/assets/default/overflow_menu.png",
+        "layer0.texture": "material-lite-theme/assets/default/overflow_menu.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Material/assets/commons/overflow_menu--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/overflow_menu--hover.png",
         "layer1.opacity": {
             "target": 0,
             "speed": 8,
@@ -2499,6 +2493,110 @@
             "speed": 8,
             "interpolation": "smoothstep"
         }
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            {
+                "class": "file_system_entry",
+                "attributes": [
+                    "ignored"
+                ]
+            }
+        ],
+        "color": [
+            255,
+            255,
+            255,
+            0.3
+        ]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            {
+                "class": "window",
+                "attributes": [
+                    "file_light"
+                ]
+            },
+            {
+                "class": "file_system_entry",
+                "attributes": [
+                    "ignored"
+                ]
+            }
+        ],
+        "color": [
+            255,
+            255,
+            255,
+            0.3
+        ]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            {
+                "class": "file_system_entry",
+                "attributes": [
+                    "untracked"
+                ]
+            }
+        ],
+        "color": "color(var(--yellowish) blend(rgb(255, 255, 255) 75%))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            {
+                "class": "file_system_entry",
+                "attributes": [
+                    "modified"
+                ]
+            }
+        ],
+        "color": "color(var(--bluish) blend(rgb(255, 255, 255) 75%))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            {
+                "class": "file_system_entry",
+                "attributes": [
+                    "staged"
+                ]
+            }
+        ],
+        "color": [
+            66,
+            162,
+            144
+        ]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            {
+                "class": "file_system_entry",
+                "attributes": [
+                    "added"
+                ]
+            }
+        ],
+        "color": "color(var(--greenish) blend(rgb(255, 255, 255) 75%))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            {
+                "class": "file_system_entry",
+                "attributes": [
+                    "unmerged"
+                ]
+            }
+        ],
+        "color": "color(var(--redish) blend(rgb(255, 255, 255) 75%))"
     },
     {
         "class": "status_container",
@@ -2527,7 +2625,7 @@
         "settings": [
             "material_theme_panel_separator"
         ],
-        "layer1.texture": "Material Theme/assets/commons/panel_separator.png",
+        "layer1.texture": "material-lite-theme/assets/commons/panel_separator.png",
         "layer1.opacity": 0.2,
         "layer1.inner_margin": [
             2,
@@ -2623,7 +2721,7 @@
         "settings": [
             "material_theme_bright_scrollbars"
         ],
-        "layer1.texture": "Material Theme/assets/commons/thumb_vertical.png",
+        "layer1.texture": "material-lite-theme/assets/commons/thumb_vertical.png",
         "layer1.opacity": 0.2
     },
     {
@@ -2634,7 +2732,7 @@
         "settings": [
             "material_theme_bright_scrollbars"
         ],
-        "layer1.texture": "Material Theme/assets/commons/thumb_horizontal.png",
+        "layer1.texture": "material-lite-theme/assets/commons/thumb_horizontal.png",
         "layer1.opacity": 0.2
     },
     {

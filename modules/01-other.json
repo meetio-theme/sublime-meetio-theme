@@ -30,10 +30,10 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Material/assets/default/fold_right.png",
+        "layer0.texture": "material-lite-theme/assets/default/fold_right.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Material/assets/commons/fold_right--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/fold_right--hover.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
         "content_margin": [9, 7, 8, 6]
@@ -48,8 +48,8 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Material/assets/default/fold_down.png",
-        "layer1.texture": "Material/assets/commons/fold_down--hover.png"
+        "layer0.texture": "material-lite-theme/assets/default/fold_down.png",
+        "layer1.texture": "material-lite-theme/assets/commons/fold_down--hover.png"
     },
     {
         "class": "popup_control",
@@ -93,20 +93,20 @@
     },
     {
         "class": "overlay_control",
-        "layer0.texture": "Material/assets/default/overlay-bg.png",
+        "layer0.texture": "material-lite-theme/assets/default/overlay-bg.png",
         "layer0.inner_margin": [24, 4, 24, 33],
         "layer0.opacity": 1.0,
-        "layer1.texture": "Material/assets/commons/quick-panel-background.png",
+        "layer1.texture": "material-lite-theme/assets/commons/quick-panel-background.png",
         "layer1.inner_margin": [16, 0, 16, 25],
         "layer1.opacity": 1.0,
         "content_margin": [13, 13, 13, 33]
     },
     {
         "class": "disclosure_button_control",
-        "layer0.texture": "Material/assets/default/folder.png",
+        "layer0.texture": "material-lite-theme/assets/default/folder.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Material/assets/commons/folder--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/folder--hover.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
         "content_margin": [0, 0, 0, 0]
@@ -125,7 +125,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Material/assets/commons/folder_opened--hover.png"
+        "layer0.texture": "material-lite-theme/assets/commons/folder_opened--hover.png"
     },
 
 
@@ -137,7 +137,7 @@
         "content_margin": [8, 8],
 
 
-        "layer0.texture": "Material/assets/default/close_icon.png",
+        "layer0.texture": "material-lite-theme/assets/default/close_icon.png",
         "layer0.opacity": {
             "target": 0.0,
             "speed": 7.0,
@@ -146,7 +146,7 @@
         "layer0.inner_margin": [0, 0],
 
 
-        "layer1.texture": "Material/assets/commons/close_icon--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/close_icon--hover.png",
         "layer1.opacity": 0,
         "layer1.inner_margin": [0, 0]
     },
@@ -160,7 +160,7 @@
             "attributes": ["hover"]
         }],
 
-        "layer0.texture": "Material/assets/default/close_icon.png",
+        "layer0.texture": "material-lite-theme/assets/default/close_icon.png",
         "layer0.opacity": {
             "target": 1.0,
             "speed": 7.0,
@@ -172,7 +172,7 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Material/assets/commons/dirty_icon--hover.png",
+        "layer0.texture": "material-lite-theme/assets/commons/dirty_icon--hover.png",
         "layer0.opacity": 1.0
     },
 
@@ -187,7 +187,7 @@
         "layer0.tint": [38, 50, 56],
         "layer0.inner_margin": [0, 6],
         "layer0.opacity": 1.0,
-        "layer1.texture": "Material/assets/default/normal_bar_vertical.png",
+        "layer1.texture": "material-lite-theme/assets/default/normal_bar_vertical.png",
         "layer1.opacity": 1.0,
         "layer1.inner_margin": [0, 6],
         "blur": false
@@ -198,14 +198,14 @@
         "layer0.tint": [38, 50, 56],
         "layer0.inner_margin": [0, 6],
         "layer0.opacity": 1.0,
-        "layer1.texture": "Material/assets/default/normal_bar_horizontal.png",
+        "layer1.texture": "material-lite-theme/assets/default/normal_bar_horizontal.png",
         "layer1.opacity": 1.0,
         "layer1.inner_margin": [6, 0],
         "blur": false
     },
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "Material/assets/default/normal_bar_corner.png",
+        "layer0.texture": "material-lite-theme/assets/default/normal_bar_corner.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -214,7 +214,7 @@
         "layer0.tint": [38, 50, 255, 255],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10, 10],
-        "layer1.texture": "Material/assets/default/thumb_vertical.png",
+        "layer1.texture": "material-lite-theme/assets/default/thumb_vertical.png",
         "layer1.opacity": 1.0,
         "layer1.inner_margin": [8, 8],
         "content_margin": [6, 16],
@@ -223,7 +223,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Material/assets/default/thumb_horizontal.png",
+        "layer0.texture": "material-lite-theme/assets/default/thumb_horizontal.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [10, 0],
         "content_margin": [16, 6],
@@ -260,7 +260,7 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Material/assets/default/normal_bar_vertical.png",
+        "layer0.texture": "material-lite-theme/assets/default/normal_bar_vertical.png",
         "layer0.inner_margin": [0, 5],
         "blur": true
     },
@@ -268,10 +268,10 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Material/assets/default/normal_bar_horizontal.png",
+        "layer0.texture": "material-lite-theme/assets/default/normal_bar_horizontal.png",
         "layer0.inner_margin": [5, 0],
         "layer0.opacity": 0.0,
-        "layer1.texture": "Material/assets/default/normal_bar_horizontal.png",
+        "layer1.texture": "material-lite-theme/assets/default/normal_bar_horizontal.png",
         "layer1.inner_margin": [5, 0],
         "layer1.opacity": 0.0,
         "blur": true
@@ -282,7 +282,7 @@
         "layer0.tint": [38, 50, 56],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [1, 8, 1, 8],
-        "layer1.texture": "Material/assets/default/thumb_vertical.png",
+        "layer1.texture": "material-lite-theme/assets/default/thumb_vertical.png",
         "layer1.inner_margin": [1, 8, 1, 8],
         "content_margin": [6, 16],
         "blur": true
@@ -294,7 +294,7 @@
         "layer0.tint": [38, 50, 56],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [8, 1, 8, 1],
-        "layer1.texture": "Material/assets/default/thumb_horizontal.png",
+        "layer1.texture": "material-lite-theme/assets/default/thumb_horizontal.png",
         "layer1.inner_margin": [8, 1, 8, 1],
         "content_margin": [16, 6],
         "blur": true
@@ -341,7 +341,7 @@
 
     {
         "class": "panel_button_control",
-        "layer0.texture": "Material/assets/default/overflow_menu.png",
+        "layer0.texture": "material-lite-theme/assets/default/overflow_menu.png",
         "layer0.opacity": 1.0,
         "content_margin": [10, 10]
     },
@@ -349,7 +349,7 @@
     {
         "class": "panel_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Material/assets/commons/overflow_menu--hover.png"
+        "layer0.texture": "material-lite-theme/assets/commons/overflow_menu--hover.png"
     },
 
     {
@@ -367,9 +367,9 @@
 
     {
         "class": "panel_close_button",
-        "layer0.texture": "Material/assets/default/close_icon.png",
+        "layer0.texture": "material-lite-theme/assets/default/close_icon.png",
         "layer0.opacity": 0.6,
-        "layer1.texture": "Material/assets/commons/close_icon--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/close_icon--hover.png",
         "layer1.opacity": 0.0,
         "content_margin": [0, 0]
     },
@@ -385,7 +385,7 @@
 
     {
         "class": "text_line_control",
-        "layer0.texture": "Material/assets/default/input_field_border.png",
+        "layer0.texture": "material-lite-theme/assets/default/input_field_border.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [20, 5, 20, 5],
         "tint_index": 1,
@@ -400,7 +400,7 @@
         "parents": [{
             "class": "overlay_control"
         }],
-        "layer0.texture": "Material/assets/default/input_field_border--short.png",
+        "layer0.texture": "material-lite-theme/assets/default/input_field_border--short.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [32, 0, 32, 2],
         "layer0.draw_center": true,
@@ -413,10 +413,10 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [12, 12],
-        "layer0.texture": "Material/assets/default/overflow_menu.png",
+        "layer0.texture": "material-lite-theme/assets/default/overflow_menu.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 0],
-        "layer1.texture": "Material/assets/commons/overflow_menu--hover.png",
+        "layer1.texture": "material-lite-theme/assets/commons/overflow_menu--hover.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": [0, 0]
     },
@@ -459,10 +459,10 @@
         "layer0.tint": [38, 50, 56],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [6, 6],
-        "layer1.texture": "Material/assets/commons/full_button_indented.png",
+        "layer1.texture": "material-lite-theme/assets/commons/full_button_indented.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": [6, 6],
-        "layer2.texture": "Material/assets/default/blue_highlight.png",
+        "layer2.texture": "material-lite-theme/assets/default/blue_highlight.png",
         "layer2.opacity": {
             "target": 0.0,
             "speed": 5.0,
