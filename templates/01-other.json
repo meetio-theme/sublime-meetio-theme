@@ -123,6 +123,11 @@
     {
         "class": "close_button",
         "content_margin": [8, 8],
+<<<<<<< HEAD:templates/01-other.json
+=======
+
+
+>>>>>>> origin/master:modules/01-other.json
         "layer0.texture": "material-lite-theme/assets/default/close_icon.png",
         "layer0.opacity": {
             "target": 0.0,
@@ -130,6 +135,11 @@
             "interpolation": "smoothstep"
         },
         "layer0.inner_margin": [0, 0],
+<<<<<<< HEAD:templates/01-other.json
+=======
+
+
+>>>>>>> origin/master:modules/01-other.json
         "layer1.texture": "material-lite-theme/assets/commons/close_icon--hover.png",
         "layer1.opacity": 0,
         "layer1.inner_margin": [0, 0]
@@ -140,6 +150,10 @@
             "class": "tree_row",
             "attributes": ["hover"]
         }],
+<<<<<<< HEAD:templates/01-other.json
+=======
+
+>>>>>>> origin/master:modules/01-other.json
         "layer0.texture": "material-lite-theme/assets/default/close_icon.png",
         "layer0.opacity": {
             "target": 1.0,

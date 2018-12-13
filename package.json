@@ -9,7 +9,11 @@
   },
   "keywords": [
     "sublime-text",
+<<<<<<< HEAD
     "material-theme"
+=======
+    "material-theme",
+>>>>>>> origin/master
   ],
   "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
   "license": "MIT",
