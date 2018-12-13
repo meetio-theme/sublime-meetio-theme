@@ -20,7 +20,7 @@
     },
     {
         "class": "tree_row",
-        "settings": ["material_theme_bullet_tree_indicator"],
+        "settings": ["material_lite_bullet_tree_indicator"],
         "attributes": ["selected"],
         "layer1.texture": "material-lite-theme/assets/commons/tree_highlight--bullet.png",
         "layer1.inner_margin": [22, 16, 0, 0]

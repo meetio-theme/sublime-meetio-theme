@@ -42,7 +42,7 @@
     },
     {
         "class": "icon_folder",
-        "settings": ["material_theme_arrow_folders"],
+        "settings": ["material_lite_arrow_folders"],
         "layer0.opacity": 0,
         "layer1.texture": "material-lite-theme/assets/default/arrow_folder.png",
         "layer1.opacity": 1,
@@ -108,7 +108,7 @@
 
     {
         "class": "icon_folder",
-        "settings": ["material_theme_arrow_folders"],
+        "settings": ["material_lite_arrow_folders"],
         "parents": [{
             "class": "tree_row",
             "attributes": ["expanded", "hover"]

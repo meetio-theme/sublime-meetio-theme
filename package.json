@@ -9,11 +9,13 @@
   },
   "keywords": [
     "sublime-text",
-    "material-theme",
+    "material-theme"
   ],
   "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "eslint": "^5.10.0",
+    "gulp": "^4.0.0",
+    "jsonlint": "^1.6.3"
   }
 }
