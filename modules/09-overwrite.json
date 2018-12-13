@@ -1,4 +1,5 @@
-[{
+[
+    {
         "class": "status_container",
         "settings": ["material_theme_small_statusbar"],
         "content_margin": [12, 6, 12, 6]
@@ -9,7 +10,6 @@
         "attributes": ["selected"],
         "layer1.opacity": 0.0
     },
-
     {
         "class": "panel_control",
         "settings": ["material_theme_panel_separator"],
@@ -17,54 +17,43 @@
         "layer1.opacity": 0.2,
         "layer1.inner_margin": [2, 2, 2, 2]
     },
-
-
     {
         "class": "sidebar_container",
         "settings": ["material_theme_contrast_mode"],
         "layer1.opacity": 0.2
     },
-
     {
         "class": "sidebar_tree",
         "settings": ["material_theme_contrast_mode"],
         "layer1.opacity": 0.2
     },
-
     {
         "class": "status_bar",
         "settings": ["material_theme_contrast_mode"],
         "layer1.opacity": 0.2
     },
 
-
     {
         "class": "sidebar_tree",
         "settings": ["material_theme_compact_sidebar"],
         "row_padding": [24, 5]
     },
-
     {
         "class": "panel_control",
         "settings": ["material_theme_compact_panel"],
         "content_margin": [0, 0, 0, 0]
     },
-
-
     {
         "class": "icon_file_type",
         "settings": ["material_theme_disable_fileicons"],
         "layer0.opacity": 0,
         "content_margin": [0, 0]
     },
-
-
     {
         "class": "icon_file_type",
         "settings": ["material_theme_big_fileicons"],
         "content_margin": [11, 11]
     },
-
     {
         "class": "icon_file_type",
         "settings": ["material_theme_big_fileicons"],
