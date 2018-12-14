@@ -1,1 +1,8 @@
-node_modules
+# Folders
+node_modules/
+
+# Files
+*.sublime-project
+*.sublime-workspace
+
+.DS_Store
