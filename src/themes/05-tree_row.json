@@ -1,0 +1,40 @@
+[
+    {
+        "class": "tree_row",
+        "layer1.texture": "material-lite-theme/assets/commons/tree_highlight.png",
+        "layer1.opacity": {
+            "target": 0.0,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        },
+        "layer1.inner_margin": [22, 8, 0, 0]
+    },
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "layer1.opacity": {
+            "target": 1.0,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        }
+    },
+    {
+        "class": "tree_row",
+        "settings": ["material_lite_bullet_tree_indicator"],
+        "attributes": ["selected"],
+        "layer1.texture": "material-lite-theme/assets/commons/tree_highlight--bullet.png",
+        "layer1.inner_margin": [22, 16, 0, 0]
+    },
+    {
+        "class": "tree_row",
+        "layer0.tint": [38, 50, 56],
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [1, 1]
+    },
+
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "layer0.opacity": 1
+    }
+]

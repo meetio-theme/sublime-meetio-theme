@@ -1,0 +1,72 @@
+[
+    {
+        "class": "quick_panel",
+        "row_padding": [32, 12],
+        "layer0.tint": [38, 50, 56],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "quick_panel_row",
+        "layer0.tint": [38, 50, 56, 0],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "quick_panel_row",
+        "parents": [{"class": "overlay_control"}],
+        "layer0.tint": [38, 50, 56, 0],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "quick_panel",
+        "parents": [{"class": "overlay_control"}],
+        "row_padding": [32, 12],
+        "layer0.tint": [38, 50, 56, 0],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "quick_panel_row",
+        "attributes": ["selected"],
+        "layer0.tint": [84, 110, 122],
+        "layer0.opacity": 0.3,
+        "layer1.opacity": 0.0
+    },
+    {
+        "class": "quick_panel_label",
+        "fg": [176, 190, 197, 255],
+        "match_fg": [128, 203, 196, 255],
+        "selected_fg": [255, 255, 255, 255],
+        "selected_match_fg": [128, 203, 196, 255]
+    },
+    {
+        "class": "quick_panel_label",
+        "parents": [{"class": "overlay_control"}],
+        "fg": [176, 190, 197, 255],
+        "match_fg": [128, 203, 196, 255],
+        "selected_fg": [255, 255, 255, 255],
+        "selected_match_fg": [128, 203, 196, 255]
+    },
+    {
+        "class": "quick_panel_path_label",
+        "fg": [84, 110, 122, 255],
+        "match_fg": [128, 203, 196, 255],
+        "selected_fg": [255, 255, 255, 255],
+        "selected_match_fg": [128, 203, 196, 255]
+    },
+    {
+        "class": "quick_panel_score_label",
+        "fg": [176, 190, 197, 255],
+        "selected_fg": [255, 255, 255, 255]
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "layer0.tint": [38, 50, 56, 0],
+        "layer0.inner_margin": [2, 2, 2, 2],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["selected"],
+        "layer0.tint": [84, 110, 122],
+        "layer0.opacity": 0.3
+    }
+]
