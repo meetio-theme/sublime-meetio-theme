@@ -4,9 +4,9 @@ const gulp = require('gulp');
 const array = [];
 let object = {};
 
-gulp.task('build', () => {
-    fs.readdirSync('./templates').forEach(file => {
-        file = path.join(__dirname, '/templates/' + file);
+gulp.task('join', () => {
+    fs.readdirSync('./src/themes/').forEach(file => {
+        file = path.join(__dirname, '/src/themes/' + file);
         fs.readFile(file, 'utf8', (err, data) => {
             if (err) throw err;
             object = JSON.parse(data);
@@ -22,3 +22,4 @@ gulp.task('build', () => {
         });
     });
 });
+

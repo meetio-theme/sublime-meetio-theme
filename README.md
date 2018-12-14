@@ -1,4 +1,4 @@
-# Material Lite for Sublime Text
+# Material Lite
 
 You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):
 
@@ -8,7 +8,7 @@ You can also manually activate this theme by adding these lines to your user set
 ```
 
 
-## Theme options
+### Theme options
 
 ```json
 "material_lite_big_fileicons": true,
