@@ -1,10 +1,10 @@
-# Material Lite
+# Comma Theme
 
 You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):
 
 ```json
-"color_scheme": "Packages/Material Theme/schemes/Material-Lite.tmTheme",
-"theme": "Material-Lite.sublime-theme",
+"color_scheme": "Packages/Comma Theme/schemes/Comma-Theme.tmTheme",
+"theme": "Comma-Theme.sublime-theme",
 ```
 
 
