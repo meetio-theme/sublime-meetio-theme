@@ -1,7 +1,7 @@
 [
     {
         "class": "tree_row",
-        "layer1.texture": "material-lite-theme/assets/commons/tree_highlight.png",
+        "layer1.texture": "comma-theme-sublime/assets/commons/tree_highlight.png",
         "layer1.opacity": {
             "target": 0.0,
             "speed": 5.0,
@@ -20,9 +20,9 @@
     },
     {
         "class": "tree_row",
-        "settings": ["material_lite_bullet_tree_indicator"],
+        "settings": ["comma_theme_bullet_tree_indicator"],
         "attributes": ["selected"],
-        "layer1.texture": "material-lite-theme/assets/commons/tree_highlight--bullet.png",
+        "layer1.texture": "comma-theme-sublime/assets/commons/tree_highlight--bullet.png",
         "layer1.inner_margin": [22, 16, 0, 0]
     },
     {

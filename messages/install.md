@@ -1,1 +1,1 @@
-## Material Theme for Sublime Text 3
+## Comma Theme for Sublime Text 3

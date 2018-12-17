@@ -11,10 +11,10 @@ You can also manually activate this theme by adding these lines to your user set
 ### Theme options
 
 ```json
-"material_lite_big_fileicons": true,
-"material_lite_compact_sidebar": true,
-"material_lite_contrast_mode": false,
-"material_lite_small_statusbar": true,
-"material_lite_contrast_mode": true,
-"material_lite_titlebar": false,
+"commma_theme_big_fileicons": true,
+"commma_theme_compact_sidebar": true,
+"commma_theme_contrast_mode": false,
+"commma_theme_small_statusbar": true,
+"commma_theme_contrast_mode": true,
+"commma_theme_titlebar": false,
 ```

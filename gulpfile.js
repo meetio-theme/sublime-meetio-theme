@@ -4,7 +4,7 @@ const gulp = require('gulp');
 const array = [];
 let object = {};
 
-gulp.task('join', () => {
+gulp.task('build', () => {
     fs.readdirSync('./src/themes/').forEach(file => {
         file = path.join(__dirname, '/src/themes/' + file);
         fs.readFile(file, 'utf8', (err, data) => {
@@ -14,9 +14,10 @@ gulp.task('join', () => {
                 var value = object[objectKey];
                 array.push(value);
             });
-            const json = JSON.stringify(array, null, 4);
-            fs.writeFile("Material-Lite.sublime-theme", json, (err) => {
-                if (err) console.log(err);
+            fs.writeFileSync("Comma-Theme.sublime-theme", JSON.stringify(array, null, 4), (err) => {
+                if (err) {
+                    console.log(err);
+                }
                 console.log("The file was saved!");
             });
         });

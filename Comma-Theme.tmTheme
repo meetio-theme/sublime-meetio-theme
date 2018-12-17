@@ -7,9 +7,9 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
-	<string>Material-Theme</string>
+	<string>Comma-Theme</string>
 	<key>semanticClass</key>
-	<string>material.theme.default</string>
+	<string>comma.theme.default</string>
 	<key>settings</key>
 	<array>
 		<dict>
