@@ -14,7 +14,7 @@ gulp.task('build', () => {
                 var value = object[objectKey];
                 array.push(value);
             });
-            fs.writeFileSync("Comma-Theme.sublime-theme", JSON.stringify(array, null, 4), (err) => {
+            fs.writeFileSync("Matilde-Theme.sublime-theme", JSON.stringify(array, null, 4), (err) => {
                 if (err) {
                     console.log(err);
                 }
