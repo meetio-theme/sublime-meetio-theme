@@ -2,7 +2,7 @@
     {
         "class": "tabset_control",
         "layer0.opacity": 1.0,
-        "layer0.tint": [38, 50, 56],
+        "layer0.tint": [24, 30, 36],
         "tint_index": 1,
         "layer0.inner_margin": [2, 6],
         "content_margin": [6, 0, 8, 0],
@@ -19,7 +19,7 @@
     },
     {
         "class": "tab_control",
-        "layer0.tint": [38, 50, 56],
+        "layer0.tint": [24, 30, 36],
         "layer0.inner_margin": [24, 0],
         "layer0.opacity": 1.0,
         "tint_index": 0,
@@ -32,31 +32,6 @@
             "target": 0.0,
             "speed": 3.0,
             "interpolation": "smoothstep"
-        },
-        "layer3.inner_margin": [0, 0],
-        "layer3.opacity": {
-            "target": 1.0,
-            "speed": 2.0,
-            "interpolation": "smoothstep"
-        },
-        "layer3.texture": {
-            "keyframes": [
-                "matilde-theme-sublime/assets/default/tab_animation1.png",
-                "matilde-theme-sublime/assets/default/tab_animation2.png",
-                "matilde-theme-sublime/assets/default/tab_animation3.png",
-                "matilde-theme-sublime/assets/default/tab_animation4.png",
-                "matilde-theme-sublime/assets/default/tab_animation5.png",
-                "matilde-theme-sublime/assets/default/tab_animation6.png",
-                "matilde-theme-sublime/assets/default/tab_animation7.png",
-                "matilde-theme-sublime/assets/default/tab_animation8.png",
-                "matilde-theme-sublime/assets/default/tab_animation9.png",
-                "matilde-theme-sublime/assets/default/tab_animation10.png",
-                "matilde-theme-sublime/assets/default/tab_animation11.png",
-                "matilde-theme-sublime/assets/default/tab_animation12.png",
-                "matilde-theme-sublime/assets/default/tab_animation13.png"
-            ],
-            "loop": false,
-            "frame_time": 0.015
         },
         "content_margin": [16, 0, 8, 0],
         "max_margin_trim": 0,

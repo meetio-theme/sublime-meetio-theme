@@ -7,11 +7,7 @@
             0,
             0
         ],
-        "layer0.tint": [
-            38,
-            50,
-            56
-        ],
+        "layer0.tint": [24, 30, 36],
         "layer0.opacity": 1,
         "layer0.draw_center": false,
         "layer0.inner_margin": [
@@ -36,11 +32,7 @@
         "indent": 16,
         "indent_offset": 0,
         "indent_top_level": false,
-        "layer0.tint": [
-            38,
-            50,
-            56
-        ],
+        "layer0.tint": [24, 30, 36],
         "layer0.opacity": 1,
         "layer1.tint": [
             0,
