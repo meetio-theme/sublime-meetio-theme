@@ -15,6 +15,7 @@ var parseXML = function( data ) {
     }
   } catch( e ) {
     xml = undefined;
+    console.log("xml", xml);
   }
   if ( !xml || !xml.documentElement || xml.getElementsByTagName( "parsererror" ).length ) {
     jQuery.error( "Invalid XML: " + data );

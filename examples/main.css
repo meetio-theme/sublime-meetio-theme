@@ -2,9 +2,6 @@ body {
   font-family: arial;
 }
 
-h1, p, table {
-
-
 .addon-store .pagehead h1 { display: inline-block }
 .addon-store .addon-summary:after { clear: both }
 
