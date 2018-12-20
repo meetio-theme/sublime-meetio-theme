@@ -1,10 +1,10 @@
-# Matilde Theme
+# Mariana Theme
 
 You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):
 
 ```json
-"color_scheme": "Packages/Matilde Theme/schemes/Matilde-Theme.tmTheme",
-"theme": "Matilde-Theme.sublime-theme",
+"color_scheme": "Packages/Mariana Theme/schemes/Matilde-Theme.tmTheme",
+"theme": "Mariana-Theme.sublime-theme",
 ```
 
 
