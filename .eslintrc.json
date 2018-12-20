@@ -1,13 +1,11 @@
 {
     "env": {
-        "browser": true
+        "node": true,
+        "es6": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 5
+        "ecmaVersion": 2017
     },
     "rules": {
         "indent": [
@@ -26,6 +24,8 @@
             "error",
             "never"
         ],
+        "semi": ["error", "never"],
+        "no-console": "off",
         "comma-dangle": ["error", "never"]
     }
 }

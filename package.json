@@ -5,6 +5,7 @@
   "scripts": {
     "build": "gulp",
     "lint": "./node_modules/.bin/eslint src/**/*.json",
+    "lint:fix": "./node_modules/.bin/eslint src/**/*.json --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

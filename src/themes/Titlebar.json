@@ -2,7 +2,7 @@
     {
         "class": "title_bar",
         "fg": ["background", 255, 255, 255, 0.7],
-        "settings": ["mariana_theme_title_bar"],
+        "settings": ["mariana_theme_titlebar"],
         "bg": ["background", 0, 0, 0, 0.4]
     },
     {
