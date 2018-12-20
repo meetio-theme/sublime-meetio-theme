@@ -33,22 +33,22 @@
         "content_margin": [11, 7],
         "layer0.tint": [38, 50, 56],
         "layer0.opacity": 0,
-        "layer1.texture": "matilde-theme-sublime/assets/default/folder.png",
+        "layer1.texture": "mariana-theme/assets/default/folder.png",
         "layer1.opacity": 1.0,
-        "layer2.texture": "matilde-theme-sublime/assets/commons/folder--hover.png",
+        "layer2.texture": "mariana-theme/assets/commons/folder--hover.png",
         "layer2.opacity": 0.0,
-        "layer3.texture": "matilde-theme-sublime/assets/commons/folder_opened--hover.png",
+        "layer3.texture": "mariana-theme/assets/commons/folder_opened--hover.png",
         "layer3.opacity": 0.0
     },
     {
         "class": "icon_folder",
-        "settings": ["matilde_theme_arrow_folders"],
+        "settings": ["mariana_theme_arrow_folders"],
         "layer0.opacity": 0,
-        "layer1.texture": "matilde-theme-sublime/assets/default/arrow_folder.png",
+        "layer1.texture": "mariana-theme/assets/default/arrow_folder.png",
         "layer1.opacity": 1,
-        "layer2.texture": "matilde-theme-sublime/assets/commons/arrow_folder--hover.png",
+        "layer2.texture": "mariana-theme/assets/commons/arrow_folder--hover.png",
         "layer2.opacity": 0.0,
-        "layer3.texture": "matilde-theme-sublime/assets/commons/arrow_folder--opened.png",
+        "layer3.texture": "mariana-theme/assets/commons/arrow_folder--opened.png",
         "layer3.opacity": 0.0
     },
 
@@ -82,19 +82,19 @@
         }],
         "layer3.texture": {
             "keyframes": [
-                "matilde-theme-sublime/assets/commons/folder_opened--hover-0.png",
-                "matilde-theme-sublime/assets/commons/folder_opened--hover-1.png",
-                "matilde-theme-sublime/assets/commons/folder_opened--hover-2.png",
-                "matilde-theme-sublime/assets/commons/folder_opened--hover-3.png",
-                "matilde-theme-sublime/assets/commons/folder_opened--hover-4.png",
-                "matilde-theme-sublime/assets/commons/folder_opened--hover-5.png",
-                "matilde-theme-sublime/assets/commons/folder_opened--hover-5.png",
-                "matilde-theme-sublime/assets/commons/folder_opened--hover-5.png",
-                "matilde-theme-sublime/assets/commons/folder_opened--hover-6.png",
-                "matilde-theme-sublime/assets/commons/folder_opened--hover-6.png",
-                "matilde-theme-sublime/assets/commons/folder_opened--hover-6.png",
-                "matilde-theme-sublime/assets/commons/folder_opened--hover-6.png",
-                "matilde-theme-sublime/assets/commons/folder_opened--hover-7.png"
+                "mariana-theme/assets/commons/folder_opened--hover-0.png",
+                "mariana-theme/assets/commons/folder_opened--hover-1.png",
+                "mariana-theme/assets/commons/folder_opened--hover-2.png",
+                "mariana-theme/assets/commons/folder_opened--hover-3.png",
+                "mariana-theme/assets/commons/folder_opened--hover-4.png",
+                "mariana-theme/assets/commons/folder_opened--hover-5.png",
+                "mariana-theme/assets/commons/folder_opened--hover-5.png",
+                "mariana-theme/assets/commons/folder_opened--hover-5.png",
+                "mariana-theme/assets/commons/folder_opened--hover-6.png",
+                "mariana-theme/assets/commons/folder_opened--hover-6.png",
+                "mariana-theme/assets/commons/folder_opened--hover-6.png",
+                "mariana-theme/assets/commons/folder_opened--hover-6.png",
+                "mariana-theme/assets/commons/folder_opened--hover-7.png"
             ],
             "loop": false,
             "frame_time": 0.020
@@ -108,12 +108,12 @@
 
     {
         "class": "icon_folder",
-        "settings": ["matilde_theme_arrow_folders"],
+        "settings": ["mariana_theme_arrow_folders"],
         "parents": [{
             "class": "tree_row",
             "attributes": ["expanded", "hover"]
         }],
-        "layer3.texture": "matilde-theme-sublime/assets/commons/arrow_folder--opened.png"
+        "layer3.texture": "mariana-theme/assets/commons/arrow_folder--opened.png"
     },
 
     {
@@ -122,7 +122,7 @@
             "class": "tree_row",
             "attributes": ["selected"]
         }],
-        "layer1.texture": "matilde-theme-sublime/assets/commons/folder--hover.png"
+        "layer1.texture": "mariana-theme/assets/commons/folder--hover.png"
     },
 
 
@@ -131,18 +131,18 @@
         "class": "icon_folder_loading",
         "layer0.texture": {
             "keyframes": [
-                "matilde-theme-sublime/assets/commons/spinner11.png",
-                "matilde-theme-sublime/assets/commons/spinner10.png",
-                "matilde-theme-sublime/assets/commons/spinner9.png",
-                "matilde-theme-sublime/assets/commons/spinner8.png",
-                "matilde-theme-sublime/assets/commons/spinner7.png",
-                "matilde-theme-sublime/assets/commons/spinner6.png",
-                "matilde-theme-sublime/assets/commons/spinner5.png",
-                "matilde-theme-sublime/assets/commons/spinner4.png",
-                "matilde-theme-sublime/assets/commons/spinner3.png",
-                "matilde-theme-sublime/assets/commons/spinner2.png",
-                "matilde-theme-sublime/assets/commons/spinner1.png",
-                "matilde-theme-sublime/assets/commons/spinner.png"
+                "mariana-theme/assets/commons/spinner11.png",
+                "mariana-theme/assets/commons/spinner10.png",
+                "mariana-theme/assets/commons/spinner9.png",
+                "mariana-theme/assets/commons/spinner8.png",
+                "mariana-theme/assets/commons/spinner7.png",
+                "mariana-theme/assets/commons/spinner6.png",
+                "mariana-theme/assets/commons/spinner5.png",
+                "mariana-theme/assets/commons/spinner4.png",
+                "mariana-theme/assets/commons/spinner3.png",
+                "mariana-theme/assets/commons/spinner2.png",
+                "mariana-theme/assets/commons/spinner1.png",
+                "mariana-theme/assets/commons/spinner.png"
             ],
             "loop": true,
             "frame_time": 0.075
@@ -156,7 +156,7 @@
 
     {
         "class": "icon_folder_dup",
-        "layer0.texture": "matilde-theme-sublime/assets/default/folder_dup.png",
+        "layer0.texture": "mariana-theme/assets/default/folder_dup.png",
         "layer0.opacity": 1.0,
         "content_margin": [11, 7]
     },
@@ -167,7 +167,7 @@
             "class": "tree_row",
             "attributes": ["hover"]
         }],
-        "layer0.texture": "matilde-theme-sublime/assets/commons/folder_dup--hover.png"
+        "layer0.texture": "mariana-theme/assets/commons/folder_dup--hover.png"
     },
 
     {
@@ -176,18 +176,18 @@
             "class": "tree_row",
             "attributes": ["expanded"]
         }],
-        "layer0.texture": "matilde-theme-sublime/assets/commons/folder_dup--hover.png"
+        "layer0.texture": "mariana-theme/assets/commons/folder_dup--hover.png"
     },
 
     {
         "class": "icon_context",
-        "layer0.texture": "matilde-theme-sublime/assets/commons/find_context--hover.png",
+        "layer0.texture": "mariana-theme/assets/commons/find_context--hover.png",
         "layer0.opacity": {
             "target": 0.0,
             "speed": 6.0,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "matilde-theme-sublime/assets/default/find_context.png",
+        "layer1.texture": "mariana-theme/assets/default/find_context.png",
         "layer1.opacity": {
             "target": 1.0,
             "speed": 6.0,
@@ -216,13 +216,13 @@
     },
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "matilde-theme-sublime/assets/commons/use_buffer--hover.png",
+        "layer0.texture": "mariana-theme/assets/commons/use_buffer--hover.png",
         "layer0.opacity": {
             "target": 0.0,
             "speed": 6.0,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "matilde-theme-sublime/assets/default/use_buffer.png",
+        "layer1.texture": "mariana-theme/assets/default/use_buffer.png",
         "layer1.opacity": {
             "target": 1.0,
             "speed": 6.0,
@@ -249,13 +249,13 @@
     },
     {
         "class": "icon_reverse",
-        "layer0.texture": "matilde-theme-sublime/assets/commons/find_reverse--hover.png",
+        "layer0.texture": "mariana-theme/assets/commons/find_reverse--hover.png",
         "layer0.opacity": {
             "target": 0.0,
             "speed": 6.0,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "matilde-theme-sublime/assets/default/find_reverse.png",
+        "layer1.texture": "mariana-theme/assets/default/find_reverse.png",
         "layer1.opacity": {
             "target": 1.0,
             "speed": 6.0,
@@ -297,13 +297,13 @@
     },
     {
         "class": "icon_regex",
-        "layer0.texture": "matilde-theme-sublime/assets/commons/find_regex--hover.png",
+        "layer0.texture": "mariana-theme/assets/commons/find_regex--hover.png",
         "layer0.opacity": {
             "target": 0.0,
             "speed": 6.0,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "matilde-theme-sublime/assets/default/find_regex.png",
+        "layer1.texture": "mariana-theme/assets/default/find_regex.png",
         "layer1.opacity": {
             "target": 1.0,
             "speed": 6.0,
@@ -333,13 +333,13 @@
 
     {
         "class": "icon_case",
-        "layer0.texture": "matilde-theme-sublime/assets/commons/find_case--hover.png",
+        "layer0.texture": "mariana-theme/assets/commons/find_case--hover.png",
         "layer0.opacity": {
             "target": 0.0,
             "speed": 6.0,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "matilde-theme-sublime/assets/default/find_case.png",
+        "layer1.texture": "mariana-theme/assets/default/find_case.png",
         "layer1.opacity": {
             "target": 1.0,
             "speed": 6.0,
@@ -370,13 +370,13 @@
 
     {
         "class": "icon_whole_word",
-        "layer0.texture": "matilde-theme-sublime/assets/commons/find_word--hover.png",
+        "layer0.texture": "mariana-theme/assets/commons/find_word--hover.png",
         "layer0.opacity": {
             "target": 0.0,
             "speed": 6.0,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "matilde-theme-sublime/assets/default/find_word.png",
+        "layer1.texture": "mariana-theme/assets/default/find_word.png",
         "layer1.opacity": {
             "target": 1.0,
             "speed": 6.0,
@@ -408,13 +408,13 @@
 
     {
         "class": "icon_wrap",
-        "layer0.texture": "matilde-theme-sublime/assets/commons/find_wrap--hover.png",
+        "layer0.texture": "mariana-theme/assets/commons/find_wrap--hover.png",
         "layer0.opacity": {
             "target": 0.0,
             "speed": 6.0,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "matilde-theme-sublime/assets/default/find_wrap.png",
+        "layer1.texture": "mariana-theme/assets/default/find_wrap.png",
         "layer1.opacity": {
             "target": 1.0,
             "speed": 6.0,
@@ -445,13 +445,13 @@
 
     {
         "class": "icon_in_selection",
-        "layer0.texture": "matilde-theme-sublime/assets/commons/find_inselection--hover.png",
+        "layer0.texture": "mariana-theme/assets/commons/find_inselection--hover.png",
         "layer0.opacity": {
             "target": 0.0,
             "speed": 6.0,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "matilde-theme-sublime/assets/default/find_inselection.png",
+        "layer1.texture": "mariana-theme/assets/default/find_inselection.png",
         "layer1.opacity": {
             "target": 1.0,
             "speed": 6.0,
@@ -483,13 +483,13 @@
 
     {
         "class": "icon_highlight",
-        "layer0.texture": "matilde-theme-sublime/assets/commons/find_highlight--hover.png",
+        "layer0.texture": "mariana-theme/assets/commons/find_highlight--hover.png",
         "layer0.opacity": {
             "target": 0.0,
             "speed": 6.0,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "matilde-theme-sublime/assets/default/find_highlight.png",
+        "layer1.texture": "mariana-theme/assets/default/find_highlight.png",
         "layer1.opacity": {
             "target": 1.0,
             "speed": 6.0,
@@ -520,13 +520,13 @@
 
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "matilde-theme-sublime/assets/commons/replace_preserve_case--hover.png",
+        "layer0.texture": "mariana-theme/assets/commons/replace_preserve_case--hover.png",
         "layer0.opacity": {
             "target": 0.0,
             "speed": 6.0,
             "interpolation": "smoothstep"
         },
-        "layer1.texture": "matilde-theme-sublime/assets/default/replace_preserve_case.png",
+        "layer1.texture": "mariana-theme/assets/default/replace_preserve_case.png",
         "layer1.opacity": {
             "target": 1.0,
             "speed": 6.0,

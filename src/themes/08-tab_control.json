@@ -23,7 +23,7 @@
         "layer0.inner_margin": [24, 0],
         "layer0.opacity": 1.0,
         "tint_index": 0,
-        "layer1.texture": "matilde-theme-sublime/assets/default/tab_current.png",
+        "layer1.texture": "mariana-theme/assets/default/tab_current.png",
         "layer1.inner_margin": [0, 0],
         "layer1.opacity": 0.0,
         "layer2.tint": [128, 203, 196, 0],
@@ -97,18 +97,18 @@
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        "layer0.texture": "matilde-theme-sublime/assets/default/close_icon.png",
+        "layer0.texture": "mariana-theme/assets/default/close_icon.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer1.texture": "matilde-theme-sublime/assets/commons/close_icon--hover.png",
+        "layer1.texture": "mariana-theme/assets/commons/close_icon--hover.png",
         "layer1.opacity": {
             "target": 0.0,
             "speed": 5.0,
             "interpolation": "smoothstep"
         },
-        "layer2.texture": "matilde-theme-sublime/assets/default/dirty_icon.png",
+        "layer2.texture": "mariana-theme/assets/default/dirty_icon.png",
         "layer2.inner_margin": 0,
-        "layer3.texture": "matilde-theme-sublime/assets/commons/dirty_icon--hover.png",
+        "layer3.texture": "mariana-theme/assets/commons/dirty_icon--hover.png",
         "layer3.opacity": {
             "target": 0.0,
             "speed": 5.0,
@@ -191,10 +191,10 @@
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [14, 7],
-        "layer0.texture": "matilde-theme-sublime/assets/default/arrow_left.png",
+        "layer0.texture": "mariana-theme/assets/default/arrow_left.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "matilde-theme-sublime/assets/commons/arrow_left--hover.png",
+        "layer1.texture": "mariana-theme/assets/commons/arrow_left--hover.png",
         "layer1.opacity": {
             "target": 0.0,
             "speed": 8.0,
@@ -216,10 +216,10 @@
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [14, 7],
-        "layer0.texture": "matilde-theme-sublime/assets/default/arrow_right.png",
+        "layer0.texture": "mariana-theme/assets/default/arrow_right.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "matilde-theme-sublime/assets/commons/arrow_right--hover.png",
+        "layer1.texture": "mariana-theme/assets/commons/arrow_right--hover.png",
         "layer1.opacity": {
             "target": 0.0,
             "speed": 8.0,
@@ -241,10 +241,10 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [12, 12],
-        "layer0.texture": "matilde-theme-sublime/assets/default/overflow_menu.png",
+        "layer0.texture": "mariana-theme/assets/default/overflow_menu.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "matilde-theme-sublime/assets/commons/overflow_menu--hover.png",
+        "layer1.texture": "mariana-theme/assets/commons/overflow_menu--hover.png",
         "layer1.opacity": {
             "target": 0.0,
             "speed": 8.0,

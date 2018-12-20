@@ -1,14 +1,13 @@
 {
-  "name": "matilde-theme-sublime",
+  "name": "mariana-theme-sublime",
   "version": "1.0.0",
-  "description": "Matilde Theme for Sublime Text 3",
+  "description": "Mariana Theme for Sublime Text 3",
   "scripts": {
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "sublime-text",
-    "material-theme"
+    "sublime-text"
   ],
   "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
   "license": "MIT",
