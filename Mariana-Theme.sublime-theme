@@ -463,7 +463,7 @@
         "layer0.opacity": 0.3,
         "content_margin": [
             9,
-            8
+            9
         ]
     },
     {
@@ -480,7 +480,7 @@
         "layer0.opacity": 0.3,
         "content_margin": [
             9,
-            8
+            9
         ]
     },
     {
@@ -511,27 +511,27 @@
             "loop": true,
             "frame_time": 0.08
         },
-        "layer0.opacity": 0.3,
+        "layer0.opacity": 1,
         "content_margin": [
             9,
-            8
+            9
         ]
     },
     {
         "class": "icon_folder_dup",
         "layer0.texture": "mariana-theme/assets/common/light/symlink.png",
-        "layer0.opacity": 0.3,
+        "layer0.opacity": 1,
         "content_margin": [
             9,
-            8
+            9
         ]
     },
     {
         "class": "icon_file_type",
-        "layer0.opacity": 0.5,
+        "layer0.opacity": 1,
         "content_margin": [
             9,
-            8
+            9
         ]
     },
     {
@@ -1942,72 +1942,6 @@
         }
     },
     {
-        "class": "title_bar",
-        "fg": [
-            "background",
-            255,
-            255,
-            255,
-            0.7
-        ],
-        "settings": [
-            "mariana_theme_title_bar"
-        ],
-        "bg": [
-            "background",
-            0,
-            0,
-            0,
-            0.4
-        ]
-    },
-    {
-        "class": "title_bar",
-        "attributes": [
-            "file_dark"
-        ],
-        "bg": [
-            "background",
-            255,
-            255,
-            255,
-            0.15
-        ]
-    },
-    {
-        "class": "title_bar",
-        "attributes": [
-            "file_medium"
-        ],
-        "bg": [
-            "background",
-            0,
-            0,
-            0,
-            0.2
-        ]
-    },
-    {
-        "class": "title_bar",
-        "attributes": [
-            "file_light"
-        ],
-        "fg": [
-            "background",
-            0,
-            0,
-            0,
-            0.7
-        ],
-        "bg": [
-            "background",
-            0,
-            0,
-            0,
-            0.1
-        ]
-    },
-    {
         "class": "tool_tip_control",
         "layer0.tint": [
             255,
@@ -2399,5 +2333,71 @@
             "selected"
         ],
         "layer0.opacity": 0.15
+    },
+    {
+        "class": "title_bar",
+        "fg": [
+            "background",
+            255,
+            255,
+            255,
+            0.7
+        ],
+        "settings": [
+            "mariana_theme_title_bar"
+        ],
+        "bg": [
+            "background",
+            0,
+            0,
+            0,
+            0.4
+        ]
+    },
+    {
+        "class": "title_bar",
+        "attributes": [
+            "file_dark"
+        ],
+        "bg": [
+            "background",
+            255,
+            255,
+            255,
+            0.15
+        ]
+    },
+    {
+        "class": "title_bar",
+        "attributes": [
+            "file_medium"
+        ],
+        "bg": [
+            "background",
+            0,
+            0,
+            0,
+            0.2
+        ]
+    },
+    {
+        "class": "title_bar",
+        "attributes": [
+            "file_light"
+        ],
+        "fg": [
+            "background",
+            0,
+            0,
+            0,
+            0.7
+        ],
+        "bg": [
+            "background",
+            0,
+            0,
+            0,
+            0.1
+        ]
     }
 ]
