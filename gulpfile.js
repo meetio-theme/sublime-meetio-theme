@@ -19,7 +19,7 @@ function theme(name) {
                 var value = options[optionsKey];
                 merge.push(value);
             });
-            fs.writeFile(`${name}.sublime-theme`, JSON.stringify(merge, null, 4), (err) => {
+            fs.writeFileSync(`${name}.sublime-theme`, JSON.stringify(merge, null, 4), (err) => {
                 if (err) {
                     console.log('===============================================================================');
                     console.log(`🆘 - Problme with ${name}.`);

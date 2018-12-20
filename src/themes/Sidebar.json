@@ -1,0 +1,63 @@
+[
+    {
+        "class": "sidebar_container",
+        "layer0.tint": [235, 237, 239],
+        "layer0.opacity": 1.0,
+        "content_margin": 0
+    },
+    {
+        "class": "sidebar_tree",
+        "row_padding": [16, 3, 16, 3],
+        "indent": 12,
+        "indent_offset": 13,
+        "indent_top_level": false,
+        "dark_content": false,
+        "spacer_rows": true
+    },
+    {
+        "class": "sidebar_tree",
+        "platforms": ["windows"],
+        "row_padding": [16, 2, 16, 2]
+    },
+    {
+        "class": "tree_row",
+        "attributes": ["!hover"],
+        "layer0.opacity": 0.0
+    },
+    {
+        "class": "tree_row",
+        "attributes": ["selectable", "hover"],
+        "layer0.tint": [69, 74, 85],
+        "layer0.opacity": 0.1
+    },
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "layer0.tint": [199, 203, 209],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "sidebar_heading",
+        "fg": [128, 128, 128],
+        "font.size": 13,
+        "font.bold": true,
+        "shadow_color": [255, 255, 255, 0.36],
+        "shadow_offset": [0, 1]
+    },
+    {
+        "class": "sidebar_label",
+        "fg": [48, 48, 48],
+        "font.size": 12
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "fg": [24, 24, 24]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "settings": ["bold_folder_labels"],
+        "font.bold": true
+    }
+]

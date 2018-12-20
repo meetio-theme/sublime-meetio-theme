@@ -1,0 +1,18 @@
+[
+    {
+        "class": "label_control",
+        "fg": [64, 64, 64],
+        "font.size": 12
+    },
+    {
+        "class": "title_label_control",
+        "fg": [64, 64, 64],
+        "font.size": 24
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control"}],
+        "shadow_color": [255, 255, 255, 0.5],
+        "shadow_offset": [0, 1]
+    }
+]

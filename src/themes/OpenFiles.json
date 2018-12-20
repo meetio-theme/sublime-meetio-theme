@@ -1,0 +1,28 @@
+[
+    {
+        "class": "close_button",
+        "layer0.texture": "mariana-theme/assets/common/light/open_file_close.png",
+        "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "close_button",
+        "parents": [{"class": "window", "attributes": ["file_light"]}],
+        "layer0.tint": [0, 0, 0]
+    },
+    {
+        "class": "close_button",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "layer0.texture": "mariana-theme/assets/common/light/open_file_dirty.png"
+    },
+    {
+        "class": "close_button",
+        "attributes": ["hover", "dirty"],
+        "layer0.texture": "mariana-theme/assets/common/light/open_file_close.png"
+    }
+]

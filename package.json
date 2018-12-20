@@ -4,6 +4,7 @@
   "description": "Mariana Theme for Sublime Text 3",
   "scripts": {
     "build": "gulp",
+    "lint": "./node_modules/.bin/eslint src/**/*.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

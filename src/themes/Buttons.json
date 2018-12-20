@@ -1,0 +1,185 @@
+[
+    {
+        "class": "button_control",
+        "layer0.texture": "mariana-theme/assets/common/light/button.png",
+        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+        "layer0.inner_margin": 4,
+        "min_size": [80, 0],
+        "content_margin": [10, 6]
+    },
+    {
+        "class": "button_control",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "button_control",
+        "attributes": ["pressed"],
+        "layer0.opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "button_control",
+        "parents": [{"class": "dialog"}],
+        "layer0.tint": [171, 177, 186]
+    },
+    {
+        "class": "icon_button_group",
+        "spacing": 4
+    },
+    {
+        "class": "icon_button_control",
+        "layer0.texture": "mariana-theme/assets/common/light/icon_button_highlight.png",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": 2,
+        "content_margin": 2
+    },
+    {
+        "class": "icon_button_control",
+        "attributes": ["selected"],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "icon_regex",
+        "layer0.texture": "mariana-theme/assets/common/light/icon_regex.png",
+        "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
+        "content_margin": [14, 11]
+    },
+    {
+        "class": "icon_regex",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.9, "speed": 5.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "icon_regex",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.opacity": 0.9
+    },
+    {
+        "class": "icon_case",
+        "layer0.texture": "mariana-theme/assets/common/light/icon_case_sensitive.png",
+        "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
+        "content_margin": [14, 11]
+    },
+    {
+        "class": "icon_case",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.9, "speed": 5.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "icon_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.opacity": 0.9
+    },
+    {
+        "class": "icon_whole_word",
+        "layer0.texture": "mariana-theme/assets/common/light/icon_whole_word.png",
+        "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
+        "content_margin": [14, 11]
+    },
+    {
+        "class": "icon_whole_word",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.9, "speed": 5.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "icon_whole_word",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.opacity": 0.9
+    },
+    {
+        "class": "icon_wrap",
+        "layer0.texture": "mariana-theme/assets/common/light/icon_wrap.png",
+        "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
+        "content_margin": [14, 11]
+    },
+    {
+        "class": "icon_wrap",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.9, "speed": 5.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "icon_wrap",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.opacity": 0.9
+    },
+    {
+        "class": "icon_in_selection",
+        "layer0.texture": "mariana-theme/assets/common/light/icon_in_selection.png",
+        "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
+        "content_margin": [14, 11]
+    },
+    {
+        "class": "icon_in_selection",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.9, "speed": 5.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "icon_in_selection",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.opacity": 0.9
+    },
+    {
+        "class": "icon_highlight",
+        "layer0.texture": "mariana-theme/assets/common/light/icon_highlight_matches.png",
+        "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
+        "content_margin": [14, 11]
+    },
+    {
+        "class": "icon_highlight",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.9, "speed": 5.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "icon_highlight",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.opacity": 0.9
+    },
+    {
+        "class": "icon_preserve_case",
+        "layer0.texture": "mariana-theme/assets/common/light/icon_preserve_case.png",
+        "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
+        "content_margin": [14, 11]
+    },
+    {
+        "class": "icon_preserve_case",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.9, "speed": 5.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "icon_preserve_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.opacity": 0.9
+    },
+    {
+        "class": "icon_context",
+        "layer0.texture": "mariana-theme/assets/common/light/icon_context.png",
+        "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
+        "content_margin": [14, 11]
+    },
+    {
+        "class": "icon_context",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.9, "speed": 5.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "icon_context",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.opacity": 0.9
+    },
+    {
+        "class": "icon_use_buffer",
+        "layer0.texture": "mariana-theme/assets/common/light/icon_use_buffer.png",
+        "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
+        "content_margin": [14, 11]
+    },
+    {
+        "class": "icon_use_buffer",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.9, "speed": 5.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "icon_use_buffer",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.opacity": 0.9
+    }
+]

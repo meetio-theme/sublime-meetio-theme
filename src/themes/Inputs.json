@@ -1,0 +1,20 @@
+[
+    {
+        "class": "text_line_control",
+        "layer0.texture": "mariana-theme/assets/common/light/input.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 4,
+        "content_margin": 4
+    },
+    {
+        "class": "dropdown_button_control",
+        "layer0.texture": "mariana-theme/assets/common/light/dropdown_button.png",
+        "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
+        "content_margin": [9, 8, 9, 8]
+    },
+    {
+        "class": "dropdown_button_control",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" }
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "class": "dialog",
+        "layer0.tint": [235, 237, 239],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "progress_bar_control",
+        "layer0.tint": [0, 0, 0, 0.06],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "progress_gauge_control",
+        "layer0.tint": [171, 177, 186],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    }
+]

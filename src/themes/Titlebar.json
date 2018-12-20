@@ -1,0 +1,24 @@
+[
+    {
+        "class": "title_bar",
+        "fg": ["background", 255, 255, 255, 0.7],
+        "settings": ["mariana_theme_title_bar"],
+        "bg": ["background", 0, 0, 0, 0.4]
+    },
+    {
+        "class": "title_bar",
+        "attributes": ["file_dark"],
+        "bg": ["background", 255, 255, 255, 0.15]
+    },
+    {
+        "class": "title_bar",
+        "attributes": ["file_medium"],
+        "bg": ["background", 0, 0, 0, 0.2]
+    },
+    {
+        "class": "title_bar",
+        "attributes": ["file_light"],
+        "fg": ["background", 0, 0, 0, 0.7],
+        "bg": ["background", 0, 0, 0, 0.1]
+    }
+]

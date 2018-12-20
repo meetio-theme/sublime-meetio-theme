@@ -1,0 +1,30 @@
+[
+    {
+        "class": "panel_control",
+        "layer0.tint": [199, 203, 209],
+        "layer0.opacity": 1.0,
+        "content_margin": 2
+    },
+    {
+        "class": "panel_control",
+        "parents": [{"class": "switch_project_window"}],
+        "layer0.tint": [235, 237, 239]
+    },
+    {
+        "class": "panel_grid_control",
+        "inside_spacing": 4,
+        "outside_hspacing": 4,
+        "outside_vspacing": 4
+    },
+    {
+        "class": "panel_close_button",
+        "layer0.texture": "mariana-theme/assets/common/light/panel_close.png",
+        "layer0.opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+        "content_margin": 8
+    },
+    {
+        "class": "panel_close_button",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" }
+    }
+]

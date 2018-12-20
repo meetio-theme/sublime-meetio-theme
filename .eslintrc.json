@@ -1,18 +1,15 @@
 {
     "env": {
-        "browser": true,
-        "node": true,
-        "es6": true
-    },
-    "globals": {
-        "ENV": false
+        "browser": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-        "sourceType": "module"
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 5
     },
     "rules": {
-        "no-console":0,
         "indent": [
             "error",
             4
@@ -21,9 +18,14 @@
             "error",
             "unix"
         ],
+        "quotes": [
+            "error",
+            "double"
+        ],
         "semi": [
             "error",
-            "always"
-        ]
+            "never"
+        ],
+        "comma-dangle": ["error", "never"]
     }
 }

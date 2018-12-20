@@ -1,0 +1,143 @@
+[
+    {
+        "class": "scroll_area_control",
+        "settings": ["overlay_scroll_bars"],
+        "overlay": true
+    },
+    {
+        "class": "scroll_area_control",
+        "settings": ["!overlay_scroll_bars"],
+        "overlay": false
+    },
+    {
+        "class": "scroll_area_control",
+        "parents": [{"class": "sidebar_container"}],
+        "content_margin": [0, 10, 0, 10]
+    },
+    {
+        "class": "scroll_bar_control",
+        "layer0.opacity": 1.0,
+        "content_margin": 4,
+        "tint_index": 0
+    },
+    {
+        "class": "scroll_bar_control",
+        "settings": ["overlay_scroll_bars"],
+        "layer0.opacity": 0.0
+    },
+    {
+        "class": "scroll_bar_control",
+        "settings": ["!overlay_scroll_bars"],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "scroll_track_control",
+        "layer0.texture": "mariana-theme/assets/common/light/scroll_bar.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 2,
+        "content_margin": [4, 4, 3, 4]
+    },
+    {
+        "class": "scroll_track_control",
+        "attributes": ["dark"],
+        "layer0.texture": "mariana-theme/assets/common/dark/scroll_bar.png"
+    },
+    {
+        "class": "puck_control",
+        "layer0.texture": "mariana-theme/assets/common/light/scroll_puck.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 2,
+        "content_margin": [0, 12]
+    },
+    {
+        "class": "puck_control",
+        "attributes": ["dark"],
+        "layer0.texture": "mariana-theme/assets/common/dark/scroll_puck.png"
+    },
+    {
+        "class": "scroll_corner_control",
+        "layer0.opacity": 1.0,
+        "tint_index": 0
+    },
+    {
+        "class": "scroll_track_control",
+        "attributes": ["horizontal"],
+        "layer0.texture": "mariana-theme/assets/common/light/scroll_bar_horiz.png",
+        "content_margin": [4, 4, 4, 3]
+    },
+    {
+        "class": "scroll_track_control",
+        "attributes": ["horizontal", "dark"],
+        "layer0.texture": "mariana-theme/assets/common/dark/scroll_bar_horiz.png"
+    },
+    {
+        "class": "puck_control",
+        "attributes": ["horizontal"],
+        "layer0.texture": "mariana-theme/assets/common/light/scroll_puck_horiz.png",
+        "content_margin": [12, 0]
+    },
+    {
+        "class": "puck_control",
+        "attributes": ["horizontal", "dark"],
+        "layer0.texture": "mariana-theme/assets/common/dark/scroll_puck_horiz.png"
+    },
+    {
+        "class": "scroll_bar_control",
+        "parents": [{"class": "sidebar_container"}],
+        "layer0.opacity": 0.0
+    },
+    {
+        "class": "scroll_bar_control",
+        "parents": [{"class": "sidebar_container"}],
+        "attributes": ["horizontal"]
+    },
+    {
+        "class": "scroll_track_control",
+        "parents": [{"class": "sidebar_container"}],
+        "layer0.texture": "mariana-theme/assets/default/sidebar_scroll_bar.png"
+    },
+    {
+        "class": "puck_control",
+        "parents": [{"class": "sidebar_container"}],
+        "layer0.texture": "mariana-theme/assets/default/sidebar_scroll_puck.png"
+    },
+    {
+        "class": "scroll_corner_control",
+        "parents": [{"class": "sidebar_container"}],
+        "layer0.opacity": 0.0
+    },
+    {
+        "class": "scroll_track_control",
+        "parents": [{"class": "sidebar_container"}],
+        "attributes": ["horizontal"],
+        "layer0.texture": "mariana-theme/assets/default/sidebar_scroll_bar_horiz.png"
+    },
+    {
+        "class": "puck_control",
+        "parents": [{"class": "sidebar_container"}],
+        "attributes": ["horizontal"],
+        "layer0.texture": "mariana-theme/assets/default/sidebar_scroll_puck_horiz.png"
+    },
+    {
+        "class": "scroll_bar_control",
+        "parents": [{"class": "switch_project_window"}],
+        "layer0.tint": [235, 237, 239],
+        "tint_index": -1
+    },
+    {
+        "class": "scroll_bar_control",
+        "parents": [{"class": "overlay_control"}],
+        "layer0.opacity": 0.0,
+        "content_margin": [4, 0, 0, 0]
+    },
+    {
+        "class": "scroll_track_control",
+        "parents": [{"class": "overlay_control"}],
+        "layer0.texture": "mariana-theme/assets/default/sidebar_scroll_bar.png"
+    },
+    {
+        "class": "puck_control",
+        "parents": [{"class": "overlay_control"}],
+        "layer0.texture": "mariana-theme/assets/default/sidebar_scroll_puck.png"
+    }
+]
