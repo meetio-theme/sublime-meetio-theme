@@ -59,5 +59,58 @@
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
         "font.bold": true
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
+        "layer0.texture": "mariana-theme/assets/common/status_untracked.png",
+        "layer0.tint": "color(var(--yellowish) blend(rgb(255, 255, 255) 60%))",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
+        "layer0.texture": "mariana-theme/assets/common/status_modified.png",
+        "layer0.tint": "color(var(--bluish) min-contrast(var(--background) 2.5))",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
+        "layer0.texture": "mariana-theme/assets/common/status_staged.png",
+        "layer0.tint": "color(var(--purplish) min-contrast(var(--background) 2.5))",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
+        "layer0.texture": "mariana-theme/assets/common/status_staged.png",
+        "layer0.tint": "color(var(--greenish) min-contrast(var(--background) 2.5))",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
+        "layer0.texture": "mariana-theme/assets/common/status_unmerged.png",
+        "layer0.tint": "color(var(--redish) min-contrast(var(--background) 2.5))",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}],
+        "color": "color(var(--background) blend(rgb(255, 255, 255) 50%))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            {"class": "window", "attributes": ["file_light"]},
+            {"class": "file_system_entry", "attributes": ["ignored"]}
+        ],
+        "color": "color(var(--background) blend(rgb(0, 0, 0) 70%))"
     }
 ]
