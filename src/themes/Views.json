@@ -44,22 +44,6 @@
         "viewport_opacity": { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" }
     },
     {
-        "class": "fold_button_control",
-        "attributes": ["hover"],
-        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" }
-    },
-    {
-        "class": "fold_button_control",
-        "parents": [{"class": "text_area_control", "attributes": ["file_light"]}],
-        "layer0.texture": "mariana-theme/assets/common/light/fold_closed.png"
-    },
-    {
-        "class": "fold_button_control",
-        "parents": [{"class": "text_area_control", "attributes": ["file_light"]}],
-        "attributes": ["expanded"],
-        "layer0.texture": "mariana-theme/assets/common/light/fold_opened.png"
-    },
-    {
         "class": "popup_control",
         "layer0.tint": [255, 255, 255],
         "layer0.opacity": 1.0
