@@ -6,4 +6,5 @@ node_modules/
 *.sublime-workspace
 package-lock.json
 
+# Other
 .DS_Store

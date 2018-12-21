@@ -38,21 +38,11 @@
         "content_margin": [4, 4, 3, 4]
     },
     {
-        "class": "scroll_track_control",
-        "attributes": ["dark"],
-        "layer0.texture": "mariana-theme/assets/common/dark/scroll_bar.png"
-    },
-    {
         "class": "puck_control",
         "layer0.texture": "mariana-theme/assets/common/light/scroll_puck.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 2,
         "content_margin": [0, 12]
-    },
-    {
-        "class": "puck_control",
-        "attributes": ["dark"],
-        "layer0.texture": "mariana-theme/assets/common/dark/scroll_puck.png"
     },
     {
         "class": "scroll_corner_control",
@@ -67,22 +57,11 @@
         "content_margin": [4, 4, 4, 3]
     },
     {
-        "class": "scroll_track_control",
-        "attributes": ["horizontal", "dark"],
-        "layer0.texture": "mariana-theme/assets/common/dark/scroll_bar_horiz.png"
-    },
-    {
         "class": "puck_control",
         "attributes": ["horizontal"],
         "layer0.texture": "mariana-theme/assets/common/light/scroll_puck_horiz.png",
         "content_margin": [12, 0]
     },
-    {
-        "class": "puck_control",
-        "attributes": ["horizontal", "dark"],
-        "layer0.texture": "mariana-theme/assets/common/dark/scroll_puck_horiz.png"
-    },
-
     {
         "class": "scroll_bar_control",
         "parents": [{"class": "sidebar_container"}],
@@ -123,7 +102,6 @@
         "layer0.tint": ["background", 0, 0, 0, 0.1],
         "tint_index": -1
     },
-
     {
         "class": "scroll_bar_control",
         "parents": [{"class": "overlay_control"}],

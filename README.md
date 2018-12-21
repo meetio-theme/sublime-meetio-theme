@@ -12,4 +12,6 @@ You can also manually activate this theme by adding these lines to your user set
 
 ```json
 "mariana_theme_titlebar": false,
+"mariana_theme_tabs_autowidth": true,
+"mariana_theme_tabs_large": true,
 ```

@@ -5,7 +5,7 @@
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "layer0.inner_margin": 4,
         "min_size": [80, 0],
-        "content_margin": [10, 6]
+        "content_margin": [10, 10]
     },
     {
         "class": "button_control",
@@ -20,7 +20,7 @@
     {
         "class": "button_control",
         "parents": [{"class": "dialog"}],
-        "layer0.tint": [171, 177, 186]
+        "layer0.tint": "[171, 177, 186]"
     },
     {
         "class": "icon_button_group",
