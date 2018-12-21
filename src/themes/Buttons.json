@@ -1,15 +1,16 @@
 [
     {
         "class": "button_control",
-        "layer0.texture": "mariana-theme/assets/common/light/button.png",
+        "layer0.tint": [202, 207, 211],
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
-        "layer0.inner_margin": 4,
-        "min_size": [80, 0],
-        "content_margin": [10, 10]
+        "layer0.inner_margin": 8,
+        "min_size": [80, 38],
+        "content_margin": 8
     },
     {
         "class": "button_control",
         "attributes": ["hover"],
+        "layer0.tint": [186, 193, 198],
         "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" }
     },
     {
@@ -52,7 +53,7 @@
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.opacity": 0.9
+        "layer0.opacity": 0.8
     },
     {
         "class": "icon_case",
@@ -68,7 +69,7 @@
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.opacity": 0.9
+        "layer0.opacity": 0.8
     },
     {
         "class": "icon_whole_word",
@@ -84,7 +85,7 @@
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.opacity": 0.9
+        "layer0.opacity": 0.8
     },
     {
         "class": "icon_wrap",
@@ -100,7 +101,7 @@
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.opacity": 0.9
+        "layer0.opacity": 0.8
     },
     {
         "class": "icon_in_selection",
@@ -116,7 +117,7 @@
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.opacity": 0.9
+        "layer0.opacity": 0.8
     },
     {
         "class": "icon_highlight",
@@ -132,7 +133,7 @@
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.opacity": 0.9
+        "layer0.opacity": 0.8
     },
     {
         "class": "icon_preserve_case",
@@ -148,7 +149,7 @@
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.opacity": 0.9
+        "layer0.opacity": 0.8
     },
     {
         "class": "icon_context",
@@ -164,7 +165,7 @@
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.opacity": 0.9
+        "layer0.opacity": 0.8
     },
     {
         "class": "icon_use_buffer",
@@ -180,6 +181,6 @@
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.opacity": 0.9
+        "layer0.opacity": 0.8
     }
 ]

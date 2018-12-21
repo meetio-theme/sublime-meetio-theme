@@ -11,8 +11,6 @@
     },
     {
         "class": "label_control",
-        "parents": [{"class": "button_control"}],
-        "shadow_color": [255, 255, 255, 0.5],
-        "shadow_offset": [0, 1]
+        "parents": [{"class": "button_control"}]
     }
 ]

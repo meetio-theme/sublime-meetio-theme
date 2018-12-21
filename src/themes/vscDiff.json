@@ -8,7 +8,7 @@
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
-        "layer0.tint": "hsl(221, 100%, 75%)",
+        "layer0.tint": "hsl(210, 49%, 62%)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
@@ -47,7 +47,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
-        "color": "hsl(221, 100%, 75%)"
+        "color": "hsl(210, 49%, 62%)"
     },
     {
         "class": "sidebar_label",

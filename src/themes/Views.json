@@ -1,28 +1,8 @@
 [
     {
         "class": "grid_layout_control",
-        "border_color": ["background", 255, 255, 255, 0.25],
+        "border_color": [255, 255, 255, 0.25],
         "border_size": 2
-    },
-    {
-        "class": "grid_layout_control",
-        "parents": [{"class": "edit_window", "attributes": ["file_light"]}],
-        "border_color": ["background", 0, 0, 0, 0.32]
-    },
-    {
-        "class": "grid_layout_control",
-        "parents": [{"class": "edit_window", "attributes": ["file_medium"]}],
-        "border_color": ["background", 0, 0, 0, 0.36]
-    },
-    {
-        "class": "grid_layout_control",
-        "parents": [{"class": "edit_window", "attributes": ["file_medium_dark"]}],
-        "border_color": ["background", 255, 255, 255, 0.32]
-    },
-    {
-        "class": "grid_layout_control",
-        "parents": [{"class": "edit_window", "attributes": ["file_dark"]}],
-        "border_color": ["background", 255, 255, 255, 0.28]
     },
     {
         "class": "minimap_control",
