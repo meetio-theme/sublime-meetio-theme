@@ -2,7 +2,7 @@
     {
         "class": "tabset_control",
         "layer0.opacity": 1.0,
-        "layer0.tint": [30, 40, 44],
+        "layer0.tint": [38, 50, 56],
         "tint_index": 1,
         "layer0.inner_margin": [8, 8],
         "layer0.opacity": 1.0,
@@ -10,7 +10,7 @@
         "tab_overlap": 0,
         "tab_width": 180,
         "tab_min_width": 68,
-        "tab_height": 40,
+        "tab_height": 38,
         "mouse_wheel_switch": false
     },
     {
@@ -26,11 +26,11 @@
     {
         "class": "tabset_control",
         "settings": ["mariana_theme_tabs_large"],
-        "tab_height": 52
+        "tab_height": 48
     },
     {
         "class": "tab_control",
-        "layer0.tint": [30, 40, 44],
+        "layer0.tint": [38, 50, 56],
         "layer0.inner_margin": [24, 0],
         "layer0.opacity": 1.0,
         "tint_index": 0,
@@ -39,12 +39,10 @@
         "layer1.inner_margin": [0, 0],
         "layer1.opacity": 0.0,
 
-        "layer2.tint": [128, 203, 196, 0],
         "layer2.inner_margin": [0, 0],
         "layer2.opacity": { "target": 0.0, "speed": 3.0, "interpolation": "smoothstep" },
-        "content_margin": [16, 0, 8, 0],
-        "max_margin_trim": 0,
-        "hit_test_level": 0.4
+        "content_margin": [8, 0, 8, 0],
+        "max_margin_trim": 0
     },
     {
         "class": "tab_control",

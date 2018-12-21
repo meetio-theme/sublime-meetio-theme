@@ -3,7 +3,7 @@
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com",
     "variables": {
         "aqua": "hsl(180, 36%, 54%)",
-        "background": "hsl(200, 19%, 18%)",
+        "background": "hsl(210, 15%, 24%)",
         "black": "hsl(0, 0%, 0%)",
         "blue": "hsl(221, 100%, 75%)",
         "blueCloudy": "hsl(199, 16%, 37%)",
