@@ -44,70 +44,8 @@
         "viewport_opacity": { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" }
     },
     {
-        "class": "popup_control",
-        "layer0.tint": [255, 255, 255],
-        "layer0.opacity": 1.0
-    },
-    {
-        "class": "auto_complete",
-        "row_padding": [4, 1, 4, 1],
-        "tint_index": 0,
-        "layer0.opacity": 1.0,
-        "tint_modifier": [255, 255, 255, 0.05]
-    },
-    {
-        "class": "auto_complete",
-        "attributes": ["file_light"],
-        "tint_modifier": [0, 0, 0, 0.05]
-    },
-    {
-        "class": "scroll_bar_control",
-        "parents": [{"class": "popup_control auto_complete_popup"}],
-        "tint_modifier": [0, 0, 0, 0.05]
-    },
-    {
-        "class": "scroll_bar_control",
-        "attributes": ["dark"],
-        "parents": [{"class": "popup_control auto_complete_popup"}],
-        "tint_modifier": [255, 255, 255, 0.05]
-    },
-    {
         "class": "table_row",
         "layer0.tint": [255, 255, 255],
         "layer0.opacity": 0.0
-    },
-    {
-        "class": "table_row",
-        "parents": [{"class": "auto_complete", "attributes": ["file_light"]}],
-        "layer0.tint": [0, 0, 0],
-        "layer0.opacity": 0.0
-    },
-    {
-        "class": "auto_complete_label",
-        "fg": [0, 0, 0, 0.0],
-        "match_fg": [255, 255, 255, 0.18],
-        "selected_fg": [0, 0, 0, 0.0],
-        "selected_match_fg": [255, 255, 255, 0.18],
-        "fg_blend": true
-    },
-    {
-        "class": "auto_complete_label",
-        "parents": [{"class": "auto_complete", "attributes": ["file_light"]}],
-        "fg": [0, 0, 0, 0.0],
-        "match_fg": [0, 0, 0, 0.18],
-        "selected_fg": [0, 0, 0, 0.0],
-        "selected_match_fg": [0, 0, 0, 0.18],
-        "fg_blend": true
-    },
-    {
-        "class": "table_row",
-        "attributes": ["selected"],
-        "layer0.opacity": 0.2
-    },
-    {
-        "class": "table_row",
-        "parents": [{"class": "auto_complete", "attributes": ["file_light"]}],
-        "attributes": ["selected"],
-        "layer0.opacity": 0.15
     }
 ]

@@ -16,7 +16,8 @@
         "orange": "hsl(32, 93%, 66%)",
         "orangeDark": "hsl(32, 85%, 55%)",
         "orangeLight": "hsl(40, 94%, 68%)",
-        "pink": "hsl(300, 30%, 68%)",
+        "violet": "hsl(300, 30%, 68%)",
+        "pink": "hsl(330, 80%, 60%",
         "red": "hsl(357, 79%, 65%)",
         "redDark": "hsl(357, 66%, 53%)",
         "redLight": "hsl(13, 93%, 66%)",
@@ -44,7 +45,7 @@
         "bracket_contents_options": "underline",
         "bracket_contents_foreground": "var(aqua)",
         "tags_options": "stippled_underline",
-        "tags_foreground": "var(pink)"
+        "tags_foreground": "var(violet)"
     },
     "rules": [
         {
@@ -66,7 +67,7 @@
         {
             "name": "User-defined constant",
             "scope": "constant.character, constant.other",
-            "foreground": "var(pink)"
+            "foreground": "var(violet)"
         },
         {
             "name": "Member Variable",
@@ -76,7 +77,7 @@
         {
             "name": "Keyword",
             "scope": "keyword - keyword.operator, keyword.operator.word",
-            "foreground": "var(pink)"
+            "foreground": "var(violet)"
         },
         {
             "name": "Operator, Misc",
@@ -118,7 +119,7 @@
         {
             "name": "Storage type",
             "scope": "storage.type",
-            "foreground": "var(pink)",
+            "foreground": "var(violet)",
             "font_style": "italic"
         },
         {
@@ -155,7 +156,7 @@
         {
             "name": "Tag attribute",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(pink)"
+            "foreground": "var(violet)"
         },
         {
             "name": "Function call",
@@ -171,7 +172,7 @@
         {
             "name": "Library constant",
             "scope": "support.constant",
-            "foreground": "var(pink)"
+            "foreground": "var(violet)"
         },
         {
             "name": "Library class/type",
@@ -203,7 +204,7 @@
         {
             "name": "diff.header",
             "scope": "meta.diff, meta.diff.header",
-            "foreground": "var(pink)"
+            "foreground": "var(violet)"
         },
         {
             "name": "diff.deleted",
@@ -236,7 +237,7 @@
         {
             "name": "JSON Key - Level 0",
             "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(pink)"
+            "foreground": "var(violet)"
         },
         {
             "name": "JSON Key - Level 1",
@@ -322,7 +323,7 @@
         {
             "name": "markup punctuation",
             "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
-            "foreground": "var(pink)"
+            "foreground": "var(violet)"
         },
 
         {

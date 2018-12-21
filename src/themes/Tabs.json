@@ -9,8 +9,8 @@
         "content_margin": [8, 0, 8, 0],
         "tab_overlap": 0,
         "tab_width": 180,
-        "tab_min_width": 60,
-        "tab_height": 54,
+        "tab_min_width": 68,
+        "tab_height": 40,
         "mouse_wheel_switch": false
     },
     {

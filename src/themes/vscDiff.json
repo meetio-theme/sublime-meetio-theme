@@ -2,7 +2,7 @@
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
-        "layer0.tint": "hsl(357, 66%, 53%)",
+        "layer0.tint": "hsl(330, 80%, 60%)",
         "content_margin": 6
     },
     {
@@ -41,7 +41,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
-        "layer0.tint": "hsl(357, 66%, 53%)",
+        "layer0.tint": "hsl(330, 80%, 60%",
         "color": "hsl(357, 66%, 53%)"
     },
     {

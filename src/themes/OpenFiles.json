@@ -7,11 +7,6 @@
     },
     {
         "class": "close_button",
-        "parents": [{"class": "window", "attributes": ["file_light"]}],
-        "layer0.tint": [0, 0, 0]
-    },
-    {
-        "class": "close_button",
         "attributes": ["hover"],
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" }
     },
