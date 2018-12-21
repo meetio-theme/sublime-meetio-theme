@@ -36,9 +36,9 @@
             255
         ],
         "match_fg": [
-            128,
-            203,
-            196,
+            198,
+            149,
+            198,
             255
         ],
         "selected_fg": [
@@ -48,9 +48,9 @@
             255
         ],
         "selected_match_fg": [
-            128,
-            203,
-            196,
+            198,
+            149,
+            198,
             255
         ]
     },
@@ -462,37 +462,6 @@
         "layer0.opacity": 0.9
     },
     {
-        "class": "fold_button_control",
-        "layer0.texture": "mariana-theme/assets/common/light/fold_right.png",
-        "layer0.opacity": 1,
-        "layer0.inner_margin": 0,
-        "layer1.texture": "mariana-theme/assets/common/light/fold_right_hover.png",
-        "layer1.opacity": 0,
-        "layer1.inner_margin": 0,
-        "content_margin": [
-            9,
-            7,
-            8,
-            6
-        ]
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": [
-            "hover"
-        ],
-        "layer0.opacity": 0,
-        "layer1.opacity": 1
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": [
-            "expanded"
-        ],
-        "layer0.texture": "mariana-theme/assets/common/light/fold_down.png",
-        "layer1.texture": "mariana-theme/assets/common/light/fold_down_hover.png"
-    },
-    {
         "class": "disclosure_button_control",
         "layer0.texture": "mariana-theme/assets/common/light/disclosure_unexpanded.png",
         "layer0.opacity": {
@@ -643,6 +612,73 @@
         ]
     },
     {
+        "class": "fold_button_control",
+        "layer0.texture": "mariana-theme/assets/common/light/fold_right.png",
+        "layer0.opacity": 1,
+        "layer0.inner_margin": 0,
+        "layer1.texture": "mariana-theme/assets/common/light/fold_right_hover.png",
+        "layer1.opacity": 0,
+        "layer1.inner_margin": 0,
+        "content_margin": [
+            9,
+            7,
+            8,
+            6
+        ]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": [
+            "hover"
+        ],
+        "layer0.opacity": 0,
+        "layer1.opacity": 1
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": [
+            "expanded"
+        ],
+        "layer0.texture": "mariana-theme/assets/common/light/fold_down.png",
+        "layer1.texture": "mariana-theme/assets/common/light/fold_down_hover.png"
+    },
+    {
+        "class": "label_control",
+        "fg": [
+            64,
+            64,
+            64
+        ],
+        "font.size": 12
+    },
+    {
+        "class": "title_label_control",
+        "fg": [
+            64,
+            64,
+            64
+        ],
+        "font.size": 24
+    },
+    {
+        "class": "label_control",
+        "parents": [
+            {
+                "class": "button_control"
+            }
+        ],
+        "shadow_color": [
+            255,
+            255,
+            255,
+            0.5
+        ],
+        "shadow_offset": [
+            0,
+            1
+        ]
+    },
+    {
         "class": "text_line_control",
         "layer0.tint": [
             235,
@@ -686,42 +722,6 @@
         "layer1.opacity": 1
     },
     {
-        "class": "label_control",
-        "fg": [
-            64,
-            64,
-            64
-        ],
-        "font.size": 12
-    },
-    {
-        "class": "title_label_control",
-        "fg": [
-            64,
-            64,
-            64
-        ],
-        "font.size": 24
-    },
-    {
-        "class": "label_control",
-        "parents": [
-            {
-                "class": "button_control"
-            }
-        ],
-        "shadow_color": [
-            255,
-            255,
-            255,
-            0.5
-        ],
-        "shadow_offset": [
-            0,
-            1
-        ]
-    },
-    {
         "class": "close_button",
         "layer0.texture": "mariana-theme/assets/common/light/open_file_close.png",
         "layer0.opacity": {
@@ -759,6 +759,188 @@
             "dirty"
         ],
         "layer0.texture": "mariana-theme/assets/common/light/open_file_close.png"
+    },
+    {
+        "class": "panel_control",
+        "layer0.tint": [
+            235,
+            237,
+            239
+        ],
+        "layer0.opacity": 1,
+        "content_margin": 8
+    },
+    {
+        "class": "panel_control",
+        "parents": [
+            {
+                "class": "switch_project_window"
+            }
+        ],
+        "layer0.tint": [
+            235,
+            237,
+            239
+        ]
+    },
+    {
+        "class": "panel_grid_control",
+        "inside_spacing": 4,
+        "outside_hspacing": 4,
+        "outside_vspacing": 4
+    },
+    {
+        "class": "panel_close_button",
+        "layer0.texture": "mariana-theme/assets/common/light/panel_close.png",
+        "layer0.opacity": {
+            "target": 0.4,
+            "speed": 4,
+            "interpolation": "smoothstep"
+        },
+        "layer1.opacity": 0,
+        "content_margin": [
+            0,
+            0
+        ]
+    },
+    {
+        "class": "panel_close_button",
+        "attributes": [
+            "hover"
+        ],
+        "layer0.opacity": {
+            "target": 0.6,
+            "speed": 4,
+            "interpolation": "smoothstep"
+        }
+    },
+    {
+        "class": "sidebar_container",
+        "layer0.tint": [
+            235,
+            237,
+            239
+        ],
+        "layer0.opacity": 1,
+        "content_margin": 0
+    },
+    {
+        "class": "sidebar_tree",
+        "row_padding": [
+            16,
+            3,
+            16,
+            3
+        ],
+        "indent": 12,
+        "indent_offset": 13,
+        "indent_top_level": false,
+        "dark_content": false,
+        "spacer_rows": true
+    },
+    {
+        "class": "sidebar_tree",
+        "platforms": [
+            "windows"
+        ],
+        "row_padding": [
+            16,
+            2,
+            16,
+            2
+        ]
+    },
+    {
+        "class": "tree_row",
+        "attributes": [
+            "!hover"
+        ],
+        "layer0.opacity": 0
+    },
+    {
+        "class": "tree_row",
+        "attributes": [
+            "selectable",
+            "hover"
+        ],
+        "layer0.tint": [
+            69,
+            74,
+            85
+        ],
+        "layer0.opacity": 0.1
+    },
+    {
+        "class": "tree_row",
+        "attributes": [
+            "selected"
+        ],
+        "layer0.tint": [
+            199,
+            203,
+            209
+        ],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "sidebar_heading",
+        "fg": [
+            128,
+            128,
+            128
+        ],
+        "font.size": 13,
+        "font.bold": true,
+        "shadow_color": [
+            255,
+            255,
+            255,
+            0.36
+        ],
+        "shadow_offset": [
+            0,
+            1
+        ]
+    },
+    {
+        "class": "sidebar_label",
+        "fg": [
+            48,
+            48,
+            48
+        ],
+        "font.size": 12
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            {
+                "class": "tree_row",
+                "attributes": [
+                    "selected"
+                ]
+            }
+        ],
+        "fg": [
+            24,
+            24,
+            24
+        ]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            {
+                "class": "tree_row",
+                "attributes": [
+                    "expandable"
+                ]
+            }
+        ],
+        "settings": [
+            "bold_folder_labels"
+        ],
+        "font.bold": true
     },
     {
         "class": "overlay_control",
@@ -867,60 +1049,6 @@
             74,
             85
         ]
-    },
-    {
-        "class": "panel_control",
-        "layer0.tint": [
-            235,
-            237,
-            239
-        ],
-        "layer0.opacity": 1,
-        "content_margin": 8
-    },
-    {
-        "class": "panel_control",
-        "parents": [
-            {
-                "class": "switch_project_window"
-            }
-        ],
-        "layer0.tint": [
-            235,
-            237,
-            239
-        ]
-    },
-    {
-        "class": "panel_grid_control",
-        "inside_spacing": 4,
-        "outside_hspacing": 4,
-        "outside_vspacing": 4
-    },
-    {
-        "class": "panel_close_button",
-        "layer0.texture": "mariana-theme/assets/common/light/panel_close.png",
-        "layer0.opacity": {
-            "target": 0.4,
-            "speed": 4,
-            "interpolation": "smoothstep"
-        },
-        "layer1.opacity": 0,
-        "content_margin": [
-            0,
-            0
-        ]
-    },
-    {
-        "class": "panel_close_button",
-        "attributes": [
-            "hover"
-        ],
-        "layer0.opacity": {
-            "target": 0.6,
-            "speed": 4,
-            "interpolation": "smoothstep"
-        }
     },
     {
         "class": "scroll_area_control",
@@ -1143,132 +1271,237 @@
         ]
     },
     {
-        "class": "sidebar_container",
+        "class": "status_bar",
         "layer0.tint": [
-            235,
-            237,
-            239
+            171,
+            177,
+            186
         ],
         "layer0.opacity": 1,
-        "content_margin": 0
-    },
-    {
-        "class": "sidebar_tree",
-        "row_padding": [
-            16,
-            3,
-            16,
-            3
-        ],
-        "indent": 12,
-        "indent_offset": 13,
-        "indent_top_level": false,
-        "dark_content": false,
-        "spacer_rows": true
-    },
-    {
-        "class": "sidebar_tree",
-        "platforms": [
-            "windows"
-        ],
-        "row_padding": [
-            16,
+        "content_margin": [
+            10,
             2,
-            16,
+            0,
             2
         ]
     },
     {
-        "class": "tree_row",
-        "attributes": [
-            "!hover"
-        ],
-        "layer0.opacity": 0
+        "class": "panel_button_control",
+        "layer0.texture": "mariana-theme/assets/common/light/overflow_menu.png",
+        "layer0.opacity": 1,
+        "content_margin": [
+            8,
+            8
+        ]
     },
     {
-        "class": "tree_row",
+        "class": "panel_button_control",
         "attributes": [
-            "selectable",
             "hover"
         ],
-        "layer0.tint": [
-            69,
-            74,
-            85
-        ],
-        "layer0.opacity": 0.1
+        "layer0.texture": "mariana-theme/assets/common/light/overflow_menu_hover.png"
     },
     {
-        "class": "tree_row",
-        "attributes": [
-            "selected"
-        ],
-        "layer0.tint": [
-            199,
-            203,
-            209
-        ],
-        "layer0.opacity": 1
-    },
-    {
-        "class": "sidebar_heading",
-        "fg": [
-            128,
-            128,
-            128
-        ],
-        "font.size": 13,
-        "font.bold": true,
-        "shadow_color": [
-            255,
-            255,
-            255,
-            0.36
-        ],
-        "shadow_offset": [
+        "class": "status_container",
+        "content_margin": [
+            8,
             0,
-            1
+            0,
+            0
         ]
     },
     {
-        "class": "sidebar_label",
-        "fg": [
-            48,
-            48,
-            48
+        "class": "status_button",
+        "content_margin": [
+            10,
+            0,
+            10,
+            0
         ],
-        "font.size": 12
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [
-            {
-                "class": "tree_row",
-                "attributes": [
-                    "selected"
-                ]
-            }
-        ],
-        "fg": [
-            24,
-            24,
-            24
+        "min_size": [
+            80,
+            0
         ]
     },
     {
-        "class": "sidebar_label",
+        "class": "label_control",
         "parents": [
             {
-                "class": "tree_row",
+                "class": "status_bar"
+            }
+        ],
+        "font.size": 11,
+        "color": [
+            30,
+            40,
+            44
+        ]
+    },
+    {
+        "class": "tool_tip_control",
+        "layer0.tint": [
+            255,
+            255,
+            255
+        ],
+        "layer0.opacity": 0.9,
+        "content_margin": [
+            8,
+            3,
+            8,
+            3
+        ]
+    },
+    {
+        "class": "tool_tip_label_control",
+        "font.size": 11,
+        "fg": [
+            64,
+            64,
+            64
+        ]
+    },
+    {
+        "class": "grid_layout_control",
+        "border_color": [
+            "background",
+            255,
+            255,
+            255,
+            0.25
+        ],
+        "border_size": 2
+    },
+    {
+        "class": "grid_layout_control",
+        "parents": [
+            {
+                "class": "edit_window",
                 "attributes": [
-                    "expandable"
+                    "file_light"
                 ]
             }
+        ],
+        "border_color": [
+            "background",
+            0,
+            0,
+            0,
+            0.32
+        ]
+    },
+    {
+        "class": "grid_layout_control",
+        "parents": [
+            {
+                "class": "edit_window",
+                "attributes": [
+                    "file_medium"
+                ]
+            }
+        ],
+        "border_color": [
+            "background",
+            0,
+            0,
+            0,
+            0.36
+        ]
+    },
+    {
+        "class": "grid_layout_control",
+        "parents": [
+            {
+                "class": "edit_window",
+                "attributes": [
+                    "file_medium_dark"
+                ]
+            }
+        ],
+        "border_color": [
+            "background",
+            255,
+            255,
+            255,
+            0.32
+        ]
+    },
+    {
+        "class": "grid_layout_control",
+        "parents": [
+            {
+                "class": "edit_window",
+                "attributes": [
+                    "file_dark"
+                ]
+            }
+        ],
+        "border_color": [
+            "background",
+            255,
+            255,
+            255,
+            0.28
+        ]
+    },
+    {
+        "class": "minimap_control",
+        "settings": [
+            "always_show_minimap_viewport"
+        ],
+        "viewport_color": [
+            128,
+            128,
+            128,
+            0.18
+        ],
+        "viewport_opacity": 1
+    },
+    {
+        "class": "minimap_control",
+        "settings": [
+            "!always_show_minimap_viewport"
+        ],
+        "viewport_color": [
+            128,
+            128,
+            128,
+            0.25
+        ],
+        "viewport_opacity": {
+            "target": 0,
+            "speed": 4,
+            "interpolation": "smoothstep"
+        }
+    },
+    {
+        "class": "minimap_control",
+        "attributes": [
+            "hover"
         ],
         "settings": [
-            "bold_folder_labels"
+            "!always_show_minimap_viewport"
         ],
-        "font.bold": true
+        "viewport_color": [
+            128,
+            128,
+            128,
+            0.25
+        ],
+        "viewport_opacity": {
+            "target": 1,
+            "speed": 20,
+            "interpolation": "smoothstep"
+        }
+    },
+    {
+        "class": "table_row",
+        "layer0.tint": [
+            255,
+            255,
+            255
+        ],
+        "layer0.opacity": 0
     },
     {
         "class": "tabset_control",
@@ -1629,73 +1862,6 @@
         }
     },
     {
-        "class": "status_bar",
-        "layer0.tint": [
-            171,
-            177,
-            186
-        ],
-        "layer0.opacity": 1,
-        "content_margin": [
-            10,
-            2,
-            0,
-            2
-        ]
-    },
-    {
-        "class": "panel_button_control",
-        "layer0.texture": "mariana-theme/assets/common/light/overflow_menu.png",
-        "layer0.opacity": 1,
-        "content_margin": [
-            8,
-            8
-        ]
-    },
-    {
-        "class": "panel_button_control",
-        "attributes": [
-            "hover"
-        ],
-        "layer0.texture": "mariana-theme/assets/common/light/overflow_menu_hover.png"
-    },
-    {
-        "class": "status_container",
-        "content_margin": [
-            8,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "class": "status_button",
-        "content_margin": [
-            10,
-            0,
-            10,
-            0
-        ],
-        "min_size": [
-            80,
-            0
-        ]
-    },
-    {
-        "class": "label_control",
-        "parents": [
-            {
-                "class": "status_bar"
-            }
-        ],
-        "font.size": 11,
-        "color": [
-            30,
-            40,
-            44
-        ]
-    },
-    {
         "class": "title_bar",
         "bg": [
             235,
@@ -1723,172 +1889,6 @@
             237,
             239
         ]
-    },
-    {
-        "class": "tool_tip_control",
-        "layer0.tint": [
-            255,
-            255,
-            255
-        ],
-        "layer0.opacity": 0.9,
-        "content_margin": [
-            8,
-            3,
-            8,
-            3
-        ]
-    },
-    {
-        "class": "tool_tip_label_control",
-        "font.size": 11,
-        "fg": [
-            64,
-            64,
-            64
-        ]
-    },
-    {
-        "class": "grid_layout_control",
-        "border_color": [
-            "background",
-            255,
-            255,
-            255,
-            0.25
-        ],
-        "border_size": 2
-    },
-    {
-        "class": "grid_layout_control",
-        "parents": [
-            {
-                "class": "edit_window",
-                "attributes": [
-                    "file_light"
-                ]
-            }
-        ],
-        "border_color": [
-            "background",
-            0,
-            0,
-            0,
-            0.32
-        ]
-    },
-    {
-        "class": "grid_layout_control",
-        "parents": [
-            {
-                "class": "edit_window",
-                "attributes": [
-                    "file_medium"
-                ]
-            }
-        ],
-        "border_color": [
-            "background",
-            0,
-            0,
-            0,
-            0.36
-        ]
-    },
-    {
-        "class": "grid_layout_control",
-        "parents": [
-            {
-                "class": "edit_window",
-                "attributes": [
-                    "file_medium_dark"
-                ]
-            }
-        ],
-        "border_color": [
-            "background",
-            255,
-            255,
-            255,
-            0.32
-        ]
-    },
-    {
-        "class": "grid_layout_control",
-        "parents": [
-            {
-                "class": "edit_window",
-                "attributes": [
-                    "file_dark"
-                ]
-            }
-        ],
-        "border_color": [
-            "background",
-            255,
-            255,
-            255,
-            0.28
-        ]
-    },
-    {
-        "class": "minimap_control",
-        "settings": [
-            "always_show_minimap_viewport"
-        ],
-        "viewport_color": [
-            128,
-            128,
-            128,
-            0.18
-        ],
-        "viewport_opacity": 1
-    },
-    {
-        "class": "minimap_control",
-        "settings": [
-            "!always_show_minimap_viewport"
-        ],
-        "viewport_color": [
-            128,
-            128,
-            128,
-            0.25
-        ],
-        "viewport_opacity": {
-            "target": 0,
-            "speed": 4,
-            "interpolation": "smoothstep"
-        }
-    },
-    {
-        "class": "minimap_control",
-        "attributes": [
-            "hover"
-        ],
-        "settings": [
-            "!always_show_minimap_viewport"
-        ],
-        "viewport_color": [
-            128,
-            128,
-            128,
-            0.25
-        ],
-        "viewport_opacity": {
-            "target": 1,
-            "speed": 20,
-            "interpolation": "smoothstep"
-        }
-    },
-    {
-        "class": "table_row",
-        "layer0.tint": [
-            255,
-            255,
-            255
-        ],
-        "layer0.opacity": 0
     },
     {
         "class": "vcs_status_badge",
