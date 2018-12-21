@@ -4,12 +4,12 @@
         "layer0.opacity": 1.0,
         "layer0.tint": [30, 40, 44],
         "tint_index": 1,
-        "layer0.inner_margin": [2, 6],
+        "layer0.inner_margin": [8, 8],
         "layer0.opacity": 1.0,
-        "content_margin": [6, 0, 8, 0],
+        "content_margin": [8, 0, 8, 0],
         "tab_overlap": 0,
         "tab_width": 180,
-        "tab_min_width": 64,
+        "tab_min_width": 60,
         "tab_height": 54,
         "mouse_wheel_switch": false
     },
@@ -57,32 +57,14 @@
     },
     {
         "class": "tab_label",
-        "fg": [152, 152, 152],
+        "fg": [84, 110, 122, 255],
         "shadow_color": [0, 0, 0, 0.25],
         "shadow_offset": [0, -1]
     },
     {
         "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["file_light"]}],
-        "fg": [112, 112, 112],
-        "shadow_color": [255, 255, 255, 0.25],
-        "shadow_offset": [0, 1]
-    },
-    {
-        "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["file_medium"]}],
-        "fg": [192, 192, 192],
-        "shadow_color": [0, 0, 0, 0.12]
-    },
-    {
-        "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [255, 255, 255]
-    },
-    {
-        "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["selected", "file_light"]}],
-        "fg": [50, 50, 50]
     },
     {
         "class": "tab_label",
