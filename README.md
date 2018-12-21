@@ -3,7 +3,7 @@
 You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):
 
 ```json
-"color_scheme": "Packages/Mariana Theme/schemes/Matilde-Theme.tmTheme",
+"color_scheme": "Packages/Mariana Theme/schemes/Mariana-Theme.tmTheme",
 "theme": "Mariana-Theme.sublime-theme",
 ```
 
