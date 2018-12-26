@@ -1,8 +1,8 @@
 [
     {
         "class": "title_bar",
-        "bg": [235, 237, 239],
-        "fg": [115, 128, 140]
+        "bg": ["background", 0.92],
+        "fg":  ["foreground", 1.0]
     },
     {
         "class": "title_bar",

@@ -32,14 +32,14 @@
     },
     {
         "class": "scroll_track_control",
-        "layer0.texture": "mariana-theme/assets/common/light/scroll_bar.png",
+        "layer0.texture": "mariana-theme/assets/light/scroll_bar.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 2,
         "content_margin": [4, 4, 3, 4]
     },
     {
         "class": "puck_control",
-        "layer0.texture": "mariana-theme/assets/common/light/scroll_puck.png",
+        "layer0.texture": "mariana-theme/assets/light/scroll_puck.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 2,
         "content_margin": [0, 12]
@@ -53,13 +53,13 @@
     {
         "class": "scroll_track_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "mariana-theme/assets/common/light/scroll_bar_horiz.png",
+        "layer0.texture": "mariana-theme/assets/light/scroll_bar_horiz.png",
         "content_margin": [4, 4, 4, 3]
     },
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "mariana-theme/assets/common/light/scroll_puck_horiz.png",
+        "layer0.texture": "mariana-theme/assets/light/scroll_puck_horiz.png",
         "content_margin": [12, 0]
     },
     {

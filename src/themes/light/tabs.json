@@ -2,7 +2,7 @@
     {
         "class": "tabset_control",
         "layer0.opacity": 1.0,
-        "layer0.tint": ["background", 0.96],
+        "layer0.tint": ["background", 0.92],
         "tint_index": 1,
         "layer0.inner_margin": [8, 8],
         "layer0.opacity": 1.0,
@@ -70,14 +70,14 @@
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        "layer0.texture": "mariana-theme/assets/common/light/close_icon.png",
+        "layer0.texture": "mariana-theme/assets/light/close_icon.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer1.texture": "mariana-theme/assets/common/light/close_icon_hover.png",
+        "layer1.texture": "mariana-theme/assets/light/close_icon_hover.png",
         "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
-        "layer2.texture": "mariana-theme/assets/common/light/dirty_icon.png",
+        "layer2.texture": "mariana-theme/assets/light/dirty_icon.png",
         "layer2.inner_margin": 0,
-        "layer3.texture": "mariana-theme/assets/common/light/dirty_icon_hover.png",
+        "layer3.texture": "mariana-theme/assets/light/dirty_icon_hover.png",
         "layer3.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
     },
     {
@@ -136,7 +136,7 @@
     },
     {
         "class": "scroll_tabs_left_button",
-        "layer0.texture": "mariana-theme/assets/common/light/arrow_left.png",
+        "layer0.texture": "mariana-theme/assets/light/arrow_left.png",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [14, 7]
     },
@@ -147,7 +147,7 @@
     },
     {
         "class": "scroll_tabs_right_button",
-        "layer0.texture": "mariana-theme/assets/common/light/arrow_right.png",
+        "layer0.texture": "mariana-theme/assets/light/arrow_right.png",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [14, 7]
     },
@@ -159,10 +159,10 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [12, 12],
-        "layer0.texture": "mariana-theme/assets/common/light/overflow_menu.png",
+        "layer0.texture": "mariana-theme/assets/light/overflow_menu.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "mariana-theme/assets/common/light/overflow_menu_hover.png",
+        "layer1.texture": "mariana-theme/assets/light/overflow_menu_hover.png",
         "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
         "layer1.inner_margin": 0
     },

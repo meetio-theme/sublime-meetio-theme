@@ -3,16 +3,16 @@ const path = require("path"),
     fs = require("fs"),
     gulp = require("gulp");
 
-function theme(name) {
+function theme(name, tone) {
     const merge = [];
     let options = {};
     console.log("===============================================================================");
     console.log("▶️  - Start Theme Build.");
     console.log("===============================================================================");
 
-    fs.readdirSync("./src/themes/").forEach(file => {
+    fs.readdirSync(`./src/themes/${tone}/`).forEach(file => {
         console.log(`👁  - Reading ${file} file.`);
-        file = path.join(__dirname, "/src/themes/" + file);
+        file = path.join(__dirname, `/src/themes/${tone}/` + file);
         fs.readFile(file, "utf8", (err, data) => {
             if (err) throw err;
             options = JSON.parse(data);
@@ -62,7 +62,7 @@ function scheme() {
 
 const build = () => {
     scheme();
-    theme("Mariana-Theme");
+    theme("Mariana-Theme-Light", "light");
 };
 
 gulp.task("default", build);
