@@ -722,38 +722,6 @@
         ]
     },
     {
-        "class": "close_button",
-        "layer0.texture": "mariana-theme/assets/light/close_icon.png",
-        "layer0.opacity": 1,
-        "content_margin": [
-            8,
-            8
-        ]
-    },
-    {
-        "class": "close_button",
-        "attributes": [
-            "hover"
-        ],
-        "layer0.texture": "mariana-theme/assets/light/close_icon_hover.png",
-        "layer0.opacity": 1
-    },
-    {
-        "class": "close_button",
-        "attributes": [
-            "dirty"
-        ],
-        "layer0.texture": "mariana-theme/assets/light/dirty_icon.png"
-    },
-    {
-        "class": "close_button",
-        "attributes": [
-            "hover",
-            "dirty"
-        ],
-        "layer0.texture": "mariana-theme/assets/light/dirty_icon_hover.png"
-    },
-    {
         "class": "panel_control",
         "layer0.tint": [
             "background",
@@ -828,6 +796,38 @@
             "speed": 4,
             "interpolation": "smoothstep"
         }
+    },
+    {
+        "class": "close_button",
+        "layer0.texture": "mariana-theme/assets/light/close_icon.png",
+        "layer0.opacity": 1,
+        "content_margin": [
+            8,
+            8
+        ]
+    },
+    {
+        "class": "close_button",
+        "attributes": [
+            "hover"
+        ],
+        "layer0.texture": "mariana-theme/assets/light/close_icon_hover.png",
+        "layer0.opacity": 1
+    },
+    {
+        "class": "close_button",
+        "attributes": [
+            "dirty"
+        ],
+        "layer0.texture": "mariana-theme/assets/light/dirty_icon.png"
+    },
+    {
+        "class": "close_button",
+        "attributes": [
+            "hover",
+            "dirty"
+        ],
+        "layer0.texture": "mariana-theme/assets/light/dirty_icon_hover.png"
     },
     {
         "class": "overlay_control",
@@ -1772,7 +1772,7 @@
                 ]
             }
         ],
-        "layer0.tint": "hsl(300, 30%, 68%)",
+        "layer0.tint": "hsl(88, 50%, 53%)",
         "layer0.opacity": 1,
         "content_margin": 6
     },
@@ -1851,7 +1851,7 @@
                 ]
             }
         ],
-        "color": "hsl(300, 30%, 68%)"
+        "color": "hsl(88, 50%, 53%)"
     },
     {
         "class": "sidebar_label",

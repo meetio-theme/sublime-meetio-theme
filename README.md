@@ -2,13 +2,21 @@
 
 You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):
 
+### Mariana Theme Light
+
 ```json
-"color_scheme": "Packages/Mariana Theme/schemes/Mariana-Theme.tmTheme",
-"theme": "Mariana-Theme.sublime-theme",
+"color_scheme": "Packages/Mariana Theme/schemes/Mariana-Theme-Light.tmTheme",
+"theme": "Mariana-Theme-Light.sublime-theme",
 ```
 
+### Mariana Theme Dark
 
-### Theme options
+```json
+"color_scheme": "Packages/Mariana Theme/schemes/Mariana-Theme-Dark.tmTheme",
+"theme": "Mariana-Theme-Dark.sublime-theme",
+```
+
+#### Theme options
 
 ```json
 "mariana_theme_titlebar": false,

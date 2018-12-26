@@ -440,37 +440,6 @@
         "layer0.opacity": 0.8
     },
     {
-        "class": "fold_button_control",
-        "layer0.texture": "mariana-theme/assets/light/fold_right.png",
-        "layer0.opacity": 1,
-        "layer0.inner_margin": 0,
-        "layer1.texture": "mariana-theme/assets/light/fold_right_hover.png",
-        "layer1.opacity": 0,
-        "layer1.inner_margin": 0,
-        "content_margin": [
-            9,
-            7,
-            8,
-            6
-        ]
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": [
-            "hover"
-        ],
-        "layer0.opacity": 0,
-        "layer1.opacity": 1
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": [
-            "expanded"
-        ],
-        "layer0.texture": "mariana-theme/assets/light/fold_down.png",
-        "layer1.texture": "mariana-theme/assets/light/fold_down_hover.png"
-    },
-    {
         "class": "dialog",
         "layer0.tint": [
             235,
@@ -619,6 +588,37 @@
             9,
             9
         ]
+    },
+    {
+        "class": "fold_button_control",
+        "layer0.texture": "mariana-theme/assets/light/fold_right.png",
+        "layer0.opacity": 1,
+        "layer0.inner_margin": 0,
+        "layer1.texture": "mariana-theme/assets/light/fold_right_hover.png",
+        "layer1.opacity": 0,
+        "layer1.inner_margin": 0,
+        "content_margin": [
+            9,
+            7,
+            8,
+            6
+        ]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": [
+            "hover"
+        ],
+        "layer0.opacity": 0,
+        "layer1.opacity": 1
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": [
+            "expanded"
+        ],
+        "layer0.texture": "mariana-theme/assets/light/fold_down.png",
+        "layer1.texture": "mariana-theme/assets/light/fold_down_hover.png"
     },
     {
         "class": "text_line_control",

@@ -40,12 +40,12 @@ function scheme() {
     console.log("▶️  - Start Scheme Build.");
     console.log("===============================================================================");
     let filePath;
-    fs.readdirSync("./src/scheme/").forEach(file => {
+    fs.readdirSync("./src/schemes/").forEach(file => {
         console.log(`👁  - Reading ${file} file.`);
-        filePath = path.join(__dirname, "/src/scheme/" + file);
+        filePath = path.join(__dirname, "/src/schemes/" + file);
         fs.readFile(filePath, "utf8", (err, data) => {
             if (err) throw err;
-            fs.writeFile(`${file}.sublime-color-scheme`, data, (err) => {
+            fs.writeFile(`schemes/${file}.sublime-color-scheme`, data, (err) => {
                 if (err) {
                     console.log("===============================================================================");
                     console.log(`🆘 - Problme with ${file}.`);

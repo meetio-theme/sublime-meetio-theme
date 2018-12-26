@@ -15,7 +15,7 @@
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-        "layer0.tint": "hsl(300, 30%, 68%)",
+        "layer0.tint": "hsl(88, 50%, 53%)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
@@ -52,7 +52,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-        "color": "hsl(300, 30%, 68%)"
+        "color": "hsl(88, 50%, 53%)"
     },
     {
         "class": "sidebar_label",
