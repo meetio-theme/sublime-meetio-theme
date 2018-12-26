@@ -1,35 +1,34 @@
 [
-  {
-    "class": "text_line_control",
-    "layer0.tint": [247, 247, 247],
-    "layer0.opacity": 1.0,
-    "layer0.inner_margin": [20, 5, 20, 5],
-    "tint_index": 1,
-    "content_margin": [10, 8, 16, 8]
-  },
-
-  {
-    "class": "text_line_control",
-    "parents": [{"class": "overlay_control"}],
-    "layer0.texture": "Material Theme/assets/default/input_field_border--short.png",
-    "layer0.opacity": 1.0,
-    "layer0.inner_margin": [32, 0, 32, 2],
-    "layer0.draw_center": true,
-    "content_margin": [32, 8, 32, 8]
-  },
-  {
-    "class": "dropdown_button_control",
-    "content_margin": [12, 12],
-    "layer0.texture": "mariana-theme/assets/common/light/overflow_menu.png",
-    "layer0.opacity": 1.0,
-    "layer0.inner_margin": [0, 0],
-    "layer1.texture": "mariana-theme/assets/common/light/overflow_menu_hover.png",
-    "layer1.opacity": 0.0,
-    "layer1.inner_margin": [0, 0]
-  },
-  {
-    "class": "dropdown_button_control",
-    "attributes": ["hover"],
-    "layer1.opacity": 1.0
-  }
+    {
+        "class": "text_line_control",
+        "layer0.tint": [220, 222, 224],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [20, 5, 20, 5],
+        "tint_index": 1,
+        "content_margin": [10, 8, 16, 8]
+    },
+    {
+        "class": "text_line_control",
+        "parents": [{"class": "overlay_control"}],
+        "layer0.tint": [220, 222, 224],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [20, 5, 20, 5],
+        "layer0.draw_center": true,
+        "content_margin": [10, 8, 16, 8]
+    },
+    {
+        "class": "dropdown_button_control",
+        "content_margin": [12, 12],
+        "layer0.texture": "mariana-theme/assets/common/light/overflow_menu.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [0, 0],
+        "layer1.texture": "mariana-theme/assets/common/light/overflow_menu_hover.png",
+        "layer1.opacity": 0.0,
+        "layer1.inner_margin": [0, 0]
+    },
+    {
+        "class": "dropdown_button_control",
+        "attributes": ["hover"],
+        "layer1.opacity": 1.0
+    }
 ]

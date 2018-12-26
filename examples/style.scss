@@ -1,0 +1,37 @@
+$addon-store-border-color: #d26911;
+$addon-store-color: #333;
+
+#app {
+  .addons-nav {
+    .selected {
+      border-bottom-color: $addon-store-border-color;
+      color: $addon-store-color;
+      font-weight: bold;
+      padding: my-calculation-function(10px, 5px);
+    }
+  }
+}
+
+.row {
+  @include grid(true);
+}
+
+/* Mixins */
+@mixin flex {
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin grid($flex) {
+  @if $flex {
+    @include flex;
+  }
+  @else {
+    display: block;
+  }
+}
+
+/* Functions */
+@function my-calculation-function($some-number, $another-number){
+  @return $some-number + $another-number
+}

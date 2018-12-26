@@ -1,14 +1,18 @@
 [
     {
         "class": "panel_control",
-        "layer0.tint": [247, 247, 247],
+        "layer0.tint": ["background", 0.4],
+        "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
-        "content_margin": 8
+        "layer1.tint": [220, 222, 224],
+        "layer1.inner_margin": [2, 2, 2, 2],
+        "layer1.opacity": 1.0,
+        "content_margin": [6, 14, 6, 8]
     },
     {
         "class": "panel_control",
         "parents": [{"class": "switch_project_window"}],
-        "layer0.tint": [235, 237, 239]
+        "layer0.tint": [220, 222, 224]
     },
     {
         "class": "panel_grid_control",

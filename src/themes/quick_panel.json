@@ -1,14 +1,14 @@
 [
     {
         "class": "overlay_control",
-        "layer0.tint": [235, 237, 239],
+        "layer0.tint": [220, 222, 224],
         "layer0.opacity": 1.0,
         "content_margin": 4
     },
     {
         "class": "quick_panel",
         "row_padding": 6,
-        "layer0.tint": [235, 237, 239],
+        "layer0.tint": [220, 222, 224],
         "layer0.opacity": 1.0,
         "dark_content": false
     },

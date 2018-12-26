@@ -35,33 +35,33 @@ function theme(name) {
     console.log("===============================================================================");
 }
 
-function scheme(name) {
+function scheme() {
     console.log("===============================================================================");
     console.log("▶️  - Start Scheme Build.");
     console.log("===============================================================================");
-
+    let filePath;
     fs.readdirSync("./src/scheme/").forEach(file => {
         console.log(`👁  - Reading ${file} file.`);
-        file = path.join(__dirname, "/src/scheme/" + file);
-        fs.readFile(file, "utf8", (err, data) => {
+        filePath = path.join(__dirname, "/src/scheme/" + file);
+        fs.readFile(filePath, "utf8", (err, data) => {
             if (err) throw err;
-            fs.writeFile(`${name}.sublime-color-scheme`, data, (err) => {
+            fs.writeFile(`${file}.sublime-color-scheme`, data, (err) => {
                 if (err) {
                     console.log("===============================================================================");
-                    console.log(`🆘 - Problme with ${name}.`);
+                    console.log(`🆘 - Problme with ${file}.`);
                     console.log(err);
                     console.log("===============================================================================");
                 }
             });
+            console.log("===============================================================================");
+            console.log(`✅ - Scheme: ${file} was saved!`);
+            console.log("===============================================================================");
         });
     });
-    console.log("===============================================================================");
-    console.log(`✅ - Scheme: ${name} was saved!`);
-    console.log("===============================================================================");
 }
 
 const build = () => {
-    scheme("Mariana-Theme");
+    scheme();
     theme("Mariana-Theme");
 };
 

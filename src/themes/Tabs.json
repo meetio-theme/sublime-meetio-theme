@@ -2,7 +2,7 @@
     {
         "class": "tabset_control",
         "layer0.opacity": 1.0,
-        "layer0.tint": [247, 247, 247],
+        "layer0.tint": ["background", 0.96],
         "tint_index": 1,
         "layer0.inner_margin": [8, 8],
         "layer0.opacity": 1.0,
@@ -30,12 +30,12 @@
     },
     {
         "class": "tab_control",
-        "layer0.tint": [247, 247, 247],
+        "layer0.tint": ["background", 0],
         "layer0.inner_margin": [24, 0],
         "layer0.opacity": 1.0,
         "tint_index": 0,
 
-        "layer1.texture": "mariana-theme/assets/common/light/tab_current.png",
+        "layer1.tint": ["background", 1.0],
         "layer1.inner_margin": [0, 0],
         "layer1.opacity": 0.0,
 
@@ -55,12 +55,12 @@
     },
     {
         "class": "tab_label",
-        "fg": [84, 110, 122]
+        "fg":  ["foreground", 0.4]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [255, 255, 255]
+        "fg":  ["foreground", 1.0]
     },
     {
         "class": "tab_label",
