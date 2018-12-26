@@ -63,6 +63,7 @@ function scheme() {
 const build = () => {
     scheme();
     theme("Mariana-Theme-Light", "light");
+    theme("Mariana-Theme-Dark", "dark");
 };
 
 gulp.task("default", build);
