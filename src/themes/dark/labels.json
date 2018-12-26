@@ -1,0 +1,16 @@
+[
+    {
+        "class": "label_control",
+        "fg": [64, 64, 64],
+        "font.size": 12
+    },
+    {
+        "class": "title_label_control",
+        "fg": [64, 64, 64],
+        "font.size": 24
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control"}]
+    }
+]

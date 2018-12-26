@@ -1,0 +1,13 @@
+[
+    {
+        "class": "title_bar",
+        "bg": ["background", 0.92],
+        "fg":  ["foreground", 1.0]
+    },
+    {
+        "class": "title_bar",
+        "settings": ["mariana_theme_titlebar"],
+        "bg": [115, 128, 140],
+        "fg": [235, 237, 239]
+    }
+]
