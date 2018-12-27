@@ -1728,7 +1728,7 @@
                 ]
             }
         ],
-        "layer0.tint": "hsl(142, 37%, 59%)",
+        "layer0.tint": "hsl(114, 31%, 68%)",
         "content_margin": 6
     },
     {
@@ -1741,7 +1741,7 @@
                 ]
             }
         ],
-        "layer0.tint": "hsl(4, 72%, 57%)",
+        "layer0.tint": "hsl(230, 44%, 64%)",
         "layer0.opacity": 1,
         "content_margin": 6
     },
@@ -1755,7 +1755,7 @@
                 ]
             }
         ],
-        "layer0.tint": "hsl(231, 100%, 75%)",
+        "layer0.tint": "hsl(218, 100%, 69%)",
         "layer0.opacity": 1,
         "content_margin": 6
     },
@@ -1783,7 +1783,7 @@
                 ]
             }
         ],
-        "layer0.tint": "hsl(32, 85%, 55%)",
+        "layer0.tint": "hsl(0, 65%, 51%)",
         "layer0.opacity": 1,
         "content_margin": 6
     },
@@ -1809,8 +1809,8 @@
                 ]
             }
         ],
-        "layer0.tint": "hsl(142, 37%, 59%)",
-        "color": "hsl(142, 37%, 59%)"
+        "layer0.tint": "hsl(114, 31%, 68%)",
+        "color": "hsl(114, 31%, 68%)"
     },
     {
         "class": "sidebar_label",
@@ -1822,7 +1822,7 @@
                 ]
             }
         ],
-        "color": "hsl(4, 72%, 57%)"
+        "color": "hsl(230, 44%, 64%)"
     },
     {
         "class": "sidebar_label",
@@ -1834,7 +1834,7 @@
                 ]
             }
         ],
-        "color": "hsl(231, 100%, 75%)"
+        "color": "hsl(218, 100%, 69%)"
     },
     {
         "class": "sidebar_label",
@@ -1858,6 +1858,6 @@
                 ]
             }
         ],
-        "color": "hsl(32, 85%, 55%)"
+        "color": "hsl(0, 65%, 51%)"
     }
 ]
