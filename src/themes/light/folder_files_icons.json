@@ -19,7 +19,6 @@
         "class": "icon_folder",
         "layer0.texture": "mariana-theme/assets/light/folder_closed.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": ["foreground", 0.6],
         "content_margin": [11, 7]
     },
     {
@@ -27,7 +26,6 @@
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "mariana-theme/assets/light/folder_open.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": ["foreground", 0.6],
         "content_margin": [11, 7]
     },
     {
