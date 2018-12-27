@@ -34,26 +34,17 @@
         {
             "keyframes":
             [
-                "mariana-theme/assets/light/folder_loading_01.png",
-                "mariana-theme/assets/light/folder_loading_02.png",
-                "mariana-theme/assets/light/folder_loading_03.png",
-                "mariana-theme/assets/light/folder_loading_04.png",
-                "mariana-theme/assets/light/folder_loading_05.png",
-                "mariana-theme/assets/light/folder_loading_06.png",
-                "mariana-theme/assets/light/folder_loading_07.png",
-                "mariana-theme/assets/light/folder_loading_08.png",
-                "mariana-theme/assets/light/folder_loading_09.png",
-                "mariana-theme/assets/light/folder_loading_10.png",
-                "mariana-theme/assets/light/folder_loading_11.png",
-                "mariana-theme/assets/light/folder_loading_12.png",
-                "mariana-theme/assets/light/folder_loading_13.png",
-                "mariana-theme/assets/light/folder_loading_14.png",
-                "mariana-theme/assets/light/folder_loading_15.png",
-                "mariana-theme/assets/light/folder_loading_16.png",
-                "mariana-theme/assets/light/folder_loading_17.png",
-                "mariana-theme/assets/light/folder_loading_18.png",
-                "mariana-theme/assets/light/folder_loading_19.png",
-                "mariana-theme/assets/light/folder_loading_20.png"
+                "mariana-theme/assets/light/spinner01.png",
+                "mariana-theme/assets/light/spinner02.png",
+                "mariana-theme/assets/light/spinner03.png",
+                "mariana-theme/assets/light/spinner04.png",
+                "mariana-theme/assets/light/spinner05.png",
+                "mariana-theme/assets/light/spinner06.png",
+                "mariana-theme/assets/light/spinner07.png",
+                "mariana-theme/assets/light/spinner08.png",
+                "mariana-theme/assets/light/spinner09.png",
+                "mariana-theme/assets/light/spinner10.png",
+                "mariana-theme/assets/light/spinner11.png"
             ],
             "loop": true,
             "frame_time": 0.08
@@ -63,7 +54,7 @@
     },
     {
         "class": "icon_folder_dup",
-        "layer0.texture": "mariana-theme/assets/light/symlink.png",
+        "layer0.texture": "mariana-theme/assets/light/folder_dup.png",
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },

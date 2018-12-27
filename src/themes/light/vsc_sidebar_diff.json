@@ -2,20 +2,20 @@
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
-        "layer0.tint": "hsl(330, 80%, 60%)",
+        "layer0.tint": "hsl(142, 37%, 59%)",
         "content_margin": 6
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
-        "layer0.tint": "hsl(217, 38%, 55%)",
+        "layer0.tint": "hsl(4, 72%, 57%)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-        "layer0.tint": "hsl(88, 50%, 53%)",
+        "layer0.tint": "hsl(231, 100%, 75%)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
@@ -41,18 +41,18 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
-        "layer0.tint": "hsl(330, 80%, 60%)",
-        "color": "hsl(330, 80%, 60%)"
+        "layer0.tint": "hsl(142, 37%, 59%)",
+        "color": "hsl(142, 37%, 59%)"
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
-        "color": "hsl(217, 38%, 55%)"
+        "color": "hsl(4, 72%, 57%)"
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-        "color": "hsl(88, 50%, 53%)"
+        "color": "hsl(231, 100%, 75%)"
     },
     {
         "class": "sidebar_label",

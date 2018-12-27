@@ -72,7 +72,7 @@
             198
         ],
         "layer0.opacity": {
-            "target": 0.8,
+            "target": 0.9,
             "speed": 4,
             "interpolation": "smoothstep"
         }
@@ -149,7 +149,7 @@
                 ]
             }
         ],
-        "layer0.opacity": 0.8
+        "layer0.opacity": 1
     },
     {
         "class": "icon_case",
@@ -185,7 +185,7 @@
                 ]
             }
         ],
-        "layer0.opacity": 0.8
+        "layer0.opacity": 1
     },
     {
         "class": "icon_whole_word",
@@ -221,7 +221,7 @@
                 ]
             }
         ],
-        "layer0.opacity": 0.8
+        "layer0.opacity": 1
     },
     {
         "class": "icon_wrap",
@@ -257,7 +257,7 @@
                 ]
             }
         ],
-        "layer0.opacity": 0.8
+        "layer0.opacity": 1
     },
     {
         "class": "icon_in_selection",
@@ -293,7 +293,7 @@
                 ]
             }
         ],
-        "layer0.opacity": 0.8
+        "layer0.opacity": 1
     },
     {
         "class": "icon_highlight",
@@ -329,7 +329,7 @@
                 ]
             }
         ],
-        "layer0.opacity": 0.8
+        "layer0.opacity": 1
     },
     {
         "class": "icon_preserve_case",
@@ -365,7 +365,7 @@
                 ]
             }
         ],
-        "layer0.opacity": 0.8
+        "layer0.opacity": 1
     },
     {
         "class": "icon_context",
@@ -401,7 +401,7 @@
                 ]
             }
         ],
-        "layer0.opacity": 0.8
+        "layer0.opacity": 1
     },
     {
         "class": "icon_use_buffer",
@@ -437,7 +437,7 @@
                 ]
             }
         ],
-        "layer0.opacity": 0.8
+        "layer0.opacity": 1
     },
     {
         "class": "fold_button_control",
@@ -565,26 +565,17 @@
         "class": "icon_folder_loading",
         "layer0.texture": {
             "keyframes": [
-                "mariana-theme/assets/light/folder_loading_01.png",
-                "mariana-theme/assets/light/folder_loading_02.png",
-                "mariana-theme/assets/light/folder_loading_03.png",
-                "mariana-theme/assets/light/folder_loading_04.png",
-                "mariana-theme/assets/light/folder_loading_05.png",
-                "mariana-theme/assets/light/folder_loading_06.png",
-                "mariana-theme/assets/light/folder_loading_07.png",
-                "mariana-theme/assets/light/folder_loading_08.png",
-                "mariana-theme/assets/light/folder_loading_09.png",
-                "mariana-theme/assets/light/folder_loading_10.png",
-                "mariana-theme/assets/light/folder_loading_11.png",
-                "mariana-theme/assets/light/folder_loading_12.png",
-                "mariana-theme/assets/light/folder_loading_13.png",
-                "mariana-theme/assets/light/folder_loading_14.png",
-                "mariana-theme/assets/light/folder_loading_15.png",
-                "mariana-theme/assets/light/folder_loading_16.png",
-                "mariana-theme/assets/light/folder_loading_17.png",
-                "mariana-theme/assets/light/folder_loading_18.png",
-                "mariana-theme/assets/light/folder_loading_19.png",
-                "mariana-theme/assets/light/folder_loading_20.png"
+                "mariana-theme/assets/light/spinner01.png",
+                "mariana-theme/assets/light/spinner02.png",
+                "mariana-theme/assets/light/spinner03.png",
+                "mariana-theme/assets/light/spinner04.png",
+                "mariana-theme/assets/light/spinner05.png",
+                "mariana-theme/assets/light/spinner06.png",
+                "mariana-theme/assets/light/spinner07.png",
+                "mariana-theme/assets/light/spinner08.png",
+                "mariana-theme/assets/light/spinner09.png",
+                "mariana-theme/assets/light/spinner10.png",
+                "mariana-theme/assets/light/spinner11.png"
             ],
             "loop": true,
             "frame_time": 0.08
@@ -597,7 +588,7 @@
     },
     {
         "class": "icon_folder_dup",
-        "layer0.texture": "mariana-theme/assets/light/symlink.png",
+        "layer0.texture": "mariana-theme/assets/light/folder_dup.png",
         "layer0.opacity": 1,
         "content_margin": [
             9,
@@ -798,7 +789,7 @@
     },
     {
         "class": "panel_close_button",
-        "layer0.texture": "mariana-theme/assets/light/panel_close.png",
+        "layer0.texture": "mariana-theme/assets/light/close_icon.png",
         "layer0.opacity": {
             "target": 0.4,
             "speed": 4,
@@ -1737,7 +1728,7 @@
                 ]
             }
         ],
-        "layer0.tint": "hsl(330, 80%, 60%)",
+        "layer0.tint": "hsl(142, 37%, 59%)",
         "content_margin": 6
     },
     {
@@ -1750,7 +1741,7 @@
                 ]
             }
         ],
-        "layer0.tint": "hsl(217, 38%, 55%)",
+        "layer0.tint": "hsl(4, 72%, 57%)",
         "layer0.opacity": 1,
         "content_margin": 6
     },
@@ -1764,7 +1755,7 @@
                 ]
             }
         ],
-        "layer0.tint": "hsl(88, 50%, 53%)",
+        "layer0.tint": "hsl(231, 100%, 75%)",
         "layer0.opacity": 1,
         "content_margin": 6
     },
@@ -1818,8 +1809,8 @@
                 ]
             }
         ],
-        "layer0.tint": "hsl(330, 80%, 60%)",
-        "color": "hsl(330, 80%, 60%)"
+        "layer0.tint": "hsl(142, 37%, 59%)",
+        "color": "hsl(142, 37%, 59%)"
     },
     {
         "class": "sidebar_label",
@@ -1831,7 +1822,7 @@
                 ]
             }
         ],
-        "color": "hsl(217, 38%, 55%)"
+        "color": "hsl(4, 72%, 57%)"
     },
     {
         "class": "sidebar_label",
@@ -1843,7 +1834,7 @@
                 ]
             }
         ],
-        "color": "hsl(88, 50%, 53%)"
+        "color": "hsl(231, 100%, 75%)"
     },
     {
         "class": "sidebar_label",
