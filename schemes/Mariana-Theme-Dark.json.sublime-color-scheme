@@ -6,10 +6,12 @@
         "foreground": "hsl(180, 100%, 97%)",
         "punctuation": "hsl(209, 10%, 50%)",
         "comment": "hsl(0, 0%, 74%)",
+        "lineHighlight": "hsla(199, 18%, 33%, 0.60)",
         "blue": "hsl(180, 36%, 63%)",
         "aqua": "hsl(174, 42%, 65%)",
         "black": "hsl(0, 0%, 0%)",
         "blueLight": "hsla(205, 87%, 94%, 0.2)",
+        "blueDark": "hsl(215, 97%, 66%)",
         "blueSpace": "hsl(210, 13%, 45%)",
         "gray": "hsl(0, 0%, 24%)",
         "green": "hsl(88, 50%, 53%)",
@@ -18,16 +20,16 @@
         "red": "hsl(357, 78%, 68%)",
         "salmon": "hsl(13, 93%, 66%)",
         "violet": "hsl(300, 30%, 68%)",
-        "warning": "hsl(0, 65%, 51%)",
+        "warning": "hsl(351, 64%, 59%)",
         "whiteSmoke": "hsl(210, 11%, 93%)",
         "yellow": "hsl(39, 100%, 59%)",
-        "yellowDark": "hsl(40, 94%, 68%)"
+        "yellowDark": "hsl(29, 66%, 57%)"
     },
     "globals": {
         "foreground": "var(foreground)",
         "background": "var(background)",
         "caret": "var(orange)",
-        "line_highlight": "var(blueLight)",
+        "line_highlight": "var(lineHighlight)",
         "selection": "var(blueLight)",
         "selection_border": "var(blue)",
         "inactive_selection": "var(blueLight)",
@@ -262,7 +264,7 @@
             "scope": "message.error",
             "foreground": "var(red)"
         },
-        {
+            {
             "name": "JSON Key - Level 0",
             "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
             "foreground": "var(violet)"
@@ -285,7 +287,22 @@
         {
             "name": "JSON Key - Level 4",
             "scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(yellow)"
+            "foreground": "var(blueDark)"
+        },
+        {
+            "name": "JSON Key - Level 5",
+            "scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(salmon)"
+        },
+        {
+            "name": "JSON Key - Level 6",
+            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(yellowDark)"
+        },
+        {
+            "name": "JSON Key - Level 7",
+            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(warning)"
         },
         {
             "name": "markup headings",
