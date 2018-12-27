@@ -1,48 +1,5 @@
 [
     {
-        "class": "popup_control",
-        "layer0.tint": [
-            "background",
-            0.92
-        ],
-        "layer0.opacity": 1,
-        "content_margin": [
-            0,
-            0
-        ]
-    },
-    {
-        "class": "auto_complete",
-        "row_padding": [
-            12,
-            6
-        ],
-        "layer0.tint": [
-            "background",
-            0.92
-        ],
-        "layer0.opacity": 1
-    },
-    {
-        "class": "auto_complete_label",
-        "fg": "hsl(210, 13%, 45%)",
-        "match_fg": "hsl(180, 36%, 63%)",
-        "selected_fg": "hsl(0, 0%, 50%)",
-        "selected_match_fg": "hsl(180, 36%, 63%)"
-    },
-    {
-        "class": "table_row",
-        "layer0.tint": "hsl(210, 13%, 45%)",
-        "layer0.opacity": 0
-    },
-    {
-        "class": "table_row",
-        "attributes": [
-            "selected"
-        ],
-        "layer0.opacity": 1
-    },
-    {
         "class": "button_control",
         "layer0.tint": [
             202,
@@ -57,7 +14,7 @@
         "layer0.inner_margin": 8,
         "min_size": [
             80,
-            38
+            32
         ],
         "content_margin": 8
     },
@@ -99,14 +56,14 @@
     },
     {
         "class": "icon_button_group",
-        "spacing": 4
+        "spacing": 8
     },
     {
         "class": "icon_button_control",
         "layer0.texture": "mariana-theme/assets/light/icon_button_highlight.png",
         "layer0.opacity": 0,
-        "layer0.inner_margin": 2,
-        "content_margin": 2
+        "layer0.inner_margin": 0,
+        "content_margin": 10
     },
     {
         "class": "icon_button_control",
@@ -440,6 +397,49 @@
         "layer0.opacity": 1
     },
     {
+        "class": "popup_control",
+        "layer0.tint": [
+            "background",
+            0.92
+        ],
+        "layer0.opacity": 1,
+        "content_margin": [
+            0,
+            0
+        ]
+    },
+    {
+        "class": "auto_complete",
+        "row_padding": [
+            12,
+            6
+        ],
+        "layer0.tint": [
+            "background",
+            0.92
+        ],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "auto_complete_label",
+        "fg": "hsl(210, 13%, 45%)",
+        "match_fg": "hsl(180, 36%, 63%)",
+        "selected_fg": "hsl(0, 0%, 50%)",
+        "selected_match_fg": "hsl(180, 36%, 63%)"
+    },
+    {
+        "class": "table_row",
+        "layer0.tint": "hsl(210, 13%, 45%)",
+        "layer0.opacity": 0
+    },
+    {
+        "class": "table_row",
+        "attributes": [
+            "selected"
+        ],
+        "layer0.opacity": 1
+    },
+    {
         "class": "fold_button_control",
         "layer0.texture": "mariana-theme/assets/light/fold_right.png",
         "layer0.opacity": 1,
@@ -611,16 +611,11 @@
             224
         ],
         "layer0.opacity": 1,
-        "layer0.inner_margin": [
-            20,
-            5,
-            20,
-            5
-        ],
+        "layer0.inner_margin": 12,
         "tint_index": 1,
         "content_margin": [
-            10,
-            12,
+            16,
+            8,
             16,
             8
         ]

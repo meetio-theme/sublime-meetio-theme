@@ -3,9 +3,9 @@
         "class": "text_line_control",
         "layer0.tint": [220, 222, 224],
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [20, 5, 20, 5],
+        "layer0.inner_margin": 12,
         "tint_index": 1,
-        "content_margin": [10, 12, 16, 8]
+        "content_margin": [16, 8, 16, 8]
     },
     {
         "class": "text_line_control",

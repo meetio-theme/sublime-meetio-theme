@@ -4,7 +4,7 @@
         "layer0.tint": [202, 207, 211],
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "layer0.inner_margin": 8,
-        "min_size": [80, 38],
+        "min_size": [80, 32],
         "content_margin": 8
     },
     {
@@ -25,14 +25,14 @@
     },
     {
         "class": "icon_button_group",
-        "spacing": 4
+        "spacing": 8
     },
     {
         "class": "icon_button_control",
         "layer0.texture": "mariana-theme/assets/light/icon_button_highlight.png",
         "layer0.opacity": 0.0,
-        "layer0.inner_margin": 2,
-        "content_margin": 2
+        "layer0.inner_margin": 0,
+        "content_margin": 10
     },
     {
         "class": "icon_button_control",
