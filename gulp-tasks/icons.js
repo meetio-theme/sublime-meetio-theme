@@ -2,18 +2,18 @@
 import path from "path";
 import fs from "fs";
 import svg2png from "svg2png";
-import allIcons from "./../src/icons/icons.json";
 import options from "./../src/icons/options.json";
 
 const debug = true;
 
 function __icons(variation) {
     let iconPath;
-    allIcons.forEach(icon => {
+    fs.readdirSync("./src/icons/svg").forEach(icon => {
         if (debug) console.log(`👁  - Reading ${icon} icon.`);
-        iconPath = path.join(__dirname, `/../src/icons/svg/${icon}.svg`);
+        iconPath = path.join(__dirname, `/../src/icons/svg/${icon}`);
         fs.readFile(iconPath, (err, data) => {
             if (err) throw err;
+            icon = icon.split(".").slice(0, -1).join(".");
             options.settings.forEach(setting => {
                 svg2png(data, { width: setting.size, height: setting.size })
                     .then(buffer => {
