@@ -16,11 +16,11 @@ class App extends React.Component<{}, GreetingState> {
     this.setState(this.getStateFromStores());
   }
 
-  public componentWillMount() {
+  public componentWillMount(): void {
     this.eventSubscription = GreetingStore.addChangeListener(this.onChange);
   }
 
-  public componentWillUnmount() {
+  public componentWillUnmount(): void {
     this.eventSubscription.remove();
   }
 

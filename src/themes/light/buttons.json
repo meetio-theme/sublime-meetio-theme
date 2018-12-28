@@ -1,11 +1,5 @@
 [
     {
-        "class": "label_control",
-        "parents": [{"class": "button_control"}],
-        "color": [176, 190, 196],
-        "font.bold": true
-    },
-    {
         "class": "button_control",
         "layer0.tint": ["background", 0.5],
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },

@@ -1,7 +1,7 @@
 [
     {
         "class": "status_bar",
-        "layer0.tint": [171, 177, 186],
+        "layer0.tint": ["hsl", 242, 15, 36],
         "layer0.opacity": 1.0,
         "content_margin": [10, 2, 0, 2]
     },
@@ -29,7 +29,7 @@
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
         "font.size": 11,
-        "color": [30, 40, 44],
+        "color": ["hsl", 220, 0, 100],
         "font.bold": false
     }
 ]

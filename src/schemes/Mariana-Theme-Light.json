@@ -14,7 +14,7 @@
         "blueDark": "hsl(215, 97%, 66%)",
         "blueSpace": "hsl(210, 13%, 45%)",
         "gray": "hsl(0, 0%, 24%)",
-        "green": "hsl(88, 50%, 53%)",
+        "green": "hsl(169, 38%, 45%)",
         "orange": "hsl(32, 93%, 66%)",
         "pink": "hsl(330, 80%, 60%)",
         "red": "hsl(4, 90%, 58%)",
@@ -68,7 +68,7 @@
         },
         {
             "name": "User-defined constant",
-            "scope": "constant.character, constant.other",
+            "scope": "constant.character, constant.other, storage.type, keyword.control",
             "foreground": "var(violet)"
         },
         {

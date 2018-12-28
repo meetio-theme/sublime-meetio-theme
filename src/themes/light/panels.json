@@ -1,7 +1,7 @@
 [
     {
         "class": "panel_control",
-        "layer0.tint": ["background", 0.8],
+        "layer0.tint": ["background", 0.9],
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "content_margin": [6, 14, 6, 8]
