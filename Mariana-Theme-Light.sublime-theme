@@ -1,5 +1,48 @@
 [
     {
+        "class": "popup_control",
+        "layer0.tint": [
+            "background",
+            0.92
+        ],
+        "layer0.opacity": 1,
+        "content_margin": [
+            0,
+            0
+        ]
+    },
+    {
+        "class": "auto_complete",
+        "row_padding": [
+            12,
+            6
+        ],
+        "layer0.tint": [
+            "background",
+            0.92
+        ],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "auto_complete_label",
+        "fg": "hsl(210, 13%, 45%)",
+        "match_fg": "hsl(180, 36%, 63%)",
+        "selected_fg": "hsl(0, 0%, 50%)",
+        "selected_match_fg": "hsl(180, 36%, 63%)"
+    },
+    {
+        "class": "table_row",
+        "layer0.tint": "hsl(210, 13%, 45%)",
+        "layer0.opacity": 0
+    },
+    {
+        "class": "table_row",
+        "attributes": [
+            "selected"
+        ],
+        "layer0.opacity": 1
+    },
+    {
         "class": "button_control",
         "layer0.tint": [
             202,
@@ -218,7 +261,7 @@
     },
     {
         "class": "icon_in_selection",
-        "layer0.texture": "mariana-theme/assets/light/icon_in_selection.png",
+        "layer0.texture": "mariana-theme/assets/light/in_selection.png",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5,
@@ -230,7 +273,7 @@
         ]
     },
     {
-        "class": "icon_in_selection",
+        "class": "in_selection",
         "attributes": [
             "hover"
         ],
@@ -254,7 +297,7 @@
     },
     {
         "class": "icon_highlight",
-        "layer0.texture": "mariana-theme/assets/light/icon_highlight_matches.png",
+        "layer0.texture": "mariana-theme/assets/light/highlight_matches.png",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5,
@@ -326,7 +369,7 @@
     },
     {
         "class": "icon_context",
-        "layer0.texture": "mariana-theme/assets/light/icon_context.png",
+        "layer0.texture": "mariana-theme/assets/light/in_context.png",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5,
@@ -393,49 +436,6 @@
                     "selected"
                 ]
             }
-        ],
-        "layer0.opacity": 1
-    },
-    {
-        "class": "popup_control",
-        "layer0.tint": [
-            "background",
-            0.92
-        ],
-        "layer0.opacity": 1,
-        "content_margin": [
-            0,
-            0
-        ]
-    },
-    {
-        "class": "auto_complete",
-        "row_padding": [
-            12,
-            6
-        ],
-        "layer0.tint": [
-            "background",
-            0.92
-        ],
-        "layer0.opacity": 1
-    },
-    {
-        "class": "auto_complete_label",
-        "fg": "hsl(210, 13%, 45%)",
-        "match_fg": "hsl(180, 36%, 63%)",
-        "selected_fg": "hsl(0, 0%, 50%)",
-        "selected_match_fg": "hsl(180, 36%, 63%)"
-    },
-    {
-        "class": "table_row",
-        "layer0.tint": "hsl(210, 13%, 45%)",
-        "layer0.opacity": 0
-    },
-    {
-        "class": "table_row",
-        "attributes": [
-            "selected"
         ],
         "layer0.opacity": 1
     },
@@ -809,7 +809,7 @@
     },
     {
         "class": "overlay_control",
-        "layer0.tint": [
+        "layer1.tint": [
             220,
             222,
             224
