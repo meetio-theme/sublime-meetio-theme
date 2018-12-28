@@ -1,13 +1,12 @@
 [
     {
         "class": "tool_tip_control",
-        "layer0.tint": ["background", 0.92],
+        "layer0.tint": ["foreground", 1.0],
         "layer0.opacity": 1.0,
-        "content_margin": [8, 3, 8, 3]
+        "content_margin": [12, 8]
     },
     {
         "class": "tool_tip_label_control",
-        "font.size": 11,
-        "fg":  ["foreground", 0.8]
+        "fg":  ["background", 1.0]
     }
 ]

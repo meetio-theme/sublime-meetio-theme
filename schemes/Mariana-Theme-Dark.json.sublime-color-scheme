@@ -6,7 +6,7 @@
         "foreground": "hsl(180, 100%, 97%)",
         "punctuation": "hsl(209, 10%, 50%)",
         "comment": "hsl(0, 0%, 74%)",
-        "lineHighlight": "hsla(199, 18%, 33%, 0.60)",
+        "lineHighlight": "hsla(199, 18%, 33%, 0.50)",
         "blue": "hsl(180, 36%, 63%)",
         "aqua": "hsl(174, 42%, 65%)",
         "black": "hsl(0, 0%, 0%)",
