@@ -4,6 +4,9 @@
   "description": "Mariana Theme for Sublime Text 3",
   "scripts": {
     "build": "gulp",
+    "build:themes": "gulp themes",
+    "build:schemes": "gulp schemes",
+    "build:icons": "gulp icons",
     "lint": "./node_modules/.bin/eslint src/**/*.json",
     "lint:fix": "./node_modules/.bin/eslint src/**/*.json --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +17,12 @@
   "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-register": "^6.14.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-root-import": "^4.1.8",
     "eslint": "^5.10.0",
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "gulp-svg2png": "^2.0.2"
   }
 }

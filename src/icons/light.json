@@ -1,16 +1,16 @@
 {
-    "icon_button_highlight": {
-        "sizes": [
+    "highlight_matches": {
+        "settings": [
             {
-                "size": 16,
+                "size": 24,
                 "suffix": false
             },
             {
-                "size": 32,
+                "size": 48,
                 "suffix": "@2x"
             },
             {
-                "size": 48,
+                "size": 72,
                 "suffix": "@3x"
             }
         ]
