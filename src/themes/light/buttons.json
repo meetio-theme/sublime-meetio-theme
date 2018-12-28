@@ -1,7 +1,13 @@
 [
     {
+        "class": "label_control",
+        "parents": [{"class": "button_control"}],
+        "color": [176, 190, 196],
+        "font.bold": true
+    },
+    {
         "class": "button_control",
-        "layer0.tint": [202, 207, 211],
+        "layer0.tint": ["background", 0.5],
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "layer0.inner_margin": [6, 6],
         "content_margin": [6, 10, 6, 10],
@@ -10,7 +16,7 @@
     {
         "class": "button_control",
         "attributes": ["hover"],
-        "layer0.tint": [186, 193, 198],
+        "layer0.tint": ["background", 1.0],
         "layer0.opacity": { "target": 0.9, "speed": 4.0, "interpolation": "smoothstep" }
     },
     {
@@ -29,14 +35,16 @@
     },
     {
         "class": "icon_button_control",
-        "layer0.texture": "mariana-theme/assets/light/icon_button_highlight.png",
+        "layer0.texture": "",
+        "layer0.tint": ["background", 1.0],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 0,
-        "content_margin": 10
+        "content_margin": 8
     },
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
+        "layer0.tint": ["background", 0.0],
         "layer0.opacity": 1.0
     },
     {

@@ -1,12 +1,12 @@
 [
     {
         "class": "label_control",
-        "fg": [64, 64, 64],
-        "font.size": 12
+        "fg": ["foreground", 1.0],
+        "font.bold": true
     },
     {
         "class": "title_label_control",
-        "fg": [64, 64, 64],
+        "fg": ["foreground", 1.0],
         "font.size": 24
     },
     {
