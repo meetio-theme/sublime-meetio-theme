@@ -35,7 +35,7 @@ function theme(name, tone) {
     console.log("===============================================================================");
 }
 
-function scheme() {
+function schemes() {
     console.log("===============================================================================");
     console.log("▶️  - Start Scheme Build.");
     console.log("===============================================================================");
@@ -61,7 +61,7 @@ function scheme() {
 }
 
 const build = () => {
-    scheme();
+    schemes();
     theme("Mariana-Theme-Light", "light");
     // theme("Mariana-Theme-Dark", "dark");
 };
