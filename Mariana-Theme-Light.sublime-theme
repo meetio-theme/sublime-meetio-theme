@@ -43,37 +43,6 @@
         "layer0.opacity": 1
     },
     {
-        "class": "fold_button_control",
-        "layer0.texture": "mariana-theme/assets/light/fold_right.png",
-        "layer0.opacity": 1,
-        "layer0.inner_margin": 0,
-        "layer1.texture": "mariana-theme/assets/light/fold_right_hover.png",
-        "layer1.opacity": 0,
-        "layer1.inner_margin": 0,
-        "content_margin": [
-            9,
-            7,
-            8,
-            6
-        ]
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": [
-            "hover"
-        ],
-        "layer0.opacity": 0,
-        "layer1.opacity": 1
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": [
-            "expanded"
-        ],
-        "layer0.texture": "mariana-theme/assets/light/fold_down.png",
-        "layer1.texture": "mariana-theme/assets/light/fold_down_hover.png"
-    },
-    {
         "class": "button_control",
         "layer0.tint": [
             202,
@@ -408,7 +377,7 @@
     },
     {
         "class": "icon_context",
-        "layer0.texture": "mariana-theme/assets/light/in_context.png",
+        "layer0.texture": "mariana-theme/assets/light/icon_in_context.png",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5,
@@ -477,6 +446,30 @@
             }
         ],
         "layer0.opacity": 1
+    },
+    {
+        "class": "fold_button_control",
+        "layer0.texture": "mariana-theme/assets/light/arrow_right.png",
+        "layer0.opacity": 1,
+        "layer0.inner_margin": 0,
+        "content_margin": [
+            4,
+            4
+        ]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": [
+            "hover"
+        ],
+        "layer0.opacity": 0.8
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": [
+            "expanded"
+        ],
+        "layer0.texture": "mariana-theme/assets/light/arrow_down.png"
     },
     {
         "class": "dialog",
@@ -548,8 +541,8 @@
         "layer0.texture": "mariana-theme/assets/light/folder_closed.png",
         "layer0.opacity": 1,
         "content_margin": [
-            11,
-            7
+            10,
+            10
         ]
     },
     {
@@ -565,25 +558,26 @@
         "layer0.texture": "mariana-theme/assets/light/folder_open.png",
         "layer0.opacity": 1,
         "content_margin": [
-            11,
-            7
+            10,
+            10
         ]
     },
     {
         "class": "icon_folder_loading",
         "layer0.texture": {
             "keyframes": [
-                "mariana-theme/assets/light/spinner01.png",
-                "mariana-theme/assets/light/spinner02.png",
-                "mariana-theme/assets/light/spinner03.png",
-                "mariana-theme/assets/light/spinner04.png",
-                "mariana-theme/assets/light/spinner05.png",
-                "mariana-theme/assets/light/spinner06.png",
-                "mariana-theme/assets/light/spinner07.png",
-                "mariana-theme/assets/light/spinner08.png",
-                "mariana-theme/assets/light/spinner09.png",
+                "mariana-theme/assets/light/spinner11.png",
                 "mariana-theme/assets/light/spinner10.png",
-                "mariana-theme/assets/light/spinner11.png"
+                "mariana-theme/assets/light/spinner9.png",
+                "mariana-theme/assets/light/spinner8.png",
+                "mariana-theme/assets/light/spinner7.png",
+                "mariana-theme/assets/light/spinner6.png",
+                "mariana-theme/assets/light/spinner5.png",
+                "mariana-theme/assets/light/spinner4.png",
+                "mariana-theme/assets/light/spinner3.png",
+                "mariana-theme/assets/light/spinner2.png",
+                "mariana-theme/assets/light/spinner1.png",
+                "mariana-theme/assets/light/spinner.png"
             ],
             "loop": true,
             "frame_time": 0.08
@@ -609,32 +603,6 @@
         "content_margin": [
             9,
             9
-        ]
-    },
-    {
-        "class": "label_control",
-        "fg": [
-            64,
-            64,
-            64
-        ],
-        "font.size": 12
-    },
-    {
-        "class": "title_label_control",
-        "fg": [
-            64,
-            64,
-            64
-        ],
-        "font.size": 24
-    },
-    {
-        "class": "label_control",
-        "parents": [
-            {
-                "class": "button_control"
-            }
         ]
     },
     {
@@ -693,7 +661,7 @@
             0,
             0
         ],
-        "layer1.texture": "mariana-theme/assets/light/overflow_menu_hover.png",
+        "layer1.texture": "mariana-theme/assets/light/overflow_menu.png",
         "layer1.opacity": 0,
         "layer1.inner_margin": [
             0,
@@ -708,8 +676,34 @@
         "layer1.opacity": 1
     },
     {
+        "class": "label_control",
+        "fg": [
+            64,
+            64,
+            64
+        ],
+        "font.size": 12
+    },
+    {
+        "class": "title_label_control",
+        "fg": [
+            64,
+            64,
+            64
+        ],
+        "font.size": 24
+    },
+    {
+        "class": "label_control",
+        "parents": [
+            {
+                "class": "button_control"
+            }
+        ]
+    },
+    {
         "class": "close_button",
-        "layer0.texture": "mariana-theme/assets/light/close_icon.png",
+        "layer0.texture": "mariana-theme/assets/light/icon_close.png",
         "layer0.opacity": 1,
         "content_margin": [
             8,
@@ -721,7 +715,7 @@
         "attributes": [
             "hover"
         ],
-        "layer0.texture": "mariana-theme/assets/light/close_icon_hover.png",
+        "layer0.texture": "mariana-theme/assets/light/icon_close.png",
         "layer0.opacity": 1
     },
     {
@@ -737,13 +731,14 @@
             "hover",
             "dirty"
         ],
-        "layer0.texture": "mariana-theme/assets/light/dirty_icon_hover.png"
+        "layer0.texture": "mariana-theme/assets/light/dirty_icon.png"
     },
     {
         "class": "panel_control",
         "layer0.tint": [
-            "background",
-            0.4
+            250,
+            250,
+            250
         ],
         "layer0.inner_margin": [
             2,
@@ -753,9 +748,9 @@
         ],
         "layer0.opacity": 1,
         "layer1.tint": [
-            220,
-            222,
-            224
+            250,
+            250,
+            250
         ],
         "layer1.inner_margin": [
             2,
@@ -779,9 +774,8 @@
             }
         ],
         "layer0.tint": [
-            220,
-            222,
-            224
+            "background",
+            1
         ]
     },
     {
@@ -792,7 +786,7 @@
     },
     {
         "class": "panel_close_button",
-        "layer0.texture": "mariana-theme/assets/light/close_icon.png",
+        "layer0.texture": "mariana-theme/assets/light/icon_close.png",
         "layer0.opacity": {
             "target": 0.4,
             "speed": 4,
@@ -817,110 +811,218 @@
     },
     {
         "class": "overlay_control",
-        "layer1.tint": [
-            220,
-            222,
-            224
+        "layer0.inner_margin": [
+            24,
+            4,
+            24,
+            33
         ],
         "layer0.opacity": 1,
-        "content_margin": 4
+        "layer1.inner_margin": [
+            16,
+            0,
+            16,
+            25
+        ],
+        "layer1.opacity": 1,
+        "content_margin": [
+            13,
+            13,
+            13,
+            33
+        ]
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "layer0.tint": [
+            250,
+            250,
+            250
+        ],
+        "layer0.inner_margin": [
+            2,
+            2,
+            2,
+            2
+        ],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": [
+            "selected"
+        ],
+        "layer0.tint": [
+            144,
+            164,
+            174
+        ]
     },
     {
         "class": "quick_panel",
-        "row_padding": 6,
-        "layer0.tint": [
-            220,
-            222,
-            224
+        "row_padding": [
+            32,
+            12
         ],
-        "layer0.opacity": 1,
-        "dark_content": false
-    },
-    {
-        "class": "mini_quick_panel_row",
         "layer0.tint": [
-            199,
-            203,
-            209
-        ],
-        "layer0.opacity": 0
-    },
-    {
-        "class": "mini_quick_panel_row",
-        "attributes": [
-            "selected"
+            250,
+            250,
+            250
         ],
         "layer0.opacity": 1
     },
     {
         "class": "quick_panel_row",
         "layer0.tint": [
-            199,
-            203,
-            209
+            38,
+            50,
+            56,
+            0
         ],
-        "layer0.opacity": 0
+        "layer0.opacity": 1
+    },
+    {
+        "class": "quick_panel_row",
+        "parents": [
+            {
+                "class": "overlay_control"
+            }
+        ],
+        "layer0.tint": [
+            250,
+            250,
+            250
+        ],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "quick_panel",
+        "parents": [
+            {
+                "class": "overlay_control"
+            }
+        ],
+        "row_padding": [
+            32,
+            12
+        ],
+        "layer0.tint": [
+            38,
+            50,
+            56,
+            0
+        ],
+        "layer0.opacity": 1
     },
     {
         "class": "quick_panel_row",
         "attributes": [
             "selected"
         ],
-        "layer0.opacity": 1
+        "layer0.tint": [
+            144,
+            164,
+            174
+        ],
+        "layer1.opacity": 0
     },
     {
         "class": "quick_panel_label",
         "fg": [
-            69,
-            74,
-            85
+            128,
+            203,
+            196,
+            255
         ],
         "match_fg": [
-            0,
-            0,
-            0
+            128,
+            203,
+            196,
+            255
         ],
         "selected_fg": [
-            46,
-            49,
-            56
+            255,
+            255,
+            255,
+            255
         ],
         "selected_match_fg": [
-            0,
-            0,
-            0
+            128,
+            203,
+            196,
+            255
         ]
     },
     {
         "class": "quick_panel_label",
         "parents": [
             {
-                "class": "mini_quick_panel_row"
+                "class": "overlay_control"
             }
         ],
-        "font.size": 14
+        "fg": [
+            84,
+            110,
+            122
+        ],
+        "match_fg": [
+            128,
+            203,
+            196,
+            255
+        ],
+        "selected_fg": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "selected_match_fg": [
+            128,
+            203,
+            196,
+            255
+        ]
     },
     {
         "class": "quick_panel_path_label",
         "fg": [
-            115,
-            125,
-            140
+            176,
+            190,
+            197,
+            255
         ],
         "match_fg": [
-            92,
-            100,
-            112
+            128,
+            203,
+            196,
+            255
         ],
         "selected_fg": [
-            92,
-            100,
-            112
+            255,
+            255,
+            255,
+            255
         ],
         "selected_match_fg": [
-            69,
-            74,
-            85
+            128,
+            203,
+            196,
+            255
+        ]
+    },
+    {
+        "class": "quick_panel_score_label",
+        "fg": [
+            84,
+            110,
+            122
+        ],
+        "selected_fg": [
+            255,
+            255,
+            255,
+            255
         ]
     },
     {
@@ -1198,30 +1300,70 @@
         "font.bold": true
     },
     {
-        "class": "title_bar",
-        "bg": [
-            115,
-            128,
-            140
+        "class": "status_bar",
+        "layer0.tint": [
+            171,
+            177,
+            186
         ],
-        "fg": [
-            235,
-            237,
-            239
+        "layer0.opacity": 1,
+        "content_margin": [
+            10,
+            2,
+            0,
+            2
         ]
     },
     {
-        "class": "title_bar",
-        "settings": [
-            "mariana_theme_titlebar"
+        "class": "panel_button_control",
+        "layer0.texture": "mariana-theme/assets/light/overflow_menu.png",
+        "layer0.opacity": 1,
+        "content_margin": [
+            8,
+            8
+        ]
+    },
+    {
+        "class": "panel_button_control",
+        "attributes": [
+            "hover"
         ],
-        "bg": [
-            "background",
-            0.96
+        "layer0.texture": "mariana-theme/assets/light/overflow_menu.png"
+    },
+    {
+        "class": "status_container",
+        "content_margin": [
+            8,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "class": "status_button",
+        "content_margin": [
+            10,
+            0,
+            10,
+            0
         ],
-        "fg": [
-            "foreground",
-            1
+        "min_size": [
+            80,
+            0
+        ]
+    },
+    {
+        "class": "label_control",
+        "parents": [
+            {
+                "class": "status_bar"
+            }
+        ],
+        "font.size": 11,
+        "color": [
+            30,
+            40,
+            44
         ]
     },
     {
@@ -1374,13 +1516,13 @@
     {
         "class": "tab_close_button",
         "content_margin": [
-            0,
-            0
+            6,
+            6
         ],
-        "layer0.texture": "mariana-theme/assets/light/close_icon.png",
+        "layer0.texture": "mariana-theme/assets/light/icon_close.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer1.texture": "mariana-theme/assets/light/close_icon_hover.png",
+        "layer1.texture": "mariana-theme/assets/light/icon_close.png",
         "layer1.opacity": {
             "target": 0,
             "speed": 5,
@@ -1388,7 +1530,7 @@
         },
         "layer2.texture": "mariana-theme/assets/light/dirty_icon.png",
         "layer2.inner_margin": 0,
-        "layer3.texture": "mariana-theme/assets/light/dirty_icon_hover.png",
+        "layer3.texture": "mariana-theme/assets/light/dirty_icon.png",
         "layer3.opacity": {
             "target": 0,
             "speed": 5,
@@ -1401,8 +1543,8 @@
             "show_tab_close_buttons"
         ],
         "content_margin": [
-            8,
-            8
+            7,
+            7
         ]
     },
     {
@@ -1447,8 +1589,8 @@
         "layer2.opacity": 0,
         "layer3.opacity": 1,
         "content_margin": [
-            8,
-            8
+            7,
+            7
         ]
     },
     {
@@ -1513,8 +1655,8 @@
             "interpolation": "smoothstep"
         },
         "content_margin": [
-            14,
-            7
+            10,
+            10
         ]
     },
     {
@@ -1537,8 +1679,8 @@
             "interpolation": "smoothstep"
         },
         "content_margin": [
-            14,
-            7
+            10,
+            10
         ]
     },
     {
@@ -1561,7 +1703,7 @@
         "layer0.texture": "mariana-theme/assets/light/overflow_menu.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer1.texture": "mariana-theme/assets/light/overflow_menu_hover.png",
+        "layer1.texture": "mariana-theme/assets/light/overflow_menu.png",
         "layer1.opacity": {
             "target": 0,
             "speed": 8,
@@ -1581,70 +1723,30 @@
         }
     },
     {
-        "class": "status_bar",
-        "layer0.tint": [
-            171,
-            177,
-            186
+        "class": "title_bar",
+        "bg": [
+            115,
+            128,
+            140
         ],
-        "layer0.opacity": 1,
-        "content_margin": [
-            10,
-            2,
-            0,
-            2
+        "fg": [
+            235,
+            237,
+            239
         ]
     },
     {
-        "class": "panel_button_control",
-        "layer0.texture": "mariana-theme/assets/light/overflow_menu.png",
-        "layer0.opacity": 1,
-        "content_margin": [
-            8,
-            8
-        ]
-    },
-    {
-        "class": "panel_button_control",
-        "attributes": [
-            "hover"
+        "class": "title_bar",
+        "settings": [
+            "mariana_theme_titlebar"
         ],
-        "layer0.texture": "mariana-theme/assets/light/overflow_menu_hover.png"
-    },
-    {
-        "class": "status_container",
-        "content_margin": [
-            8,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "class": "status_button",
-        "content_margin": [
-            10,
-            0,
-            10,
-            0
+        "bg": [
+            "background",
+            0.96
         ],
-        "min_size": [
-            80,
-            0
-        ]
-    },
-    {
-        "class": "label_control",
-        "parents": [
-            {
-                "class": "status_bar"
-            }
-        ],
-        "font.size": 11,
-        "color": [
-            30,
-            40,
-            44
+        "fg": [
+            "foreground",
+            1
         ]
     },
     {

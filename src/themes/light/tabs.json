@@ -77,21 +77,21 @@
     },
     {
         "class": "tab_close_button",
-        "content_margin": [0, 0],
-        "layer0.texture": "mariana-theme/assets/light/close_icon.png",
+        "content_margin": [6, 6],
+        "layer0.texture": "mariana-theme/assets/light/icon_close.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer1.texture": "mariana-theme/assets/light/close_icon_hover.png",
+        "layer1.texture": "mariana-theme/assets/light/icon_close.png",
         "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
         "layer2.texture": "mariana-theme/assets/light/dirty_icon.png",
         "layer2.inner_margin": 0,
-        "layer3.texture": "mariana-theme/assets/light/dirty_icon_hover.png",
+        "layer3.texture": "mariana-theme/assets/light/dirty_icon.png",
         "layer3.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
     },
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [8,8]
+        "content_margin": [7, 7]
     },
     {
         "class": "tab_close_button",
@@ -114,7 +114,7 @@
         "layer1.opacity": 0,
         "layer2.opacity": 0,
         "layer3.opacity": 1,
-        "content_margin": [8,8]
+        "content_margin": [7, 7]
     },
     {
         "class": "tab_close_button",
@@ -146,7 +146,7 @@
         "class": "scroll_tabs_left_button",
         "layer0.texture": "mariana-theme/assets/light/arrow_left.png",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
-        "content_margin": [14, 7]
+        "content_margin": [10, 10]
     },
     {
         "class": "scroll_tabs_left_button",
@@ -157,7 +157,7 @@
         "class": "scroll_tabs_right_button",
         "layer0.texture": "mariana-theme/assets/light/arrow_right.png",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
-        "content_margin": [14, 7]
+        "content_margin": [10, 10]
     },
     {
         "class": "scroll_tabs_right_button",
@@ -170,7 +170,7 @@
         "layer0.texture": "mariana-theme/assets/light/overflow_menu.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "mariana-theme/assets/light/overflow_menu_hover.png",
+        "layer1.texture": "mariana-theme/assets/light/overflow_menu.png",
         "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
         "layer1.inner_margin": 0
     },

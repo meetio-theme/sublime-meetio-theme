@@ -9,11 +9,11 @@ const debug = true;
 function __icons(variation) {
     let iconPath;
     fs.readdirSync("./src/icons/svg").forEach(icon => {
-        if (debug) console.log(`👁  - Reading ${icon} icon.`);
         iconPath = path.join(__dirname, `/../src/icons/svg/${icon}`);
+        icon = icon.split(".").slice(0, -1).join(".");
+        if (debug) console.log(`👁  - Reading ${icon} icon.`);
         fs.readFile(iconPath, (err, data) => {
             if (err) throw err;
-            icon = icon.split(".").slice(0, -1).join(".");
             options.settings.forEach(setting => {
                 svg2png(data, { width: setting.size, height: setting.size })
                     .then(buffer => {

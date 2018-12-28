@@ -14,7 +14,7 @@
     {
         "class": "panel_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "mariana-theme/assets/light/overflow_menu_hover.png"
+        "layer0.texture": "mariana-theme/assets/light/overflow_menu.png"
     },
     {
         "class": "status_container",
