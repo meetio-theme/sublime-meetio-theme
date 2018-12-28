@@ -1362,6 +1362,23 @@
         "fg": [
             "foreground",
             0.4
+        ],
+        "font.bold": false
+    },
+    {
+        "class": "tab_label",
+        "parents": [
+            {
+                "class": "tab_control",
+                "attributes": [
+                    "selected"
+                ]
+            }
+        ],
+        "font.bold": false,
+        "fg": [
+            "foreground",
+            1
         ]
     },
     {
@@ -1374,10 +1391,10 @@
                 ]
             }
         ],
-        "fg": [
-            "foreground",
-            1
-        ]
+        "settings": [
+            "mariana_theme_tabs_selected_bold"
+        ],
+        "font.bold": true
     },
     {
         "class": "tab_label",
