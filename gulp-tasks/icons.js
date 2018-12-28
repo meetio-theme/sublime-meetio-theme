@@ -2,18 +2,19 @@
 import path from "path";
 import fs from "fs";
 import svg2png from "svg2png";
-import lightIcons from "./../src/icons/light.json";
+import allIcons from "./../src/icons/icons.json";
+import options from "./../src/icons/options.json";
 
 const debug = true;
 
 function __icons(variation) {
     let iconPath;
-    Object.keys(lightIcons).forEach(icon => {
+    allIcons.forEach(icon => {
         if (debug) console.log(`👁  - Reading ${icon} icon.`);
         iconPath = path.join(__dirname, `/../src/icons/svg/${icon}.svg`);
         fs.readFile(iconPath, (err, data) => {
             if (err) throw err;
-            lightIcons[icon].settings.forEach(setting => {
+            options.settings.forEach(setting => {
                 svg2png(data, { width: setting.size, height: setting.size })
                     .then(buffer => {
                         fs.writeFileSync(`assets/${variation}/${setting.suffix ? icon + setting.suffix : icon}.png`, buffer, (err) => {
@@ -22,10 +23,10 @@ function __icons(variation) {
                                 console.log(err);
                             }
                         });
+                        console.log(`✅ - Icon: ${setting.suffix ? icon + setting.suffix : icon} was saved!`);
                     })
                     .catch(e => console.error(e));
             });
-            console.log(`✅ - Icon: ${icon} was saved!`);
         });
     });
 }
