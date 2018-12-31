@@ -7,7 +7,7 @@
         "punctuation": "hsl(209, 10%, 50%)",
         "comment": "hsl(0, 0%, 74%)",
         "lineHighlight": "hsla(199, 18%, 33%, 0.50)",
-        "blue": "hsl(180, 36%, 63%)",
+        "blue": "hsl(221, 100%, 75%)",
         "aqua": "hsl(180, 100%, 81%)",
         "black": "hsl(0, 0%, 0%)",
         "blueLight": "hsla(205, 87%, 94%, 0.2)",
@@ -16,19 +16,19 @@
         "gray": "hsl(0, 0%, 24%)",
         "green": "hsl(84, 66%, 73%)",
         "orange": "hsl(37, 100%, 50%)",
-        "pink": "hsl(344, 100%, 69%)",
+        "pink": "hsl(308, 100%, 82%)",
         "red": "hsl(357, 78%, 68%)",
         "salmon": "hsl(13, 93%, 66%)",
         "violet": "hsl(276, 68%, 75%)",
         "warning": "hsl(351, 64%, 59%)",
         "whiteSmoke": "hsl(210, 11%, 93%)",
-        "yellow": "hsl(47, 50%, 100%)",
+        "yellow": "hsl(47, 100%, 50%)",
         "yellowDark": "hsl(47, 100%, 50%)"
     },
     "globals": {
         "foreground": "var(foreground)",
         "background": "var(background)",
-        "caret": "var(orange)",
+        "caret": "var(yellow)",
         "line_highlight": "var(lineHighlight)",
         "selection": "var(blueLight)",
         "selection_border": "var(blue)",
@@ -89,7 +89,7 @@
         {
             "name": "Punctuation",
             "scope": "punctuation.terminator",
-            "foreground": "var(blue)"
+            "foreground": "var(orange)"
         },
         {
             "name": "Punctuation",
@@ -99,7 +99,7 @@
         {
             "name": "Variable SASS",
             "scope": "variable.other.php, variable.other.sass, variable.other.scss",
-            "foreground": "var(pink)"
+            "foreground": "var(green)"
         },
         {
             "name": "Annotation Punctuation",
@@ -207,7 +207,7 @@
         {
             "name": "Library class/type",
             "scope": "support.type, support.class",
-            "foreground": "var(blue)"
+            "foreground": "var(yellow)"
         },
         {
             "name": "Invalid",
@@ -379,6 +379,6 @@
             "name": "Object Keys",
             "scope": "string.unquoted.label.js, meta.object-literal.key.js, string.unquoted.label.jsx, meta.object-literal.key.jsx, string.unquoted.label.ts, meta.object-literal.key.ts, meta.function.return-type.ts, meta.function.parameters.ts",
             "foreground": "var(red)"
-        },
+        }
     ]
 }

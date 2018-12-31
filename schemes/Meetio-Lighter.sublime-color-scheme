@@ -7,7 +7,7 @@
         "punctuation": "hsl(209, 10%, 50%)",
         "comment": "hsl(0, 0%, 74%)",
         "lineHighlight": "hsla(199, 18%, 33%, 0.05)",
-        "blue": "hsl(230, 44%, 64%)",
+        "blue": "hsl(218, 38%, 55%)",
         "aqua": "hsl(174, 42%, 65%)",
         "black": "hsl(0, 0%, 0%)",
         "blueLight": "hsla(205, 87%, 94%, 0.2)",
@@ -25,10 +25,10 @@
         "yellow": "hsl(39, 100%, 59%)",
         "yellowDark": "hsl(29, 66%, 57%)"
     },
-    "globals": {
+      "globals": {
         "foreground": "var(foreground)",
         "background": "var(background)",
-        "pink": "var(background)",
+        "caret": "var(yellow)",
         "line_highlight": "var(lineHighlight)",
         "selection": "var(blueLight)",
         "selection_border": "var(blue)",
@@ -49,7 +49,7 @@
         "tags_options": "stippled_underline",
         "tags_foreground": "var(violet)"
     },
-    "rules": [
+  "rules": [
         {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
@@ -68,7 +68,7 @@
         },
         {
             "name": "User-defined constant",
-            "scope": "constant.character, constant.other, storage.type, keyword.control",
+            "scope": "constant.character, constant.other",
             "foreground": "var(violet)"
         },
         {
@@ -89,7 +89,7 @@
         {
             "name": "Punctuation",
             "scope": "punctuation.terminator",
-            "foreground": "var(blue)"
+            "foreground": "var(orange)"
         },
         {
             "name": "Punctuation",
@@ -99,7 +99,7 @@
         {
             "name": "Variable SASS",
             "scope": "variable.other.php, variable.other.sass, variable.other.scss",
-            "foreground": "var(red)"
+            "foreground": "var(green)"
         },
         {
             "name": "Annotation Punctuation",
@@ -207,7 +207,7 @@
         {
             "name": "Library class/type",
             "scope": "support.type, support.class",
-            "foreground": "var(blue)"
+            "foreground": "var(yellow)"
         },
         {
             "name": "Invalid",
@@ -264,7 +264,7 @@
             "scope": "message.error",
             "foreground": "var(red)"
         },
-        {
+            {
             "name": "JSON Key - Level 0",
             "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
             "foreground": "var(violet)"
@@ -272,7 +272,7 @@
         {
             "name": "JSON Key - Level 1",
             "scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(blue)"
+            "foreground": "var(aqua)"
         },
         {
             "name": "JSON Key - Level 2",
@@ -373,7 +373,12 @@
         {
             "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
             "scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
-            "foreground": "var(orange)"
+            "foreground": "var(salmon)"
+        },
+        {
+            "name": "Object Keys",
+            "scope": "string.unquoted.label.js, meta.object-literal.key.js, string.unquoted.label.jsx, meta.object-literal.key.jsx, string.unquoted.label.ts, meta.object-literal.key.ts, meta.function.return-type.ts, meta.function.parameters.ts",
+            "foreground": "var(red)"
         }
     ]
 }

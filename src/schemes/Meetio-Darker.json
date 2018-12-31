@@ -7,7 +7,7 @@
         "punctuation": "hsl(279, 17%, 66%)",
         "comment": "hsl(0, 0%, 74%)",
         "lineHighlight": "hsla(199, 18%, 33%, 0.50)",
-        "blue": "hsl(180, 36%, 63%)",
+        "blue": "hsl(221, 100%, 75%)",
         "aqua": "hsl(174, 42%, 65%)",
         "black": "hsl(0, 0%, 0%)",
         "blueLight": "hsla(205, 87%, 94%, 0.2)",
@@ -25,10 +25,10 @@
         "yellow": "hsl(39, 100%, 59%)",
         "yellowDark": "hsl(29, 66%, 57%)"
     },
-    "globals": {
+     "globals": {
         "foreground": "var(foreground)",
         "background": "var(background)",
-        "caret": "var(orange)",
+        "caret": "var(yellow)",
         "line_highlight": "var(lineHighlight)",
         "selection": "var(blueLight)",
         "selection_border": "var(blue)",
@@ -89,7 +89,7 @@
         {
             "name": "Punctuation",
             "scope": "punctuation.terminator",
-            "foreground": "var(blue)"
+            "foreground": "var(orange)"
         },
         {
             "name": "Punctuation",
@@ -99,7 +99,7 @@
         {
             "name": "Variable SASS",
             "scope": "variable.other.php, variable.other.sass, variable.other.scss",
-            "foreground": "var(pink)"
+            "foreground": "var(green)"
         },
         {
             "name": "Annotation Punctuation",
@@ -207,7 +207,7 @@
         {
             "name": "Library class/type",
             "scope": "support.type, support.class",
-            "foreground": "var(blue)"
+            "foreground": "var(yellow)"
         },
         {
             "name": "Invalid",
@@ -272,7 +272,7 @@
         {
             "name": "JSON Key - Level 1",
             "scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(blue)"
+            "foreground": "var(aqua)"
         },
         {
             "name": "JSON Key - Level 2",
@@ -379,6 +379,6 @@
             "name": "Object Keys",
             "scope": "string.unquoted.label.js, meta.object-literal.key.js, string.unquoted.label.jsx, meta.object-literal.key.jsx, string.unquoted.label.ts, meta.object-literal.key.ts, meta.function.return-type.ts, meta.function.parameters.ts",
             "foreground": "var(red)"
-        },
+        }
     ]
 }
