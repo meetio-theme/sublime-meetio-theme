@@ -5,8 +5,7 @@
 ## Installation
 
 **With Package Control:** _(NOT AVAILABLE YET)_
-
-1. Open `Command Palette` using menu item `Tools → Command Palette` or `(Ctrl or ⌘) + ⇧ + P**`
+1. Open `Command Palette` using menu item `Tools → Command Palette` or `(Ctrl or ⌘) + ⇧ + P`
 2. Choose `Package Control: Install Package`
 2. Type `Meetio` and press `Enter`
 3. Restart Sublime Text
@@ -29,6 +28,14 @@ To activate this theme, adding these lines to your user settings (**Preferences 
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.tmTheme",
   "theme": "Meetio.sublime-theme",
+```
+
+### Schemes variations
+
+```json
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.tmTheme", // based on Material Light Scheme
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Darker.tmTheme", // based on Material Darker Scheme
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.tmTheme" // base on Cobalt2 Scheme
 ```
 
 ### Theme options
