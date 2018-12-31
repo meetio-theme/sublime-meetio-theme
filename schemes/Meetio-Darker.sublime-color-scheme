@@ -22,7 +22,7 @@
         "violet": "hsl(276, 68%, 75%)",
         "warning": "hsl(351, 64%, 59%)",
         "white": "hsl(0, 0%, 100%)",
-        "yellow": "hsl(39, 100%, 59%)",
+        "yellow": "hsl(39, 100%, 71%)",
         "yellowDark": "hsl(29, 66%, 57%)"
     },
      "globals": {
@@ -60,7 +60,6 @@
             "scope": "string",
             "foreground": "var(green)"
         },
-
         {
             "name": "Number",
             "scope": "constant.numeric",

@@ -22,7 +22,7 @@
         "violet": "hsl(276, 68%, 75%)",
         "warning": "hsl(351, 64%, 59%)",
         "white": "hsl(0, 0%, 100%)",
-        "yellow": "hsl(47, 100%, 50%)",
+        "yellow": "hsl(39, 100%, 71%)",
         "yellowDark": "hsl(47, 100%, 50%)"
     },
     "globals": {

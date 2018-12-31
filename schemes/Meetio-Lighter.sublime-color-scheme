@@ -60,7 +60,6 @@
             "scope": "string",
             "foreground": "var(green)"
         },
-
         {
             "name": "Number",
             "scope": "constant.numeric",
