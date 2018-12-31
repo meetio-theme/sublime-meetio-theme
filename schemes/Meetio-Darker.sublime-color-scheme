@@ -4,7 +4,7 @@
     "variables": {
         "background": "hsl(208, 21%, 14%)",
         "foreground": "hsl(180, 100%, 97%)",
-        "punctuation": "hsl(209, 10%, 50%)",
+        "punctuation": "hsl(279, 17%, 66%)",
         "comment": "hsl(0, 0%, 74%)",
         "lineHighlight": "hsla(199, 18%, 33%, 0.50)",
         "blue": "hsl(180, 36%, 63%)",

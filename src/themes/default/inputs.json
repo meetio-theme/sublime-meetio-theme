@@ -1,0 +1,35 @@
+[
+    {
+        "class": "text_line_control",
+        "layer0.texture": "",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [20, 5, 20, 5],
+        "tint_index": 1,
+        "layer0.tint": ["background", 1.0],
+        "content_margin": [10, 8, 12, 8]
+    },
+    {
+      "class": "text_line_control",
+      "parents": [{"class": "overlay_control"}],
+      "layer0.texture": "",
+      "layer0.opacity": 1.0,
+      "layer0.inner_margin": [32, 0, 32, 2],
+      "layer0.draw_center": true,
+      "content_margin": [32, 8, 32, 8]
+  },
+  {
+    "class": "dropdown_button_control",
+    "content_margin": [12, 12],
+    "layer0.texture": "meetio/assets/default/overflow_menu.png",
+    "layer0.opacity": 1.0,
+    "layer0.inner_margin": [0, 0],
+    "layer1.texture": "meetio/assets/default/overflow_menu.png",
+    "layer1.opacity": 0.0,
+    "layer1.inner_margin": [0, 0]
+},
+{
+    "class": "dropdown_button_control",
+    "attributes": ["hover"],
+    "layer1.opacity": 1.0
+}
+]

@@ -1,0 +1,183 @@
+[
+    {
+        "class": "tabset_control",
+        "layer0.opacity": 1.0,
+        "layer0.tint": ["background", 0.96],
+        "tint_index": 1,
+        "layer0.inner_margin": [8, 8],
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 0, 8, 0],
+        "tab_overlap": 0,
+        "tab_width": 180,
+        "tab_min_width": 68,
+        "tab_height": 38,
+        "mouse_wheel_switch": false
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["mouse_wheel_switches_tabs", "!enable_tab_scrolling"],
+        "mouse_wheel_switch": true
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["meetio_tabs_autowidth"],
+        "tab_width": 0
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["meetio_tabs_large"],
+        "tab_height": 48
+    },
+    {
+        "class": "tab_control",
+        "layer0.tint": ["background", 0],
+        "layer0.inner_margin": [24, 0],
+        "layer0.opacity": 1.0,
+        "tint_index": 0,
+
+        "layer1.tint": ["background", 1.0],
+        "layer1.inner_margin": [0, 0],
+        "layer1.opacity": 0.0,
+
+        "layer2.inner_margin": [0, 0],
+        "layer2.opacity": { "target": 0.0, "speed": 3.0, "interpolation": "smoothstep" },
+        "content_margin": [8, 0, 8, 0],
+        "max_margin_trim": 0
+    },
+    {
+        "class": "tab_control",
+        "settings": ["show_tab_close_buttons"],
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "tab_control", "attributes": ["selected"],
+        "layer1.opacity": 1.0
+    },
+    {
+        "class": "tab_label",
+        "fg":  ["foreground", 0.4],
+        "font.bold": false
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "font.bold": false,
+        "fg":  ["foreground", 1.0]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "settings": ["meetio_tabs_selected_bold"],
+        "font.bold": true
+    },
+    {
+        "class": "tab_label",
+        "attributes": ["transient"],
+        "font.italic": true
+    },
+
+    {
+        "class": "tab_close_button",
+        "content_margin": [0, 0],
+        "layer0.texture": "meetio/assets/default/icon_close.png",
+        "layer0.opacity": 0.2,
+        "layer0.inner_margin": 0,
+        "layer1.texture": "meetio/assets/default/icon_close.png",
+        "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
+        "layer2.texture": "meetio/assets/default/dirty_icon.png",
+        "layer2.inner_margin": 0,
+        "layer3.texture": "meetio/assets/default/dirty_icon.png",
+        "layer3.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["show_tab_close_buttons"],
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["show_tab_close_buttons"],
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "layer0.opacity": 0,
+        "layer1.opacity": 1
+    },
+    {
+        "class": "tab_close_button",
+        "settings": ["show_tab_close_buttons"],
+        "attributes": ["hover"],
+        "layer0.opacity": 0,
+        "layer1.opacity": 1
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "layer0.opacity": 0,
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1,
+        "content_margin": [8,8]
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "attributes": ["hover"],
+        "layer0.opacity": 0,
+        "layer1.opacity": 1,
+        "layer2.opacity": 0,
+        "layer3.opacity": 0
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+        "layer0.opacity": 0,
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 1
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+        "attributes": ["hover"],
+        "layer0.opacity": 0,
+        "layer1.opacity": 1,
+        "layer2.opacity": 0,
+        "layer3.opacity": 0
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "layer0.texture": "meetio/assets/default/arrow_left.png",
+        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+        "content_margin": [10, 10]
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "layer0.texture": "meetio/assets/default/arrow_right.png",
+        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+        "content_margin": [10, 10]
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "content_margin": [12, 12],
+        "layer0.texture": "meetio/assets/default/overflow_menu.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
+        "layer1.texture": "meetio/assets/default/overflow_menu.png",
+        "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
+        "layer1.inner_margin": 0
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "layer1.opacity": { "target": 1.0, "speed": 8.0, "interpolation": "smoothstep" }
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
+        "layer0.tint": "hsl(169, 38%, 45%)",
+        "content_margin": 6
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
+        "layer0.tint": "hsl(276, 68%, 75%)",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
+        "layer0.tint": "hsl(230, 44%, 64%)",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
+        "layer0.tint": "hsl(169, 38%, 45%)",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
+        "layer0.tint": "hsl(0, 65%, 51%)",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}],
+        "color": "color(hsl(200, 19%, 18%) blend(hsl(0, 0%, 100%) 45%))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
+        "layer0.tint": "hsl(169, 38%, 45%)",
+        "color": "hsl(169, 38%, 45%)"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
+        "color": "hsl(276, 68%, 75%)"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
+        "color": "hsl(230, 44%, 64%)"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
+        "color": "hsl(169, 38%, 45%)"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
+        "color": "hsl(0, 65%, 51%)"
+    }
+]

@@ -4,12 +4,12 @@ import fs from "fs";
 
 const debug = true;
 
-function __theme(name, variation) {
+function __theme(name, folder) {
     const merge = [];
     let options = {};
-    fs.readdirSync(`./src/themes/${variation}/`).forEach(file => {
+    fs.readdirSync(`./src/themes/${folder}/`).forEach(file => {
         if (debug) console.log(`👁  reading "${file}" file.`);
-        file = path.join(__dirname, `/../src/themes/${variation}/` + file);
+        file = path.join(__dirname, `/../src/themes/${folder}/` + file);
         fs.readFile(file, "utf8", (err, data) => {
             if (err) throw err;
             options = JSON.parse(data);
@@ -29,5 +29,5 @@ function __theme(name, variation) {
 }
 
 export default function themes() {
-    __theme("Meetio", "light");
+    __theme("Meetio", "default");
 }
