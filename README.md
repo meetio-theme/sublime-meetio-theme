@@ -1,15 +1,33 @@
-# Meetio Theme
+# Meetio
+
+**Meetio** is the most powerful theme for Sublime Text 3 3103+. Comes in, both, lighter, darker and palenight variations.
 
 ## Installation
 
-1. Open package control `tools` → `Command Palette` and type `Install Package`
-2. Search for Meetio and press enter
+**With Package Control:** _(NOT AVAILABLE YET)_
 
-You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):
+1. Open `Command Palette` using menu item `Tools → Command Palette` or `(Ctrl or ⌘) + ⇧ + P**`
+2. Choose `Package Control: Install Package`
+2. Type `Meetio` and press `Enter`
+3. Restart Sublime Text
+    **macOS** : menu item `Sublime Text → Quit Sublime Text`
+    **Windows**: menu item `File → Exit`
+    **Linux** : menu item `File → Exit`
+
+4. Ready to use 🎉
+
+**Manually:**
+1. Download latest release and unzip. it into your Packages folder
+2. Go to `Sublime Text → Preferences → Browse Packages`
+3. Move folder to inside
+4. Start using...
+
+
+To activate this theme, adding these lines to your user settings (**Preferences > Settings - User**):
 
 
 ```json
-  "color_scheme": "Packages/Meetio/schemes/Meetio-Light.tmTheme",
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.tmTheme",
   "theme": "Meetio.sublime-theme",
 ```
 
