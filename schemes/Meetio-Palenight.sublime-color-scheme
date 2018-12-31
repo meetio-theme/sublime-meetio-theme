@@ -21,7 +21,7 @@
         "salmon": "hsl(13, 93%, 66%)",
         "violet": "hsl(276, 68%, 75%)",
         "warning": "hsl(351, 64%, 59%)",
-        "whiteSmoke": "hsl(210, 11%, 93%)",
+        "white": "hsl(0, 0%, 100%)",
         "yellow": "hsl(47, 100%, 50%)",
         "yellowDark": "hsl(47, 100%, 50%)"
     },
@@ -34,7 +34,7 @@
         "selection_border": "var(blue)",
         "inactive_selection": "var(blueLight)",
         "misspelling": "var(red)",
-        "shadow": "var(whiteSmoke)",
+        "shadow": "color(var(background) alpha(0.5))",
         "accent": "var(orange)",
         "active_guide": "var(aqua)",
         "stack_guide": "var(aqua)",
@@ -212,13 +212,13 @@
         {
             "name": "Invalid",
             "scope": "invalid",
-            "foreground": "var(whiteSmoke)",
+            "foreground": "var(white)",
             "background": "var(red)"
         },
         {
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
-            "foreground": "var(whiteSmoke)",
+            "foreground": "var(white)",
             "background": "var(warning)"
         },
         {

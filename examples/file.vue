@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <img width="25%" src="./assets/logo.png">
-        <HelloWorld/>
+        <HelloWorld @click="sayHello()" />
     </div>
 </template>
 
@@ -12,6 +12,14 @@
         name: 'App',
         components: {
             HelloWorld
+        },
+        mounted() {
+            this.sayHello();
+        },
+        methods:{
+            sayHello() {
+                console.log('Hello Word!');
+            }
         }
     }
 </script>

@@ -1,8 +1,14 @@
 class Animal {
     private name : String;
-    constructor(name) { }
+    private age : Number;
+
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public move(meters: Number): void {
-        console.log(this.name + " moved " + meters + "m.");
+        console.log(this.name + " moved " + meters + "meters.");
     }
 }
 
@@ -20,8 +26,8 @@ class Horse extends Animal {
     }
 }
 
-var sam = new Snake("Sammy the Python")
-var tom: Animal = new Horse("Tommy the Palomino")
+const sam = new Snake("Sammy the Python", 20)
+const tom: Animal = new Horse("Tommy the Palomino", 10)
 
 sam.move()
 tom.move(34)
