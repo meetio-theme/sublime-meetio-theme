@@ -1,5 +1,5 @@
 {
-    "name": "Mariana-Theme-Light",
+    "name": "Meetio-Lighter",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com",
     "variables": {
         "background": "hsl(0, 0%, 98%)",
@@ -14,12 +14,12 @@
         "blueDark": "hsl(215, 97%, 66%)",
         "blueSpace": "hsl(210, 13%, 45%)",
         "gray": "hsl(0, 0%, 24%)",
-        "green": "hsl(169, 38%, 45%)",
+        "green": "hsl(85, 40%, 54%)",
         "orange": "hsl(32, 93%, 66%)",
         "pink": "hsl(330, 80%, 60%)",
         "red": "hsl(1, 77%, 55%)",
         "salmon": "hsl(13, 93%, 66%)",
-        "violet": "hsl(291, 64%, 42%)",
+        "violet": "hsl(256, 100%, 65%)",
         "warning": "hsl(351, 64%, 59%)",
         "whiteSmoke": "hsl(210, 11%, 93%)",
         "yellow": "hsl(39, 100%, 59%)",

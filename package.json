@@ -1,7 +1,7 @@
 {
-  "name": "mariana-theme-sublime",
+  "name": "Meetio",
   "version": "1.0.0",
-  "description": "Mariana Theme for Sublime Text 3",
+  "description": "Meetio Theme for Sublime Text 3",
   "scripts": {
     "build": "gulp",
     "build:themes": "gulp themes",

@@ -1,24 +1,24 @@
 [
     {
         "class": "close_button",
-        "layer0.texture": "mariana-theme/assets/light/icon_close.png",
+        "layer0.texture": "meetio/assets/light/icon_close.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "mariana-theme/assets/light/icon_close.png",
+        "layer0.texture": "meetio/assets/light/icon_close.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "mariana-theme/assets/light/dirty_icon.png"
+        "layer0.texture": "meetio/assets/light/dirty_icon.png"
     },
     {
         "class": "close_button",
         "attributes": ["hover", "dirty"],
-        "layer0.texture": "mariana-theme/assets/light/dirty_icon.png"
+        "layer0.texture": "meetio/assets/light/dirty_icon.png"
     }
 ]

@@ -6,7 +6,7 @@
     },
     {
         "class": "title_bar",
-        "settings": ["mariana_theme_titlebar"],
+        "settings": ["meetio_titlebar"],
         "bg": ["background", 0.96],
         "fg":  ["foreground", 1.0]
     }

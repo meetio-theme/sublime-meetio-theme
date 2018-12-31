@@ -31,9 +31,9 @@
         ],
         "match_fg": [
             "hsl",
-            174,
-            42,
-            65
+            279,
+            17,
+            66
         ],
         "selected_fg": [
             "foreground",
@@ -41,9 +41,9 @@
         ],
         "selected_match_fg": [
             "hsl",
-            174,
-            42,
-            65
+            279,
+            17,
+            66
         ]
     },
     {
@@ -135,7 +135,7 @@
     },
     {
         "class": "icon_regex",
-        "layer0.texture": "mariana-theme/assets/light/icon_regex.png",
+        "layer0.texture": "meetio/assets/light/icon_regex.png",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5,
@@ -171,7 +171,7 @@
     },
     {
         "class": "icon_case",
-        "layer0.texture": "mariana-theme/assets/light/icon_case_sensitive.png",
+        "layer0.texture": "meetio/assets/light/icon_case_sensitive.png",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5,
@@ -207,7 +207,7 @@
     },
     {
         "class": "icon_whole_word",
-        "layer0.texture": "mariana-theme/assets/light/icon_whole_word.png",
+        "layer0.texture": "meetio/assets/light/icon_whole_word.png",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5,
@@ -243,7 +243,7 @@
     },
     {
         "class": "icon_wrap",
-        "layer0.texture": "mariana-theme/assets/light/icon_wrap.png",
+        "layer0.texture": "meetio/assets/light/icon_wrap.png",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5,
@@ -279,7 +279,7 @@
     },
     {
         "class": "icon_in_selection",
-        "layer0.texture": "mariana-theme/assets/light/icon_in_selection.png",
+        "layer0.texture": "meetio/assets/light/icon_in_selection.png",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5,
@@ -315,7 +315,7 @@
     },
     {
         "class": "icon_highlight",
-        "layer0.texture": "mariana-theme/assets/light/icon_highlight_matches.png",
+        "layer0.texture": "meetio/assets/light/icon_highlight_matches.png",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5,
@@ -351,7 +351,7 @@
     },
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "mariana-theme/assets/light/icon_preserve_case.png",
+        "layer0.texture": "meetio/assets/light/icon_preserve_case.png",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5,
@@ -387,7 +387,7 @@
     },
     {
         "class": "icon_context",
-        "layer0.texture": "mariana-theme/assets/light/icon_in_context.png",
+        "layer0.texture": "meetio/assets/light/icon_in_context.png",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5,
@@ -423,7 +423,7 @@
     },
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "mariana-theme/assets/light/icon_use_buffer.png",
+        "layer0.texture": "meetio/assets/light/icon_use_buffer.png",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5,
@@ -459,7 +459,7 @@
     },
     {
         "class": "fold_button_control",
-        "layer0.texture": "mariana-theme/assets/light/arrow_right.png",
+        "layer0.texture": "meetio/assets/light/arrow_right.png",
         "layer0.opacity": 0.4,
         "layer0.inner_margin": 0,
         "content_margin": [
@@ -483,7 +483,7 @@
         "attributes": [
             "expanded"
         ],
-        "layer0.texture": "mariana-theme/assets/light/arrow_down.png",
+        "layer0.texture": "meetio/assets/light/arrow_down.png",
         "content_margin": [
             12,
             12
@@ -519,7 +519,7 @@
     },
     {
         "class": "disclosure_button_control",
-        "layer0.texture": "mariana-theme/assets/light/disclosure_unexpanded.png",
+        "layer0.texture": "meetio/assets/light/disclosure_unexpanded.png",
         "layer0.opacity": {
             "target": 0.3,
             "speed": 4,
@@ -537,7 +537,7 @@
         "attributes": [
             "expanded"
         ],
-        "layer0.texture": "mariana-theme/assets/light/disclosure_expanded.png"
+        "layer0.texture": "meetio/assets/light/disclosure_expanded.png"
     },
     {
         "class": "disclosure_button_control",
@@ -552,7 +552,7 @@
     },
     {
         "class": "icon_folder",
-        "layer0.texture": "mariana-theme/assets/light/folder_closed.png",
+        "layer0.texture": "meetio/assets/light/folder_closed.png",
         "layer0.opacity": 1,
         "content_margin": [
             10,
@@ -569,7 +569,7 @@
                 ]
             }
         ],
-        "layer0.texture": "mariana-theme/assets/light/folder_open.png",
+        "layer0.texture": "meetio/assets/light/folder_open.png",
         "layer0.opacity": 1,
         "content_margin": [
             10,
@@ -580,18 +580,18 @@
         "class": "icon_folder_loading",
         "layer0.texture": {
             "keyframes": [
-                "mariana-theme/assets/light/spinner11.png",
-                "mariana-theme/assets/light/spinner10.png",
-                "mariana-theme/assets/light/spinner9.png",
-                "mariana-theme/assets/light/spinner8.png",
-                "mariana-theme/assets/light/spinner7.png",
-                "mariana-theme/assets/light/spinner6.png",
-                "mariana-theme/assets/light/spinner5.png",
-                "mariana-theme/assets/light/spinner4.png",
-                "mariana-theme/assets/light/spinner3.png",
-                "mariana-theme/assets/light/spinner2.png",
-                "mariana-theme/assets/light/spinner1.png",
-                "mariana-theme/assets/light/spinner.png"
+                "meetio/assets/light/spinner11.png",
+                "meetio/assets/light/spinner10.png",
+                "meetio/assets/light/spinner9.png",
+                "meetio/assets/light/spinner8.png",
+                "meetio/assets/light/spinner7.png",
+                "meetio/assets/light/spinner6.png",
+                "meetio/assets/light/spinner5.png",
+                "meetio/assets/light/spinner4.png",
+                "meetio/assets/light/spinner3.png",
+                "meetio/assets/light/spinner2.png",
+                "meetio/assets/light/spinner1.png",
+                "meetio/assets/light/spinner.png"
             ],
             "loop": true,
             "frame_time": 0.08
@@ -604,7 +604,7 @@
     },
     {
         "class": "icon_folder_dup",
-        "layer0.texture": "mariana-theme/assets/light/folder_dup.png",
+        "layer0.texture": "meetio/assets/light/folder_dup.png",
         "layer0.opacity": 1,
         "content_margin": [
             9,
@@ -670,13 +670,13 @@
             12,
             12
         ],
-        "layer0.texture": "mariana-theme/assets/light/overflow_menu.png",
+        "layer0.texture": "meetio/assets/light/overflow_menu.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": [
             0,
             0
         ],
-        "layer1.texture": "mariana-theme/assets/light/overflow_menu.png",
+        "layer1.texture": "meetio/assets/light/overflow_menu.png",
         "layer1.opacity": 0,
         "layer1.inner_margin": [
             0,
@@ -728,6 +728,38 @@
         ]
     },
     {
+        "class": "close_button",
+        "layer0.texture": "meetio/assets/light/icon_close.png",
+        "layer0.opacity": 1,
+        "content_margin": [
+            8,
+            8
+        ]
+    },
+    {
+        "class": "close_button",
+        "attributes": [
+            "hover"
+        ],
+        "layer0.texture": "meetio/assets/light/icon_close.png",
+        "layer0.opacity": 1
+    },
+    {
+        "class": "close_button",
+        "attributes": [
+            "dirty"
+        ],
+        "layer0.texture": "meetio/assets/light/dirty_icon.png"
+    },
+    {
+        "class": "close_button",
+        "attributes": [
+            "hover",
+            "dirty"
+        ],
+        "layer0.texture": "meetio/assets/light/dirty_icon.png"
+    },
+    {
         "class": "panel_control",
         "layer0.tint": [
             "background",
@@ -767,7 +799,7 @@
     },
     {
         "class": "panel_close_button",
-        "layer0.texture": "mariana-theme/assets/light/icon_close.png",
+        "layer0.texture": "meetio/assets/light/icon_close.png",
         "layer0.opacity": {
             "target": 0.4,
             "speed": 4,
@@ -791,40 +823,8 @@
         }
     },
     {
-        "class": "close_button",
-        "layer0.texture": "mariana-theme/assets/light/icon_close.png",
-        "layer0.opacity": 1,
-        "content_margin": [
-            8,
-            8
-        ]
-    },
-    {
-        "class": "close_button",
-        "attributes": [
-            "hover"
-        ],
-        "layer0.texture": "mariana-theme/assets/light/icon_close.png",
-        "layer0.opacity": 1
-    },
-    {
-        "class": "close_button",
-        "attributes": [
-            "dirty"
-        ],
-        "layer0.texture": "mariana-theme/assets/light/dirty_icon.png"
-    },
-    {
-        "class": "close_button",
-        "attributes": [
-            "hover",
-            "dirty"
-        ],
-        "layer0.texture": "mariana-theme/assets/light/dirty_icon.png"
-    },
-    {
         "class": "overlay_control",
-        "layer0.texture": "mariana-theme/assets/light/overlay_bg.png",
+        "layer0.texture": "meetio/assets/light/overlay_bg.png",
         "layer0.inner_margin": [
             24,
             4,
@@ -836,7 +836,7 @@
             "background",
             1
         ],
-        "layer1.texture": "mariana-theme/assets/light/quick_panel_background.png",
+        "layer1.texture": "meetio/assets/light/quick_panel_background.png",
         "layer1.inner_margin": [
             16,
             0,
@@ -876,7 +876,7 @@
         ],
         "layer0.tint": [
             "foreground",
-            0.9
+            1
         ]
     },
     {
@@ -934,7 +934,7 @@
         ],
         "layer0.tint": [
             "foreground",
-            0.9
+            1
         ],
         "layer1.opacity": 0
     },
@@ -1075,7 +1075,7 @@
     },
     {
         "class": "scroll_track_control",
-        "layer0.texture": "mariana-theme/assets/light/scroll_bar.png",
+        "layer0.texture": "meetio/assets/light/scroll_bar.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 2,
         "content_margin": [
@@ -1087,7 +1087,7 @@
     },
     {
         "class": "puck_control",
-        "layer0.texture": "mariana-theme/assets/light/scroll_puck.png",
+        "layer0.texture": "meetio/assets/light/scroll_puck.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 2,
         "content_margin": [
@@ -1105,7 +1105,7 @@
         "attributes": [
             "horizontal"
         ],
-        "layer0.texture": "mariana-theme/assets/light/scroll_bar_horiz.png",
+        "layer0.texture": "meetio/assets/light/scroll_bar_horiz.png",
         "content_margin": [
             4,
             4,
@@ -1118,7 +1118,7 @@
         "attributes": [
             "horizontal"
         ],
-        "layer0.texture": "mariana-theme/assets/light/scroll_puck_horiz.png",
+        "layer0.texture": "meetio/assets/light/scroll_puck_horiz.png",
         "content_margin": [
             12,
             0
@@ -1415,6 +1415,103 @@
         "font.italic": false
     },
     {
+        "class": "status_bar",
+        "layer0.tint": [
+            "hsl",
+            242,
+            15,
+            36
+        ],
+        "layer0.opacity": 1,
+        "content_margin": [
+            10,
+            2,
+            0,
+            2
+        ]
+    },
+    {
+        "class": "panel_button_control",
+        "layer0.texture": "meetio/assets/light/overflow_menu.png",
+        "layer0.opacity": 1,
+        "content_margin": [
+            8,
+            8
+        ]
+    },
+    {
+        "class": "panel_button_control",
+        "attributes": [
+            "hover"
+        ],
+        "layer0.texture": "meetio/assets/light/overflow_menu.png"
+    },
+    {
+        "class": "status_container",
+        "content_margin": [
+            8,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "class": "status_button",
+        "content_margin": [
+            10,
+            0,
+            10,
+            0
+        ],
+        "min_size": [
+            80,
+            0
+        ]
+    },
+    {
+        "class": "label_control",
+        "parents": [
+            {
+                "class": "status_bar"
+            }
+        ],
+        "font.size": 11,
+        "color": [
+            "hsl",
+            220,
+            0,
+            100
+        ],
+        "font.bold": false
+    },
+    {
+        "class": "title_bar",
+        "bg": [
+            115,
+            128,
+            140
+        ],
+        "fg": [
+            235,
+            237,
+            239
+        ]
+    },
+    {
+        "class": "title_bar",
+        "settings": [
+            "meetio_titlebar"
+        ],
+        "bg": [
+            "background",
+            0.96
+        ],
+        "fg": [
+            "foreground",
+            1
+        ]
+    },
+    {
         "class": "tabset_control",
         "layer0.opacity": 1,
         "layer0.tint": [
@@ -1449,14 +1546,14 @@
     {
         "class": "tabset_control",
         "settings": [
-            "mariana_theme_tabs_autowidth"
+            "meetio_tabs_autowidth"
         ],
         "tab_width": 0
     },
     {
         "class": "tabset_control",
         "settings": [
-            "mariana_theme_tabs_large"
+            "meetio_tabs_large"
         ],
         "tab_height": 48
     },
@@ -1550,7 +1647,7 @@
             }
         ],
         "settings": [
-            "mariana_theme_tabs_selected_bold"
+            "meetio_tabs_selected_bold"
         ],
         "font.bold": true
     },
@@ -1567,18 +1664,18 @@
             0,
             0
         ],
-        "layer0.texture": "mariana-theme/assets/light/icon_close.png",
+        "layer0.texture": "meetio/assets/light/icon_close.png",
         "layer0.opacity": 0.2,
         "layer0.inner_margin": 0,
-        "layer1.texture": "mariana-theme/assets/light/icon_close.png",
+        "layer1.texture": "meetio/assets/light/icon_close.png",
         "layer1.opacity": {
             "target": 0,
             "speed": 5,
             "interpolation": "smoothstep"
         },
-        "layer2.texture": "mariana-theme/assets/light/dirty_icon.png",
+        "layer2.texture": "meetio/assets/light/dirty_icon.png",
         "layer2.inner_margin": 0,
-        "layer3.texture": "mariana-theme/assets/light/dirty_icon.png",
+        "layer3.texture": "meetio/assets/light/dirty_icon.png",
         "layer3.opacity": {
             "target": 0,
             "speed": 5,
@@ -1696,7 +1793,7 @@
     },
     {
         "class": "scroll_tabs_left_button",
-        "layer0.texture": "mariana-theme/assets/light/arrow_left.png",
+        "layer0.texture": "meetio/assets/light/arrow_left.png",
         "layer0.opacity": {
             "target": 0.6,
             "speed": 4,
@@ -1720,7 +1817,7 @@
     },
     {
         "class": "scroll_tabs_right_button",
-        "layer0.texture": "mariana-theme/assets/light/arrow_right.png",
+        "layer0.texture": "meetio/assets/light/arrow_right.png",
         "layer0.opacity": {
             "target": 0.6,
             "speed": 4,
@@ -1748,10 +1845,10 @@
             12,
             12
         ],
-        "layer0.texture": "mariana-theme/assets/light/overflow_menu.png",
+        "layer0.texture": "meetio/assets/light/overflow_menu.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer1.texture": "mariana-theme/assets/light/overflow_menu.png",
+        "layer1.texture": "meetio/assets/light/overflow_menu.png",
         "layer1.opacity": {
             "target": 0,
             "speed": 8,
@@ -1769,103 +1866,6 @@
             "speed": 8,
             "interpolation": "smoothstep"
         }
-    },
-    {
-        "class": "status_bar",
-        "layer0.tint": [
-            "hsl",
-            242,
-            15,
-            36
-        ],
-        "layer0.opacity": 1,
-        "content_margin": [
-            10,
-            2,
-            0,
-            2
-        ]
-    },
-    {
-        "class": "panel_button_control",
-        "layer0.texture": "mariana-theme/assets/light/overflow_menu.png",
-        "layer0.opacity": 1,
-        "content_margin": [
-            8,
-            8
-        ]
-    },
-    {
-        "class": "panel_button_control",
-        "attributes": [
-            "hover"
-        ],
-        "layer0.texture": "mariana-theme/assets/light/overflow_menu.png"
-    },
-    {
-        "class": "status_container",
-        "content_margin": [
-            8,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "class": "status_button",
-        "content_margin": [
-            10,
-            0,
-            10,
-            0
-        ],
-        "min_size": [
-            80,
-            0
-        ]
-    },
-    {
-        "class": "label_control",
-        "parents": [
-            {
-                "class": "status_bar"
-            }
-        ],
-        "font.size": 11,
-        "color": [
-            "hsl",
-            220,
-            0,
-            100
-        ],
-        "font.bold": false
-    },
-    {
-        "class": "title_bar",
-        "bg": [
-            115,
-            128,
-            140
-        ],
-        "fg": [
-            235,
-            237,
-            239
-        ]
-    },
-    {
-        "class": "title_bar",
-        "settings": [
-            "mariana_theme_titlebar"
-        ],
-        "bg": [
-            "background",
-            0.96
-        ],
-        "fg": [
-            "foreground",
-            1
-        ]
     },
     {
         "class": "tool_tip_control",
@@ -1978,7 +1978,7 @@
                 ]
             }
         ],
-        "layer0.tint": "hsl(1, 77%, 55%)",
+        "layer0.tint": "hsl(276, 68%, 75%)",
         "layer0.opacity": 1,
         "content_margin": 6
     },
@@ -2059,7 +2059,7 @@
                 ]
             }
         ],
-        "color": "hsl(1, 77%, 55%)"
+        "color": "hsl(276, 68%, 75%)"
     },
     {
         "class": "sidebar_label",

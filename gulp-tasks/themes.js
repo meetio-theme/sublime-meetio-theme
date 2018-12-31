@@ -29,6 +29,5 @@ function __theme(name, variation) {
 }
 
 export default function themes() {
-    __theme("Mariana-Theme-Light", "light");
-    // theme("Mariana-Theme-Dark", "dark");
+    __theme("Meetio", "light");
 }

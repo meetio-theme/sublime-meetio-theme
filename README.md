@@ -1,19 +1,19 @@
-# Mariana Theme
+# Meetio Theme
 
 You can also manually activate this theme by adding these lines to your user settings (**Preferences > Settings - User**):
 
-### Mariana Theme Light
+### Meetio Theme Light
 
 ```json
-  "color_scheme": "Packages/Mariana Theme/schemes/Mariana-Theme-Light.tmTheme",
-  "theme": "Mariana-Theme-Light.sublime-theme",
+  "color_scheme": "Packages/Meetio Theme/schemes/Meetio-Light.tmTheme",
+  "theme": "Meetio.sublime-theme",
 ```
 
 #### Theme options
 
 ```json
-  "mariana_theme_tabs_autowidth": true,
-  "mariana_theme_tabs_large": true,
-  "mariana_theme_tabs_selected_bold": true,
-  "mariana_theme_titlebar": true,
+  "meetio_tabs_autowidth": true,
+  "meetio_tabs_large": true,
+  "meetio_tabs_selected_bold": true,
+  "meetio_titlebar": true,
 ```

@@ -1,29 +1,29 @@
 {
-    "name": "Mariana-Theme-Dark",
+    "name": "Meetio-Palenight",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com",
     "variables": {
-        "background": "hsl(210, 15%, 24%)",
-        "foreground": "hsl(180, 100%, 97%)",
+        "background": "hsl(205, 49%, 19%)",
+        "foreground": "hsl(0, 0%, 100%)",
         "punctuation": "hsl(209, 10%, 50%)",
         "comment": "hsl(0, 0%, 74%)",
         "lineHighlight": "hsla(199, 18%, 33%, 0.50)",
         "blue": "hsl(180, 36%, 63%)",
-        "aqua": "hsl(174, 42%, 65%)",
+        "aqua": "hsl(180, 100%, 81%)",
         "black": "hsl(0, 0%, 0%)",
         "blueLight": "hsla(205, 87%, 94%, 0.2)",
         "blueDark": "hsl(215, 97%, 66%)",
         "blueSpace": "hsl(210, 13%, 45%)",
         "gray": "hsl(0, 0%, 24%)",
-        "green": "hsl(88, 50%, 53%)",
-        "orange": "hsl(32, 93%, 66%)",
-        "pink": "hsl(350, 100%, 66%)",
+        "green": "hsl(84, 66%, 73%)",
+        "orange": "hsl(37, 100%, 50%)",
+        "pink": "hsl(344, 100%, 69%)",
         "red": "hsl(357, 78%, 68%)",
         "salmon": "hsl(13, 93%, 66%)",
-        "violet": "hsl(300, 30%, 68%)",
+        "violet": "hsl(276, 68%, 75%)",
         "warning": "hsl(351, 64%, 59%)",
         "whiteSmoke": "hsl(210, 11%, 93%)",
-        "yellow": "hsl(39, 100%, 59%)",
-        "yellowDark": "hsl(29, 66%, 57%)"
+        "yellow": "hsl(47, 50%, 100%)",
+        "yellowDark": "hsl(47, 100%, 50%)"
     },
     "globals": {
         "foreground": "var(foreground)",
@@ -272,7 +272,7 @@
         {
             "name": "JSON Key - Level 1",
             "scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(blue)"
+            "foreground": "var(aqua)"
         },
         {
             "name": "JSON Key - Level 2",
@@ -373,7 +373,12 @@
         {
             "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
             "scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
-            "foreground": "var(orange)"
-        }
+            "foreground": "var(salmon)"
+        },
+        {
+            "name": "Object Keys",
+            "scope": "string.unquoted.label.js, meta.object-literal.key.js, string.unquoted.label.jsx, meta.object-literal.key.jsx, string.unquoted.label.ts, meta.object-literal.key.ts, meta.function.return-type.ts, meta.function.parameters.ts",
+            "foreground": "var(red)"
+        },
     ]
 }

@@ -20,12 +20,12 @@
     },
     {
         "class": "tabset_control",
-        "settings": ["mariana_theme_tabs_autowidth"],
+        "settings": ["meetio_tabs_autowidth"],
         "tab_width": 0
     },
     {
         "class": "tabset_control",
-        "settings": ["mariana_theme_tabs_large"],
+        "settings": ["meetio_tabs_large"],
         "tab_height": 48
     },
     {
@@ -67,7 +67,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "settings": ["mariana_theme_tabs_selected_bold"],
+        "settings": ["meetio_tabs_selected_bold"],
         "font.bold": true
     },
     {
@@ -79,14 +79,14 @@
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        "layer0.texture": "mariana-theme/assets/light/icon_close.png",
+        "layer0.texture": "meetio/assets/light/icon_close.png",
         "layer0.opacity": 0.2,
         "layer0.inner_margin": 0,
-        "layer1.texture": "mariana-theme/assets/light/icon_close.png",
+        "layer1.texture": "meetio/assets/light/icon_close.png",
         "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
-        "layer2.texture": "mariana-theme/assets/light/dirty_icon.png",
+        "layer2.texture": "meetio/assets/light/dirty_icon.png",
         "layer2.inner_margin": 0,
-        "layer3.texture": "mariana-theme/assets/light/dirty_icon.png",
+        "layer3.texture": "meetio/assets/light/dirty_icon.png",
         "layer3.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
     },
     {
@@ -145,7 +145,7 @@
     },
     {
         "class": "scroll_tabs_left_button",
-        "layer0.texture": "mariana-theme/assets/light/arrow_left.png",
+        "layer0.texture": "meetio/assets/light/arrow_left.png",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [10, 10]
     },
@@ -156,7 +156,7 @@
     },
     {
         "class": "scroll_tabs_right_button",
-        "layer0.texture": "mariana-theme/assets/light/arrow_right.png",
+        "layer0.texture": "meetio/assets/light/arrow_right.png",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [10, 10]
     },
@@ -168,10 +168,10 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [12, 12],
-        "layer0.texture": "mariana-theme/assets/light/overflow_menu.png",
+        "layer0.texture": "meetio/assets/light/overflow_menu.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "mariana-theme/assets/light/overflow_menu.png",
+        "layer1.texture": "meetio/assets/light/overflow_menu.png",
         "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
         "layer1.inner_margin": 0
     },

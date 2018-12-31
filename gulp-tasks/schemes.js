@@ -9,6 +9,7 @@ function __schemes() {
     fs.readdirSync("./src/schemes/").forEach(file => {
         if (debug) console.log(`👁  reading "${file}" file.`);
         filePath = path.join(__dirname, "/../src/schemes/" + file);
+        file = file.split(".").slice(0, -1).join(".");
         fs.readFile(filePath, "utf8", (err, data) => {
             if (err) throw err;
             fs.writeFileSync(`schemes/${file}.sublime-color-scheme`, data, (err) => {

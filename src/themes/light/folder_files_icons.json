@@ -1,14 +1,14 @@
 [
     {
         "class": "disclosure_button_control",
-        "layer0.texture": "mariana-theme/assets/light/disclosure_unexpanded.png",
+        "layer0.texture": "meetio/assets/light/disclosure_unexpanded.png",
         "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [0, 0, 0, 0]
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "mariana-theme/assets/light/disclosure_expanded.png"
+        "layer0.texture": "meetio/assets/light/disclosure_expanded.png"
     },
     {
         "class": "disclosure_button_control",
@@ -17,14 +17,14 @@
     },
     {
         "class": "icon_folder",
-        "layer0.texture": "mariana-theme/assets/light/folder_closed.png",
+        "layer0.texture": "meetio/assets/light/folder_closed.png",
         "layer0.opacity": 1.0,
         "content_margin": [10, 10]
     },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "mariana-theme/assets/light/folder_open.png",
+        "layer0.texture": "meetio/assets/light/folder_open.png",
         "layer0.opacity": 1.0,
         "content_margin": [10, 10]
     },
@@ -34,18 +34,18 @@
         {
             "keyframes":
             [
-                "mariana-theme/assets/light/spinner11.png",
-                "mariana-theme/assets/light/spinner10.png",
-                "mariana-theme/assets/light/spinner9.png",
-                "mariana-theme/assets/light/spinner8.png",
-                "mariana-theme/assets/light/spinner7.png",
-                "mariana-theme/assets/light/spinner6.png",
-                "mariana-theme/assets/light/spinner5.png",
-                "mariana-theme/assets/light/spinner4.png",
-                "mariana-theme/assets/light/spinner3.png",
-                "mariana-theme/assets/light/spinner2.png",
-                "mariana-theme/assets/light/spinner1.png",
-                "mariana-theme/assets/light/spinner.png"
+                "meetio/assets/light/spinner11.png",
+                "meetio/assets/light/spinner10.png",
+                "meetio/assets/light/spinner9.png",
+                "meetio/assets/light/spinner8.png",
+                "meetio/assets/light/spinner7.png",
+                "meetio/assets/light/spinner6.png",
+                "meetio/assets/light/spinner5.png",
+                "meetio/assets/light/spinner4.png",
+                "meetio/assets/light/spinner3.png",
+                "meetio/assets/light/spinner2.png",
+                "meetio/assets/light/spinner1.png",
+                "meetio/assets/light/spinner.png"
             ],
             "loop": true,
             "frame_time": 0.08
@@ -55,7 +55,7 @@
     },
     {
         "class": "icon_folder_dup",
-        "layer0.texture": "mariana-theme/assets/light/folder_dup.png",
+        "layer0.texture": "meetio/assets/light/folder_dup.png",
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
