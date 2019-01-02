@@ -205,7 +205,7 @@
         {
             "name": "Invalid",
             "scope": "invalid",
-            "foreground": "var(black)",
+            "foreground": "var(white)",
             "background": "var(red)"
         },
         {
