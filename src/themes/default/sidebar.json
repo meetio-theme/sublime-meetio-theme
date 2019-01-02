@@ -102,7 +102,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "color": ["hsl", 174, 42, 65]
+        "color": [128, 203, 196]
     },
 
     {

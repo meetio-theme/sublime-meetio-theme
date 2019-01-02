@@ -2,66 +2,66 @@
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
-        "layer0.tint": "hsl(169, 38%, 45%)",
+        "layer0.tint": "rgb(71, 158, 142)",
         "content_margin": 6
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
-        "layer0.tint": "hsl(7, 45%, 56%)",
+        "layer0.tint": "rgb(193, 104, 92)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-        "layer0.tint": "hsl(230, 44%, 64%)",
+        "layer0.tint": "rgb(123, 136, 204)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
-        "layer0.tint": "hsl(169, 38%, 45%)",
+        "layer0.tint": "rgb(71, 158, 142)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
-        "layer0.tint": "hsl(0, 65%, 51%)",
+        "layer0.tint": "rgb(211, 49, 49)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}],
-        "color": "color(hsl(200, 19%, 18%) blend(hsl(0, 0%, 100%) 45%))"
+        "color": "color(rgb(37, 49, 55) blend(rgb(255, 255, 255) 45%))"
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
-        "layer0.tint": "hsl(169, 38%, 45%)",
-        "color": "hsl(169, 38%, 45%)"
+        "layer0.tint": "rgb(71, 158, 142)",
+        "color": "rgb(71, 158, 142)"
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
-        "color": "hsl(7, 45%, 56%)"
+        "color": "rgb(193, 104, 92)"
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-        "color": "hsl(230, 44%, 64%)"
+        "color": "rgb(123, 136, 204)"
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
-        "color": "hsl(169, 38%, 45%)"
+        "color": "rgb(71, 158, 142)"
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
-        "color": "hsl(0, 65%, 51%)"
+        "color": "rgb(211, 49, 49)"
     }
 ]

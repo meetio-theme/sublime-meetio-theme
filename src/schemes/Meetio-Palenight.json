@@ -2,55 +2,51 @@
     "name": "Meetio-Palenight",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com",
     "variables": {
-        "background": "hsl(205, 49%, 19%)",
-        "foreground": "hsl(0, 0%, 100%)",
-        "comment": "hsl(0, 0%, 74%)",
-        "lineHighlight": "hsla(199, 18%, 33%, 0.50)",
-        "blue": "hsl(215, 97%, 66%)",
-        "aqua": "hsl(184, 68%, 52%)",
-        "black": "hsl(0, 0%, 0%)",
-        "skyblue": "hsla(205, 87%, 94%, 0.2)",
-        "gray": "hsl(0, 0%, 24%)",
-        "green": "hsl(134, 46%, 69%)",
-        "orange": "hsl(29, 66%, 57%)",
-        "pink": "hsl(308, 100%, 82%)",
-        "red": "hsl(357, 78%, 68%)",
-        "salmon": "hsl(13, 93%, 66%)",
-        "violet": "hsl(276, 68%, 75%)",
-        "warning": "hsl(351, 64%, 59%)",
-        "white": "hsl(0, 0%, 100%)",
-        "yellow": "hsl(35, 72%, 72%)",
-        "goldenrod": "hsl(47, 100%, 50%)"
+        "background": "rgb(25, 52, 72)",
+        "black": "rgb(84, 109, 121)",
+        "blue": "rgb(64, 196, 254)",
+        "cyan": "rgb(158, 255, 255)",
+        "gray": "rgb(61, 61, 61)",
+        "green": "rgb(157, 243, 159)",
+        "orange": "rgb(218, 143, 73)",
+        "pink": "rgb(255, 165, 243)",
+        "purple": "rgb(150, 126, 251)",
+        "red": "rgb(237, 110, 116)",
+        "salmon": "rgb(249, 123, 88)",
+        "skyblue": "rgba(226, 242, 253, 0.3)",
+        "violet": "rgb(193, 175, 255)",
+        "white": "rgb(254, 254, 254)",
+        "yellow": "rgb(255, 198, 0)"
     },
     "globals": {
-        "foreground": "var(foreground)",
+        "foreground": "var(white)",
         "background": "var(background)",
         "caret": "var(yellow)",
-        "line_highlight": "var(lineHighlight)",
+        "line_highlight": "color(var(white) alpha(0.1))",
         "selection": "var(skyblue)",
         "selection_border": "var(blue)",
         "inactive_selection": "var(skyblue)",
         "misspelling": "var(red)",
         "shadow": "color(var(background) alpha(0.5))",
         "accent": "var(orange)",
-        "active_guide": "var(aqua)",
-        "stack_guide": "var(aqua)",
-        "highlight": "var(aqua)",
+        "active_guide": "var(cyan)",
+        "stack_guide": "var(cyan)",
+        "highlight": "var(cyan)",
         "fold_marker": "var(yellow)",
         "find_highlight_foreground": "var(gray)",
-        "find_highlight": "var(goldenrod)",
+        "find_highlight": "var(yellow)",
         "brackets_options": "underline",
         "brackets_foreground": "var(orange)",
         "bracket_contents_options": "underline",
-        "bracket_contents_foreground": "var(aqua)",
+        "bracket_contents_foreground": "var(cyan)",
         "tags_options": "stippled_underline",
         "tags_foreground": "var(violet)"
     },
-  "rules": [
+    "rules": [
         {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
-            "foreground": "var(comment)"
+            "foreground": "color(var(white) alpha(0.3))"
         },
         {
             "name": "String",
@@ -85,27 +81,27 @@
         {
             "name": "Punctuation",
             "scope": "punctuation.terminator, punctuation.section",
-            "foreground": "var(aqua)"
+            "foreground": "var(cyan)"
         },
         {
             "name": "Punctuation",
             "scope": "punctuation.section",
-            "foreground": "var(aqua)"
+            "foreground": "var(cyan)"
         },
         {
             "name": "Annotation Punctuation",
             "scope": "punctuation.definition.annotation",
-            "foreground": "var(aqua)"
+            "foreground": "var(cyan)"
         },
         {
             "name": "Variable SASS",
             "scope": "variable.other.php, variable.other.sass, variable.other.scss",
-            "foreground": "var(green)"
+            "foreground": "var(yellow)"
         },
         {
             "name": "JavaScript Dollar",
             "scope": "variable.other.dollar.only.js, variable.other.object.dollar.only.js, variable.type.dollar.only.js, support.class.dollar.only.js",
-            "foreground": "var(aqua)"
+            "foreground": "var(cyan)"
         },
         {
             "name": "Class, Support",
@@ -125,7 +121,7 @@
         {
             "name": "CSS Class and Support",
             "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-            "foreground": "var(pink)"
+            "foreground": "var(white)"
         },
         {
             "name": "Sub Methods",
@@ -161,7 +157,7 @@
         {
             "name": "Inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "var(aqua)",
+            "foreground": "var(cyan)",
             "font_style": "italic underline"
         },
         {
@@ -172,7 +168,8 @@
         {
             "name": "Language variable",
             "scope": "variable.language",
-            "foreground": "var(red)"
+            "foreground": "var(red)",
+            "font_style": "italic"
         },
         {
             "name": "Tag name",
@@ -187,7 +184,7 @@
         {
             "name": "Function call",
             "scope": "variable.function, variable.annotation",
-            "foreground": "var(red)"
+            "foreground": "var(blue)"
         },
         {
             "name": "Library function",
@@ -215,12 +212,12 @@
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
             "foreground": "var(white)",
-            "background": "var(warning)"
+            "background": "var(purple)"
         },
         {
             "name": "YAML Key",
             "scope": "entity.name.tag.yaml",
-            "foreground": "var(aqua)"
+            "foreground": "var(cyan)"
         },
         {
             "name": "YAML String",
@@ -260,7 +257,7 @@
             "scope": "message.error",
             "foreground": "var(red)"
         },
-            {
+        {
             "name": "JSON Key - Level 0",
             "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
             "foreground": "var(violet)"
@@ -268,7 +265,7 @@
         {
             "name": "JSON Key - Level 1",
             "scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(aqua)"
+            "foreground": "var(yellow)"
         },
         {
             "name": "JSON Key - Level 2",
@@ -293,12 +290,12 @@
         {
             "name": "JSON Key - Level 6",
             "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(goldenrod)"
+            "foreground": "var(cyan)"
         },
         {
             "name": "JSON Key - Level 7",
             "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(warning)"
+            "foreground": "var(purple)"
         },
         {
             "name": "markup headings",
