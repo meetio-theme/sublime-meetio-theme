@@ -1,6 +1,9 @@
 # Folders
 node_modules/
 
+# Files In Folders
+schemes/*.chback
+
 # Files
 *.sublime-project
 *.sublime-workspace
