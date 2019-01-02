@@ -4,15 +4,12 @@
     "variables": {
         "background": "hsl(0, 0%, 98%)",
         "foreground": "hsl(199, 18%, 33%)",
-        "punctuation": "hsl(209, 10%, 50%)",
         "comment": "hsl(0, 0%, 74%)",
         "lineHighlight": "hsla(199, 18%, 33%, 0.05)",
         "blue": "hsl(218, 38%, 55%)",
         "aqua": "hsl(174, 42%, 65%)",
         "black": "hsl(0, 0%, 0%)",
-        "blueLight": "hsla(205, 87%, 94%, 0.2)",
-        "blueDark": "hsl(215, 97%, 66%)",
-        "blueSpace": "hsl(210, 13%, 45%)",
+        "skyblue": "hsla(205, 87%, 94%, 0.2)",
         "gray": "hsl(0, 0%, 24%)",
         "green": "hsl(169, 38%, 45%)",
         "orange": "hsl(32, 93%, 66%)",
@@ -23,16 +20,16 @@
         "warning": "hsl(351, 64%, 59%)",
         "white": "hsl(0, 0%, 100%)",
         "yellow": "hsl(39, 100%, 59%)",
-        "yellowDark": "hsl(29, 66%, 57%)"
+        "goldenrod": "hsl(29, 66%, 57%)"
     },
       "globals": {
         "foreground": "var(foreground)",
         "background": "var(background)",
         "caret": "var(yellow)",
         "line_highlight": "var(lineHighlight)",
-        "selection": "var(blueLight)",
+        "selection": "var(skyblue)",
         "selection_border": "var(blue)",
-        "inactive_selection": "var(blueLight)",
+        "inactive_selection": "var(skyblue)",
         "misspelling": "var(red)",
         "shadow": "color(var(foreground) alpha(0.5))",
         "accent": "var(orange)",
@@ -41,7 +38,7 @@
         "highlight": "var(aqua)",
         "fold_marker": "var(yellow)",
         "find_highlight_foreground": "var(gray)",
-        "find_highlight": "var(yellowDark)",
+        "find_highlight": "var(goldenrod)",
         "brackets_options": "underline",
         "brackets_foreground": "var(orange)",
         "bracket_contents_options": "underline",
@@ -88,22 +85,22 @@
         {
             "name": "Punctuation",
             "scope": "punctuation.terminator",
-            "foreground": "var(orange)"
+            "foreground": "var(aqua)"
         },
         {
             "name": "Punctuation",
-            "scope": "punctuation.section",
-            "foreground": "var(punctuation)"
-        },
-        {
-            "name": "Variable SASS",
-            "scope": "variable.other.php, variable.other.sass, variable.other.scss",
-            "foreground": "var(green)"
+            "scope": "punctuation.terminator, punctuation.section",
+            "foreground": "var(aqua)"
         },
         {
             "name": "Annotation Punctuation",
             "scope": "punctuation.definition.annotation",
             "foreground": "var(aqua)"
+        },
+        {
+            "name": "Variable SASS",
+            "scope": "variable.other.php, variable.other.sass, variable.other.scss",
+            "foreground": "var(green)"
         },
         {
             "name": "JavaScript Dollar",
@@ -286,7 +283,7 @@
         {
             "name": "JSON Key - Level 4",
             "scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(blueDark)"
+            "foreground": "var(blue)"
         },
         {
             "name": "JSON Key - Level 5",
@@ -296,7 +293,7 @@
         {
             "name": "JSON Key - Level 6",
             "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(yellowDark)"
+            "foreground": "var(goldenrod)"
         },
         {
             "name": "JSON Key - Level 7",
@@ -357,12 +354,12 @@
         {
             "name": "markup code",
             "scope": "markup.raw",
-            "background": "var(blueLight)"
+            "background": "var(skyblue)"
         },
         {
             "name": "markup code",
             "scope": "markup.raw.inline",
-            "background": "var(blueLight)"
+            "background": "var(skyblue)"
         },
         {
             "name": "markup punctuation",

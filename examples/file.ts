@@ -26,8 +26,8 @@ class Horse extends Animal {
     }
 }
 
-const sam = new Snake("Sammy the Python", 20)
-const tom: Animal = new Horse("Tommy the Palomino", 10)
+const sam = new Snake("Sammy the Python", 20);
+const tom: Animal = new Horse("Tommy the Palomino", 10);
 
 sam.move()
 tom.move(34)

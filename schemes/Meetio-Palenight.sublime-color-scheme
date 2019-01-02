@@ -4,35 +4,32 @@
     "variables": {
         "background": "hsl(205, 49%, 19%)",
         "foreground": "hsl(0, 0%, 100%)",
-        "punctuation": "hsl(209, 10%, 50%)",
         "comment": "hsl(0, 0%, 74%)",
         "lineHighlight": "hsla(199, 18%, 33%, 0.50)",
-        "blue": "hsl(221, 100%, 75%)",
-        "aqua": "hsl(180, 100%, 81%)",
+        "blue": "hsl(215, 97%, 66%)",
+        "aqua": "hsl(184, 68%, 52%)",
         "black": "hsl(0, 0%, 0%)",
-        "blueLight": "hsla(205, 87%, 94%, 0.2)",
-        "blueDark": "hsl(215, 97%, 66%)",
-        "blueSpace": "hsl(210, 13%, 45%)",
+        "skyblue": "hsla(205, 87%, 94%, 0.2)",
         "gray": "hsl(0, 0%, 24%)",
-        "green": "hsl(84, 66%, 73%)",
-        "orange": "hsl(37, 100%, 50%)",
+        "green": "hsl(134, 46%, 69%)",
+        "orange": "hsl(29, 66%, 57%)",
         "pink": "hsl(308, 100%, 82%)",
         "red": "hsl(357, 78%, 68%)",
         "salmon": "hsl(13, 93%, 66%)",
         "violet": "hsl(276, 68%, 75%)",
         "warning": "hsl(351, 64%, 59%)",
         "white": "hsl(0, 0%, 100%)",
-        "yellow": "hsl(39, 100%, 71%)",
-        "yellowDark": "hsl(47, 100%, 50%)"
+        "yellow": "hsl(35, 72%, 72%)",
+        "goldenrod": "hsl(47, 100%, 50%)"
     },
     "globals": {
         "foreground": "var(foreground)",
         "background": "var(background)",
         "caret": "var(yellow)",
         "line_highlight": "var(lineHighlight)",
-        "selection": "var(blueLight)",
+        "selection": "var(skyblue)",
         "selection_border": "var(blue)",
-        "inactive_selection": "var(blueLight)",
+        "inactive_selection": "var(skyblue)",
         "misspelling": "var(red)",
         "shadow": "color(var(background) alpha(0.5))",
         "accent": "var(orange)",
@@ -41,7 +38,7 @@
         "highlight": "var(aqua)",
         "fold_marker": "var(yellow)",
         "find_highlight_foreground": "var(gray)",
-        "find_highlight": "var(yellowDark)",
+        "find_highlight": "var(goldenrod)",
         "brackets_options": "underline",
         "brackets_foreground": "var(orange)",
         "bracket_contents_options": "underline",
@@ -87,23 +84,23 @@
         },
         {
             "name": "Punctuation",
-            "scope": "punctuation.terminator",
-            "foreground": "var(orange)"
+            "scope": "punctuation.terminator, punctuation.section",
+            "foreground": "var(aqua)"
         },
         {
             "name": "Punctuation",
             "scope": "punctuation.section",
-            "foreground": "var(punctuation)"
-        },
-        {
-            "name": "Variable SASS",
-            "scope": "variable.other.php, variable.other.sass, variable.other.scss",
-            "foreground": "var(green)"
+            "foreground": "var(aqua)"
         },
         {
             "name": "Annotation Punctuation",
             "scope": "punctuation.definition.annotation",
             "foreground": "var(aqua)"
+        },
+        {
+            "name": "Variable SASS",
+            "scope": "variable.other.php, variable.other.sass, variable.other.scss",
+            "foreground": "var(green)"
         },
         {
             "name": "JavaScript Dollar",
@@ -286,7 +283,7 @@
         {
             "name": "JSON Key - Level 4",
             "scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(blueDark)"
+            "foreground": "var(blue)"
         },
         {
             "name": "JSON Key - Level 5",
@@ -296,7 +293,7 @@
         {
             "name": "JSON Key - Level 6",
             "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(yellowDark)"
+            "foreground": "var(goldenrod)"
         },
         {
             "name": "JSON Key - Level 7",
@@ -357,12 +354,12 @@
         {
             "name": "markup code",
             "scope": "markup.raw",
-            "background": "var(blueLight)"
+            "background": "var(skyblue)"
         },
         {
             "name": "markup code",
             "scope": "markup.raw.inline",
-            "background": "var(blueLight)"
+            "background": "var(skyblue)"
         },
         {
             "name": "markup punctuation",
