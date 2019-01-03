@@ -34,7 +34,7 @@ To activate this theme, adding these lines to your user settings (**Preferences 
 
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.tmTheme",
-  "color_scheme": "Packages/Meetio/schemes/Meetio-Darker.tmTheme", 
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Darker.tmTheme",
   "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.tmTheme"
 ```
 
@@ -43,18 +43,15 @@ To activate this theme, adding these lines to your user settings (**Preferences 
 #### Tabs
 
 ```json
-{
-    // Tabs
-    "meetio_tabs_autowidth": true, // Enable autowidth for tabs
-    "meetio_tabs_large": true, // Set large tabs
-    "meetio_tabs_selected_bold": true, // Make the tab labels bolder only in selected
-    
-    // Sidebar
-    "meetio_sidebar_font_big": true, // Set large font in sidebar
-    "meetio_sidebar_large": true, // Set large sidebar
-    
-    // Panels
-    "meetio_titlebar": true, // Enable title bar (OS X 10.10+)
-}
-```
+  // Tabs
+  "meetio_tabs_autowidth"     : true, // Enable auto width for tabs
+  "meetio_tabs_large"         : true, // Set large tabs
+  "meetio_tabs_selected_bold" : true, // Make the tab labels bolder only in selected
 
+  // Sidebar
+  "meetio_sidebar_font_big"   : true, // Set large font in sidebar
+  "meetio_sidebar_large"      : true, // Set large sidebar
+
+  // Panels
+  "meetio_titlebar"           : true, // Enable title bar (OS X 10.10+)
+```
