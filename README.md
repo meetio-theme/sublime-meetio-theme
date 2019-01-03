@@ -1,4 +1,4 @@
-# Meetio
+<p align="center"><img src="public/meetio.png" width="480"/></p>
 
 **Meetio** is the most powerful theme for Sublime Text 3 3103+. Comes in, both, lighter, darker and palenight variations.
 
