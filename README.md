@@ -1,25 +1,25 @@
 <p align="center"><img src="public/meetio.png" width="480"/></p>
 
-**Meetio** is the most powerful theme for Sublime Text 3 3103+. Comes in, both, lighter, darker and palenight variations.
+**Meetio** is the most powerful theme for Sublime Text 3 with Lighter, Darker & Palenight variations only for 3179+ version.
 
 ## Installation
 
 **With Package Control:** _(NOT AVAILABLE YET)_
-1. Open `Command Palette` using menu item `Tools → Command Palette` or `(Ctrl or ⌘) + ⇧ + P`
-2. Choose `Package Control: Install Package`
-2. Type `Meetio` and press `Enter`
-3. Restart Sublime Text
-    **macOS** : menu item `Sublime Text → Quit Sublime Text`
-    **Windows**: menu item `File → Exit`
-    **Linux** : menu item `File → Exit`
+ - Open `Command Palette` using menu item `Tools → Command Palette` or `(Ctrl or ⌘) + ⇧ + P`
+ - Choose `Package Control: Install Package`
+ - Type `Meetio` and press `Enter`
+ - Restart Sublime Text
+    - **macOS** : menu item `Sublime Text → Quit Sublime Text`
+    - **Windows**: menu item `File → Exit`
+    - **Linux** : menu item `File → Exit`
 
 4. Ready to use 🎉
 
 **Manually:**
-1. Download latest release and unzip. it into your Packages folder
-2. Go to `Sublime Text → Preferences → Browse Packages`
-3. Move folder to inside
-4. Start using...
+ - Download latest release and unzip. it into your Packages folder
+ - Go to `Sublime Text → Preferences → Browse Packages`
+ - Move folder to inside
+ - Start using...
 
 
 To activate this theme, adding these lines to your user settings (**Preferences > Settings - User**):
@@ -33,9 +33,9 @@ To activate this theme, adding these lines to your user settings (**Preferences 
 ### Schemes variations
 
 ```json
-  "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.tmTheme", // based on Material Light Scheme
-  "color_scheme": "Packages/Meetio/schemes/Meetio-Darker.tmTheme", // based on Material Darker Scheme
-  "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.tmTheme" // base on Cobalt2 Scheme
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.tmTheme",
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Darker.tmTheme", 
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.tmTheme"
 ```
 
 ### Theme options
@@ -44,26 +44,17 @@ To activate this theme, adding these lines to your user settings (**Preferences 
 
 ```json
 {
-    "meetio_tabs_autowidth": true,
-    "meetio_tabs_large": true,
-    "meetio_tabs_selected_bold": true
-}
-```
-
-#### Sidebar
-
-```json
-{
-    "meetio_sidebar_font_big": true,
-    "meetio_sidebar_large": true
-}
-```
-
-#### Other
-
-```json
-{
-    "meetio_titlebar": true
+    // Tabs
+    "meetio_tabs_autowidth": true, // Enable autowidth for tabs
+    "meetio_tabs_large": true, // Set large tabs
+    "meetio_tabs_selected_bold": true, // Make the tab labels bolder only in selected
+    
+    // Sidebar
+    "meetio_sidebar_font_big": true, // Set large font in sidebar
+    "meetio_sidebar_large": true, // Set large sidebar
+    
+    // Panels
+    "meetio_titlebar": true, // Enable title bar (OS X 10.10+)
 }
 ```
 
