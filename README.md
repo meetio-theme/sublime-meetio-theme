@@ -40,8 +40,6 @@ To activate this theme, adding these lines to your user settings (**Preferences 
 
 ### Theme options
 
-#### Tabs
-
 ```json
   // Tabs
   "meetio_tabs_autowidth"     : true, // Enable auto width for tabs
@@ -54,4 +52,13 @@ To activate this theme, adding these lines to your user settings (**Preferences 
 
   // Panels
   "meetio_titlebar"           : true, // Enable title bar (OS X 10.10+)
+```
+
+### Recommended settings for a better experience:
+
+```json
+  "bold_folder_labels"           : true,
+  "line_padding_bottom"          : 8,
+  "line_padding_top"             : 8,
+  "overlay_scroll_bars"          : "enabled",
 ```
