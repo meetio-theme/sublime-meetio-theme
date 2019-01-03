@@ -4,7 +4,7 @@
 
 ## Installation
 
-**With Package Control:** _(NOT AVAILABLE YET)_
+**Package Control:**
  - Open `Command Palette` using menu item `Tools → Command Palette` or `(Ctrl or ⌘) + ⇧ + P`
  - Choose `Package Control: Install Package`
  - Type `Meetio` and press `Enter`
@@ -21,9 +21,7 @@
  - Move folder to inside
  - Start using...
 
-
 To activate this theme, adding these lines to your user settings (**Preferences > Settings - User**):
-
 
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.tmTheme",
@@ -52,6 +50,7 @@ To activate this theme, adding these lines to your user settings (**Preferences 
 
   // Panels
   "meetio_titlebar"           : true, // Enable title bar (OS X 10.10+)
+  "meetio_input_search_icon"  : true, //
 ```
 
 ### Recommended settings for a better experience:
