@@ -11,6 +11,12 @@
         "font.bold": true
     },
     {
+        "class": "label_control",
+        "parents": [{"class": "panel_control"}],
+        "color": ["foreground", 1.0],
+        "font.bold": true
+    },
+    {
         "class": "title_label_control",
         "fg": ["foreground", 1.0],
         "font.size": 24

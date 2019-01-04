@@ -1,17 +1,5 @@
 [
     {
-        "class": "overlay_control",
-        "layer0.texture": "meetio/assets/default/overlay_bg.png",
-        "layer0.inner_margin": [24, 4, 24, 33],
-        "layer0.opacity": 1.0,
-        "layer0.tint": ["background", 1.0],
-        "layer1.texture": "meetio/assets/default/quick_panel_background.png",
-        "layer1.inner_margin": [16, 0, 16, 25],
-        "layer1.opacity": 1.0,
-        "layer.tint": ["background", 1.0],
-        "content_margin": [13, 4, 13, 28]
-    },
-    {
         "class": "mini_quick_panel_row",
         "layer0.tint": ["background", 1.0],
         "layer0.inner_margin": [2, 2, 2, 2],
@@ -34,13 +22,11 @@
     },
     {
         "class": "quick_panel_row",
-        "parents": [{"class": "overlay_control"}],
         "layer0.tint": ["background", 1.0],
         "layer0.opacity": 1.0
     },
     {
         "class": "quick_panel",
-        "parents": [{"class": "overlay_control"}],
         "row_padding": [32, 12],
         "layer0.tint": [38, 50, 56, 0],
         "layer0.opacity": 1.0
@@ -60,7 +46,6 @@
     },
     {
       "class": "quick_panel_label",
-      "parents": [{"class": "overlay_control"}],
       "fg": ["foreground", 0.8],
       "match_fg": [128, 203, 196],
       "selected_fg": ["background", 1.0],

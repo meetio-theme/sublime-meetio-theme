@@ -9,16 +9,6 @@
         "content_margin": [10, 8, 12, 8]
     },
     {
-        "class": "overlay_control",
-        "parents": [{"class": "overlay_control"}],
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [32, 0, 32, 2],
-        "layer0.tint": ["background", 1.0],
-        "layer1.inner_margin": [32, 0, 32, 2],
-        "layer1.opacity": 1.0,
-        "content_margin": [32, 8, 32, 8]
-    },
-    {
         "class": "text_line_control",
         "platforms": ["osx", "linux"],
         "parents": [{"class": "overlay_control"}],
@@ -28,6 +18,23 @@
     {
         "class": "text_line_control",
         "parents": [{"class": "overlay_control"}],
+        "layer2.inner_margin": [52, 48, 0, 0],
+        "layer2.draw_center": false,
+        "layer2.texture": "meetio/assets/default/icon_search.png",
+        "layer2.tint": [128, 203, 196],
+        "layer2.opacity": 1.0,
+        "settings": ["meetio_input_search_icon"]
+    },
+    {
+        "class": "text_line_control",
+        "platforms": ["osx", "linux"],
+        "parents": [{"class": "switch_project_window"}],
+        "content_margin": [52, 10, 10, 10],
+        "settings": ["meetio_input_search_icon"]
+    },
+    {
+        "class": "text_line_control",
+        "parents": [{"class": "switch_project_window"}],
         "layer2.inner_margin": [52, 48, 0, 0],
         "layer2.draw_center": false,
         "layer2.texture": "meetio/assets/default/icon_search.png",
