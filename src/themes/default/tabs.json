@@ -50,7 +50,8 @@
         "content_margin": [8, 8]
     },
     {
-        "class": "tab_control", "attributes": ["selected"],
+        "class": "tab_control",
+        "attributes": ["selected"],
         "layer1.opacity": 1.0
     },
     {

@@ -47,17 +47,20 @@ To activate this theme, adding these lines to your user settings (**Preferences 
   // Sidebar
   "meetio_sidebar_font_big"   : true, // Set large font in sidebar
   "meetio_sidebar_large"      : true, // Set large sidebar
+  "mettio_arrow_folders"      : true, // Replace folder icons with arrows
 
   // Panels
   "meetio_titlebar"           : true, // Enable title bar (OS X 10.10+)
-  "meetio_input_search_icon"  : true, //
+  "meetio_input_search_icon"  : true  // Show icon search in inputs
 ```
 
 ### Recommended settings for a better experience:
 
 ```json
+  "always_show_minimap_viewport" : true,
   "bold_folder_labels"           : true,
-  "line_padding_bottom"          : 8,
-  "line_padding_top"             : 8,
+  "line_padding_bottom"          : 7,
+  "line_padding_top"             : 7,
   "overlay_scroll_bars"          : "enabled",
+  "highlight_modified_tabs"      : "enabled"
 ```
