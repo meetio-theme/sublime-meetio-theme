@@ -47,7 +47,7 @@ To activate this theme, adding these lines to your user settings (**Preferences 
   // Sidebar
   "meetio_sidebar_font_big"   : true, // Set large font in sidebar
   "meetio_sidebar_large"      : true, // Set large sidebar
-  "mettio_arrow_folders"      : true, // Replace folder icons with arrows
+  "meetio_arrow_folders"      : true, // Replace folder icons with arrows
 
   // Panels
   "meetio_titlebar"           : true, // Enable title bar (OS X 10.10+)
