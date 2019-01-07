@@ -25,7 +25,7 @@ To activate this theme, adding these lines to your user settings (**Preferences 
 
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.sublime-color-scheme",
-  "theme": "Meetio.sublime-theme",
+  "theme": "Meetio-Lighter.sublime-theme",
 ```
 
 ### Schemes variations

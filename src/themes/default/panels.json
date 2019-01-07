@@ -8,11 +8,11 @@
     },
     {
         "class": "overlay_control",
-        "layer0.texture": "meetio/assets/default/overlay_bg.png",
+        "layer0.texture": "Meetio/assets/default/overlay_bg.png",
         "layer0.inner_margin": [24, 4, 24, 33],
         "layer0.opacity": 1.0,
         "layer0.tint": ["background", 1.0],
-        "layer1.texture": "meetio/assets/default/quick_panel_background.png",
+        "layer1.texture": "Meetio/assets/default/quick_panel_background.png",
         "layer1.inner_margin": [16, 0, 16, 25],
         "layer1.opacity": 1.0,
         "layer.tint": ["background", 1.0],
@@ -49,7 +49,7 @@
     },
     {
         "class": "panel_close_button",
-        "layer0.texture": "meetio/assets/default/icon_close.png",
+        "layer0.texture": "Meetio/assets/default/icon_close.png",
         "layer0.opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
         "layer1.opacity": 0.0,
         "content_margin": [0, 0]

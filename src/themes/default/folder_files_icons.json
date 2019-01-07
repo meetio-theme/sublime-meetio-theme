@@ -1,14 +1,14 @@
 [
     {
         "class": "disclosure_button_control",
-        "layer0.texture": "meetio/assets/default/disclosure_unexpanded.png",
+        "layer0.texture": "Meetio/assets/default/disclosure_unexpanded.png",
         "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [0, 0, 0, 0]
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "meetio/assets/default/disclosure_expanded.png"
+        "layer0.texture": "Meetio/assets/default/disclosure_expanded.png"
     },
     {
         "class": "disclosure_button_control",
@@ -17,27 +17,27 @@
     },
     {
         "class": "icon_folder",
-        "layer0.texture": "meetio/assets/default/folder_closed.png",
+        "layer0.texture": "Meetio/assets/default/folder_closed.png",
         "layer0.opacity": 1.0,
         "content_margin": [10, 10]
     },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "meetio/assets/default/folder_open.png",
+        "layer0.texture": "Meetio/assets/default/folder_open.png",
         "layer0.opacity": 1.0,
         "content_margin": [10, 10]
     },
     {
         "class": "icon_folder",
-        "layer0.texture": "meetio/assets/default/arrow_folder_closed.png",
+        "layer0.texture": "Meetio/assets/default/arrow_folder_closed.png",
         "content_margin": [12, 12],
         "settings": ["meetio_arrow_folders"]
     },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "meetio/assets/default/arrow_folder_open.png",
+        "layer0.texture": "Meetio/assets/default/arrow_folder_open.png",
         "content_margin": [12, 12],
         "settings": ["meetio_arrow_folders"]
     },
@@ -47,18 +47,18 @@
         {
             "keyframes":
             [
-                "meetio/assets/default/spinner11.png",
-                "meetio/assets/default/spinner10.png",
-                "meetio/assets/default/spinner9.png",
-                "meetio/assets/default/spinner8.png",
-                "meetio/assets/default/spinner7.png",
-                "meetio/assets/default/spinner6.png",
-                "meetio/assets/default/spinner5.png",
-                "meetio/assets/default/spinner4.png",
-                "meetio/assets/default/spinner3.png",
-                "meetio/assets/default/spinner2.png",
-                "meetio/assets/default/spinner1.png",
-                "meetio/assets/default/spinner.png"
+                "Meetio/assets/default/spinner11.png",
+                "Meetio/assets/default/spinner10.png",
+                "Meetio/assets/default/spinner9.png",
+                "Meetio/assets/default/spinner8.png",
+                "Meetio/assets/default/spinner7.png",
+                "Meetio/assets/default/spinner6.png",
+                "Meetio/assets/default/spinner5.png",
+                "Meetio/assets/default/spinner4.png",
+                "Meetio/assets/default/spinner3.png",
+                "Meetio/assets/default/spinner2.png",
+                "Meetio/assets/default/spinner1.png",
+                "Meetio/assets/default/spinner.png"
             ],
             "loop": true,
             "frame_time": 0.08
@@ -68,7 +68,7 @@
     },
     {
         "class": "icon_folder_dup",
-        "layer0.texture": "meetio/assets/default/folder_dup.png",
+        "layer0.texture": "Meetio/assets/default/folder_dup.png",
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },

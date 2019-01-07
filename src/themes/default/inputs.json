@@ -20,7 +20,7 @@
         "parents": [{"class": "overlay_control"}],
         "layer2.inner_margin": [52, 48, 0, 0],
         "layer2.draw_center": false,
-        "layer2.texture": "meetio/assets/default/icon_search.png",
+        "layer2.texture": "Meetio/assets/default/icon_search.png",
         "layer2.tint": [128, 203, 196],
         "layer2.opacity": 1.0,
         "settings": ["meetio_input_search_icon"]
@@ -37,7 +37,7 @@
         "parents": [{"class": "switch_project_window"}],
         "layer2.inner_margin": [52, 48, 0, 0],
         "layer2.draw_center": false,
-        "layer2.texture": "meetio/assets/default/icon_search.png",
+        "layer2.texture": "Meetio/assets/default/icon_search.png",
         "layer2.tint": [128, 203, 196],
         "layer2.opacity": 1.0,
         "settings": ["meetio_input_search_icon"]
@@ -45,10 +45,10 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [12, 12],
-        "layer0.texture": "meetio/assets/default/overflow_menu.png",
+        "layer0.texture": "Meetio/assets/default/overflow_menu.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 0],
-        "layer1.texture": "meetio/assets/default/overflow_menu.png",
+        "layer1.texture": "Meetio/assets/default/overflow_menu.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": [0, 0]
     },

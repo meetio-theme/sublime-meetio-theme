@@ -13,20 +13,8 @@ You can see all the refinements and suggested settings at <https://github.com/ma
 - Auto complete, Goto aAything and Command Palette refinements
 
 ```json
-"color_scheme": "Packages/Meetio/schemes/Meetio-Light.sublime-color-scheme",
-"theme": "Meetio.sublime-theme",
+"color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.sublime-color-scheme",
+  "theme": "Meetio-Lighter.sublime-theme",
 ```
-
-### Theme options
-
-```json
-{
-    "meetio_tabs_autowidth": true,
-    "meetio_tabs_large": true,
-    "meetio_tabs_selected_bold": true,
-    "meetio_sidebar_font_big": true,
-    "meetio_sidebar_large": true,
-    "meetio_titlebar": true
-}
 
 😘 With Love @mauroreisvieira

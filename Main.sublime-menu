@@ -1,0 +1,34 @@
+    [
+        {
+            "id": "preferences",
+            "children":
+            [
+                {
+                    "caption": "Package Settings",
+                    "id": "package-settings",
+                    "children":
+                    [
+                        {
+                            "caption": "Meetio",
+                            "children":
+                            [
+                                {
+                                    "caption": "Activate",
+                                    "command": "mt_activate"
+                                },
+                                { "caption": "-" },
+                                {
+                                    "caption": "Advanced configuration",
+                                    "command": "edit_settings", "args":
+                                    {
+                                        "base_file": "${packages}/Meetio/Preferences.sublime-settings",
+                                        "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]

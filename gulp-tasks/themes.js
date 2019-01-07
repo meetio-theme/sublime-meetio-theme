@@ -29,5 +29,7 @@ function __theme(name, folder) {
 }
 
 export default function themes() {
-    __theme("Meetio", "default");
+    __theme("Meetio-Darker", "default");
+    __theme("Meetio-Lighter", "default");
+    __theme("Meetio-Palenight", "default");
 }

@@ -80,14 +80,14 @@
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        "layer0.texture": "meetio/assets/default/icon_close.png",
+        "layer0.texture": "Meetio/assets/default/icon_close.png",
         "layer0.opacity": 0.2,
         "layer0.inner_margin": 0,
-        "layer1.texture": "meetio/assets/default/icon_close.png",
+        "layer1.texture": "Meetio/assets/default/icon_close.png",
         "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
-        "layer2.texture": "meetio/assets/default/dirty_icon.png",
+        "layer2.texture": "Meetio/assets/default/dirty_icon.png",
         "layer2.inner_margin": 0,
-        "layer3.texture": "meetio/assets/default/dirty_icon.png",
+        "layer3.texture": "Meetio/assets/default/dirty_icon.png",
         "layer3.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
     },
     {
@@ -146,7 +146,7 @@
     },
     {
         "class": "scroll_tabs_left_button",
-        "layer0.texture": "meetio/assets/default/arrow_left.png",
+        "layer0.texture": "Meetio/assets/default/arrow_left.png",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [10, 10]
     },
@@ -157,7 +157,7 @@
     },
     {
         "class": "scroll_tabs_right_button",
-        "layer0.texture": "meetio/assets/default/arrow_right.png",
+        "layer0.texture": "Meetio/assets/default/arrow_right.png",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [10, 10]
     },
@@ -169,10 +169,10 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [12, 12],
-        "layer0.texture": "meetio/assets/default/overflow_menu.png",
+        "layer0.texture": "Meetio/assets/default/overflow_menu.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "meetio/assets/default/overflow_menu.png",
+        "layer1.texture": "Meetio/assets/default/overflow_menu.png",
         "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
         "layer1.inner_margin": 0
     },

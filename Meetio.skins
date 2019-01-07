@@ -1,0 +1,26 @@
+{
+  "Meetio - Darker":
+  {
+    "Preferences":
+    {
+      "theme": "Meetio-Darker.sublime-theme",
+      "color_scheme": "Packages/Meetio/schemes/Meetio-Darker.sublime-color-scheme",
+    }
+  },
+  "Meetio - Lighter":
+  {
+    "Preferences":
+    {
+      "theme": "Meetio-Lighter.sublime-theme",
+      "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.sublime-color-scheme",
+    }
+  },
+  "Meetio - Palenight":
+  {
+    "Preferences":
+    {
+      "theme": "Meetio-Palenight.sublime-theme",
+      "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.sublime-color-scheme"
+    }
+  }
+}
