@@ -13,7 +13,7 @@ You can see all the refinements and suggested settings at <https://github.com/ma
 - Auto complete, Goto aAything and Command Palette refinements
 
 ```json
-"color_scheme": "Packages/Meetio/schemes/Meetio-Light.tmTheme",
+"color_scheme": "Packages/Meetio/schemes/Meetio-Light.sublime-color-scheme",
 "theme": "Meetio.sublime-theme",
 ```
 

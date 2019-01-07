@@ -24,16 +24,16 @@
 To activate this theme, adding these lines to your user settings (**Preferences > Settings - User**):
 
 ```json
-  "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.tmTheme",
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.sublime-color-scheme",
   "theme": "Meetio.sublime-theme",
 ```
 
 ### Schemes variations
 
 ```json
-  "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.tmTheme",
-  "color_scheme": "Packages/Meetio/schemes/Meetio-Darker.tmTheme",
-  "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.tmTheme"
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.sublime-color-scheme",
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Darker.sublime-color-scheme",
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.sublime-color-scheme"
 ```
 
 ### Theme options
