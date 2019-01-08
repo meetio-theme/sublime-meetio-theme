@@ -18,7 +18,7 @@
                                 },
                                 { "caption": "-" },
                                 {
-                                    "caption": "Advanced configuration",
+                                    "caption": "Settings",
                                     "command": "edit_settings", "args":
                                     {
                                         "base_file": "${packages}/Meetio/Preferences.sublime-settings",

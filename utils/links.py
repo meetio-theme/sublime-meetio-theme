@@ -10,7 +10,7 @@ import webbrowser
 class MtRepoCommand(sublime_plugin.WindowCommand):
     def run(self):
         """Open the repository in a browser tab."""
-        webbrowser.open_new_tab('https://github.com/equinusocio/material-theme')
+        webbrowser.open_new_tab('https://github.com/mauroreisvieira/meetio')
 
 
 # Issues command.

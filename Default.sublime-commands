@@ -4,7 +4,7 @@
         "command": "mt_activate"
     },
     {
-      "caption": "Meetio: Advanced configuration",
+      "caption": "Meetio: Settings",
       "command": "edit_settings", "args":
       {
           "base_file": "${packages}/Meetio/Preferences.sublime-settings",
