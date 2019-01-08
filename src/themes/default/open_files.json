@@ -2,6 +2,7 @@
     {
         "class": "close_button",
         "layer0.texture": "Meetio/assets/default/icon_close.png",
+        "layer0.tint": ["accent", 1.0],
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
@@ -9,16 +10,19 @@
         "class": "close_button",
         "attributes": ["hover"],
         "layer0.texture": "Meetio/assets/default/icon_close.png",
+        "layer0.tint": ["accent", 1.0],
         "layer0.opacity": 1.0
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Meetio/assets/default/dirty_icon.png"
+        "layer0.texture": "Meetio/assets/default/dirty_icon.png",
+        "layer0.tint": ["accent", 1.0]
     },
     {
         "class": "close_button",
         "attributes": ["hover", "dirty"],
-        "layer0.texture": "Meetio/assets/default/dirty_icon.png"
+        "layer0.texture": "Meetio/assets/default/dirty_icon.png",
+        "layer0.tint": ["accent", 1.0]
     }
 ]

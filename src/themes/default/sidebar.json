@@ -47,7 +47,6 @@
         "font.bold": true,
         "font.size": 12
     },
-
     {
         "class": "sidebar_heading",
         "parents":
@@ -78,46 +77,38 @@
         "font.bold": false,
         "color": ["foreground", 0.9]
     },
-
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "color": ["foreground", 0.8]
     },
-
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
         "font.bold": true
     },
-
-
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "selected"]}],
         "color": [69, 90, 100]
     },
-
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "color": [128, 203, 196]
+        "color": ["accent", 1.0]
     },
-
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
         "settings": ["bold_folder_labels"],
         "font.bold": true
     },
-
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expanded", "selected"]}],
         "color": [69, 90, 100]
     },
-
     {
         "class": "sidebar_label",
         "attributes": ["transient"],

@@ -28,7 +28,7 @@
         "inactive_selection": "var(skyblue)",
         "misspelling": "var(red)",
         "shadow": "color(var(foreground) alpha(0.5))",
-        "accent": "var(orange)",
+        "accent": "#7dcac4",
         "active_guide": "var(cyan)",
         "stack_guide": "var(cyan)",
         "highlight": "var(cyan)",

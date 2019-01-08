@@ -1,20 +1,22 @@
 [
     {
         "class": "status_bar",
-        "layer0.tint": [79, 78, 106],
+        "layer0.tint": "#4A616C",
         "layer0.opacity": 1.0,
         "content_margin": [10, 2, 0, 2]
     },
     {
         "class": "panel_button_control",
         "layer0.texture": "Meetio/assets/default/overflow_menu.png",
+        "layer0.tint": ["accent", 1.0],
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "panel_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Meetio/assets/default/overflow_menu.png"
+        "layer0.texture": "Meetio/assets/default/overflow_menu.png",
+        "layer0.tint": ["accent", 1.0]
     },
     {
         "class": "status_container",
