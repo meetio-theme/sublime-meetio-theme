@@ -1,14 +1,20 @@
 {
-  "meetio_tabs_autowidth"     : true, // Enable auto width for tabs
-  "meetio_tabs_large"         : true, // Set large tabs
-  "meetio_tabs_selected_bold" : true, // Make the tab labels bolder only in selected
+  // Enable auto width for tabs
+  "meetio_tabs_autowidth"     : true,
+  // Set large tabs
+  "meetio_tabs_large"         : true,
+  // Make the tab labels bolder only in selected
+  "meetio_tabs_selected_bold" : true,
 
-  // Sidebar
-  "meetio_sidebar_font_big"   : false, // Set large font in sidebar
-  "meetio_sidebar_large"      : false, // Set large sidebar
-  "mettio_arrow_folders"      : false, // Replace folder icons with arrows
+  // Set large font in sidebar
+  "meetio_sidebar_font_big"   : false,
+  // Set large sidebar
+  "meetio_sidebar_large"      : false,
+  // Replace folder icons with arrows
+  "meetio_arrow_folders"      : false,
 
-  // Panels
-  "meetio_titlebar"           : true, // Enable title bar (OS X 10.10+)
-  "meetio_input_search_icon"  : true  // Show icon search in inputs
+  // Enable title bar (OS X 10.10+)
+  "meetio_titlebar"           : true,
+  // Show icon search in inputs
+  "meetio_input_search_icon"  : true
 }

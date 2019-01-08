@@ -7,7 +7,7 @@
     {
         "class": "title_bar",
         "settings": ["meetio_titlebar"],
-        "bg": ["background", 0.96],
+        "bg": ["background", 0.92],
         "fg":  ["foreground", 1.0]
     }
 ]
