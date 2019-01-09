@@ -1,7 +1,7 @@
 [
     {
         "caption": "Meetio: Activate theme",
-        "command": "mt_activate"
+        "command": "mo_activate"
     },
     {
       "caption": "Meetio: Settings",

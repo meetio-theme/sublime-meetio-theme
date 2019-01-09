@@ -63,7 +63,7 @@ def commit():
   return sublime.save_settings(PREFERENCES)
 
 
-class MtActivateCommand(sublime_plugin.WindowCommand):
+class MoActivateCommand(sublime_plugin.WindowCommand):
 
   def display_list(self, themes):
     self.themes = themes

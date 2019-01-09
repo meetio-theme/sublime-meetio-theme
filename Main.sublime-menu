@@ -14,7 +14,7 @@
                             [
                                 {
                                     "caption": "Activate",
-                                    "command": "mt_activate"
+                                    "command": "mo_activate"
                                 },
                                 { "caption": "-" },
                                 {

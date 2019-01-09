@@ -1633,9 +1633,9 @@
         "layer0.opacity": 1,
         "content_margin": [
             10,
-            2,
+            4,
             0,
-            2
+            4
         ]
     },
     {
@@ -1645,9 +1645,9 @@
         ],
         "content_margin": [
             10,
-            5,
+            6,
             0,
-            5
+            6
         ]
     },
     {
@@ -1663,24 +1663,24 @@
         "settings": [
             "meetio_statusbar_big"
         ],
-        "content_margin": 10,
-        "layer0.inner_margin": 0
+        "content_margin": 11,
+        "layer0.inner_margin": 4
     },
     {
         "class": "vcs_branch_icon",
         "layer0.texture": "Meetio/assets/default/icon_branch.png",
         "layer0.tint": "#fff",
         "layer0.opacity": 1,
-        "content_margin": 9,
-        "layer0.inner_margin": 4
+        "content_margin": 8,
+        "layer0.inner_margin": 2
     },
     {
         "class": "vcs_branch_icon",
         "settings": [
             "meetio_statusbar_big"
         ],
-        "content_margin": 10,
-        "layer0.inner_margin": 0
+        "content_margin": 9,
+        "layer0.inner_margin": 2
     },
     {
         "class": "panel_button_control",
