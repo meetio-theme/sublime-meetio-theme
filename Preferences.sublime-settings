@@ -4,7 +4,7 @@
   // Set tabs big
   "meetio_tabs_big"           : true,
   // Make the tab labels bolder only in selected
-  "meetio_tabs_selected_bold" : false,
+  "meetio_tabs_bold" : false,
 
   // Set large font in sidebar
   "meetio_sidebar_font_big"   : false,

@@ -63,11 +63,5 @@
         "font.size": 11,
         "color": "#fff",
         "font.bold": false
-    },
-    {
-        "class": "label_control",
-        "parents": [{"class": "status_bar"}],
-        "settings": ["meetio_statusbar_big"],
-        "font.size": 12
     }
 ]
