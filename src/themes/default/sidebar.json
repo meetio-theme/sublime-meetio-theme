@@ -7,7 +7,7 @@
     },
     {
         "class": "sidebar_tree",
-        "row_padding": [20, 6],
+        "row_padding": [20, 8],
         "indent": 10,
         "indent_offset": 2,
         "indent_top_level": false,
@@ -22,6 +22,7 @@
     {
         "class": "sidebar_tree",
         "settings": ["meetio_compact_sidebar"],
+        "indent_offset": 8,
         "row_padding": [14, 3]
     },
     {
