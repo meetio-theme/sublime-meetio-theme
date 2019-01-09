@@ -3,15 +3,14 @@
         "class": "close_button",
         "layer0.texture": "Meetio/assets/default/icon_close.png",
         "layer0.tint": ["accent", 1.0],
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0,
+        "layer0.inner_margin": [0, 0],
         "content_margin": [8, 8]
     },
     {
         "class": "close_button",
-        "attributes": ["hover"],
-        "layer0.texture": "Meetio/assets/default/icon_close.png",
-        "layer0.tint": ["accent", 1.0],
-        "layer0.opacity": 1.0
+        "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
+        "layer0.opacity": 1
     },
     {
         "class": "close_button",
