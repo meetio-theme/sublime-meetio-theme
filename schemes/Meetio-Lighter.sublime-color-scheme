@@ -44,6 +44,16 @@
     },
     "rules": [
         {
+            "background": "#000000",
+            "scope": "col_gutter",
+            "foreground": "#ffffff"
+        },
+        {
+            "background": "#6D88FFFF",
+            "scope": "col_6D88FFFF",
+            "foreground": "#0D0D0DFF"
+        },
+        {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "color(var(black) alpha(0.3))"

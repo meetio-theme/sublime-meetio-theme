@@ -8,8 +8,8 @@
 
   // Set large font in sidebar
   "meetio_sidebar_font_big"   : false,
-  // Set large sidebar
-  "meetio_sidebar_large"      : false,
+  // Set compact sidebar
+  "meetio_compact_sidebar"      : false,
   // Replace folder icons with arrows
   "meetio_arrow_folders"      : false,
 

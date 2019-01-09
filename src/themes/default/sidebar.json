@@ -7,9 +7,9 @@
     },
     {
         "class": "sidebar_tree",
-        "row_padding": [16, 3],
-        "indent": 16,
-        "indent_offset": 16,
+        "row_padding": [20, 6],
+        "indent": 10,
+        "indent_offset": 2,
         "indent_top_level": false,
         "dark_content": false,
         "spacer_rows": true
@@ -21,8 +21,8 @@
     },
     {
         "class": "sidebar_tree",
-        "settings": ["meetio_sidebar_large"],
-        "row_padding": [16, 6]
+        "settings": ["meetio_compact_sidebar"],
+        "row_padding": [16, 3]
     },
     {
         "class": "tree_row",

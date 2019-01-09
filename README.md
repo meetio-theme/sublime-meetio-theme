@@ -46,7 +46,7 @@ To activate this theme, adding these lines to your user settings (**Preferences 
 
   // Sidebar
   "meetio_sidebar_font_big"   : true, // Set large font in sidebar
-  "meetio_sidebar_large"      : true, // Set large sidebar
+  "meetio_compact_sidebar"    : true, // Set compact sidebar
   "meetio_arrow_folders"      : true, // Replace folder icons with arrows
 
   // Panels
