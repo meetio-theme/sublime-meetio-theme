@@ -13,12 +13,12 @@
                             "children":
                             [
                                 {
-                                    "caption": "Activate",
+                                    "caption": "Theme Activate",
                                     "command": "mo_activate"
                                 },
                                 { "caption": "-" },
                                 {
-                                    "caption": "Settings",
+                                    "caption": "Edit Settings",
                                     "command": "edit_settings", "args":
                                     {
                                         "base_file": "${packages}/Meetio/Preferences.sublime-settings",

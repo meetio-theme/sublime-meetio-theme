@@ -2,13 +2,10 @@
 import path from "path";
 import fs from "fs";
 
-const debug = true;
-
 function __theme(name, folder) {
     const merge = [];
     let options = {};
     fs.readdirSync(`./src/themes/${folder}/`).forEach(file => {
-        if (debug) console.log(`👁  reading "${file}" file.`);
         file = path.join(__dirname, `/../src/themes/${folder}/` + file);
         fs.readFile(file, "utf8", (err, data) => {
             if (err) throw err;
@@ -18,14 +15,10 @@ function __theme(name, folder) {
                 merge.push(value);
             });
             fs.writeFileSync(`${name}.sublime-theme`, JSON.stringify(merge, null, 4), (err) => {
-                if (err) {
-                    console.log(`🆘 Problme with ${name}.`);
-                    console.log(err);
-                }
+                if (err) console.log(err);
             });
         });
     });
-    console.log(`✅ theme "${name}" was saved!`);
 }
 
 export default function themes() {

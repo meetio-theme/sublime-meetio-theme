@@ -1,10 +1,10 @@
 [
     {
-        "caption": "Meetio: Activate theme",
+        "caption": "Meetio: Theme Activate",
         "command": "mo_activate"
     },
     {
-      "caption": "Meetio: Settings",
+      "caption": "Meetio: Edit Settings",
       "command": "edit_settings", "args":
       {
           "base_file": "${packages}/Meetio/Preferences.sublime-settings",
