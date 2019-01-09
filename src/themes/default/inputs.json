@@ -48,15 +48,11 @@
         "layer0.texture": "Meetio/assets/default/overflow_menu.png",
         "layer0.tint": ["accent", 1.0],
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [0, 0],
-        "layer1.texture": "Meetio/assets/default/overflow_menu.png",
-        "layer1.tint": ["accent", 1.0],
-        "layer1.opacity": 0.0,
-        "layer1.inner_margin": [0, 0]
+        "layer0.inner_margin": [0, 0]
     },
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer1.opacity": 1.0
+        "layer0.opacity": 0.8
     }
 ]

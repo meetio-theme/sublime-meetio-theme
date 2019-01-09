@@ -1,20 +1,23 @@
 {
   // Enable auto width for tabs
   "meetio_tabs_autowidth"     : true,
-  // Set large tabs
-  "meetio_tabs_large"         : true,
+  // Set tabs big
+  "meetio_tabs_big"           : true,
   // Make the tab labels bolder only in selected
-  "meetio_tabs_selected_bold" : true,
+  "meetio_tabs_selected_bold" : false,
 
   // Set large font in sidebar
   "meetio_sidebar_font_big"   : false,
   // Set compact sidebar
-  "meetio_compact_sidebar"      : false,
+  "meetio_compact_sidebar"    : true,
   // Replace folder icons with arrows
   "meetio_arrow_folders"      : false,
+
 
   // Enable title bar (OS X 10.10+)
   "meetio_titlebar"           : true,
   // Show icon search in inputs
-  "meetio_input_search_icon"  : true
+  "meetio_input_search_icon"  : true,
+  // Set status bar big
+  "meetio_statusbar_big"      : false,
 }

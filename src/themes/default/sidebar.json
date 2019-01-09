@@ -17,12 +17,12 @@
     {
         "class": "sidebar_tree",
         "platforms": ["windows"],
-        "row_padding": [16, 2, 16, 2]
+        "row_padding": [20, 6]
     },
     {
         "class": "sidebar_tree",
         "settings": ["meetio_compact_sidebar"],
-        "row_padding": [16, 3]
+        "row_padding": [14, 3]
     },
     {
         "class": "tree_row",
