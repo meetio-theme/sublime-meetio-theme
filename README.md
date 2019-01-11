@@ -21,11 +21,18 @@
  - Move folder to inside
  - Start using...
 
+### Activate the theme
+
+**You can active this theme from:**
+
+ * Command palette Tools > Command Palette `(Ctrl or ⌘) + ⇧ + P` by typing `Meetio: Theme Activate`
+ * Preferences > Packages Settings and choose `Meetio > Theme Activate`
+
 To activate this theme, adding these lines to your user settings (**Preferences > Settings - User**):
 
 ```json
-  "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.sublime-color-scheme",
-  "theme": "Meetio-Lighter.sublime-theme",
+  "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
+  "theme": "Meetio.sublime-theme",
 ```
 
 ### Schemes variations
@@ -48,10 +55,12 @@ To activate this theme, adding these lines to your user settings (**Preferences 
   "meetio_sidebar_font_big"  : true, // Set large font in sidebar
   "meetio_compact_sidebar"   : true, // Set compact sidebar
   "meetio_arrow_folders"     : true, // Replace folder icons with arrows
+  "meetio_sidebar_disclosure": true, // Set disclosure tree controls
 
   // Panels
   "meetio_titlebar"          : true, // Enable title bar (OS X 10.10+)
   "meetio_input_search_icon" : true  // Show icon search in inputs
+  "meetio_statusbar_big"     : true  // Set status bar big
 ```
 
 ### Recommended settings for a better experience:
