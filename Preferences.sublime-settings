@@ -12,6 +12,8 @@
   "meetio_compact_sidebar"    : true,
   // Replace folder icons with arrows
   "meetio_arrow_folders"      : false,
+  // Set disclosure tree controls
+  "meetio_sidebar_disclosure" : true,
 
 
   // Enable title bar (OS X 10.10+)

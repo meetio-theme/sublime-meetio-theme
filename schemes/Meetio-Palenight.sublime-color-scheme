@@ -44,56 +44,6 @@
     },
     "rules": [
         {
-            "background": "#4A616CFF",
-            "scope": "col_4A616CFF",
-            "foreground": "#DBDBDBFF"
-        },
-        {
-            "background": "#253137FF",
-            "scope": "col_253137FF",
-            "foreground": "#AEAEAEFF"
-        },
-        {
-            "background": "#FFFFFFFF",
-            "scope": "col_FFFFFFFF",
-            "foreground": "#7F7F7FFF"
-        },
-        {
-            "background": "#D33131FF",
-            "scope": "col_D33131FF",
-            "foreground": "#E1E1E1FF"
-        },
-        {
-            "background": "#479E8EFF",
-            "scope": "col_479E8EFF",
-            "foreground": "#020202FF"
-        },
-        {
-            "background": "#7B88CCFF",
-            "scope": "col_7B88CCFF",
-            "foreground": "#0B0B0BFF"
-        },
-        {
-            "background": "#C1685CFF",
-            "scope": "col_C1685CFF",
-            "foreground": "#010101FF"
-        },
-        {
-            "background": "#000000FF",
-            "scope": "col_000000FF",
-            "foreground": "#808080FF"
-        },
-        {
-            "background": "#000000",
-            "scope": "col_gutter",
-            "foreground": "#ffffff"
-        },
-        {
-            "background": "#6D88FFFF",
-            "scope": "col_6D88FFFF",
-            "foreground": "#0D0D0DFF"
-        },
-        {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "color(var(white) alpha(0.3))"

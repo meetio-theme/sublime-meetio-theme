@@ -2,7 +2,7 @@
     "name": "Meetio-Darker",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com",
     "variables": {
-        "background": "#293136",
+        "background": "#263238",
         "black": "rgb(84, 109, 121)",
         "blue": "rgb(120, 189, 214)",
         "cyan": "rgb(112, 225, 232)",
@@ -43,81 +43,6 @@
         "tags_foreground": "var(violet)"
     },
     "rules": [
-        {
-            "foreground": "#0D0D0DFF",
-            "scope": "col_6D88FFFF",
-            "background": "#6D88FFFF"
-        },
-        {
-            "background": "#000000FF",
-            "foreground": "#808080FF",
-            "scope": "col_000000FF"
-        },
-        {
-            "background": "#000000",
-            "foreground": "#ffffff",
-            "scope": "col_gutter"
-        },
-        {
-            "background": "#4A616CFF",
-            "foreground": "#DBDBDBFF",
-            "scope": "col_4A616CFF"
-        },
-        {
-            "background": "#FFFFFFFF",
-            "foreground": "#7F7F7FFF",
-            "scope": "col_FFFFFFFF"
-        },
-        {
-            "background": "#FFFFFF3F",
-            "foreground": "#E2E2E2FF",
-            "scope": "col_FFFFFF3F"
-        },
-        {
-            "background": "#8080803F",
-            "foreground": "#C3C3C3FF",
-            "scope": "col_8080803F"
-        },
-        {
-            "background": "#7B88CCFF",
-            "foreground": "#0B0B0BFF",
-            "scope": "col_7B88CCFF"
-        },
-        {
-            "background": "#8080802D",
-            "foreground": "#BDBDBDFF",
-            "scope": "col_8080802D"
-        },
-        {
-            "background": "#C1685CFF",
-            "foreground": "#010101FF",
-            "scope": "col_C1685CFF"
-        },
-        {
-            "background": "#73808CFF",
-            "foreground": "#FDFDFDFF",
-            "scope": "col_73808CFF"
-        },
-        {
-            "background": "#253137FF",
-            "foreground": "#AEAEAEFF",
-            "scope": "col_253137FF"
-        },
-        {
-            "background": "#EBEDEFFF",
-            "foreground": "#6C6C6CFF",
-            "scope": "col_EBEDEFFF"
-        },
-        {
-            "background": "#479E8EFF",
-            "foreground": "#020202FF",
-            "scope": "col_479E8EFF"
-        },
-        {
-            "background": "#D33131FF",
-            "foreground": "#E1E1E1FF",
-            "scope": "col_D33131FF"
-        },
         {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",

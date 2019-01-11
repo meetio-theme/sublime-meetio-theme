@@ -1,8 +1,8 @@
 [
     {
         "class": "disclosure_button_control",
-        "layer0.texture": "Meetio/assets/default/disclosure_unexpanded.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.texture": "Meetio/assets/default/disclosure.png",
+        "layer0.tint": ["foreground", 0.6],
         "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [0, 0, 0, 0]
     },
@@ -16,6 +16,12 @@
         "class": "disclosure_button_control",
         "attributes": ["hover"],
         "layer0.opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["meetio_sidebar_disclosure", "!meetio_arrow_folders"],
+        "content_margin": [8, 8],
+        "layer0.opacity": 1.0
     },
     {
         "class": "icon_folder",
