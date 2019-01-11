@@ -40,8 +40,8 @@
         "brackets_foreground"         : "var(orange)",
         "bracket_contents_options"    : "underline",
         "bracket_contents_foreground" : "var(cyan)",
-        "tags_options"                : "stippled_underline",
-        "tags_foreground"             : "var(deep-purple)"
+        "tags_foreground"             : "var(deep-purple)",
+        "tags_options"                : "stippled_underline"
     },
     "rules": [
         {
