@@ -11,6 +11,7 @@ import functools
 NO_SELECTION = -1
 PREFERENCES = 'Preferences.sublime-settings'
 THEMES = [
+  'Meetio',
   'Meetio-Lighter',
   'Meetio-Darker',
   'Meetio-Palenight'

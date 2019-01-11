@@ -2,30 +2,30 @@
     "name": "Meetio-Darker",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com",
     "variables": {
-        "background": "#263137",
-        "black": "rgb(84, 109, 121)",
-        "blue": "rgb(120, 189, 214)",
-        "cyan": "rgb(112, 225, 232)",
-        "gray": "rgb(61, 61, 61)",
-        "green": "rgb(195, 232, 141)",
-        "orange": "rgb(255, 178, 102)",
-        "pink": "rgb(255, 82, 111)",
-        "purple": "rgb(150, 126, 251)",
-        "red": "rgb(217, 87, 87)",
-        "salmon": "rgb(249, 123, 88)",
-        "skyblue": "rgba(226, 242, 253, 0.1)",
-        "violet": "rgb(197, 148, 197)",
-        "white": "rgb(254, 254, 254)",
-        "yellow": "rgb(255, 203, 107)"
+        "background": "#262626",
+        "black": "#121212",
+        "blue": "#64b5f6",
+        "cyan": "#89DDFF",
+        "gray": "#65737E",
+        "green": "#81c784",
+        "orange": "#F78C6C",
+        "pink": "#f06292",
+        "purple": "#ba68c8",
+        "red": "#F07178",
+        "deep-orange": "#f97b58",
+        "light-blue": "rgba(226, 242, 253, 0.1)",
+        "deep-purple": "#9575cd",
+        "white": "#EFEFEF",
+        "yellow": "#FFCB6B"
     },
    "globals": {
         "foreground": "var(white)",
         "background": "var(background)",
         "caret": "var(yellow)",
         "line_highlight": "color(var(white) alpha(0.1))",
-        "selection": "var(skyblue)",
+        "selection": "var(light-blue)",
         "selection_border": "var(blue)",
-        "inactive_selection": "var(skyblue)",
+        "inactive_selection": "var(light-blue)",
         "misspelling": "var(red)",
         "shadow": "color(var(background) alpha(0.5))",
         "accent": "#7dcac4",
@@ -40,18 +40,93 @@
         "bracket_contents_options": "underline",
         "bracket_contents_foreground": "var(cyan)",
         "tags_options": "stippled_underline",
-        "tags_foreground": "var(violet)"
+        "tags_foreground": "var(deep-purple)"
     },
     "rules": [
         {
-            "foreground": "#ffffff",
             "scope": "col_gutter",
-            "background": "#000000"
+            "background": "#000000",
+            "foreground": "#ffffff"
         },
         {
-            "foreground": "#DBDBDBFF",
-            "scope": "col_4A616CFF",
-            "background": "#4A616CFF"
+            "scope": "col_7DCAC4FF",
+            "background": "#7DCAC4FF",
+            "foreground": "#323232FF"
+        },
+        {
+            "scope": "col_F07178FF",
+            "background": "#F07178FF",
+            "foreground": "#171717FF"
+        },
+        {
+            "scope": "col_E2F2FD19",
+            "background": "#E2F2FD19",
+            "foreground": "#B9B9B9FF"
+        },
+        {
+            "scope": "col_F06292FF",
+            "background": "#F06292FF",
+            "foreground": "#111111FF"
+        },
+        {
+            "scope": "col_89DDFFFF",
+            "background": "#89DDFFFF",
+            "foreground": "#474747FF"
+        },
+        {
+            "scope": "col_F97B58FF",
+            "background": "#F97B58FF",
+            "foreground": "#1C1C1CFF"
+        },
+        {
+            "scope": "col_65737EFF",
+            "background": "#65737EFF",
+            "foreground": "#F0F0F0FF"
+        },
+        {
+            "scope": "col_64B5F6FF",
+            "background": "#64B5F6FF",
+            "foreground": "#242424FF"
+        },
+        {
+            "scope": "col_121212FF",
+            "background": "#121212FF",
+            "foreground": "#929292FF"
+        },
+        {
+            "scope": "col_9575CDFF",
+            "background": "#9575CDFF",
+            "foreground": "#080808FF"
+        },
+        {
+            "scope": "col_81C784FF",
+            "background": "#81C784FF",
+            "foreground": "#2A2A2AFF"
+        },
+        {
+            "scope": "col_252525FF",
+            "background": "#252525FF",
+            "foreground": "#A5A5A5FF"
+        },
+        {
+            "scope": "col_EFEFEFFF",
+            "background": "#EFEFEFFF",
+            "foreground": "#6F6F6FFF"
+        },
+        {
+            "scope": "col_FFCB6BFF",
+            "background": "#FFCB6BFF",
+            "foreground": "#4F4F4FFF"
+        },
+        {
+            "scope": "col_F78C6CFF",
+            "background": "#F78C6CFF",
+            "foreground": "#282828FF"
+        },
+        {
+            "scope": "col_BA68C8FF",
+            "background": "#BA68C8FF",
+            "foreground": "#0B0B0BFF"
         },
         {
             "name": "Comment",
@@ -71,7 +146,7 @@
         {
             "name": "User-defined constant",
             "scope": "constant.character, constant.other",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "Member Variable",
@@ -81,7 +156,7 @@
         {
             "name": "Keyword",
             "scope": "keyword - keyword.operator, keyword.operator.word",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "Operator, Misc",
@@ -126,7 +201,7 @@
         {
             "name": "CSS Classes",
             "scope": "entity.other.attribute-name.class",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "CSS Class and Support",
@@ -151,7 +226,7 @@
         {
             "name": "Storage type",
             "scope": "storage.type",
-            "foreground": "var(violet)",
+            "foreground": "var(deep-purple)",
             "font_style": "italic"
         },
         {
@@ -189,7 +264,7 @@
         {
             "name": "Tag attribute",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "Function call",
@@ -205,7 +280,7 @@
         {
             "name": "Library constant",
             "scope": "support.constant",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "Library class/type",
@@ -237,7 +312,7 @@
         {
             "name": "diff.header",
             "scope": "meta.diff, meta.diff.header",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "diff.deleted",
@@ -270,7 +345,7 @@
         {
             "name": "JSON Key - Level 0",
             "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "JSON Key - Level 1",
@@ -295,7 +370,7 @@
         {
             "name": "JSON Key - Level 5",
             "scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(salmon)"
+            "foreground": "var(deep-orange)"
         },
         {
             "name": "JSON Key - Level 6",
@@ -315,7 +390,7 @@
         {
             "name": "markup headings",
             "scope": "markup.heading punctuation.definition.heading",
-            "foreground": "var(salmon)"
+            "foreground": "var(deep-orange)"
         },
         {
             "name": "markup h1",
@@ -361,22 +436,22 @@
         {
             "name": "markup code",
             "scope": "markup.raw",
-            "background": "var(skyblue)"
+            "background": "var(light-blue)"
         },
         {
             "name": "markup code",
             "scope": "markup.raw.inline",
-            "background": "var(skyblue)"
+            "background": "var(light-blue)"
         },
         {
             "name": "markup punctuation",
             "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
             "scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
-            "foreground": "var(salmon)"
+            "foreground": "var(deep-orange)"
         },
         {
             "name": "Object Keys",
