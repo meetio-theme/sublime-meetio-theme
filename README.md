@@ -13,7 +13,7 @@
     - **Windows**: menu item `File → Exit`
     - **Linux** : menu item `File → Exit`
 
-4. Ready to use 🎉
+ - Ready to use 🎉
 
 **Manually:**
  - Download latest release and unzip. it into your Packages folder
