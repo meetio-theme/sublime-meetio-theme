@@ -2,132 +2,48 @@
     "name": "Meetio-Darker",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com",
     "variables": {
-        "background": "#262626",
-        "black": "#121212",
-        "blue": "#64b5f6",
-        "cyan": "#89DDFF",
-        "gray": "#65737E",
-        "green": "#81c784",
-        "orange": "#F78C6C",
-        "pink": "#f06292",
-        "purple": "#ba68c8",
-        "red": "#F07178",
-        "deep-orange": "#f97b58",
-        "light-blue": "rgba(226, 242, 253, 0.1)",
-        "deep-purple": "#9575cd",
-        "white": "#EFEFEF",
-        "yellow": "#FFCB6B"
+        "primary"     : "#7dcac4",
+        "background"  : "#263137",
+        "black"       : "#121212",
+        "blue"        : "#64b5f6",
+        "cyan"        : "#89ddff",
+        "gray"        : "#65737e",
+        "green"       : "#81c784",
+        "orange"      : "#f78c6c",
+        "pink"        : "#f06292",
+        "purple"      : "#ba68c8",
+        "red"         : "#f07178",
+        "deep-orange" : "#f97b58",
+        "light-blue"  : "#e1f5fe",
+        "deep-purple" : "#b39ddb",
+        "white"       : "#efefef",
+        "yellow"      : "#ffcb6b"
     },
    "globals": {
-        "foreground": "var(white)",
-        "background": "var(background)",
-        "caret": "var(yellow)",
-        "line_highlight": "color(var(white) alpha(0.1))",
-        "selection": "var(light-blue)",
-        "selection_border": "var(blue)",
-        "inactive_selection": "var(light-blue)",
-        "misspelling": "var(red)",
-        "shadow": "color(var(background) alpha(0.5))",
-        "accent": "#7dcac4",
-        "active_guide": "var(cyan)",
-        "stack_guide": "var(cyan)",
-        "highlight": "var(cyan)",
-        "fold_marker": "var(yellow)",
-        "find_highlight_foreground": "var(gray)",
-        "find_highlight": "var(yellow)",
-        "brackets_options": "underline",
-        "brackets_foreground": "var(orange)",
-        "bracket_contents_options": "underline",
-        "bracket_contents_foreground": "var(cyan)",
-        "tags_options": "stippled_underline",
-        "tags_foreground": "var(deep-purple)"
+        "foreground"                  : "var(white)",
+        "background"                  : "var(background)",
+        "caret"                       : "var(yellow)",
+        "line_highlight"              : "color(var(white) alpha(0.1))",
+        "selection"                   : "color(var(light-blue) alpha(0.1))",
+        "selection_border"            : "var(blue)",
+        "inactive_selection"          : "color(var(light-blue) alpha(0.1))",
+        "misspelling"                 : "var(red)",
+        "shadow"                      : "color(var(background) alpha(0.5))",
+        "accent"                      : "var(primary)",
+        "active_guide"                : "var(cyan)",
+        "stack_guide"                 : "var(cyan)",
+        "highlight"                   : "var(cyan)",
+        "fold_marker"                 : "var(yellow)",
+        "find_highlight_foreground"   : "var(gray)",
+        "find_highlight"              : "var(yellow)",
+        "brackets_options"            : "underline",
+        "brackets_foreground"         : "var(orange)",
+        "bracket_contents_options"    : "underline",
+        "bracket_contents_foreground" : "var(cyan)",
+        "tags_foreground"             : "var(deep-purple)",
+        "tags_options"                : "stippled_underline"
     },
     "rules": [
-        {
-            "scope": "col_gutter",
-            "background": "#000000",
-            "foreground": "#ffffff"
-        },
-        {
-            "scope": "col_7DCAC4FF",
-            "background": "#7DCAC4FF",
-            "foreground": "#323232FF"
-        },
-        {
-            "scope": "col_F07178FF",
-            "background": "#F07178FF",
-            "foreground": "#171717FF"
-        },
-        {
-            "scope": "col_E2F2FD19",
-            "background": "#E2F2FD19",
-            "foreground": "#B9B9B9FF"
-        },
-        {
-            "scope": "col_F06292FF",
-            "background": "#F06292FF",
-            "foreground": "#111111FF"
-        },
-        {
-            "scope": "col_89DDFFFF",
-            "background": "#89DDFFFF",
-            "foreground": "#474747FF"
-        },
-        {
-            "scope": "col_F97B58FF",
-            "background": "#F97B58FF",
-            "foreground": "#1C1C1CFF"
-        },
-        {
-            "scope": "col_65737EFF",
-            "background": "#65737EFF",
-            "foreground": "#F0F0F0FF"
-        },
-        {
-            "scope": "col_64B5F6FF",
-            "background": "#64B5F6FF",
-            "foreground": "#242424FF"
-        },
-        {
-            "scope": "col_121212FF",
-            "background": "#121212FF",
-            "foreground": "#929292FF"
-        },
-        {
-            "scope": "col_9575CDFF",
-            "background": "#9575CDFF",
-            "foreground": "#080808FF"
-        },
-        {
-            "scope": "col_81C784FF",
-            "background": "#81C784FF",
-            "foreground": "#2A2A2AFF"
-        },
-        {
-            "scope": "col_252525FF",
-            "background": "#252525FF",
-            "foreground": "#A5A5A5FF"
-        },
-        {
-            "scope": "col_EFEFEFFF",
-            "background": "#EFEFEFFF",
-            "foreground": "#6F6F6FFF"
-        },
-        {
-            "scope": "col_FFCB6BFF",
-            "background": "#FFCB6BFF",
-            "foreground": "#4F4F4FFF"
-        },
-        {
-            "scope": "col_F78C6CFF",
-            "background": "#F78C6CFF",
-            "foreground": "#282828FF"
-        },
-        {
-            "scope": "col_BA68C8FF",
-            "background": "#BA68C8FF",
-            "foreground": "#0B0B0BFF"
-        },
         {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
@@ -436,12 +352,12 @@
         {
             "name": "markup code",
             "scope": "markup.raw",
-            "background": "var(light-blue)"
+            "background": "color(var(light-blue) alpha(0.1))"
         },
         {
             "name": "markup code",
             "scope": "markup.raw.inline",
-            "background": "var(light-blue)"
+            "background": "color(var(light-blue) alpha(0.1))"
         },
         {
             "name": "markup punctuation",

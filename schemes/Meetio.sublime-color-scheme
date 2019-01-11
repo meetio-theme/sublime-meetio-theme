@@ -1,46 +1,47 @@
 {
-    "name": "Meetio-Darker",
+    "name": "Meetio",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com",
     "variables": {
-        "background": "#263137",
-        "black": "rgb(84, 109, 121)",
-        "blue": "rgb(120, 189, 214)",
-        "cyan": "rgb(112, 225, 232)",
-        "gray": "rgb(61, 61, 61)",
-        "green": "rgb(195, 232, 141)",
-        "orange": "rgb(255, 178, 102)",
-        "pink": "rgb(255, 82, 111)",
-        "purple": "rgb(150, 126, 251)",
-        "red": "rgb(217, 87, 87)",
-        "salmon": "rgb(249, 123, 88)",
-        "skyblue": "rgba(226, 242, 253, 0.1)",
-        "violet": "rgb(197, 148, 197)",
-        "white": "rgb(254, 254, 254)",
-        "yellow": "rgb(255, 203, 107)"
+        "primary"     : "#7dcac4",
+        "background"  : "#263137",
+        "black"       : "#121212",
+        "blue"        : "#78bdd6",
+        "cyan"        : "#70e1e8",
+        "gray"        : "#3d3d3d",
+        "green"       : "#c3e88d",
+        "orange"      : "#ffb266",
+        "pink"        : "#ff526f",
+        "purple"      : "#967efb",
+        "red"         : "#d95757",
+        "deep-orange" : "#f97b58",
+        "light-blue"  : "#e1f5fe",
+        "deep-purple" : "#c594c5",
+        "white"       : "#efefef",
+        "yellow"      : "#ffcb6b"
     },
    "globals": {
-        "foreground": "var(white)",
-        "background": "var(background)",
-        "caret": "var(yellow)",
-        "line_highlight": "color(var(white) alpha(0.1))",
-        "selection": "var(skyblue)",
-        "selection_border": "var(blue)",
-        "inactive_selection": "var(skyblue)",
-        "misspelling": "var(red)",
-        "shadow": "color(var(background) alpha(0.5))",
-        "accent": "#7dcac4",
-        "active_guide": "var(cyan)",
-        "stack_guide": "var(cyan)",
-        "highlight": "var(cyan)",
-        "fold_marker": "var(yellow)",
-        "find_highlight_foreground": "var(gray)",
-        "find_highlight": "var(yellow)",
-        "brackets_options": "underline",
-        "brackets_foreground": "var(orange)",
-        "bracket_contents_options": "underline",
-        "bracket_contents_foreground": "var(cyan)",
-        "tags_options": "stippled_underline",
-        "tags_foreground": "var(violet)"
+        "foreground"                  : "var(white)",
+        "background"                  : "var(background)",
+        "caret"                       : "var(yellow)",
+        "line_highlight"              : "color(var(white) alpha(0.1))",
+        "selection"                   : "color(var(light-blue) alpha(0.1))",
+        "selection_border"            : "var(blue)",
+        "inactive_selection"          : "color(var(light-blue) alpha(0.1))",
+        "misspelling"                 : "var(red)",
+        "shadow"                      : "color(var(background) alpha(0.5))",
+        "accent"                      : "var(primary)",
+        "active_guide"                : "var(cyan)",
+        "stack_guide"                 : "var(cyan)",
+        "highlight"                   : "var(cyan)",
+        "fold_marker"                 : "var(yellow)",
+        "find_highlight_foreground"   : "var(gray)",
+        "find_highlight"              : "var(yellow)",
+        "brackets_options"            : "underline",
+        "brackets_foreground"         : "var(orange)",
+        "bracket_contents_options"    : "underline",
+        "bracket_contents_foreground" : "var(cyan)",
+        "tags_foreground"             : "var(deep-purple)",
+        "tags_options"                : "stippled_underline"
     },
     "rules": [
         {
@@ -61,7 +62,7 @@
         {
             "name": "User-defined constant",
             "scope": "constant.character, constant.other",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "Member Variable",
@@ -71,7 +72,7 @@
         {
             "name": "Keyword",
             "scope": "keyword - keyword.operator, keyword.operator.word",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "Operator, Misc",
@@ -116,7 +117,7 @@
         {
             "name": "CSS Classes",
             "scope": "entity.other.attribute-name.class",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "CSS Class and Support",
@@ -141,7 +142,7 @@
         {
             "name": "Storage type",
             "scope": "storage.type",
-            "foreground": "var(violet)",
+            "foreground": "var(deep-purple)",
             "font_style": "italic"
         },
         {
@@ -179,7 +180,7 @@
         {
             "name": "Tag attribute",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "Function call",
@@ -195,7 +196,7 @@
         {
             "name": "Library constant",
             "scope": "support.constant",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "Library class/type",
@@ -227,7 +228,7 @@
         {
             "name": "diff.header",
             "scope": "meta.diff, meta.diff.header",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "diff.deleted",
@@ -260,7 +261,7 @@
         {
             "name": "JSON Key - Level 0",
             "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "JSON Key - Level 1",
@@ -285,7 +286,7 @@
         {
             "name": "JSON Key - Level 5",
             "scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(salmon)"
+            "foreground": "var(deep-orange)"
         },
         {
             "name": "JSON Key - Level 6",
@@ -305,7 +306,7 @@
         {
             "name": "markup headings",
             "scope": "markup.heading punctuation.definition.heading",
-            "foreground": "var(salmon)"
+            "foreground": "var(deep-orange)"
         },
         {
             "name": "markup h1",
@@ -351,22 +352,22 @@
         {
             "name": "markup code",
             "scope": "markup.raw",
-            "background": "var(skyblue)"
+            "background": "color(var(light-blue) alpha(0.1))"
         },
         {
             "name": "markup code",
             "scope": "markup.raw.inline",
-            "background": "var(skyblue)"
+            "background": "color(var(light-blue) alpha(0.1))"
         },
         {
             "name": "markup punctuation",
             "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
-            "foreground": "var(violet)"
+            "foreground": "var(deep-purple)"
         },
         {
             "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
             "scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
-            "foreground": "var(salmon)"
+            "foreground": "var(deep-orange)"
         },
         {
             "name": "Object Keys",
