@@ -42,7 +42,7 @@ STYLES = '''
 }
 '''
 
-class MoChangesCommand(sublime_plugin.WindowCommand):
+class MoChangelogCommand(sublime_plugin.WindowCommand):
   def on_navigate(self, href):
     webbrowser.open_new_tab(href)
 

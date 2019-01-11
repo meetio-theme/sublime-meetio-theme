@@ -11,4 +11,8 @@
           "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
       }
     },
+    {
+        "caption": "Meetio: Changelog",
+        "command": "mo_changelog"
+    },
 ]
