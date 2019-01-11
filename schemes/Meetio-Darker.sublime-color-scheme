@@ -2,7 +2,7 @@
     "name": "Meetio-Darker",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com",
     "variables": {
-        "background": "#263238",
+        "background": "#263137",
         "black": "rgb(84, 109, 121)",
         "blue": "rgb(120, 189, 214)",
         "cyan": "rgb(112, 225, 232)",
@@ -43,6 +43,16 @@
         "tags_foreground": "var(violet)"
     },
     "rules": [
+        {
+            "foreground": "#ffffff",
+            "scope": "col_gutter",
+            "background": "#000000"
+        },
+        {
+            "foreground": "#DBDBDBFF",
+            "scope": "col_4A616CFF",
+            "background": "#4A616CFF"
+        },
         {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
