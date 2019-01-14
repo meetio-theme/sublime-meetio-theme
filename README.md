@@ -81,9 +81,6 @@ Color      | Default   |  Lighter  |  Darker  |  Palenight |
 Accent     | `#7dcac4` | `#7dcac4` | `#7dcac4` | `#7dcac4`  |
 Background | `#2c343b` | `#fafafa` | `#1b2b35` | `#193448`  |
 Foreground | `#efefef` | `#546d79` | `#efefef` | `#fefefe`  |
-
-Color      | Default   |  Lighter  |  Darker  |  Palenight |
----        | ---       |  ---      |  ---     |  ---       |
 Black      | `#121212` | `#546d79` | `#121212` | `#546d79`  |
 Blue       | `#6398ce` | `#6181b8` | `#64b5f6` | `#40c4fe`  |
 Cyan       | `#5bb3b4` | `#80cbc4` | `#89ddff` | `#9effff`  |
