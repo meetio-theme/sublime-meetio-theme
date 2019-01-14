@@ -30,17 +30,39 @@
 
 To activate this theme, adding these lines to your user settings (**Preferences > Settings - User**):
 
+### Schemes variations
+
+#### Meetio Default
+<p align="center"><img src="public/screenshots/Meetio-Default.png" width="980"/></p>
+
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
   "theme": "Meetio.sublime-theme",
 ```
 
-### Schemes variations
+
+#### Meetio Lighter
+<p align="center"><img src="public/screenshots/Meetio-Lighter.png" width="980"/></p>
 
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.sublime-color-scheme",
+  "theme": "Meetio-Lighter.sublime-theme",
+```
+
+#### Meetio Darker
+<p align="center"><img src="public/screenshots/Meetio-Darker.png" width="980"/></p>
+
+```json
   "color_scheme": "Packages/Meetio/schemes/Meetio-Darker.sublime-color-scheme",
-  "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.sublime-color-scheme"
+  "theme": "Meetio-Darker.sublime-theme",
+```
+
+#### Meetio Palenight
+<p align="center"><img src="public/screenshots/Meetio-Palenight.png" width="980"/></p>
+
+```json
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.sublime-color-scheme",
+  "theme": "Meetio-Palenight.sublime-theme",
 ```
 
 ### Theme options
@@ -79,7 +101,7 @@ To activate this theme, adding these lines to your user settings (**Preferences 
 Color      | Default   |  Lighter  |  Darker  |  Palenight |
 ---        | ---       |  ---      |  ---     |  ---       |
 Accent     | `#7dcac4` | `#7dcac4` | `#7dcac4` | `#7dcac4`  |
-Background | `#2c343b` | `#fafafa` | `#1b2b35` | `#193448`  |
+Background | `#2c343b` | `#fafafa` | `#212121` | `#193448`  |
 Foreground | `#efefef` | `#546d79` | `#efefef` | `#fefefe`  |
 Black      | `#121212` | `#546d79` | `#121212` | `#546d79`  |
 Blue       | `#6398ce` | `#6181b8` | `#64b5f6` | `#40c4fe`  |
