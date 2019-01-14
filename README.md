@@ -73,3 +73,28 @@ To activate this theme, adding these lines to your user settings (**Preferences 
   "overlay_scroll_bars"          : "enabled",
   "highlight_modified_tabs"      : "enabled"
 ```
+
+### Color Schemes palettes
+
+Color      | Default   |  Lighter  |  Darker  |  Palenight |
+---        | ---       |  ---      |  ---     |  ---       |
+Accent     | `#7dcac4` | `#7dcac4` | `#7dcac4` | `#7dcac4`  |
+Background | `#2c343b` | `#fafafa` | `#1b2b35` | `#193448`  |
+Foreground | `#efefef` | `#546d79` | `#efefef` | `#fefefe`  |
+
+Color      | Default   |  Lighter  |  Darker  |  Palenight |
+---        | ---       |  ---      |  ---     |  ---       |
+Black      | `#121212` | `#546d79` | `#121212` | `#546d79`  |
+Blue       | `#6398ce` | `#6181b8` | `#64b5f6` | `#40c4fe`  |
+Cyan       | `#5bb3b4` | `#80cbc4` | `#89ddff` | `#9effff`  |
+Gray       | `#3d3d3d` | `#3d3d3d` | `#65737e` | `#3d3d3d`  |
+Green      | `#97c892` | `#479e8e` | `#81c784` | `#9eff80`  |
+Orange     | `#ffb266` | `#f9ae58` | `#f78c6c` | `#da8f49`  |
+Pink       | `#ff526f` | `#ff5370` | `#f06292` | `#ffa5f3`  |
+Purple     | `#967efb` | `#c792ea` | `#ba68c8` | `#967efb`  |
+Red        | `#d95757` | `#e53734` | `#f07178` | `#ed6e74`  |
+Deep Orange| `#f97b58` | `#f97b58` | `#f97b58` | `#f97b58`  |
+Light Blue | `#e1f5fe` | `#81d4fa` | `#e1f5fe` | `#e1f5fe`  |
+Deep Purple| `#c692c6` | `#7c4dff` | `#b39ddb` | `#C2AFFF`  |
+White      | `#efefef` | `#fefefe` | `#efefef` | `#fefefe`  |
+Yellow     | `#fbc959` | `#ffb62e` | `#ffcb6b` | `#ffc600`  |
