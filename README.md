@@ -18,7 +18,8 @@
 **Manually:**
  - Download latest release and unzip. it into your Packages folder
  - Go to `Sublime Text → Preferences → Browse Packages`
- - Move folder to inside
+ - Move folder to inside and rename the folder to `Meetio`
+ - Restart Sublime Text
  - Start using...
 
 ### Activate the theme
