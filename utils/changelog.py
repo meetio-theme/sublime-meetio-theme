@@ -15,6 +15,7 @@ STYLES = '''
 
 .mo-config-changes ul li, .mo-config-changes p {
   {{'.foreground'|css}}
+  margin-top: 18px;
 }
 
 .mo-config-changes a {
@@ -31,14 +32,13 @@ STYLES = '''
   {{'.string'|css('color')}}
 }
 
-.mo-config-changes h1,
 .mo-config-changes h2 {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .mo-config-changes h3,
 .mo-config-changes h4 {
-  margin-top: 30px;
+  margin-top: 24px;
 }
 '''
 
