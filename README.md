@@ -29,8 +29,6 @@
  * Command palette Tools > Command Palette `(Ctrl or ⌘) + ⇧ + P` by typing `Meetio: Theme Activate`
  * Preferences > Packages Settings and choose `Meetio > Theme Activate`
 
-To activate this theme, adding these lines to your user settings (**Preferences > Settings - User**):
-
 ### Schemes variations
 
 #### Meetio Default
