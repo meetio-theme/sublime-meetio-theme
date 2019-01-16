@@ -43,6 +43,46 @@
         ]
     },
     {
+        "class": "fold_button_control",
+        "layer0.texture": "Meetio/assets/default/arrow_right.png",
+        "layer0.tint": [
+            "accent",
+            1
+        ],
+        "layer0.opacity": 0.4,
+        "layer0.inner_margin": 0,
+        "content_margin": [
+            12,
+            12
+        ]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": [
+            "hover"
+        ],
+        "layer0.opacity": 1,
+        "content_margin": [
+            12,
+            12
+        ]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": [
+            "expanded"
+        ],
+        "layer0.texture": "Meetio/assets/default/arrow_down.png",
+        "layer0.tint": [
+            "accent",
+            1
+        ],
+        "content_margin": [
+            12,
+            12
+        ]
+    },
+    {
         "class": "button_control",
         "layer0.tint": [
             "background",
@@ -490,74 +530,6 @@
         "layer0.opacity": 1
     },
     {
-        "class": "fold_button_control",
-        "layer0.texture": "Meetio/assets/default/arrow_right.png",
-        "layer0.tint": [
-            "accent",
-            1
-        ],
-        "layer0.opacity": 0.4,
-        "layer0.inner_margin": 0,
-        "content_margin": [
-            12,
-            12
-        ]
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": [
-            "hover"
-        ],
-        "layer0.opacity": 1,
-        "content_margin": [
-            12,
-            12
-        ]
-    },
-    {
-        "class": "fold_button_control",
-        "attributes": [
-            "expanded"
-        ],
-        "layer0.texture": "Meetio/assets/default/arrow_down.png",
-        "layer0.tint": [
-            "accent",
-            1
-        ],
-        "content_margin": [
-            12,
-            12
-        ]
-    },
-    {
-        "class": "dialog",
-        "layer0.tint": [
-            "background",
-            0.94
-        ],
-        "layer0.opacity": 1
-    },
-    {
-        "class": "progress_bar_control",
-        "layer0.tint": [
-            "background",
-            1
-        ],
-        "layer0.opacity": 1
-    },
-    {
-        "class": "progress_gauge_control",
-        "layer0.tint": [
-            "background",
-            0.5
-        ],
-        "layer0.opacity": 1,
-        "content_margin": [
-            0,
-            8
-        ]
-    },
-    {
         "class": "disclosure_button_control",
         "layer0.texture": "Meetio/assets/default/disclosure.png",
         "layer0.tint": [
@@ -722,6 +694,34 @@
         ]
     },
     {
+        "class": "dialog",
+        "layer0.tint": [
+            "background",
+            0.94
+        ],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "progress_bar_control",
+        "layer0.tint": [
+            "background",
+            1
+        ],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "progress_gauge_control",
+        "layer0.tint": [
+            "background",
+            0.5
+        ],
+        "layer0.opacity": 1,
+        "content_margin": [
+            0,
+            8
+        ]
+    },
+    {
         "class": "text_line_control",
         "layer0.texture": "",
         "layer0.opacity": 1,
@@ -856,6 +856,56 @@
             "hover"
         ],
         "layer0.opacity": 0.8
+    },
+    {
+        "class": "label_control",
+        "fg": [
+            "foreground",
+            1
+        ],
+        "font.bold": false
+    },
+    {
+        "class": "label_control",
+        "parents": [
+            {
+                "class": "button_control"
+            }
+        ],
+        "color": [
+            "foreground",
+            1
+        ],
+        "font.bold": true
+    },
+    {
+        "class": "label_control",
+        "parents": [
+            {
+                "class": "panel_control"
+            }
+        ],
+        "color": [
+            "foreground",
+            1
+        ],
+        "font.bold": true
+    },
+    {
+        "class": "title_label_control",
+        "fg": [
+            "foreground",
+            1
+        ],
+        "font.size": 24
+    },
+    {
+        "class": "label_control",
+        "parents": [
+            {
+                "class": "button_control"
+            }
+        ]
     },
     {
         "class": "close_button",
@@ -1345,6 +1395,108 @@
         ]
     },
     {
+        "class": "status_bar",
+        "layer0.tint": "#4A616C",
+        "layer0.opacity": 1,
+        "content_margin": [
+            10,
+            4,
+            0,
+            4
+        ]
+    },
+    {
+        "class": "status_bar",
+        "settings": [
+            "meetio_statusbar_big"
+        ],
+        "content_margin": [
+            10,
+            6,
+            0,
+            6
+        ]
+    },
+    {
+        "class": "panel_button_control",
+        "layer0.texture": "Meetio/assets/default/overflow_menu.png",
+        "layer0.tint": "#fff",
+        "layer0.opacity": 1,
+        "content_margin": 9,
+        "layer0.inner_margin": 4
+    },
+    {
+        "class": "panel_button_control",
+        "settings": [
+            "meetio_statusbar_big"
+        ],
+        "content_margin": 11,
+        "layer0.inner_margin": 4
+    },
+    {
+        "class": "vcs_branch_icon",
+        "layer0.texture": "Meetio/assets/default/icon_branch.png",
+        "layer0.tint": "#fff",
+        "layer0.opacity": 1,
+        "content_margin": 8,
+        "layer0.inner_margin": 2
+    },
+    {
+        "class": "vcs_branch_icon",
+        "settings": [
+            "meetio_statusbar_big"
+        ],
+        "content_margin": 9,
+        "layer0.inner_margin": 2
+    },
+    {
+        "class": "panel_button_control",
+        "attributes": [
+            "hover"
+        ],
+        "layer0.opacity": 0.8
+    },
+    {
+        "class": "vcs_branch_icon",
+        "attributes": [
+            "hover"
+        ],
+        "layer0.opacity": 0.8
+    },
+    {
+        "class": "status_container",
+        "content_margin": [
+            8,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "class": "status_button",
+        "content_margin": [
+            10,
+            0,
+            10,
+            0
+        ],
+        "min_size": [
+            80,
+            0
+        ]
+    },
+    {
+        "class": "label_control",
+        "parents": [
+            {
+                "class": "status_bar"
+            }
+        ],
+        "font.size": 11,
+        "color": "#fff",
+        "font.bold": false
+    },
+    {
         "class": "sidebar_container",
         "layer0.tint": [
             "background",
@@ -1589,108 +1741,6 @@
             "transient"
         ],
         "font.italic": false
-    },
-    {
-        "class": "status_bar",
-        "layer0.tint": "#4A616C",
-        "layer0.opacity": 1,
-        "content_margin": [
-            10,
-            4,
-            0,
-            4
-        ]
-    },
-    {
-        "class": "status_bar",
-        "settings": [
-            "meetio_statusbar_big"
-        ],
-        "content_margin": [
-            10,
-            6,
-            0,
-            6
-        ]
-    },
-    {
-        "class": "panel_button_control",
-        "layer0.texture": "Meetio/assets/default/overflow_menu.png",
-        "layer0.tint": "#fff",
-        "layer0.opacity": 1,
-        "content_margin": 9,
-        "layer0.inner_margin": 4
-    },
-    {
-        "class": "panel_button_control",
-        "settings": [
-            "meetio_statusbar_big"
-        ],
-        "content_margin": 11,
-        "layer0.inner_margin": 4
-    },
-    {
-        "class": "vcs_branch_icon",
-        "layer0.texture": "Meetio/assets/default/icon_branch.png",
-        "layer0.tint": "#fff",
-        "layer0.opacity": 1,
-        "content_margin": 8,
-        "layer0.inner_margin": 2
-    },
-    {
-        "class": "vcs_branch_icon",
-        "settings": [
-            "meetio_statusbar_big"
-        ],
-        "content_margin": 9,
-        "layer0.inner_margin": 2
-    },
-    {
-        "class": "panel_button_control",
-        "attributes": [
-            "hover"
-        ],
-        "layer0.opacity": 0.8
-    },
-    {
-        "class": "vcs_branch_icon",
-        "attributes": [
-            "hover"
-        ],
-        "layer0.opacity": 0.8
-    },
-    {
-        "class": "status_container",
-        "content_margin": [
-            8,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "class": "status_button",
-        "content_margin": [
-            10,
-            0,
-            10,
-            0
-        ],
-        "min_size": [
-            80,
-            0
-        ]
-    },
-    {
-        "class": "label_control",
-        "parents": [
-            {
-                "class": "status_bar"
-            }
-        ],
-        "font.size": 11,
-        "color": "#fff",
-        "font.bold": false
     },
     {
         "class": "tabset_control",
@@ -2255,55 +2305,5 @@
             }
         ],
         "color": "rgb(211, 49, 49)"
-    },
-    {
-        "class": "label_control",
-        "fg": [
-            "foreground",
-            1
-        ],
-        "font.bold": false
-    },
-    {
-        "class": "label_control",
-        "parents": [
-            {
-                "class": "button_control"
-            }
-        ],
-        "color": [
-            "foreground",
-            1
-        ],
-        "font.bold": true
-    },
-    {
-        "class": "label_control",
-        "parents": [
-            {
-                "class": "panel_control"
-            }
-        ],
-        "color": [
-            "foreground",
-            1
-        ],
-        "font.bold": true
-    },
-    {
-        "class": "title_label_control",
-        "fg": [
-            "foreground",
-            1
-        ],
-        "font.size": 24
-    },
-    {
-        "class": "label_control",
-        "parents": [
-            {
-                "class": "button_control"
-            }
-        ]
     }
 ]
