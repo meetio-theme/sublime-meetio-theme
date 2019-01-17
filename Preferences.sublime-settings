@@ -17,7 +17,7 @@
 
 
   // Enable title bar (OS X 10.10+)
-  "meetio_titlebar"           : true,
+  "meetio_titlebar"           : false,
   // Show icon search in inputs
   "meetio_input_search_icon"  : true,
   // Set status bar big

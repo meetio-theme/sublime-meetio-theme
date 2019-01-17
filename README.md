@@ -1,6 +1,6 @@
 <p align="center"><img src="public/meetio.png" width="480"/></p>
 
-**Meetio** is the most powerful theme for Sublime Text 3 with Lighter, Darker & Palenight variations only for 3179+ version.
+**Meetio** is the most powerful theme for Sublime Text 3 with Lighter, Darker & Palenight variations only for 3176+ version.
 
 ## Installation
 
