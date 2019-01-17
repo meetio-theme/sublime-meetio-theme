@@ -11,7 +11,7 @@
         "tabset_width": 180,
         "tabset_min_width": 74,
         "tabset_height": 40,
-        "tabset_height_lg": 52,
+        "tabset_height_large": 52,
         "vsc_untracked": "#479e8e",
         "vsc_modified": "#c1685c",
         "vsc_staged": "#7b88cc",
@@ -22,6 +22,10 @@
             0.5
         ],
         "button_background_color_hover": "var(color_accent)",
+        "button_min_size": [
+            80,
+            28
+        ],
         "status_label_foreground_color": "var(color_white)",
         "status_bar_background_color": "color(var(color_accent) blenda(var(color_black) 30%))"
     },
@@ -93,18 +97,15 @@
                 6,
                 10
             ],
-            "min_size": [
-                80,
-                28
-            ]
+            "min_size": "var(button_min_size)"
         },
         {
             "class": "button_control",
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": "var(color_accent)",
-            "layer0.opacity": 0.1
+            "layer0.tint": "var(button_background_color_hover)",
+            "layer0.opacity": 0.05
         },
         {
             "class": "button_control",
@@ -112,7 +113,7 @@
                 "pressed"
             ],
             "layer0.opacity": {
-                "target": 0.2,
+                "target": 0.1,
                 "speed": 4,
                 "interpolation": "smoothstep"
             }
@@ -146,7 +147,7 @@
         {
             "class": "icon_regex",
             "layer0.texture": "Meetio/assets/default/icon_regex.png",
-            "layer0.tint": "var(button_background_color_hover)",
+            "layer0.tint": "var(color_accent)",
             "layer0.opacity": {
                 "target": 0.5,
                 "speed": 5,
@@ -1683,7 +1684,7 @@
             "settings": [
                 "meetio_tabs_big"
             ],
-            "tab_height": "var(tabset_height_lg)"
+            "tab_height": "var(tabset_height_large)"
         },
         {
             "class": "tab_control",

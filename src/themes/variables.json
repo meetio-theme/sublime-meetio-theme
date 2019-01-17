@@ -18,6 +18,7 @@
     "vsc_ignored"                   : "#a3a3a3",
     "button_background_color"       : ["background", 0.5],
     "button_background_color_hover" : "var(color_accent)",
+    "button_min_size"               : [80, 28],
     "status_label_foreground_color" : "var(color_white)",
     "status_bar_background_color"   : "color(var(color_accent) blenda(var(color_black) 30%))"
 }
