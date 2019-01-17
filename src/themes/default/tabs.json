@@ -23,7 +23,7 @@
     {
         "class": "tabset_control",
         "settings": ["meetio_tabs_big"],
-        "tab_height": "var(tabset_height_lg)"
+        "tab_height": "var(tabset_height_large)"
     },
     {
         "class": "tab_control",
