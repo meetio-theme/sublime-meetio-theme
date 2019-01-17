@@ -1,24 +1,29 @@
 {
     "variables": {
-        "color_bg": [
-            "background",
-            1
-        ],
-        "color_accent": [
-            "accent",
-            1
-        ],
-        "color_white": "#ffffff",
-        "color_black": "#455A64",
         "font_size_sm": 11,
         "font_size_md": 12,
         "font_size_lg": 14,
         "font_size_huge": 24,
+        "tabset_width": 180,
+        "tabset_min_width": 74,
+        "tabset_height": 38,
+        "tabset_height_lg": 52,
+        "color_accent": "#7dcac4",
+        "color_accent_purple": "#6772e4",
+        "color_white": "#ffffff",
+        "color_black": "#455A64",
         "vsc_untracked": "#479e8e",
         "vsc_modified": "#c1685c",
         "vsc_staged": "#7b88cc",
         "vsc_unmerged": "#d33131",
-        "vsc_ignored": "#a3a3a3"
+        "vsc_ignored": "#a3a3a3",
+        "button_background_color": [
+            "background",
+            0.5
+        ],
+        "button_background_color_hover": "var(color_accent)",
+        "status_label_foreground_color": "var(color_white)",
+        "status_bar_background_color": "color(var(color_accent) blenda(var(color_black) 30%))"
     },
     "rules": [
         {
@@ -72,10 +77,7 @@
         },
         {
             "class": "button_control",
-            "layer0.tint": [
-                "background",
-                0.5
-            ],
+            "layer0.tint": "var(button_background_color)",
             "layer0.opacity": {
                 "target": 0.6,
                 "speed": 4,
@@ -101,15 +103,8 @@
             "attributes": [
                 "hover"
             ],
-            "layer0.tint": [
-                "background",
-                1
-            ],
-            "layer0.opacity": {
-                "target": 0.9,
-                "speed": 4,
-                "interpolation": "smoothstep"
-            }
+            "layer0.tint": "var(color_accent)",
+            "layer0.opacity": 0.1
         },
         {
             "class": "button_control",
@@ -117,7 +112,7 @@
                 "pressed"
             ],
             "layer0.opacity": {
-                "target": 1,
+                "target": 0.2,
                 "speed": 4,
                 "interpolation": "smoothstep"
             }
@@ -151,7 +146,7 @@
         {
             "class": "icon_regex",
             "layer0.texture": "Meetio/assets/default/icon_regex.png",
-            "layer0.tint": "var(color_accent)",
+            "layer0.tint": "var(button_background_color_hover)",
             "layer0.opacity": {
                 "target": 0.5,
                 "speed": 5,
@@ -516,6 +511,34 @@
             ]
         },
         {
+            "class": "dialog",
+            "layer0.tint": [
+                "background",
+                0.94
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "progress_bar_control",
+            "layer0.tint": [
+                "background",
+                1
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "progress_gauge_control",
+            "layer0.tint": [
+                "background",
+                0.5
+            ],
+            "layer0.opacity": 1,
+            "content_margin": [
+                0,
+                8
+            ]
+        },
+        {
             "class": "disclosure_button_control",
             "layer0.texture": "Meetio/assets/default/disclosure.png",
             "layer0.tint": [
@@ -668,34 +691,6 @@
             ]
         },
         {
-            "class": "dialog",
-            "layer0.tint": [
-                "background",
-                0.94
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "progress_bar_control",
-            "layer0.tint": [
-                "background",
-                1
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "progress_gauge_control",
-            "layer0.tint": [
-                "background",
-                0.5
-            ],
-            "layer0.opacity": 1,
-            "content_margin": [
-                0,
-                8
-            ]
-        },
-        {
             "class": "grid_layout_control",
             "border_color": "color(var(color_accent) blenda(var(color_black) 30%))",
             "border_size": 2
@@ -826,6 +821,56 @@
                 "hover"
             ],
             "layer0.opacity": 0.8
+        },
+        {
+            "class": "label_control",
+            "fg": [
+                "foreground",
+                1
+            ],
+            "font.bold": false
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "button_control"
+                }
+            ],
+            "color": [
+                "foreground",
+                1
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "panel_control"
+                }
+            ],
+            "color": [
+                "foreground",
+                1
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "title_label_control",
+            "fg": [
+                "foreground",
+                1
+            ],
+            "font.size": "var(font_size_huge)"
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "button_control"
+                }
+            ]
         },
         {
             "class": "close_button",
@@ -1028,56 +1073,6 @@
                 "speed": 4,
                 "interpolation": "smoothstep"
             }
-        },
-        {
-            "class": "label_control",
-            "fg": [
-                "foreground",
-                1
-            ],
-            "font.bold": false
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "button_control"
-                }
-            ],
-            "color": [
-                "foreground",
-                1
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "panel_control"
-                }
-            ],
-            "color": [
-                "foreground",
-                1
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "title_label_control",
-            "fg": [
-                "foreground",
-                1
-            ],
-            "font.size": "var(font_size_huge)"
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "button_control"
-                }
-            ]
         },
         {
             "class": "mini_quick_panel_row",
@@ -1332,229 +1327,8 @@
             ]
         },
         {
-            "class": "sidebar_container",
-            "layer0.tint": [
-                "background",
-                0.92
-            ],
-            "layer0.opacity": 1,
-            "content_margin": [
-                0,
-                6,
-                0,
-                0
-            ]
-        },
-        {
-            "class": "sidebar_tree",
-            "row_padding": [
-                20,
-                6
-            ],
-            "indent": 10,
-            "indent_offset": 2,
-            "indent_top_level": false,
-            "dark_content": false,
-            "spacer_rows": true
-        },
-        {
-            "class": "sidebar_tree",
-            "platforms": [
-                "windows"
-            ],
-            "row_padding": [
-                20,
-                6
-            ]
-        },
-        {
-            "class": "sidebar_tree",
-            "settings": [
-                "meetio_compact_sidebar"
-            ],
-            "indent_offset": 8,
-            "row_padding": [
-                14,
-                3
-            ]
-        },
-        {
-            "class": "tree_row",
-            "attributes": [
-                "!hover"
-            ],
-            "layer0.opacity": 0
-        },
-        {
-            "class": "tree_row",
-            "attributes": [
-                "selectable",
-                "hover"
-            ],
-            "layer0.tint": [
-                "foreground",
-                0.6
-            ],
-            "layer0.opacity": 0.1
-        },
-        {
-            "class": "tree_row",
-            "attributes": [
-                "selected"
-            ],
-            "layer0.tint": [
-                "foreground",
-                0.6
-            ],
-            "layer0.opacity": 0.1
-        },
-        {
-            "class": "sidebar_heading",
-            "color": [
-                "foreground",
-                0.4
-            ],
-            "font.bold": true,
-            "font.size": "var(font_size_sm)"
-        },
-        {
-            "class": "sidebar_heading",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "selected"
-                    ]
-                }
-            ]
-        },
-        {
-            "class": "sidebar_label",
-            "color": [
-                "foreground",
-                0.8
-            ],
-            "font.size": "var(font_size_md)",
-            "font.bold": false,
-            "font.italic": false
-        },
-        {
-            "class": "sidebar_label",
-            "settings": [
-                "meetio_sidebar_font_big"
-            ],
-            "font.size": "var(font_size_lg)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "hover"
-                    ]
-                }
-            ],
-            "color": [
-                "foreground",
-                0.8
-            ]
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "selected"
-                    ]
-                }
-            ],
-            "font.bold": false,
-            "color": [
-                "foreground",
-                0.9
-            ]
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "expandable"
-                    ]
-                }
-            ],
-            "color": [
-                "foreground",
-                0.8
-            ]
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "expandable"
-                    ]
-                }
-            ],
-            "settings": [
-                "bold_folder_labels"
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "expandable",
-                        "selected"
-                    ]
-                }
-            ]
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "expanded"
-                    ]
-                }
-            ],
-            "color": "var(color_accent)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "expanded"
-                    ]
-                }
-            ],
-            "settings": [
-                "bold_folder_labels"
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "sidebar_label",
-            "attributes": [
-                "transient"
-            ],
-            "font.italic": false
-        },
-        {
             "class": "status_bar",
-            "layer0.tint": "color(var(color_accent) blenda(var(color_black) 30%))",
+            "layer0.tint": "var(status_bar_background_color)",
             "layer0.opacity": 1,
             "content_margin": [
                 10,
@@ -1578,7 +1352,7 @@
         {
             "class": "panel_button_control",
             "layer0.texture": "Meetio/assets/default/overflow_menu.png",
-            "layer0.tint": "var(color_white)",
+            "layer0.tint": "var(status_label_foreground_color)",
             "layer0.opacity": 1,
             "content_margin": 9,
             "layer0.inner_margin": 4
@@ -1594,7 +1368,7 @@
         {
             "class": "vcs_branch_icon",
             "layer0.texture": "Meetio/assets/default/icon_branch.png",
-            "layer0.tint": "var(color_white)",
+            "layer0.tint": "var(status_label_foreground_color)",
             "layer0.opacity": 1,
             "content_margin": 8,
             "layer0.inner_margin": 2
@@ -1651,22 +1425,8 @@
                 }
             ],
             "font.size": "var(font_size_sm)",
-            "color": "var(color_white)",
+            "color": "var(status_label_foreground_color)",
             "font.bold": false
-        },
-        {
-            "class": "title_bar",
-            "settings": [
-                "meetio_titlebar"
-            ],
-            "bg": [
-                "background",
-                0.92
-            ],
-            "fg": [
-                "foreground",
-                1
-            ]
         },
         {
             "class": "tabset_control",
@@ -1676,20 +1436,10 @@
                 0.92
             ],
             "tint_index": 1,
-            "layer0.inner_margin": [
-                8,
-                8
-            ],
-            "content_margin": [
-                8,
-                0,
-                8,
-                0
-            ],
             "tab_overlap": 0,
-            "tab_width": 180,
-            "tab_min_width": 68,
-            "tab_height": 38,
+            "tab_width": "var(tabset_width)",
+            "tab_min_width": "var(tabset_min_width)",
+            "tab_height": "var(tabset_height)",
             "mouse_wheel_switch": false
         },
         {
@@ -1712,7 +1462,7 @@
             "settings": [
                 "meetio_tabs_big"
             ],
-            "tab_height": 52
+            "tab_height": "var(tabset_height_lg)"
         },
         {
             "class": "tab_control",
@@ -1722,7 +1472,7 @@
             ],
             "layer0.inner_margin": [
                 24,
-                0
+                8
             ],
             "layer0.opacity": 1,
             "tint_index": 0,
@@ -1730,10 +1480,7 @@
                 "background",
                 1
             ],
-            "layer1.inner_margin": [
-                0,
-                0
-            ],
+            "layer1.inner_margin": 8,
             "layer1.opacity": 0,
             "layer2.inner_margin": [
                 0,
@@ -1991,6 +1738,241 @@
                 "hover"
             ],
             "layer0.opacity": 0.8
+        },
+        {
+            "class": "title_bar",
+            "settings": [
+                "meetio_titlebar"
+            ],
+            "bg": [
+                "background",
+                0.92
+            ],
+            "fg": [
+                "foreground",
+                1
+            ]
+        },
+        {
+            "class": "sidebar_container",
+            "layer0.tint": [
+                "background",
+                0.92
+            ],
+            "layer0.opacity": 1,
+            "content_margin": [
+                0,
+                6,
+                0,
+                0
+            ]
+        },
+        {
+            "class": "sidebar_tree",
+            "row_padding": [
+                20,
+                6
+            ],
+            "indent": 10,
+            "indent_offset": 2,
+            "indent_top_level": false,
+            "dark_content": false,
+            "spacer_rows": true
+        },
+        {
+            "class": "sidebar_tree",
+            "platforms": [
+                "windows"
+            ],
+            "row_padding": [
+                20,
+                6
+            ]
+        },
+        {
+            "class": "sidebar_tree",
+            "settings": [
+                "meetio_compact_sidebar"
+            ],
+            "indent_offset": 8,
+            "row_padding": [
+                14,
+                3
+            ]
+        },
+        {
+            "class": "tree_row",
+            "attributes": [
+                "!hover"
+            ],
+            "layer0.opacity": 0
+        },
+        {
+            "class": "tree_row",
+            "attributes": [
+                "selectable",
+                "hover"
+            ],
+            "layer0.tint": [
+                "foreground",
+                0.6
+            ],
+            "layer0.opacity": 0.1
+        },
+        {
+            "class": "tree_row",
+            "attributes": [
+                "selected"
+            ],
+            "layer0.tint": [
+                "foreground",
+                0.6
+            ],
+            "layer0.opacity": 0.1
+        },
+        {
+            "class": "sidebar_heading",
+            "color": [
+                "foreground",
+                0.4
+            ],
+            "font.bold": true,
+            "font.size": "var(font_size_sm)"
+        },
+        {
+            "class": "sidebar_heading",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "selected"
+                    ]
+                }
+            ]
+        },
+        {
+            "class": "sidebar_label",
+            "color": [
+                "foreground",
+                0.8
+            ],
+            "font.size": "var(font_size_md)",
+            "font.bold": false,
+            "font.italic": false
+        },
+        {
+            "class": "sidebar_label",
+            "settings": [
+                "meetio_sidebar_font_big"
+            ],
+            "font.size": "var(font_size_lg)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "hover"
+                    ]
+                }
+            ],
+            "color": [
+                "foreground",
+                0.8
+            ]
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "selected"
+                    ]
+                }
+            ],
+            "font.bold": false,
+            "color": [
+                "foreground",
+                0.9
+            ]
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expandable"
+                    ]
+                }
+            ],
+            "color": [
+                "foreground",
+                0.8
+            ]
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expandable"
+                    ]
+                }
+            ],
+            "settings": [
+                "bold_folder_labels"
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expandable",
+                        "selected"
+                    ]
+                }
+            ]
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expanded"
+                    ]
+                }
+            ],
+            "color": "var(color_accent)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expanded"
+                    ]
+                }
+            ],
+            "settings": [
+                "bold_folder_labels"
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "sidebar_label",
+            "attributes": [
+                "transient"
+            ],
+            "font.italic": false
         },
         {
             "class": "tool_tip_control",

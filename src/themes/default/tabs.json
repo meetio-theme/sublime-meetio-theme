@@ -4,12 +4,10 @@
         "layer0.opacity": 1.0,
         "layer0.tint": ["background", 0.92],
         "tint_index": 1,
-        "layer0.inner_margin": [8, 8],
-        "content_margin": [8, 0, 8, 0],
         "tab_overlap": 0,
-        "tab_width": 180,
-        "tab_min_width": 68,
-        "tab_height": 38,
+        "tab_width": "var(tabset_width)",
+        "tab_min_width": "var(tabset_min_width)",
+        "tab_height": "var(tabset_height)",
         "mouse_wheel_switch": false
     },
     {
@@ -25,18 +23,18 @@
     {
         "class": "tabset_control",
         "settings": ["meetio_tabs_big"],
-        "tab_height": 52
+        "tab_height": "var(tabset_height_lg)"
     },
     {
         "class": "tab_control",
         "layer0.tint": ["background", 0],
-        "layer0.inner_margin": [24, 0],
+        "layer0.inner_margin": [24, 8],
         "layer0.opacity": 1.0,
         "tint_index": 0,
 
         "layer1.tint": ["background", 1.0],
-        "layer1.inner_margin": [0, 0],
-        "layer1.opacity": 0.0,
+        "layer1.inner_margin": 8,
+        "layer1.opacity": 0,
 
         "layer2.inner_margin": [0, 0],
         "layer2.opacity": { "target": 0.0, "speed": 3.0, "interpolation": "smoothstep" },
