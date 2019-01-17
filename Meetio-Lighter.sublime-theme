@@ -12,7 +12,11 @@
         "font_size_sm": 11,
         "font_size_md": 12,
         "font_size_lg": 14,
-        "font_size_huge": 24
+        "font_size_huge": 24,
+        "vsc_untracked": "#479e8e",
+        "vsc_modified": "#c1685c",
+        "vsc_staged": "#7b88cc",
+        "vsc_unmerged": "#d33131"
     },
     "rules": [
         {
@@ -690,61 +694,6 @@
             ]
         },
         {
-            "class": "grid_layout_control",
-            "border_color": "color(var(color_accent) blenda(var(color_bg) 30%))",
-            "border_size": 2
-        },
-        {
-            "class": "label_control",
-            "fg": [
-                "foreground",
-                1
-            ],
-            "font.bold": false
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "button_control"
-                }
-            ],
-            "color": [
-                "foreground",
-                1
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "panel_control"
-                }
-            ],
-            "color": [
-                "foreground",
-                1
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "title_label_control",
-            "fg": [
-                "foreground",
-                1
-            ],
-            "font.size": "var(font_size_huge)"
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "button_control"
-                }
-            ]
-        },
-        {
             "class": "text_line_control",
             "layer0.texture": "",
             "layer0.opacity": 1,
@@ -870,6 +819,61 @@
                 "hover"
             ],
             "layer0.opacity": 0.8
+        },
+        {
+            "class": "grid_layout_control",
+            "border_color": "color(var(color_accent) blenda(var(color_bg) 30%))",
+            "border_size": 2
+        },
+        {
+            "class": "label_control",
+            "fg": [
+                "foreground",
+                1
+            ],
+            "font.bold": false
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "button_control"
+                }
+            ],
+            "color": [
+                "foreground",
+                1
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "panel_control"
+                }
+            ],
+            "color": [
+                "foreground",
+                1
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "title_label_control",
+            "fg": [
+                "foreground",
+                1
+            ],
+            "font.size": "var(font_size_huge)"
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "button_control"
+                }
+            ]
         },
         {
             "class": "close_button",
@@ -1398,9 +1402,9 @@
             ],
             "layer0.tint": [
                 "foreground",
-                0.1
+                0.6
             ],
-            "layer0.opacity": 1
+            "layer0.opacity": 0.1
         },
         {
             "class": "sidebar_heading",
@@ -1510,11 +1514,6 @@
                         "selected"
                     ]
                 }
-            ],
-            "color": [
-                69,
-                90,
-                100
             ]
         },
         {
@@ -1543,23 +1542,6 @@
                 "bold_folder_labels"
             ],
             "font.bold": true
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "expanded",
-                        "selected"
-                    ]
-                }
-            ],
-            "color": [
-                69,
-                90,
-                100
-            ]
         },
         {
             "class": "sidebar_label",
@@ -1996,11 +1978,6 @@
         },
         {
             "class": "title_bar",
-            "bg": "rgb(115, 128, 140)",
-            "fg": "rgb(235, 237, 239)"
-        },
-        {
-            "class": "title_bar",
             "settings": [
                 "meetio_titlebar"
             ],
@@ -2031,6 +2008,148 @@
                 "background",
                 1
             ]
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "untracked"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(vsc_untracked)",
+            "content_margin": 6
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "modified"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(vsc_modified)",
+            "layer0.opacity": 1,
+            "content_margin": 6
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "staged"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(vsc_staged)",
+            "layer0.opacity": 1,
+            "content_margin": 6
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "added"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(vsc_untracked)",
+            "layer0.opacity": 1,
+            "content_margin": 6
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "unmerged"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(vsc_unmerged)",
+            "layer0.opacity": 1,
+            "content_margin": 6
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "ignored"
+                    ]
+                }
+            ],
+            "color": "color(rgb(37, 49, 55) blend(rgb(255, 255, 255) 45%))"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "untracked"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(vsc_untracked)",
+            "color": "var(vsc_untracked)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "modified"
+                    ]
+                }
+            ],
+            "color": "var(vsc_modified)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "staged"
+                    ]
+                }
+            ],
+            "color": "var(vsc_staged)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "added"
+                    ]
+                }
+            ],
+            "color": "var(vsc_untracked)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "unmerged"
+                    ]
+                }
+            ],
+            "color": "var(vsc_unmerged)"
         },
         {
             "class": "minimap_control",
@@ -2064,148 +2183,6 @@
                 "speed": 20,
                 "interpolation": "smoothstep"
             }
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "untracked"
-                    ]
-                }
-            ],
-            "layer0.tint": "rgb(71, 158, 142)",
-            "content_margin": 6
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "modified"
-                    ]
-                }
-            ],
-            "layer0.tint": "rgb(193, 104, 92)",
-            "layer0.opacity": 1,
-            "content_margin": 6
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "staged"
-                    ]
-                }
-            ],
-            "layer0.tint": "rgb(123, 136, 204)",
-            "layer0.opacity": 1,
-            "content_margin": 6
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "added"
-                    ]
-                }
-            ],
-            "layer0.tint": "rgb(71, 158, 142)",
-            "layer0.opacity": 1,
-            "content_margin": 6
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "unmerged"
-                    ]
-                }
-            ],
-            "layer0.tint": "rgb(211, 49, 49)",
-            "layer0.opacity": 1,
-            "content_margin": 6
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "ignored"
-                    ]
-                }
-            ],
-            "color": "color(rgb(37, 49, 55) blend(rgb(255, 255, 255) 45%))"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "untracked"
-                    ]
-                }
-            ],
-            "layer0.tint": "rgb(71, 158, 142)",
-            "color": "rgb(71, 158, 142)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "modified"
-                    ]
-                }
-            ],
-            "color": "rgb(193, 104, 92)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "staged"
-                    ]
-                }
-            ],
-            "color": "rgb(123, 136, 204)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "added"
-                    ]
-                }
-            ],
-            "color": "rgb(71, 158, 142)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "unmerged"
-                    ]
-                }
-            ],
-            "color": "rgb(211, 49, 49)"
         }
     ]
 }

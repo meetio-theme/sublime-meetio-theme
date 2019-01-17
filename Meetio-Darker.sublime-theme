@@ -12,7 +12,11 @@
         "font_size_sm": 11,
         "font_size_md": 12,
         "font_size_lg": 14,
-        "font_size_huge": 24
+        "font_size_huge": 24,
+        "vsc_untracked": "#479e8e",
+        "vsc_modified": "#c1685c",
+        "vsc_staged": "#7b88cc",
+        "vsc_unmerged": "#d33131"
     },
     "rules": [
         {
@@ -63,40 +67,6 @@
                 "selected"
             ],
             "layer0.opacity": 0.2
-        },
-        {
-            "class": "fold_button_control",
-            "layer0.texture": "Meetio/assets/default/arrow_right.png",
-            "layer0.tint": "var(color_accent)",
-            "layer0.opacity": 0.4,
-            "layer0.inner_margin": 0,
-            "content_margin": [
-                12,
-                12
-            ]
-        },
-        {
-            "class": "fold_button_control",
-            "attributes": [
-                "hover"
-            ],
-            "layer0.opacity": 1,
-            "content_margin": [
-                12,
-                12
-            ]
-        },
-        {
-            "class": "fold_button_control",
-            "attributes": [
-                "expanded"
-            ],
-            "layer0.texture": "Meetio/assets/default/arrow_down.png",
-            "layer0.tint": "var(color_accent)",
-            "content_margin": [
-                12,
-                12
-            ]
         },
         {
             "class": "button_control",
@@ -510,6 +480,40 @@
             "layer0.opacity": 1
         },
         {
+            "class": "fold_button_control",
+            "layer0.texture": "Meetio/assets/default/arrow_right.png",
+            "layer0.tint": "var(color_accent)",
+            "layer0.opacity": 0.4,
+            "layer0.inner_margin": 0,
+            "content_margin": [
+                12,
+                12
+            ]
+        },
+        {
+            "class": "fold_button_control",
+            "attributes": [
+                "hover"
+            ],
+            "layer0.opacity": 1,
+            "content_margin": [
+                12,
+                12
+            ]
+        },
+        {
+            "class": "fold_button_control",
+            "attributes": [
+                "expanded"
+            ],
+            "layer0.texture": "Meetio/assets/default/arrow_down.png",
+            "layer0.tint": "var(color_accent)",
+            "content_margin": [
+                12,
+                12
+            ]
+        },
+        {
             "class": "dialog",
             "layer0.tint": [
                 "background",
@@ -915,6 +919,126 @@
             "layer0.tint": "var(color_accent)"
         },
         {
+            "class": "mini_quick_panel_row",
+            "layer0.tint": [
+                "background",
+                1
+            ],
+            "layer0.inner_margin": [
+                2,
+                2,
+                2,
+                2
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "attributes": [
+                "selected"
+            ],
+            "layer0.tint": [
+                "foreground",
+                1
+            ]
+        },
+        {
+            "class": "quick_panel",
+            "row_padding": [
+                32,
+                12
+            ],
+            "layer0.tint": [
+                "background",
+                1
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "quick_panel_row",
+            "layer0.opacity": 1
+        },
+        {
+            "class": "quick_panel_row",
+            "layer0.tint": [
+                "background",
+                1
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "quick_panel",
+            "row_padding": [
+                32,
+                12
+            ],
+            "layer0.tint": [
+                38,
+                50,
+                56,
+                0
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "quick_panel_row",
+            "attributes": [
+                "selected"
+            ],
+            "layer0.tint": [
+                "foreground",
+                1
+            ],
+            "layer1.opacity": 0
+        },
+        {
+            "class": "quick_panel_label",
+            "fg": "var(color_accent)",
+            "match_fg": "var(color_accent)",
+            "selected_fg": [
+                "background",
+                1
+            ],
+            "selected_match_fg": "var(color_accent)"
+        },
+        {
+            "class": "quick_panel_label",
+            "fg": [
+                "foreground",
+                0.8
+            ],
+            "match_fg": "var(color_accent)",
+            "selected_fg": [
+                "background",
+                1
+            ],
+            "selected_match_fg": "var(color_accent)"
+        },
+        {
+            "class": "quick_panel_path_label",
+            "fg": [
+                "foreground",
+                0.4
+            ],
+            "match_fg": "var(color_accent)",
+            "selected_fg": [
+                "background",
+                1
+            ],
+            "selected_match_fg": "var(color_accent)"
+        },
+        {
+            "class": "quick_panel_score_label",
+            "fg": [
+                "foreground",
+                0.8
+            ],
+            "selected_fg": [
+                "background",
+                1
+            ]
+        },
+        {
             "class": "panel_control",
             "layer0.tint": [
                 "background",
@@ -1072,126 +1196,6 @@
                 "speed": 4,
                 "interpolation": "smoothstep"
             }
-        },
-        {
-            "class": "mini_quick_panel_row",
-            "layer0.tint": [
-                "background",
-                1
-            ],
-            "layer0.inner_margin": [
-                2,
-                2,
-                2,
-                2
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "mini_quick_panel_row",
-            "attributes": [
-                "selected"
-            ],
-            "layer0.tint": [
-                "foreground",
-                1
-            ]
-        },
-        {
-            "class": "quick_panel",
-            "row_padding": [
-                32,
-                12
-            ],
-            "layer0.tint": [
-                "background",
-                1
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "quick_panel_row",
-            "layer0.opacity": 1
-        },
-        {
-            "class": "quick_panel_row",
-            "layer0.tint": [
-                "background",
-                1
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "quick_panel",
-            "row_padding": [
-                32,
-                12
-            ],
-            "layer0.tint": [
-                38,
-                50,
-                56,
-                0
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "quick_panel_row",
-            "attributes": [
-                "selected"
-            ],
-            "layer0.tint": [
-                "foreground",
-                1
-            ],
-            "layer1.opacity": 0
-        },
-        {
-            "class": "quick_panel_label",
-            "fg": "var(color_accent)",
-            "match_fg": "var(color_accent)",
-            "selected_fg": [
-                "background",
-                1
-            ],
-            "selected_match_fg": "var(color_accent)"
-        },
-        {
-            "class": "quick_panel_label",
-            "fg": [
-                "foreground",
-                0.8
-            ],
-            "match_fg": "var(color_accent)",
-            "selected_fg": [
-                "background",
-                1
-            ],
-            "selected_match_fg": "var(color_accent)"
-        },
-        {
-            "class": "quick_panel_path_label",
-            "fg": [
-                "foreground",
-                0.4
-            ],
-            "match_fg": "var(color_accent)",
-            "selected_fg": [
-                "background",
-                1
-            ],
-            "selected_match_fg": "var(color_accent)"
-        },
-        {
-            "class": "quick_panel_score_label",
-            "fg": [
-                "foreground",
-                0.8
-            ],
-            "selected_fg": [
-                "background",
-                1
-            ]
         },
         {
             "class": "scroll_area_control",
@@ -1398,9 +1402,9 @@
             ],
             "layer0.tint": [
                 "foreground",
-                0.1
+                0.6
             ],
-            "layer0.opacity": 1
+            "layer0.opacity": 0.1
         },
         {
             "class": "sidebar_heading",
@@ -1510,11 +1514,6 @@
                         "selected"
                     ]
                 }
-            ],
-            "color": [
-                69,
-                90,
-                100
             ]
         },
         {
@@ -1543,23 +1542,6 @@
                 "bold_folder_labels"
             ],
             "font.bold": true
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "expanded",
-                        "selected"
-                    ]
-                }
-            ],
-            "color": [
-                69,
-                90,
-                100
-            ]
         },
         {
             "class": "sidebar_label",
@@ -1996,11 +1978,6 @@
         },
         {
             "class": "title_bar",
-            "bg": "rgb(115, 128, 140)",
-            "fg": "rgb(235, 237, 239)"
-        },
-        {
-            "class": "title_bar",
             "settings": [
                 "meetio_titlebar"
             ],
@@ -2075,7 +2052,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "rgb(71, 158, 142)",
+            "layer0.tint": "var(vsc_untracked)",
             "content_margin": 6
         },
         {
@@ -2088,7 +2065,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "rgb(193, 104, 92)",
+            "layer0.tint": "var(vsc_modified)",
             "layer0.opacity": 1,
             "content_margin": 6
         },
@@ -2102,7 +2079,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "rgb(123, 136, 204)",
+            "layer0.tint": "var(vsc_staged)",
             "layer0.opacity": 1,
             "content_margin": 6
         },
@@ -2116,7 +2093,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "rgb(71, 158, 142)",
+            "layer0.tint": "var(vsc_untracked)",
             "layer0.opacity": 1,
             "content_margin": 6
         },
@@ -2130,7 +2107,7 @@
                     ]
                 }
             ],
-            "layer0.tint": "rgb(211, 49, 49)",
+            "layer0.tint": "var(vsc_unmerged)",
             "layer0.opacity": 1,
             "content_margin": 6
         },
@@ -2156,8 +2133,8 @@
                     ]
                 }
             ],
-            "layer0.tint": "rgb(71, 158, 142)",
-            "color": "rgb(71, 158, 142)"
+            "layer0.tint": "var(vsc_untracked)",
+            "color": "var(vsc_untracked)"
         },
         {
             "class": "sidebar_label",
@@ -2169,7 +2146,7 @@
                     ]
                 }
             ],
-            "color": "rgb(193, 104, 92)"
+            "color": "var(vsc_modified)"
         },
         {
             "class": "sidebar_label",
@@ -2181,7 +2158,7 @@
                     ]
                 }
             ],
-            "color": "rgb(123, 136, 204)"
+            "color": "var(vsc_staged)"
         },
         {
             "class": "sidebar_label",
@@ -2193,7 +2170,7 @@
                     ]
                 }
             ],
-            "color": "rgb(71, 158, 142)"
+            "color": "var(vsc_untracked)"
         },
         {
             "class": "sidebar_label",
@@ -2205,7 +2182,7 @@
                     ]
                 }
             ],
-            "color": "rgb(211, 49, 49)"
+            "color": "var(vsc_unmerged)"
         }
     ]
 }

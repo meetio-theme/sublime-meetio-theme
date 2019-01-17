@@ -55,7 +55,7 @@
     },
     {
         "class": "tab_label",
-        "fg":  ["foreground", 0.5],
+        "fg": ["foreground", 0.5],
         "font.bold": false
     },
     {
@@ -65,8 +65,8 @@
     },
     {
         "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg":  ["foreground", 1.0]
+        "parents": [{ "class": "tab_control", "attributes": ["selected"] }],
+        "fg": ["foreground", 1.0]
     },
     {
         "class": "tab_label",
@@ -92,7 +92,7 @@
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
-        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "parents": [{ "class": "tab_control", "attributes": ["selected"] }],
         "layer0.opacity": 1.0,
         "layer0.tint": "var(color_accent)"
     },
@@ -105,27 +105,27 @@
     },
     {
         "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "parents": [{ "class": "tab_control", "attributes": ["dirty"] }],
         "layer0.opacity": 0,
         "layer1.opacity": 1.0,
         "content_margin": [8,8]
     },
     {
         "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "parents": [{ "class": "tab_control", "attributes": ["dirty"] }],
         "attributes": ["hover"],
         "layer0.opacity": 0,
         "layer1.opacity": 1
     },
     {
         "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+        "parents": [{ "class": "tab_control", "attributes": ["selected", "dirty"] }],
         "layer0.opacity": 0,
         "layer1.opacity": 1.0
     },
     {
         "class": "tab_close_button",
-        "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+        "parents": [{ "class": "tab_control", "attributes": ["selected", "dirty"] }],
         "attributes": ["hover"],
         "layer0.opacity": 0,
         "layer1.opacity": 1

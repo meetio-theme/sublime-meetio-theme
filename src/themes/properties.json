@@ -5,5 +5,9 @@
     "font_size_sm": 11,
     "font_size_md": 12,
     "font_size_lg": 14,
-    "font_size_huge": 24
+    "font_size_huge": 24,
+    "vsc_untracked": "#479e8e",
+    "vsc_modified": "#c1685c",
+    "vsc_staged": "#7b88cc",
+    "vsc_unmerged": "#d33131"
 }

@@ -39,8 +39,8 @@
     {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.tint": ["foreground", 0.1],
-        "layer0.opacity": 1.0
+        "layer0.tint": ["foreground", 0.6],
+        "layer0.opacity": 0.1
     },
     {
         "class": "sidebar_heading",
@@ -69,46 +69,40 @@
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
         "color": ["foreground", 0.8]
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
         "font.bold": false,
         "color": ["foreground", 0.9]
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "parents": [{ "class": "tree_row", "attributes": ["expandable"] }],
         "color": ["foreground", 0.8]
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "parents": [{ "class": "tree_row", "attributes": ["expandable"] }],
         "settings": ["bold_folder_labels"],
         "font.bold": true
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expandable", "selected"]}],
-        "color": [69, 90, 100]
+        "parents": [{ "class": "tree_row", "attributes": ["expandable", "selected"] }]
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
         "color": "var(color_accent)"
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
         "settings": ["bold_folder_labels"],
         "font.bold": true
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expanded", "selected"]}],
-        "color": [69, 90, 100]
     },
     {
         "class": "sidebar_label",

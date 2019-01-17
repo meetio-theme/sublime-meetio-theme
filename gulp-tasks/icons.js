@@ -1,10 +1,10 @@
-/*eslint-disable semi*/
+/* eslint-disable semi */
 import path from "path";
 import fs from "fs";
 import svg2png from "svg2png";
 import defaultOptions from "./../src/icons/default.json";
 
-function __icons(folder) {
+function build(folder) {
     let iconPath;
     fs.readdirSync("./src/icons/svg").forEach(icon => {
         iconPath = path.join(__dirname, `/../src/icons/svg/${icon}`);
@@ -27,5 +27,5 @@ function __icons(folder) {
 }
 
 export default function icons() {
-    __icons("default");
+    build("default");
 }

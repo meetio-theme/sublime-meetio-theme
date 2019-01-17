@@ -20,7 +20,7 @@
     },
     {
         "class": "panel_control",
-        "parents": [{"class": "overlay_control"}],
+        "parents": [{ "class": "overlay_control" }],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [32, 0, 32, 2],
         "layer0.tint": ["background", 1.0],
@@ -30,7 +30,7 @@
     },
     {
         "class": "panel_control",
-        "parents": [{"class": "switch_project_window"}],
+        "parents": [{ "class": "switch_project_window" }],
         "layer0.inner_margin": [32, 0, 32, 2],
         "layer0.tint": ["background", 1.0],
         "layer1.inner_margin": [32, 0, 32, 2],
@@ -39,7 +39,7 @@
     },
     {
         "class": "panel_control",
-        "parents": [{"class": "window"}]
+        "parents": [{ "class": "window" }]
     },
     {
         "class": "panel_grid_control",

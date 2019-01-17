@@ -1,13 +1,8 @@
 [
     {
         "class": "title_bar",
-        "bg": "rgb(115, 128, 140)",
-        "fg": "rgb(235, 237, 239)"
-    },
-    {
-        "class": "title_bar",
         "settings": ["meetio_titlebar"],
         "bg": ["background", 0.92],
-        "fg":  ["foreground", 1.0]
+        "fg": ["foreground", 1.0]
     }
 ]

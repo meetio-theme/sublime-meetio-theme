@@ -1,8 +1,8 @@
-/*eslint-disable semi*/
+/* eslint-disable semi */
 import path from "path";
 import fs from "fs";
 
-function __schemes() {
+function build() {
     let filePath;
     fs.readdirSync("./src/schemes/").forEach(file => {
         filePath = path.join(__dirname, "/../src/schemes/" + file);
@@ -17,5 +17,5 @@ function __schemes() {
 }
 
 export default function schemes() {
-    __schemes();
+    build();
 }

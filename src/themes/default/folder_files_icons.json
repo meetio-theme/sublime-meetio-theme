@@ -32,7 +32,7 @@
     },
     {
         "class": "icon_folder",
-        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
         "layer0.texture": "Meetio/assets/default/folder_open.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
@@ -45,7 +45,7 @@
     },
     {
         "class": "icon_folder",
-        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
         "layer0.texture": "Meetio/assets/default/arrow_folder_open.png",
         "content_margin": [12, 12],
         "settings": ["meetio_arrow_folders"]

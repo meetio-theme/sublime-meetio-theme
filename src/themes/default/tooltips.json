@@ -7,6 +7,6 @@
     },
     {
         "class": "tool_tip_label_control",
-        "fg":  ["background", 1.0]
+        "fg": ["background", 1.0]
     }
 ]

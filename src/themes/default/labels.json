@@ -6,13 +6,13 @@
     },
     {
         "class": "label_control",
-        "parents": [{"class": "button_control"}],
+        "parents": [{ "class": "button_control" }],
         "color": ["foreground", 1.0],
         "font.bold": true
     },
     {
         "class": "label_control",
-        "parents": [{"class": "panel_control"}],
+        "parents": [{ "class": "panel_control" }],
         "color": ["foreground", 1.0],
         "font.bold": true
     },
@@ -23,6 +23,6 @@
     },
     {
         "class": "label_control",
-        "parents": [{"class": "button_control"}]
+        "parents": [{ "class": "button_control" }]
     }
 ]
