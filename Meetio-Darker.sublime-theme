@@ -26,8 +26,16 @@
             80,
             28
         ],
-        "status_label_foreground_color": "var(color_white)",
-        "status_bar_background_color": "color(var(color_accent) blenda(var(color_black) 30%))"
+        "status_bar_label_foreground_color": "var(color_white)",
+        "status_bar_background_color": "color(var(color_accent) blenda(var(color_black) 30%))",
+        "tooltip_label_foreground_color": [
+            "background",
+            1
+        ],
+        "tooltip_background_color": [
+            "foreground",
+            1
+        ]
     },
     "rules": [
         {
@@ -478,6 +486,34 @@
             "layer0.opacity": 1
         },
         {
+            "class": "dialog",
+            "layer0.tint": [
+                "background",
+                0.94
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "progress_bar_control",
+            "layer0.tint": [
+                "background",
+                1
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "progress_gauge_control",
+            "layer0.tint": [
+                "background",
+                0.5
+            ],
+            "layer0.opacity": 1,
+            "content_margin": [
+                0,
+                8
+            ]
+        },
+        {
             "class": "fold_button_control",
             "layer0.texture": "Meetio/assets/default/arrow_right.png",
             "layer0.tint": "var(color_accent)",
@@ -509,34 +545,6 @@
             "content_margin": [
                 12,
                 12
-            ]
-        },
-        {
-            "class": "dialog",
-            "layer0.tint": [
-                "background",
-                0.94
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "progress_bar_control",
-            "layer0.tint": [
-                "background",
-                1
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "progress_gauge_control",
-            "layer0.tint": [
-                "background",
-                0.5
-            ],
-            "layer0.opacity": 1,
-            "content_margin": [
-                0,
-                8
             ]
         },
         {
@@ -1574,7 +1582,7 @@
         {
             "class": "panel_button_control",
             "layer0.texture": "Meetio/assets/default/overflow_menu.png",
-            "layer0.tint": "var(status_label_foreground_color)",
+            "layer0.tint": "var(status_bar_label_foreground_color)",
             "layer0.opacity": 1,
             "content_margin": 9,
             "layer0.inner_margin": 4
@@ -1590,7 +1598,7 @@
         {
             "class": "vcs_branch_icon",
             "layer0.texture": "Meetio/assets/default/icon_branch.png",
-            "layer0.tint": "var(status_label_foreground_color)",
+            "layer0.tint": "var(status_bar_label_foreground_color)",
             "layer0.opacity": 1,
             "content_margin": 8,
             "layer0.inner_margin": 2
@@ -1647,7 +1655,7 @@
                 }
             ],
             "font.size": "var(font_size_sm)",
-            "color": "var(status_label_foreground_color)",
+            "color": "var(status_bar_label_foreground_color)",
             "font.bold": false
         },
         {
@@ -1977,10 +1985,7 @@
         },
         {
             "class": "tool_tip_control",
-            "layer0.tint": [
-                "foreground",
-                1
-            ],
+            "layer0.tint": "var(tooltip_background_color)",
             "layer0.opacity": 1,
             "content_margin": [
                 12,
@@ -1989,10 +1994,7 @@
         },
         {
             "class": "tool_tip_label_control",
-            "fg": [
-                "background",
-                1
-            ]
+            "fg": "var(tooltip_label_foreground_color)"
         },
         {
             "class": "minimap_control",

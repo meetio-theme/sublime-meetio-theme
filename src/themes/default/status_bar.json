@@ -13,7 +13,7 @@
     {
         "class": "panel_button_control",
         "layer0.texture": "Meetio/assets/default/overflow_menu.png",
-        "layer0.tint": "var(status_label_foreground_color)",
+        "layer0.tint": "var(status_bar_label_foreground_color)",
         "layer0.opacity": 1.0,
         "content_margin": 9,
         "layer0.inner_margin": 4
@@ -27,7 +27,7 @@
     {
         "class": "vcs_branch_icon",
         "layer0.texture": "Meetio/assets/default/icon_branch.png",
-        "layer0.tint": "var(status_label_foreground_color)",
+        "layer0.tint": "var(status_bar_label_foreground_color)",
         "layer0.opacity": 1.0,
         "content_margin": 8,
         "layer0.inner_margin": 2
@@ -61,7 +61,7 @@
         "class": "label_control",
         "parents": [{ "class": "status_bar" }],
         "font.size": "var(font_size_sm)",
-        "color": "var(status_label_foreground_color)",
+        "color": "var(status_bar_label_foreground_color)",
         "font.bold": false
     }
 ]
