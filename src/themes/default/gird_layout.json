@@ -1,0 +1,7 @@
+[
+    {
+        "class": "grid_layout_control",
+        "border_color": "color(var(color_accent) blenda(var(color_bg) 30%))",
+        "border_size": 2
+    }
+]

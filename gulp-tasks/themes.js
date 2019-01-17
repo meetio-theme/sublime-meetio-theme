@@ -1,20 +1,25 @@
 /*eslint-disable semi*/
 import path from "path";
 import fs from "fs";
+import properties from "./../src/themes/properties.json";
 
 function __theme(name, folder) {
     const merge = [];
-    let options = {};
+    let rules = {};
     fs.readdirSync(`./src/themes/${folder}/`).forEach(file => {
         file = path.join(__dirname, `/../src/themes/${folder}/` + file);
         fs.readFile(file, "utf8", (err, data) => {
             if (err) throw err;
-            options = JSON.parse(data);
-            Object.keys(options).map((optionsKey) => {
-                var value = options[optionsKey];
+            rules = JSON.parse(data);
+            Object.keys(rules).map((rulesKey) => {
+                var value = rules[rulesKey];
                 merge.push(value);
             });
-            fs.writeFileSync(`${name}.sublime-theme`, JSON.stringify(merge, null, 4), (err) => {
+            const theme = {
+                "variables": properties,
+                "rules": merge
+            };
+            fs.writeFileSync(`${name}.sublime-theme`, JSON.stringify(theme, null, 4), (err) => {
                 if (err) console.log(err);
             });
         });

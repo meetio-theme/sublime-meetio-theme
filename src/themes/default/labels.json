@@ -19,7 +19,7 @@
     {
         "class": "title_label_control",
         "fg": ["foreground", 1.0],
-        "font.size": 24
+        "font.size": "var(font_size_huge)"
     },
     {
         "class": "label_control",

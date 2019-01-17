@@ -1,0 +1,9 @@
+{
+    "color_bg": ["background", 1],
+    "color_accent": ["accent", 1],
+    "color_white": "#ffffff",
+    "font_size_sm": 11,
+    "font_size_md": 12,
+    "font_size_lg": 14,
+    "font_size_huge": 24
+}

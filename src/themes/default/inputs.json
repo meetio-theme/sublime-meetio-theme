@@ -21,7 +21,7 @@
         "layer2.inner_margin": [52, 48, 0, 0],
         "layer2.draw_center": false,
         "layer2.texture": "Meetio/assets/default/icon_search.png",
-        "layer2.tint": ["accent", 1.0],
+        "layer2.tint": "var(color_accent)",
         "layer2.opacity": 1.0,
         "settings": ["meetio_input_search_icon"]
     },
@@ -38,7 +38,7 @@
         "layer2.inner_margin": [52, 48, 0, 0],
         "layer2.draw_center": false,
         "layer2.texture": "Meetio/assets/default/icon_search.png",
-        "layer2.tint": ["accent", 1.0],
+        "layer2.tint": "var(color_accent)",
         "layer2.opacity": 1.0,
         "settings": ["meetio_input_search_icon"]
     },
@@ -46,7 +46,7 @@
         "class": "dropdown_button_control",
         "content_margin": [12, 12],
         "layer0.texture": "Meetio/assets/default/overflow_menu.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 0]
     },

@@ -19,11 +19,6 @@
         "layer0.opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" }
     },
     {
-        "class": "button_control",
-        "parents": [{"class": "dialog"}],
-        "layer0.tint": "[171, 177, 186]"
-    },
-    {
         "class": "icon_button_group",
         "spacing": 8
     },
@@ -44,7 +39,7 @@
     {
         "class": "icon_regex",
         "layer0.texture": "Meetio/assets/default/icon_regex.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
         "content_margin": [12, 12]
     },
@@ -61,7 +56,7 @@
     {
         "class": "icon_case",
         "layer0.texture": "Meetio/assets/default/icon_case_sensitive.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
         "content_margin": [12, 12]
     },
@@ -78,7 +73,7 @@
     {
         "class": "icon_whole_word",
         "layer0.texture": "Meetio/assets/default/icon_whole_word.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
         "content_margin": [12, 12]
     },
@@ -95,7 +90,7 @@
     {
         "class": "icon_wrap",
         "layer0.texture": "Meetio/assets/default/icon_wrap.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
         "content_margin": [12, 12]
     },
@@ -112,7 +107,7 @@
     {
         "class": "icon_in_selection",
         "layer0.texture": "Meetio/assets/default/icon_in_selection.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
         "content_margin": [12, 12]
     },
@@ -129,7 +124,7 @@
     {
         "class": "icon_highlight",
         "layer0.texture": "Meetio/assets/default/icon_highlight_matches.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
         "content_margin": [12, 12]
     },
@@ -146,7 +141,7 @@
     {
         "class": "icon_preserve_case",
         "layer0.texture": "Meetio/assets/default/icon_preserve_case.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
         "content_margin": [12, 12]
     },
@@ -163,7 +158,7 @@
     {
         "class": "icon_context",
         "layer0.texture": "Meetio/assets/default/icon_in_context.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
         "content_margin": [12, 12]
     },
@@ -180,7 +175,7 @@
     {
         "class": "icon_use_buffer",
         "layer0.texture": "Meetio/assets/default/icon_use_buffer.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" },
         "content_margin": [12, 12]
     },

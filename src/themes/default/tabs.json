@@ -81,7 +81,7 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "layer1.texture": "Meetio/assets/default/dirty_icon.png",
-        "layer1.tint": ["accent", 1.0],
+        "layer1.tint": "var(color_accent)",
         "layer1.inner_margin": 0
     },
     {
@@ -94,7 +94,7 @@
         "settings": ["show_tab_close_buttons"],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "layer0.opacity": 1.0,
-        "layer0.tint": ["accent", 1.0]
+        "layer0.tint": "var(color_accent)"
     },
     {
         "class": "tab_close_button",
@@ -133,7 +133,7 @@
     {
         "class": "scroll_tabs_left_button",
         "layer0.texture": "Meetio/assets/default/arrow_left.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [10, 10]
     },
@@ -145,7 +145,7 @@
     {
         "class": "scroll_tabs_right_button",
         "layer0.texture": "Meetio/assets/default/arrow_right.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [10, 10]
     },
@@ -158,7 +158,7 @@
         "class": "show_tabs_dropdown_button",
         "content_margin": [12, 12],
         "layer0.texture": "Meetio/assets/default/overflow_menu.png",
-        "layer0.tint": ["accent", 1.0],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
