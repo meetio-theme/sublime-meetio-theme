@@ -4,7 +4,7 @@
     "variables": {
         "primary"     : "#7dcac4",
         "background"  : "#fafafa",
-        "black"       : "#546d79",
+        "black"       : "#40525a",
         "blue"        : "#6181b8",
         "cyan"        : "#80cbc4",
         "gray"        : "#3d3d3d",
@@ -44,6 +44,76 @@
         "tags_options"                : "stippled_underline"
     },
     "rules": [
+        {
+            "foreground": "#DADADAFF",
+            "background": "#FF0081FF",
+            "scope": "col_FF0081FF"
+        },
+        {
+            "foreground": "#616161FF",
+            "background": "#FFFF00FF",
+            "scope": "col_FFFF00FF"
+        },
+        {
+            "foreground": "#797979FF",
+            "background": "#FFFF0001",
+            "scope": "col_FFFF0001"
+        },
+        {
+            "foreground": "#707070FF",
+            "background": "#F0F0F0FF",
+            "scope": "col_F0F0F0FF"
+        },
+        {
+            "foreground": "#E9E9E9FF",
+            "background": "#FF00FFFF",
+            "scope": "col_FF00FFFF"
+        },
+        {
+            "foreground": "#797979FF",
+            "background": "#FF00FF01",
+            "scope": "col_FF00FF01"
+        },
+        {
+            "foreground": "#ffffff",
+            "background": "#000000",
+            "scope": "col_gutter"
+        },
+        {
+            "foreground": "#D4D4D4FF",
+            "background": "#455A64FF",
+            "scope": "col_455A64FF"
+        },
+        {
+            "foreground": "#010101FF",
+            "background": "#C1685CFF",
+            "scope": "col_C1685CFF"
+        },
+        {
+            "foreground": "#020202FF",
+            "background": "#479E8EFF",
+            "scope": "col_479E8EFF"
+        },
+        {
+            "foreground": "#0B0B0BFF",
+            "background": "#7B88CCFF",
+            "scope": "col_7B88CCFF"
+        },
+        {
+            "foreground": "#7F7F7FFF",
+            "background": "#FFFFFFFF",
+            "scope": "col_FFFFFFFF"
+        },
+        {
+            "foreground": "#E1E1E1FF",
+            "background": "#D33131FF",
+            "scope": "col_D33131FF"
+        },
+        {
+            "foreground": "#232323FF",
+            "background": "#A3A3A3FF",
+            "scope": "col_A3A3A3FF"
+        },
         {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",

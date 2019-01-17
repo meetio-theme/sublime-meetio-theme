@@ -1,7 +1,7 @@
 /*eslint-disable semi*/
 import path from "path";
 import fs from "fs";
-import properties from "./../src/themes/properties.json";
+import variables from "./../src/themes/variables.json";
 
 function build(name, folder) {
     const merge = [];
@@ -16,13 +16,11 @@ function build(name, folder) {
                 merge.push(value);
             });
             const theme = {
-                "variables": properties,
+                "variables": variables,
                 "rules": merge
             };
             fs.writeFileSync(`${name}.sublime-theme`, JSON.stringify(theme, null, 4), (err) => {
-                if (err) {
-                    console.log(err);
-                }
+                if (err) console.log(err);
             });
         });
     });

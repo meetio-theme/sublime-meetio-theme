@@ -29,6 +29,7 @@ module.exports = {
         }
         ],
         "no-unused-expressions": [2, { allowShortCircuit: true, allowTernary: true }],
-        "no-console": "off"
+        "no-console": "off",
+        "eslint-env" "es6"
     }
 }

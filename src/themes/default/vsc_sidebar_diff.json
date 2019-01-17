@@ -36,7 +36,7 @@
     {
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["ignored"] }],
-        "color": "color(rgb(37, 49, 55) blend(rgb(255, 255, 255) 45%))"
+        "color": "color(var(vsc_ignored)"
     },
     {
         "class": "sidebar_label",
