@@ -22,12 +22,6 @@
  - Restart Sublime Text
  - Start using...
 
-### Activate the theme
-
-**You can active this theme from:**
-
- * Command palette Tools > Command Palette `(Ctrl or ⌘) + ⇧ + P` by typing `Meetio: Theme Activate`
- * Preferences > Packages Settings and choose `Meetio > Theme Activate`
 
 ### Schemes variations
 
@@ -45,7 +39,7 @@
 
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.sublime-color-scheme",
-  "theme": "Meetio-Lighter.sublime-theme",
+  "theme": "Meetio.sublime-theme",
 ```
 
 #### Meetio Darker
@@ -53,7 +47,7 @@
 
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio-Darker.sublime-color-scheme",
-  "theme": "Meetio-Darker.sublime-theme",
+  "theme": "Meetio.sublime-theme",
 ```
 
 #### Meetio Palenight
@@ -61,7 +55,7 @@
 
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.sublime-color-scheme",
-  "theme": "Meetio-Palenight.sublime-theme",
+  "theme": "Meetio.sublime-theme",
 ```
 
 ### Theme options
