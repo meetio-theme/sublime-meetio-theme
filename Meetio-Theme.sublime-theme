@@ -1,0 +1,6 @@
+{
+    "extends": "Meetio.json",
+    "variables": {
+        "color_accent": "#7dcac4"
+    }
+}

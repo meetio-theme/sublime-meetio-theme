@@ -19,7 +19,7 @@ function build(name, folder) {
                 "variables": variables,
                 "rules": merge
             };
-            fs.writeFileSync(`${name}.sublime-theme`, JSON.stringify(theme, null, 4), (err) => {
+            fs.writeFileSync(`${name}.json`, JSON.stringify(theme, null, 4), (err) => {
                 if (err) console.log(err);
             });
         });
@@ -28,7 +28,4 @@ function build(name, folder) {
 
 export default function themes() {
     build("Meetio", "default");
-    build("Meetio-Darker", "default");
-    build("Meetio-Lighter", "default");
-    build("Meetio-Palenight", "default");
 }

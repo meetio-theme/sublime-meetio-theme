@@ -12,13 +12,9 @@
                             "caption": "Meetio",
                             "children":
                             [
-                                {
-                                    "caption": "Theme Activate",
-                                    "command": "mo_activate"
-                                },
                                 { "caption": "-" },
                                 {
-                                    "caption": "Edit Theme Settings",
+                                    "caption": "Edit Settings",
                                     "command": "edit_settings", "args":
                                     {
                                         "base_file": "${packages}/Meetio/Preferences.sublime-settings",
@@ -26,10 +22,10 @@
                                     }
                                 },
                                 {
-                                    "caption": "Edit Scheme Settings",
+                                    "caption": "Theme Configuration",
                                     "command": "edit_settings",
                                     "args": {
-                                      "base_file": "${packages}/Meetio/Meetio Scheme.sublime-settings",
+                                      "base_file": "${packages}/Meetio/Meetio-Theme.sublime-theme",
                                       "default": "{\n$0\n}\n"
                                   }
                               },
