@@ -58,7 +58,7 @@
   "theme": "Meetio.sublime-theme",
 ```
 
-### Theme options
+### Theme Settings
 
 ```json
   // Tabs
@@ -76,6 +76,19 @@
   "meetio_titlebar"          : true, // Enable title bar (OS X 10.10+)
   "meetio_input_search_icon" : true  // Show icon search in inputs
   "meetio_statusbar_big"     : true  // Set status bar big
+```
+
+### Theme Configurations
+Meetio provides a bunch of variables to improve your experience with theming.
+
+```json
+  {
+      "variables": {
+          "color_accent": "#6772e4",
+          "status_bar_background_color": "#6772e4",
+          "status_bar_label_foreground_color": "#fff",
+      }
+  }
 ```
 
 ### Recommended settings for a better experience:
