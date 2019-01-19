@@ -59,6 +59,9 @@
 ```
 
 ### Theme Settings
+This theme provide a visual configuration tool that allow you to configure the theme by activating the available options from an inline popup.\
+Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Edit Settings`.\
+You can also open the settings from the command palette by searching `Meetio: Edit Settings`.
 
 ```json
   // Tabs
@@ -78,8 +81,10 @@
   "meetio_statusbar_big"     : true  // Set status bar big
 ```
 
-### Theme Configurations
-Meetio provides a bunch of variables to improve your experience with theming.
+### Theme Configuration
+Meetio provides a bunch of variables to improve your experience with theming.\
+Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Theme Configuration`.\
+You can also open the settings from the command palette by searching `Meetio: Theme Configuration`.
 
 ```json
   {
