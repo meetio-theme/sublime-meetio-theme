@@ -41,7 +41,6 @@
     {
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["untracked"] }],
-        "layer0.tint": "var(vsc_untracked)",
         "color": "var(vsc_untracked)"
     },
     {

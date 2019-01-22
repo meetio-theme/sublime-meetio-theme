@@ -12,7 +12,7 @@
         "command": "edit_settings", "args":
         {
             "base_file": "${packages}/Meetio/Meetio-Theme.sublime-theme",
-            "default": "\n\n"
+            "default": "{\n    \"variables\": {\n\n    }\n}\n"
+            }
         }
-    }
-]
+    ]

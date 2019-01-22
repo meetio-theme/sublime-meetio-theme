@@ -679,56 +679,6 @@
             ]
         },
         {
-            "class": "label_control",
-            "fg": [
-                "foreground",
-                1
-            ],
-            "font.bold": false
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "button_control"
-                }
-            ],
-            "color": [
-                "foreground",
-                1
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "panel_control"
-                }
-            ],
-            "color": [
-                "foreground",
-                1
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "title_label_control",
-            "fg": [
-                "foreground",
-                1
-            ],
-            "font.size": "var(font_size_huge)"
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "button_control"
-                }
-            ]
-        },
-        {
             "class": "grid_layout_control",
             "border_color": "color(var(color_accent) blenda(var(color_black) 30%))",
             "border_size": 2
@@ -859,6 +809,56 @@
                 "hover"
             ],
             "layer0.opacity": 0.8
+        },
+        {
+            "class": "label_control",
+            "fg": [
+                "foreground",
+                1
+            ],
+            "font.bold": false
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "button_control"
+                }
+            ],
+            "color": [
+                "foreground",
+                1
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "panel_control"
+                }
+            ],
+            "color": [
+                "foreground",
+                1
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "title_label_control",
+            "fg": [
+                "foreground",
+                1
+            ],
+            "font.size": "var(font_size_huge)"
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "button_control"
+                }
+            ]
         },
         {
             "class": "close_button",
@@ -1980,19 +1980,6 @@
             ]
         },
         {
-            "class": "tool_tip_control",
-            "layer0.tint": "var(tooltip_background_color)",
-            "layer0.opacity": 1,
-            "content_margin": [
-                12,
-                8
-            ]
-        },
-        {
-            "class": "tool_tip_label_control",
-            "fg": "var(tooltip_label_foreground_color)"
-        },
-        {
             "class": "minimap_control",
             "settings": [
                 "always_show_minimap_viewport"
@@ -2024,6 +2011,19 @@
                 "speed": 20,
                 "interpolation": "smoothstep"
             }
+        },
+        {
+            "class": "tool_tip_control",
+            "layer0.tint": "var(tooltip_background_color)",
+            "layer0.opacity": 1,
+            "content_margin": [
+                12,
+                8
+            ]
+        },
+        {
+            "class": "tool_tip_label_control",
+            "fg": "var(tooltip_label_foreground_color)"
         },
         {
             "class": "vcs_status_badge",
@@ -2116,7 +2116,6 @@
                     ]
                 }
             ],
-            "layer0.tint": "var(vsc_untracked)",
             "color": "var(vsc_untracked)"
         },
         {
