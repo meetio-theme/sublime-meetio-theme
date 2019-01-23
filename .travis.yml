@@ -11,4 +11,4 @@ branches:
   only:
     - master
 script:
-  - gulp
+  - npm run lint
