@@ -16,13 +16,17 @@
   ],
   "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.14.0",
     "babel-root-import": "^4.1.8",
-    "eslint": "^5.12.0",
+    "eslint": "^5.12.1",
     "eslint-config-eslint": "^5.0.1",
+    "eslint-plugin-json": "^1.3.2",
     "eslint-plugin-node": "^8.0.1",
     "gulp": "^4.0.0",
     "gulp-svg2png": "^2.0.2"
