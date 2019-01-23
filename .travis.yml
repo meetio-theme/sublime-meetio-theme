@@ -1,0 +1,14 @@
+sudo: false
+language: node_js
+cache: npm
+install:
+  - nvm install node
+  - node -v
+  - npm i
+node_js:
+  - '8'
+branches:
+  only:
+    - master
+script:
+  - gulp
