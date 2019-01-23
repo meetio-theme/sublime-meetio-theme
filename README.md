@@ -1,5 +1,9 @@
 <p align="center"><img src="public/meetio.png" width="480"/></p>
 
+[![GitHub tag](https://img.shields.io/github/release/mauroreisvieira/meetio.svg?style=flat-square)](https://github.com/mauroreisvieira/meetio/releases)
+[![Build Status](https://travis-ci.org/mauroreisvieira/meetio.svg?branch=master&style=flat-square)](https://travis-ci.org/mauroreisvieira/meetio)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mauroreisvieira/meetio/blob/master/LICENSE)
+
 **Meetio** is the most powerful theme for Sublime Text 3 with Lighter, Darker & Palenight variations only for 3176+ version.
 
 ## Installation
