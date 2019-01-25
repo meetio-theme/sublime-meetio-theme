@@ -5,7 +5,7 @@
         "primary"     : "#7dcac4",
         "foreground"  : "#fefefe",
         "background"  : "#193448",
-        "black"       : "#546d79",
+        "black"       : "#000000",
         "blue"        : "#40c4fe",
         "cyan"        : "#9effff",
         "gray"        : "#3d3d3d",
@@ -17,7 +17,7 @@
         "deep-orange" : "#f97b58",
         "light-blue"  : "#e1f5fe",
         "deep-purple" : "#c2afff",
-        "white"       : "#fefefe",
+        "white"       : "#ffffff",
         "yellow"      : "#ffc600"
     },
     "globals": {

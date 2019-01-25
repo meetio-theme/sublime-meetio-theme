@@ -27,7 +27,7 @@
     },
     {
         "class": "tab_control",
-        "layer0.tint": ["background", 0],
+        "layer0.tint": ["background", 0.0],
         "layer0.inner_margin": [24, 8],
         "layer0.opacity": 1.0,
         "tint_index": 0,
@@ -35,6 +35,8 @@
         "layer1.tint": ["background", 1.0],
         "layer1.inner_margin": 8,
         "layer1.opacity": 0,
+
+        "layer2.opacity": 0,
 
         "content_margin": [8, 0, 8, 0],
         "max_margin_trim": 0
@@ -47,7 +49,19 @@
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer1.opacity": 1.0
+        "layer1.opacity": 1.0,
+        "tint_index": 1
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "layer1.opacity": 1.0,
+        "settings": ["meetio_tabs_border"],
+        "layer2.opacity": 1.0,
+        "layer2.inner_margin": "var(tabset_border_size)",
+        "layer2.draw_center": false,
+        "layer2.tint": "var(tabset_border_color)",
+        "tint_index": 1
     },
     {
         "class": "tab_label",
@@ -89,13 +103,13 @@
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "parents": [{ "class": "tab_control", "attributes": ["selected"] }],
-        "layer0.opacity": 1.0,
-        "layer0.tint": "var(color_accent)"
+        "layer0.opacity": 1.0
     },
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "attributes": ["hover"],
+        "layer0.tint": "var(color_accent)",
         "layer0.opacity": 1.0,
         "layer1.opacity": 0
     },

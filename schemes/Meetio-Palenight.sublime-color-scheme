@@ -3,7 +3,7 @@
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com",
     "variables": {
         "primary"     : "#7dcac4",
-        "foreground"  : "#a6accd",
+        "foreground"  : "#fefefe",
         "background"  : "#292d3e",
         "black"       : "#000000",
         "blue"        : "#82aaff",
@@ -326,9 +326,9 @@
             "scope": "col_121212FF"
         },
         {
-            "foreground": "#ffffff",
-            "background": "#000000",
-            "scope": "col_gutter"
+            "foreground": "#A9A9A9FF",
+            "background": "#00000015",
+            "scope": "col_00000015"
         },
         {
             "foreground": "#F3F3F3FF",
@@ -336,14 +336,14 @@
             "scope": "col_607A86FF"
         },
         {
-            "foreground": "#A9A9A9FF",
-            "background": "#00000015",
-            "scope": "col_00000015"
+            "foreground": "#ffffff",
+            "background": "#000000",
+            "scope": "col_gutter"
         },
         {
-            "foreground": "#272727FF",
-            "background": "#82AAFFFF",
-            "scope": "col_82AAFFFF"
+            "foreground": "#808080FF",
+            "background": "#000000FF",
+            "scope": "col_000000FF"
         },
         {
             "name": "Comment",
