@@ -4,6 +4,7 @@
     "variables": {
         "primary"     : "#7dcac4",
         "background"  : "#263137",
+        "foreground"  : "#fefefe",
         "black"       : "#121212",
         "blue"        : "#6398ce",
         "cyan"        : "#5bb3b4",
@@ -20,7 +21,7 @@
         "yellow"      : "#fbc959"
     },
    "globals": {
-        "foreground"                  : "var(white)",
+        "foreground"                  : "var(foreground)",
         "background"                  : "var(background)",
         "caret"                       : "var(yellow)",
         "line_highlight"              : "color(var(white) alpha(0.1))",

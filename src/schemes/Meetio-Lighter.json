@@ -3,6 +3,7 @@
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com",
     "variables": {
         "primary"     : "#7dcac4",
+        "foreground"  : "#40525a",
         "background"  : "#fafafa",
         "black"       : "#40525a",
         "blue"        : "#6181b8",
@@ -20,7 +21,7 @@
         "yellow"      : "#ffb62e"
     },
       "globals": {
-        "foreground"                  : "var(black)",
+        "foreground"                  : "var(foreground)",
         "background"                  : "var(background)",
         "caret"                       : "var(yellow)",
         "line_highlight"              : "color(var(black) alpha(0.1))",

@@ -10,6 +10,8 @@
     "button_background_color_hover"           : "var(color_accent)",
     "button_min_size"                         : [80, 28],
     "input_background_color"                  : ["background", 1.0],
+    "input_border_size"                       : 0,
+    "input_border_color"                      : ["foreground", 0],
     "panel_control_background_color"          : ["background", 0.94],
     "sidebar_background_color"                : ["background", 0.92],
     "sidebar_icon_folder_color"               : "var(color_accent)",
