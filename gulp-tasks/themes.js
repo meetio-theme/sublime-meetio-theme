@@ -22,7 +22,7 @@ function build(name, folder) {
           console.log(e);
         }
       });
-      const theme = { 'extends': "Meetio.json", 'variables': variables };
+      const theme = { 'extends': 'Meetio.json', 'variables': variables };
       fs.writeFileSync(`${name}.sublime-theme`, JSON.stringify(theme, null, 4), (e) => {
         if (e) {
           console.log(e);
