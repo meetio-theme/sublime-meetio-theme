@@ -1,43 +1,47 @@
-    [
-        {
-            "id": "preferences",
-            "children":
-            [
-                {
-                    "caption": "Package Settings",
-                    "id": "package-settings",
-                    "children":
-                    [
-                        {
-                            "caption": "Meetio",
-                            "children":
-                            [
-                                { "caption": "-" },
-                                {
-                                    "caption": "Edit Settings",
-                                    "command": "edit_settings", "args":
-                                    {
-                                        "base_file": "${packages}/Meetio/Preferences.sublime-settings",
-                                        "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
-                                    }
-                                },
-                                {
-                                    "caption": "Theme Configuration",
-                                    "command": "edit_settings",
-                                    "args": {
-                                      "base_file": "${packages}/Meetio/Meetio.sublime-theme",
-                                      "default": "{\n    \"variables\": {\n\t\t$0\n\t}\n}\n"
-                                  }
-                              },
-                                { "caption": "-" },
-                                {
-                                    "caption": "Changelog",
-                                    "command": "mo_changelog"
+[
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "Meetio",
+                        "children": [
+                            {
+                                "caption": "Edit Settings",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/Meetio/Preferences.sublime-settings",
+                                    "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
                                 }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+                            },
+                            {
+                                "caption": "Theme Configuration",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/Meetio/Meetio.sublime-theme",
+                                    "default": "{\n    \"variables\": {\n\t\t$0\n\t}\n}\n"
+                                }
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Changelog",
+                                "command": "mo_changelog"
+                            },
+                            {
+                                "caption": "Issues",
+                                "command": "open_url",
+                                "args": {
+                                    "url": "https://github.com/mauroreisvieira/meetio/issues"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
