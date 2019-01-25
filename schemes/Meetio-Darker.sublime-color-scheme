@@ -45,6 +45,51 @@
     },
     "rules": [
         {
+            "background": "#000000",
+            "foreground": "#ffffff",
+            "scope": "col_gutter"
+        },
+        {
+            "background": "#7B88CCFF",
+            "foreground": "#0B0B0BFF",
+            "scope": "col_7B88CCFF"
+        },
+        {
+            "background": "#455A64FF",
+            "foreground": "#D4D4D4FF",
+            "scope": "col_455A64FF"
+        },
+        {
+            "background": "#A3A3A3FF",
+            "foreground": "#232323FF",
+            "scope": "col_A3A3A3FF"
+        },
+        {
+            "background": "#C1685CFF",
+            "foreground": "#010101FF",
+            "scope": "col_C1685CFF"
+        },
+        {
+            "background": "#479E8EFF",
+            "foreground": "#020202FF",
+            "scope": "col_479E8EFF"
+        },
+        {
+            "background": "#7DCAC4FF",
+            "foreground": "#323232FF",
+            "scope": "col_7DCAC4FF"
+        },
+        {
+            "background": "#D33131FF",
+            "foreground": "#E1E1E1FF",
+            "scope": "col_D33131FF"
+        },
+        {
+            "background": "#FFFFFFFF",
+            "foreground": "#7F7F7FFF",
+            "scope": "col_FFFFFFFF"
+        },
+        {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "color(var(white) alpha(0.3))"

@@ -16,8 +16,14 @@ function build(name, folder) {
         const value = rules[rulesKey];
         merge.push(value);
       });
-      const theme = { 'variables': variables, 'rules': merge };
-      fs.writeFileSync(`${name}.json`, JSON.stringify(theme, null, 4), (e) => {
+      const options = { 'variables': variables, 'rules': merge };
+      fs.writeFileSync(`${name}.json`, JSON.stringify(options, null, 4), (e) => {
+        if (e) {
+          console.log(e);
+        }
+      });
+      const theme = { 'extends': "Meetio.json", 'variables': variables };
+      fs.writeFileSync(`${name}.sublime-theme`, JSON.stringify(theme, null, 4), (e) => {
         if (e) {
           console.log(e);
         }

@@ -5,7 +5,7 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [20, 5, 20, 5],
         "tint_index": 1,
-        "layer0.tint": ["background", 1.0],
+        "layer0.tint": "var(input_background_color)",
         "content_margin": [10, 8, 12, 8]
     },
     {

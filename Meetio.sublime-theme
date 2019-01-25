@@ -1,28 +1,78 @@
 {
     "extends": "Meetio.json",
-    "variables" : {
-        "color_accent"                      : "#7dcac4",
-        "color_white"                       : "#ffffff",
-        "color_black"                       : "#455A64",
-        "font_size_sm"                      : 11,
-        "font_size_md"                      : 12,
-        "font_size_lg"                      : 14,
-        "font_size_huge"                    : 24,
-        "tabset_width"                      : 180,
-        "tabset_min_width"                  : 74,
-        "tabset_height"                     : 40,
-        "tabset_height_large"               : 52,
-        "vsc_untracked"                     : "#479e8e",
-        "vsc_modified"                      : "#c1685c",
-        "vsc_staged"                        : "#7b88cc",
-        "vsc_unmerged"                      : "#d33131",
-        "vsc_ignored"                       : "#a3a3a3",
-        "button_background_color"           : ["background", 0.5],
-        "button_background_color_hover"     : "var(color_accent)",
-        "button_min_size"                   : [80, 28],
-        "status_bar_label_foreground_color" : "var(color_white)",
-        "status_bar_background_color"       : "color(var(color_accent) blenda(var(color_black) 30%))",
-        "tooltip_label_foreground_color"    : ["background", 1.0],
-        "tooltip_background_color"          : ["foreground", 1.0]
+    "variables": {
+        "color_accent": "#7dcac4",
+        "color_white": "#ffffff",
+        "color_black": "#455A64",
+        "font_size_sm": 11,
+        "font_size_md": 12,
+        "font_size_lg": 14,
+        "font_size_huge": 24,
+        "button_background_color": [
+            "background",
+            0.5
+        ],
+        "button_background_color_hover": "var(color_accent)",
+        "button_min_size": [
+            80,
+            28
+        ],
+        "input_background_color": [
+            "background",
+            1
+        ],
+        "panel_control_background_color": [
+            "background",
+            0.94
+        ],
+        "sidebar_background_color": [
+            "background",
+            0.92
+        ],
+        "sidebar_label_foreground_color": [
+            "foreground",
+            0.8
+        ],
+        "sidebar_label_selected_foreground_color": [
+            "foreground",
+            0.9
+        ],
+        "sidebar_icon_folder_color": "var(color_accent)",
+        "sidebar_icon_folder_expanded_color": "var(color_accent)",
+        "sidebar_label_selected_background_color": [
+            "foreground",
+            0.05
+        ],
+        "status_bar_background_color": "color(var(color_accent) blenda(var(color_black) 30%))",
+        "status_bar_label_foreground_color": "var(color_white)",
+        "tabset_background_color": [
+            "background",
+            0.92
+        ],
+        "tabset_height": 40,
+        "tabset_height_large": 52,
+        "tabset_min_width": 74,
+        "tabset_width": 180,
+        "title_bar_background": [
+            "background",
+            0.92
+        ],
+        "title_bar_foreground_color": [
+            "foreground",
+            1
+        ],
+        "tooltip_background_color": [
+            "foreground",
+            1
+        ],
+        "tooltip_label_foreground_color": [
+            "background",
+            1
+        ],
+        "vsc_ignored": "#a3a3a3",
+        "vsc_modified": "#c1685c",
+        "vsc_staged": "#7b88cc",
+        "vsc_unmerged": "#d33131",
+        "vsc_untracked": "#479e8e"
     }
 }
