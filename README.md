@@ -102,7 +102,7 @@ You can also open the settings from the command palette by searching `Meetio: Th
 ```
 
 ### Do you like Material Theme?
-Just past the follow options in `Meetio: Theme Configuration`.
+Just past the follow options in `Meetio: Theme Configuration` and the magic happens.
 
 ```json
 {
