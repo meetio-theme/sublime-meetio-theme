@@ -54,6 +54,14 @@
   "theme": "Meetio.sublime-theme",
 ```
 
+#### Meetio Palenight
+<p align="center"><img src="public/screenshots/Meetio-Palenight.png" width="980"/></p>
+
+```json
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.sublime-color-scheme",
+  "theme": "Meetio.sublime-theme",
+```
+
 #### Meetio Ocean
 <p align="center"><img src="public/screenshots/Meetio-Ocean.png" width="980"/></p>
 
