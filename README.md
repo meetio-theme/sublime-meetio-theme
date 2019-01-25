@@ -30,7 +30,7 @@
 ### Schemes variations
 
 #### Meetio Default
-<p align="center"><img src="public/screenshots/Meetio-Default.png" width="980"/></p>
+<p align="center"><img src="public/screenshots/default.png" width="980"/></p>
 
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
@@ -39,7 +39,7 @@
 
 
 #### Meetio Lighter
-<p align="center"><img src="public/screenshots/Meetio-Lighter.png" width="980"/></p>
+<p align="center"><img src="public/screenshots/lighter.png" width="980"/></p>
 
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.sublime-color-scheme",
@@ -47,7 +47,7 @@
 ```
 
 #### Meetio Darker
-<p align="center"><img src="public/screenshots/Meetio-Darker.png" width="980"/></p>
+<p align="center"><img src="public/screenshots/darker.png" width="980"/></p>
 
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio-Darker.sublime-color-scheme",
@@ -55,7 +55,7 @@
 ```
 
 #### Meetio Palenight
-<p align="center"><img src="public/screenshots/Meetio-Palenight.png" width="980"/></p>
+<p align="center"><img src="public/screenshots/palenight.png" width="980"/></p>
 
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.sublime-color-scheme",
@@ -63,7 +63,7 @@
 ```
 
 #### Meetio Ocean
-<p align="center"><img src="public/screenshots/Meetio-Ocean.png" width="980"/></p>
+<p align="center"><img src="public/screenshots/ocean.png" width="980"/></p>
 
 ```json
   "color_scheme": "Packages/Meetio/schemes/Meetio-Ocean.sublime-color-scheme",
