@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/mauroreisvieira/meetio.svg?branch=master&style=flat-square)](https://travis-ci.org/mauroreisvieira/meetio)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mauroreisvieira/meetio/blob/master/LICENSE)
 
-**Meetio** is the most powerful theme for Sublime Text 3 with Lighter, Darker & Palenight variations only for 3176+ version.
+**Meetio** is the most powerful theme for Sublime Text 3 with different Scheme variations only for 3176+ version.
 
 ## Installation
 
@@ -54,11 +54,11 @@
   "theme": "Meetio.sublime-theme",
 ```
 
-#### Meetio Palenight
-<p align="center"><img src="public/screenshots/Meetio-Palenight.png" width="980"/></p>
+#### Meetio Ocean
+<p align="center"><img src="public/screenshots/Meetio-Ocean.png" width="980"/></p>
 
 ```json
-  "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.sublime-color-scheme",
+  "color_scheme": "Packages/Meetio/schemes/Meetio-Ocean.sublime-color-scheme",
   "theme": "Meetio.sublime-theme",
 ```
 
@@ -72,6 +72,7 @@ You can also open the settings from the command palette by searching `Meetio: Ed
   "meetio_tabs_autowidth"    : true, // Enable auto width for tabs
   "meetio_tabs_big"          : true, // Set tabs big
   "meetio_tabs_bold"         : true, // Make the tab labels bolder only in selected
+  "meetio_tabs_border"       : true, // Show border in selected tab
 
   // Sidebar
   "meetio_sidebar_font_big"  : true, // Set large font in sidebar
@@ -135,25 +136,3 @@ Just past the follow options in `Meetio: Theme Configuration`.
   "overlay_scroll_bars"          : "enabled",
   "highlight_modified_tabs"      : "enabled"
 ```
-
-### Color Schemes palettes
-
-Color      | Default   |  Lighter  |  Darker  |  Palenight |
----        | ---       |  ---      |  ---     |  ---       |
-Accent     | `#7dcac4` | `#7dcac4` | `#7dcac4` | `#7dcac4`  |
-Background | `#2c343b` | `#fafafa` | `#212121` | `#193448`  |
-Foreground | `#efefef` | `#546d79` | `#efefef` | `#fefefe`  |
-Black      | `#121212` | `#546d79` | `#121212` | `#546d79`  |
-Blue       | `#6398ce` | `#6181b8` | `#64b5f6` | `#40c4fe`  |
-Cyan       | `#5bb3b4` | `#80cbc4` | `#89ddff` | `#9effff`  |
-Gray       | `#3d3d3d` | `#3d3d3d` | `#65737e` | `#3d3d3d`  |
-Green      | `#97c892` | `#479e8e` | `#81c784` | `#9eff80`  |
-Orange     | `#ffb266` | `#f9ae58` | `#f78c6c` | `#da8f49`  |
-Pink       | `#ff526f` | `#ff5370` | `#f06292` | `#ffa5f3`  |
-Purple     | `#967efb` | `#c792ea` | `#ba68c8` | `#967efb`  |
-Red        | `#d95757` | `#e53734` | `#f07178` | `#ed6e74`  |
-Deep Orange| `#f97b58` | `#f97b58` | `#f97b58` | `#f97b58`  |
-Light Blue | `#e1f5fe` | `#81d4fa` | `#e1f5fe` | `#e1f5fe`  |
-Deep Purple| `#c692c6` | `#7c4dff` | `#b39ddb` | `#C2AFFF`  |
-White      | `#efefef` | `#fefefe` | `#efefef` | `#fefefe`  |
-Yellow     | `#fbc959` | `#ffb62e` | `#ffcb6b` | `#ffc600`  |
