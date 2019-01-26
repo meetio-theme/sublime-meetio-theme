@@ -21,11 +21,11 @@
             "background",
             1
         ],
-        "input_border_size": 0,
         "input_border_color": [
             "foreground",
             0
         ],
+        "input_border_size": 0,
         "panel_control_background_color": [
             "background",
             0.94
@@ -54,17 +54,17 @@
             "background",
             0.92
         ],
-        "tabset_height": 40,
-        "tabset_height_large": 52,
-        "tabset_min_width": 74,
-        "tabset_width": 180,
+        "tabset_border_color": "var(color_accent)",
         "tabset_border_size": [
             0,
             0,
             0,
             1
         ],
-        "tabset_border_color": "var(color_accent)",
+        "tabset_height": 40,
+        "tabset_height_large": 52,
+        "tabset_min_width": 74,
+        "tabset_width": 180,
         "title_bar_background": [
             "background",
             0.92
