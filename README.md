@@ -90,8 +90,7 @@ You can also open the settings from the command palette by searching `Meetio: Ed
 
   // Panels
   "meetio_titlebar"          : true, // Enable title bar (OS X 10.10+)
-  "meetio_input_search_icon" : true,  // Show icon search in inputs
-  "meetio_statusbar_big"     : true  // Set status bar big
+  "meetio_input_search_icon" : true, // Show icon search in inputs
 ```
 
 ### Theme Configuration

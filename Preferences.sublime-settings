@@ -22,6 +22,4 @@
   "meetio_titlebar"           : false,
   // Show icon search in inputs
   "meetio_input_search_icon"  : false,
-  // Set status bar big
-  "meetio_statusbar_big"      : false,
 }
