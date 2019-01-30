@@ -55,10 +55,6 @@
             0.92
         ],
         "tabset_selected_border_color": "var(color_accent)",
-        "tabset_selected_background_color": [
-            "background",
-            0
-        ],
         "tabset_selected_border_size": [
             0,
             0,
@@ -69,16 +65,6 @@
         "tabset_height_large": 52,
         "tabset_min_width": 74,
         "tabset_width": 180,
-        "tabset_border_color": [
-            "background",
-            1
-        ],
-        "tabset_border_size": [
-            0,
-            0,
-            0,
-            0
-        ],
         "title_bar_background": [
             "background",
             0.92

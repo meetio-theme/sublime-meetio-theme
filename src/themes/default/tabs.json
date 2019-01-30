@@ -56,11 +56,11 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer1.opacity": 1.0,
-        "settings": ["meetio_tabs_border"],
+        "settings": ["meetio_tabs_selected_border"],
         "layer2.opacity": 1.0,
-        "layer2.inner_margin": "var(tabset_border_size)",
+        "layer2.inner_margin": "var(tabset_selected_border_size)",
         "layer2.draw_center": false,
-        "layer2.tint": "var(tabset_border_color)",
+        "layer2.tint": "var(tabset_selected_border_color)",
         "tint_index": 1
     },
     {

@@ -77,20 +77,20 @@ You can also open the settings from the command palette by searching `Meetio: Ed
 
 ```json
   // Tabs
-  "meetio_tabs_autowidth"    : true, // Enable auto width for tabs
-  "meetio_tabs_big"          : true, // Set tabs big
-  "meetio_tabs_bold"         : true, // Make the tab labels bolder only in selected
-  "meetio_tabs_border"       : true, // Show border in selected tab
+  "meetio_tabs_autowidth"       : true, // Enable auto width for tabs
+  "meetio_tabs_big"             : true, // Set tabs big
+  "meetio_tabs_bold"            : true, // Make the tab labels bolder only in selected
+  "meetio_tabs_selected_border" : true, // Show border in selected tab
 
   // Sidebar
-  "meetio_sidebar_font_big"  : true, // Set large font in sidebar
-  "meetio_compact_sidebar"   : true, // Set compact sidebar
-  "meetio_arrow_folders"     : true, // Replace folder icons with arrows
-  "meetio_sidebar_disclosure": true, // Set disclosure tree controls
+  "meetio_sidebar_font_big"     : true, // Set large font in sidebar
+  "meetio_compact_sidebar"      : true, // Set compact sidebar
+  "meetio_arrow_folders"        : true, // Replace folder icons with arrows
+  "meetio_sidebar_disclosure"   : true, // Set disclosure tree controls
 
   // Panels
-  "meetio_titlebar"          : true, // Enable title bar (OS X 10.10+)
-  "meetio_input_search_icon" : true, // Show icon search in inputs
+  "meetio_titlebar"             : true, // Enable title bar (OS X 10.10+)
+  "meetio_input_search_icon"    : true, // Show icon search in inputs
 ```
 
 ### Theme Configuration
@@ -109,7 +109,7 @@ You can also open the settings from the command palette by searching `Meetio: Th
 ```
 
 ### Do you like Material Theme?
-Active the option `meetio_tabs_border` in `Meetio: Edit Settings`\
+Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings`\
 and past the following theme configurations in `Meetio: Theme Configuration` and the see magic happens.
 
 ```json

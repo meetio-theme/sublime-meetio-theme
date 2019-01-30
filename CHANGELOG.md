@@ -10,7 +10,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 *
 
 ### CHANGED
-*
+* Updated name of option `meetio_tabs_border` to `meetio_tabs_selected_border`
 
 ### BREAKING CHANGES
 * Remove `meetio_statusbar_big` option
