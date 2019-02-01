@@ -1,8 +1,10 @@
 <p align="center"><img src="public/meetio.png" width="480"/></p>
 
-[![GitHub tag](https://img.shields.io/github/release/mauroreisvieira/meetio.svg?style=flat-square)](https://github.com/mauroreisvieira/meetio/releases)
-[![Build Status](https://travis-ci.org/mauroreisvieira/meetio.svg?branch=master&style=flat-square)](https://travis-ci.org/mauroreisvieira/meetio)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mauroreisvieira/meetio/blob/master/LICENSE)
+[![GitHub tag](https://img.shields.io/github/release/mauroreisvieira/meetio.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/releases)
+![Build Status](https://img.shields.io/travis/mauroreisvieira/meetio/master.svg?style=for-the-badge)
+[![GitHub issues](https://img.shields.io/github/issues/mauroreisvieira/meetio.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/issues)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/blob/master/LICENSE)
 
 **Meetio** is the most powerful theme for Sublime Text 3 with different Scheme variations only for 3176+ version.
 

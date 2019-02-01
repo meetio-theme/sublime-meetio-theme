@@ -2,6 +2,7 @@ env:
   browser: true
 plugins:
   - json
+  - prettier
 parserOptions:
   ecmaVersion: 2017
   sourceType: module
@@ -18,3 +19,4 @@ rules:
   require-jsdoc: off
   valid-jsdoc: off
   prefer-const: error
+  prettier/prettier: "error"
