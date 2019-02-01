@@ -1,7 +1,16 @@
 {
   "name": "Meetio",
-  "version": "1.3.0",
-  "description": "Meetio Theme for Sublime Text 3",
+  "version": "1.4.0",
+  "description": "Meetio is the most powerful theme for Sublime Text 3 with different Scheme variations only for 3176+ version.",
+  "bugs": {
+    "url": "https://github.com/mauroreisvieira/meetio/issues"
+  },
+  "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "sublime-text",
+    "theme",
+  ],
   "scripts": {
     "build": "gulp",
     "build:themes": "gulp themes",
@@ -11,11 +20,6 @@
     "lint:fix": "./node_modules/.bin/eslint src/**/*.json --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "sublime-text"
-  ],
-  "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
-  "license": "MIT",
   "engines": {
     "node": ">=6.0.0"
   },
