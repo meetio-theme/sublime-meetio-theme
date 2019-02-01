@@ -7,10 +7,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ## [1.4.0](https://github.com/mauroreisvieira/meetio/compare/v1.3.0...v1.4.0) (2019-xx-xx)
 
 ### FEATURES
-* Updated colors of `line_diff_modified`, `line_diff_added` and `line_diff_deleted` in scheme.
+* Add colors of `line_diff_modified`, `line_diff_added` and `line_diff_deleted` in scheme.
 
 ### CHANGED
 * Updated name of option `meetio_tabs_border` to `meetio_tabs_selected_border`.
+* Updated colors of file_system_entry.
 
 ### BREAKING CHANGES
 * Remove `meetio_statusbar_big` option.
