@@ -1,7 +1,7 @@
 {
     "extends": "Meetio.json",
     "variables": {
-        "color_accent": "#7dcac4",
+        "color_accent": "#80cbc4",
         "color_white": "#ffffff",
         "color_black": "#455A64",
         "font_size_sm": 11,
@@ -81,10 +81,10 @@
             "background",
             1
         ],
-        "vsc_ignored": "#a3a3a3",
-        "vsc_modified": "#c1685c",
-        "vsc_staged": "#7b88cc",
-        "vsc_unmerged": "#d33131",
-        "vsc_untracked": "#479e8e"
+        "vsc_ignored": "color(var(sidebar_label_foreground_color) alpha(0.5))",
+        "vsc_modified": "var(--bluish)",
+        "vsc_staged": "var(--yellowish)",
+        "vsc_unmerged": "var(--redish)",
+        "vsc_untracked": "var(--greenish)"
     }
 }
