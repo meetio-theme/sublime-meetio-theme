@@ -42,7 +42,10 @@
         "bracket_contents_options"    : "underline",
         "bracket_contents_foreground" : "var(cyan)",
         "tags_foreground"             : "var(deep-purple)",
-        "tags_options"                : "stippled_underline"
+        "line_diff_added"             : "var(green)",
+        "line_diff_modified"          : "var(blue)",
+        "line_diff_deleted"          : "var(red)",
+        "tags_options"                : "stippled_underline",
     },
     "rules": [
         {
