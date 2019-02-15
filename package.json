@@ -16,7 +16,7 @@
     "build:themes": "gulp themes",
     "build:schemes": "gulp schemes",
     "build:icons": "gulp icons",
-    "lint": "eslint \"src/**/*.json\" \"src/**/**/*.json\" \"gulp-tasks/*.js\"",
+    "lint": "eslint \"*.js\" \"src/**/*.json\" \"src/**/**/*.json\" \"gulp-tasks/*.js\"",
     "lint:fix": "./node_modules/.bin/eslint src/**/*.json --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

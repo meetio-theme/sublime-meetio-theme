@@ -7,6 +7,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/blob/master/LICENSE)
 
 **Meetio** is the most powerful theme for Sublime Text 3 with different Scheme variations only for 3176+ version.
+You can help by reporting issues [here](https://github.com/mauroreisvieira/meetio/issues).
 
 ## Installation
 

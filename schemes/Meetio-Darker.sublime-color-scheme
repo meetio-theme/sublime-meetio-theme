@@ -45,7 +45,7 @@
         "line_diff_added"             : "var(green)",
         "line_diff_modified"          : "var(blue)",
         "line_diff_deleted"           : "var(red)",
-        "tags_options"                : "stippled_underline",
+        "tags_options"                : "stippled_underline"
     },
     "rules": [
         {
