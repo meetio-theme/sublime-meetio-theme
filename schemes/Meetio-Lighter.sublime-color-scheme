@@ -49,6 +49,36 @@
     },
     "rules": [
         {
+            "background": "#0000FFFF",
+            "scope": "col_0000FFFF",
+            "foreground": "#9D9D9DFF"
+        },
+        {
+            "background": "#FFFF00FF",
+            "scope": "col_FFFF00FF",
+            "foreground": "#616161FF"
+        },
+        {
+            "background": "#111111FF",
+            "scope": "col_111111FF",
+            "foreground": "#919191FF"
+        },
+        {
+            "background": "#444444FF",
+            "scope": "col_444444FF",
+            "foreground": "#C4C4C4FF"
+        },
+        {
+            "background": "#222222FF",
+            "scope": "col_222222FF",
+            "foreground": "#A2A2A2FF"
+        },
+        {
+            "background": "#FF0000FF",
+            "scope": "col_FF0000FF",
+            "foreground": "#CCCCCCFF"
+        },
+        {
             "background": "#607A86FF",
             "scope": "col_607A86FF",
             "foreground": "#F3F3F3FF"

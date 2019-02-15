@@ -35,6 +35,7 @@
             0.92
         ],
         "sidebar_icon_folder_color": "var(color_accent)",
+        "sidebar_icon_file_color": "#ffffff",
         "sidebar_icon_folder_expanded_color": "var(color_accent)",
         "sidebar_label_foreground_color": [
             "foreground",

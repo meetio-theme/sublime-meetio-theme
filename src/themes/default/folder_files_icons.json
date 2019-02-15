@@ -87,7 +87,18 @@
     },
     {
         "class": "icon_file_type",
+        "layer0.tint": "var(sidebar_icon_file_color)",
         "layer0.opacity": 1,
-        "content_margin": [9, 9]
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.opacity": 1
     }
 ]

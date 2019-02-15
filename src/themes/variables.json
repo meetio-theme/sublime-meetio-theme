@@ -15,6 +15,7 @@
     "panel_control_background_color"          : ["background", 0.94],
     "sidebar_background_color"                : ["background", 0.92],
     "sidebar_icon_folder_color"               : "var(color_accent)",
+    "sidebar_icon_file_color"                 : "#ffffff",
     "sidebar_icon_folder_expanded_color"      : "var(color_accent)",
     "sidebar_label_foreground_color"          : ["foreground", 0.8],
     "sidebar_label_selected_background_color" : ["foreground", 0.05],

@@ -106,7 +106,7 @@ You can also open the settings from the command palette by searching `Meetio: Th
   "variables": {
     "color_accent": "#6772e4",
     "status_bar_background_color": "#6772e4",
-    "status_bar_label_foreground_color": "#fff",
+    "status_bar_label_foreground_color": "#fff"
   }
 }
 ```
@@ -132,7 +132,7 @@ and past the following theme configurations in `Meetio: Theme Configuration` and
     "tabset_background_color": ["background", 1.0],
     "tabset_border_size": [0, 0, 0, 1],
     "title_bar_background": ["background", 1.0],
-    "title_bar_foreground_color": "#607a86",
+    "title_bar_foreground_color": "#607a86"
   }
 }
 ```
