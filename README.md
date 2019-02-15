@@ -6,8 +6,8 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/blob/master/LICENSE)
 
-**Meetio** is the most powerful theme for Sublime Text 3 with different Scheme variations only for 3176+ version.
-You can help by reporting issues [here](https://github.com/mauroreisvieira/meetio/issues).
+**Meetio** is the most powerful theme for Sublime Text 3 with different scheme variations only for 3176+ version.\
+You can help improve the theme by reporting issues [here](https://github.com/mauroreisvieira/meetio/issues).
 
 ## Installation
 
