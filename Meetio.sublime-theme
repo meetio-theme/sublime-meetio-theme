@@ -84,10 +84,10 @@
         ],
         "vsc_ignored": "color(var(sidebar_label_foreground_color) alpha(0.5))",
         "vsc_modified": "var(--bluish)",
-        "vsc_staged": "var(--yellowish)",
+        "vsc_staged": "var(--cyanish)",
         "vsc_unmerged": "var(--redish)",
         "vsc_untracked": "var(--greenish)",
-        "vsc_deleted": "var(--redish)",
+        "vsc_deleted": "var(--yellowish)",
         "vsc_missing": "var(--orangish)"
     }
 }
