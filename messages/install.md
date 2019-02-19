@@ -10,7 +10,7 @@ You can see all the refinements and suggested settings at https://github.com/mau
 - ✅ Highlighted tabs
 - ✅ Dirty state tab pencil.
 - ✅ Large tab refinements
-- ✅ Auto complete, Goto aAything and Command Palette refinements
+- ✅ Auto complete, Goto Anything and Command Palette refinements
 - ✅ Support for Git Gutter
 - ✅ Support for Color Highlighter
 - ✅ Support for Markdown Extended
