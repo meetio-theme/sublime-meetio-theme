@@ -1,6 +1,6 @@
 {
-    "name": "meetio-palenight",
-    "author": "mauro reis vieira <mauroreisvieira@gmail.com",
+    "name": "Meetio-Palenight",
+    "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
         "primary"     : "#7dcac4",
         "foreground"  : "#fefefe",
