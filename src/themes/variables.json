@@ -37,5 +37,7 @@
     "vsc_modified"                            : "var(--bluish)",
     "vsc_staged"                              : "var(--yellowish)",
     "vsc_unmerged"                            : "var(--redish)",
-    "vsc_untracked"                           : "var(--greenish)"
+    "vsc_untracked"                           : "var(--greenish)",
+    "vsc_deleted"                             : "var(--redish)",
+    "vsc_missing"                             : "var(--orangish)"
 }
