@@ -15,4 +15,13 @@ You can see all the refinements and suggested settings at https://github.com/mau
 - ✅ Support for Color Highlighter
 - ✅ Support for Markdown Extended
 
-I ♥ Sublime Text, follow me in @mauroreisvieira
+**Use**
+
+```json
+{
+    "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.sublime-color-scheme",
+    "theme": "Meetio.sublime-theme"
+}
+```
+
+I 😍 Sublime Text, follow me in @mauroreisvieira

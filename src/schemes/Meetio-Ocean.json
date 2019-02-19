@@ -24,6 +24,7 @@
         "foreground"                  : "var(foreground)",
         "background"                  : "var(background)",
         "caret"                       : "var(yellow)",
+        "block_caret"                 : "var(yellow)",
         "line_highlight"              : "color(var(white) alpha(0.1))",
         "selection"                   : "color(var(light-blue) alpha(0.1))",
         "selection_border"            : "var(blue)",
