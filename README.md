@@ -6,28 +6,31 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/blob/master/LICENSE)
 
-**Meetio** is the most powerful theme for Sublime Text 3 with different scheme variations only for 3176+ version.\
+**Meetio** is the most powerful theme for Sublime Text 3 with different scheme variations only for 3176+ version, is inspired upon the
+[Material](https://github.com/equinusocio/material-theme) theme created by [@equinusocio](https://github.com/equinusocio).
+
 You can help improve the theme by reporting issues [here](https://github.com/mauroreisvieira/meetio/issues).
 
 ## Installation
 
 **Package Control:**
- - Open `Command Palette` using menu item `Tools → Command Palette` or `(Ctrl or ⌘) + ⇧ + P`
- - Choose `Package Control: Install Package`
- - Type `Meetio` and press `Enter`
- - Restart Sublime Text
-    - **macOS** : menu item `Sublime Text → Quit Sublime Text`
-    - **Windows**: menu item `File → Exit`
-    - **Linux** : menu item `File → Exit`
 
- - Ready to use 🎉
+1. Open `Command Palette` using menu item `Tools → Command Palette` or `(Ctrl or ⌘) + ⇧ + P`
+2. Choose `Package Control: Install Package`
+3. Type `Meetio` and press `Enter`
+4. Restart Sublime Text
+    * **macOS** : menu item `Sublime Text → Quit Sublime Text`
+    * **Windows**: menu item `File → Exit`
+    * **Linux** : menu item `File → Exit`
+5. Ready to use 🎉
 
 **Manually:**
- - Download latest release and unzip. it into your Packages folder
- - Go to `Sublime Text → Preferences → Browse Packages`
- - Move folder to inside and rename the folder to `Meetio`
- - Restart Sublime Text
- - Start using...
+
+1. Download latest release and unzip. it into your Packages folder
+2. Go to `Sublime Text → Preferences → Browse Packages`
+3. Move folder to inside and rename the folder to `Meetio`
+4. Restart Sublime Text
+5. Start using...
 
 
 ### Schemes variations
@@ -74,9 +77,10 @@ You can help improve the theme by reporting issues [here](https://github.com/mau
 ```
 
 ### Theme Settings
-This theme provide a visual configuration tool that allow you to configure the theme by activating the available options from an inline popup.\
-Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Edit Settings`.\
-You can also open the settings from the command palette by searching `Meetio: Edit Settings`.
+This theme provide a visual configuration tool that allow you to configure the theme by activating the available options from an inline popup.
+
+* Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Edit Settings`.
+* You can also open the settings from the command palette by searching `Meetio: Edit Settings`.
 
 ```json
   // Tabs
@@ -97,9 +101,10 @@ You can also open the settings from the command palette by searching `Meetio: Ed
 ```
 
 ### Theme Configuration
-Meetio provides a bunch of variables to improve your experience with theming.\
-Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Theme Configuration`.\
-You can also open the settings from the command palette by searching `Meetio: Theme Configuration`.
+Meetio provides a bunch of variables to improve your experience with theming.
+
+* Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Theme Configuration`.
+* You can also open the settings from the command palette by searching `Meetio: Theme Configuration`.
 
 ```json
 {
@@ -112,8 +117,7 @@ You can also open the settings from the command palette by searching `Meetio: Th
 ```
 
 ### Do you like Material Theme?
-Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings`\
-and past the following theme configurations in `Meetio: Theme Configuration` and the see magic happens.
+Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings` and past the following theme configurations in `Meetio: Theme Configuration` and the see magic happens.
 
 ```json
 {
