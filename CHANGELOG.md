@@ -5,6 +5,35 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ---
 
+<a name="1.5.0"></a>
+## [1.5.0](https://github.com/mauroreisvieira/meetio/compare/v1.4.1...v1.5.0) (2019-02-20)
+
+### FEATURES
+* Add new variation of scheme: `Meetio-Ocean`.
+* Add `block_caret` on colors schemes.
+* Add variable `vsc_deleted` when one or more of a folder‘s files has been added to the index for removal.
+* Add variable  `vsc_missing` when one or more of a folder‘s files is no longer on disk.
+
+### CHANGED
+* Update name of `Meetio-Ocean` to `Meetio-Cobalt`.
+* Update color of `caret` in all schemes to use the accent color.
+
+### BUGFIXES
+* Fix typo in messages. Thanks [@pykong](https://github.com/pykong).
+
+---
+
+<a name="1.4.1"></a>
+## [1.4.1](https://github.com/mauroreisvieira/meetio/compare/v1.4.0...v1.4.1) (2019-02-15)
+
+### FEATURES
+* Add variable of `sidebar_icon_file_color`, to possibility change the color of icons in sidebar.
+
+### BUGFIXES
+* Fix `status_unmerged` icon in sidebar.
+
+---
+
 <a name="1.4.0"></a>
 ## [1.4.0](https://github.com/mauroreisvieira/meetio/compare/v1.3.0...v1.4.0) (2019-02-01)
 
