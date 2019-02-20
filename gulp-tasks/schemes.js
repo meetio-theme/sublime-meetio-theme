@@ -6,11 +6,10 @@ import rules from './../src/schemes/files/rules.json';
 function build() {
   let filePath;
   fs.readdirSync('./src/schemes/').forEach(file => {
+    if (file === 'files') {
+      return;
+    }
     filePath = path.join(__dirname, '/../src/schemes/' + file);
-    file = file
-      .split('.')
-      .slice(0, -1)
-      .join('.');
     fs.readFile(filePath, 'utf8', (err, data) => {
       if (err) {
         throw err;
@@ -23,10 +22,9 @@ function build() {
 
       data = JSON.parse(data);
       const scheme = Object.assign(data, options);
-      console.log('scheme', scheme);
 
       fs.writeFileSync(
-        `schemes/${file}.sublime-color-scheme`,
+        `schemes/${data.name}.sublime-color-scheme`,
         JSON.stringify(scheme, null, 4),
         err => {
           if (err) {
