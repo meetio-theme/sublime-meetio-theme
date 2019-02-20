@@ -1,0 +1,23 @@
+{
+    "name": "Meetio-Ocean",
+    "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
+    "variables": {
+        "primary"     : "#7dcac4",
+        "foreground"  : "#d8dee8",
+        "background"  : "#2e3340",
+        "black"       : "#000000",
+        "blue"        : "#81a1c1",
+        "cyan"        : "#88c0d0",
+        "gray"        : "#3d3d3d",
+        "green"       : "#a3be8b",
+        "orange"      : "#fb914f",
+        "pink"        : "#f07178",
+        "purple"      : "#c792ea",
+        "red"         : "#bf6069",
+        "magenta"     : "#b48dac",
+        "deep-orange" : "#f97b58",
+        "light-blue"  : "#b2ccd6",
+        "white"       : "#ffffff",
+        "yellow"      : "#eacb8a"
+    }
+}
