@@ -100,12 +100,12 @@ Manually you can go to (**Preferences > Settings - User**) and paste the followi
 }
 ```
 
-#### Meetio Ocean
-<p align="center"><img src="public/screenshots/ocean.png" width="980"/></p>
+#### Meetio Cobalt
+<p align="center"><img src="public/screenshots/cobalt.png" width="980"/></p>
 
 ```json
 {
-    "color_scheme": "Packages/Meetio/schemes/Meetio-Ocean.sublime-color-scheme",
+    "color_scheme": "Packages/Meetio/schemes/Meetio-Cobalt.sublime-color-scheme",
     "theme": "Meetio.sublime-theme"
 }
 ```

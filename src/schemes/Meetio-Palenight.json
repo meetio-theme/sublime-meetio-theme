@@ -14,9 +14,9 @@
         "pink"        : "#f07178",
         "purple"      : "#c792ea",
         "red"         : "#ff5370",
+        "magenta"     : "#c2afff",
         "deep-orange" : "#f97b58",
         "light-blue"  : "#b2ccd6",
-        "deep-purple" : "#c2afff",
         "white"       : "#ffffff",
         "yellow"      : "#ffcb6b"
     },
@@ -42,7 +42,7 @@
         "brackets_foreground"         : "var(orange)",
         "bracket_contents_options"    : "underline",
         "bracket_contents_foreground" : "var(cyan)",
-        "tags_foreground"             : "var(deep-purple)",
+        "tags_foreground"             : "var(magenta)",
         "line_diff_added"             : "var(green)",
         "line_diff_modified"          : "var(blue)",
         "line_diff_deleted"           : "var(red)",
@@ -67,7 +67,7 @@
         {
             "name": "user-defined constant",
             "scope": "constant.character, constant.other",
-            "foreground": "var(deep-purple)"
+            "foreground": "var(magenta)"
         },
         {
             "name": "member variable",
@@ -77,7 +77,7 @@
         {
             "name": "keyword",
             "scope": "keyword - keyword.operator, keyword.operator.word",
-            "foreground": "var(deep-purple)"
+            "foreground": "var(magenta)"
         },
         {
             "name": "operator, misc",
@@ -122,7 +122,7 @@
         {
             "name": "css classes",
             "scope": "entity.other.attribute-name.class",
-            "foreground": "var(deep-purple)"
+            "foreground": "var(magenta)"
         },
         {
             "name": "css class and support",
@@ -147,7 +147,7 @@
         {
             "name": "storage type",
             "scope": "storage.type",
-            "foreground": "var(deep-purple)",
+            "foreground": "var(magenta)",
             "font_style": "italic"
         },
         {
@@ -185,7 +185,7 @@
         {
             "name": "tag attribute",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(deep-purple)"
+            "foreground": "var(magenta)"
         },
         {
             "name": "function call",
@@ -201,7 +201,7 @@
         {
             "name": "library constant",
             "scope": "support.constant",
-            "foreground": "var(deep-purple)"
+            "foreground": "var(magenta)"
         },
         {
             "name": "library class/type",
@@ -233,7 +233,7 @@
         {
             "name": "diff.header",
             "scope": "meta.diff, meta.diff.header",
-            "foreground": "var(deep-purple)"
+            "foreground": "var(magenta)"
         },
         {
             "name": "diff.deleted",
@@ -266,7 +266,7 @@
         {
             "name": "json key - level 0",
             "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(deep-purple)"
+            "foreground": "var(magenta)"
         },
         {
             "name": "json key - level 1",
@@ -367,7 +367,7 @@
         {
             "name": "markup punctuation",
             "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
-            "foreground": "var(deep-purple)"
+            "foreground": "var(magenta)"
         },
         {
             "name": "number, constant, function argument, tag attribute, embedded",
