@@ -1,5 +1,7 @@
 import path from 'path';
 import fs from 'fs';
+import globals from './../src/schemes/files/globals.json';
+import rules from './../src/schemes/files/rules.json';
 
 function build() {
   let filePath;
@@ -13,11 +15,25 @@ function build() {
       if (err) {
         throw err;
       }
-      fs.writeFileSync(`schemes/${file}.sublime-color-scheme`, data, err => {
-        if (err) {
-          console.log(err);
+
+      const options = {
+        globals,
+        rules,
+      };
+
+      data = JSON.parse(data);
+      const scheme = Object.assign(data, options);
+      console.log('scheme', scheme);
+
+      fs.writeFileSync(
+        `schemes/${file}.sublime-color-scheme`,
+        JSON.stringify(scheme, null, 4),
+        err => {
+          if (err) {
+            console.log(err);
+          }
         }
-      });
+      );
     });
   });
 }

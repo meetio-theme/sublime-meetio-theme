@@ -2,11 +2,11 @@ import path from 'path';
 import fs from 'fs';
 import variables from './../src/themes/variables.json';
 
-function build(name, folder) {
+function build(name) {
   const merge = [];
   let rules = {};
-  fs.readdirSync(`./src/themes/${folder}/`).forEach(file => {
-    file = path.join(__dirname, `/../src/themes/${folder}/` + file);
+  fs.readdirSync('./src/themes/files/').forEach(file => {
+    file = path.join(__dirname, '/../src/themes/files/' + file);
     fs.readFile(file, 'utf8', (err, data) => {
       if (err) {
         throw err;
@@ -37,5 +37,5 @@ function build(name, folder) {
 }
 
 export default function themes() {
-  build('Meetio', 'default');
+  build('Meetio');
 }
