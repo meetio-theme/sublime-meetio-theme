@@ -50,6 +50,31 @@
     },
     "rules": [
         {
+            "foreground": "#ffffff",
+            "scope": "col_gutter",
+            "background": "#000000"
+        },
+        {
+            "foreground": "#FBFBFBFF",
+            "scope": "col_6772E4FF",
+            "background": "#6772E4FF"
+        },
+        {
+            "foreground": "#F3F3F3FF",
+            "scope": "col_607A86FF",
+            "background": "#607A86FF"
+        },
+        {
+            "foreground": "#7F7F7FFF",
+            "scope": "col_FFFFFFFF",
+            "background": "#FFFFFFFF"
+        },
+        {
+            "foreground": "#AEAEAEFF",
+            "scope": "col_00000015",
+            "background": "#00000015"
+        },
+        {
             "name": "comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "color(var(white) alpha(0.3))"

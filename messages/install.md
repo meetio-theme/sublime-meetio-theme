@@ -24,12 +24,12 @@ as well as suggest any tweaks you may have.
 
 **You can active this theme from:**
 
-1. Command Palette `Tools > Command Palette` or `cmd/ctrl` + `shift` + `p`
+1. Command Palette `Tools → Command Palette` or `cmd/ctrl` + `shift` + `p`
 2. Typing `UI: Select Theme` next find for `Meetio` and press `enter`
 3. Same process for scheme go to the Command Palette.
 4. Typing `UI: Select Color Scheme` choose you favorite scheme and press `enter`
 
-Manually you can go to (**Preferences > Settings - User**) and paste the following code:
+Manually you can go to (**Preferences → Settings - User**) and paste the following code:
 
 ```json
 {

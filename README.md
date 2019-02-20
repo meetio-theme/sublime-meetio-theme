@@ -44,7 +44,7 @@ You can help improve the theme by reporting issues [here](https://github.com/mau
 
 **You can active this theme from:**
 
-1. Command Palette `Tools > Command Palette` or <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
+1. Command Palette `Tools → Command Palette` or <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>
 2. Typing `UI: Select Theme` next find for `Meetio` and press <kbd>enter</kbd>
 3. Same process for scheme go to the Command Palette.
 4. Typing `UI: Select Color Scheme` choose you favorite scheme and press <kbd>enter</kbd>
@@ -54,58 +54,6 @@ Manually you can go to (**Preferences > Settings - User**) and paste the followi
 ```json
 {
     "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
-    "theme": "Meetio.sublime-theme"
-}
-```
-
-### Schemes variations
-
-#### Meetio
-<p align="center"><img src="public/screenshots/default.png" width="980"/></p>
-
-```json
-{
-    "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
-    "theme": "Meetio.sublime-theme"
-}
-```
-
-#### Meetio Lighter
-<p align="center"><img src="public/screenshots/lighter.png" width="980"/></p>
-
-```json
-{
-    "color_scheme": "Packages/Meetio/schemes/Meetio-Lighter.sublime-color-scheme",
-    "theme": "Meetio.sublime-theme"
-}
-```
-
-#### Meetio Darker
-<p align="center"><img src="public/screenshots/darker.png" width="980"/></p>
-
-```json
-{
-    "color_scheme": "Packages/Meetio/schemes/Meetio-Darker.sublime-color-scheme",
-    "theme": "Meetio.sublime-theme"
-}
-```
-
-#### Meetio Palenight
-<p align="center"><img src="public/screenshots/palenight.png" width="980"/></p>
-
-```json
-{
-    "color_scheme": "Packages/Meetio/schemes/Meetio-Palenight.sublime-color-scheme",
-    "theme": "Meetio.sublime-theme"
-}
-```
-
-#### Meetio Cobalt
-<p align="center"><img src="public/screenshots/cobalt.png" width="980"/></p>
-
-```json
-{
-    "color_scheme": "Packages/Meetio/schemes/Meetio-Cobalt.sublime-color-scheme",
     "theme": "Meetio.sublime-theme"
 }
 ```
