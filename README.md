@@ -51,10 +51,10 @@ You can help improve the theme by reporting issues [here](https://github.com/mau
 
 Manually you can go to (**Preferences > Settings - User**) and paste the following code:
 
-```json
+```jsonc
 {
     "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
-    "theme": "Meetio.sublime-theme"
+    "theme": "Meetio.sublime-theme",
 }
 ```
 
@@ -64,7 +64,7 @@ This theme provide a visual configuration tool that allow you to configure the t
 * Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Edit Settings`.
 * You can also open the settings from the Command Palette by searching `Meetio: Edit Settings`.
 
-```json
+```jsonc
 {
     // Tabs
     "meetio_tabs_autowidth"       : true, // Enable auto width for tabs
@@ -90,12 +90,12 @@ Meetio provides a bunch of variables to improve your experience with theming.
 * Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Theme Configuration`.
 * You can also open the settings from the Command Palette by searching `Meetio: Theme Configuration`.
 
-```json
+```jsonc
 {
     "variables": {
         "color_accent": "#6772e4",
         "status_bar_background_color": "#6772e4",
-        "status_bar_label_foreground_color": "#fff"
+        "status_bar_label_foreground_color": "#fff",
     }
 }
 ```
@@ -103,7 +103,7 @@ Meetio provides a bunch of variables to improve your experience with theming.
 ### Do you like Material Theme?
 Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings` and past the following theme configurations in `Meetio: Theme Configuration` and the see magic happens.
 
-```json
+```jsonc
 {
     "variables": {
         "input_border_color": ["foreground", 0.1],
@@ -120,20 +120,20 @@ Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings` and p
         "tabset_background_color": ["background", 1.0],
         "tabset_border_size": [0, 0, 0, 1],
         "title_bar_background": ["background", 1.0],
-        "title_bar_foreground_color": "#607a86"
+        "title_bar_foreground_color": "#607a86",
     }
 }
 ```
 
 ### Recommended settings for a better experience:
 
-```json
+```jsonc
 {
     "always_show_minimap_viewport" : true,
     "bold_folder_labels"           : true,
     "line_padding_bottom"          : 7,
     "line_padding_top"             : 7,
     "overlay_scroll_bars"          : "enabled",
-    "highlight_modified_tabs"      : "enabled"
+    "highlight_modified_tabs"      : "enabled",
 }
 ```
