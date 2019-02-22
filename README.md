@@ -51,7 +51,7 @@ You can help improve the theme by reporting issues [here](https://github.com/mau
 
 Manually you can go to (**Preferences > Settings - User**) and paste the following code:
 
-```jsonc
+```json
 {
     "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
     "theme": "Meetio.sublime-theme",
@@ -64,7 +64,7 @@ This theme provide a visual configuration tool that allow you to configure the t
 * Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Edit Settings`.
 * You can also open the settings from the Command Palette by searching `Meetio: Edit Settings`.
 
-```jsonc
+```json
 {
     // Tabs
     "meetio_tabs_autowidth"       : true, // Enable auto width for tabs
@@ -90,7 +90,7 @@ Meetio provides a bunch of variables to improve your experience with theming.
 * Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Theme Configuration`.
 * You can also open the settings from the Command Palette by searching `Meetio: Theme Configuration`.
 
-```jsonc
+```json
 {
     "variables": {
         "color_accent": "#6772e4",
@@ -103,7 +103,7 @@ Meetio provides a bunch of variables to improve your experience with theming.
 ### Do you like Material Theme?
 Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings` and past the following theme configurations in `Meetio: Theme Configuration` and the see magic happens.
 
-```jsonc
+```json
 {
     "variables": {
         "input_border_color": ["foreground", 0.1],
@@ -127,7 +127,7 @@ Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings` and p
 
 ### Recommended settings for a better experience:
 
-```jsonc
+```json
 {
     "always_show_minimap_viewport" : true,
     "bold_folder_labels"           : true,
