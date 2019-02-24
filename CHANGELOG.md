@@ -5,6 +5,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ---
 
+<a name="1.5.1"></a>
+## [1.5.1](https://github.com/mauroreisvieira/meetio/compare/v1.5.0...v1.5.1) (2019-02-24)
+
+### BUGFIXES
+* Fix color of lighter scheme.
+
+---
+
 <a name="1.5.0"></a>
 ## [1.5.0](https://github.com/mauroreisvieira/meetio/compare/v1.4.1...v1.5.0) (2019-02-20)
 
