@@ -5,7 +5,6 @@
         "primary"     : "#7dcac4",
         "foreground"  : "#fefefe",
         "background"  : "#212121",
-        "black"       : "#000000",
         "blue"        : "#82aaff",
         "cyan"        : "#89ddff",
         "gray"        : "#65737e",
@@ -17,7 +16,6 @@
         "magenta"     : "#b39ddb",
         "deep-orange" : "#f97b58",
         "light-blue"  : "#e1f5fe",
-        "white"       : "#ffffff",
         "yellow"      : "#ffcb6b"
     }
 }

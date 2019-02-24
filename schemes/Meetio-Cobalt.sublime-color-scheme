@@ -5,7 +5,6 @@
         "primary": "#7dcac4",
         "foreground": "#fefefe",
         "background": "#193448",
-        "black": "#000000",
         "blue": "#40c4fe",
         "cyan": "#9effff",
         "gray": "#3d3d3d",
@@ -17,7 +16,6 @@
         "magenta": "#c2afff",
         "deep-orange": "#f97b58",
         "light-blue": "#e1f5fe",
-        "white": "#ffffff",
         "yellow": "#ffc600"
     },
     "globals": {
@@ -25,7 +23,7 @@
         "background": "var(background)",
         "caret": "var(primary)",
         "block_caret": "var(primary)",
-        "line_highlight": "color(var(white) alpha(0.1))",
+        "line_highlight": "color(var(foreground) alpha(0.1))",
         "selection": "color(var(light-blue) alpha(0.1))",
         "selection_border": "var(blue)",
         "inactive_selection": "color(var(light-blue) alpha(0.1))",
@@ -52,7 +50,7 @@
         {
             "name": "comment",
             "scope": "comment, punctuation.definition.comment",
-            "foreground": "color(var(white) alpha(0.3))"
+            "foreground": "color(var(foreground) alpha(0.3))"
         },
         {
             "name": "string",
@@ -127,7 +125,7 @@
         {
             "name": "css class and support",
             "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-            "foreground": "var(white)"
+            "foreground": "var(foreground)"
         },
         {
             "name": "sub methods",
@@ -211,13 +209,13 @@
         {
             "name": "invalid",
             "scope": "invalid",
-            "foreground": "var(white)",
+            "foreground": "var(foreground)",
             "background": "var(red)"
         },
         {
             "name": "invalid deprecated",
             "scope": "invalid.deprecated",
-            "foreground": "var(white)",
+            "foreground": "var(foreground)",
             "background": "var(purple)"
         },
         {

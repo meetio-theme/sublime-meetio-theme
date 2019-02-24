@@ -5,7 +5,6 @@
         "primary": "#7dcac4",
         "foreground": "#40525a",
         "background": "#fafafa",
-        "black": "#000000",
         "blue": "#6182b8",
         "cyan": "#80cbc4",
         "gray": "#3d3d3d",
@@ -17,7 +16,6 @@
         "magenta": "#7c4dff",
         "deep-orange": "#f97b58",
         "light-blue": "#81d4fa",
-        "white": "#ffffff",
         "yellow": "#ffb62e"
     },
     "globals": {
@@ -25,7 +23,7 @@
         "background": "var(background)",
         "caret": "var(primary)",
         "block_caret": "var(primary)",
-        "line_highlight": "color(var(white) alpha(0.1))",
+        "line_highlight": "color(var(foreground) alpha(0.1))",
         "selection": "color(var(light-blue) alpha(0.1))",
         "selection_border": "var(blue)",
         "inactive_selection": "color(var(light-blue) alpha(0.1))",
@@ -50,9 +48,29 @@
     },
     "rules": [
         {
+            "scope": "col_gutter",
+            "background": "#000000",
+            "foreground": "#ffffff"
+        },
+        {
+            "scope": "col_FFFFFFFF",
+            "background": "#FFFFFFFF",
+            "foreground": "#7F7F7FFF"
+        },
+        {
+            "scope": "col_455A64FF",
+            "background": "#455A64FF",
+            "foreground": "#D4D4D4FF"
+        },
+        {
+            "scope": "col_80CBC4FF",
+            "background": "#80CBC4FF",
+            "foreground": "#333333FF"
+        },
+        {
             "name": "comment",
             "scope": "comment, punctuation.definition.comment",
-            "foreground": "color(var(white) alpha(0.3))"
+            "foreground": "color(var(foreground) alpha(0.3))"
         },
         {
             "name": "string",
@@ -127,7 +145,7 @@
         {
             "name": "css class and support",
             "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-            "foreground": "var(white)"
+            "foreground": "var(foreground)"
         },
         {
             "name": "sub methods",
@@ -211,13 +229,13 @@
         {
             "name": "invalid",
             "scope": "invalid",
-            "foreground": "var(white)",
+            "foreground": "var(foreground)",
             "background": "var(red)"
         },
         {
             "name": "invalid deprecated",
             "scope": "invalid.deprecated",
-            "foreground": "var(white)",
+            "foreground": "var(foreground)",
             "background": "var(purple)"
         },
         {

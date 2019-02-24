@@ -3,7 +3,7 @@
     "background"                  : "var(background)",
     "caret"                       : "var(primary)",
     "block_caret"                 : "var(primary)",
-    "line_highlight"              : "color(var(white) alpha(0.1))",
+    "line_highlight"              : "color(var(foreground) alpha(0.1))",
     "selection"                   : "color(var(light-blue) alpha(0.1))",
     "selection_border"            : "var(blue)",
     "inactive_selection"          : "color(var(light-blue) alpha(0.1))",
