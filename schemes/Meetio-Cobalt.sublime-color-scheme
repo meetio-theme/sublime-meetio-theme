@@ -108,34 +108,44 @@
             "foreground": "var(yellow)"
         },
         {
-            "name": "[CSS/SASS] Classes",
+            "name": "[CSS] Classes",
             "scope": "entity.other.attribute-name.class",
             "foreground": "var(magenta)"
         },
         {
-            "name": "[CSS/SASS] ID",
+            "name": "[CSS] ID",
             "scope": "source.css entity.other.attribute-name.id.css, source.sass entity.other.attribute-name.id.sass, source.scss entity.other.attribute-name.id.scss",
             "foreground": "var(magenta)"
         },
         {
-            "name": "[CSS/SASS] Class and Support",
+            "name": "[CSS] Class and Support",
             "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus",
             "foreground": "var(foreground)"
         },
         {
-            "name": "[CSS/SASS] Variable",
-            "scope": "variable.other.css, variable.other.sass, variable.other.scss",
+            "name": "[CSS] Variable",
+            "scope": "support.type.custom-property.css, variable.other.css, variable.other.sass, variable.other.scss",
             "foreground": "var(yellow)"
         },
         {
-            "name": "[CSS/SASS] Properties",
+            "name": "[CSS] Functions",
+            "scope": "support.function.var.css",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[CSS] Properties",
             "scope": "source.css support.constant.property-value.css, source.sass support.constant.property-value.sass, source.scss support.constant.property-value.scss",
             "foreground": "var(foreground)"
         },
         {
-            "name": "[CSS/SASS] Pseudo Class",
-            "scope": "source.css entity.other.pseudo-class.css, source.scss entity.other.pseudo-class.scss, source.sass entity.other.pseudo-class.sass",
+            "name": "[CSS] Pseudo Class",
+            "scope": "entity.other.pseudo-class.css",
             "foreground": "var(deep-orange)"
+        },
+        {
+            "name": "[CSS] Pseudo Element",
+            "scope": "entity.other.pseudo-element.css",
+            "foreground": "var(red)"
         },
         {
             "name": "[JavaScript] Dollar",
