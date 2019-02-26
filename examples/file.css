@@ -1,3 +1,7 @@
+:root {
+    --color-border-input: #0ea;
+};
+
 body {
   font-family: arial;
 }
@@ -9,6 +13,15 @@ body {
     bottom: -7px;
     position: absolute;
     right: 0;
+}
+
+.addon-store .addons-nav::after {
+    display: block;
+    content: "";
+}
+
+.addon-store .addons-nav a:hover {
+ background-color: red;
 }
 
 .addon-store .addons-nav a.selected {
@@ -49,4 +62,8 @@ body {
     display: inline-block;
     text-align: center;
     width: 595px;
+}
+
+#form input[type="text"] {
+    border: 1px solid var(--color-border-input);
 }

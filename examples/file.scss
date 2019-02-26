@@ -8,6 +8,23 @@ $addon-store-color: #333;
       color: $addon-store-color;
       font-weight: bold;
       padding: my-calculation-function(10px, 5px);
+
+      &::after {
+        display: block;
+        content: "/";
+      }
+    }
+  }
+
+  a {
+    color: $addon-store-color;
+
+    &:hover {
+      color: darken($addon-store-color, 30%);
+    }
+
+    &:focus{
+      color: lighten($addon-store-color, 30%);
     }
   }
 }
