@@ -32,6 +32,6 @@
     {
         "name": "[JSON] Punctuation Mapping",
         "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-        "foreground": "var(yellow)"
+        "foreground": "var(orange)"
     }
 ]

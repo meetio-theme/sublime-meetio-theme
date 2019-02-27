@@ -5,13 +5,13 @@
         "accent": "#7dcac4",
         "foreground": "#d8dee8",
         "background": "#2e3340",
-        "blue": "#81a1c1",
+        "blue": "#6699cc",
         "cyan": "#88c0d0",
         "gray": "#3d3d3d",
         "green": "#a3be8b",
         "orange": "#fb914f",
         "pink": "#f07178",
-        "red": "#bf6069",
+        "red": "#e15a60",
         "magenta": "#b48dac",
         "light-blue": "#b2ccd6",
         "yellow": "#eacb8a"
@@ -78,7 +78,7 @@
         {
             "name": "[JSON] Punctuation Mapping",
             "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(yellow)"
+            "foreground": "var(orange)"
         },
         {
             "name": "[CSS] Classes",
@@ -123,7 +123,7 @@
         {
             "name": "[CSS] Pseudo Class",
             "scope": "entity.other.pseudo-class.css",
-            "foreground": "var(deep-)"
+            "foreground": "var(red)"
         },
         {
             "name": "[CSS] Pseudo Element",
@@ -133,7 +133,7 @@
         {
             "name": "[CSS] Important",
             "scope": "keyword.other.important.css",
-            "foreground": "var(magenta)"
+            "foreground": "var(red)"
         },
         {
             "name": "[CSS] Color Values",

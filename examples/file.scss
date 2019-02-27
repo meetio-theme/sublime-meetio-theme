@@ -9,7 +9,7 @@ $addon-store-color: #333 !default;
 
   .addons-nav {
     .selected {
-      border-bottom-color: $addon-store-border-color;
+      border-bottom-color: $addon-store-border-color !default;
       color: $addon-store-color;
       font-weight: bold;
       padding: my-calculation-function(10px, 5px);

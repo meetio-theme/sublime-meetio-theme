@@ -78,7 +78,7 @@
         {
             "name": "[JSON] Punctuation Mapping",
             "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(yellow)"
+            "foreground": "var(orange)"
         },
         {
             "name": "[CSS] Classes",
@@ -123,7 +123,7 @@
         {
             "name": "[CSS] Pseudo Class",
             "scope": "entity.other.pseudo-class.css",
-            "foreground": "var(deep-)"
+            "foreground": "var(red)"
         },
         {
             "name": "[CSS] Pseudo Element",
@@ -133,7 +133,7 @@
         {
             "name": "[CSS] Important",
             "scope": "keyword.other.important.css",
-            "foreground": "var(magenta)"
+            "foreground": "var(red)"
         },
         {
             "name": "[CSS] Color Values",

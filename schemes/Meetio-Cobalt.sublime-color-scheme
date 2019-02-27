@@ -78,7 +78,7 @@
         {
             "name": "[JSON] Punctuation Mapping",
             "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(yellow)"
+            "foreground": "var(orange)"
         },
         {
             "name": "[CSS] Classes",
@@ -123,7 +123,7 @@
         {
             "name": "[CSS] Pseudo Class",
             "scope": "entity.other.pseudo-class.css",
-            "foreground": "var(deep-)"
+            "foreground": "var(red)"
         },
         {
             "name": "[CSS] Pseudo Element",
@@ -133,7 +133,7 @@
         {
             "name": "[CSS] Important",
             "scope": "keyword.other.important.css",
-            "foreground": "var(magenta)"
+            "foreground": "var(red)"
         },
         {
             "name": "[CSS] Color Values",
@@ -231,6 +231,165 @@
             "name": "[Markup] Punctuation",
             "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
             "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Class",
+            "scope": "entity.name.class, entity.name.type.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[PHP] Variable",
+            "scope": "variable.other.php",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "color(var(foreground) alpha(0.3))"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var()"
+        },
+        {
+            "name": "Constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable.member",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword - keyword.operator, keyword.operator.word",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "Operator",
+            "scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "storage",
+            "scope": "storage",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "storage type",
+            "scope": "storage.type",
+            "foreground": "var(magenta)",
+            "font_style": "italic"
+        },
+        {
+            "name": "entity name",
+            "scope": "entity.name.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(cyan)",
+            "font_style": "italic underline"
+        },
+        {
+            "name": "function argument",
+            "scope": "variable.parameter",
+            "foreground": "var()"
+        },
+        {
+            "name": "language variable",
+            "scope": "variable.language",
+            "foreground": "var(red)",
+            "font_style": "italic"
+        },
+        {
+            "name": "tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "function call",
+            "scope": "variable.function, variable.annotation",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "library function",
+            "scope": "support.function, support.macro",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+        {
+            "name": "library constant",
+            "scope": "support.constant",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "invalid",
+            "scope": "invalid",
+            "foreground": "var(foreground)",
+            "background": "var(red)"
+        },
+        {
+            "name": "invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(foreground)",
+            "background": "var(magenta)"
+        },
+        {
+            "name": "yaml key",
+            "scope": "entity.name.tag.yaml",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "yaml string",
+            "scope": "source.yaml string.unquoted",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "[Diff] Header",
+            "scope": "meta.diff, meta.diff.header",
+            "foreground": "var(magenta)"
+        },
+        {
+            "scope": "constant.numeric.line-number.match",
+            "foreground": "var(red)"
+        },
+        {
+            "scope": "message.error",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "number, constant, function argument, tag attribute, embedded",
+            "scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
+            "foreground": "var(deep-)"
+        },
+        {
+            "name": "object keys",
+            "scope": "string.unquoted.label.js, meta.object-literal.key.js, string.unquoted.label.jsx, meta.object-literal.key.jsx, string.unquoted.label.ts, meta.object-literal.key.ts, meta.function.return-type.ts, meta.function.parameters.ts",
+            "foreground": "var(red)"
         }
     ]
 }

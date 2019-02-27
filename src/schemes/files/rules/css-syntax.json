@@ -42,7 +42,7 @@
     {
         "name": "[CSS] Pseudo Class",
         "scope": "entity.other.pseudo-class.css",
-        "foreground": "var(deep-)"
+        "foreground": "var(red)"
     },
     {
         "name": "[CSS] Pseudo Element",
@@ -52,7 +52,7 @@
     {
         "name": "[CSS] Important",
         "scope": "keyword.other.important.css",
-        "foreground": "var(magenta)"
+        "foreground": "var(red)"
     },
     {
         "name": "[CSS] Color Values",
