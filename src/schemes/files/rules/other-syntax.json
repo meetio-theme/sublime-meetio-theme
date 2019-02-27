@@ -21,8 +21,8 @@
     },
     {
         "name": "Operator",
-        "scope": "keyword.operator",
-        "foreground": "var(blue)"
+        "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
+        "foreground": "var(magenta)"
     },
     {
         "name": "Punctuation",

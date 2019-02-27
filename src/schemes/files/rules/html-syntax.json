@@ -1,5 +1,5 @@
 [
-        {
+    {
         "name": "[HTML] String",
         "scope": "text.html.basic string",
         "foreground": "var(green)"
@@ -11,7 +11,7 @@
     },
     {
         "name": "[HTML] Attributes",
-        "scope": "text.html.basic text.html.basic entity.other.attribute-name.html, text.html.basic, entity.other.attribute-name",
+        "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
         "foreground": "var(yellow)"
     },
     {

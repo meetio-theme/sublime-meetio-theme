@@ -15,8 +15,13 @@
         "foreground": "var(magenta)"
     },
     {
+        "name": "[JavaScript] Storage Type",
+        "scope": "storage.type.js, storage.type.ts",
+        "foreground": "var(magenta)"
+    },
+    {
         "name": "[JavaScript] Constructor",
-        "scope": "meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, entity.name.function.constructor.ts, variable.language.constructor.ts",
+        "scope": "meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
         "foreground": "var(magenta)"
     },
     {
@@ -26,7 +31,7 @@
     },
     {
         "name": "[JavaScript] Dollar",
-        "scope": "variable.other.dollar.only.js",
+        "scope": "variable.other.dollar.only.js, variable.other.dollar.only.ts",
         "foreground": "var(cyan)"
     },
     {
@@ -47,7 +52,7 @@
     {
         "name": "[JavaScript] Class",
         "scope": "meta.class-method.js entity.name.function.js, variable.function",
-        "foreground": "var(magenta)"
+        "foreground": "var(blue)"
     },
     {
         "name": "[JavaScript] New",
@@ -75,5 +80,31 @@
         "name": "[JavaScript] Support",
         "scope": "keyword.control.flow.js, keyword.control.flow.ts",
         "foreground": "var(magenta)"
+    },
+    {
+        "name": "[JavaScript] Parameter",
+        "scope": "variable.parameter.function.js, variable.parameter.function.ts",
+        "foreground": "var(orange)"
+    },
+    {
+        "name": "[JavaScript] Try Catch",
+        "scope": "keyword.control.trycatch.js, keyword.control.trycatch.ts",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[JavaScript] Loop",
+        "scope": "keyword.control.loop.js, keyword.control.loop.ts",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[JavaScript] Conditional",
+        "scope": "keyword.control.conditional.js, keyword.control.conditional.ts",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[JavaScript] Entity Name",
+        "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label)",
+        "foreground": "var(orange)"
     }
+
 ]

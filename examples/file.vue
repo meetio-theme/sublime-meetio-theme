@@ -1,7 +1,7 @@
 <template>
     <div id="app">
-        <img width="25%" src="./assets/logo.png">
-        <HelloWorld @click="sayHello" />
+        <img src="./assets/logo.png" />
+        <HelloWorld @click="this.sayHello">Hello Word</HelloWorld>
     </div>
 </template>
 

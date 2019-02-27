@@ -12,10 +12,16 @@ class Animal {
             age: this.age,
             name: this.name,
         }
+
+        for (let i = 0; i < this.age; i++) {
+            console.log('Counter:' + i);
+        }
     }
 
     public move(meters: Number): any {
-        console.log(this.name + " moved " + meters + "meters.");
+        if (typeof meters === "number") {
+            console.log(this.name + " moved " + meters + "meters.");
+        }
         return meters;
     }
 }

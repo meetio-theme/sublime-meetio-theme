@@ -1,5 +1,10 @@
 [
     {
+        "name": "[CSS] String",
+        "scope": "source.css string",
+        "foreground": "var(green)"
+    },
+    {
         "name": "[CSS] Classes",
         "scope": "entity.other.attribute-name.class",
         "foreground": "var(yellow)"
@@ -17,7 +22,7 @@
     {
         "name": "[CSS] Variable",
         "scope": "support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
-        "foreground": "var(cyan)"
+        "foreground": "var(orange)"
     },
     {
         "name": "[CSS] Constant Numeric",
@@ -26,18 +31,28 @@
     },
     {
         "name": "[CSS] Functions",
-        "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css",
-        "foreground": "var(blue)"
+        "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css, support.function.gradient.css",
+        "foreground": "var(cyan)"
     },
     {
         "name": "[CSS] Prefix",
         "scope": "support.type.vendor-prefix.css",
-        "foreground": "var(blue)"
+        "foreground": "var(cyan)"
     },
     {
         "name": "[CSS] Properties",
         "scope": "meta.property-name.css",
         "foreground": "var(foreground)"
+    },
+    {
+        "name": "[CSS] Tag",
+        "scope": "source.css entity.name.tag.custom.css",
+        "foreground": "var(red)"
+    },
+    {
+        "name": "[CSS] Properties Value",
+        "scope": "support.constant.property-value.css",
+        "foreground": "var(magenta)"
     },
     {
         "name": "[CSS] Pseudo Class",
@@ -48,6 +63,11 @@
         "name": "[CSS] Pseudo Element",
         "scope": "entity.other.pseudo-element.css",
         "foreground": "var(red)"
+    },
+    {
+        "name": "[CSS] Important",
+        "scope": "keyword.operator.logic.media.css",
+        "foreground": "var(cyan)"
     },
     {
         "name": "[CSS] Important",

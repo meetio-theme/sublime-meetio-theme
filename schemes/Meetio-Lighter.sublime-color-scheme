@@ -9,7 +9,7 @@
         "cyan": "#5fb3b3",
         "gray": "#3d3d3d",
         "green": "#91b859",
-        "orange": "#f9ae58",
+        "orange": "#d1876e",
         "pink": "#ff5370",
         "red": "#e53734",
         "magenta": "#7c4dff",
@@ -35,16 +35,21 @@
         "find_highlight_foreground": "var(gray)",
         "find_highlight": "var(yellow)",
         "brackets_options": "underline",
-        "brackets_foreground": "var()",
+        "brackets_foreground": "var(gray)",
         "bracket_contents_options": "underline",
         "bracket_contents_foreground": "var(cyan)",
         "tags_foreground": "var(magenta)",
-        "line_diff_added": "var(green)",
-        "line_diff_modified": "var(blue)",
-        "line_diff_deleted": "var(red)",
+        "line_diff_added": "color(var(green) alpha(0.6))",
+        "line_diff_modified": "color(var(blue) alpha(0.6))",
+        "line_diff_deleted": "color(var(red) alpha(0.6))",
         "tags_options": "stippled_underline"
     },
     "rules": [
+        {
+            "name": "[CSS] String",
+            "scope": "source.css string",
+            "foreground": "var(green)"
+        },
         {
             "name": "[CSS] Classes",
             "scope": "entity.other.attribute-name.class",
@@ -63,7 +68,7 @@
         {
             "name": "[CSS] Variable",
             "scope": "support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
-            "foreground": "var(cyan)"
+            "foreground": "var(orange)"
         },
         {
             "name": "[CSS] Constant Numeric",
@@ -72,18 +77,28 @@
         },
         {
             "name": "[CSS] Functions",
-            "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css",
-            "foreground": "var(blue)"
+            "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css, support.function.gradient.css",
+            "foreground": "var(cyan)"
         },
         {
             "name": "[CSS] Prefix",
             "scope": "support.type.vendor-prefix.css",
-            "foreground": "var(blue)"
+            "foreground": "var(cyan)"
         },
         {
             "name": "[CSS] Properties",
             "scope": "meta.property-name.css",
             "foreground": "var(foreground)"
+        },
+        {
+            "name": "[CSS] Tag",
+            "scope": "source.css entity.name.tag.custom.css",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[CSS] Properties Value",
+            "scope": "support.constant.property-value.css",
+            "foreground": "var(magenta)"
         },
         {
             "name": "[CSS] Pseudo Class",
@@ -97,6 +112,11 @@
         },
         {
             "name": "[CSS] Important",
+            "scope": "keyword.operator.logic.media.css",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[CSS] Important",
             "scope": "keyword.other.important.css",
             "foreground": "var(red)"
         },
@@ -104,36 +124,6 @@
             "name": "[CSS] Color Values",
             "scope": "support.constant.color.w3c-standard-color-name.css, constant.other.color.rgb-value.css, support.constant.color.w3c-extended-color-keywords.css",
             "foreground": "var(blue)"
-        },
-        {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "text.html.basic text.html.basic entity.other.attribute-name.html, text.html.basic, entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Tag Name",
-            "scope": "text.html.basic entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "tag name",
-            "scope": "entity.name.tag",
-            "foreground": "var(red)"
         },
         {
             "name": "[JavaScript] String",
@@ -151,8 +141,13 @@
             "foreground": "var(magenta)"
         },
         {
+            "name": "[JavaScript] Storage Type",
+            "scope": "storage.type.js, storage.type.ts",
+            "foreground": "var(magenta)"
+        },
+        {
             "name": "[JavaScript] Constructor",
-            "scope": "meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, entity.name.function.constructor.ts, variable.language.constructor.ts",
+            "scope": "meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
             "foreground": "var(magenta)"
         },
         {
@@ -162,7 +157,7 @@
         },
         {
             "name": "[JavaScript] Dollar",
-            "scope": "variable.other.dollar.only.js",
+            "scope": "variable.other.dollar.only.js, variable.other.dollar.only.ts",
             "foreground": "var(cyan)"
         },
         {
@@ -183,7 +178,7 @@
         {
             "name": "[JavaScript] Class",
             "scope": "meta.class-method.js entity.name.function.js, variable.function",
-            "foreground": "var(magenta)"
+            "foreground": "var(blue)"
         },
         {
             "name": "[JavaScript] New",
@@ -211,6 +206,31 @@
             "name": "[JavaScript] Support",
             "scope": "keyword.control.flow.js, keyword.control.flow.ts",
             "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JavaScript] Parameter",
+            "scope": "variable.parameter.function.js, variable.parameter.function.ts",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Try Catch",
+            "scope": "keyword.control.trycatch.js, keyword.control.trycatch.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Loop",
+            "scope": "keyword.control.loop.js, keyword.control.loop.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Conditional",
+            "scope": "keyword.control.conditional.js, keyword.control.conditional.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Entity Name",
+            "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label)",
+            "foreground": "var(orange)"
         },
         {
             "name": "[JSON] Key ",
@@ -341,8 +361,8 @@
         },
         {
             "name": "Operator",
-            "scope": "keyword.operator",
-            "foreground": "var(blue)"
+            "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
+            "foreground": "var(magenta)"
         },
         {
             "name": "Punctuation",
@@ -367,6 +387,41 @@
             "background": "var(yellow)"
         },
         {
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "text.html.basic entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Yaml] Key",
+            "scope": "entity.name.tag.yaml",
+            "foreground": "var(cyan)"
+        },
+        {
             "name": "[PHP] Class",
             "scope": "entity.name.class, entity.name.type.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php",
             "foreground": "var(yellow)"
@@ -375,11 +430,6 @@
             "name": "[PHP] Variable",
             "scope": "variable.other.php",
             "foreground": "var(yellow)"
-        },
-        {
-            "name": "[Yaml] Key",
-            "scope": "entity.name.tag.yaml",
-            "foreground": "var(cyan)"
         }
     ]
 }

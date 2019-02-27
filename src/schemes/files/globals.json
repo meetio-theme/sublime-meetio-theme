@@ -17,13 +17,13 @@
     "find_highlight_foreground"   : "var(gray)",
     "find_highlight"              : "var(yellow)",
     "brackets_options"            : "underline",
-    "brackets_foreground"         : "var()",
+    "brackets_foreground"         : "var(gray)",
     "bracket_contents_options"    : "underline",
     "bracket_contents_foreground" : "var(cyan)",
     "tags_foreground"             : "var(magenta)",
-    "line_diff_added"             : "var(green)",
-    "line_diff_modified"          : "var(blue)",
-    "line_diff_deleted"           : "var(red)",
+    "line_diff_added"             : "color(var(green) alpha(0.6))",
+    "line_diff_modified"          : "color(var(blue) alpha(0.6))",
+    "line_diff_deleted"           : "color(var(red) alpha(0.6))",
     "tags_options"                : "stippled_underline"
 }
 
