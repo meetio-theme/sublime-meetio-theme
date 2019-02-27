@@ -4,6 +4,11 @@ class Vegetable {
 
     var $edible;
     var $color;
+    var $var;
+
+    function __construct($param) {
+        $this->var = $param;
+    }
 
     function Vegetable($edible, $color="green")
     {

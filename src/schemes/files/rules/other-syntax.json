@@ -35,44 +35,6 @@
         "foreground": "var(red)"
     },
     {
-        "name": "entity name",
-        "scope": "entity.name.function",
-        "foreground": "var(blue)"
-    },
-    {
-        "name": "inherited class",
-        "scope": "entity.other.inherited-class",
-        "foreground": "var(cyan)",
-        "font_style": "italic underline"
-    },
-    {
-        "name": "language variable",
-        "scope": "variable.language",
-        "foreground": "var(red)",
-        "font_style": "italic"
-    },
-    {
-        "name": "function call",
-        "scope": "variable.function, variable.annotation",
-        "foreground": "var(blue)"
-    },
-    {
-        "name": "library function",
-        "scope": "support.function, support.macro",
-        "foreground": "var(blue)",
-        "font_style": "italic"
-    },
-    {
-        "name": "library constant",
-        "scope": "support.constant",
-        "foreground": "var(magenta)"
-    },
-    {
-        "name": "library class/type",
-        "scope": "support.type, support.class",
-        "foreground": "var(yellow)"
-    },
-    {
         "name": "Invalid",
         "scope": "invalid",
         "foreground": "var(foreground)",

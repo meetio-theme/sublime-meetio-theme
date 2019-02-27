@@ -1,11 +1,12 @@
 <template>
     <div id="app">
         <img width="25%" src="./assets/logo.png">
-        <HelloWorld @click="sayHello()" />
+        <HelloWorld @click="sayHello" />
     </div>
 </template>
 
 <script>
+    /* eslint-disable */
     import HelloWorld from './components/HelloWorld';
 
     export default {

@@ -141,6 +141,21 @@
             "foreground": "var(green)"
         },
         {
+            "name": "[JavaScript] Import",
+            "scope": "meta.import.js, meta.import.ts",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JavaScript] Import - Export",
+            "scope": "keyword.control.import-export.js, keyword.control.import-export.ts",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JavaScript] Constructor",
+            "scope": "meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, entity.name.function.constructor.ts, variable.language.constructor.ts",
+            "foreground": "var(magenta)"
+        },
+        {
             "name": "[JavaScript] Object Key",
             "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
             "foreground": "var(blue)"
@@ -156,9 +171,46 @@
             "foreground": "var(red)"
         },
         {
-            "name": "[JavaScript] Class and Methods",
-            "scope": "meta.class-method.js entity.name.function.js",
-            "foreground": "var(pink)"
+            "name": "[JavaScript] Function",
+            "scope": "variable.function, variable.annotation, entity.name.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Class",
+            "scope": "storage.type.class.js",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JavaScript] Class",
+            "scope": "meta.class-method.js entity.name.function.js, variable.function",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JavaScript] New",
+            "scope": "keyword.operator.word.new.js, keyword.operator.word.new.ts",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JavaScript] Language Library",
+            "scope": "variable.language",
+            "foreground": "var(red)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Library",
+            "scope": "support.function, support.macro",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "support.type, support.class",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "keyword.control.flow.js, keyword.control.flow.ts",
+            "foreground": "var(magenta)"
         },
         {
             "name": "[JSON] Key ",
@@ -301,44 +353,6 @@
             "name": "Storage",
             "scope": "storage",
             "foreground": "var(red)"
-        },
-        {
-            "name": "entity name",
-            "scope": "entity.name.function",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "inherited class",
-            "scope": "entity.other.inherited-class",
-            "foreground": "var(cyan)",
-            "font_style": "italic underline"
-        },
-        {
-            "name": "language variable",
-            "scope": "variable.language",
-            "foreground": "var(red)",
-            "font_style": "italic"
-        },
-        {
-            "name": "function call",
-            "scope": "variable.function, variable.annotation",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "library function",
-            "scope": "support.function, support.macro",
-            "foreground": "var(blue)",
-            "font_style": "italic"
-        },
-        {
-            "name": "library constant",
-            "scope": "support.constant",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "library class/type",
-            "scope": "support.type, support.class",
-            "foreground": "var(yellow)"
         },
         {
             "name": "Invalid",

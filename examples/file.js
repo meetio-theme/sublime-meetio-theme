@@ -1,5 +1,7 @@
 /* eslint-disable */
-class Point {
+import { Utils as util } from './utils/index.js';
+
+export default class Point {
     constructor(x, y) {
         this.x = x;
         this.y = y;

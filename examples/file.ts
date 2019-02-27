@@ -1,3 +1,5 @@
+import { Utils as util } from './utils/index.js';
+
 class Animal {
     private name : String;
     private age : Number;
@@ -12,8 +14,9 @@ class Animal {
         }
     }
 
-    public move(meters: Number): void {
+    public move(meters: Number): any {
         console.log(this.name + " moved " + meters + "meters.");
+        return meters;
     }
 }
 
