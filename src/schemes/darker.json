@@ -2,7 +2,7 @@
     "name": "Meetio-Darker",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
-        "primary"     : "#7dcac4",
+        "accent"     : "#7dcac4",
         "foreground"  : "#fefefe",
         "background"  : "#212121",
         "blue"        : "#82aaff",
@@ -11,10 +11,8 @@
         "green"       : "#c3e88d",
         "orange"      : "#f78c6c",
         "pink"        : "#f06292",
-        "purple"      : "#bb80b3",
         "red"         : "#ff5370",
         "magenta"     : "#b39ddb",
-        "deep-orange" : "#f97b58",
         "light-blue"  : "#e1f5fe",
         "yellow"      : "#ffcb6b"
     }

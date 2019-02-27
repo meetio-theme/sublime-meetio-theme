@@ -2,6 +2,11 @@ $addon-store-border-color: #d95468 !default;
 $addon-store-color: #333 !default;
 
 #app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   .addons-nav {
     .selected {
       border-bottom-color: $addon-store-border-color;

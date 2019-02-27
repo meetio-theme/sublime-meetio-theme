@@ -2,7 +2,7 @@
     "name": "Meetio-Cobalt",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
-        "primary"     : "#7dcac4",
+        "accent"     : "#7dcac4",
         "foreground"  : "#fefefe",
         "background"  : "#193448",
         "blue"        : "#40c4fe",
@@ -11,10 +11,8 @@
         "green"       : "#9eff80",
         "orange"      : "#da8f49",
         "pink"        : "#ffa5f3",
-        "purple"      : "#967efb",
         "red"         : "#ed6e74",
         "magenta"     : "#c2afff",
-        "deep-orange" : "#f97b58",
         "light-blue"  : "#e1f5fe",
         "yellow"      : "#ffc600"
     }

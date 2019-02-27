@@ -2,19 +2,17 @@
     "name": "Meetio-Lighter",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
-        "primary"     : "#7dcac4",
+        "accent"     : "#7dcac4",
         "foreground"  : "#40525a",
         "background"  : "#fafafa",
         "blue"        : "#6182b8",
-        "cyan"        : "#80cbc4",
+        "cyan"        : "#5fb3b3",
         "gray"        : "#3d3d3d",
         "green"       : "#91b859",
         "orange"      : "#f9ae58",
         "pink"        : "#ff5370",
-        "purple"      : "#c792ea",
         "red"         : "#e53734",
         "magenta"     : "#7c4dff",
-        "deep-orange" : "#f97b58",
         "light-blue"  : "#81d4fa",
         "yellow"      : "#ffb62e"
     }

@@ -1,10 +1,25 @@
 import path from 'path';
 import fs from 'fs';
 import globals from './../src/schemes/files/globals.json';
-import rules from './../src/schemes/files/rules.json';
 
 function build() {
-  let filePath;
+  const rules = [];
+  let syntax, filePath;
+  fs.readdirSync('./src/schemes/files/rules/').forEach(file => {
+    filePath = path.join(__dirname, '/../src/schemes/files/rules/' + file);
+    fs.readFile(filePath, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      syntax = JSON.parse(data);
+      Object.keys(syntax).map(syntaxKey => {
+        const value = syntax[syntaxKey];
+        rules.push(value);
+      });
+    });
+  });
+
   fs.readdirSync('./src/schemes/').forEach(file => {
     filePath = path.join(__dirname, '/../src/schemes/' + file);
     if (fs.lstatSync(filePath).isFile()) {
@@ -13,13 +28,13 @@ function build() {
           throw err;
         }
 
-        const options = {
+        const allRules = {
           globals,
           rules,
         };
 
         data = JSON.parse(data);
-        const scheme = Object.assign(data, options);
+        const scheme = Object.assign(data, allRules);
 
         fs.writeFileSync(
           `schemes/${data.name}.sublime-color-scheme`,

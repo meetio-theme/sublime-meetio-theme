@@ -1,0 +1,69 @@
+[
+    {
+        "name": "[Markup] Deleted",
+        "scope": "markup.deleted",
+        "foreground": "var(red)"
+    },
+    {
+        "name": "[Markup] Inserted",
+        "scope": "markup.inserted",
+        "foreground": "var(green)"
+    },
+    {
+        "name": "[Markup] Changed",
+        "scope": "markup.changed",
+        "foreground": "var()"
+    },
+    {
+        "name": "[Markup] Headings",
+        "scope": "markup.heading punctuation.definition.heading",
+        "font_style": "bold",
+        "foreground": "var(red)"
+    },
+    {
+        "name": "[Markup] Links",
+        "scope": "string.other.link, markup.underline.link",
+        "foreground": "var(blue)"
+    },
+    {
+        "name": "[Markup] Bold",
+        "scope": "markup.bold",
+        "font_style": "bold",
+        "foreground": "var()"
+    },
+    {
+        "name": "[Markup] Italic",
+        "scope": "markup.italic",
+        "font_style": "italic"
+    },
+    {
+        "name": "[Markup] Bold & Italic",
+        "scope": "markup.italic markup.bold | markup.bold markup.italic",
+        "font_style": "bold italic"
+    },
+    {
+        "name": "[Markup] Line",
+        "scope": "punctuation.definition.thematic-break",
+        "foreground": "var()"
+    },
+    {
+        "name": "[Markup] Numbered List Bullet",
+        "scope": "markup.list.numbered.bullet",
+        "foreground": "var(green)"
+    },
+    {
+        "name": "[Markup] Blockquote",
+        "scope": "markup.quote punctuation.definition.blockquote, markup.list punctuation.definition.list_item",
+        "foreground": "var()"
+    },
+    {
+        "name": "[Markup] Code",
+        "scope": "markup.raw.inline",
+        "background": "color(var(light-blue) alpha(0.1))"
+    },
+    {
+        "name": "[Markup] Punctuation",
+        "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
+        "foreground": "var(magenta)"
+    }
+]

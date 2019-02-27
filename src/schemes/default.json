@@ -2,7 +2,7 @@
     "name": "Meetio",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
-        "primary"     : "#7dcac4",
+        "accent"     : "#7dcac4",
         "foreground"  : "#fefefe",
         "background"  : "#263137",
         "blue"        : "#6398ce",
@@ -11,10 +11,8 @@
         "green"       : "#97c892",
         "orange"      : "#ffb266",
         "pink"        : "#ff526f",
-        "purple"      : "#967efb",
         "red"         : "#d95757",
         "magenta"     : "#c692c6",
-        "deep-orange" : "#f97b58",
         "light-blue"  : "#e1f5fe",
         "yellow"      : "#fbc959"
     }

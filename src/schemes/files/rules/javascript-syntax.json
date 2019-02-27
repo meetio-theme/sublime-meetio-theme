@@ -1,0 +1,17 @@
+[
+    {
+        "name": "[JavaScript] Dollar",
+        "scope": "variable.other.dollar.only.js, variable.other.object.dollar.only.js, variable.type.dollar.only.js, support.class.dollar.only.js",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[JavaScript] Sub Methods",
+        "scope": "entity.name.module.js, variable.import.parameter.js, variable.other.class.js",
+        "foreground": "var(red)"
+    },
+    {
+        "name": "[JavaScript] Class and Methods",
+        "scope": "meta.class-method.js entity.name.function.js, variable.function.constructor",
+        "foreground": "var(pink)"
+    }
+]

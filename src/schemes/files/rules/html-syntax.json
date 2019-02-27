@@ -1,0 +1,12 @@
+[
+    {
+        "name": "[HTML] Operator",
+        "scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
+        "foreground": "var(blue)"
+    },
+    {
+        "name": "[HTML] Attributes",
+        "scope": "text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name",
+        "foreground": "var(yellow)"
+    }
+]

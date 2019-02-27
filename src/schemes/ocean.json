@@ -2,7 +2,7 @@
     "name": "Meetio-Ocean",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
-        "primary"     : "#7dcac4",
+        "accent"     : "#7dcac4",
         "foreground"  : "#d8dee8",
         "background"  : "#2e3340",
         "blue"        : "#81a1c1",
@@ -11,10 +11,8 @@
         "green"       : "#a3be8b",
         "orange"      : "#fb914f",
         "pink"        : "#f07178",
-        "purple"      : "#c792ea",
         "red"         : "#bf6069",
         "magenta"     : "#b48dac",
-        "deep-orange" : "#f97b58",
         "light-blue"  : "#b2ccd6",
         "yellow"      : "#eacb8a"
     }

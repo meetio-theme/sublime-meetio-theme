@@ -2,7 +2,7 @@
     "name": "Meetio-Palenight",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
-        "primary"     : "#7dcac4",
+        "accent"     : "#7dcac4",
         "foreground"  : "#fefefe",
         "background"  : "#292d3e",
         "blue"        : "#82aaff",
@@ -11,10 +11,8 @@
         "green"       : "#c3e88d",
         "orange"      : "#f78c6c",
         "pink"        : "#f07178",
-        "purple"      : "#c792ea",
         "red"         : "#ff5370",
         "magenta"     : "#c2afff",
-        "deep-orange" : "#f97b58",
         "light-blue"  : "#b2ccd6",
         "yellow"      : "#ffcb6b"
     }

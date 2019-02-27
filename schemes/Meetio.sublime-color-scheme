@@ -2,7 +2,7 @@
     "name": "Meetio",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
-        "primary": "#7dcac4",
+        "accent": "#7dcac4",
         "foreground": "#fefefe",
         "background": "#263137",
         "blue": "#6398ce",
@@ -14,22 +14,21 @@
         "purple": "#967efb",
         "red": "#d95757",
         "magenta": "#c692c6",
-        "deep-orange": "#f97b58",
         "light-blue": "#e1f5fe",
         "yellow": "#fbc959"
     },
     "globals": {
         "foreground": "var(foreground)",
         "background": "var(background)",
-        "caret": "var(primary)",
-        "block_caret": "var(primary)",
+        "caret": "var(accent)",
+        "block_caret": "var(accent)",
         "line_highlight": "color(var(foreground) alpha(0.1))",
         "selection": "color(var(light-blue) alpha(0.1))",
         "selection_border": "var(blue)",
         "inactive_selection": "color(var(light-blue) alpha(0.1))",
         "misspelling": "var(red)",
         "shadow": "color(var(background) alpha(0.5))",
-        "accent": "var(primary)",
+        "accent": "var(accent)",
         "active_guide": "var(cyan)",
         "stack_guide": "var(cyan)",
         "highlight": "var(cyan)",
@@ -37,7 +36,7 @@
         "find_highlight_foreground": "var(gray)",
         "find_highlight": "var(yellow)",
         "brackets_options": "underline",
-        "brackets_foreground": "var(orange)",
+        "brackets_foreground": "var()",
         "bracket_contents_options": "underline",
         "bracket_contents_foreground": "var(cyan)",
         "tags_foreground": "var(magenta)",
@@ -48,84 +47,196 @@
     },
     "rules": [
         {
-            "scope": "col_gutter",
-            "background": "#000000",
-            "foreground": "#ffffff"
+            "name": "[CSS] Classes",
+            "scope": "entity.other.attribute-name.class",
+            "foreground": "var(yellow)"
         },
         {
-            "scope": "col_E1F5FEFF",
-            "background": "#E1F5FEFF",
-            "foreground": "#707070FF"
+            "name": "[CSS] ID",
+            "scope": "entity.other.attribute-name.id.css",
+            "foreground": "var(yellow)"
         },
         {
-            "scope": "col_65737EFF",
-            "background": "#65737EFF",
-            "foreground": "#F0F0F0FF"
+            "name": "[CSS] Properties",
+            "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus",
+            "foreground": "var(foreground)"
         },
         {
-            "scope": "col_89DDFFFF",
-            "background": "#89DDFFFF",
-            "foreground": "#474747FF"
+            "name": "[CSS] Variable",
+            "scope": "support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
+            "foreground": "var(cyan)"
         },
         {
-            "scope": "col_82AAFFFF",
-            "background": "#82AAFFFF",
-            "foreground": "#272727FF"
+            "name": "[CSS] Constant Numeric",
+            "scope": "constant.numeric.css",
+            "foreground": "var(magenta)"
         },
         {
-            "scope": "col_F06292FF",
-            "background": "#F06292FF",
-            "foreground": "#111111FF"
+            "name": "[CSS] Functions",
+            "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css",
+            "foreground": "var(blue)"
         },
         {
-            "scope": "col_FF5370FF",
-            "background": "#FF5370FF",
-            "foreground": "#090909FF"
+            "name": "[CSS] Prefix",
+            "scope": "support.type.vendor-prefix.css",
+            "foreground": "var(blue)"
         },
         {
-            "scope": "col_F97B58FF",
-            "background": "#F97B58FF",
-            "foreground": "#1C1C1CFF"
+            "name": "[CSS] Properties",
+            "scope": "meta.property-name.css",
+            "foreground": "var(foreground)"
         },
         {
-            "scope": "col_BB80B3FF",
-            "background": "#BB80B3FF",
-            "foreground": "#171717FF"
+            "name": "[CSS] Pseudo Class",
+            "scope": "entity.other.pseudo-class.css",
+            "foreground": "var(deep-)"
         },
         {
-            "scope": "col_B39DDBFF",
-            "background": "#B39DDBFF",
-            "foreground": "#2A2A2AFF"
+            "name": "[CSS] Pseudo Element",
+            "scope": "entity.other.pseudo-element.css",
+            "foreground": "var(red)"
         },
         {
-            "scope": "col_FEFEFEFF",
-            "background": "#FEFEFEFF",
-            "foreground": "#7E7E7EFF"
+            "name": "[CSS] Important",
+            "scope": "keyword.other.important.css",
+            "foreground": "var(magenta)"
         },
         {
-            "scope": "col_FFCB6BFF",
-            "background": "#FFCB6BFF",
-            "foreground": "#4F4F4FFF"
+            "name": "[CSS] Color Values",
+            "scope": "support.constant.color.w3c-standard-color-name.css, constant.other.color.rgb-value.css, support.constant.color.w3c-extended-color-keywords.css",
+            "foreground": "var(blue)"
         },
         {
-            "scope": "col_7DCAC4FF",
-            "background": "#7DCAC4FF",
-            "foreground": "#323232FF"
+            "name": "[HTML] Operator",
+            "scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
+            "foreground": "var(blue)"
         },
         {
-            "scope": "col_212121FF",
-            "background": "#212121FF",
-            "foreground": "#A1A1A1FF"
+            "name": "[HTML] Attributes",
+            "scope": "text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name",
+            "foreground": "var(yellow)"
         },
         {
-            "scope": "col_C3E88DFF",
-            "background": "#C3E88DFF",
-            "foreground": "#525252FF"
+            "name": "[JSON] Key - level 0",
+            "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(magenta)"
         },
         {
-            "scope": "col_F78C6CFF",
-            "background": "#F78C6CFF",
-            "foreground": "#282828FF"
+            "name": "[JSON] Key - level 1",
+            "scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Key - level 2",
+            "scope": "source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JSON] Key - level 3",
+            "scope": "source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var()"
+        },
+        {
+            "name": "[JSON] Key - level 4",
+            "scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Key - level 5",
+            "scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(deep-)"
+        },
+        {
+            "name": "[JSON] Key - level 6",
+            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JSON] Key - level 7",
+            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JavaScript] Dollar",
+            "scope": "variable.other.dollar.only.js, variable.other.object.dollar.only.js, variable.type.dollar.only.js, support.class.dollar.only.js",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Sub Methods",
+            "scope": "entity.name.module.js, variable.import.parameter.js, variable.other.class.js",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JavaScript] Class and Methods",
+            "scope": "meta.class-method.js entity.name.function.js, variable.function.constructor",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Markup] Deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Markup] Inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markup] Changed",
+            "scope": "markup.changed",
+            "foreground": "var()"
+        },
+        {
+            "name": "[Markup] Headings",
+            "scope": "markup.heading punctuation.definition.heading",
+            "font_style": "bold",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Markup] Links",
+            "scope": "string.other.link, markup.underline.link",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[Markup] Bold",
+            "scope": "markup.bold",
+            "font_style": "bold",
+            "foreground": "var()"
+        },
+        {
+            "name": "[Markup] Italic",
+            "scope": "markup.italic",
+            "font_style": "italic"
+        },
+        {
+            "name": "[Markup] Bold & Italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "[Markup] Line",
+            "scope": "punctuation.definition.thematic-break",
+            "foreground": "var()"
+        },
+        {
+            "name": "[Markup] Numbered List Bullet",
+            "scope": "markup.list.numbered.bullet",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markup] Blockquote",
+            "scope": "markup.quote punctuation.definition.blockquote, markup.list punctuation.definition.list_item",
+            "foreground": "var()"
+        },
+        {
+            "name": "[Markup] Code",
+            "scope": "markup.raw.inline",
+            "background": "color(var(light-blue) alpha(0.1))"
+        },
+        {
+            "name": "[Markup] Punctuation",
+            "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
+            "foreground": "var(magenta)"
         },
         {
             "name": "Comment",
@@ -140,7 +251,7 @@
         {
             "name": "Number",
             "scope": "constant.numeric",
-            "foreground": "var(orange)"
+            "foreground": "var()"
         },
         {
             "name": "Constant",
@@ -168,96 +279,6 @@
             "foreground": "var(cyan)"
         },
         {
-            "name": "[PHP] Class",
-            "scope": "entity.name.class, entity.name.type.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[PHP] Variable",
-            "scope": "variable.other.php",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[CSS] Classes",
-            "scope": "entity.other.attribute-name.class",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[CSS] ID",
-            "scope": "entity.other.attribute-name.id.css",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[CSS] Properties",
-            "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus",
-            "foreground": "var(foreground)"
-        },
-        {
-            "name": "[CSS] Variable",
-            "scope": "support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[CSS] Functions",
-            "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[CSS] Prefix",
-            "scope": "support.type.vendor-prefix.css",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[CSS] Properties",
-            "scope": "meta.property-name.css",
-            "foreground": "var(foreground)"
-        },
-        {
-            "name": "[CSS] Pseudo Class",
-            "scope": "entity.other.pseudo-class.css",
-            "foreground": "var(deep-orange)"
-        },
-        {
-            "name": "[CSS] Pseudo Element",
-            "scope": "entity.other.pseudo-element.css",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[CSS] Important",
-            "scope": "keyword.other.important.css",
-            "foreground": "var(violet)"
-        },
-        {
-            "name": "[CSS] Color Values",
-            "scope": "support.constant.color.w3c-standard-color-name.css, constant.other.color.rgb-value.css, support.constant.color.w3c-extended-color-keywords.css",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Dollar",
-            "scope": "variable.other.dollar.only.js, variable.other.object.dollar.only.js, variable.type.dollar.only.js, support.class.dollar.only.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Sub Methods",
-            "scope": "entity.name.module.js, variable.import.parameter.js, variable.other.class.js",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JavaScript] Class and Methods",
-            "scope": "meta.class-method.js entity.name.function.js, variable.function.constructor",
-            "foreground": "var(pink)"
-        },
-        {
             "name": "storage",
             "scope": "storage",
             "foreground": "var(red)"
@@ -274,11 +295,6 @@
             "foreground": "var(blue)"
         },
         {
-            "name": "entity name",
-            "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label)",
-            "foreground": "var(orange)"
-        },
-        {
             "name": "inherited class",
             "scope": "entity.other.inherited-class",
             "foreground": "var(cyan)",
@@ -287,7 +303,7 @@
         {
             "name": "function argument",
             "scope": "variable.parameter",
-            "foreground": "var(orange)"
+            "foreground": "var()"
         },
         {
             "name": "language variable",
@@ -336,7 +352,7 @@
             "name": "invalid deprecated",
             "scope": "invalid.deprecated",
             "foreground": "var(foreground)",
-            "background": "var(purple)"
+            "background": "var(magenta)"
         },
         {
             "name": "yaml key",
@@ -362,121 +378,24 @@
             "foreground": "var(red)"
         },
         {
-            "name": "[JSON] Key - level 0",
-            "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JSON] Key - level 1",
-            "scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Key - level 2",
-            "scope": "source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Key - level 3",
-            "scope": "source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JSON] Key - level 4",
-            "scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Key - level 5",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(deep-orange)"
-        },
-        {
-            "name": "[JSON] Key - level 6",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JSON] Key - level 7",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Markup] Deleted",
-            "scope": "markup.deleted",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Markup] Inserted",
-            "scope": "markup.inserted",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markup] Changed",
-            "scope": "markup.changed",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[Markup] Headings",
-            "scope": "markup.heading punctuation.definition.heading",
-            "font_style": "bold",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Markup] Links",
-            "scope": "string.other.link, markup.underline.link",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[Markup] Bold",
-            "scope": "markup.bold",
-            "font_style": "bold",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[Markup] Italic",
-            "scope": "markup.italic",
-            "font_style": "italic"
-        },
-        {
-            "name": "[Markup] Bold & Italic",
-            "scope": "markup.italic markup.bold | markup.bold markup.italic",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "[Markup] Line",
-            "scope": "punctuation.definition.thematic-break",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[Markup] Numbered List Bullet",
-            "scope": "markup.list.numbered.bullet",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markup] Blockquote",
-            "scope": "markup.quote punctuation.definition.blockquote, markup.list punctuation.definition.list_item",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[Markup] Code",
-            "scope": "markup.raw.inline",
-            "background": "color(var(light-blue) alpha(0.1))"
-        },
-        {
-            "name": "[Markup] Punctuation",
-            "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
-            "foreground": "var(magenta)"
-        },
-        {
             "name": "number, constant, function argument, tag attribute, embedded",
             "scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
-            "foreground": "var(deep-orange)"
+            "foreground": "var(deep-)"
         },
         {
             "name": "object keys",
             "scope": "string.unquoted.label.js, meta.object-literal.key.js, string.unquoted.label.jsx, meta.object-literal.key.jsx, string.unquoted.label.ts, meta.object-literal.key.ts, meta.function.return-type.ts, meta.function.parameters.ts",
             "foreground": "var(red)"
+        },
+        {
+            "name": "[PHP] Class",
+            "scope": "entity.name.class, entity.name.type.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[PHP] Variable",
+            "scope": "variable.other.php",
+            "foreground": "var(yellow)"
         }
     ]
 }

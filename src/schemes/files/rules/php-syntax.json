@@ -1,0 +1,12 @@
+[
+    {
+        "name": "[PHP] Class",
+        "scope": "entity.name.class, entity.name.type.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php",
+        "foreground": "var(yellow)"
+    },
+    {
+        "name": "[PHP] Variable",
+        "scope": "variable.other.php",
+        "foreground": "var(yellow)"
+    }
+]

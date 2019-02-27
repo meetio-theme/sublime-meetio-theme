@@ -1,0 +1,62 @@
+[
+    {
+        "name": "[CSS] Classes",
+        "scope": "entity.other.attribute-name.class",
+        "foreground": "var(yellow)"
+    },
+    {
+        "name": "[CSS] ID",
+        "scope": "entity.other.attribute-name.id.css",
+        "foreground": "var(yellow)"
+    },
+    {
+        "name": "[CSS] Properties",
+        "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus",
+        "foreground": "var(foreground)"
+    },
+    {
+        "name": "[CSS] Variable",
+        "scope": "support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[CSS] Constant Numeric",
+        "scope": "constant.numeric.css",
+        "foreground": "var(magenta)"
+    },
+    {
+        "name": "[CSS] Functions",
+        "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css",
+        "foreground": "var(blue)"
+    },
+    {
+        "name": "[CSS] Prefix",
+        "scope": "support.type.vendor-prefix.css",
+        "foreground": "var(blue)"
+    },
+    {
+        "name": "[CSS] Properties",
+        "scope": "meta.property-name.css",
+        "foreground": "var(foreground)"
+    },
+    {
+        "name": "[CSS] Pseudo Class",
+        "scope": "entity.other.pseudo-class.css",
+        "foreground": "var(deep-)"
+    },
+    {
+        "name": "[CSS] Pseudo Element",
+        "scope": "entity.other.pseudo-element.css",
+        "foreground": "var(red)"
+    },
+    {
+        "name": "[CSS] Important",
+        "scope": "keyword.other.important.css",
+        "foreground": "var(magenta)"
+    },
+    {
+        "name": "[CSS] Color Values",
+        "scope": "support.constant.color.w3c-standard-color-name.css, constant.other.color.rgb-value.css, support.constant.color.w3c-extended-color-keywords.css",
+        "foreground": "var(blue)"
+    }
+]
