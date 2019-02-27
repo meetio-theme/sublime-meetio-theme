@@ -6,8 +6,13 @@
     },
     {
         "name": "[HTML] Operator",
-        "scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
-        "foreground": "var(blue)"
+        "scope": "keyword.other.template, keyword.other.substitution",
+        "foreground": "var(green)"
+    },
+    {
+        "name": "[HTML] Operator",
+        "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
+        "foreground": "var(cyan)"
     },
     {
         "name": "[HTML] Attributes",
@@ -24,7 +29,7 @@
         "scope": "text.html.basic entity.other.attribute-name",
         "foreground": "var(magenta)"
     },
-   {
+    {
         "name": "tag name",
         "scope": "entity.name.tag",
         "foreground": "var(red)"

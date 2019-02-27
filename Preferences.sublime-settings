@@ -17,7 +17,6 @@
   // Set disclosure tree controls
   "meetio_sidebar_disclosure"   : false,
 
-
   // Enable title bar (OS X 10.10+)
   "meetio_titlebar"             : false,
   // Show icon search in inputs

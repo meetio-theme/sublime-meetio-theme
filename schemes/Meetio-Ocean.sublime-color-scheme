@@ -46,6 +46,41 @@
     },
     "rules": [
         {
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.other.template, keyword.other.substitution",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "text.html.basic entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(green)"
@@ -387,41 +422,6 @@
             "background": "var(yellow)"
         },
         {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Tag Name",
-            "scope": "text.html.basic entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "tag name",
-            "scope": "entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Yaml] Key",
-            "scope": "entity.name.tag.yaml",
-            "foreground": "var(cyan)"
-        },
-        {
             "name": "[PHP] Class",
             "scope": "entity.name.class, entity.name.type.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php",
             "foreground": "var(yellow)"
@@ -430,6 +430,11 @@
             "name": "[PHP] Variable",
             "scope": "variable.other.php",
             "foreground": "var(yellow)"
+        },
+        {
+            "name": "[Yaml] Key",
+            "scope": "entity.name.tag.yaml",
+            "foreground": "var(cyan)"
         }
     ]
 }
