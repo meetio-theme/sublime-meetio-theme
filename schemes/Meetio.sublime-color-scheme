@@ -11,7 +11,6 @@
         "green": "#97c892",
         "orange": "#ffb266",
         "pink": "#ff526f",
-        "purple": "#967efb",
         "red": "#d95757",
         "magenta": "#c692c6",
         "light-blue": "#e1f5fe",
@@ -46,6 +45,41 @@
         "tags_options": "stippled_underline"
     },
     "rules": [
+        {
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
+            "foreground": "var(yellow)"
+        },
         {
             "name": "[CSS] Classes",
             "scope": "entity.other.attribute-name.class",
@@ -115,46 +149,6 @@
             "name": "[HTML] Attributes",
             "scope": "text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name",
             "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Key - level 0",
-            "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JSON] Key - level 1",
-            "scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Key - level 2",
-            "scope": "source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Key - level 3",
-            "scope": "source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var()"
-        },
-        {
-            "name": "[JSON] Key - level 4",
-            "scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Key - level 5",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(deep-)"
-        },
-        {
-            "name": "[JSON] Key - level 6",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JSON] Key - level 7",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(magenta)"
         },
         {
             "name": "[JavaScript] Dollar",
@@ -237,6 +231,16 @@
             "name": "[Markup] Punctuation",
             "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
             "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Class",
+            "scope": "entity.name.class, entity.name.type.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[PHP] Variable",
+            "scope": "variable.other.php",
+            "foreground": "var(yellow)"
         },
         {
             "name": "Comment",
@@ -386,16 +390,6 @@
             "name": "object keys",
             "scope": "string.unquoted.label.js, meta.object-literal.key.js, string.unquoted.label.jsx, meta.object-literal.key.jsx, string.unquoted.label.ts, meta.object-literal.key.ts, meta.function.return-type.ts, meta.function.parameters.ts",
             "foreground": "var(red)"
-        },
-        {
-            "name": "[PHP] Class",
-            "scope": "entity.name.class, entity.name.type.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[PHP] Variable",
-            "scope": "variable.other.php",
-            "foreground": "var(yellow)"
         }
     ]
 }

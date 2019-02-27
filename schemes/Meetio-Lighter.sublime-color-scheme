@@ -46,224 +46,39 @@
     },
     "rules": [
         {
-            "foreground": "#454545FF",
-            "background": "#B2CCD6FF",
-            "scope": "col_B2CCD6FF"
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json",
+            "foreground": "var(red)"
         },
         {
-            "foreground": "#313131FF",
-            "background": "#88C0D0FF",
-            "scope": "col_88C0D0FF"
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json",
+            "foreground": "var(yellow)"
         },
         {
-            "foreground": "#AEAEAEFF",
-            "background": "#263137FF",
-            "scope": "col_263137FF"
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(magenta)"
         },
         {
-            "foreground": "#272727FF",
-            "background": "#C692C6FF",
-            "scope": "col_C692C6FF"
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
         },
         {
-            "foreground": "#333333FF",
-            "background": "#97C892FF",
-            "scope": "col_97C892FF"
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(orange)"
         },
         {
-            "foreground": "#303030FF",
-            "background": "#A3BE8BFF",
-            "scope": "col_A3BE8BFF"
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "foreground": "var(cyan)"
         },
         {
-            "foreground": "#B2B2B2FF",
-            "background": "#2E3340FF",
-            "scope": "col_2E3340FF"
-        },
-        {
-            "foreground": "#1B1B1BFF",
-            "background": "#81A1C1FF",
-            "scope": "col_81A1C1FF"
-        },
-        {
-            "foreground": "#1C1C1CFF",
-            "background": "#B48DACFF",
-            "scope": "col_B48DACFF"
-        },
-        {
-            "foreground": "#404040FF",
-            "background": "#FFB266FF",
-            "scope": "col_FFB266FF"
-        },
-        {
-            "foreground": "#181818FF",
-            "background": "#5BB3B4FF",
-            "scope": "col_5BB3B4FF"
-        },
-        {
-            "foreground": "#090909FF",
-            "background": "#FF526FFF",
-            "scope": "col_FF526FFF"
-        },
-        {
-            "foreground": "#FDFDFDFF",
-            "background": "#BF6069FF",
-            "scope": "col_BF6069FF"
-        },
-        {
-            "foreground": "#292929FF",
-            "background": "#FB914FFF",
-            "scope": "col_FB914FFF"
-        },
-        {
-            "foreground": "#171717FF",
-            "background": "#F07178FF",
-            "scope": "col_F07178FF"
-        },
-        {
-            "foreground": "#4C4C4CFF",
-            "background": "#EACB8AFF",
-            "scope": "col_EACB8AFF"
-        },
-        {
-            "foreground": "#4B4B4BFF",
-            "background": "#FBC959FF",
-            "scope": "col_FBC959FF"
-        },
-        {
-            "foreground": "#FDFDFDFF",
-            "background": "#D95757FF",
-            "scope": "col_D95757FF"
-        },
-        {
-            "foreground": "#5D5D5DFF",
-            "background": "#D8DEE8FF",
-            "scope": "col_D8DEE8FF"
-        },
-        {
-            "foreground": "#0E0E0EFF",
-            "background": "#6398CEFF",
-            "scope": "col_6398CEFF"
-        },
-        {
-            "foreground": "#ffffff",
-            "background": "#000000",
-            "scope": "col_gutter"
-        },
-        {
-            "foreground": "#484848FF",
-            "background": "#FFA5F3FF",
-            "scope": "col_FFA5F3FF"
-        },
-        {
-            "foreground": "#232323FF",
-            "background": "#40C4FEFF",
-            "scope": "col_40C4FEFF"
-        },
-        {
-            "foreground": "#3D3D3DFF",
-            "background": "#C2AFFFFF",
-            "scope": "col_C2AFFFFF"
-        },
-        {
-            "foreground": "#282828FF",
-            "background": "#F78C6CFF",
-            "scope": "col_F78C6CFF"
-        },
-        {
-            "foreground": "#323232FF",
-            "background": "#7DCAC4FF",
-            "scope": "col_7DCAC4FF"
-        },
-        {
-            "foreground": "#141414FF",
-            "background": "#ED6E74FF",
-            "scope": "col_ED6E74FF"
-        },
-        {
-            "foreground": "#090909FF",
-            "background": "#FF5370FF",
-            "scope": "col_FF5370FF"
-        },
-        {
-            "foreground": "#535353FF",
-            "background": "#9EFF80FF",
-            "scope": "col_9EFF80FF"
-        },
-        {
-            "foreground": "#7E7E7EFF",
-            "background": "#FEFEFEFF",
-            "scope": "col_FEFEFEFF"
-        },
-        {
-            "foreground": "#F0F0F0FF",
-            "background": "#65737EFF",
-            "scope": "col_65737EFF"
-        },
-        {
-            "foreground": "#1D1D1DFF",
-            "background": "#DA8F49FF",
-            "scope": "col_DA8F49FF"
-        },
-        {
-            "foreground": "#2A2A2AFF",
-            "background": "#B39DDBFF",
-            "scope": "col_B39DDBFF"
-        },
-        {
-            "foreground": "#A1A1A1FF",
-            "background": "#212121FF",
-            "scope": "col_212121FF"
-        },
-        {
-            "foreground": "#707070FF",
-            "background": "#E1F5FEFF",
-            "scope": "col_E1F5FEFF"
-        },
-        {
-            "foreground": "#111111FF",
-            "background": "#F06292FF",
-            "scope": "col_F06292FF"
-        },
-        {
-            "foreground": "#404040FF",
-            "background": "#FFC600FF",
-            "scope": "col_FFC600FF"
-        },
-        {
-            "foreground": "#BDBDBDFF",
-            "background": "#3D3D3DFF",
-            "scope": "col_3D3D3DFF"
-        },
-        {
-            "foreground": "#616161FF",
-            "background": "#9EFFFFFF",
-            "scope": "col_9EFFFFFF"
-        },
-        {
-            "foreground": "#272727FF",
-            "background": "#82AAFFFF",
-            "scope": "col_82AAFFFF"
-        },
-        {
-            "foreground": "#474747FF",
-            "background": "#89DDFFFF",
-            "scope": "col_89DDFFFF"
-        },
-        {
-            "foreground": "#4F4F4FFF",
-            "background": "#FFCB6BFF",
-            "scope": "col_FFCB6BFF"
-        },
-        {
-            "foreground": "#525252FF",
-            "background": "#C3E88DFF",
-            "scope": "col_C3E88DFF"
-        },
-        {
-            "foreground": "#AEAEAEFF",
-            "background": "#193448FF",
-            "scope": "col_193448FF"
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
+            "foreground": "var(yellow)"
         },
         {
             "name": "[CSS] Classes",
@@ -334,46 +149,6 @@
             "name": "[HTML] Attributes",
             "scope": "text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name",
             "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Key - level 0",
-            "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JSON] Key - level 1",
-            "scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Key - level 2",
-            "scope": "source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Key - level 3",
-            "scope": "source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var()"
-        },
-        {
-            "name": "[JSON] Key - level 4",
-            "scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Key - level 5",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(deep-)"
-        },
-        {
-            "name": "[JSON] Key - level 6",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JSON] Key - level 7",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(magenta)"
         },
         {
             "name": "[JavaScript] Dollar",
@@ -456,6 +231,16 @@
             "name": "[Markup] Punctuation",
             "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
             "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Class",
+            "scope": "entity.name.class, entity.name.type.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[PHP] Variable",
+            "scope": "variable.other.php",
+            "foreground": "var(yellow)"
         },
         {
             "name": "Comment",
@@ -605,16 +390,6 @@
             "name": "object keys",
             "scope": "string.unquoted.label.js, meta.object-literal.key.js, string.unquoted.label.jsx, meta.object-literal.key.jsx, string.unquoted.label.ts, meta.object-literal.key.ts, meta.function.return-type.ts, meta.function.parameters.ts",
             "foreground": "var(red)"
-        },
-        {
-            "name": "[PHP] Class",
-            "scope": "entity.name.class, entity.name.type.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[PHP] Variable",
-            "scope": "variable.other.php",
-            "foreground": "var(yellow)"
         }
     ]
 }
