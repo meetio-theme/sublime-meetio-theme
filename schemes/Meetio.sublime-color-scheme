@@ -48,6 +48,86 @@
     },
     "rules": [
         {
+            "scope": "col_gutter",
+            "background": "#000000",
+            "foreground": "#ffffff"
+        },
+        {
+            "scope": "col_E1F5FEFF",
+            "background": "#E1F5FEFF",
+            "foreground": "#707070FF"
+        },
+        {
+            "scope": "col_65737EFF",
+            "background": "#65737EFF",
+            "foreground": "#F0F0F0FF"
+        },
+        {
+            "scope": "col_89DDFFFF",
+            "background": "#89DDFFFF",
+            "foreground": "#474747FF"
+        },
+        {
+            "scope": "col_82AAFFFF",
+            "background": "#82AAFFFF",
+            "foreground": "#272727FF"
+        },
+        {
+            "scope": "col_F06292FF",
+            "background": "#F06292FF",
+            "foreground": "#111111FF"
+        },
+        {
+            "scope": "col_FF5370FF",
+            "background": "#FF5370FF",
+            "foreground": "#090909FF"
+        },
+        {
+            "scope": "col_F97B58FF",
+            "background": "#F97B58FF",
+            "foreground": "#1C1C1CFF"
+        },
+        {
+            "scope": "col_BB80B3FF",
+            "background": "#BB80B3FF",
+            "foreground": "#171717FF"
+        },
+        {
+            "scope": "col_B39DDBFF",
+            "background": "#B39DDBFF",
+            "foreground": "#2A2A2AFF"
+        },
+        {
+            "scope": "col_FEFEFEFF",
+            "background": "#FEFEFEFF",
+            "foreground": "#7E7E7EFF"
+        },
+        {
+            "scope": "col_FFCB6BFF",
+            "background": "#FFCB6BFF",
+            "foreground": "#4F4F4FFF"
+        },
+        {
+            "scope": "col_7DCAC4FF",
+            "background": "#7DCAC4FF",
+            "foreground": "#323232FF"
+        },
+        {
+            "scope": "col_212121FF",
+            "background": "#212121FF",
+            "foreground": "#A1A1A1FF"
+        },
+        {
+            "scope": "col_C3E88DFF",
+            "background": "#C3E88DFF",
+            "foreground": "#525252FF"
+        },
+        {
+            "scope": "col_F78C6CFF",
+            "background": "#F78C6CFF",
+            "foreground": "#282828FF"
+        },
+        {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "color(var(foreground) alpha(0.3))"
@@ -110,31 +190,36 @@
         {
             "name": "[CSS] Classes",
             "scope": "entity.other.attribute-name.class",
-            "foreground": "var(magenta)"
+            "foreground": "var(yellow)"
         },
         {
             "name": "[CSS] ID",
-            "scope": "source.css entity.other.attribute-name.id.css, source.sass entity.other.attribute-name.id.sass, source.scss entity.other.attribute-name.id.scss",
-            "foreground": "var(magenta)"
+            "scope": "entity.other.attribute-name.id.css",
+            "foreground": "var(yellow)"
         },
         {
-            "name": "[CSS] Class and Support",
+            "name": "[CSS] Properties",
             "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus",
             "foreground": "var(foreground)"
         },
         {
             "name": "[CSS] Variable",
-            "scope": "support.type.custom-property.css, variable.other.css, variable.other.sass, variable.other.scss",
-            "foreground": "var(yellow)"
+            "scope": "support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
+            "foreground": "var(cyan)"
         },
         {
             "name": "[CSS] Functions",
-            "scope": "support.function.var.css",
+            "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[CSS] Prefix",
+            "scope": "support.type.vendor-prefix.css",
             "foreground": "var(blue)"
         },
         {
             "name": "[CSS] Properties",
-            "scope": "source.css support.constant.property-value.css, source.sass support.constant.property-value.sass, source.scss support.constant.property-value.scss",
+            "scope": "meta.property-name.css",
             "foreground": "var(foreground)"
         },
         {
@@ -146,6 +231,16 @@
             "name": "[CSS] Pseudo Element",
             "scope": "entity.other.pseudo-element.css",
             "foreground": "var(red)"
+        },
+        {
+            "name": "[CSS] Important",
+            "scope": "keyword.other.important.css",
+            "foreground": "var(violet)"
+        },
+        {
+            "name": "[CSS] Color Values",
+            "scope": "support.constant.color.w3c-standard-color-name.css, constant.other.color.rgb-value.css, support.constant.color.w3c-extended-color-keywords.css",
+            "foreground": "var(blue)"
         },
         {
             "name": "[JavaScript] Dollar",

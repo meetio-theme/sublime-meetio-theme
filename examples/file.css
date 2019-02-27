@@ -7,21 +7,21 @@ body {
 }
 
 .addon-store .pagehead h1 { display: inline-block }
-.addon-store .addon-summary:after { clear: both }
+.addon-store .addon-summary::after { clear: both }
 
 #addon-store .pagehead .electrocat-small {
-    bottom: -7px;
+    bottom: calc(100% - 20px);
     position: absolute;
     right: 0;
 }
 
 .addon-store .addons-nav::after {
     display: block;
-    content: "";
+    content: attr("data-link");
 }
 
 .addon-store .addons-nav a:hover {
- background-color: red;
+   background-color: red;
 }
 
 .addon-store .addons-nav a.selected {
@@ -29,6 +29,16 @@ body {
     color: #333;
     font-weight: bold;
     padding: 0 0 14px;
+}
+
+.addon-store img {
+    filter: grayscale(100%);
+}
+
+@supports (display: grid) {
+  div {
+    display: grid;
+  }
 }
 
 .addon-store .addon-icon {
@@ -56,9 +66,8 @@ body {
 }
 
 .addon-field-editor .addon-field-list, .addon-field-editor .addon-new-field {
-    -moz-box-sizing: border-box;
     border-radius: 3px;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     display: inline-block;
     text-align: center;
     width: 595px;
@@ -66,4 +75,15 @@ body {
 
 #form input[type="text"] {
     border: 1px solid var(--color-border-input);
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
 }

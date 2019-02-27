@@ -1,5 +1,5 @@
-$addon-store-border-color: #d95468;
-$addon-store-color: #333;
+$addon-store-border-color: #d95468 !default;
+$addon-store-color: #333 !default;
 
 #app {
   .addons-nav {
@@ -40,7 +40,7 @@ $addon-store-color: #333;
 }
 
 @mixin grid($flex) {
-  @if $flex {
+  @if ($flex) {
     @include flex;
   }
   @else {
@@ -49,6 +49,6 @@ $addon-store-color: #333;
 }
 
 /* Functions */
-@function my-calculation-function($some-number, $another-number){
+@function my-calculation-function($some-number, $another-number) {
   @return $some-number + $another-number;
 }
