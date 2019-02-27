@@ -46,74 +46,24 @@
     },
     "rules": [
         {
+            "background": "#229922FF",
+            "scope": "col_229922FF",
+            "foreground": "#E7E7E7FF"
+        },
+        {
             "background": "#000000",
             "scope": "col_gutter",
             "foreground": "#ffffff"
         },
         {
-            "background": "#5BB3B4FF",
-            "scope": "col_5BB3B4FF",
-            "foreground": "#181818FF"
+            "background": "#333333FF",
+            "scope": "col_333333FF",
+            "foreground": "#B3B3B3FF"
         },
         {
-            "background": "#3D3D3DFF",
-            "scope": "col_3D3D3DFF",
-            "foreground": "#BDBDBDFF"
-        },
-        {
-            "background": "#FFB266FF",
-            "scope": "col_FFB266FF",
-            "foreground": "#404040FF"
-        },
-        {
-            "background": "#D95757FF",
-            "scope": "col_D95757FF",
-            "foreground": "#FDFDFDFF"
-        },
-        {
-            "background": "#6398CEFF",
-            "scope": "col_6398CEFF",
-            "foreground": "#0E0E0EFF"
-        },
-        {
-            "background": "#FEFEFEFF",
-            "scope": "col_FEFEFEFF",
-            "foreground": "#7E7E7EFF"
-        },
-        {
-            "background": "#7DCAC4FF",
-            "scope": "col_7DCAC4FF",
-            "foreground": "#323232FF"
-        },
-        {
-            "background": "#FF526FFF",
-            "scope": "col_FF526FFF",
-            "foreground": "#090909FF"
-        },
-        {
-            "background": "#E1F5FEFF",
-            "scope": "col_E1F5FEFF",
-            "foreground": "#707070FF"
-        },
-        {
-            "background": "#97C892FF",
-            "scope": "col_97C892FF",
-            "foreground": "#333333FF"
-        },
-        {
-            "background": "#FFD73FFF",
-            "scope": "col_FFD73FFF",
-            "foreground": "#515151FF"
-        },
-        {
-            "background": "#C692C6FF",
-            "scope": "col_C692C6FF",
-            "foreground": "#272727FF"
-        },
-        {
-            "background": "#253036FF",
-            "scope": "col_253036FF",
-            "foreground": "#ADADADFF"
+            "background": "#D95468FF",
+            "scope": "col_D95468FF",
+            "foreground": "#FEFEFEFF"
         },
         {
             "name": "[CSS] String",
@@ -478,6 +428,11 @@
             "name": "Storage",
             "scope": "storage",
             "foreground": "var(red)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green)"
         },
         {
             "name": "Invalid",

@@ -35,6 +35,11 @@
         "foreground": "var(red)"
     },
     {
+        "name": "String",
+        "scope": "string",
+        "foreground": "var(green)"
+    },
+    {
         "name": "Invalid",
         "scope": "invalid",
         "foreground": "var(foreground)",
