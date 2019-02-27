@@ -38,11 +38,5 @@
         "name": "[JSON] Punctuation String",
         "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
         "foreground": "var(blue)"
-    },
-    {
-        "name": "[JSON] Illegal",
-        "scope": "invalid.illegal.expected-mapping-key.json",
-        "background": "var(red)",
-        "foreground": "var(white)"
     }
 ]

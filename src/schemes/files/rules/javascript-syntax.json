@@ -1,5 +1,10 @@
 [
     {
+        "name": "[JavaScript] String",
+        "scope": "source.js string, source.ts string",
+        "foreground": "var(green)"
+    },
+    {
         "name": "[JavaScript] Object Key",
         "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
         "foreground": "var(blue)"

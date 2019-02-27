@@ -20,13 +20,8 @@
         "foreground": "var(red)"
     },
     {
-        "name": "Keyword",
-        "scope": "keyword - keyword.operator, keyword.operator.word",
-        "foreground": "var(magenta)"
-    },
-    {
         "name": "Operator",
-        "scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
+        "scope": "keyword.operator",
         "foreground": "var(blue)"
     },
     {
@@ -55,16 +50,6 @@
         "scope": "variable.language",
         "foreground": "var(red)",
         "font_style": "italic"
-    },
-    {
-        "name": "tag name",
-        "scope": "entity.name.tag",
-        "foreground": "var(red)"
-    },
-    {
-        "name": "tag attribute",
-        "scope": "entity.other.attribute-name",
-        "foreground": "var(magenta)"
     },
     {
         "name": "function call",

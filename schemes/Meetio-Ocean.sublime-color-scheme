@@ -46,6 +46,16 @@
     },
     "rules": [
         {
+            "scope": "col_gutter",
+            "background": "#000000",
+            "foreground": "#ffffff"
+        },
+        {
+            "scope": "col_2C3E50FF",
+            "background": "#2C3E50FF",
+            "foreground": "#BABABAFF"
+        },
+        {
             "name": "[CSS] Classes",
             "scope": "entity.other.attribute-name.class",
             "foreground": "var(yellow)"
@@ -106,14 +116,39 @@
             "foreground": "var(blue)"
         },
         {
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
+        },
+        {
             "name": "[HTML] Operator",
             "scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
             "foreground": "var(blue)"
         },
         {
             "name": "[HTML] Attributes",
-            "scope": "text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name",
+            "scope": "text.html.basic text.html.basic entity.other.attribute-name.html, text.html.basic, entity.other.attribute-name",
             "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "text.html.basic entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JavaScript] String",
+            "scope": "source.js string, source.ts string",
+            "foreground": "var(green)"
         },
         {
             "name": "[JavaScript] Object Key",
@@ -174,112 +209,6 @@
             "name": "[JSON] Punctuation String",
             "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
             "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Illegal",
-            "scope": "invalid.illegal.expected-mapping-key.json",
-            "background": "var(red)",
-            "foreground": "var(white)"
-        },
-        {
-            "name": "Comment",
-            "scope": "comment, punctuation.definition.comment",
-            "foreground": "color(var(foreground) alpha(0.3))"
-        },
-        {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Constant",
-            "scope": "constant.character, constant.other",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "Variable",
-            "scope": "variable.member",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "Keyword",
-            "scope": "keyword - keyword.operator, keyword.operator.word",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "Punctuation",
-            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "Storage",
-            "scope": "storage",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "entity name",
-            "scope": "entity.name.function",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "inherited class",
-            "scope": "entity.other.inherited-class",
-            "foreground": "var(cyan)",
-            "font_style": "italic underline"
-        },
-        {
-            "name": "language variable",
-            "scope": "variable.language",
-            "foreground": "var(red)",
-            "font_style": "italic"
-        },
-        {
-            "name": "tag name",
-            "scope": "entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "tag attribute",
-            "scope": "entity.other.attribute-name",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "function call",
-            "scope": "variable.function, variable.annotation",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "library function",
-            "scope": "support.function, support.macro",
-            "foreground": "var(blue)",
-            "font_style": "italic"
-        },
-        {
-            "name": "library constant",
-            "scope": "support.constant",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "library class/type",
-            "scope": "support.type, support.class",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "Invalid",
-            "scope": "invalid",
-            "foreground": "var(foreground)",
-            "background": "var(red)"
-        },
-        {
-            "name": "Deprecated",
-            "scope": "invalid.deprecated",
-            "foreground": "var(foreground)",
-            "background": "var(yellow)"
         },
         {
             "name": "[Markdown] Deleted",
@@ -347,6 +276,91 @@
             "name": "[Markdown] Punctuation",
             "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
             "foreground": "var(magenta)"
+        },
+        {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "color(var(foreground) alpha(0.3))"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable.member",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Operator",
+            "scope": "keyword.operator",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "entity name",
+            "scope": "entity.name.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(cyan)",
+            "font_style": "italic underline"
+        },
+        {
+            "name": "language variable",
+            "scope": "variable.language",
+            "foreground": "var(red)",
+            "font_style": "italic"
+        },
+        {
+            "name": "function call",
+            "scope": "variable.function, variable.annotation",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "library function",
+            "scope": "support.function, support.macro",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+        {
+            "name": "library constant",
+            "scope": "support.constant",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(foreground)",
+            "background": "var(red)"
+        },
+        {
+            "name": "Deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(foreground)",
+            "background": "var(yellow)"
         },
         {
             "name": "[PHP] Class",
