@@ -1,50 +1,57 @@
 <?php
 
-class Vegetable {
+namespace foo;
+use My\Full\Classname as Another;
 
-    var $edible;
-    var $color;
-    var $var;
+class User
+{
+    private $name;
+    private $gender;
+    public $age;
+    private $department = 'Mechanical';
 
-    function __construct($param) {
-        $this->var = $param;
+    public function setName($name)
+    {
+        $this->name = $name;
     }
 
-    function Vegetable($edible, $color="green")
+    public function getName()
     {
-        $this->edible = $edible;
-        $this->color = $color;
+        return $this->name;
     }
 
-    function is_edible()
+    public function setGender($gender)
     {
-        return $this->edible;
+        $this->gender = $gender;
     }
 
-    function what_color()
+    public function getGender()
     {
-        return $this->color;
+        return $this->gender;
     }
 
-}
-
-class Spinach extends Vegetable {
-
-    var $cooked = false;
-
-    function Spinach()
+    public function setDepartment($dep)
     {
-        $this->Vegetable(true, "green");
+        $this->department = $dep;
     }
 
-    function cook_it()
+    public function getDepartment()
     {
-        $this->cooked = true;
-    }
-
-    function is_cooked()
-    {
-        return $this->cooked;
+        return $this->department;
     }
 }
 
+
+class Course extends Controller
+{
+    public function destroy(Course $course)
+    {
+        try {
+            if ($course->delete() ) {
+                echo "Nice to know!";
+            }
+        } catch (TypeError $e) {
+            echo $e->getMessage();
+        }
+    }
+}

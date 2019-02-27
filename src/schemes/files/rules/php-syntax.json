@@ -1,12 +1,32 @@
 [
     {
-        "name": "[PHP] Class",
-        "scope": "entity.name.class, entity.name.type.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php",
+        "name": "[PHP] Inherited Class",
+        "scope": "entity.other.inherited-class.php",
         "foreground": "var(yellow)"
     },
     {
-        "name": "[PHP] Variable",
-        "scope": "variable.other.php",
-        "foreground": "var(yellow)"
+        "name": "[PHP] Storage",
+        "scope": "storage.modifier.php",
+        "foreground": "var(magenta)"
+    },
+    {
+        "name": "[PHP] Function",
+        "scope": "storage.type.function.php",
+        "foreground": "var(magenta)"
+    },
+    {
+        "name": "[PHP] Extends",
+        "scope": "storage.modifier.extends.php",
+        "foreground": "var(magenta)"
+    },
+    {
+        "name": "[PHP] Construct",
+        "scope": "support.function.construct.php",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[PHP] Var",
+        "scope": "support.function.var.php",
+        "foreground": "var(cyan)"
     }
 ]

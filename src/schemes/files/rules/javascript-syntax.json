@@ -50,7 +50,7 @@
         "foreground": "var(red)"
     },
     {
-        "name": "[JavaScript] Class",
+        "name": "[JavaScript] Function",
         "scope": "meta.class-method.js entity.name.function.js, variable.function",
         "foreground": "var(blue)"
     },

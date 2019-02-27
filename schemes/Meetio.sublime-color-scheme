@@ -46,39 +46,74 @@
     },
     "rules": [
         {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
+            "background": "#000000",
+            "scope": "col_gutter",
+            "foreground": "#ffffff"
         },
         {
-            "name": "[HTML] Operator",
-            "scope": "keyword.other.template, keyword.other.substitution",
-            "foreground": "var(green)"
+            "background": "#5BB3B4FF",
+            "scope": "col_5BB3B4FF",
+            "foreground": "#181818FF"
         },
         {
-            "name": "[HTML] Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
-            "foreground": "var(cyan)"
+            "background": "#3D3D3DFF",
+            "scope": "col_3D3D3DFF",
+            "foreground": "#BDBDBDFF"
         },
         {
-            "name": "[HTML] Attributes",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
-            "foreground": "var(yellow)"
+            "background": "#FFB266FF",
+            "scope": "col_FFB266FF",
+            "foreground": "#404040FF"
         },
         {
-            "name": "[HTML] Tag Name",
-            "scope": "text.html.basic entity.name.tag",
-            "foreground": "var(red)"
+            "background": "#D95757FF",
+            "scope": "col_D95757FF",
+            "foreground": "#FDFDFDFF"
         },
         {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(magenta)"
+            "background": "#6398CEFF",
+            "scope": "col_6398CEFF",
+            "foreground": "#0E0E0EFF"
         },
         {
-            "name": "tag name",
-            "scope": "entity.name.tag",
-            "foreground": "var(red)"
+            "background": "#FEFEFEFF",
+            "scope": "col_FEFEFEFF",
+            "foreground": "#7E7E7EFF"
+        },
+        {
+            "background": "#7DCAC4FF",
+            "scope": "col_7DCAC4FF",
+            "foreground": "#323232FF"
+        },
+        {
+            "background": "#FF526FFF",
+            "scope": "col_FF526FFF",
+            "foreground": "#090909FF"
+        },
+        {
+            "background": "#E1F5FEFF",
+            "scope": "col_E1F5FEFF",
+            "foreground": "#707070FF"
+        },
+        {
+            "background": "#97C892FF",
+            "scope": "col_97C892FF",
+            "foreground": "#333333FF"
+        },
+        {
+            "background": "#FFD73FFF",
+            "scope": "col_FFD73FFF",
+            "foreground": "#515151FF"
+        },
+        {
+            "background": "#C692C6FF",
+            "scope": "col_C692C6FF",
+            "foreground": "#272727FF"
+        },
+        {
+            "background": "#253036FF",
+            "scope": "col_253036FF",
+            "foreground": "#ADADADFF"
         },
         {
             "name": "[CSS] String",
@@ -161,6 +196,41 @@
             "foreground": "var(blue)"
         },
         {
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.other.template, keyword.other.substitution",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "text.html.basic entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
             "name": "[JavaScript] String",
             "scope": "source.js string, source.ts string",
             "foreground": "var(green)"
@@ -211,7 +281,7 @@
             "foreground": "var(red)"
         },
         {
-            "name": "[JavaScript] Class",
+            "name": "[JavaScript] Function",
             "scope": "meta.class-method.js entity.name.function.js, variable.function",
             "foreground": "var(blue)"
         },
@@ -422,14 +492,34 @@
             "background": "var(yellow)"
         },
         {
-            "name": "[PHP] Class",
-            "scope": "entity.name.class, entity.name.type.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php",
+            "name": "[PHP] Inherited Class",
+            "scope": "entity.other.inherited-class.php",
             "foreground": "var(yellow)"
         },
         {
-            "name": "[PHP] Variable",
-            "scope": "variable.other.php",
-            "foreground": "var(yellow)"
+            "name": "[PHP] Storage",
+            "scope": "storage.modifier.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Function",
+            "scope": "storage.type.function.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Extends",
+            "scope": "storage.modifier.extends.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Var",
+            "scope": "support.function.var.php",
+            "foreground": "var(cyan)"
         },
         {
             "name": "[Yaml] Key",
