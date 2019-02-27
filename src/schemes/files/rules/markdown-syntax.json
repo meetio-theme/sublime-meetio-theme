@@ -1,68 +1,68 @@
 [
     {
-        "name": "[Markup] Deleted",
+        "name": "[Markdown] Deleted",
         "scope": "markup.deleted",
         "foreground": "var(red)"
     },
     {
-        "name": "[Markup] Inserted",
+        "name": "[Markdown] Inserted",
         "scope": "markup.inserted",
         "foreground": "var(green)"
     },
     {
-        "name": "[Markup] Changed",
+        "name": "[Markdown] Changed",
         "scope": "markup.changed",
         "foreground": "var()"
     },
     {
-        "name": "[Markup] Headings",
+        "name": "[Markdown] Headings",
         "scope": "markup.heading punctuation.definition.heading",
         "font_style": "bold",
         "foreground": "var(red)"
     },
     {
-        "name": "[Markup] Links",
+        "name": "[Markdown] Links",
         "scope": "string.other.link, markup.underline.link",
         "foreground": "var(blue)"
     },
     {
-        "name": "[Markup] Bold",
+        "name": "[Markdown] Bold",
         "scope": "markup.bold",
         "font_style": "bold",
         "foreground": "var()"
     },
     {
-        "name": "[Markup] Italic",
+        "name": "[Markdown] Italic",
         "scope": "markup.italic",
         "font_style": "italic"
     },
     {
-        "name": "[Markup] Bold & Italic",
+        "name": "[Markdown] Bold & Italic",
         "scope": "markup.italic markup.bold | markup.bold markup.italic",
         "font_style": "bold italic"
     },
     {
-        "name": "[Markup] Line",
+        "name": "[Markdown] Line",
         "scope": "punctuation.definition.thematic-break",
         "foreground": "var()"
     },
     {
-        "name": "[Markup] Numbered List Bullet",
+        "name": "[Markdown] Numbered List Bullet",
         "scope": "markup.list.numbered.bullet",
         "foreground": "var(green)"
     },
     {
-        "name": "[Markup] Blockquote",
+        "name": "[Markdown] Blockquote",
         "scope": "markup.quote punctuation.definition.blockquote, markup.list punctuation.definition.list_item",
         "foreground": "var()"
     },
     {
-        "name": "[Markup] Code",
+        "name": "[Markdown] Code",
         "scope": "markup.raw.inline",
         "background": "color(var(light-blue) alpha(0.1))"
     },
     {
-        "name": "[Markup] Punctuation",
+        "name": "[Markdown] Punctuation",
         "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
         "foreground": "var(magenta)"
     }

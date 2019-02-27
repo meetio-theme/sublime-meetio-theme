@@ -1,10 +1,15 @@
 class Animal {
     private name : String;
     private age : Number;
+    private options : Object;
 
     constructor(name, age) {
         this.name = name;
         this.age = age;
+        this.options = {
+            age: this.age,
+            name: this.name,
+        }
     }
 
     public move(meters: Number): void {

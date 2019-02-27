@@ -13,5 +13,10 @@
         "name": "[JavaScript] Class and Methods",
         "scope": "meta.class-method.js entity.name.function.js, variable.function.constructor",
         "foreground": "var(pink)"
+    },
+    {
+        "name": "[JavaScript] Object Key",
+        "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
+        "foreground": "var(blue)"
     }
 ]

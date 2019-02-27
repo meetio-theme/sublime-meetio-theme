@@ -1,0 +1,7 @@
+[
+    {
+        "name": "[Yaml] Key",
+        "scope": "entity.name.tag.yaml",
+        "foreground": "var(cyan)"
+    }
+]

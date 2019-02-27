@@ -7,7 +7,7 @@
     {
         "name": "[JSON] Value",
         "scope": "meta.mapping.value.json",
-        "foreground": "var(yellow)"
+        "foreground": "var(green)"
     },
     {
         "name": "[JSON] Constant",
@@ -22,16 +22,27 @@
     {
         "name": "[JSON] Constant Numeric",
         "scope": "constant.numeric.json",
-        "foreground": "var(orange)"
+        "foreground": "var(blue)"
     },
     {
-        "name": "[JSON] Punctuation Mapping",
+        "name": "[JSON] Punctuation Section",
         "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
-        "foreground": "var(cyan)"
+        "foreground": "var(blue)"
     },
     {
         "name": "[JSON] Punctuation Mapping",
         "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-        "foreground": "var(orange)"
+        "foreground": "var(blue)"
+    },
+    {
+        "name": "[JSON] Punctuation String",
+        "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
+        "foreground": "var(blue)"
+    },
+    {
+        "name": "[JSON] Illegal",
+        "scope": "invalid.illegal.expected-mapping-key.json",
+        "background": "var(red)",
+        "foreground": "var(white)"
     }
 ]
