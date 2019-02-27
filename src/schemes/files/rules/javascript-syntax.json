@@ -1,7 +1,12 @@
 [
     {
+        "name": "[JavaScript] Object Key",
+        "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
+        "foreground": "var(blue)"
+    },
+    {
         "name": "[JavaScript] Dollar",
-        "scope": "variable.other.dollar.only.js, variable.other.object.dollar.only.js, variable.type.dollar.only.js, support.class.dollar.only.js",
+        "scope": "variable.other.dollar.only.js",
         "foreground": "var(cyan)"
     },
     {
@@ -11,12 +16,7 @@
     },
     {
         "name": "[JavaScript] Class and Methods",
-        "scope": "meta.class-method.js entity.name.function.js, variable.function.constructor",
+        "scope": "meta.class-method.js entity.name.function.js",
         "foreground": "var(pink)"
-    },
-    {
-        "name": "[JavaScript] Object Key",
-        "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
-        "foreground": "var(blue)"
     }
 ]
