@@ -21,7 +21,7 @@
     },
     {
         "name": "[HTML] Tag Name",
-        "scope": "text.html.basic entity.name.tag",
+        "scope": "entity.name.tag",
         "foreground": "var(red)"
     },
     {
