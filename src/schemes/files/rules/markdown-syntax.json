@@ -12,29 +12,36 @@
     {
         "name": "[Markdown] Changed",
         "scope": "markup.changed",
-        "foreground": "var()"
+        "foreground": "var(blue)"
     },
     {
         "name": "[Markdown] Headings",
         "scope": "markup.heading punctuation.definition.heading",
         "font_style": "bold",
-        "foreground": "var(red)"
+        "foreground": "var(yellow)"
     },
     {
         "name": "[Markdown] Links",
         "scope": "string.other.link, markup.underline.link",
-        "foreground": "var(blue)"
+        "font_style": "italic",
+        "foreground": "var(red)"
+    },
+    {
+        "name": "[Markdown] Link Description",
+        "scope": "entity.name.reference.link.markdown, string.other.link.description.title.markdown",
+        "foreground": "var(magenta)"
     },
     {
         "name": "[Markdown] Bold",
         "scope": "markup.bold",
         "font_style": "bold",
-        "foreground": "var()"
+        "foreground": "var(red)"
     },
     {
         "name": "[Markdown] Italic",
         "scope": "markup.italic",
-        "font_style": "italic"
+        "font_style": "italic",
+        "foreground": "var(red)"
     },
     {
         "name": "[Markdown] Bold & Italic",
@@ -44,7 +51,7 @@
     {
         "name": "[Markdown] Line",
         "scope": "punctuation.definition.thematic-break",
-        "foreground": "var()"
+        "foreground": "var(green)"
     },
     {
         "name": "[Markdown] Numbered List Bullet",
@@ -54,12 +61,17 @@
     {
         "name": "[Markdown] Blockquote",
         "scope": "markup.quote punctuation.definition.blockquote, markup.list punctuation.definition.list_item",
-        "foreground": "var()"
+        "foreground": "var(magenta)"
     },
     {
-        "name": "[Markdown] Code",
+        "name": "[Markdown] Code Inline",
         "scope": "markup.raw.inline",
-        "background": "color(var(light-blue) alpha(0.1))"
+        "background": "color(var(blue) alpha(0.05))"
+    },
+    {
+        "name": "[Markdown] Code Block",
+        "scope": "markup.raw.block.markdown",
+        "background": "color(var(blue) alpha(0.05))"
     },
     {
         "name": "[Markdown] Punctuation",

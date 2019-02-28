@@ -7,12 +7,18 @@
     {
         "name": "[CSS] Classes",
         "scope": "entity.other.attribute-name.class",
+        "foreground": "var(magenta)"
+    },
+    {
+        "name": "[CSS] Tag",
+        "scope": "entity.name.tag.css",
         "foreground": "var(yellow)"
     },
     {
         "name": "[CSS] ID",
         "scope": "entity.other.attribute-name.id.css",
-        "foreground": "var(yellow)"
+        "foreground": "var(red)",
+        "font_style": "bold"
     },
     {
         "name": "[CSS] Properties",
@@ -22,17 +28,17 @@
     {
         "name": "[CSS] Variable",
         "scope": "support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
+        "foreground": "var(yellow)"
+    },
+    {
+        "name": "[CSS] Properties Value",
+        "scope": "support.constant.property-value.css",
         "foreground": "var(orange)"
     },
     {
         "name": "[CSS] Constant Numeric",
         "scope": "constant.numeric.css",
-        "foreground": "var(magenta)"
-    },
-    {
-        "name": "[CSS] Functions",
-        "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css, support.function.gradient.css",
-        "foreground": "var(cyan)"
+        "foreground": "var(orange)"
     },
     {
         "name": "[CSS] Prefix",
@@ -40,7 +46,7 @@
         "foreground": "var(cyan)"
     },
     {
-        "name": "[CSS] Properties",
+        "name": "[CSS] Property Name",
         "scope": "meta.property-name.css",
         "foreground": "var(foreground)"
     },
@@ -50,24 +56,16 @@
         "foreground": "var(red)"
     },
     {
-        "name": "[CSS] Properties Value",
-        "scope": "support.constant.property-value.css",
-        "foreground": "var(magenta)"
-    },
-    {
         "name": "[CSS] Pseudo Class",
         "scope": "entity.other.pseudo-class.css",
-        "foreground": "var(red)"
+        "foreground": "var(red)",
+        "font_style": "italic"
     },
     {
         "name": "[CSS] Pseudo Element",
         "scope": "entity.other.pseudo-element.css",
-        "foreground": "var(red)"
-    },
-    {
-        "name": "[CSS] Important",
-        "scope": "keyword.operator.logic.media.css",
-        "foreground": "var(cyan)"
+        "foreground": "var(red)",
+        "font_style": "italic"
     },
     {
         "name": "[CSS] Important",
@@ -75,8 +73,28 @@
         "foreground": "var(red)"
     },
     {
+        "name": "[CSS] Unit",
+        "scope": "keyword.other.unit.css",
+        "foreground": "var(orange)"
+    },
+    {
+        "name": "[CSS] Font Name",
+        "scope": "support.constant.font-name.css",
+        "foreground": "var(pink)"
+    },
+    {
         "name": "[CSS] Color Values",
         "scope": "support.constant.color.w3c-standard-color-name.css, constant.other.color.rgb-value.css, support.constant.color.w3c-extended-color-keywords.css",
         "foreground": "var(blue)"
+    },
+    {
+        "name": "[CSS] Functions",
+        "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css, support.function.gradient.css",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[CSS] Property Vendor",
+        "scope": "support.type.property-vendor.css, support.constant.media.css",
+        "foreground": "var(cyan)"
     }
 ]

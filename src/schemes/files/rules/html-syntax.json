@@ -28,10 +28,5 @@
         "name": "[HTML] Tag Attribute",
         "scope": "text.html.basic entity.other.attribute-name",
         "foreground": "var(magenta)"
-    },
-    {
-        "name": "tag name",
-        "scope": "entity.name.tag",
-        "foreground": "var(red)"
     }
 ]

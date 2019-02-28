@@ -52,10 +52,10 @@ You can help improve the theme by reporting issues [here](https://github.com/mau
 Manually you can go to (**Preferences > Settings - User**) and paste the following code:
 
 ```json
-{
-    "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
-    "theme": "Meetio.sublime-theme",
-}
+    {
+        "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
+        "theme": "Meetio.sublime-theme",
+    }
 ```
 
 ### Theme Settings

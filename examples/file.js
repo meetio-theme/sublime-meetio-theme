@@ -20,6 +20,14 @@ class ColorPoint extends Point {
     toString() {
         return super.toString() + ' in ' + this.color;
     }
+
+    set color(color) {
+        this.color = color;
+    }
+
+    get color() {
+        return this.color;
+    }
 }
 
 class CustomError extends Error {
@@ -37,9 +45,10 @@ class CustomError extends Error {
 
 try {
     let cp = new ColorPoint(25, 8, 'green');
-    [...document.querySelectorAll('[button]')].map(btn => {
+    [...document.body.querySelectorAll('[button]')].map(btn => {
         btn.addEventListener('click', () => {
             cp.toString(); // '(25, 8) in green'
+            document.body.bgColor = cp.color;
             console.log(cp instanceof ColorPoint); // true
             console.log(cp instanceof Point); // true
         })
