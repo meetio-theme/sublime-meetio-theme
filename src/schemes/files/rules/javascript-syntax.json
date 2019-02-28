@@ -98,7 +98,7 @@
     },
     {
         "name": "[JavaScript] Conditional",
-        "scope": "keyword.control.conditional.js, keyword.control.conditional.ts",
+        "scope": "keyword.control.conditional.js, keyword.control.conditional.ts, keyword.control.switch.js, keyword.control.switch.ts",
         "foreground": "var(cyan)"
     },
     {
