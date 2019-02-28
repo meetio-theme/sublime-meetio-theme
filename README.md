@@ -52,10 +52,10 @@ You can help improve the theme by reporting issues [here](https://github.com/mau
 Manually you can go to (**Preferences > Settings - User**) and paste the following code:
 
 ```json
-    {
-        "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
-        "theme": "Meetio.sublime-theme",
-    }
+{
+    "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
+    "theme": "Meetio.sublime-theme"
+}
 ```
 
 ### Theme Settings
@@ -95,7 +95,7 @@ Meetio provides a bunch of variables to improve your experience with theming.
     "variables": {
         "color_accent": "#6772e4",
         "status_bar_background_color": "#6772e4",
-        "status_bar_label_foreground_color": "#fff",
+        "status_bar_label_foreground_color": "#fff"
     }
 }
 ```
@@ -120,7 +120,7 @@ Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings` and p
         "tabset_background_color": ["background", 1.0],
         "tabset_border_size": [0, 0, 0, 1],
         "title_bar_background": ["background", 1.0],
-        "title_bar_foreground_color": "#607a86",
+        "title_bar_foreground_color": "#607a86"
     }
 }
 ```
@@ -134,6 +134,6 @@ Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings` and p
     "line_padding_bottom"          : 7,
     "line_padding_top"             : 7,
     "overlay_scroll_bars"          : "enabled",
-    "highlight_modified_tabs"      : "enabled",
+    "highlight_modified_tabs"      : "enabled"
 }
 ```

@@ -16,15 +16,15 @@
     },
     {
         "name": "[Markdown] Headings",
-        "scope": "markup.heading punctuation.definition.heading",
+        "scope": "markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown",
         "font_style": "bold",
-        "foreground": "var(yellow)"
+        "foreground": "var(blue)"
     },
     {
         "name": "[Markdown] Links",
         "scope": "string.other.link, markup.underline.link",
         "font_style": "italic",
-        "foreground": "var(red)"
+        "foreground": "var(orange)"
     },
     {
         "name": "[Markdown] Link Description",
