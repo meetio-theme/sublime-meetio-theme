@@ -18,7 +18,7 @@ as well as suggest any tweaks you may have.
 - ✅ Support for Color Highlighter.
 - ✅ Support for Markdown Extended.
 
-***
+---
 
 ### Activate the theme
 
@@ -38,19 +38,10 @@ Manually you can go to (**Preferences → Settings - User**) and paste the follo
 }
 ```
 
-***
+---
 
-###  Recommended settings for a better experience:
+👉 You can see all the refinements and suggested settings at https://github.com/mauroreisvieira/meetio
+as well as suggest any tweaks you may have.
 
-```json
-{
-    "always_show_minimap_viewport" : true,
-    "bold_folder_labels"           : true,
-    "line_padding_bottom"          : 7,
-    "line_padding_top"             : 7,
-    "overlay_scroll_bars"          : "enabled",
-    "highlight_modified_tabs"      : "enabled"
-}
-```
-
-We ♥️ Sublime Text, follow me in @mauroreisvieira
+We ♥️ Sublime Text, follow me in [Twitter](https://twitter.com/mauroreisviera) and
+[Github](https://github.com/mauroreisvieira/)
