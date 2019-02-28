@@ -1,12 +1,12 @@
 [
     {
         "name": "[JSON] Key ",
-        "scope": "meta.mapping.key.json",
+        "scope": "meta.mapping.key.json string.quoted.double.json",
         "foreground": "var(red)"
     },
     {
         "name": "[JSON] Value",
-        "scope": "meta.mapping.value.json",
+        "scope": "meta.mapping.value.json string.quoted.double.json",
         "foreground": "var(green)"
     },
     {
