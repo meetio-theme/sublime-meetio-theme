@@ -144,6 +144,36 @@
             "foreground": "var(cyan)"
         },
         {
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.other.template, keyword.other.substitution",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "text.html.basic entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(magenta)"
+        },
+        {
             "name": "[JavaScript] String",
             "scope": "source.js string, source.ts string",
             "foreground": "var(green)"
@@ -159,9 +189,9 @@
             "foreground": "var(magenta)"
         },
         {
-            "name": "[JavaScript] Storage Type",
+            "name": "[JavaScript] Storage Type (const, var, let)",
             "scope": "storage.type.js, storage.type.ts",
-            "foreground": "var(magenta)"
+            "foreground": "var(pink)"
         },
         {
             "name": "[JavaScript] Constructor",
@@ -251,6 +281,61 @@
             "foreground": "var(orange)"
         },
         {
+            "name": "[JavaScript] Null",
+            "scope": "constant.language.null.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Undefined",
+            "scope": "constant.language.undefined.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Boolean",
+            "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation Section",
+            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation String",
+            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
+            "foreground": "var(blue)"
+        },
+        {
             "name": "[Markdown] Deleted",
             "scope": "markup.deleted",
             "foreground": "var(red)"
@@ -328,76 +413,6 @@
             "name": "[Markdown] Punctuation",
             "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
             "foreground": "var(magenta)"
-        },
-        {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.other.template, keyword.other.substitution",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Tag Name",
-            "scope": "text.html.basic entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JSON] Key ",
-            "scope": "meta.mapping.key.json",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Value",
-            "scope": "meta.mapping.value.json",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JSON] Constant",
-            "scope": "constant.language.json",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JSON] Character Escape",
-            "scope": "constant.character.escape.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Constant Numeric",
-            "scope": "constant.numeric.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation Section",
-            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation Mapping",
-            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation String",
-            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
-            "foreground": "var(blue)"
         },
         {
             "name": "Comment",

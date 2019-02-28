@@ -44,6 +44,11 @@ class CustomError extends Error {
 }
 
 try {
+    const isNull = null;
+    const isUndefined = undefined;
+    const isWrong = false;
+    const isOk = true;
+
     let cp = new ColorPoint(25, 8, 'green');
     [...document.body.querySelectorAll('[button]')].map(btn => {
         btn.addEventListener('click', () => {
