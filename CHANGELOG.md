@@ -1,7 +1,20 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project
+adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+---
+
+<a name="1.6.0"></a>
+## [1.6.0](https://github.com/mauroreisvieira/meetio/compare/v1.5.1...v1.6.0) (2019-02-24)
+
+### FEATURES
+* Add syntax Improvements for: `HTML`, `CSS`, `JavaScript`, `PHP` & `Markdown` and others.
+* Add customize colors for  `diff.deleted`, `diff.deleted.char`, `diff.inserted`, and `diff.inserted.char` **(build 3193)**.
+
+###BUGFIXES
+* Fix background color of `quick_panel`.
 
 ---
 

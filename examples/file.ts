@@ -8,6 +8,10 @@ class Animal {
     constructor(name, age) {
         this.name = name;
         this.age = age;
+        this.options = {
+            age: this.age,
+            name: this.name,
+        }
 
         for (let i = 0; i < this.age; i++) {
             console.log('Counter:' + i);
@@ -15,7 +19,7 @@ class Animal {
     }
 
     public move(meters: Number): any {
-        if (meters && typeof meters === "number") {
+        if (typeof meters === "number") {
             console.log(this.name + " moved " + meters + "meters.");
         }
         return meters;

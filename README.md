@@ -134,6 +134,7 @@ Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings` and p
     "line_padding_bottom"          : 7,
     "line_padding_top"             : 7,
     "overlay_scroll_bars"          : "enabled",
-    "highlight_modified_tabs"      : "enabled"
+    "highlight_modified_tabs"      : "enabled",
+    "font_face"                    : "Fira Code"
 }
 ```
