@@ -4,16 +4,17 @@
     "variables": {
         "accent"     : "#7dcac4",
         "foreground"  : "#fefefe",
-        "background"  : "#292d3e",
-        "blue"        : "#82aaff",
-        "cyan"        : "#89ddff",
-        "gray"        : "#3d3d3d",
-        "green"       : "#c3e88d",
-        "orange"      : "#f78c6c",
-        "pink"        : "#f07178",
-        "red"         : "#d95757",
-        "magenta"     : "#c2afff",
-        "light-blue"  : "#b2ccd6",
-        "yellow"      : "#ffcb6b"
+        "background" : "#292d3e",
+        "white"      : "#fff",
+        "blue"       : "#82aaff",
+        "cyan"       : "#89ddff",
+        "gray"       : "#3d3d3d",
+        "green"      : "#c3e88d",
+        "orange"     : "#f78c6c",
+        "pink"       : "#f07178",
+        "red"        : "#d95757",
+        "magenta"    : "#c2afff",
+        "light-blue" : "#b2ccd6",
+        "yellow"     : "#ffcb6b"
     }
 }

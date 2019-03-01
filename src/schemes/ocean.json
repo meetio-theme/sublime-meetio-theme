@@ -3,17 +3,18 @@
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
         "accent"     : "#7dcac4",
-        "foreground"  : "#d8dee8",
-        "background"  : "#2e3340",
-        "blue"        : "#6699cc",
-        "cyan"        : "#88c0d0",
-        "gray"        : "#3d3d3d",
-        "green"       : "#a3be8b",
-        "orange"      : "#fb914f",
-        "pink"        : "#f07178",
-        "red"         : "#e15a60",
-        "magenta"     : "#b48dac",
-        "light-blue"  : "#b2ccd6",
-        "yellow"      : "#eacb8a"
+        "foreground" : "#d8dee8",
+        "background" : "#2e3340",
+        "white"      : "#fff",
+        "blue"       : "#6699cc",
+        "cyan"       : "#88c0d0",
+        "gray"       : "#3d3d3d",
+        "green"      : "#a3be8b",
+        "orange"     : "#fb914f",
+        "pink"       : "#f07178",
+        "red"        : "#e15a60",
+        "magenta"    : "#b48dac",
+        "light-blue" : "#b2ccd6",
+        "yellow"     : "#eacb8a"
     }
 }

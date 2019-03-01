@@ -42,13 +42,13 @@
     {
         "name": "Invalid",
         "scope": "invalid",
-        "foreground": "var(foreground)",
-        "background": "var(red)"
+        "foreground": "var(white)",
+        "background": "color(var(red) alpha(0.9))"
     },
     {
         "name": "Deprecated",
         "scope": "invalid.deprecated",
-        "foreground": "var(foreground)",
-        "background": "var(yellow)"
+        "foreground": "var(white)",
+        "background": "color(var(yellow) alpha(0.9))"
     }
 ]
