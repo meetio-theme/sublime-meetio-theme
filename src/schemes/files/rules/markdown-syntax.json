@@ -18,7 +18,7 @@
         "name": "[Markdown] Headings",
         "scope": "markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown",
         "font_style": "bold",
-        "foreground": "var(blue)"
+        "foreground": "var(green)"
     },
     {
         "name": "[Markdown] Links",
@@ -56,7 +56,7 @@
     {
         "name": "[Markdown] Line",
         "scope": "punctuation.definition.thematic-break",
-        "foreground": "var(green)"
+        "foreground": "var(cyan)"
     },
     {
         "name": "[Markdown] Numbered List Bullet",

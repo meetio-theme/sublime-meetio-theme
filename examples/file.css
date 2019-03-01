@@ -1,11 +1,26 @@
+
+
 :root {
-    --color-border-input: #0ea;
+    --accent-color: #0ea;
 };
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
 }
 
+h1, h2, h3 {
+    color: var(--accent-color);
+}
+
+a {
+    color: #000;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: var(--accent-color);
+  }
+}
 .addon-store .pagehead h1 { display: inline-block }
 .addon-store .addon-summary::after { clear: both }
 
@@ -23,6 +38,8 @@ body {
 .addon-store .addons-nav a:hover {
    background-color: red;
 }
+
+
 
 .addon-store .addons-nav a.selected {
     border-bottom-color: #d26911;
@@ -81,7 +98,7 @@ body {
 
 .textfield ~ input[type="text"],
 .textfield ~ input[type="text"] + label {
-    color: var(--color-border-input);
+    color: var(--accent-color);
 }
 
 @keyframes mymove {
