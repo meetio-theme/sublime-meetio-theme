@@ -13,7 +13,7 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 * Add syntax Improvements for: `HTML`, `CSS`, `JavaScript`, `PHP` & `Markdown` and others.
 * Add customize colors for  `diff.deleted`, `diff.deleted.char`, `diff.inserted`, and `diff.inserted.char` **(build 3193)**.
 
-###BUGFIXES
+### BUGFIXES
 * Fix background color of `quick_panel`.
 
 ---
