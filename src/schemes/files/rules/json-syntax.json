@@ -22,7 +22,7 @@
     {
         "name": "[JSON] Constant Numeric",
         "scope": "constant.numeric.json",
-        "foreground": "var(blue)"
+        "foreground": "var(magenta)"
     },
     {
         "name": "[JSON] Punctuation Section",
