@@ -12,29 +12,30 @@
             "background",
             0.5
         ],
-        "button_background_color_hover": "var(color_accent)",
+        "button_background_color_hover": "color(var(color_accent) a(0.2))",
+        "button_icon_file_color": "var(color_accent)",
         "button_min_size": [
             80,
             28
+        ],
+        "panel_control_background_color": [
+            "background",
+            0.98
         ],
         "input_background_color": [
             "background",
             1
         ],
-        "input_border_color": [
-            "foreground",
-            0
-        ],
-        "input_border_size": 0,
-        "panel_control_background_color": [
-            "background",
-            0.94
-        ],
+        "input_border_color": "var(panel_control_background_color)",
+        "input_border_size": 1,
         "sidebar_background_color": [
             "background",
             0.92
         ],
-        "sidebar_icon_folder_color": "var(color_accent)",
+        "sidebar_icon_folder_color": [
+            "foreground",
+            0.8
+        ],
         "sidebar_icon_file_color": "#ffffff",
         "sidebar_icon_folder_expanded_color": "var(color_accent)",
         "sidebar_label_foreground_color": [
@@ -58,9 +59,9 @@
         "tabset_selected_border_color": "var(color_accent)",
         "tabset_selected_border_size": [
             0,
+            2,
             0,
-            0,
-            1
+            0
         ],
         "tabset_diff_color": "var(--bluish)",
         "tabset_diff_italic": true,
@@ -84,7 +85,7 @@
             "background",
             1
         ],
-        "vsc_ignored": "color(var(sidebar_label_foreground_color) alpha(0.5))",
+        "vsc_ignored": "color(var(sidebar_label_foreground_color) a(0.5))",
         "vsc_modified": "var(--bluish)",
         "vsc_staged": "var(--cyanish)",
         "vsc_unmerged": "var(--redish)",
