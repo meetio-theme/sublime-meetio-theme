@@ -62,6 +62,8 @@
             0,
             1
         ],
+        "tabset_diff_color": "var(--bluish)",
+        "tabset_diff_italic": true,
         "tabset_height": 40,
         "tabset_height_large": 52,
         "tabset_min_width": 74,

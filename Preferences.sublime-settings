@@ -7,6 +7,11 @@
   "meetio_tabs_bold"            : false,
   // Show border in selected tab
   "meetio_tabs_selected_border" : false,
+  // Show icon diff in tab
+  "meetio_tabs_diff_icon"       : true,
+  // Show diff tab with different color
+  "meetio_tabs_diff_highlight"  : false,
+
 
   // Set large font in sidebar
   "meetio_sidebar_font_big"     : false,
@@ -20,5 +25,6 @@
   // Enable title bar (OS X 10.10+)
   "meetio_titlebar"             : false,
   // Show icon search in inputs
-  "meetio_input_search_icon"    : false,
+  "meetio_input_search_icon"    : false
+
 }

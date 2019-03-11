@@ -61,6 +61,8 @@
             0,
             1
         ],
+        "tabset_diff_color": "var(--bluish)",
+        "tabset_diff_italic": true,
         "tabset_height": 40,
         "tabset_height_large": 52,
         "tabset_min_width": 74,
@@ -759,54 +761,6 @@
             "layer0.opacity": 1
         },
         {
-            "class": "grid_layout_control",
-            "border_color": "color(var(color_accent) blenda(var(color_black) 30%))",
-            "border_size": 2
-        },
-        {
-            "class": "close_button",
-            "layer0.texture": "Meetio/assets/default/icon_close.png",
-            "layer0.tint": "var(color_accent)",
-            "layer0.opacity": 1,
-            "layer0.inner_margin": [
-                0,
-                0
-            ],
-            "content_margin": [
-                8,
-                7
-            ]
-        },
-        {
-            "class": "close_button",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "hover"
-                    ]
-                }
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "close_button",
-            "attributes": [
-                "dirty"
-            ],
-            "layer0.texture": "Meetio/assets/default/dirty_icon.png",
-            "layer0.tint": "var(color_accent)"
-        },
-        {
-            "class": "close_button",
-            "attributes": [
-                "hover",
-                "dirty"
-            ],
-            "layer0.texture": "Meetio/assets/default/dirty_icon.png",
-            "layer0.tint": "var(color_accent)"
-        },
-        {
             "class": "text_line_control",
             "layer0.opacity": 1,
             "layer0.inner_margin": [
@@ -938,6 +892,11 @@
             "layer0.opacity": 0.8
         },
         {
+            "class": "grid_layout_control",
+            "border_color": "color(var(color_accent) blenda(var(color_black) 30%))",
+            "border_size": 2
+        },
+        {
             "class": "label_control",
             "fg": [
                 "foreground",
@@ -986,6 +945,49 @@
                     "class": "button_control"
                 }
             ]
+        },
+        {
+            "class": "close_button",
+            "layer0.texture": "Meetio/assets/default/icon_close.png",
+            "layer0.tint": "var(color_accent)",
+            "layer0.opacity": 1,
+            "layer0.inner_margin": [
+                0,
+                0
+            ],
+            "content_margin": [
+                8,
+                7
+            ]
+        },
+        {
+            "class": "close_button",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "hover"
+                    ]
+                }
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "close_button",
+            "attributes": [
+                "dirty"
+            ],
+            "layer0.texture": "Meetio/assets/default/dirty_icon.png",
+            "layer0.tint": "var(color_accent)"
+        },
+        {
+            "class": "close_button",
+            "attributes": [
+                "hover",
+                "dirty"
+            ],
+            "layer0.texture": "Meetio/assets/default/dirty_icon.png",
+            "layer0.tint": "var(color_accent)"
         },
         {
             "class": "panel_control",
@@ -1161,6 +1163,101 @@
             ]
         },
         {
+            "class": "mini_quick_panel_row",
+            "layer0.tint": [
+                "background",
+                1
+            ],
+            "layer0.inner_margin": [
+                2,
+                2,
+                2,
+                2
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "attributes": [
+                "selected"
+            ],
+            "layer0.tint": [
+                "foreground",
+                1
+            ]
+        },
+        {
+            "class": "quick_panel",
+            "row_padding": [
+                32,
+                12
+            ],
+            "layer0.tint": [
+                "background",
+                1
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "quick_panel_row",
+            "layer0.opacity": 1
+        },
+        {
+            "class": "quick_panel_row",
+            "layer0.tint": [
+                "background",
+                1
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "quick_panel_row",
+            "attributes": [
+                "selected"
+            ],
+            "layer0.tint": [
+                "foreground",
+                1
+            ],
+            "layer1.opacity": 0
+        },
+        {
+            "class": "quick_panel_label",
+            "fg": "var(color_accent)",
+            "match_fg": "var(color_accent)",
+            "selected_fg": [
+                "background",
+                1
+            ],
+            "selected_match_fg": "var(color_accent)"
+        },
+        {
+            "class": "quick_panel_label",
+            "fg": [
+                "foreground",
+                0.8
+            ],
+            "match_fg": "var(color_accent)",
+            "selected_fg": [
+                "background",
+                1
+            ],
+            "selected_match_fg": "var(color_accent)"
+        },
+        {
+            "class": "quick_panel_path_label",
+            "fg": [
+                "foreground",
+                0.4
+            ],
+            "match_fg": "var(color_accent)",
+            "selected_fg": [
+                "background",
+                1
+            ],
+            "selected_match_fg": "var(color_accent)"
+        },
+        {
             "class": "scroll_area_control",
             "settings": [
                 "overlay_scroll_bars"
@@ -1291,101 +1388,6 @@
                 0,
                 0
             ]
-        },
-        {
-            "class": "mini_quick_panel_row",
-            "layer0.tint": [
-                "background",
-                1
-            ],
-            "layer0.inner_margin": [
-                2,
-                2,
-                2,
-                2
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "mini_quick_panel_row",
-            "attributes": [
-                "selected"
-            ],
-            "layer0.tint": [
-                "foreground",
-                1
-            ]
-        },
-        {
-            "class": "quick_panel",
-            "row_padding": [
-                32,
-                12
-            ],
-            "layer0.tint": [
-                "background",
-                1
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "quick_panel_row",
-            "layer0.opacity": 1
-        },
-        {
-            "class": "quick_panel_row",
-            "layer0.tint": [
-                "background",
-                1
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "quick_panel_row",
-            "attributes": [
-                "selected"
-            ],
-            "layer0.tint": [
-                "foreground",
-                1
-            ],
-            "layer1.opacity": 0
-        },
-        {
-            "class": "quick_panel_label",
-            "fg": "var(color_accent)",
-            "match_fg": "var(color_accent)",
-            "selected_fg": [
-                "background",
-                1
-            ],
-            "selected_match_fg": "var(color_accent)"
-        },
-        {
-            "class": "quick_panel_label",
-            "fg": [
-                "foreground",
-                0.8
-            ],
-            "match_fg": "var(color_accent)",
-            "selected_fg": [
-                "background",
-                1
-            ],
-            "selected_match_fg": "var(color_accent)"
-        },
-        {
-            "class": "quick_panel_path_label",
-            "fg": [
-                "foreground",
-                0.4
-            ],
-            "match_fg": "var(color_accent)",
-            "selected_fg": [
-                "background",
-                1
-            ],
-            "selected_match_fg": "var(color_accent)"
         },
         {
             "class": "sidebar_container",
@@ -1713,6 +1715,7 @@
             "layer1.inner_margin": 8,
             "layer1.opacity": 0,
             "layer2.opacity": 0,
+            "layer3.opacity": 0,
             "content_margin": [
                 8,
                 0,
@@ -1737,6 +1740,23 @@
                 "selected"
             ],
             "layer1.opacity": 1,
+            "tint_index": 1
+        },
+        {
+            "class": "tab_control",
+            "attributes": [
+                "selected",
+                "dirty"
+            ],
+            "layer1.opacity": 1,
+            "settings": [
+                "meetio_tabs_diff_highlight",
+                "highlight_modified_tabs"
+            ],
+            "layer3.opacity": 1,
+            "layer3.inner_margin": "var(tabset_selected_border_size)",
+            "layer3.draw_center": false,
+            "layer3.tint": "var(tabset_diff_color)",
             "tint_index": 1
         },
         {
@@ -1792,6 +1812,18 @@
             "font.italic": true
         },
         {
+            "class": "tab_label",
+            "attributes": [
+                "dirty"
+            ],
+            "settings": [
+                "meetio_tabs_diff_highlight",
+                "highlight_modified_tabs"
+            ],
+            "fg": "var(tabset_diff_color)",
+            "font.italic": "var(tabset_diff_italic)"
+        },
+        {
             "class": "tab_close_button",
             "content_margin": [
                 0,
@@ -1806,6 +1838,7 @@
             "layer0.inner_margin": 0,
             "layer1.texture": "Meetio/assets/default/dirty_icon.png",
             "layer1.tint": "var(color_accent)",
+            "layer1.opacity": 0,
             "layer1.inner_margin": 0
         },
         {
@@ -1855,6 +1888,9 @@
                     ]
                 }
             ],
+            "settings": [
+                "meetio_tabs_diff_icon"
+            ],
             "layer0.opacity": 0,
             "layer1.opacity": 1,
             "content_margin": [
@@ -1871,6 +1907,9 @@
                         "dirty"
                     ]
                 }
+            ],
+            "settings": [
+                "meetio_tabs_diff_icon"
             ],
             "attributes": [
                 "hover"
@@ -1889,6 +1928,9 @@
                     ]
                 }
             ],
+            "settings": [
+                "meetio_tabs_diff_icon"
+            ],
             "layer0.opacity": 0,
             "layer1.opacity": 1
         },
@@ -1902,6 +1944,9 @@
                         "dirty"
                     ]
                 }
+            ],
+            "settings": [
+                "meetio_tabs_diff_icon"
             ],
             "attributes": [
                 "hover"
@@ -1984,19 +2029,6 @@
             ],
             "bg": "var(title_bar_background)",
             "fg": "var(title_bar_foreground_color)"
-        },
-        {
-            "class": "tool_tip_control",
-            "layer0.tint": "var(tooltip_background_color)",
-            "layer0.opacity": 1,
-            "content_margin": [
-                12,
-                8
-            ]
-        },
-        {
-            "class": "tool_tip_label_control",
-            "fg": "var(tooltip_label_foreground_color)"
         },
         {
             "class": "vcs_status_badge",
@@ -2177,6 +2209,19 @@
                 3,
                 1
             ]
+        },
+        {
+            "class": "tool_tip_control",
+            "layer0.tint": "var(tooltip_background_color)",
+            "layer0.opacity": 1,
+            "content_margin": [
+                12,
+                8
+            ]
+        },
+        {
+            "class": "tool_tip_label_control",
+            "fg": "var(tooltip_label_foreground_color)"
         },
         {
             "class": "minimap_control",

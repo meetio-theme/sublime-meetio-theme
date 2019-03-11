@@ -25,6 +25,8 @@
     "tabset_background_color"                 : ["background", 0.92],
     "tabset_selected_border_color"            : "var(color_accent)",
     "tabset_selected_border_size"             : [0, 0, 0, 1],
+    "tabset_diff_color"                       : "var(--bluish)",
+    "tabset_diff_italic"                      : true,
     "tabset_height"                           : 40,
     "tabset_height_large"                     : 52,
     "tabset_min_width"                        : 74,
