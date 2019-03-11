@@ -3,6 +3,7 @@
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
         "accent": "#7dcac4",
+        "caret": "#7dcac4",
         "foreground": "#fefefe",
         "background": "#193448",
         "white": "#fff",
@@ -20,8 +21,8 @@
     "globals": {
         "foreground": "var(foreground)",
         "background": "var(background)",
-        "caret": "var(accent)",
-        "block_caret": "var(accent)",
+        "caret": "var(caret)",
+        "block_caret": "var(caret)",
         "line_highlight": "color(var(foreground) alpha(0.1))",
         "selection": "color(var(light-blue) alpha(0.1))",
         "selection_border": "var(blue)",
@@ -145,170 +146,6 @@
             "foreground": "var(cyan)"
         },
         {
-            "name": "[Diff] Deleted",
-            "scope": "diff.deleted, diff.deleted.char",
-            "background": "color(var(red) alpha(0.08))",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Diff] Insert",
-            "scope": "diff.inserted, diff.inserted.char",
-            "background": "color(var(green) alpha(0.08))",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.other.template, keyword.other.substitution",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Tag Name",
-            "scope": "entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JavaScript] String",
-            "scope": "source.js string, source.ts string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JavaScript] Import",
-            "scope": "meta.import.js, meta.import.ts",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JavaScript] Import - Export",
-            "scope": "keyword.control.import-export.js, keyword.control.import-export.ts",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JavaScript] Storage Type (const, var, let)",
-            "scope": "storage.type.js, storage.type.ts",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[JavaScript] Constructor",
-            "scope": "meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JavaScript] Object Key",
-            "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Dollar",
-            "scope": "variable.other.dollar.only.js, variable.other.dollar.only.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Sub Methods",
-            "scope": "entity.name.module.js, variable.import.parameter.js, variable.other.class.js",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JavaScript] Function",
-            "scope": "variable.function, variable.annotation, entity.name.function",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Class",
-            "scope": "storage.type.class.js",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JavaScript] Function",
-            "scope": "meta.class-method.js entity.name.function.js, variable.function",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] New",
-            "scope": "keyword.operator.word.new.js, keyword.operator.word.new.ts",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JavaScript] Language Library",
-            "scope": "variable.language",
-            "foreground": "var(red)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[JavaScript] Library",
-            "scope": "support.function, support.macro",
-            "foreground": "var(blue)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[JavaScript] Support",
-            "scope": "support.type, support.class",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JavaScript] Support",
-            "scope": "keyword.control.flow.js, keyword.control.flow.ts",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JavaScript] Parameter",
-            "scope": "variable.parameter.function.js, variable.parameter.function.ts",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Try Catch",
-            "scope": "keyword.control.trycatch.js, keyword.control.trycatch.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Loop",
-            "scope": "keyword.control.loop.js, keyword.control.loop.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Conditional",
-            "scope": "keyword.control.conditional.js, keyword.control.conditional.ts, keyword.control.switch.js, keyword.control.switch.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Entity Name",
-            "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label)",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Null",
-            "scope": "constant.language.null.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Undefined",
-            "scope": "constant.language.undefined.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Boolean",
-            "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
-            "foreground": "var(orange)"
-        },
-        {
             "name": "[JSON] Key ",
             "scope": "meta.mapping.key.json string.quoted.double.json",
             "foreground": "var(red)"
@@ -347,6 +184,48 @@
             "name": "[JSON] Punctuation String",
             "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
             "foreground": "var(blue)"
+        },
+        {
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.other.template, keyword.other.substitution",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[Diff] Deleted",
+            "scope": "diff.deleted, diff.deleted.char",
+            "background": "color(var(red) alpha(0.08))",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Diff] Insert",
+            "scope": "diff.inserted, diff.inserted.char",
+            "background": "color(var(green) alpha(0.08))",
+            "foreground": "var(green)"
         },
         {
             "name": "[Markdown] Deleted",
@@ -485,6 +364,133 @@
             "background": "color(var(yellow) alpha(0.9))"
         },
         {
+            "name": "[JavaScript] String",
+            "scope": "source.js string, source.ts string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JavaScript] Import",
+            "scope": "meta.import.js, meta.import.ts",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JavaScript] Import - Export",
+            "scope": "keyword.control.import-export.js, keyword.control.import-export.ts",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JavaScript] Storage Type (const, var, let)",
+            "scope": "storage.type.js, storage.type.ts",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[JavaScript] Constructor",
+            "scope": "meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JavaScript] Object Key",
+            "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Dollar",
+            "scope": "variable.other.dollar.only.js, variable.other.dollar.only.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Sub Methods",
+            "scope": "entity.name.module.js, variable.import.parameter.js, variable.other.class.js",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JavaScript] Function",
+            "scope": "variable.function, variable.annotation, entity.name.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Class",
+            "scope": "storage.type.class.js",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JavaScript] Function",
+            "scope": "meta.class-method.js entity.name.function.js, variable.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] New",
+            "scope": "keyword.operator.word.new.js, keyword.operator.word.new.ts",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JavaScript] Language Library",
+            "scope": "variable.language",
+            "foreground": "var(red)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Library",
+            "scope": "support.function, support.macro",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "support.type, support.class",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "keyword.control.flow.js, keyword.control.flow.ts",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JavaScript] Parameter",
+            "scope": "variable.parameter.function.js, variable.parameter.function.ts",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Try Catch",
+            "scope": "keyword.control.trycatch.js, keyword.control.trycatch.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Loop",
+            "scope": "keyword.control.loop.js, keyword.control.loop.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Conditional",
+            "scope": "keyword.control.conditional.js, keyword.control.conditional.ts, keyword.control.switch.js, keyword.control.switch.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Entity Name",
+            "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label)",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Null",
+            "scope": "constant.language.null.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Undefined",
+            "scope": "constant.language.undefined.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Boolean",
+            "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[Yaml] Key",
+            "scope": "entity.name.tag.yaml",
+            "foreground": "var(cyan)"
+        },
+        {
             "name": "[PHP] Inherited Class",
             "scope": "entity.other.inherited-class.php",
             "foreground": "var(yellow)"
@@ -512,11 +518,6 @@
         {
             "name": "[PHP] Var",
             "scope": "support.function.var.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Yaml] Key",
-            "scope": "entity.name.tag.yaml",
             "foreground": "var(cyan)"
         }
     ]

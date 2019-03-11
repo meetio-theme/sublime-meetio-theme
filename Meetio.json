@@ -583,6 +583,11 @@
             "layer0.opacity": 1
         },
         {
+            "class": "grid_layout_control",
+            "border_color": "color(var(color_accent) blenda(var(color_black) 30%))",
+            "border_size": 2
+        },
+        {
             "class": "disclosure_button_control",
             "layer0.texture": "Meetio/assets/default/disclosure.png",
             "layer0.tint": [
@@ -891,11 +896,6 @@
             "layer0.opacity": 0.8
         },
         {
-            "class": "grid_layout_control",
-            "border_color": "color(var(color_accent) blenda(var(color_black) 30%))",
-            "border_size": 2
-        },
-        {
             "class": "label_control",
             "fg": [
                 "foreground",
@@ -987,23 +987,6 @@
             ],
             "layer0.texture": "Meetio/assets/default/dirty_icon.png",
             "layer0.tint": "var(color_accent)"
-        },
-        {
-            "class": "progress_bar_control",
-            "layer0.tint": [
-                "background",
-                0.94
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "progress_gauge_control",
-            "layer0.tint": "var(color_accent)",
-            "layer0.opacity": 1,
-            "content_margin": [
-                0,
-                8
-            ]
         },
         {
             "class": "panel_control",
@@ -1160,6 +1143,23 @@
                 "speed": 4,
                 "interpolation": "smoothstep"
             }
+        },
+        {
+            "class": "progress_bar_control",
+            "layer0.tint": [
+                "background",
+                0.94
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "progress_gauge_control",
+            "layer0.tint": "var(color_accent)",
+            "layer0.opacity": 1,
+            "content_margin": [
+                0,
+                8
+            ]
         },
         {
             "class": "mini_quick_panel_row",
@@ -2026,14 +2026,6 @@
             "layer0.opacity": 0.8
         },
         {
-            "class": "title_bar",
-            "settings": [
-                "meetio_titlebar"
-            ],
-            "bg": "var(title_bar_background)",
-            "fg": "var(title_bar_foreground_color)"
-        },
-        {
             "class": "tool_tip_control",
             "layer0.tint": "var(tooltip_background_color)",
             "layer0.opacity": 1,
@@ -2045,6 +2037,14 @@
         {
             "class": "tool_tip_label_control",
             "fg": "var(tooltip_label_foreground_color)"
+        },
+        {
+            "class": "title_bar",
+            "settings": [
+                "meetio_titlebar"
+            ],
+            "bg": "var(title_bar_background)",
+            "fg": "var(title_bar_foreground_color)"
         },
         {
             "class": "vcs_status_badge",

@@ -1,8 +1,8 @@
 {
     "foreground"                  : "var(foreground)",
     "background"                  : "var(background)",
-    "caret"                       : "var(accent)",
-    "block_caret"                 : "var(accent)",
+    "caret"                       : "var(caret)",
+    "block_caret"                 : "var(caret)",
     "line_highlight"              : "color(var(foreground) alpha(0.1))",
     "selection"                   : "color(var(light-blue) alpha(0.1))",
     "selection_border"            : "var(blue)",

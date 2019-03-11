@@ -3,7 +3,8 @@
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
         "accent": "#7dcac4",
-        "foreground": "#40525a",
+        "caret": "#7dcac4",
+        "foreground": "#546171",
         "background": "#fafafa",
         "white": "#fff",
         "blue": "#6182b8",
@@ -20,8 +21,8 @@
     "globals": {
         "foreground": "var(foreground)",
         "background": "var(background)",
-        "caret": "var(accent)",
-        "block_caret": "var(accent)",
+        "caret": "var(caret)",
+        "block_caret": "var(caret)",
         "line_highlight": "color(var(foreground) alpha(0.1))",
         "selection": "color(var(light-blue) alpha(0.1))",
         "selection_border": "var(blue)",
@@ -47,114 +48,89 @@
     },
     "rules": [
         {
-            "foreground": "#151515FF",
-            "background": "#00FF00FF",
-            "scope": "col_00FF00FF"
-        },
-        {
-            "foreground": "#858585FF",
-            "background": "#000033FF",
-            "scope": "col_000033FF"
-        },
-        {
-            "foreground": "#C4C4C4FF",
-            "background": "#444444FF",
-            "scope": "col_444444FF"
-        },
-        {
-            "foreground": "#E5E5E5FF",
-            "background": "#FF00E1FF",
-            "scope": "col_FF00E1FF"
-        },
-        {
-            "foreground": "#6E6E6EFF",
-            "background": "#EEEEEEFF",
-            "scope": "col_EEEEEEFF"
-        },
-        {
-            "foreground": "#DFDFDFFF",
-            "background": "#DD00FFFF",
-            "scope": "col_DD00FFFF"
-        },
-        {
-            "foreground": "#C2C2C2FF",
-            "background": "#DD0000FF",
-            "scope": "col_DD0000FF"
-        },
-        {
-            "foreground": "#808080FF",
-            "background": "#000000FF",
-            "scope": "col_000000FF"
-        },
-        {
-            "foreground": "#F4F4F4FF",
-            "background": "#0F90F4FF",
-            "scope": "col_0F90F4FF"
-        },
-        {
-            "foreground": "#DDDDDDFF",
-            "background": "#0F9024FF",
-            "scope": "col_0F9024FF"
-        },
-        {
-            "foreground": "#E0E0E0FF",
-            "background": "#0F9044FF",
-            "scope": "col_0F9044FF"
-        },
-        {
-            "foreground": "#282828FF",
-            "background": "#FF9044FF",
-            "scope": "col_FF9044FF"
-        },
-        {
-            "foreground": "#D3D3D3FF",
-            "background": "#FF0044FF",
-            "scope": "col_FF0044FF"
-        },
-        {
-            "foreground": "#797979FF",
-            "background": "#FFFF0001",
-            "scope": "col_FFFF0001"
-        },
-        {
-            "foreground": "#E9E9E9FF",
-            "background": "#FF00FFFF",
-            "scope": "col_FF00FFFF"
-        },
-        {
-            "foreground": "#9D9D9DFF",
-            "background": "#0000FFFF",
-            "scope": "col_0000FFFF"
-        },
-        {
-            "foreground": "#616161FF",
-            "background": "#FFFF00FF",
-            "scope": "col_FFFF00FF"
-        },
-        {
-            "foreground": "#CCCCCCFF",
-            "background": "#FF0000FF",
-            "scope": "col_FF0000FF"
-        },
-        {
-            "foreground": "#ffffff",
-            "background": "#000000",
-            "scope": "col_gutter"
-        },
-        {
-            "foreground": "#7F7F7FFF",
-            "background": "#FFFFFFFF",
-            "scope": "col_FFFFFFFF"
-        },
-        {
-            "foreground": "#D4D4D4FF",
-            "background": "#455A64FF",
-            "scope": "col_455A64FF"
+            "foreground": "#FBFBFBFF",
+            "scope": "col_6772E4FF",
+            "background": "#6772E4FF"
         },
         {
             "foreground": "#333333FF",
-            "background": "#80CBC4FF",
-            "scope": "col_80CBC4FF"
+            "scope": "col_80CBC4FF",
+            "background": "#80CBC4FF"
+        },
+        {
+            "foreground": "#D4D4D4FF",
+            "scope": "col_455A64FF",
+            "background": "#455A64FF"
+        },
+        {
+            "foreground": "#656565FF",
+            "scope": "col_00000015",
+            "background": "#00000015"
+        },
+        {
+            "foreground": "#F3F3F3FF",
+            "scope": "col_607A86FF",
+            "background": "#607A86FF"
+        },
+        {
+            "foreground": "#FEFEFEFF",
+            "scope": "col_D95468FF",
+            "background": "#D95468FF"
+        },
+        {
+            "foreground": "#ffffff",
+            "scope": "col_gutter",
+            "background": "#000000"
+        },
+        {
+            "foreground": "#FEFEFEFF",
+            "scope": "col_D26911FF",
+            "background": "#D26911FF"
+        },
+        {
+            "foreground": "#B3B3B3FF",
+            "scope": "col_333333FF",
+            "background": "#333333FF"
+        },
+        {
+            "foreground": "#808080FF",
+            "scope": "col_000000FF",
+            "background": "#000000FF"
+        },
+        {
+            "foreground": "#5D5D5DFF",
+            "scope": "col_DDDDDDFF",
+            "background": "#DDDDDDFF"
+        },
+        {
+            "foreground": "#797979FF",
+            "scope": "col_F9F9F9FF",
+            "background": "#F9F9F9FF"
+        },
+        {
+            "foreground": "#4C4C4CFF",
+            "scope": "col_CCCCCCFF",
+            "background": "#CCCCCCFF"
+        },
+        {
+            "foreground": "#7F7F7FFF",
+            "scope": "col_FFFFFFFF",
+            "background": "#FFFFFFFF"
+        },
+        {
+            "foreground": "#717171FF",
+            "scope": "col_F1F1F1FF",
+            "background": "#F1F1F1FF"
+        },
+        {
+            "foreground": "#1F1F1FFF",
+            "scope": "col_00EEAAFF",
+            "background": "#00EEAAFF"
+        },
+        {
+            "foreground": "#545454FF",
+            "scope": "col_00000026",
+            "background": "#00000026"
         },
         {
             "name": "[CSS] String",
@@ -255,170 +231,6 @@
             "foreground": "var(cyan)"
         },
         {
-            "name": "[Diff] Deleted",
-            "scope": "diff.deleted, diff.deleted.char",
-            "background": "color(var(red) alpha(0.08))",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Diff] Insert",
-            "scope": "diff.inserted, diff.inserted.char",
-            "background": "color(var(green) alpha(0.08))",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.other.template, keyword.other.substitution",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Tag Name",
-            "scope": "entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JavaScript] String",
-            "scope": "source.js string, source.ts string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JavaScript] Import",
-            "scope": "meta.import.js, meta.import.ts",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JavaScript] Import - Export",
-            "scope": "keyword.control.import-export.js, keyword.control.import-export.ts",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JavaScript] Storage Type (const, var, let)",
-            "scope": "storage.type.js, storage.type.ts",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[JavaScript] Constructor",
-            "scope": "meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JavaScript] Object Key",
-            "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Dollar",
-            "scope": "variable.other.dollar.only.js, variable.other.dollar.only.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Sub Methods",
-            "scope": "entity.name.module.js, variable.import.parameter.js, variable.other.class.js",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JavaScript] Function",
-            "scope": "variable.function, variable.annotation, entity.name.function",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Class",
-            "scope": "storage.type.class.js",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JavaScript] Function",
-            "scope": "meta.class-method.js entity.name.function.js, variable.function",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] New",
-            "scope": "keyword.operator.word.new.js, keyword.operator.word.new.ts",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JavaScript] Language Library",
-            "scope": "variable.language",
-            "foreground": "var(red)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[JavaScript] Library",
-            "scope": "support.function, support.macro",
-            "foreground": "var(blue)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[JavaScript] Support",
-            "scope": "support.type, support.class",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JavaScript] Support",
-            "scope": "keyword.control.flow.js, keyword.control.flow.ts",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JavaScript] Parameter",
-            "scope": "variable.parameter.function.js, variable.parameter.function.ts",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Try Catch",
-            "scope": "keyword.control.trycatch.js, keyword.control.trycatch.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Loop",
-            "scope": "keyword.control.loop.js, keyword.control.loop.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Conditional",
-            "scope": "keyword.control.conditional.js, keyword.control.conditional.ts, keyword.control.switch.js, keyword.control.switch.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Entity Name",
-            "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label)",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Null",
-            "scope": "constant.language.null.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Undefined",
-            "scope": "constant.language.undefined.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Boolean",
-            "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
-            "foreground": "var(orange)"
-        },
-        {
             "name": "[JSON] Key ",
             "scope": "meta.mapping.key.json string.quoted.double.json",
             "foreground": "var(red)"
@@ -457,6 +269,48 @@
             "name": "[JSON] Punctuation String",
             "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
             "foreground": "var(blue)"
+        },
+        {
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.other.template, keyword.other.substitution",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[Diff] Deleted",
+            "scope": "diff.deleted, diff.deleted.char",
+            "background": "color(var(red) alpha(0.08))",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Diff] Insert",
+            "scope": "diff.inserted, diff.inserted.char",
+            "background": "color(var(green) alpha(0.08))",
+            "foreground": "var(green)"
         },
         {
             "name": "[Markdown] Deleted",
@@ -595,6 +449,133 @@
             "background": "color(var(yellow) alpha(0.9))"
         },
         {
+            "name": "[JavaScript] String",
+            "scope": "source.js string, source.ts string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JavaScript] Import",
+            "scope": "meta.import.js, meta.import.ts",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JavaScript] Import - Export",
+            "scope": "keyword.control.import-export.js, keyword.control.import-export.ts",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JavaScript] Storage Type (const, var, let)",
+            "scope": "storage.type.js, storage.type.ts",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[JavaScript] Constructor",
+            "scope": "meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JavaScript] Object Key",
+            "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Dollar",
+            "scope": "variable.other.dollar.only.js, variable.other.dollar.only.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Sub Methods",
+            "scope": "entity.name.module.js, variable.import.parameter.js, variable.other.class.js",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JavaScript] Function",
+            "scope": "variable.function, variable.annotation, entity.name.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Class",
+            "scope": "storage.type.class.js",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JavaScript] Function",
+            "scope": "meta.class-method.js entity.name.function.js, variable.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] New",
+            "scope": "keyword.operator.word.new.js, keyword.operator.word.new.ts",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JavaScript] Language Library",
+            "scope": "variable.language",
+            "foreground": "var(red)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Library",
+            "scope": "support.function, support.macro",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "support.type, support.class",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "keyword.control.flow.js, keyword.control.flow.ts",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JavaScript] Parameter",
+            "scope": "variable.parameter.function.js, variable.parameter.function.ts",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Try Catch",
+            "scope": "keyword.control.trycatch.js, keyword.control.trycatch.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Loop",
+            "scope": "keyword.control.loop.js, keyword.control.loop.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Conditional",
+            "scope": "keyword.control.conditional.js, keyword.control.conditional.ts, keyword.control.switch.js, keyword.control.switch.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Entity Name",
+            "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label)",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Null",
+            "scope": "constant.language.null.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Undefined",
+            "scope": "constant.language.undefined.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Boolean",
+            "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[Yaml] Key",
+            "scope": "entity.name.tag.yaml",
+            "foreground": "var(cyan)"
+        },
+        {
             "name": "[PHP] Inherited Class",
             "scope": "entity.other.inherited-class.php",
             "foreground": "var(yellow)"
@@ -622,11 +603,6 @@
         {
             "name": "[PHP] Var",
             "scope": "support.function.var.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Yaml] Key",
-            "scope": "entity.name.tag.yaml",
             "foreground": "var(cyan)"
         }
     ]

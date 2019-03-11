@@ -112,15 +112,12 @@ Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings` and p
         "input_border_size": [0, 0, 0, 1],
         "panel_control_background_color": ["background", 1.0],
         "sidebar_background_color": ["background", 1.0],
-        "sidebar_icon_folder_color": "#607a86",
-        "sidebar_icon_folder_color": "#607a86",
-        "sidebar_label_foreground_color": "#607a86",
         "sidebar_label_selected_background_color": "#00000015",
         "sidebar_label_selected_foreground_color": "var(color_accent)",
         "status_bar_background_color": ["background", 1.0],
         "status_bar_label_foreground_color": "#607a86",
         "tabset_background_color": ["background", 1.0],
-        "tabset_border_size": [0, 0, 0, 1],
+        "tabset_selected_border_size": [0, 0, 0, 1],
         "title_bar_background": ["background", 1.0],
         "title_bar_foreground_color": "#607a86"
     }
