@@ -6,6 +6,20 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ---
 
+<a name="1.7.0"></a>
+## [1.7.0](https://github.com/mauroreisvieira/meetio/compare/v1.6.9...v1.7.0) (2019-03-11)
+
+### FEATURES
+* Add option `meetio_tabs_diff_icon`  to show/hide the icon diff in tab.
+* Add option `meetio_tabs_diff_highlight`  allow possibility to have a different color in modifier tab.
+* Add variable `tabset_diff_color` to change the color of modifier tab.
+* Add variable `tabset_diff_italic` to put the italic in modifier tab.
+
+#### NOTE
+Thanks [abathur](https://github.com/abathur) for you feedback/report on issue [#6](https://github.com/mauroreisvieira/meetio/issues/6).
+
+---
+
 <a name="1.6.0"></a>
 ## [1.6.0](https://github.com/mauroreisvieira/meetio/compare/v1.5.1...v1.6.0) (2019-03-01)
 
