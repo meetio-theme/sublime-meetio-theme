@@ -1,4 +1,4 @@
-<p align="center"><img src="public/meetio.png" width="480"/></p>
+<p align="center"><img src="assets/meetio.png" width="480"/></p>
 
 [![GitHub tag](https://img.shields.io/github/release/mauroreisvieira/meetio.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/releases)
 ![Build Status](https://img.shields.io/travis/mauroreisvieira/meetio/master.svg?style=for-the-badge)
