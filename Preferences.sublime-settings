@@ -12,7 +12,6 @@
   // Show diff tab with different color
   "meetio_tabs_diff_highlight"  : false,
 
-
   // Set large font in sidebar
   "meetio_sidebar_font_big"     : false,
   // Set compact sidebar
