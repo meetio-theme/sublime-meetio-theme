@@ -15,6 +15,10 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 * Add variable `tabset_diff_color` to change the color of modifier tab.
 * Add variable `tabset_diff_italic` to put the italic in modifier tab.
 
+### BUGFIXES
+* Fix `input_background_color` variable to change the color in correct place.
+* Fix `button_background_color_hover` variable, to use the correct color instead of opacity.
+
 #### NOTE
 Thanks [abathur](https://github.com/abathur) for you feedback/report on issue [#6](https://github.com/mauroreisvieira/meetio/issues/6).
 
