@@ -15,7 +15,6 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "settings": ["meetio_tabs_diff_highlight", "highlight_modified_tabs"],
         "layer0.texture": "Meetio/assets/default/dirty_icon.png",
         "layer0.tint": "var(color_accent)"
     },
