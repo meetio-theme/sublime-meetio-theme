@@ -4,8 +4,8 @@
         "layer0.texture": "Meetio/assets/default/icon_close.png",
         "layer0.tint": "var(color_accent)",
         "layer0.opacity": 1,
-        "layer0.inner_margin": [0, 0],
-        "content_margin": [8, 7]
+        "layer0.inner_margin": [3, 3],
+        "content_margin": [8, 8]
     },
     {
         "class": "close_button",
@@ -15,6 +15,7 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
+        "settings": ["meetio_tabs_diff_highlight", "highlight_modified_tabs"],
         "layer0.texture": "Meetio/assets/default/dirty_icon.png",
         "layer0.tint": "var(color_accent)"
     },
