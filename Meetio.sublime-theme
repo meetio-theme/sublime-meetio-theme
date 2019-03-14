@@ -22,6 +22,8 @@
             "background",
             0.98
         ],
+        "panel_control_border_color": "var(panel_control_background_color)",
+        "panel_control_border_size": 4,
         "input_background_color": [
             "background",
             1

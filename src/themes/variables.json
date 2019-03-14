@@ -11,6 +11,8 @@
     "button_icon_file_color"                  : "var(color_accent)",
     "button_min_size"                         : [80, 28],
     "panel_control_background_color"          : ["background", 0.98],
+    "panel_control_border_color"              : "var(panel_control_background_color)",
+    "panel_control_border_size"               : 0,
     "input_background_color"                  : ["background", 1],
     "input_border_color"                      : "var(panel_control_background_color)",
     "input_border_size"                       : 1,

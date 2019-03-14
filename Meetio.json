@@ -21,6 +21,8 @@
             "background",
             0.98
         ],
+        "panel_control_border_color": "var(panel_control_background_color)",
+        "panel_control_border_size": 4,
         "input_background_color": [
             "background",
             1
@@ -584,6 +586,19 @@
             ]
         },
         {
+            "class": "dialog",
+            "layer0.tint": [
+                "background",
+                0.94
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "grid_layout_control",
+            "border_color": "var(grid_layout_border_color)",
+            "border_size": "var(grid_layout_border_size)"
+        },
+        {
             "class": "disclosure_button_control",
             "layer0.texture": "Meetio/assets/default/disclosure.png",
             "layer0.tint": [
@@ -763,17 +778,54 @@
             "layer0.opacity": 1
         },
         {
-            "class": "grid_layout_control",
-            "border_color": "var(grid_layout_border_color)",
-            "border_size": "var(grid_layout_border_size)"
+            "class": "label_control",
+            "fg": [
+                "foreground",
+                1
+            ],
+            "font.bold": false
         },
         {
-            "class": "dialog",
-            "layer0.tint": [
-                "background",
-                0.94
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "button_control"
+                }
             ],
-            "layer0.opacity": 1
+            "color": [
+                "foreground",
+                1
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "panel_control"
+                }
+            ],
+            "color": [
+                "foreground",
+                1
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "title_label_control",
+            "fg": [
+                "foreground",
+                1
+            ],
+            "font.size": "var(font_size_huge)"
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "button_control"
+                }
+            ]
         },
         {
             "class": "text_line_control",
@@ -900,56 +952,6 @@
             "layer0.opacity": 0.8
         },
         {
-            "class": "label_control",
-            "fg": [
-                "foreground",
-                1
-            ],
-            "font.bold": false
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "button_control"
-                }
-            ],
-            "color": [
-                "foreground",
-                1
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "panel_control"
-                }
-            ],
-            "color": [
-                "foreground",
-                1
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "title_label_control",
-            "fg": [
-                "foreground",
-                1
-            ],
-            "font.size": "var(font_size_huge)"
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "button_control"
-                }
-            ]
-        },
-        {
             "class": "close_button",
             "layer0.texture": "Meetio/assets/default/icon_close.png",
             "layer0.tint": "var(color_accent)",
@@ -1002,6 +1004,10 @@
                 2
             ],
             "layer0.opacity": 1,
+            "layer2.tint": "var(panel_control_border_color)",
+            "layer2.opacity": 1,
+            "layer2.inner_margin": "var(panel_control_border_size)",
+            "layer2.draw_center": false,
             "content_margin": [
                 6,
                 12,
