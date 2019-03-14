@@ -48,6 +48,41 @@
     },
     "rules": [
         {
+            "foreground": "#7F7F7FFF",
+            "scope": "col_FFFFFFFF",
+            "background": "#FFFFFFFF"
+        },
+        {
+            "foreground": "#ffffff",
+            "scope": "col_gutter",
+            "background": "#000000"
+        },
+        {
+            "foreground": "#313131FF",
+            "scope": "col_74CCCCFF",
+            "background": "#74CCCCFF"
+        },
+        {
+            "foreground": "#F5F5F5FF",
+            "scope": "col_3281E8FF",
+            "background": "#3281E8FF"
+        },
+        {
+            "foreground": "#DBDBDBFF",
+            "scope": "col_394EFFFF",
+            "background": "#394EFFFF"
+        },
+        {
+            "foreground": "#141414FF",
+            "scope": "col_FE6768FF",
+            "background": "#FE6768FF"
+        },
+        {
+            "foreground": "#343434FF",
+            "scope": "col_FFAB24FF",
+            "background": "#FFAB24FF"
+        },
+        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(green)"

@@ -45,6 +45,6 @@
         "parents": [{ "class": "status_bar" }],
         "font.size": "var(font_size_sm)",
         "color": "var(status_bar_label_foreground_color)",
-        "font.bold": false
+        "font.bold": "var(status_bar_label_bold)"
     }
 ]

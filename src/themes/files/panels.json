@@ -3,38 +3,38 @@
         "class": "panel_control",
         "layer0.tint": "var(panel_control_background_color)",
         "layer0.inner_margin": [2, 2, 2, 2],
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 1,
         "content_margin": [6, 12, 6, 12]
     },
     {
         "class": "overlay_control",
         "layer0.texture": "Meetio/assets/default/overlay_bg.png",
         "layer0.inner_margin": [24, 4, 24, 33],
-        "layer0.opacity": 1.0,
-        "layer0.tint": ["background", 1.0],
+        "layer0.opacity": 1,
+        "layer0.tint": "var(panel_control_background_color)",
         "layer1.texture": "Meetio/assets/default/quick_panel_background.png",
         "layer1.inner_margin": [16, 0, 16, 25],
-        "layer1.opacity": 1.0,
-        "layer.tint": ["background", 1.0],
+        "layer1.opacity": 1,
+        "layer.tint": ["background", 1],
         "content_margin": [12, 4, 13, 28]
     },
     {
         "class": "panel_control",
         "parents": [{ "class": "overlay_control" }],
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 1,
         "layer0.inner_margin": [32, 0, 32, 2],
-        "layer0.tint": ["background", 1.0],
+        "layer0.tint": "var(panel_control_background_color)",
         "layer1.inner_margin": [32, 0, 32, 2],
-        "layer1.opacity": 1.0,
+        "layer1.opacity": 1,
         "content_margin": [32, 8, 32, 8]
     },
     {
         "class": "panel_control",
         "parents": [{ "class": "switch_project_window" }],
         "layer0.inner_margin": [32, 0, 32, 2],
-        "layer0.tint": ["background", 1.0],
+        "layer0.tint": "var(panel_control_background_color)",
         "layer1.inner_margin": [32, 0, 32, 2],
-        "layer1.tint": ["background", 1.0],
+        "layer1.tint": "var(panel_control_background_color)",
         "content_margin": [32, 8, 32, 8]
     },
     {

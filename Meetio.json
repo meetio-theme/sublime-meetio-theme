@@ -27,6 +27,12 @@
         ],
         "input_border_color": "var(panel_control_background_color)",
         "input_border_size": 1,
+        "input_border_margin": [
+            12,
+            8,
+            12,
+            8
+        ],
         "sidebar_background_color": [
             "background",
             0.92
@@ -51,6 +57,7 @@
         ],
         "status_bar_background_color": "color(var(color_accent) blenda(var(color_black) 30%))",
         "status_bar_label_foreground_color": "var(color_white)",
+        "status_bar_label_bold": false,
         "tabset_background_color": [
             "background",
             0.92
@@ -84,6 +91,8 @@
             "background",
             1
         ],
+        "grid_layout_border_color": "color(var(color_accent) blenda(var(color_black) 30%))",
+        "grid_layout_border_size": 2,
         "vsc_ignored": "color(var(sidebar_label_foreground_color) a(0.5))",
         "vsc_modified": "var(--bluish)",
         "vsc_staged": "var(--cyanish)",
@@ -754,17 +763,17 @@
             "layer0.opacity": 1
         },
         {
+            "class": "grid_layout_control",
+            "border_color": "var(grid_layout_border_color)",
+            "border_size": "var(grid_layout_border_size)"
+        },
+        {
             "class": "dialog",
             "layer0.tint": [
                 "background",
                 0.94
             ],
             "layer0.opacity": 1
-        },
-        {
-            "class": "grid_layout_control",
-            "border_color": "color(var(color_accent) blenda(var(color_black) 30%))",
-            "border_size": 2
         },
         {
             "class": "text_line_control",
@@ -781,12 +790,7 @@
             "layer1.inner_margin": "var(input_border_size)",
             "layer1.draw_center": false,
             "tint_index": 1,
-            "content_margin": [
-                12,
-                8,
-                12,
-                8
-            ],
+            "content_margin": "var(input_border_margin)",
             "color_scheme_tint": "var(input_background_color)"
         },
         {
@@ -1015,10 +1019,7 @@
                 33
             ],
             "layer0.opacity": 1,
-            "layer0.tint": [
-                "background",
-                1
-            ],
+            "layer0.tint": "var(panel_control_background_color)",
             "layer1.texture": "Meetio/assets/default/quick_panel_background.png",
             "layer1.inner_margin": [
                 16,
@@ -1052,10 +1053,7 @@
                 32,
                 2
             ],
-            "layer0.tint": [
-                "background",
-                1
-            ],
+            "layer0.tint": "var(panel_control_background_color)",
             "layer1.inner_margin": [
                 32,
                 0,
@@ -1083,20 +1081,14 @@
                 32,
                 2
             ],
-            "layer0.tint": [
-                "background",
-                1
-            ],
+            "layer0.tint": "var(panel_control_background_color)",
             "layer1.inner_margin": [
                 32,
                 0,
                 32,
                 2
             ],
-            "layer1.tint": [
-                "background",
-                1
-            ],
+            "layer1.tint": "var(panel_control_background_color)",
             "content_margin": [
                 32,
                 8,
@@ -1255,6 +1247,138 @@
                 1
             ],
             "selected_match_fg": "var(color_accent)"
+        },
+        {
+            "class": "scroll_area_control",
+            "settings": [
+                "overlay_scroll_bars"
+            ],
+            "overlay": true
+        },
+        {
+            "class": "scroll_area_control",
+            "settings": [
+                "!overlay_scroll_bars"
+            ],
+            "overlay": false
+        },
+        {
+            "class": "scroll_area_control",
+            "parents": [
+                {
+                    "class": "sidebar_container"
+                }
+            ],
+            "content_margin": [
+                0,
+                10,
+                0,
+                10
+            ]
+        },
+        {
+            "class": "scroll_bar_control",
+            "layer0.opacity": 1,
+            "content_margin": 4,
+            "tint_index": 0
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": [
+                "overlay_scroll_bars"
+            ],
+            "layer0.opacity": 0
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": [
+                "!overlay_scroll_bars"
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "scroll_track_control",
+            "layer0.texture": "Meetio/assets/default/scroll_bar.png",
+            "layer0.opacity": 1,
+            "layer0.inner_margin": 2,
+            "content_margin": [
+                4,
+                4,
+                3,
+                4
+            ]
+        },
+        {
+            "class": "puck_control",
+            "layer0.texture": "Meetio/assets/default/scroll_puck.png",
+            "layer0.opacity": 1,
+            "layer0.inner_margin": 2,
+            "content_margin": [
+                0,
+                12
+            ]
+        },
+        {
+            "class": "scroll_corner_control",
+            "layer0.opacity": 1,
+            "tint_index": 0
+        },
+        {
+            "class": "scroll_track_control",
+            "attributes": [
+                "horizontal"
+            ],
+            "layer0.texture": "Meetio/assets/default/scroll_bar_horiz.png",
+            "content_margin": [
+                4,
+                4,
+                4,
+                3
+            ]
+        },
+        {
+            "class": "puck_control",
+            "attributes": [
+                "horizontal"
+            ],
+            "layer0.texture": "Meetio/assets/default/scroll_puck_horiz.png",
+            "content_margin": [
+                12,
+                0
+            ]
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [
+                {
+                    "class": "sidebar_container"
+                }
+            ],
+            "layer0.opacity": 0
+        },
+        {
+            "class": "scroll_corner_control",
+            "parents": [
+                {
+                    "class": "sidebar_container"
+                }
+            ],
+            "layer0.opacity": 0
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [
+                {
+                    "class": "overlay_control"
+                }
+            ],
+            "layer0.opacity": 0,
+            "content_margin": [
+                4,
+                0,
+                0,
+                0
+            ]
         },
         {
             "class": "sidebar_container",
@@ -1457,138 +1581,6 @@
             "font.italic": false
         },
         {
-            "class": "scroll_area_control",
-            "settings": [
-                "overlay_scroll_bars"
-            ],
-            "overlay": true
-        },
-        {
-            "class": "scroll_area_control",
-            "settings": [
-                "!overlay_scroll_bars"
-            ],
-            "overlay": false
-        },
-        {
-            "class": "scroll_area_control",
-            "parents": [
-                {
-                    "class": "sidebar_container"
-                }
-            ],
-            "content_margin": [
-                0,
-                10,
-                0,
-                10
-            ]
-        },
-        {
-            "class": "scroll_bar_control",
-            "layer0.opacity": 1,
-            "content_margin": 4,
-            "tint_index": 0
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": [
-                "overlay_scroll_bars"
-            ],
-            "layer0.opacity": 0
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": [
-                "!overlay_scroll_bars"
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "scroll_track_control",
-            "layer0.texture": "Meetio/assets/default/scroll_bar.png",
-            "layer0.opacity": 1,
-            "layer0.inner_margin": 2,
-            "content_margin": [
-                4,
-                4,
-                3,
-                4
-            ]
-        },
-        {
-            "class": "puck_control",
-            "layer0.texture": "Meetio/assets/default/scroll_puck.png",
-            "layer0.opacity": 1,
-            "layer0.inner_margin": 2,
-            "content_margin": [
-                0,
-                12
-            ]
-        },
-        {
-            "class": "scroll_corner_control",
-            "layer0.opacity": 1,
-            "tint_index": 0
-        },
-        {
-            "class": "scroll_track_control",
-            "attributes": [
-                "horizontal"
-            ],
-            "layer0.texture": "Meetio/assets/default/scroll_bar_horiz.png",
-            "content_margin": [
-                4,
-                4,
-                4,
-                3
-            ]
-        },
-        {
-            "class": "puck_control",
-            "attributes": [
-                "horizontal"
-            ],
-            "layer0.texture": "Meetio/assets/default/scroll_puck_horiz.png",
-            "content_margin": [
-                12,
-                0
-            ]
-        },
-        {
-            "class": "scroll_bar_control",
-            "parents": [
-                {
-                    "class": "sidebar_container"
-                }
-            ],
-            "layer0.opacity": 0
-        },
-        {
-            "class": "scroll_corner_control",
-            "parents": [
-                {
-                    "class": "sidebar_container"
-                }
-            ],
-            "layer0.opacity": 0
-        },
-        {
-            "class": "scroll_bar_control",
-            "parents": [
-                {
-                    "class": "overlay_control"
-                }
-            ],
-            "layer0.opacity": 0,
-            "content_margin": [
-                4,
-                0,
-                0,
-                0
-            ]
-        },
-        {
             "class": "status_bar",
             "content_margin": [
                 10,
@@ -1660,7 +1652,7 @@
             ],
             "font.size": "var(font_size_sm)",
             "color": "var(status_bar_label_foreground_color)",
-            "font.bold": false
+            "font.bold": "var(status_bar_label_bold)"
         },
         {
             "class": "tabset_control",
@@ -2231,7 +2223,7 @@
             "settings": [
                 "always_show_minimap_viewport"
             ],
-            "viewport_color": "color(var(color_accent) alpha(0.2))",
+            "viewport_color": "color(var(color_accent) a(0.2))",
             "viewport_opacity": 0.5
         },
         {

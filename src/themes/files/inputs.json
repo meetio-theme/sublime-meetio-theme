@@ -9,7 +9,7 @@
         "layer1.inner_margin": "var(input_border_size)",
         "layer1.draw_center": false,
         "tint_index": 1,
-        "content_margin": [12, 8, 12, 8],
+        "content_margin": "var(input_border_margin)",
         "color_scheme_tint": "var(input_background_color)"
     },
     {
