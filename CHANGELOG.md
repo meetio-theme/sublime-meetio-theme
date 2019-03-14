@@ -10,7 +10,7 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ## [1.7.1](https://github.com/mauroreisvieira/meetio/compare/v1.7.0...v1.7.1) (2019-03-14)
 
 ### BUGFIXES
-* Fix color of lighter scheme.
+* Fix variables on panel and status bar.
 
 ---
 
