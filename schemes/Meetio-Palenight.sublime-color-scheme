@@ -48,6 +48,26 @@
     },
     "rules": [
         {
+            "foreground": "#ffffff",
+            "scope": "col_gutter",
+            "background": "#000000"
+        },
+        {
+            "foreground": "#7F7F7FFF",
+            "scope": "col_FFFFFFFF",
+            "background": "#FFFFFFFF"
+        },
+        {
+            "foreground": "#101010FF",
+            "scope": "col_6495EDFF",
+            "background": "#6495EDFF"
+        },
+        {
+            "foreground": "#212121FF",
+            "scope": "col_F08080FF",
+            "background": "#F08080FF"
+        },
+        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(green)"
