@@ -93,6 +93,7 @@
             0,
             4
         ],
+        "tabset_font_size": "var(font_size_sm)",
         "tabset_background_color": [
             "background",
             0.92

@@ -79,6 +79,7 @@
     {
         "class": "tab_label",
         "font.face": "var(font_face)",
+        "font.size": "var(tabset_font_size)",
         "fg": ["foreground", 0.5],
         "font.bold": false
     },

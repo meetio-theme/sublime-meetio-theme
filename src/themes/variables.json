@@ -39,6 +39,7 @@
     "status_bar_label_foreground_color"         : "var(color_white)",
     "status_bar_label_bold"                     : false,
     "status_bar_margin"                         : [10, 4, 0, 4],
+    "tabset_font_size"                          : "var(font_size_sm)",
     "tabset_background_color"                   : ["background", 0.92],
     "tabset_selected_border_color"              : "var(color_accent)",
     "tabset_selected_border_size"               : [0, 2, 0, 0],
