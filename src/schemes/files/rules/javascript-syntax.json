@@ -45,7 +45,7 @@
         "foreground": "var(blue)"
     },
     {
-        "name": "[JavaScript] Class",
+        "name": "[JavaScript] Storage",
         "scope": "storage.type.class.js",
         "foreground": "var(red)"
     },

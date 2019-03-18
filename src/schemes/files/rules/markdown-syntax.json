@@ -33,8 +33,13 @@
     },
     {
         "name": "[Markdown] Link Description",
-        "scope": "entity.name.reference.link.markdown, string.other.link.description.title.markdown",
-        "foreground": "var(magenta)"
+        "scope": "markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.description.markdown, meta.block-level.markdown markup.quote.markdown meta.link.inline.description.markdown",
+        "foreground": "var(yellow)"
+    },
+    {
+        "name": "[Markdown] Image Inline",
+        "scope": "meta.paragraph.markdown meta.link.inline.description.markdown meta.image.inline.description.markdown, meta.paragraph.markdown meta.image.inline.description.markdown",
+        "foreground": "var(orange)"
     },
     {
         "name": "[Markdown] Bold",
@@ -64,23 +69,23 @@
         "foreground": "var(green)"
     },
     {
-        "name": "[Markdown] Blockquote",
-        "scope": "markup.quote punctuation.definition.blockquote, markup.list punctuation.definition.list_item",
-        "foreground": "var(magenta)"
-    },
-    {
         "name": "[Markdown] Code Inline",
         "scope": "markup.raw.inline",
         "background": "color(var(blue) alpha(0.05))"
     },
     {
         "name": "[Markdown] Code Block",
-        "scope": "markup.raw.block.markdown",
+        "scope": "meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm, meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm, meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
         "background": "color(var(blue) alpha(0.05))"
     },
     {
         "name": "[Markdown] Punctuation",
         "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
         "foreground": "var(magenta)"
+    },
+    {
+        "name": "[Markdown] Blockquotes",
+        "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
+        "font_style": "italic"
     }
 ]

@@ -49,10 +49,13 @@
         "panel_row_match_foreground_color": "var(color_accent)",
         "panel_row_selected_match_foreground_color": "var(color_accent)",
         "input_background_color": [
+            "foreground",
+            0.05
+        ],
+        "input_border_color": [
             "background",
             1
         ],
-        "input_border_color": "var(panel_control_background_color)",
         "input_border_size": 1,
         "input_border_margin": [
             12,
@@ -101,7 +104,7 @@
         "tabset_selected_border_color": "var(color_accent)",
         "tabset_selected_border_size": [
             0,
-            2,
+            1,
             0,
             0
         ],
