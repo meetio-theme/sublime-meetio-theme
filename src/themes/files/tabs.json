@@ -80,7 +80,7 @@
         "class": "tab_label",
         "font.face": "var(font_face)",
         "font.size": "var(tabset_font_size)",
-        "fg": ["foreground", 0.5],
+        "fg": "var(tabset_foreground_color)",
         "font.bold": false
     },
     {
@@ -91,7 +91,7 @@
     {
         "class": "tab_label",
         "parents": [{ "class": "tab_control", "attributes": ["selected"] }],
-        "fg": ["foreground", 1.0]
+        "fg": "var(tabset_selected_foreground_color)"
     },
     {
         "class": "tab_label",

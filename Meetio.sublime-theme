@@ -97,6 +97,10 @@
             4
         ],
         "tabset_font_size": "var(font_size_sm)",
+        "tabset_foreground_color": [
+            "foreground",
+            0.5
+        ],
         "tabset_background_color": [
             "background",
             0.92
@@ -107,6 +111,10 @@
             1,
             0,
             0
+        ],
+        "tabset_selected_foreground_color": [
+            "foreground",
+            1
         ],
         "tabset_diff_color": "var(--bluish)",
         "tabset_diff_italic": true,
