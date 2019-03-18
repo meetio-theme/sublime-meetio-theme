@@ -6,6 +6,20 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ---
 
+<a name="1.8.0"></a>
+## [1.8.0](https://github.com/mauroreisvieira/meetio/compare/v1.7.1...v1.8.0) (2019-03-14)
+
+### FEATURES
+* Add variable `panel_row_padding`.
+* Add variable `panel_row_background_color`.
+* Add variable `panel_row_foreground_color`.
+* Add variable `panel_row_selected_background_color`.
+* Add variable `panel_row_selected_foreground_color`.
+* Add variable `panel_row_match_foreground_color`.
+* Add variable `panel_row_selected_match_foreground_color`.
+
+---
+
 <a name="1.7.1"></a>
 ## [1.7.1](https://github.com/mauroreisvieira/meetio/compare/v1.7.0...v1.7.1) (2019-03-14)
 
