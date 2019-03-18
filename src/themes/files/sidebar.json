@@ -46,7 +46,8 @@
         "class": "sidebar_heading",
         "color": ["foreground", 0.4],
         "font.bold": true,
-        "font.size": "var(font_size_sm)"
+        "font.size": "var(sidebar_heading_font_size)",
+        "font.face": "var(font_face)"
     },
     {
         "class": "sidebar_heading",
@@ -58,7 +59,8 @@
     {
         "class": "sidebar_label",
         "color": "var(sidebar_label_foreground_color)",
-        "font.size": "var(font_size_md)",
+        "font.size": "var(sidebar_label_font_size)",
+        "font.face": "var(font_face)",
         "font.bold": false,
         "font.italic": false
     },

@@ -8,6 +8,7 @@
         "font_size_md": 12,
         "font_size_lg": 14,
         "font_size_huge": 24,
+        "font_face": "system",
         "button_background_color": [
             "background",
             0.5
@@ -24,6 +25,11 @@
         ],
         "panel_control_border_color": "var(panel_control_background_color)",
         "panel_control_border_size": 0,
+        "panel_row_padding": [
+            32,
+            12
+        ],
+        "panel_row_font_size": "var(font_size_md)",
         "panel_row_background_color": [
             "background",
             1
@@ -42,10 +48,6 @@
         ],
         "panel_row_match_foreground_color": "var(color_accent)",
         "panel_row_selected_match_foreground_color": "var(color_accent)",
-        "panel_row_padding": [
-            32,
-            12
-        ],
         "input_background_color": [
             "background",
             1
@@ -68,6 +70,8 @@
         ],
         "sidebar_icon_file_color": "#ffffff",
         "sidebar_icon_folder_expanded_color": "var(color_accent)",
+        "sidebar_heading_font_size": "var(font_size_sm)",
+        "sidebar_label_font_size": "var(font_size_md)",
         "sidebar_label_foreground_color": [
             "foreground",
             0.8
@@ -83,6 +87,12 @@
         "status_bar_background_color": "color(var(color_accent) blenda(var(color_black) 30%))",
         "status_bar_label_foreground_color": "var(color_white)",
         "status_bar_label_bold": false,
+        "status_bar_margin": [
+            10,
+            4,
+            0,
+            4
+        ],
         "tabset_background_color": [
             "background",
             0.92

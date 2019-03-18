@@ -10,6 +10,10 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ## [1.8.0](https://github.com/mauroreisvieira/meetio/compare/v1.7.1...v1.8.0) (2019-03-14)
 
 ### FEATURES
+* Add option `meetio_status_badges` show/hide status badges in status bar.
+* Add variable `font_face`.
+* Add variable `sidebar_label_font_size`.
+* Add variable `panel_row_font_size`.
 * Add variable `panel_row_padding`.
 * Add variable `panel_row_background_color`.
 * Add variable `panel_row_foreground_color`.
