@@ -33,7 +33,7 @@
     },
     {
         "name": "[Markdown] Link Description",
-        "scope": "markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.description.markdown, meta.block-level.markdown markup.quote.markdown meta.link.inline.description.markdown",
+        "scope": "markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.description.markdown, meta.block-level.markdown markup.quote.markdown meta.link.inline.description.markdown, text.html.markdown meta.paragraph.markdown meta.link.inline.description.markdown",
         "foreground": "var(yellow)"
     },
     {
