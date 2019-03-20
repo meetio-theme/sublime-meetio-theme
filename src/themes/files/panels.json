@@ -56,7 +56,7 @@
         "layer0.texture": "Meetio/assets/default/icon_close.png",
         "layer0.tint": "var(color_accent)",
         "layer0.opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
-        "layer1.opacity": 0.0,
+        "layer1.opacity": 0,
         "content_margin": [0, 0]
     },
     {

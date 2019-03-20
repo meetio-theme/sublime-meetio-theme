@@ -32,8 +32,8 @@
         ],
         "panel_path_row_font_italic": true,
         "panel_row_padding": [
-            32,
-            12
+            30,
+            10
         ],
         "panel_row_font_size": "var(font_size_md)",
         "panel_row_background_color": [
@@ -93,6 +93,13 @@
             "foreground",
             0.9
         ],
+        "sidebar_label_selected_border_size": [
+            2,
+            0,
+            0,
+            0
+        ],
+        "sidebar_label_selected_border_color": "var(color_accent)",
         "status_bar_background_color": "color(var(color_accent) blenda(var(color_black) 30%))",
         "status_bar_label_foreground_color": "var(color_white)",
         "status_bar_label_bold": false,
@@ -114,7 +121,7 @@
         "tabset_selected_border_color": "var(color_accent)",
         "tabset_selected_border_size": [
             0,
-            1,
+            2,
             0,
             0
         ],

@@ -48,6 +48,11 @@
     },
     "rules": [
         {
+            "foreground": "#CCCCCCFF",
+            "background": "#FF0000FF",
+            "scope": "col_FF0000FF"
+        },
+        {
             "foreground": "#ffffff",
             "background": "#000000",
             "scope": "col_gutter"
