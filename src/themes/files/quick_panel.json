@@ -13,7 +13,7 @@
     {
         "class": "quick_panel",
         "row_padding": "var(panel_row_padding)",
-        "layer0.tint": ["background", 1.0],
+        "layer0.tint": ["background", 1],
         "layer0.opacity": 1
     },
     {
@@ -42,8 +42,9 @@
     {
         "class": "quick_panel_path_label",
         "font.face": "var(font_face)",
-        "font.size": "var(panel_row_font_size)",
-        "fg": "var(panel_row_foreground_color)",
+        "font.size": "var(panel_path_row_font_size)",
+        "font.italic": "var(panel_path_row_font_italic)",
+        "fg": "var(panel_path_row_foreground_color)",
         "match_fg": "var(panel_row_match_foreground_color)",
         "selected_fg": "var(panel_row_selected_foreground_color)",
         "selected_match_fg": "var(panel_row_selected_match_foreground_color)"

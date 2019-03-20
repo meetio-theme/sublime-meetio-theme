@@ -25,6 +25,12 @@
         ],
         "panel_control_border_color": "var(panel_control_background_color)",
         "panel_control_border_size": 0,
+        "panel_path_row_font_size": "var(font_size_sm)",
+        "panel_path_row_foreground_color": [
+            "foreground",
+            0.5
+        ],
+        "panel_path_row_font_italic": true,
         "panel_row_padding": [
             32,
             12
@@ -36,7 +42,7 @@
         ],
         "panel_row_foreground_color": [
             "foreground",
-            0.5
+            1
         ],
         "panel_row_selected_background_color": [
             "foreground",

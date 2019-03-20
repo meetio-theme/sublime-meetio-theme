@@ -48,6 +48,26 @@
     },
     "rules": [
         {
+            "foreground": "#ffffff",
+            "background": "#000000",
+            "scope": "col_gutter"
+        },
+        {
+            "foreground": "#333333FF",
+            "background": "#80CBC4FF",
+            "scope": "col_80CBC4FF"
+        },
+        {
+            "foreground": "#D4D4D4FF",
+            "background": "#455A64FF",
+            "scope": "col_455A64FF"
+        },
+        {
+            "foreground": "#7F7F7FFF",
+            "background": "#FFFFFFFF",
+            "scope": "col_FFFFFFFF"
+        },
+        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(green)"
@@ -146,6 +166,18 @@
             "foreground": "var(cyan)"
         },
         {
+            "name": "[Diff] Deleted",
+            "scope": "diff.deleted, diff.deleted.char",
+            "background": "color(var(red) alpha(0.08))",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Diff] Insert",
+            "scope": "diff.inserted, diff.inserted.char",
+            "background": "color(var(green) alpha(0.08))",
+            "foreground": "var(green)"
+        },
+        {
             "name": "[HTML] String",
             "scope": "text.html.basic string",
             "foreground": "var(green)"
@@ -174,107 +206,6 @@
             "name": "[HTML] Tag Attribute",
             "scope": "text.html.basic entity.other.attribute-name",
             "foreground": "var(magenta)"
-        },
-        {
-            "name": "[Diff] Deleted",
-            "scope": "diff.deleted, diff.deleted.char",
-            "background": "color(var(red) alpha(0.08))",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Diff] Insert",
-            "scope": "diff.inserted, diff.inserted.char",
-            "background": "color(var(green) alpha(0.08))",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markdown] Deleted",
-            "scope": "markup.deleted",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Markdown] Inserted",
-            "scope": "markup.inserted",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markdown] Changed",
-            "scope": "markup.changed",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[Markdown] Headings",
-            "scope": "markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown",
-            "font_style": "bold",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markdown] Links",
-            "scope": "string.other.link, markup.underline.link",
-            "font_style": "italic",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[Markdown] Link Description",
-            "scope": "entity.name.reference.link.markdown, string.other.link.description.title.markdown, markup.underline.link.image.markdown",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[Markdown] Link Description",
-            "scope": "markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.description.markdown, meta.block-level.markdown markup.quote.markdown meta.link.inline.description.markdown, text.html.markdown meta.paragraph.markdown meta.link.inline.description.markdown",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[Markdown] Image Inline",
-            "scope": "meta.paragraph.markdown meta.link.inline.description.markdown meta.image.inline.description.markdown, meta.paragraph.markdown meta.image.inline.description.markdown",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[Markdown] Bold",
-            "scope": "markup.bold",
-            "font_style": "bold",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Markdown] Italic",
-            "scope": "markup.italic",
-            "font_style": "italic",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Markdown] Bold & Italic",
-            "scope": "markup.italic markup.bold | markup.bold markup.italic",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "[Markdown] Line",
-            "scope": "punctuation.definition.thematic-break",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Markdown] Numbered List Bullet",
-            "scope": "markup.list.numbered.bullet",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markdown] Code Inline",
-            "scope": "markup.raw.inline",
-            "background": "color(var(blue) alpha(0.05))"
-        },
-        {
-            "name": "[Markdown] Code Block",
-            "scope": "meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm, meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm, meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
-            "background": "color(var(blue) alpha(0.05))"
-        },
-        {
-            "name": "[Markdown] Punctuation",
-            "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[Markdown] Blockquotes",
-            "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
-            "font_style": "italic"
         },
         {
             "name": "[JSON] Key ",
@@ -437,6 +368,95 @@
             "name": "[JavaScript] Boolean",
             "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
             "foreground": "var(orange)"
+        },
+        {
+            "name": "[Markdown] Deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Markdown] Inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markdown] Changed",
+            "scope": "markup.changed",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[Markdown] Headings",
+            "scope": "markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown",
+            "font_style": "bold",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markdown] Links",
+            "scope": "string.other.link, markup.underline.link",
+            "font_style": "italic",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[Markdown] Link Description",
+            "scope": "entity.name.reference.link.markdown, string.other.link.description.title.markdown, markup.underline.link.image.markdown",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[Markdown] Link Description",
+            "scope": "markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.description.markdown, meta.block-level.markdown markup.quote.markdown meta.link.inline.description.markdown, text.html.markdown meta.paragraph.markdown meta.link.inline.description.markdown",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[Markdown] Image Inline",
+            "scope": "meta.paragraph.markdown meta.link.inline.description.markdown meta.image.inline.description.markdown, meta.paragraph.markdown meta.image.inline.description.markdown",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[Markdown] Bold",
+            "scope": "markup.bold",
+            "font_style": "bold",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Markdown] Italic",
+            "scope": "markup.italic",
+            "font_style": "italic",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Markdown] Bold & Italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "[Markdown] Line",
+            "scope": "punctuation.definition.thematic-break",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Markdown] Numbered List Bullet",
+            "scope": "markup.list.numbered.bullet",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markdown] Code Inline",
+            "scope": "markup.raw.inline",
+            "background": "color(var(blue) alpha(0.05))"
+        },
+        {
+            "name": "[Markdown] Code Block",
+            "scope": "meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm, meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm, meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
+            "background": "color(var(blue) alpha(0.05))"
+        },
+        {
+            "name": "[Markdown] Punctuation",
+            "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[Markdown] Blockquotes",
+            "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
+            "font_style": "italic"
         },
         {
             "name": "Comment",
