@@ -6,6 +6,7 @@
         "caret": "#ffcc00",
         "foreground": "#cdd3de",
         "background": "#1b2b34",
+        "comments": "color(var(foreground) alpha(0.3))",
         "white": "#fff",
         "blue": "#6699cc",
         "cyan": "#5fb3b3",
@@ -51,6 +52,66 @@
         "tags_foreground": "var(pink)"
     },
     "rules": [
+        {
+            "background": "#F1F1F1FF",
+            "scope": "col_F1F1F1FF",
+            "foreground": "#717171FF"
+        },
+        {
+            "background": "#00000026",
+            "scope": "col_00000026",
+            "foreground": "#A1A1A1FF"
+        },
+        {
+            "background": "#D26911FF",
+            "scope": "col_D26911FF",
+            "foreground": "#FEFEFEFF"
+        },
+        {
+            "background": "#DDDDDDFF",
+            "scope": "col_DDDDDDFF",
+            "foreground": "#5D5D5DFF"
+        },
+        {
+            "background": "#FFFFFFFF",
+            "scope": "col_FFFFFFFF",
+            "foreground": "#7F7F7FFF"
+        },
+        {
+            "background": "#FAFAFAFF",
+            "scope": "col_FAFAFAFF",
+            "foreground": "#7A7A7AFF"
+        },
+        {
+            "background": "#00EEAAFF",
+            "scope": "col_00EEAAFF",
+            "foreground": "#1F1F1FFF"
+        },
+        {
+            "background": "#333333FF",
+            "scope": "col_333333FF",
+            "foreground": "#B3B3B3FF"
+        },
+        {
+            "background": "#000000FF",
+            "scope": "col_000000FF",
+            "foreground": "#808080FF"
+        },
+        {
+            "background": "#CCCCCCFF",
+            "scope": "col_CCCCCCFF",
+            "foreground": "#4C4C4CFF"
+        },
+        {
+            "background": "#000000",
+            "scope": "col_gutter",
+            "foreground": "#ffffff"
+        },
+        {
+            "background": "#229922FF",
+            "scope": "col_229922FF",
+            "foreground": "#E7E7E7FF"
+        },
         {
             "name": "[CSS] String",
             "scope": "source.css string",
@@ -150,18 +211,6 @@
             "foreground": "var(cyan)"
         },
         {
-            "name": "[Diff] Deleted",
-            "scope": "diff.deleted, diff.deleted.char",
-            "background": "color(var(red) alpha(0.08))",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Diff] Insert",
-            "scope": "diff.inserted, diff.inserted.char",
-            "background": "color(var(green) alpha(0.08))",
-            "foreground": "var(green)"
-        },
-        {
             "name": "[HTML] String",
             "scope": "text.html.basic string",
             "foreground": "var(green)"
@@ -190,6 +239,18 @@
             "name": "[HTML] Tag Attribute",
             "scope": "text.html.basic entity.other.attribute-name",
             "foreground": "var(magenta)"
+        },
+        {
+            "name": "[Diff] Deleted",
+            "scope": "diff.deleted, diff.deleted.char",
+            "background": "color(var(red) alpha(0.08))",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Diff] Insert",
+            "scope": "diff.inserted, diff.inserted.char",
+            "background": "color(var(green) alpha(0.08))",
+            "foreground": "var(green)"
         },
         {
             "name": "[JavaScript] String",
@@ -314,46 +375,6 @@
             "foreground": "var(orange)"
         },
         {
-            "name": "[JSON] Key ",
-            "scope": "meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Value",
-            "scope": "meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JSON] Constant",
-            "scope": "constant.language.json",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JSON] Character Escape",
-            "scope": "constant.character.escape.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Constant Numeric",
-            "scope": "constant.numeric.json",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JSON] Punctuation Section",
-            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation Mapping",
-            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation String",
-            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
-            "foreground": "var(blue)"
-        },
-        {
             "name": "[Markdown] Deleted",
             "scope": "markup.deleted",
             "foreground": "var(red)"
@@ -443,9 +464,80 @@
             "font_style": "italic"
         },
         {
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JSON] Punctuation Section",
+            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation String",
+            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[PHP] Inherited Class",
+            "scope": "entity.other.inherited-class.php",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[PHP] Storage",
+            "scope": "storage.modifier.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Function",
+            "scope": "storage.type.function.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Extends",
+            "scope": "storage.modifier.extends.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Var",
+            "scope": "support.function.var.php",
+            "foreground": "var(cyan)"
+        },
+        {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
-            "foreground": "color(var(foreground) alpha(0.3))"
+            "foreground": "var(comments)",
+            "font_style": "italic"
         },
         {
             "name": "Number",
@@ -493,36 +585,6 @@
             "scope": "invalid.deprecated",
             "foreground": "var(white)",
             "background": "color(var(yellow) alpha(0.9))"
-        },
-        {
-            "name": "[PHP] Inherited Class",
-            "scope": "entity.other.inherited-class.php",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[PHP] Storage",
-            "scope": "storage.modifier.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Function",
-            "scope": "storage.type.function.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Extends",
-            "scope": "storage.modifier.extends.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Construct",
-            "scope": "support.function.construct.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Var",
-            "scope": "support.function.var.php",
-            "foreground": "var(cyan)"
         },
         {
             "name": "[Yaml] Key",

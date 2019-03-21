@@ -6,6 +6,7 @@
         "caret"      : "#ffcc00",
         "foreground" : "#cdd3de",
         "background" : "#1b2b34",
+        "comments"   : "color(var(foreground) alpha(0.3))",
         "white"      : "#fff",
         "blue"       : "#6699cc",
         "cyan"       : "#5fb3b3",

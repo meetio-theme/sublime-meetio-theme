@@ -2,7 +2,8 @@
     {
         "name": "Comment",
         "scope": "comment, punctuation.definition.comment",
-        "foreground": "color(var(foreground) alpha(0.3))"
+        "foreground": "var(comments)",
+        "font_style": "italic"
     },
     {
         "name": "Number",

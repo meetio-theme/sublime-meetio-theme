@@ -4,8 +4,9 @@
     "variables": {
         "accent"     : "#7dcac4",
         "caret"      : "#ffcc00",
-        "foreground" : "#fefefe",
-        "background" : "#193448",
+        "foreground" : "#fff",
+        "background" : "#193549",
+        "comments"   : "#0088ff",
         "white"      : "#fff",
         "blue"       : "#40c4fe",
         "cyan"       : "#9effff",

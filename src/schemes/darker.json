@@ -6,6 +6,7 @@
         "caret"      : "#ffcc00",
         "foreground" : "#eeffff",
         "background" : "#212121",
+        "comments"   : "#545454",
         "white"      : "#fff",
         "blue"       : "#82aaff",
         "cyan"       : "#89ddff",
