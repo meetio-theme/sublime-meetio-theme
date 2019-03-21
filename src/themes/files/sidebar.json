@@ -2,7 +2,7 @@
     {
         "class": "sidebar_container",
         "layer0.tint": "var(sidebar_background_color)",
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 1,
         "content_margin": [0, 6, 0, 0]
     },
     {
@@ -28,19 +28,21 @@
     {
         "class": "tree_row",
         "attributes": ["!hover"],
-        "layer0.opacity": 0.0
+        "layer0.opacity": 0,
+        "layer1.opacity": 0
     },
     {
         "class": "tree_row",
         "attributes": ["selectable", "hover"],
         "layer0.tint": "var(sidebar_label_selected_background_color)",
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1,
+        "layer1.opacity": 0
     },
     {
         "class": "tree_row",
         "attributes": ["selected"],
         "layer0.tint": "var(sidebar_label_selected_background_color)",
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 1,
         "layer1.tint": "var(sidebar_label_selected_border_color)",
         "layer1.inner_margin": "var(sidebar_label_selected_border_size)",
         "layer1.draw_center": false,
