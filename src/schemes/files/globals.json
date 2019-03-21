@@ -23,7 +23,6 @@
     "brackets_foreground"         : "var(gray)",
     "bracket_contents_options"    : "underline",
     "bracket_contents_foreground" : "var(cyan)",
-    "tags_foreground"             : "var(magenta)",
     "line_diff_width"             : "3",
     "line_diff_added"             : "color(var(green) alpha(0.6))",
     "line_diff_modified"          : "color(var(blue) alpha(0.6))",

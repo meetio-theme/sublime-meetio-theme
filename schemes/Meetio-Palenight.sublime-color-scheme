@@ -43,12 +43,12 @@
         "brackets_foreground": "var(gray)",
         "bracket_contents_options": "underline",
         "bracket_contents_foreground": "var(cyan)",
-        "tags_foreground": "var(pink)",
         "line_diff_width": "3",
         "line_diff_added": "color(var(green) alpha(0.6))",
         "line_diff_modified": "color(var(blue) alpha(0.6))",
         "line_diff_deleted": "color(var(red) alpha(0.6))",
-        "tags_options": "stippled_underline"
+        "tags_options": "stippled_underline",
+        "tags_foreground": "var(pink)"
     },
     "rules": [
         {
@@ -354,58 +354,6 @@
             "foreground": "var(blue)"
         },
         {
-            "name": "Comment",
-            "scope": "comment, punctuation.definition.comment",
-            "foreground": "color(var(foreground) alpha(0.3))"
-        },
-        {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Constant",
-            "scope": "constant.character, constant.other",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "Variable",
-            "scope": "variable.member",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "Operator",
-            "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "Punctuation",
-            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "Storage",
-            "scope": "storage",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "String",
-            "scope": "string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Invalid",
-            "scope": "invalid",
-            "foreground": "var(white)",
-            "background": "color(var(red) alpha(0.9))"
-        },
-        {
-            "name": "Deprecated",
-            "scope": "invalid.deprecated",
-            "foreground": "var(white)",
-            "background": "color(var(yellow) alpha(0.9))"
-        },
-        {
             "name": "[Markdown] Deleted",
             "scope": "markup.deleted",
             "foreground": "var(red)"
@@ -493,6 +441,58 @@
             "name": "[Markdown] Blockquotes",
             "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
             "font_style": "italic"
+        },
+        {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "color(var(foreground) alpha(0.3))"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable.member",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Operator",
+            "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(white)",
+            "background": "color(var(red) alpha(0.9))"
+        },
+        {
+            "name": "Deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(white)",
+            "background": "color(var(yellow) alpha(0.9))"
         },
         {
             "name": "[PHP] Inherited Class",
