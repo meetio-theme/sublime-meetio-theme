@@ -15,7 +15,7 @@
         "orange": "#fb914f",
         "pink": "#f07178",
         "red": "#ec5f67",
-        "magenta": "#c594c5",
+        "magenta": "#c792ea",
         "light-blue": "#b2ccd6",
         "yellow": "#fac863"
     },
@@ -52,16 +52,6 @@
         "tags_foreground": "var(pink)"
     },
     "rules": [
-        {
-            "background": "#000000",
-            "scope": "col_gutter",
-            "foreground": "#ffffff"
-        },
-        {
-            "background": "#FFEEEEFF",
-            "scope": "col_FFEEEEFF",
-            "foreground": "#737373FF"
-        },
         {
             "name": "[CSS] String",
             "scope": "source.css string",
