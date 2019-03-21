@@ -3,8 +3,8 @@
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
         "accent": "#7dcac4",
-        "caret": "#7dcac4",
-        "foreground": "#fefefe",
+        "caret": "#ffcc00",
+        "foreground": "#eeffff",
         "background": "#263137",
         "white": "#fff",
         "blue": "#6398ce",
@@ -26,21 +26,25 @@
         "line_highlight": "color(var(foreground) alpha(0.1))",
         "selection": "color(var(light-blue) alpha(0.1))",
         "selection_border": "var(blue)",
+        "selection_corner_style": "cut",
+        "selection_corner_radius": "cut",
         "inactive_selection": "color(var(light-blue) alpha(0.1))",
         "misspelling": "var(red)",
         "shadow": "color(var(background) alpha(0.5))",
+        "gutter_foreground": "color(var(foreground) alpha(0.2))",
         "accent": "var(accent)",
         "active_guide": "var(cyan)",
         "stack_guide": "var(cyan)",
-        "highlight": "var(cyan)",
         "fold_marker": "var(yellow)",
-        "find_highlight_foreground": "var(gray)",
+        "highlight": "var(cyan)",
         "find_highlight": "var(yellow)",
+        "find_highlight_foreground": "var(gray)",
         "brackets_options": "underline",
         "brackets_foreground": "var(gray)",
         "bracket_contents_options": "underline",
         "bracket_contents_foreground": "var(cyan)",
-        "tags_foreground": "var(magenta)",
+        "tags_foreground": "var(pink)",
+        "line_diff_width": "3",
         "line_diff_added": "color(var(green) alpha(0.6))",
         "line_diff_modified": "color(var(blue) alpha(0.6))",
         "line_diff_deleted": "color(var(red) alpha(0.6))",
@@ -48,24 +52,94 @@
     },
     "rules": [
         {
-            "foreground": "#ffffff",
+            "background": "#FF5370FF",
+            "scope": "col_FF5370FF",
+            "foreground": "#090909FF"
+        },
+        {
+            "background": "#FF526FFF",
+            "scope": "col_FF526FFF",
+            "foreground": "#090909FF"
+        },
+        {
             "background": "#000000",
-            "scope": "col_gutter"
+            "scope": "col_gutter",
+            "foreground": "#ffffff"
         },
         {
-            "foreground": "#333333FF",
-            "background": "#80CBC4FF",
-            "scope": "col_80CBC4FF"
+            "background": "#5BB3B4FF",
+            "scope": "col_5BB3B4FF",
+            "foreground": "#181818FF"
         },
         {
-            "foreground": "#D4D4D4FF",
-            "background": "#455A64FF",
-            "scope": "col_455A64FF"
+            "background": "#253036FF",
+            "scope": "col_253036FF",
+            "foreground": "#ADADADFF"
         },
         {
-            "foreground": "#7F7F7FFF",
+            "background": "#7DCAC4FF",
+            "scope": "col_7DCAC4FF",
+            "foreground": "#323232FF"
+        },
+        {
+            "background": "#FFB266FF",
+            "scope": "col_FFB266FF",
+            "foreground": "#404040FF"
+        },
+        {
+            "background": "#D95757FF",
+            "scope": "col_D95757FF",
+            "foreground": "#FDFDFDFF"
+        },
+        {
+            "background": "#FBC959FF",
+            "scope": "col_FBC959FF",
+            "foreground": "#4B4B4BFF"
+        },
+        {
+            "background": "#C692C6FF",
+            "scope": "col_C692C6FF",
+            "foreground": "#272727FF"
+        },
+        {
+            "background": "#6398CEFF",
+            "scope": "col_6398CEFF",
+            "foreground": "#0E0E0EFF"
+        },
+        {
+            "background": "#97C892FF",
+            "scope": "col_97C892FF",
+            "foreground": "#333333FF"
+        },
+        {
+            "background": "#3D3D3DFF",
+            "scope": "col_3D3D3DFF",
+            "foreground": "#BDBDBDFF"
+        },
+        {
+            "background": "#EEFFFFFF",
+            "scope": "col_EEFFFFFF",
+            "foreground": "#797979FF"
+        },
+        {
+            "background": "#F07178FF",
+            "scope": "col_F07178FF",
+            "foreground": "#171717FF"
+        },
+        {
+            "background": "#FFCC00FF",
+            "scope": "col_FFCC00FF",
+            "foreground": "#434343FF"
+        },
+        {
+            "background": "#E1F5FEFF",
+            "scope": "col_E1F5FEFF",
+            "foreground": "#707070FF"
+        },
+        {
             "background": "#FFFFFFFF",
-            "scope": "col_FFFFFFFF"
+            "scope": "col_FFFFFFFF",
+            "foreground": "#7F7F7FFF"
         },
         {
             "name": "[CSS] String",
@@ -208,46 +282,6 @@
             "foreground": "var(magenta)"
         },
         {
-            "name": "[JSON] Key ",
-            "scope": "meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Value",
-            "scope": "meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JSON] Constant",
-            "scope": "constant.language.json",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JSON] Character Escape",
-            "scope": "constant.character.escape.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Constant Numeric",
-            "scope": "constant.numeric.json",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JSON] Punctuation Section",
-            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation Mapping",
-            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation String",
-            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
-            "foreground": "var(blue)"
-        },
-        {
             "name": "[JavaScript] String",
             "scope": "source.js string, source.ts string",
             "foreground": "var(green)"
@@ -370,6 +404,98 @@
             "foreground": "var(orange)"
         },
         {
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JSON] Punctuation Section",
+            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation String",
+            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "color(var(foreground) alpha(0.3))"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable.member",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Operator",
+            "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(white)",
+            "background": "color(var(red) alpha(0.9))"
+        },
+        {
+            "name": "Deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(white)",
+            "background": "color(var(yellow) alpha(0.9))"
+        },
+        {
             "name": "[Markdown] Deleted",
             "scope": "markup.deleted",
             "foreground": "var(red)"
@@ -457,58 +583,6 @@
             "name": "[Markdown] Blockquotes",
             "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
             "font_style": "italic"
-        },
-        {
-            "name": "Comment",
-            "scope": "comment, punctuation.definition.comment",
-            "foreground": "color(var(foreground) alpha(0.3))"
-        },
-        {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Constant",
-            "scope": "constant.character, constant.other",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "Variable",
-            "scope": "variable.member",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "Operator",
-            "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "Punctuation",
-            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "Storage",
-            "scope": "storage",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "String",
-            "scope": "string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Invalid",
-            "scope": "invalid",
-            "foreground": "var(white)",
-            "background": "color(var(red) alpha(0.9))"
-        },
-        {
-            "name": "Deprecated",
-            "scope": "invalid.deprecated",
-            "foreground": "var(white)",
-            "background": "color(var(yellow) alpha(0.9))"
         },
         {
             "name": "[PHP] Inherited Class",

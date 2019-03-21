@@ -3,8 +3,8 @@
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
         "accent"     : "#7dcac4",
-        "caret"      : "#7dcac4",
-        "foreground" : "#fefefe",
+        "caret"      : "#ffcc00",
+        "foreground" : "#eeffff",
         "background" : "#263137",
         "white"      : "#fff",
         "blue"       : "#6398ce",
