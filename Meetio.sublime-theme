@@ -46,11 +46,11 @@
         ],
         "panel_row_selected_background_color": [
             "foreground",
-            1
+            0.1
         ],
         "panel_row_selected_foreground_color": [
-            "background",
-            1
+            "foreground",
+            0.9
         ],
         "panel_row_match_foreground_color": "var(color_accent)",
         "panel_row_selected_match_foreground_color": "var(color_accent)",
@@ -83,7 +83,7 @@
         "sidebar_label_font_size": "var(font_size_md)",
         "sidebar_label_foreground_color": [
             "foreground",
-            0.8
+            1
         ],
         "sidebar_label_selected_background_color": [
             "foreground",

@@ -4,7 +4,7 @@
     "variables": {
         "accent"     : "#7dcac4",
         "caret"      : "#ffcc00",
-        "foreground" : "#aaaccd",
+        "foreground" : "#a6accd",
         "background" : "#292d3e",
         "comments"   : "color(var(foreground) alpha(0.3))",
         "white"      : "#fff",
