@@ -1,14 +1,14 @@
 [
     {
         "class": "status_bar",
-        "content_margin": "var(statusBarMargin)",
-        "layer0.tint": "var(statusBarBackground)",
+        "content_margin": "var(statusbarMargin)",
+        "layer0.tint": "var(statusbarBackground)",
         "layer0.opacity": 1
     },
     {
         "class": "panel_button_control",
         "layer0.texture": "Meetio/assets/default/overflow_menu.png",
-        "layer0.tint": "var(statusBarLabelColor)",
+        "layer0.tint": "var(statusbarLabelColor)",
         "layer0.opacity": 1,
         "content_margin": 9,
         "layer0.inner_margin": 4
@@ -16,7 +16,7 @@
     {
         "class": "vcs_branch_icon",
         "layer0.texture": "Meetio/assets/default/icon_branch.png",
-        "layer0.tint": "var(statusBarLabelColor)",
+        "layer0.tint": "var(statusbarLabelColor)",
         "layer0.opacity": 0,
         "content_margin": 8,
         "layer0.inner_margin": 2
@@ -50,7 +50,7 @@
         "class": "label_control",
         "parents": [{ "class": "status_bar" }],
         "font.size": "var(fontSizeSm)",
-        "color": "var(statusBarLabelColor)",
-        "font.bold": "var(statusBarLabelBold)"
+        "color": "var(statusbarLabelColor)",
+        "font.bold": "var(statusbarLabelBold)"
     }
 ]

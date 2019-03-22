@@ -89,10 +89,7 @@
             "foreground",
             0.05
         ],
-        "sidebarLabelSelectedColor": [
-            "foreground",
-            0.9
-        ],
+        "sidebarLabelSelectedColor": "var(colorAccent)",
         "sidebarLabelSelectedBorderSize": [
             2,
             0,
@@ -100,10 +97,10 @@
             0
         ],
         "sidebarLabelSelectedBorderColor": "var(colorAccent)",
-        "statusBarBackground": "color(var(colorAccent) blenda(var(colorBlack) 30%))",
-        "statusBarLabelColor": "var(colorWhite)",
-        "statusBarLabelBold": false,
-        "statusBarMargin": [
+        "statusbarBackground": "color(var(colorAccent) blenda(var(colorBlack) 30%))",
+        "statusbarLabelColor": "var(colorWhite)",
+        "statusbarLabelBold": false,
+        "statusbarMargin": [
             10,
             4,
             0,
@@ -135,6 +132,15 @@
         "tabHeightLarge": 52,
         "tabMinWidth": 74,
         "tabWidth": 180,
+        "tabCloseColor": [
+            "foreground",
+            0.5
+        ],
+        "tabCloseSelectedColor": [
+            "foreground",
+            0.5
+        ],
+        "tabCloseHoverColor": "var(colorAccent)",
         "titleBarBackground": [
             "background",
             0.92

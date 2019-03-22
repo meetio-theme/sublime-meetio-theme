@@ -32,7 +32,7 @@
         "layer0.opacity": 1,
         "tint_index": 0,
 
-        "layer1.tint": ["background", 1.0],
+        "layer1.tint": ["background", 1],
         "layer1.inner_margin": 8,
         "layer1.opacity": 0,
 
@@ -109,7 +109,7 @@
         "class": "tab_close_button",
         "content_margin": [0, 0],
         "layer0.texture": "Meetio/assets/default/icon_close.png",
-        "layer0.tint": ["foreground", 0.5],
+        "layer0.tint": "var(tabCloseColor)",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "layer1.texture": "Meetio/assets/default/dirty_icon.png",
@@ -126,13 +126,14 @@
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "parents": [{ "class": "tab_control", "attributes": ["selected"] }],
-        "layer0.opacity": 1.0
+        "layer0.tint": "var(tabCloseSelectedColor)",
+        "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "attributes": ["hover"],
-        "layer0.tint": "var(colorAccent)",
+        "layer0.tint": "var(tabCloseHoverColor)",
         "layer0.opacity": 1,
         "layer1.opacity": 0
     },
@@ -157,7 +158,7 @@
         "parents": [{ "class": "tab_control", "attributes": ["selected", "dirty"] }],
         "settings": ["meetio_tabs_diff_icon", "highlight_modified_tabs"],
         "layer0.opacity": 0,
-        "layer1.opacity": 1.0
+        "layer1.opacity": 1
     },
     {
         "class": "tab_close_button",

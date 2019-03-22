@@ -53,6 +53,11 @@
     },
     "rules": [
         {
+            "scope": "col_FFEEEEFF",
+            "background": "#FFEEEEFF",
+            "foreground": "#737373FF"
+        },
+        {
             "scope": "col_00000015",
             "background": "#00000015",
             "foreground": "#AAAAAAFF"

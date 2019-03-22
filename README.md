@@ -83,6 +83,9 @@ This theme provide a visual configuration tool that allow you to configure the t
     // Panels
     "meetio_titlebar"             : true,  // Enable title bar (OS X 10.10+)
     "meetio_input_search_icon"    : true,  // Show icon search in inputs
+
+    // Statusbar
+    "meetio_status_badges"        : true,  // Show vcs status badges in the status bar
 }
 ```
 
@@ -95,9 +98,9 @@ Meetio provides a bunch of variables to improve your experience with theming.
 ```json
 {
     "variables": {
-        "color_accent": "#6772e4",
-        "status_bar_background_color": "#6772e4",
-        "status_bar_label_foreground_color": "#fff"
+        "colorAccent": "#6772e4",
+        "statusBarBackground": "#6772e4",
+        "statusBarLabelColor": "#fff"
     }
 }
 ```
@@ -108,21 +111,25 @@ Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings` and p
 ```json
 {
     "variables": {
-        "input_border_color": ["foreground", 0.1],
-        "input_border_size": [0, 0, 0, 1],
-        "panel_control_background_color": ["background", 1.0],
-        "sidebar_icon_folder_color": "#607a86",
-        "sidebar_icon_folder_color": "#607a86",
-        "sidebar_label_foreground_color": "#607a86",
-        "sidebar_background_color": ["background", 1.0],
-        "sidebar_label_selected_background_color": "#00000015",
-        "sidebar_label_selected_foreground_color": "var(color_accent)",
-        "status_bar_background_color": ["background", 1.0],
-        "status_bar_label_foreground_color": "#607a86",
-        "tabset_background_color": ["background", 1.0],
-        "tabset_selected_border_size": [0, 0, 0, 1],
-        "title_bar_background": ["background", 1.0],
-        "title_bar_foreground_color": "#607a86"
+        "inputBorderColor": ["foreground", 0.1],
+        "inputBackground": ["background", 1],
+        "inputBorderSize": [0, 0, 0, 1],
+        "sidebarIconFolderColor": "#607a86",
+        "sidebarLabelColor": "#607a86",
+        "sidebarLabelSelectedColor": "var(colorAccent)",
+        "sidebarBackground": ["background", 1.0],
+        "sidebarLabelSelectedBackground": "#00000015",
+        "panelControlBackground": ["background", 1.0],
+        "statusBarBackground": ["background", 1.0],
+        "statusBarLabelColor": "#607a86",
+        "tabFontSize": 12,
+        "tabWidth": 120,
+        "tabBackground": ["background", 1.0],
+        "tabSelectedColor": ["foreground", 1],
+        "tabSelectedBorderSize": [0, 0, 0, 1],
+        "tabCloseSelectedColor": ["foreground", 1],
+        "titleBarBackground": ["background", 1.0],
+        "titleBarColor": "#607a86"
     }
 }
 ```
