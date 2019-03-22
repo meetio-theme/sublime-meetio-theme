@@ -2,12 +2,12 @@
     {
         "class": "tabset_control",
         "layer0.opacity": 1,
-        "layer0.tint": "var(tabset_background_color)",
+        "layer0.tint": "var(tabBackground)",
         "tint_index": 1,
         "tab_overlap": 0,
-        "tab_width": "var(tabset_width)",
-        "tab_min_width": "var(tabset_min_width)",
-        "tab_height": "var(tabset_height)",
+        "tab_width": "var(tabWidth)",
+        "tab_min_width": "var(tabMinWidth)",
+        "tab_height": "var(tabHeight)",
         "mouse_wheel_switch": false
     },
     {
@@ -23,7 +23,7 @@
     {
         "class": "tabset_control",
         "settings": ["meetio_tabs_big"],
-        "tab_height": "var(tabset_height_large)"
+        "tab_height": "var(tabHeightLarge)"
     },
     {
         "class": "tab_control",
@@ -60,9 +60,9 @@
         "layer1.opacity": 1,
         "settings": ["meetio_tabs_diff_highlight", "highlight_modified_tabs"],
         "layer3.opacity": 1,
-        "layer3.inner_margin": "var(tabset_selected_border_size)",
+        "layer3.inner_margin": "var(tabSelectedBorderSize)",
         "layer3.draw_center": false,
-        "layer3.tint": "var(tabset_diff_color)",
+        "layer3.tint": "var(tabDiffColor)",
         "tint_index": 1
     },
     {
@@ -71,16 +71,16 @@
         "layer1.opacity": 1,
         "settings": ["meetio_tabs_selected_border"],
         "layer2.opacity": 1,
-        "layer2.inner_margin": "var(tabset_selected_border_size)",
+        "layer2.inner_margin": "var(tabSelectedBorderSize)",
         "layer2.draw_center": false,
-        "layer2.tint": "var(tabset_selected_border_color)",
+        "layer2.tint": "var(tabSelectedBorderColor)",
         "tint_index": 1
     },
     {
         "class": "tab_label",
-        "font.face": "var(font_face)",
-        "font.size": "var(tabset_font_size)",
-        "fg": "var(tabset_foreground_color)",
+        "font.face": "var(fontFace)",
+        "font.size": "var(tabFontSize)",
+        "fg": "var(tabColor)",
         "font.bold": false
     },
     {
@@ -91,7 +91,7 @@
     {
         "class": "tab_label",
         "parents": [{ "class": "tab_control", "attributes": ["selected"] }],
-        "fg": "var(tabset_selected_foreground_color)"
+        "fg": "var(tabSelectedColor)"
     },
     {
         "class": "tab_label",
@@ -102,8 +102,8 @@
         "class": "tab_label",
         "attributes": ["dirty"],
         "settings": ["meetio_tabs_diff_highlight", "highlight_modified_tabs"],
-        "fg": "var(tabset_diff_color)",
-        "font.italic": "var(tabset_diff_italic)"
+        "fg": "var(tabDiffColor)",
+        "font.italic": "var(tabDiffItalic)"
     },
     {
         "class": "tab_close_button",
@@ -113,7 +113,7 @@
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "layer1.texture": "Meetio/assets/default/dirty_icon.png",
-        "layer1.tint": "var(color_accent)",
+        "layer1.tint": "var(colorAccent)",
         "layer1.opacity": 0,
         "layer1.inner_margin": 0
     },
@@ -132,7 +132,7 @@
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "attributes": ["hover"],
-        "layer0.tint": "var(color_accent)",
+        "layer0.tint": "var(colorAccent)",
         "layer0.opacity": 1,
         "layer1.opacity": 0
     },
@@ -170,7 +170,7 @@
     {
         "class": "scroll_tabs_left_button",
         "layer0.texture": "Meetio/assets/default/arrow_left.png",
-        "layer0.tint": "var(color_accent)",
+        "layer0.tint": "var(colorAccent)",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [10, 10]
     },
@@ -182,7 +182,7 @@
     {
         "class": "scroll_tabs_right_button",
         "layer0.texture": "Meetio/assets/default/arrow_right.png",
-        "layer0.tint": "var(color_accent)",
+        "layer0.tint": "var(colorAccent)",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [10, 10]
     },
@@ -195,7 +195,7 @@
         "class": "show_tabs_dropdown_button",
         "content_margin": [12, 12],
         "layer0.texture": "Meetio/assets/default/overflow_menu.png",
-        "layer0.tint": "var(color_accent)",
+        "layer0.tint": "var(colorAccent)",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },

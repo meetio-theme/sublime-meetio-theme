@@ -1,7 +1,7 @@
 [
     {
         "class": "sidebar_container",
-        "layer0.tint": "var(sidebar_background_color)",
+        "layer0.tint": "var(sidebarBackground)",
         "layer0.opacity": 1,
         "content_margin": [0, 6, 0, 0]
     },
@@ -34,17 +34,17 @@
     {
         "class": "tree_row",
         "attributes": ["selectable", "hover"],
-        "layer0.tint": "var(sidebar_label_selected_background_color)",
+        "layer0.tint": "var(sidebarLabelSelectedBackground)",
         "layer0.opacity": 1,
         "layer1.opacity": 0
     },
     {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.tint": "var(sidebar_label_selected_background_color)",
+        "layer0.tint": "var(sidebarLabelSelectedBackground)",
         "layer0.opacity": 1,
-        "layer1.tint": "var(sidebar_label_selected_border_color)",
-        "layer1.inner_margin": "var(sidebar_label_selected_border_size)",
+        "layer1.tint": "var(sidebarLabelSelectedBorderColor)",
+        "layer1.inner_margin": "var(sidebarLabelSelectedBorderSize)",
         "layer1.draw_center": false,
         "layer1.opacity": 1
     },
@@ -52,8 +52,8 @@
         "class": "sidebar_heading",
         "color": ["foreground", 0.4],
         "font.bold": true,
-        "font.size": "var(sidebar_heading_font_size)",
-        "font.face": "var(font_face)"
+        "font.size": "var(sidebarHeadingFontSize)",
+        "font.face": "var(fontFace)"
     },
     {
         "class": "sidebar_heading",
@@ -64,32 +64,32 @@
     },
     {
         "class": "sidebar_label",
-        "color": "var(sidebar_label_foreground_color)",
-        "font.size": "var(sidebar_label_font_size)",
-        "font.face": "var(font_face)",
+        "color": "var(sidebarLabelColor)",
+        "font.size": "var(sidebarLabelFontSize)",
+        "font.face": "var(fontFace)",
         "font.bold": false,
         "font.italic": false
     },
     {
         "class": "sidebar_label",
         "settings": ["meetio_sidebar_font_big"],
-        "font.size": "var(font_size_lg)"
+        "font.size": "var(fontSizeLg)"
     },
     {
         "class": "sidebar_label",
         "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
-        "color": "var(sidebar_label_foreground_color)"
+        "color": "var(sidebarLabelColor)"
     },
     {
         "class": "sidebar_label",
         "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
         "font.bold": false,
-        "color": "var(sidebar_label_selected_foreground_color)"
+        "color": "var(sidebarLabelSelectedColor)"
     },
     {
         "class": "sidebar_label",
         "parents": [{ "class": "tree_row", "attributes": ["expandable"] }],
-        "color": "var(sidebar_label_foreground_color)"
+        "color": "var(sidebarLabelColor)"
     },
     {
         "class": "sidebar_label",
@@ -104,7 +104,7 @@
     {
         "class": "sidebar_label",
         "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
-        "color": "var(sidebar_icon_folder_expanded_color)"
+        "color": "var(sidebarIconFolderExpandedColor)"
     },
     {
         "class": "sidebar_label",

@@ -3,7 +3,7 @@
         "class": "vcs_status_badge",
         "parents": [{ "class": "file_system_entry", "attributes": ["untracked"] }],
         "layer0.texture": "Theme - Default/common/status_untracked.png",
-        "layer0.tint": "var(vsc_untracked)",
+        "layer0.tint": "var(vscUntracked)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
@@ -11,7 +11,7 @@
         "class": "vcs_status_badge",
         "parents": [{ "class": "file_system_entry", "attributes": ["modified"] }],
         "layer0.texture": "Theme - Default/common/status_modified.png",
-        "layer0.tint": "var(vsc_modified)",
+        "layer0.tint": "var(vscModified)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
@@ -19,14 +19,14 @@
         "class": "vcs_status_badge",
         "parents": [{ "class": "file_system_entry", "attributes": ["staged"] }],
         "layer0.texture": "Theme - Default/common/status_staged.png",
-        "layer0.tint": "var(vsc_staged)",
+        "layer0.tint": "var(vscStaged)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
     {
         "class": "vcs_status_badge",
         "parents": [{ "class": "file_system_entry", "attributes": ["added"] }],
-        "layer0.tint": "var(vsc_untracked)",
+        "layer0.tint": "var(vscUntracked)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
@@ -34,53 +34,53 @@
         "class": "vcs_status_badge",
         "parents": [{ "class": "file_system_entry", "attributes": ["unmerged"] }],
         "layer0.texture": "Theme - Default/common/status_unmerged.png",
-        "layer0.tint": "var(vsc_unmerged)",
+        "layer0.tint": "var(vscUnmerged)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
     {
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["ignored"] }],
-        "color": "color(var(vsc_ignored)"
+        "color": "color(var(vscIgnored)"
     },
     {
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["untracked"] }],
-        "color": "var(vsc_untracked)"
+        "color": "var(vscUntracked)"
     },
     {
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["modified"] }],
-        "color": "var(vsc_modified)"
+        "color": "var(vscModified)"
     },
     {
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["staged"] }],
-        "color": "var(vsc_staged)"
+        "color": "var(vscStaged)"
     },
     {
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["added"] }],
-        "color": "var(vsc_untracked)"
+        "color": "var(vscUntracked)"
     },
     {
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["unmerged"] }],
-        "color": "var(vsc_unmerged)"
+        "color": "var(vscUnmerged)"
     },
     {
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["missing"] }],
-        "color": "var(vsc_missing)"
+        "color": "var(vscMissing)"
     },
     {
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["deleted"] }],
-        "color": "var(vsc_deleted)"
+        "color": "var(vscDeleted)"
     },
     {
         "class": "vcs_changes_annotation",
-        "border_color": "var(status_bar_label_foreground_color)",
+        "border_color": "var(statusBarLabelColor)",
         "content_margin": [3, 1, 3, 1]
     }
 ]

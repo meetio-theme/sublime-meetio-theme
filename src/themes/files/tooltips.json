@@ -1,12 +1,12 @@
 [
     {
         "class": "tool_tip_control",
-        "layer0.tint": "var(tooltip_background_color)",
+        "layer0.tint": "var(tooltipBackground)",
         "layer0.opacity": 1.0,
         "content_margin": [12, 8]
     },
     {
         "class": "tool_tip_label_control",
-        "fg": "var(tooltip_label_foreground_color)"
+        "fg": "var(tooltipLabelColor)"
     }
 ]

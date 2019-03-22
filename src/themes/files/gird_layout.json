@@ -1,7 +1,7 @@
 [
     {
         "class": "grid_layout_control",
-        "border_color": "var(grid_layout_border_color)",
-        "border_size": "var(grid_layout_border_size)"
+        "border_color": "var(gridLayoutBorderColor)",
+        "border_size": "var(gridLayoutBorderSize)"
     }
 ]

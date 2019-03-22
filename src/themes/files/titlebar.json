@@ -2,7 +2,7 @@
     {
         "class": "title_bar",
         "settings": ["meetio_titlebar"],
-        "bg": "var(title_bar_background)",
-        "fg": "var(title_bar_foreground_color)"
+        "bg": "var(titleBarBackground)",
+        "fg": "var(titleBarColor)"
     }
 ]

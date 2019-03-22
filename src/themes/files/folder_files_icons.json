@@ -10,7 +10,7 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "layer0.texture": "Meetio/assets/default/disclosure_expanded.png",
-        "layer0.tint": "var(sidebar_icon_folder_color)"
+        "layer0.tint": "var(sidebarIconFolderColor)"
     },
     {
         "class": "disclosure_button_control",
@@ -26,7 +26,7 @@
     {
         "class": "icon_folder",
         "layer0.texture": "Meetio/assets/default/folder_closed.png",
-        "layer0.tint": "var(sidebar_icon_folder_color)",
+        "layer0.tint": "var(sidebarIconFolderColor)",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
@@ -34,7 +34,7 @@
         "class": "icon_folder",
         "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
         "layer0.texture": "Meetio/assets/default/folder_open.png",
-        "layer0.tint": "var(sidebar_icon_folder_expanded_color)",
+        "layer0.tint": "var(sidebarIconFolderExpandedColor)",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
@@ -48,7 +48,7 @@
         "class": "icon_folder",
         "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
         "layer0.texture": "Meetio/assets/default/arrow_folder_open.png",
-        "layer0.tint": "var(sidebar_icon_folder_expanded_color)",
+        "layer0.tint": "var(sidebarIconFolderExpandedColor)",
         "content_margin": [12, 12],
         "settings": ["meetio_arrow_folders"]
     },
@@ -74,20 +74,20 @@
             "loop": true,
             "frame_time": 0.08
         },
-        "layer0.tint": "var(sidebar_icon_folder_color)",
+        "layer0.tint": "var(sidebarIconFolderColor)",
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_folder_dup",
         "layer0.texture": "Meetio/assets/default/folder_dup.png",
-        "layer0.tint": "var(sidebar_icon_folder_color)",
+        "layer0.tint": "var(sidebarIconFolderColor)",
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_file_type",
-        "layer0.tint": "var(sidebar_icon_file_color)",
+        "layer0.tint": "var(sidebarIconFileColor)",
         "layer0.opacity": 1,
         "content_margin": [8, 8]
     },
