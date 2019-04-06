@@ -99,8 +99,8 @@ Meetio provides a bunch of variables to improve your experience with theming.
 {
     "variables": {
         "colorAccent": "#6772e4",
-        "statusBarBackground": "#6772e4",
-        "statusBarLabelColor": "#fff"
+        "statusbarBackground": "#6772e4",
+        "statusbarLabelColor": "#fff"
     }
 }
 ```
