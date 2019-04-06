@@ -67,7 +67,7 @@
     "gridLayoutBorderSize"            : 2,
     "vscIgnored"                      : "color(var(sidebarLabelColor) a(0.5))",
     "vscModified"                     : "var(--bluish)",
-    "vscStaged"                       : "var(--cyanish)",
+    "vscStaged"                       : "var(--yellowish)",
     "vscUnmerged"                     : "var(--redish)",
     "vscUntracked"                    : "var(--greenish)",
     "vscDeleted"                      : "var(--redish)",
