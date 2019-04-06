@@ -6,6 +6,13 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ---
 
+<a name="2.0.0"></a>
+## [2.0.0](https://github.com/mauroreisvieira/meetio/compare/v1.8.0...v2.0.0) (2019-03-14)
+
+### FEATURES
+
+---
+
 <a name="1.8.0"></a>
 ## [1.8.0](https://github.com/mauroreisvieira/meetio/compare/v1.7.1...v1.8.0) (2019-03-14)
 
