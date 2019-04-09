@@ -7,9 +7,13 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ---
 
 <a name="2.0.0"></a>
-## [2.0.0](https://github.com/mauroreisvieira/meetio/compare/v1.8.0...v2.0.0) (2019-03-14)
+## [2.0.0](https://github.com/mauroreisvieira/meetio/compare/v1.8.0...v2.0.0) (2019-04-09)
 
 ### FEATURES
+* Add variables to allow more customize.
+
+### BREAKING CHANGES
+* Naming of variables in theme, for example: `buttonBackground` instead of `button_background`.
 
 ---
 
