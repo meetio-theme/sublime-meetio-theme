@@ -17,14 +17,6 @@
     },
     {
         "class": "vcs_status_badge",
-        "parents": [{ "class": "file_system_entry", "attributes": ["staged"] }],
-        "layer0.texture": "Theme - Default/common/status_staged.png",
-        "layer0.tint": "var(vscStaged)",
-        "layer0.opacity": 1.0,
-        "content_margin": 6
-    },
-    {
-        "class": "vcs_status_badge",
         "parents": [{ "class": "file_system_entry", "attributes": ["added"] }],
         "layer0.tint": "var(vscUntracked)",
         "layer0.opacity": 1.0,
@@ -35,6 +27,14 @@
         "parents": [{ "class": "file_system_entry", "attributes": ["unmerged"] }],
         "layer0.texture": "Theme - Default/common/status_unmerged.png",
         "layer0.tint": "var(vscUnmerged)",
+        "layer0.opacity": 1.0,
+        "content_margin": 6
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{ "class": "file_system_entry", "attributes": ["staged"] }],
+        "layer0.texture": "Theme - Default/common/status_staged.png",
+        "layer0.tint": "var(vscStaged)",
         "layer0.opacity": 1.0,
         "content_margin": 6
     },
@@ -55,11 +55,6 @@
     },
     {
         "class": "sidebar_label",
-        "parents": [{ "class": "file_system_entry", "attributes": ["staged"] }],
-        "color": "var(vscStaged)"
-    },
-    {
-        "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["added"] }],
         "color": "var(vscUntracked)"
     },
@@ -77,6 +72,11 @@
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["deleted"] }],
         "color": "var(vscDeleted)"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{ "class": "file_system_entry", "attributes": ["staged"] }],
+        "color": "var(vscStaged)"
     },
     {
         "class": "vcs_changes_annotation",

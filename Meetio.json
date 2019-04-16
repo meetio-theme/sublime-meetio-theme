@@ -657,11 +657,6 @@
             "layer0.opacity": 1
         },
         {
-            "class": "grid_layout_control",
-            "border_color": "var(gridLayoutBorderColor)",
-            "border_size": "var(gridLayoutBorderSize)"
-        },
-        {
             "class": "disclosure_button_control",
             "layer0.texture": "Meetio/assets/default/disclosure.png",
             "layer0.tint": [
@@ -839,6 +834,11 @@
                 }
             ],
             "layer0.opacity": 1
+        },
+        {
+            "class": "grid_layout_control",
+            "border_color": "var(gridLayoutBorderColor)",
+            "border_size": "var(gridLayoutBorderSize)"
         },
         {
             "class": "text_line_control",
@@ -2115,21 +2115,6 @@
                 {
                     "class": "file_system_entry",
                     "attributes": [
-                        "staged"
-                    ]
-                }
-            ],
-            "layer0.texture": "Theme - Default/common/status_staged.png",
-            "layer0.tint": "var(vscStaged)",
-            "layer0.opacity": 1,
-            "content_margin": 6
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
                         "added"
                     ]
                 }
@@ -2150,6 +2135,21 @@
             ],
             "layer0.texture": "Theme - Default/common/status_unmerged.png",
             "layer0.tint": "var(vscUnmerged)",
+            "layer0.opacity": 1,
+            "content_margin": 6
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "staged"
+                    ]
+                }
+            ],
+            "layer0.texture": "Theme - Default/common/status_staged.png",
+            "layer0.tint": "var(vscStaged)",
             "layer0.opacity": 1,
             "content_margin": 6
         },
@@ -2188,18 +2188,6 @@
                 }
             ],
             "color": "var(vscModified)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "staged"
-                    ]
-                }
-            ],
-            "color": "var(vscStaged)"
         },
         {
             "class": "sidebar_label",
@@ -2248,6 +2236,18 @@
                 }
             ],
             "color": "var(vscDeleted)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "staged"
+                    ]
+                }
+            ],
+            "color": "var(vscStaged)"
         },
         {
             "class": "vcs_changes_annotation",

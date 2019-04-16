@@ -53,6 +53,26 @@
     },
     "rules": [
         {
+            "scope": "col_gutter",
+            "background": "#000000",
+            "foreground": "#ffffff"
+        },
+        {
+            "scope": "col_455A64FF",
+            "background": "#455A64FF",
+            "foreground": "#D4D4D4FF"
+        },
+        {
+            "scope": "col_FFFFFFFF",
+            "background": "#FFFFFFFF",
+            "foreground": "#7F7F7FFF"
+        },
+        {
+            "scope": "col_80CBC4FF",
+            "background": "#80CBC4FF",
+            "foreground": "#333333FF"
+        },
+        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(green)"
@@ -444,6 +464,36 @@
             "font_style": "italic"
         },
         {
+            "name": "[PHP] Inherited Class",
+            "scope": "entity.other.inherited-class.php",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[PHP] Storage",
+            "scope": "storage.modifier.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Function",
+            "scope": "storage.type.function.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Extends",
+            "scope": "storage.modifier.extends.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Var",
+            "scope": "support.function.var.php",
+            "foreground": "var(cyan)"
+        },
+        {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "var(comments)",
@@ -495,36 +545,6 @@
             "scope": "invalid.deprecated",
             "foreground": "var(white)",
             "background": "color(var(yellow) alpha(0.9))"
-        },
-        {
-            "name": "[PHP] Inherited Class",
-            "scope": "entity.other.inherited-class.php",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[PHP] Storage",
-            "scope": "storage.modifier.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Function",
-            "scope": "storage.type.function.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Extends",
-            "scope": "storage.modifier.extends.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Construct",
-            "scope": "support.function.construct.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Var",
-            "scope": "support.function.var.php",
-            "foreground": "var(cyan)"
         },
         {
             "name": "[Yaml] Key",

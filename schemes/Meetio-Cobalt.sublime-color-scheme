@@ -444,6 +444,36 @@
             "font_style": "italic"
         },
         {
+            "name": "[PHP] Inherited Class",
+            "scope": "entity.other.inherited-class.php",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[PHP] Storage",
+            "scope": "storage.modifier.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Function",
+            "scope": "storage.type.function.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Extends",
+            "scope": "storage.modifier.extends.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Var",
+            "scope": "support.function.var.php",
+            "foreground": "var(cyan)"
+        },
+        {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "var(comments)",
@@ -495,36 +525,6 @@
             "scope": "invalid.deprecated",
             "foreground": "var(white)",
             "background": "color(var(yellow) alpha(0.9))"
-        },
-        {
-            "name": "[PHP] Inherited Class",
-            "scope": "entity.other.inherited-class.php",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[PHP] Storage",
-            "scope": "storage.modifier.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Function",
-            "scope": "storage.type.function.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Extends",
-            "scope": "storage.modifier.extends.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Construct",
-            "scope": "support.function.construct.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Var",
-            "scope": "support.function.var.php",
-            "foreground": "var(cyan)"
         },
         {
             "name": "[Yaml] Key",
