@@ -19,7 +19,6 @@
         "layer1.texture": "Meetio/assets/default/quick_panel_background.png",
         "layer1.inner_margin": [16, 0, 16, 25],
         "layer1.opacity": 1,
-        "layer.tint": ["background", 1],
         "content_margin": [12, 4, 13, 28]
     },
     {

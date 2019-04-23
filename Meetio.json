@@ -1097,10 +1097,6 @@
                 25
             ],
             "layer1.opacity": 1,
-            "layer.tint": [
-                "background",
-                1
-            ],
             "content_margin": [
                 12,
                 4,
@@ -1702,6 +1698,14 @@
             "font.bold": "var(statusbarLabelBold)"
         },
         {
+            "class": "title_bar",
+            "settings": [
+                "meetio_titlebar"
+            ],
+            "bg": "var(titleBarBackground)",
+            "fg": "var(titleBarColor)"
+        },
+        {
             "class": "tabset_control",
             "layer0.opacity": 1,
             "layer0.tint": "var(tabBackground)",
@@ -2057,14 +2061,6 @@
                 "hover"
             ],
             "layer0.opacity": 0.8
-        },
-        {
-            "class": "title_bar",
-            "settings": [
-                "meetio_titlebar"
-            ],
-            "bg": "var(titleBarBackground)",
-            "fg": "var(titleBarColor)"
         },
         {
             "class": "tool_tip_control",
