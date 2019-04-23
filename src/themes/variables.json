@@ -50,6 +50,7 @@
     "tabSelectedBorderColor"          : "var(colorAccent)",
     "tabSelectedBorderSize"           : [0, 2, 0, 0],
     "tabSelectedColor"                : ["foreground", 1],
+    "tabDiffIconColor"                : "var(colorAccent)",
     "tabDiffColor"                    : "var(--bluish)",
     "tabDiffItalic"                   : true,
     "tabHeight"                       : 40,

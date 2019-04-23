@@ -125,6 +125,7 @@
             "foreground",
             1
         ],
+        "tabDiffIconColor": "var(colorAccent)",
         "tabDiffColor": "var(--bluish)",
         "tabDiffItalic": true,
         "tabHeight": 40,
@@ -1219,68 +1220,6 @@
             ]
         },
         {
-            "class": "mini_quick_panel_row",
-            "layer0.tint": "var(panelRowBackground)",
-            "layer0.inner_margin": [
-                2,
-                2,
-                2,
-                2
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "mini_quick_panel_row",
-            "attributes": [
-                "selected"
-            ],
-            "layer0.tint": "var(panelRowSelectedBackground)"
-        },
-        {
-            "class": "quick_panel",
-            "row_padding": "var(panelRowPadding)",
-            "layer0.tint": [
-                "background",
-                1
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "quick_panel_row",
-            "layer0.opacity": 1
-        },
-        {
-            "class": "quick_panel_row",
-            "layer0.tint": "var(panelRowBackground)",
-            "layer0.opacity": 1
-        },
-        {
-            "class": "quick_panel_row",
-            "attributes": [
-                "selected"
-            ],
-            "layer0.tint": "var(panelRowSelectedBackground)"
-        },
-        {
-            "class": "quick_panel_label",
-            "font.face": "var(fontFace)",
-            "font.size": "var(panelRowFontSize)",
-            "fg": "var(panelRowColor)",
-            "match_fg": "var(panelRowMatchColor)",
-            "selected_fg": "var(panelRowSelectedColor)",
-            "selected_match_fg": "var(panelRowSelectedMatchColor)"
-        },
-        {
-            "class": "quick_panel_path_label",
-            "font.face": "var(fontFace)",
-            "font.size": "var(panelPathRowFontSize)",
-            "font.italic": "var(panelPathRowFontItalic)",
-            "fg": "var(panelPathRowColor)",
-            "match_fg": "var(panelRowMatchColor)",
-            "selected_fg": "var(panelRowSelectedColor)",
-            "selected_match_fg": "var(panelRowSelectedMatchColor)"
-        },
-        {
             "class": "scroll_area_control",
             "settings": [
                 "overlay_scroll_bars"
@@ -1411,6 +1350,68 @@
                 0,
                 0
             ]
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "layer0.tint": "var(panelRowBackground)",
+            "layer0.inner_margin": [
+                2,
+                2,
+                2,
+                2
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "attributes": [
+                "selected"
+            ],
+            "layer0.tint": "var(panelRowSelectedBackground)"
+        },
+        {
+            "class": "quick_panel",
+            "row_padding": "var(panelRowPadding)",
+            "layer0.tint": [
+                "background",
+                1
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "quick_panel_row",
+            "layer0.opacity": 1
+        },
+        {
+            "class": "quick_panel_row",
+            "layer0.tint": "var(panelRowBackground)",
+            "layer0.opacity": 1
+        },
+        {
+            "class": "quick_panel_row",
+            "attributes": [
+                "selected"
+            ],
+            "layer0.tint": "var(panelRowSelectedBackground)"
+        },
+        {
+            "class": "quick_panel_label",
+            "font.face": "var(fontFace)",
+            "font.size": "var(panelRowFontSize)",
+            "fg": "var(panelRowColor)",
+            "match_fg": "var(panelRowMatchColor)",
+            "selected_fg": "var(panelRowSelectedColor)",
+            "selected_match_fg": "var(panelRowSelectedMatchColor)"
+        },
+        {
+            "class": "quick_panel_path_label",
+            "font.face": "var(fontFace)",
+            "font.size": "var(panelPathRowFontSize)",
+            "font.italic": "var(panelPathRowFontItalic)",
+            "fg": "var(panelPathRowColor)",
+            "match_fg": "var(panelRowMatchColor)",
+            "selected_fg": "var(panelRowSelectedColor)",
+            "selected_match_fg": "var(panelRowSelectedMatchColor)"
         },
         {
             "class": "sidebar_container",
@@ -1698,14 +1699,6 @@
             "font.bold": "var(statusbarLabelBold)"
         },
         {
-            "class": "title_bar",
-            "settings": [
-                "meetio_titlebar"
-            ],
-            "bg": "var(titleBarBackground)",
-            "fg": "var(titleBarColor)"
-        },
-        {
             "class": "tabset_control",
             "layer0.opacity": 1,
             "layer0.tint": "var(tabBackground)",
@@ -1863,18 +1856,26 @@
         },
         {
             "class": "tab_close_button",
-            "content_margin": [
-                0,
-                0
-            ],
+            "content_margin": 0,
             "layer0.texture": "Meetio/assets/default/icon_close.png",
             "layer0.tint": "var(tabCloseColor)",
             "layer0.opacity": 1,
             "layer0.inner_margin": 0,
+            "layer1.texture": "Meetio/assets/default/dirty_dot_icon.png",
+            "layer1.tint": "var(tabDiffIconColor)",
+            "layer1.inner_margin": [
+                2,
+                2
+            ],
+            "layer1.opacity": 0
+        },
+        {
+            "class": "tab_close_button",
             "layer1.texture": "Meetio/assets/default/dirty_icon.png",
-            "layer1.tint": "var(colorAccent)",
-            "layer1.opacity": 0,
-            "layer1.inner_margin": 0
+            "layer1.inner_margin": 0,
+            "settings": [
+                "meetio_tabs_diff_pencil_icon"
+            ]
         },
         {
             "class": "tab_close_button",
@@ -1930,6 +1931,24 @@
             ],
             "layer0.opacity": 0,
             "layer1.opacity": 1,
+            "content_margin": [
+                6,
+                6
+            ]
+        },
+        {
+            "class": "tab_close_button",
+            "parents": [
+                {
+                    "class": "tab_control",
+                    "attributes": [
+                        "dirty"
+                    ]
+                }
+            ],
+            "settings": [
+                "meetio_tabs_diff_pencil_icon"
+            ],
             "content_margin": [
                 8,
                 8
@@ -2074,6 +2093,14 @@
         {
             "class": "tool_tip_label_control",
             "fg": "var(tooltipLabelColor)"
+        },
+        {
+            "class": "title_bar",
+            "settings": [
+                "meetio_titlebar"
+            ],
+            "bg": "var(titleBarBackground)",
+            "fg": "var(titleBarColor)"
         },
         {
             "class": "vcs_status_badge",

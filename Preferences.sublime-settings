@@ -9,6 +9,9 @@
   "meetio_tabs_selected_border" : false,
   // Show icon diff in tab
   "meetio_tabs_diff_icon"       : true,
+  // Show diff pencil icon in tab.
+  // The see this option, ensure that "meetio_tabs_diff_icon" is TRUE.
+  "meetio_tabs_diff_pencil_icon": false,
   // Show diff tab with different color
   "meetio_tabs_diff_highlight"  : false,
 
@@ -27,5 +30,4 @@
   "meetio_input_search_icon"    : false,
   // Show vcs status badges in the status bar
   "meetio_status_badges"        : true
-
 }
