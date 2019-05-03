@@ -53,8 +53,8 @@ Manually you can go to (**Preferences > Settings - User**) and paste the followi
 
 ```json
 {
-    "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
-    "theme": "Meetio.sublime-theme"
+  "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
+  "theme": "Meetio.sublime-theme"
 }
 ```
 
@@ -64,28 +64,29 @@ This theme provide a visual configuration tool that allow you to configure the t
 * Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Edit Settings`.
 * You can also open the settings from the Command Palette by searching `Meetio: Edit Settings`.
 
-```json
+```
 {
-    // Tabs
-    "meetio_tabs_autowidth"       : true,  // Enable auto width for tabs
-    "meetio_tabs_big"             : true,  // Set tabs big
-    "meetio_tabs_bold"            : true,  // Make the tab labels bolder only in selected
-    "meetio_tabs_selected_border" : true,  // Show border in selected tab
-    "meetio_tabs_diff_icon"       : true,  // Show icon diff in tab
-    "meetio_tabs_diff_highlight"  : false, // Show diff tab with different color
+  // Tabs
+  "meetio_tabs_autowidth"       : true,  // Enable auto width for tabs
+  "meetio_tabs_big"             : true,  // Set tabs big
+  "meetio_tabs_bold"            : true,  // Make the tab labels bolder only in selected
+  "meetio_tabs_selected_border" : true,  // Show border in selected tab
+  "meetio_tabs_diff_icon"       : true,  // Show icon diff in tab
+  "meetio_tabs_diff_highlight"  : false, // Show diff tab with different color
+  "meetio_tabs_diff_pencil_icon": false, // Show diff pencil icon in tab
 
-    // Sidebar
-    "meetio_sidebar_font_big"     : true,  // Set large font in sidebar
-    "meetio_compact_sidebar"      : true,  // Set compact sidebar
-    "meetio_arrow_folders"        : true,  // Replace folder icons with arrows
-    "meetio_sidebar_disclosure"   : true,  // Set disclosure tree controls
+  // Sidebar
+  "meetio_sidebar_font_big"     : true,  // Set large font in sidebar
+  "meetio_compact_sidebar"      : true,  // Set compact sidebar
+  "meetio_arrow_folders"        : true,  // Replace folder icons with arrows
+  "meetio_sidebar_disclosure"   : true,  // Set disclosure tree controls
 
-    // Panels
-    "meetio_titlebar"             : true,  // Enable title bar (OS X 10.10+)
-    "meetio_input_search_icon"    : true,  // Show icon search in inputs
+  // Panels
+  "meetio_titlebar"             : true,  // Enable title bar (OS X 10.10+)
+  "meetio_input_search_icon"    : true,  // Show icon search in inputs
 
-    // Statusbar
-    "meetio_status_badges"        : true,  // Show vcs status badges in the status bar
+  // Statusbar
+  "meetio_status_badges"        : true,  // Show vcs status badges in the status bar
 }
 ```
 
@@ -97,11 +98,11 @@ Meetio provides a bunch of variables to improve your experience with theming.
 
 ```json
 {
-    "variables": {
-        "colorAccent": "#6772e4",
-        "statusbarBackground": "#6772e4",
-        "statusbarLabelColor": "#fff"
-    }
+  "variables": {
+    "colorAccent": "#6772e4",
+    "statusbarBackground": "#6772e4",
+    "statusbarLabelColor": "#fff"
+  }
 }
 ```
 
@@ -110,27 +111,27 @@ Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings` and p
 
 ```json
 {
-    "variables": {
-        "inputBorderColor": ["foreground", 0.1],
-        "inputBackground": ["background", 1],
-        "inputBorderSize": [0, 0, 0, 1],
-        "sidebarIconFolderColor": "#607a86",
-        "sidebarLabelColor": "#607a86",
-        "sidebarLabelSelectedColor": "var(colorAccent)",
-        "sidebarBackground": ["background", 1.0],
-        "sidebarLabelSelectedBackground": "#00000015",
-        "panelControlBackground": ["background", 1.0],
-        "statusbarBackground": ["background", 1.0],
-        "statusbarLabelColor": "#607a86",
-        "tabFontSize": 12,
-        "tabWidth": 120,
-        "tabBackground": ["background", 1.0],
-        "tabSelectedColor": ["foreground", 1],
-        "tabSelectedBorderSize": [0, 0, 0, 1],
-        "tabCloseSelectedColor": ["foreground", 1],
-        "titleBarBackground": ["background", 1.0],
-        "titleBarColor": "#607a86"
-    }
+  "variables": {
+    "inputBorderColor": ["foreground", 0.1],
+    "inputBackground": ["background", 1],
+    "inputBorderSize": [0, 0, 0, 1],
+    "sidebarIconFolderColor": "#607a86",
+    "sidebarLabelColor": "#607a86",
+    "sidebarLabelSelectedColor": "var(colorAccent)",
+    "sidebarBackground": ["background", 1.0],
+    "sidebarLabelSelectedBackground": "#00000015",
+    "panelControlBackground": ["background", 1.0],
+    "statusbarBackground": ["background", 1.0],
+    "statusbarLabelColor": "#607a86",
+    "tabFontSize": 12,
+    "tabWidth": 120,
+    "tabBackground": ["background", 1.0],
+    "tabSelectedColor": ["foreground", 1],
+    "tabSelectedBorderSize": [0, 0, 0, 1],
+    "tabCloseSelectedColor": ["foreground", 1],
+    "titleBarBackground": ["background", 1.0],
+    "titleBarColor": "#607a86"
+  }
 }
 ```
 
@@ -138,12 +139,12 @@ Active the option `meetio_tabs_selected_border` in `Meetio: Edit Settings` and p
 
 ```json
 {
-    "always_show_minimap_viewport" : true,
-    "bold_folder_labels"           : true,
-    "line_padding_bottom"          : 7,
-    "line_padding_top"             : 7,
-    "overlay_scroll_bars"          : "enabled",
-    "highlight_modified_tabs"      : "enabled",
-    "font_face"                    : "Fira Code"
+  "always_show_minimap_viewport" : true,
+  "bold_folder_labels"           : true,
+  "line_padding_bottom"          : 7,
+  "line_padding_top"             : 7,
+  "overlay_scroll_bars"          : "enabled",
+  "highlight_modified_tabs"      : "enabled",
+  "font_face"                    : "Fira Code"
 }
 ```

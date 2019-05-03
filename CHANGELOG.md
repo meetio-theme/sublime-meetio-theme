@@ -6,6 +6,18 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ---
 
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/mauroreisvieira/meetio/compare/v2.0.0...v2.0.1) (2019-05-03)
+
+### FEATURES
+* Add option `meetio_tabs_diff_pencil_icon`  to show a pencil icon in tab.
+* Add variables `tabDiffIconColor`  to change the color of icon in tab.
+
+### BUGFIXES
+* Fix `overlay_control` layer problem.
+
+---
+
 <a name="2.0.0"></a>
 ## [2.0.0](https://github.com/mauroreisvieira/meetio/compare/v1.8.0...v2.0.0) (2019-04-09)
 
