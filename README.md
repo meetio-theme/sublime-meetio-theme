@@ -8,9 +8,15 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/blob/master/LICENSE)
 
-**Meetio** is the most powerful theme for Sublime Text 3 with different scheme variations only for 3176+ version.
-
+**Meetio Theme** is the most powerful theme for Sublime Text 3 with different scheme variations only for 3176+ version.\
 You can help improve the theme by reporting issues [here](https://github.com/mauroreisvieira/meetio/issues).
+
+ - [Installation](#installation)
+ - [Activate Theme](#activate-theme)
+ - [Theme Settings](#theme-settings)
+ - [Override Theme Variables](#override-theme-variables)
+ - [Recommended Settings](#recommended-settings)
+ - [Theme Inspired](#theme-inspired)
 
 ## Installation
 
@@ -34,7 +40,7 @@ You can help improve the theme by reporting issues [here](https://github.com/mau
 5. Start using.
 
 
-## Activate the theme
+## Activate Theme
 
 **You can active this theme from:**
 
@@ -52,7 +58,7 @@ Manually you can go to (**Preferences > Settings - User**) and paste the followi
 }
 ```
 
-### Theme Settings
+## Theme Settings
 This theme provide a visual configuration tool that allow you to configure the theme by activating the available options from an inline popup.
 
 * Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Edit Settings`.
@@ -78,8 +84,8 @@ This theme provide a visual configuration tool that allow you to configure the t
 }
 ```
 
-### Theme Configuration
-**Meetio** provides a bunch of variables to improve your experience with theming.
+## Override Theme Variables
+**Meetio Theme** provides a bunch of variables to improve your experience with theming.
 
 * Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Theme Configuration`.
 * You can also open the settings from the Command Palette by searching `Meetio: Theme Configuration`.
@@ -94,7 +100,9 @@ This theme provide a visual configuration tool that allow you to configure the t
 }
 ```
 
-### Recommended settings for a better experience:
+## Recommended Settings
+To enjoy a better experience of using the **Meetio Theme** in your Sublime Text, please check the following settings.
+
 ```js
 {
   "line_padding_bottom"          : 7,
@@ -105,7 +113,8 @@ This theme provide a visual configuration tool that allow you to configure the t
 }
 ```
 
-#### This theme is inspired upon the:
+## Theme Inspired
+A special thanks to the following people who developed great projects, in which I inspired me to develop **Meetio Theme**.
 
 * [Material Theme](https://github.com/equinusocio/material-theme) theme created by [@equinusocio](https://github.com/equinusocio).
 * [cobalt2](https://github.com/wesbos/cobalt2) theme created by [@wesbos](https://github.com/wesbos).
