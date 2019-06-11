@@ -87,7 +87,10 @@
             "foreground",
             0.05
         ],
-        "sidebarLabelSelectedColor": "var(colorAccent)",
+        "sidebarLabelSelectedColor": [
+            "foreground",
+            1
+        ],
         "sidebarLabelSelectedBorderSize": [
             2,
             0,
@@ -132,7 +135,7 @@
         "tabDiffIconColor": "var(colorAccent)",
         "tabDiffColor": "var(--bluish)",
         "tabDiffItalic": true,
-        "tabHeight": 46,
+        "tabHeight": 45,
         "tabWidth": 90,
         "tabCloseColor": [
             "foreground",

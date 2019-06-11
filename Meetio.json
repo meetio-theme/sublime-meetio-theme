@@ -86,7 +86,10 @@
             "foreground",
             0.05
         ],
-        "sidebarLabelSelectedColor": "var(colorAccent)",
+        "sidebarLabelSelectedColor": [
+            "foreground",
+            1
+        ],
         "sidebarLabelSelectedBorderSize": [
             2,
             0,
@@ -131,7 +134,7 @@
         "tabDiffIconColor": "var(colorAccent)",
         "tabDiffColor": "var(--bluish)",
         "tabDiffItalic": true,
-        "tabHeight": 46,
+        "tabHeight": 45,
         "tabWidth": 90,
         "tabCloseColor": [
             "foreground",
@@ -840,56 +843,6 @@
             "border_size": "var(gridLayoutBorderSize)"
         },
         {
-            "class": "label_control",
-            "fg": [
-                "foreground",
-                1
-            ],
-            "font.bold": false
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "button_control"
-                }
-            ],
-            "color": [
-                "foreground",
-                1
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "panel_control"
-                }
-            ],
-            "color": [
-                "foreground",
-                1
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "title_label_control",
-            "fg": [
-                "foreground",
-                1
-            ],
-            "font.size": "var(fontSizeHuge)"
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "button_control"
-                }
-            ]
-        },
-        {
             "class": "text_line_control",
             "layer0.opacity": 1,
             "layer0.inner_margin": [
@@ -1012,6 +965,56 @@
                 "hover"
             ],
             "layer0.opacity": 0.8
+        },
+        {
+            "class": "label_control",
+            "fg": [
+                "foreground",
+                1
+            ],
+            "font.bold": false
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "button_control"
+                }
+            ],
+            "color": [
+                "foreground",
+                1
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "panel_control"
+                }
+            ],
+            "color": [
+                "foreground",
+                1
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "title_label_control",
+            "fg": [
+                "foreground",
+                1
+            ],
+            "font.size": "var(fontSizeHuge)"
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "button_control"
+                }
+            ]
         },
         {
             "class": "close_button",
@@ -2032,6 +2035,19 @@
             "fg": "var(titleBarColor)"
         },
         {
+            "class": "tool_tip_control",
+            "layer0.tint": "var(tooltipBackground)",
+            "layer0.opacity": 1,
+            "content_margin": [
+                12,
+                8
+            ]
+        },
+        {
+            "class": "tool_tip_label_control",
+            "fg": "var(tooltipLabelColor)"
+        },
+        {
             "class": "vcs_status_badge",
             "parents": [
                 {
@@ -2210,19 +2226,6 @@
                 3,
                 1
             ]
-        },
-        {
-            "class": "tool_tip_control",
-            "layer0.tint": "var(tooltipBackground)",
-            "layer0.opacity": 1,
-            "content_margin": [
-                12,
-                8
-            ]
-        },
-        {
-            "class": "tool_tip_label_control",
-            "fg": "var(tooltipLabelColor)"
         },
         {
             "class": "minimap_control",
