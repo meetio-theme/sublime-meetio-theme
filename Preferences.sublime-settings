@@ -1,33 +1,23 @@
 {
-  // Enable auto width for tabs
-  "meetio_tabs_autowidth"       : false,
-  // Set tabs big
-  "meetio_tabs_big"             : false,
   // Make the tab labels bolder only in selected
-  "meetio_tabs_bold"            : false,
+  "meetio_tabs_bold": false,
   // Show border in selected tab
-  "meetio_tabs_selected_border" : false,
+  "meetio_tabs_selected_border": true,
   // Show icon diff in tab
-  "meetio_tabs_diff_icon"       : true,
+  "meetio_tabs_diff_icon": true,
   // Show diff pencil icon in tab.
   // The see this option, ensure that "meetio_tabs_diff_icon" is TRUE.
   "meetio_tabs_diff_pencil_icon": false,
   // Show diff tab with different color
-  "meetio_tabs_diff_highlight"  : false,
+  "meetio_tabs_diff_highlight": false,
 
-  // Set large font in sidebar
-  "meetio_sidebar_font_big"     : false,
-  // Set compact sidebar
-  "meetio_compact_sidebar"      : false,
   // Replace folder icons with arrows
-  "meetio_arrow_folders"        : false,
+  "meetio_arrow_folders": false,
   // Set disclosure tree controls
-  "meetio_sidebar_disclosure"   : false,
+  "meetio_sidebar_disclosure": true,
 
-  // Enable title bar (OS X 10.10+)
-  "meetio_titlebar"             : false,
   // Show icon search in inputs
-  "meetio_input_search_icon"    : false,
+  "meetio_input_search_icon": true,
   // Show vcs status badges in the status bar
-  "meetio_status_badges"        : true
+  "meetio_status_badges": true
 }

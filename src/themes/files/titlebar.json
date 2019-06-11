@@ -1,7 +1,6 @@
 [
     {
         "class": "title_bar",
-        "settings": ["meetio_titlebar"],
         "bg": "var(titleBarBackground)",
         "fg": "var(titleBarColor)"
     }

@@ -53,6 +53,186 @@
     },
     "rules": [
         {
+            "background": "#000000FF",
+            "foreground": "#808080FF",
+            "scope": "col_000000FF"
+        },
+        {
+            "background": "#FF0000FF",
+            "foreground": "#CCCCCCFF",
+            "scope": "col_FF0000FF"
+        },
+        {
+            "background": "#81D4FAFF",
+            "foreground": "#3F3F3FFF",
+            "scope": "col_81D4FAFF"
+        },
+        {
+            "background": "#F9F9F9FF",
+            "foreground": "#797979FF",
+            "scope": "col_F9F9F9FF"
+        },
+        {
+            "background": "#91B859FF",
+            "foreground": "#212121FF",
+            "scope": "col_91B859FF"
+        },
+        {
+            "background": "#546171FF",
+            "foreground": "#DEDEDEFF",
+            "scope": "col_546171FF"
+        },
+        {
+            "background": "#FFB62EFF",
+            "foreground": "#3C3C3CFF",
+            "scope": "col_FFB62EFF"
+        },
+        {
+            "background": "#3D3D3DFF",
+            "foreground": "#BDBDBDFF",
+            "scope": "col_3D3D3DFF"
+        },
+        {
+            "background": "#FF5370FF",
+            "foreground": "#090909FF",
+            "scope": "col_FF5370FF"
+        },
+        {
+            "background": "#5FB3B3FF",
+            "foreground": "#191919FF",
+            "scope": "col_5FB3B3FF"
+        },
+        {
+            "background": "#7C4DFFFF",
+            "foreground": "#EFEFEFFF",
+            "scope": "col_7C4DFFFF"
+        },
+        {
+            "background": "#6182B8FF",
+            "foreground": "#FEFEFEFF",
+            "scope": "col_6182B8FF"
+        },
+        {
+            "background": "#F76D47FF",
+            "foreground": "#111111FF",
+            "scope": "col_F76D47FF"
+        },
+        {
+            "background": "#90A4AEFF",
+            "foreground": "#1F1F1FFF",
+            "scope": "col_90A4AEFF"
+        },
+        {
+            "background": "#E53734FF",
+            "foreground": "#EAEAEAFF",
+            "scope": "col_E53734FF"
+        },
+        {
+            "background": "#545454FF",
+            "foreground": "#D4D4D4FF",
+            "scope": "col_545454FF"
+        },
+        {
+            "background": "#F78C6CFF",
+            "foreground": "#282828FF",
+            "scope": "col_F78C6CFF"
+        },
+        {
+            "background": "#7DCAC4FF",
+            "foreground": "#323232FF",
+            "scope": "col_7DCAC4FF"
+        },
+        {
+            "background": "#B39DDBFF",
+            "foreground": "#2A2A2AFF",
+            "scope": "col_B39DDBFF"
+        },
+        {
+            "background": "#E1F5FEFF",
+            "foreground": "#707070FF",
+            "scope": "col_E1F5FEFF"
+        },
+        {
+            "background": "#FFCC00FF",
+            "foreground": "#434343FF",
+            "scope": "col_FFCC00FF"
+        },
+        {
+            "background": "#89DDFFFF",
+            "foreground": "#474747FF",
+            "scope": "col_89DDFFFF"
+        },
+        {
+            "background": "#FFCB6BFF",
+            "foreground": "#4F4F4FFF",
+            "scope": "col_FFCB6BFF"
+        },
+        {
+            "background": "#65737EFF",
+            "foreground": "#F0F0F0FF",
+            "scope": "col_65737EFF"
+        },
+        {
+            "background": "#D95757FF",
+            "foreground": "#FDFDFDFF",
+            "scope": "col_D95757FF"
+        },
+        {
+            "background": "#F06292FF",
+            "foreground": "#111111FF",
+            "scope": "col_F06292FF"
+        },
+        {
+            "background": "#C3E88DFF",
+            "foreground": "#525252FF",
+            "scope": "col_C3E88DFF"
+        },
+        {
+            "background": "#82AAFFFF",
+            "foreground": "#272727FF",
+            "scope": "col_82AAFFFF"
+        },
+        {
+            "background": "#212121FF",
+            "foreground": "#A1A1A1FF",
+            "scope": "col_212121FF"
+        },
+        {
+            "background": "#EEFFFFFF",
+            "foreground": "#797979FF",
+            "scope": "col_EEFFFFFF"
+        },
+        {
+            "background": "#455A64FF",
+            "foreground": "#D4D4D4FF",
+            "scope": "col_455A64FF"
+        },
+        {
+            "background": "#FFFFFFFF",
+            "foreground": "#7F7F7FFF",
+            "scope": "col_FFFFFFFF"
+        },
+        {
+            "background": "#80CBC4FF",
+            "foreground": "#333333FF",
+            "scope": "col_80CBC4FF"
+        },
+        {
+            "background": "#00000015",
+            "foreground": "#656565FF",
+            "scope": "col_00000015"
+        },
+        {
+            "background": "#000000",
+            "foreground": "#ffffff",
+            "scope": "col_gutter"
+        },
+        {
+            "background": "#607A86FF",
+            "foreground": "#F3F3F3FF",
+            "scope": "col_607A86FF"
+        },
+        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(green)"
@@ -161,36 +341,6 @@
             "scope": "diff.inserted, diff.inserted.char",
             "background": "color(var(green) alpha(0.08))",
             "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.other.template, keyword.other.substitution",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Tag Name",
-            "scope": "entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(magenta)"
         },
         {
             "name": "[JavaScript] String",
@@ -313,6 +463,36 @@
             "name": "[JavaScript] Boolean",
             "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
             "foreground": "var(orange)"
+        },
+        {
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.other.template, keyword.other.substitution",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(magenta)"
         },
         {
             "name": "[JSON] Key ",
@@ -444,36 +624,6 @@
             "font_style": "italic"
         },
         {
-            "name": "[PHP] Inherited Class",
-            "scope": "entity.other.inherited-class.php",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[PHP] Storage",
-            "scope": "storage.modifier.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Function",
-            "scope": "storage.type.function.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Extends",
-            "scope": "storage.modifier.extends.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Construct",
-            "scope": "support.function.construct.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Var",
-            "scope": "support.function.var.php",
-            "foreground": "var(cyan)"
-        },
-        {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "var(comments)",
@@ -527,9 +677,39 @@
             "background": "color(var(yellow) alpha(0.9))"
         },
         {
+            "name": "[PHP] Inherited Class",
+            "scope": "entity.other.inherited-class.php",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[PHP] Storage",
+            "scope": "storage.modifier.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Function",
+            "scope": "storage.type.function.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Extends",
+            "scope": "storage.modifier.extends.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Var",
+            "scope": "support.function.var.php",
+            "foreground": "var(cyan)"
+        },
+        {
             "name": "[Python] Variables",
             "scope": "source.python meta.function.parameters.python variable.parameter.python",
-            "foreground": "var(magenta)"
+            "foreground": "var(orange)"
         },
         {
             "name": "[Python] Annotation",
@@ -540,7 +720,12 @@
         {
             "name": "[Python] Constant",
             "scope": "source.python meta.function.parameters.default-value.python constant.language.python",
-            "foreground": "var(orange)"
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[Python] Support",
+            "scope": "source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
+            "foreground": "var(yellow)"
         },
         {
             "name": "[Python] Arguments",
@@ -548,9 +733,19 @@
             "foreground": "var(green)"
         },
         {
-            "name": "[Python] Arguments",
+            "name": "[Python] Generic Name",
             "scope": "source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
             "foreground": "var(blue)"
+        },
+        {
+            "name": "[Python] Exception",
+            "scope": "source.python meta.statement.raise.python meta.function-call.python meta.qualified-name.python variable.function.python support.type.exception.python",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Python] Statements",
+            "scope": "source.python meta.statement.for.python keyword.control.flow.for.python, source.python meta.statement.if.python keyword.control.flow.conditional.python, source.python meta.statement.conditional.python keyword.control.flow.conditional.python, source.python keyword.control.flow.break.python, source.python keyword.control.flow.continue.python, source.python meta.statement.while.python keyword.control.flow.while.python, source.python keyword.control.flow.pass.python",
+            "foreground": "var(cyan)"
         },
         {
             "name": "[Yaml] Key",

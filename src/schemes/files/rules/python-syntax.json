@@ -2,7 +2,7 @@
     {
         "name":"[Python] Variables",
         "scope":"source.python meta.function.parameters.python variable.parameter.python",
-        "foreground":"var(magenta)"
+        "foreground":"var(orange)"
     },
     {
         "name":"[Python] Annotation",
@@ -13,7 +13,12 @@
     {
         "name":"[Python] Constant",
         "scope":"source.python meta.function.parameters.default-value.python constant.language.python",
-        "foreground":"var(orange)"
+        "foreground":"var(magenta)"
+    },
+    {
+        "name":"[Python] Support",
+        "scope":"source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
+        "foreground":"var(yellow)"
     },
     {
         "name":"[Python] Arguments",
@@ -21,8 +26,18 @@
         "foreground":"var(green)"
     },
     {
-        "name":"[Python] Arguments",
+        "name":"[Python] Generic Name",
         "scope":"source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
         "foreground":"var(blue)"
+    },
+    {
+        "name":"[Python] Exception",
+        "scope":"source.python meta.statement.raise.python meta.function-call.python meta.qualified-name.python variable.function.python support.type.exception.python",
+        "foreground":"var(red)"
+    },
+    {
+        "name":"[Python] Statements",
+        "scope":"source.python meta.statement.for.python keyword.control.flow.for.python, source.python meta.statement.if.python keyword.control.flow.conditional.python, source.python meta.statement.conditional.python keyword.control.flow.conditional.python, source.python keyword.control.flow.break.python, source.python keyword.control.flow.continue.python, source.python meta.statement.while.python keyword.control.flow.while.python, source.python keyword.control.flow.pass.python",
+        "foreground":"var(cyan)"
     }
 ]

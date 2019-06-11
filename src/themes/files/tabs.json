@@ -16,16 +16,6 @@
         "mouse_wheel_switch": true
     },
     {
-        "class": "tabset_control",
-        "settings": ["meetio_tabs_autowidth"],
-        "tab_width": 0
-    },
-    {
-        "class": "tabset_control",
-        "settings": ["meetio_tabs_big"],
-        "tab_height": "var(tabHeightLarge)"
-    },
-    {
         "class": "tab_control",
         "layer0.tint": ["background", 0.0],
         "layer0.inner_margin": [24, 8],
