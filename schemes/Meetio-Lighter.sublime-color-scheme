@@ -53,6 +53,26 @@
     },
     "rules": [
         {
+            "background": "#FFFFFFFF",
+            "foreground": "#7F7F7FFF",
+            "scope": "col_FFFFFFFF"
+        },
+        {
+            "background": "#80CBC4FF",
+            "foreground": "#333333FF",
+            "scope": "col_80CBC4FF"
+        },
+        {
+            "background": "#000000",
+            "foreground": "#ffffff",
+            "scope": "col_gutter"
+        },
+        {
+            "background": "#455A64FF",
+            "foreground": "#D4D4D4FF",
+            "scope": "col_455A64FF"
+        },
+        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(green)"
@@ -497,41 +517,6 @@
             "background": "color(var(yellow) alpha(0.9))"
         },
         {
-            "name": "[PHP] Inherited Class",
-            "scope": "entity.other.inherited-class.php",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[PHP] Storage",
-            "scope": "storage.modifier.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Extends",
-            "scope": "storage.modifier.extends.php",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[PHP] Construct",
-            "scope": "support.function.construct.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Echo",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[PHP] Var",
-            "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Block",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
-            "foreground": "var(magenta)"
-        },
-        {
             "name": "[Python] Variables",
             "scope": "source.python meta.function.parameters.python variable.parameter.python",
             "foreground": "var(orange)"
@@ -571,6 +556,41 @@
             "name": "[Python] Statements",
             "scope": "source.python meta.statement.for.python keyword.control.flow.for.python, source.python meta.statement.if.python keyword.control.flow.conditional.python, source.python meta.statement.conditional.python keyword.control.flow.conditional.python, source.python keyword.control.flow.break.python, source.python keyword.control.flow.continue.python, source.python meta.statement.while.python keyword.control.flow.while.python, source.python keyword.control.flow.pass.python",
             "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Inherited Class",
+            "scope": "entity.other.inherited-class.php",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[PHP] Storage",
+            "scope": "storage.modifier.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Extends",
+            "scope": "storage.modifier.extends.php",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Echo",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[PHP] Var",
+            "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Block",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(magenta)"
         },
         {
             "name": "[Yaml] Key",

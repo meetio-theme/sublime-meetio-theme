@@ -2,8 +2,7 @@
     "extends": "Meetio.json",
     "variables": {
         "colorAccent": "#80cbc4",
-        "colorWhite": "#ffffff",
-        "colorBlack": "#455A64",
+        "colorDark": "#455A64",
         "fontSizeSm": 11,
         "fontSizeMd": 12,
         "fontSizeLg": 14,
@@ -26,7 +25,7 @@
         "panelControlBorderColor": "var(panelControlBackground)",
         "panelControlBorderSize": 0,
         "panelPathRowFontSize": "var(fontSizeSm)",
-        "panelPathRowColor": "color(var(colorBlack) l(+ 20%))",
+        "panelPathRowColor": "color(var(colorDark) l(+ 20%))",
         "panelPathRowFontItalic": true,
         "panelRowPadding": [
             30,
@@ -37,7 +36,7 @@
             "background",
             1
         ],
-        "panelRowColor": "color(var(colorBlack) l(+ 20%))",
+        "panelRowColor": "color(var(colorDark) l(+ 20%))",
         "panelRowSelectedBackground": [
             "foreground",
             0.1
@@ -72,7 +71,7 @@
             "background",
             1
         ],
-        "sidebarIconFolderColor": "color(var(colorBlack) l(+ 20%))",
+        "sidebarIconFolderColor": "color(var(colorDark) l(+ 20%))",
         "sidebarIconFileColor": "#ffffff",
         "sidebarIconFolderExpandedColor": "var(colorAccent)",
         "sidebarHeadingFontSize": "var(fontSizeSm)",
@@ -82,7 +81,7 @@
             3
         ],
         "sidebarIndentOffset": 14,
-        "sidebarLabelColor": "color(var(colorBlack) l(+ 20%))",
+        "sidebarLabelColor": "color(var(colorDark) l(+ 20%))",
         "sidebarLabelSelectedBackground": [
             "foreground",
             0.05
@@ -102,7 +101,7 @@
             "background",
             1
         ],
-        "statusbarLabelColor": "color(var(colorBlack) l(+ 20%))",
+        "statusbarLabelColor": "color(var(colorDark) l(+ 20%))",
         "statusbarLabelBold": false,
         "statusbarLabelFontSize": "var(fontSizeSm)",
         "statusbarMargin": [
@@ -150,7 +149,7 @@
             "background",
             1
         ],
-        "titleBarColor": "color(var(colorBlack) l(+ 20%))",
+        "titleBarColor": "color(var(colorDark) l(+ 20%))",
         "tooltipBackground": [
             "foreground",
             1
@@ -159,7 +158,7 @@
             "background",
             1
         ],
-        "gridLayoutBorderColor": "color(var(colorAccent) blenda(var(colorBlack) 30%))",
+        "gridLayoutBorderColor": "color(var(colorAccent) blenda(var(colorDark) 30%))",
         "gridLayoutBorderSize": 2,
         "vscIgnored": "color(var(sidebarLabelColor) a(0.5))",
         "vscModified": "var(--bluish)",
