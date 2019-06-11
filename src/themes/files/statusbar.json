@@ -49,7 +49,7 @@
     {
         "class": "label_control",
         "parents": [{ "class": "status_bar" }],
-        "font.size": "var(fontSizeSm)",
+        "font.size": "var(statusbarLabelFontSize)",
         "color": "var(statusbarLabelColor)",
         "font.bold": "var(statusbarLabelBold)"
     }

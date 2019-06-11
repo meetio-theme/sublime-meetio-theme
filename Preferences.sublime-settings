@@ -1,6 +1,4 @@
 {
-  // Make the tab labels bolder only in selected
-  "meetio_tabs_bold": false,
   // Show border in selected tab
   "meetio_tabs_selected_border": true,
   // Show icon diff in tab

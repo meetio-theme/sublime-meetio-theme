@@ -59,7 +59,6 @@ This theme provide a visual configuration tool that allow you to configure the t
 ```js
 {
   // Tabs
-  "meetio_tabs_bold"            : true,  // Make the tab labels bolder only in selected
   "meetio_tabs_selected_border" : true,  // Show border in selected tab
   "meetio_tabs_diff_icon"       : true,  // Show icon diff in tab
   "meetio_tabs_diff_highlight"  : true, // Show diff tab with different color

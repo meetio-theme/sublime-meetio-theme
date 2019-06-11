@@ -53,154 +53,9 @@
     },
     "rules": [
         {
-            "background": "#000000FF",
-            "foreground": "#808080FF",
-            "scope": "col_000000FF"
-        },
-        {
-            "background": "#FF0000FF",
-            "foreground": "#CCCCCCFF",
-            "scope": "col_FF0000FF"
-        },
-        {
-            "background": "#81D4FAFF",
-            "foreground": "#3F3F3FFF",
-            "scope": "col_81D4FAFF"
-        },
-        {
-            "background": "#F9F9F9FF",
-            "foreground": "#797979FF",
-            "scope": "col_F9F9F9FF"
-        },
-        {
-            "background": "#91B859FF",
-            "foreground": "#212121FF",
-            "scope": "col_91B859FF"
-        },
-        {
-            "background": "#546171FF",
-            "foreground": "#DEDEDEFF",
-            "scope": "col_546171FF"
-        },
-        {
-            "background": "#FFB62EFF",
-            "foreground": "#3C3C3CFF",
-            "scope": "col_FFB62EFF"
-        },
-        {
-            "background": "#3D3D3DFF",
-            "foreground": "#BDBDBDFF",
-            "scope": "col_3D3D3DFF"
-        },
-        {
-            "background": "#FF5370FF",
-            "foreground": "#090909FF",
-            "scope": "col_FF5370FF"
-        },
-        {
-            "background": "#5FB3B3FF",
-            "foreground": "#191919FF",
-            "scope": "col_5FB3B3FF"
-        },
-        {
-            "background": "#7C4DFFFF",
-            "foreground": "#EFEFEFFF",
-            "scope": "col_7C4DFFFF"
-        },
-        {
-            "background": "#6182B8FF",
-            "foreground": "#FEFEFEFF",
-            "scope": "col_6182B8FF"
-        },
-        {
-            "background": "#F76D47FF",
-            "foreground": "#111111FF",
-            "scope": "col_F76D47FF"
-        },
-        {
-            "background": "#90A4AEFF",
-            "foreground": "#1F1F1FFF",
-            "scope": "col_90A4AEFF"
-        },
-        {
-            "background": "#E53734FF",
-            "foreground": "#EAEAEAFF",
-            "scope": "col_E53734FF"
-        },
-        {
-            "background": "#545454FF",
-            "foreground": "#D4D4D4FF",
-            "scope": "col_545454FF"
-        },
-        {
-            "background": "#F78C6CFF",
-            "foreground": "#282828FF",
-            "scope": "col_F78C6CFF"
-        },
-        {
-            "background": "#7DCAC4FF",
-            "foreground": "#323232FF",
-            "scope": "col_7DCAC4FF"
-        },
-        {
-            "background": "#B39DDBFF",
-            "foreground": "#2A2A2AFF",
-            "scope": "col_B39DDBFF"
-        },
-        {
-            "background": "#E1F5FEFF",
-            "foreground": "#707070FF",
-            "scope": "col_E1F5FEFF"
-        },
-        {
-            "background": "#FFCC00FF",
-            "foreground": "#434343FF",
-            "scope": "col_FFCC00FF"
-        },
-        {
-            "background": "#89DDFFFF",
-            "foreground": "#474747FF",
-            "scope": "col_89DDFFFF"
-        },
-        {
-            "background": "#FFCB6BFF",
-            "foreground": "#4F4F4FFF",
-            "scope": "col_FFCB6BFF"
-        },
-        {
-            "background": "#65737EFF",
-            "foreground": "#F0F0F0FF",
-            "scope": "col_65737EFF"
-        },
-        {
-            "background": "#D95757FF",
-            "foreground": "#FDFDFDFF",
-            "scope": "col_D95757FF"
-        },
-        {
-            "background": "#F06292FF",
-            "foreground": "#111111FF",
-            "scope": "col_F06292FF"
-        },
-        {
-            "background": "#C3E88DFF",
-            "foreground": "#525252FF",
-            "scope": "col_C3E88DFF"
-        },
-        {
-            "background": "#82AAFFFF",
-            "foreground": "#272727FF",
-            "scope": "col_82AAFFFF"
-        },
-        {
-            "background": "#212121FF",
-            "foreground": "#A1A1A1FF",
-            "scope": "col_212121FF"
-        },
-        {
-            "background": "#EEFFFFFF",
-            "foreground": "#797979FF",
-            "scope": "col_EEFFFFFF"
+            "background": "#000000",
+            "foreground": "#ffffff",
+            "scope": "col_gutter"
         },
         {
             "background": "#455A64FF",
@@ -216,21 +71,6 @@
             "background": "#80CBC4FF",
             "foreground": "#333333FF",
             "scope": "col_80CBC4FF"
-        },
-        {
-            "background": "#00000015",
-            "foreground": "#656565FF",
-            "scope": "col_00000015"
-        },
-        {
-            "background": "#000000",
-            "foreground": "#ffffff",
-            "scope": "col_gutter"
-        },
-        {
-            "background": "#607A86FF",
-            "foreground": "#F3F3F3FF",
-            "scope": "col_607A86FF"
         },
         {
             "name": "[CSS] String",
@@ -341,6 +181,36 @@
             "scope": "diff.inserted, diff.inserted.char",
             "background": "color(var(green) alpha(0.08))",
             "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.other.template, keyword.other.substitution",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(magenta)"
         },
         {
             "name": "[JavaScript] String",
@@ -463,36 +333,6 @@
             "name": "[JavaScript] Boolean",
             "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
             "foreground": "var(orange)"
-        },
-        {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.other.template, keyword.other.substitution",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Tag Name",
-            "scope": "entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(magenta)"
         },
         {
             "name": "[JSON] Key ",
@@ -687,11 +527,6 @@
             "foreground": "var(magenta)"
         },
         {
-            "name": "[PHP] Function",
-            "scope": "storage.type.function.php",
-            "foreground": "var(magenta)"
-        },
-        {
             "name": "[PHP] Extends",
             "scope": "storage.modifier.extends.php",
             "foreground": "var(magenta)"
@@ -702,9 +537,19 @@
             "foreground": "var(cyan)"
         },
         {
+            "name": "[PHP] Echo",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
+            "foreground": "var(orange)"
+        },
+        {
             "name": "[PHP] Var",
-            "scope": "support.function.var.php",
+            "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
             "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Block",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(magenta)"
         },
         {
             "name": "[Python] Variables",

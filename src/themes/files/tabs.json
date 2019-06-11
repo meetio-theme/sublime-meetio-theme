@@ -6,7 +6,6 @@
         "tint_index": 1,
         "tab_overlap": 0,
         "tab_width": "var(tabWidth)",
-        "tab_min_width": "var(tabMinWidth)",
         "tab_height": "var(tabHeight)",
         "mouse_wheel_switch": false
     },
@@ -67,12 +66,7 @@
         "font.face": "var(fontFace)",
         "font.size": "var(tabFontSize)",
         "fg": "var(tabColor)",
-        "font.bold": false
-    },
-    {
-        "class": "tab_label",
-        "settings": ["meetio_tabs_bold"],
-        "font.bold": true
+        "font.bold": "var(tabBold)"
     },
     {
         "class": "tab_label",

@@ -101,12 +101,14 @@
         ],
         "statusbarLabelColor": "color(var(colorBlack) l(+ 20%))",
         "statusbarLabelBold": false,
+        "statusbarLabelFontSize": "var(fontSizeSm)",
         "statusbarMargin": [
             10,
             4,
             0,
             4
         ],
+        "tabBold": false,
         "tabFontSize": "var(fontSizeSm)",
         "tabColor": [
             "foreground",
@@ -131,7 +133,7 @@
         "tabDiffColor": "var(--bluish)",
         "tabDiffItalic": true,
         "tabHeight": 46,
-        "tabWidth": 70,
+        "tabWidth": 90,
         "tabCloseColor": [
             "foreground",
             0.5

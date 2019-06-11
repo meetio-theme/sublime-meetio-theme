@@ -53,26 +53,6 @@
     },
     "rules": [
         {
-            "background": "#000000",
-            "foreground": "#ffffff",
-            "scope": "col_gutter"
-        },
-        {
-            "background": "#455A64FF",
-            "foreground": "#D4D4D4FF",
-            "scope": "col_455A64FF"
-        },
-        {
-            "background": "#FFFFFFFF",
-            "foreground": "#7F7F7FFF",
-            "scope": "col_FFFFFFFF"
-        },
-        {
-            "background": "#80CBC4FF",
-            "foreground": "#333333FF",
-            "scope": "col_80CBC4FF"
-        },
-        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(green)"
@@ -181,6 +161,36 @@
             "scope": "diff.inserted, diff.inserted.char",
             "background": "color(var(green) alpha(0.08))",
             "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.other.template, keyword.other.substitution",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(magenta)"
         },
         {
             "name": "[JavaScript] String",
@@ -303,36 +313,6 @@
             "name": "[JavaScript] Boolean",
             "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
             "foreground": "var(orange)"
-        },
-        {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.other.template, keyword.other.substitution",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Tag Name",
-            "scope": "entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(magenta)"
         },
         {
             "name": "[JSON] Key ",
@@ -527,11 +507,6 @@
             "foreground": "var(magenta)"
         },
         {
-            "name": "[PHP] Function",
-            "scope": "storage.type.function.php",
-            "foreground": "var(magenta)"
-        },
-        {
             "name": "[PHP] Extends",
             "scope": "storage.modifier.extends.php",
             "foreground": "var(magenta)"
@@ -542,9 +517,19 @@
             "foreground": "var(cyan)"
         },
         {
+            "name": "[PHP] Echo",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
+            "foreground": "var(orange)"
+        },
+        {
             "name": "[PHP] Var",
-            "scope": "support.function.var.php",
+            "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
             "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Block",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(magenta)"
         },
         {
             "name": "[Python] Variables",

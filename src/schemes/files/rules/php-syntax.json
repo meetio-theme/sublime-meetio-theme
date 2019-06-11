@@ -10,11 +10,6 @@
         "foreground": "var(magenta)"
     },
     {
-        "name": "[PHP] Function",
-        "scope": "storage.type.function.php",
-        "foreground": "var(magenta)"
-    },
-    {
         "name": "[PHP] Extends",
         "scope": "storage.modifier.extends.php",
         "foreground": "var(magenta)"
@@ -24,9 +19,20 @@
         "scope": "support.function.construct.php",
         "foreground": "var(cyan)"
     },
+
+    {
+        "name": "[PHP] Echo",
+        "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
+        "foreground": "var(orange)"
+    },
     {
         "name": "[PHP] Var",
-        "scope": "support.function.var.php",
+        "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
         "foreground": "var(cyan)"
+    },
+    {
+        "name": "[PHP] Block",
+        "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
+        "foreground": "var(magenta)"
     }
 ]
