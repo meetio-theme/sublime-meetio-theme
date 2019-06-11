@@ -4,19 +4,19 @@
     "variables": {
         "accent"     : "#7dcac4",
         "caret"      : "#ffcc00",
-        "foreground" : "#cdd3de",
-        "background" : "#1b2b34",
+        "foreground" : "#eeffff",
+        "background" : "#182124",
         "comments"   : "color(var(foreground) alpha(0.3))",
         "white"      : "#fff",
-        "blue"       : "#6699cc",
-        "cyan"       : "#5fb3b3",
+        "blue"       : "#82aaff",
+        "cyan"       : "#89ddff",
         "gray"       : "#3d3d3d",
-        "green"      : "#99c794",
+        "green"      : "#c3e88d",
         "orange"     : "#fb914f",
         "pink"       : "#f07178",
-        "red"        : "#ec5f67",
+        "red"        : "#ff5370",
         "magenta"    : "#c792ea",
         "light-blue" : "#b2ccd6",
-        "yellow"     : "#fac863"
+        "yellow"     : "#ffcb6b"
     }
 }
