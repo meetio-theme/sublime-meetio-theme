@@ -6,6 +6,25 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ---
 
+<a name="2.1.0"></a>
+## [2.1.0](https://github.com/mauroreisvieira/meetio/compare/v2.0.1...v2.1.0) (2019-06-11)
+
+### FEATURES
+* Add syntax improvements for: `PHP` & `Python`. Thanks [@pykong](https://github.com/pykong) for your feedback.
+* Add theme colors improvements.
+* Add variable `sidebarLabelPadding`.
+* Add variable `tabBold`.
+
+### BUGFIXES
+* Fix multiple files stay selected on Windows [issue #11](https://github.com/mauroreisvieira/meetio/issues/11). Thanks [@f8ttyc8t](https://github.com/f8ttyc8t) for your report.
+
+### BREAKING CHANGES
+* Remove options for Tabs: `meetio_tabs_big`, `meetio_tabs_bold` & `meetio_tabs_autowidth`.
+* Remove options for SideBar: `meetio_sidebar_font_big` & `meetio_compact_sidebar`.
+* Remove options for Title: `meetio_titlebar`.
+
+---
+
 <a name="2.0.1"></a>
 ## [2.0.1](https://github.com/mauroreisvieira/meetio/compare/v2.0.0...v2.0.1) (2019-05-03)
 
