@@ -1,0 +1,28 @@
+[
+    {
+        "name":"[Python] Variables",
+        "scope":"source.python meta.function.parameters.python variable.parameter.python",
+        "foreground":"var(magenta)"
+    },
+    {
+        "name":"[Python] Annotation",
+        "scope":"source.python meta.function.parameters.annotation.python meta.qualified-name.python support.type.python",
+        "foreground":"var(yellow)",
+        "font_style":"italic"
+    },
+    {
+        "name":"[Python] Constant",
+        "scope":"source.python meta.function.parameters.default-value.python constant.language.python",
+        "foreground":"var(orange)"
+    },
+    {
+        "name":"[Python] Arguments",
+        "scope":"source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
+        "foreground":"var(green)"
+    },
+    {
+        "name":"[Python] Arguments",
+        "scope":"source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
+        "foreground":"var(blue)"
+    }
+]

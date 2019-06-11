@@ -16,3 +16,17 @@ print(ob.func)
 # Calling function func()
 # Output: Hello
 ob.func()
+
+def copy(
+    src_path: str,
+    dst_path: str,
+    data: Optional[dict] = None,
+    *,
+    exclude: Optional[List[str]] = None,
+    include: Optional[List[str]] = None,
+    pretend: bool = False,
+    force: bool = False,
+    skip: bool = False,
+    quiet: bool = False,
+) -> None:
+    pass
