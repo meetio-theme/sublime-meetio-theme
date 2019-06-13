@@ -1,157 +1,133 @@
-# An h1 header
-============
+# Welcome to StackEdit!
 
-Paragraphs are separated by a blank line.
+Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+# Files
 
-  * this one
-  * that one
-  * the other one
+StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+## Create files and folders
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+## Switch to another file
 
+All your files are listed in the file explorer. You can switch from one to another by clicking a file in the list.
 
+## Rename a file
 
-## An h2 header
-------------
+You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
 
-Here's a numbered list:
+## Delete a file
 
- 1. first item
- 2. second item
- 3. third item
+You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+## Export a file
 
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
+You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
+# Synchronization
 
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
+Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
 
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
+There are two types of synchronization and they can complement each other:
 
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print(i)
-~~~
+- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
 
-### An h3 header
+  > To start syncing your workspace, just sign in with Google in the menu.
 
-Now a nested list:
+- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
+  > Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
 
- 1. First, get these ingredients:
+## Open a file
 
-      * carrots
-      * celery
-      * lentils
+You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
 
- 2. Boil some water.
+## Save a file
 
- 3. Dump everything in the pot and follow
-    this algorithm:
+You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
 
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
+## Synchronize a file
 
-    Do not bump wooden spoon or it will fall.
+Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
 
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
+If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
 
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
+> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
 
-[^1]: Some footnote text.
+## Manage file synchronization
 
-Tables can look like this:
+Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
 
-Name           Size  Material      Color
-------------- -----  ------------  ------------
-All Business      9  leather       brown
-Roundabout       10  hemp canvas   natural
-Cinderella       11  glass         transparent
+# Publication
 
-Table: Shoes sizes, materials, and colors.
+Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
 
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
+> Before starting to publish, you must link an account in the **Publish** sub-menu.
 
---------  -----------------------
-Keyword   Text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
+## Publish a File
 
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
+You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
 
-A horizontal rule follows.
+- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
+- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
 
-***
+## Update a publication
 
-Here's a definition list:
+After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
 
-apples
-  : Good for making applesauce.
+> **Note:** The **Publish now** button is disabled if your file has not been published yet.
 
-oranges
-  : Citrus!
+## Manage file publication
 
-tomatoes
-  : There's no "e" in tomatoe.
+Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
 
-Again, text is indented 4 spaces. (Put a blank line between each
-term and  its definition to spread things out more.)
+# Markdown extensions
 
-Here's a "line block" (note how whitespace is honored):
+StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
 
-| Line one
-|   Line too
-| Line tree
+> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 
-and images can be specified like so:
+## SmartyPants
 
-![example image](example-image.jpg "An exemplary image")
+SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
-Inline math equation: $\omega = d\phi / dt$. Display
-math should get its own line like so:
+|                  | ASCII                           | HTML                          |
+| ---------------- | ------------------------------- | ----------------------------- |
+| Single backticks | `'Isn't this fun?'`             | 'Isn't this fun?'             |
+| Quotes           | `"Isn't this fun?"`             | "Isn't this fun?"             |
+| Dashes           | `-- is en-dash, --- is em-dash` | -- is en-dash, --- is em-dash |
 
-$$I = \int \rho R^{2} dV$$
+## KaTeX
 
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
+
+The _Gamma function_ satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
+
+> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+
+## UML diagrams
+
+You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
+
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
+```
+
+And this will produce a flow chart:
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```

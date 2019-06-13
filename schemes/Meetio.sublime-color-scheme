@@ -80,7 +80,7 @@
         },
         {
             "name": "[CSS] Variable",
-            "scope": "support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
+            "scope": "source.scss variable.declaration.sass, support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
             "foreground": "var(yellow)"
         },
         {
@@ -497,6 +497,21 @@
             "background": "color(var(yellow) alpha(0.9))"
         },
         {
+            "name": "[Perl] Statements",
+            "scope": "source.perl keyword.control.flow.perl, source.perl keyword.control.flow.perl, source.perl keyword.control.conditional.perl",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Perl] Variable",
+            "scope": "source.perl variable.other.readwrite.global.perl",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "[Perl] Function",
+            "scope": "source.perl support.function.perl",
+            "foreground": "var(yellow)"
+        },
+        {
             "name": "[PHP] Inherited Class",
             "scope": "entity.other.inherited-class.php",
             "foreground": "var(yellow)"
@@ -533,8 +548,18 @@
         },
         {
             "name": "[Python] Variables",
-            "scope": "source.python meta.function.parameters.python variable.parameter.python",
+            "scope": "source.python meta.function.parameters.python variable.parameter.python, source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python, source.python meta.function-call.arguments.python variable.parameter.python",
             "foreground": "var(orange)"
+        },
+        {
+            "name": "[Python] Function Arguments",
+            "scope": "source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "[Python] Statement While",
+            "scope": "source.python meta.statement.while.python constant.language.python, source.python constant.language.python",
+            "foreground": "var(pink)"
         },
         {
             "name": "[Python] Annotation",
@@ -553,7 +578,7 @@
             "foreground": "var(yellow)"
         },
         {
-            "name": "[Python] Arguments",
+            "name": "[Python] Function Parameters",
             "scope": "source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
             "foreground": "var(green)"
         },

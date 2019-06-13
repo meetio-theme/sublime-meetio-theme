@@ -17,6 +17,19 @@ print(ob.func)
 # Output: Hello
 ob.func()
 
+copy_local(
+    src_path = src_path,
+    dst_path = dst_path,
+    data = _data,
+    include = include,
+    pretend = pretend,
+    force = force,
+    skip = skip,
+    quiet = quiet
+)
+
+foo('one','two', c='three', d='four')
+
 def ask_ok(prompt, retries = 4, reminder = 'Please try again!'):
     while True:
         ok = input(prompt)

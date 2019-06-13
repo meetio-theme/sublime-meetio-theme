@@ -1,8 +1,18 @@
 [
     {
         "name":"[Python] Variables",
-        "scope":"source.python meta.function.parameters.python variable.parameter.python",
+        "scope":"source.python meta.function.parameters.python variable.parameter.python, source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python, source.python meta.function-call.arguments.python variable.parameter.python",
         "foreground":"var(orange)"
+    },
+    {
+        "name":"[Python] Function Arguments",
+        "scope":"source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python",
+        "foreground":"var(foreground)"
+    },
+    {
+        "name":"[Python] Statement While",
+        "scope":"source.python meta.statement.while.python constant.language.python, source.python constant.language.python",
+        "foreground":"var(pink)"
     },
     {
         "name":"[Python] Annotation",
@@ -21,7 +31,7 @@
         "foreground":"var(yellow)"
     },
     {
-        "name":"[Python] Arguments",
+        "name":"[Python] Function Parameters",
         "scope":"source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
         "foreground":"var(green)"
     },

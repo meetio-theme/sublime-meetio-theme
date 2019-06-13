@@ -1,0 +1,22 @@
+{
+    "name": "Meetio-Mariana",
+    "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
+    "variables": {
+        "accent"     : "#7dcac4",
+        "caret"      : "#ffcc00",
+        "foreground" : "#d8dee9",
+        "background" : "#343d46",
+        "comments"   : "color(var(foreground) alpha(0.3))",
+        "white"      : "#fff",
+        "blue"       : "#6699cc",
+        "cyan"       : "#5fb4b4",
+        "gray"       : "#343D46",
+        "green"      : "#99C794",
+        "orange"     : "#f97b58",
+        "pink"       : "#f07178",
+        "red"        : "#ec5f66",
+        "magenta"    : "#C695C6",
+        "light-blue" : "#b2ccd6",
+        "yellow"     : "#fac761"
+    }
+}

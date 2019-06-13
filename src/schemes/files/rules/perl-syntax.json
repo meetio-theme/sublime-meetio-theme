@@ -1,0 +1,17 @@
+[
+    {
+        "name": "[Perl] Statements",
+        "scope": "source.perl keyword.control.flow.perl, source.perl keyword.control.flow.perl, source.perl keyword.control.conditional.perl",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[Perl] Variable",
+        "scope": "source.perl variable.other.readwrite.global.perl",
+        "foreground": "var(foreground)"
+    },
+    {
+        "name": "[Perl] Function",
+        "scope": "source.perl support.function.perl",
+        "foreground": "var(yellow)"
+    }
+]
