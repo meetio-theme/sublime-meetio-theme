@@ -53,61 +53,6 @@
     },
     "rules": [
         {
-            "foreground": "#ffffff",
-            "scope": "col_gutter",
-            "background": "#000000"
-        },
-        {
-            "foreground": "#1F1F1FFF",
-            "scope": "col_00EEAAFF",
-            "background": "#00EEAAFF"
-        },
-        {
-            "foreground": "#B3B3B3FF",
-            "scope": "col_333333FF",
-            "background": "#333333FF"
-        },
-        {
-            "foreground": "#5D5D5DFF",
-            "scope": "col_DDDDDDFF",
-            "background": "#DDDDDDFF"
-        },
-        {
-            "foreground": "#797979FF",
-            "scope": "col_F9F9F9FF",
-            "background": "#F9F9F9FF"
-        },
-        {
-            "foreground": "#7F7F7FFF",
-            "scope": "col_FFFFFFFF",
-            "background": "#FFFFFFFF"
-        },
-        {
-            "foreground": "#545454FF",
-            "scope": "col_00000026",
-            "background": "#00000026"
-        },
-        {
-            "foreground": "#FEFEFEFF",
-            "scope": "col_D26911FF",
-            "background": "#D26911FF"
-        },
-        {
-            "foreground": "#4C4C4CFF",
-            "scope": "col_CCCCCCFF",
-            "background": "#CCCCCCFF"
-        },
-        {
-            "foreground": "#808080FF",
-            "scope": "col_000000FF",
-            "background": "#000000FF"
-        },
-        {
-            "foreground": "#717171FF",
-            "scope": "col_F1F1F1FF",
-            "background": "#F1F1F1FF"
-        },
-        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(blue)"
@@ -429,6 +374,59 @@
             "foreground": "var(magenta)"
         },
         {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(comments)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable.member",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Operator",
+            "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(white)",
+            "background": "color(var(red) alpha(0.9))"
+        },
+        {
+            "name": "Deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(white)",
+            "background": "color(var(yellow) alpha(0.9))"
+        },
+        {
             "name": "[Markdown] Deleted",
             "scope": "markup.deleted",
             "foreground": "var(red)"
@@ -516,59 +514,6 @@
             "name": "[Markdown] Blockquotes",
             "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
             "font_style": "italic"
-        },
-        {
-            "name": "Comment",
-            "scope": "comment, punctuation.definition.comment",
-            "foreground": "var(comments)",
-            "font_style": "italic"
-        },
-        {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Constant",
-            "scope": "constant.character, constant.other",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "Variable",
-            "scope": "variable.member",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "Operator",
-            "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "Punctuation",
-            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "Storage",
-            "scope": "storage",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "String",
-            "scope": "string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Invalid",
-            "scope": "invalid",
-            "foreground": "var(white)",
-            "background": "color(var(red) alpha(0.9))"
-        },
-        {
-            "name": "Deprecated",
-            "scope": "invalid.deprecated",
-            "foreground": "var(white)",
-            "background": "color(var(yellow) alpha(0.9))"
         },
         {
             "name": "[Perl] Statements",
