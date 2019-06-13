@@ -115,10 +115,20 @@
         "name": "[JavaScript] Undefined",
         "scope": "constant.language.undefined.js",
         "foreground": "var(orange)"
-    } ,
+    },
     {
         "name": "[JavaScript] Boolean",
         "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
         "foreground": "var(orange)"
+    },
+    {
+        "name": "[JavaScript] Return",
+        "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js, source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js keyword.control.flow.js",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[JavaScript] Return",
+        "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
+        "foreground": "var(magenta)"
     }
 ]

@@ -49,5 +49,10 @@
         "name":"[Python] Statements",
         "scope":"source.python meta.statement.for.python keyword.control.flow.for.python, source.python meta.statement.if.python keyword.control.flow.conditional.python, source.python meta.statement.conditional.python keyword.control.flow.conditional.python, source.python keyword.control.flow.break.python, source.python keyword.control.flow.continue.python, source.python meta.statement.while.python keyword.control.flow.while.python, source.python keyword.control.flow.pass.python",
         "foreground":"var(cyan)"
+    },
+    {
+        "name":"[Python] Return",
+        "scope":"source.python keyword.control.flow.return.python",
+        "foreground":"var(cyan)"
     }
 ]

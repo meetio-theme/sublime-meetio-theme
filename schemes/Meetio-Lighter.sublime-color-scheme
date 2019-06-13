@@ -53,9 +53,64 @@
     },
     "rules": [
         {
+            "foreground": "#ffffff",
+            "scope": "col_gutter",
+            "background": "#000000"
+        },
+        {
+            "foreground": "#1F1F1FFF",
+            "scope": "col_00EEAAFF",
+            "background": "#00EEAAFF"
+        },
+        {
+            "foreground": "#B3B3B3FF",
+            "scope": "col_333333FF",
+            "background": "#333333FF"
+        },
+        {
+            "foreground": "#5D5D5DFF",
+            "scope": "col_DDDDDDFF",
+            "background": "#DDDDDDFF"
+        },
+        {
+            "foreground": "#797979FF",
+            "scope": "col_F9F9F9FF",
+            "background": "#F9F9F9FF"
+        },
+        {
+            "foreground": "#7F7F7FFF",
+            "scope": "col_FFFFFFFF",
+            "background": "#FFFFFFFF"
+        },
+        {
+            "foreground": "#545454FF",
+            "scope": "col_00000026",
+            "background": "#00000026"
+        },
+        {
+            "foreground": "#FEFEFEFF",
+            "scope": "col_D26911FF",
+            "background": "#D26911FF"
+        },
+        {
+            "foreground": "#4C4C4CFF",
+            "scope": "col_CCCCCCFF",
+            "background": "#CCCCCCFF"
+        },
+        {
+            "foreground": "#808080FF",
+            "scope": "col_000000FF",
+            "background": "#000000FF"
+        },
+        {
+            "foreground": "#717171FF",
+            "scope": "col_F1F1F1FF",
+            "background": "#F1F1F1FF"
+        },
+        {
             "name": "[CSS] String",
             "scope": "source.css string",
-            "foreground": "var(green)"
+            "foreground": "var(blue)"
         },
         {
             "name": "[CSS] Classes",
@@ -70,8 +125,7 @@
         {
             "name": "[CSS] ID",
             "scope": "entity.other.attribute-name.id.css",
-            "foreground": "var(red)",
-            "font_style": "bold"
+            "foreground": "var(red)"
         },
         {
             "name": "[CSS] Properties",
@@ -81,7 +135,7 @@
         {
             "name": "[CSS] Variable",
             "scope": "source.scss variable.declaration.sass, support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
-            "foreground": "var(yellow)"
+            "foreground": "var(green)"
         },
         {
             "name": "[CSS] Properties Value",
@@ -141,7 +195,7 @@
             "foreground": "var(blue)"
         },
         {
-            "name": "[CSS] Functions",
+            "name": "[CSS] Gradient",
             "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css, support.function.gradient.css",
             "foreground": "var(cyan)"
         },
@@ -149,6 +203,16 @@
             "name": "[CSS] Property Vendor",
             "scope": "support.type.property-vendor.css, support.constant.media.css",
             "foreground": "var(cyan)"
+        },
+        {
+            "name": "[CSS] Conditional",
+            "scope": "source.scss meta.at-rule.sass keyword.control.at-rule.return.sass, source.scss meta.at-rule.sass keyword.control.flow.conditional.sass, source.scss meta.at-rule.sass keyword.control.flow.sass, source.scss meta.at-rule.each.sass keyword.control.flow.sass",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[CSS] Function",
+            "scope": "source.css meta.at-rule.import.css keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass",
+            "foreground": "var(pink)"
         },
         {
             "name": "[Diff] Deleted",
@@ -191,6 +255,46 @@
             "name": "[HTML] Tag Attribute",
             "scope": "text.html.basic entity.other.attribute-name",
             "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "[JSON] Punctuation Section",
+            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation String",
+            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
+            "foreground": "var(blue)"
         },
         {
             "name": "[JavaScript] String",
@@ -315,44 +419,14 @@
             "foreground": "var(orange)"
         },
         {
-            "name": "[JSON] Key ",
-            "scope": "meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(red)"
+            "name": "[JavaScript] Return",
+            "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js, source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js keyword.control.flow.js",
+            "foreground": "var(cyan)"
         },
         {
-            "name": "[JSON] Value",
-            "scope": "meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JSON] Constant",
-            "scope": "constant.language.json",
+            "name": "[JavaScript] Return",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
             "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JSON] Character Escape",
-            "scope": "constant.character.escape.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Constant Numeric",
-            "scope": "constant.numeric.json",
-            "foreground": "var(magenta)"
-        },
-        {
-            "name": "[JSON] Punctuation Section",
-            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation Mapping",
-            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation String",
-            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
-            "foreground": "var(blue)"
         },
         {
             "name": "[Markdown] Deleted",
@@ -512,6 +586,11 @@
             "foreground": "var(yellow)"
         },
         {
+            "name": "[Perl] Function",
+            "scope": "source.perl meta.function.perl meta.block.perl keyword.other.flow.perl",
+            "foreground": "var(cyan)"
+        },
+        {
             "name": "[PHP] Inherited Class",
             "scope": "entity.other.inherited-class.php",
             "foreground": "var(yellow)"
@@ -543,8 +622,13 @@
         },
         {
             "name": "[PHP] Block",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
             "foreground": "var(magenta)"
+        },
+        {
+            "name": "[PHP] Return",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(cyan)"
         },
         {
             "name": "[Python] Variables",
@@ -595,6 +679,11 @@
         {
             "name": "[Python] Statements",
             "scope": "source.python meta.statement.for.python keyword.control.flow.for.python, source.python meta.statement.if.python keyword.control.flow.conditional.python, source.python meta.statement.conditional.python keyword.control.flow.conditional.python, source.python keyword.control.flow.break.python, source.python keyword.control.flow.continue.python, source.python meta.statement.while.python keyword.control.flow.while.python, source.python keyword.control.flow.pass.python",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Python] Return",
+            "scope": "source.python keyword.control.flow.return.python",
             "foreground": "var(cyan)"
         },
         {

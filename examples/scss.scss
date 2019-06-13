@@ -40,7 +40,6 @@ $addon-store-color: #333 !default;
 
 /* Mixins */
 @mixin flex {
-  display: -webkit-flex;
   display: flex;
 }
 

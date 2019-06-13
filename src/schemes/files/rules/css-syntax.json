@@ -2,7 +2,7 @@
     {
         "name": "[CSS] String",
         "scope": "source.css string",
-        "foreground": "var(green)"
+        "foreground": "var(blue)"
     },
     {
         "name": "[CSS] Classes",
@@ -17,8 +17,7 @@
     {
         "name": "[CSS] ID",
         "scope": "entity.other.attribute-name.id.css",
-        "foreground": "var(red)",
-        "font_style": "bold"
+        "foreground": "var(red)"
     },
     {
         "name": "[CSS] Properties",
@@ -28,7 +27,7 @@
     {
         "name": "[CSS] Variable",
         "scope": "source.scss variable.declaration.sass, support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
-        "foreground": "var(yellow)"
+        "foreground": "var(green)"
     },
     {
         "name": "[CSS] Properties Value",
@@ -88,7 +87,7 @@
         "foreground": "var(blue)"
     },
     {
-        "name": "[CSS] Functions",
+        "name": "[CSS] Gradient",
         "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css, support.function.gradient.css",
         "foreground": "var(cyan)"
     },
@@ -96,5 +95,15 @@
         "name": "[CSS] Property Vendor",
         "scope": "support.type.property-vendor.css, support.constant.media.css",
         "foreground": "var(cyan)"
+    },
+    {
+        "name": "[CSS] Conditional",
+        "scope": "source.scss meta.at-rule.sass keyword.control.at-rule.return.sass, source.scss meta.at-rule.sass keyword.control.flow.conditional.sass, source.scss meta.at-rule.sass keyword.control.flow.sass, source.scss meta.at-rule.each.sass keyword.control.flow.sass",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[CSS] Function",
+        "scope": "source.css meta.at-rule.import.css keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass",
+        "foreground": "var(pink)"
     }
 ]

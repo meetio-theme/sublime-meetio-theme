@@ -13,5 +13,10 @@
         "name": "[Perl] Function",
         "scope": "source.perl support.function.perl",
         "foreground": "var(yellow)"
+    },
+    {
+        "name": "[Perl] Function",
+        "scope": "source.perl meta.function.perl meta.block.perl keyword.other.flow.perl",
+        "foreground": "var(cyan)"
     }
 ]
