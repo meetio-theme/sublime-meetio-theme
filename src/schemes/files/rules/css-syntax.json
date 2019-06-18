@@ -7,7 +7,7 @@
     {
         "name": "[CSS] Classes",
         "scope": "entity.other.attribute-name.class",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "[CSS] Tag",
@@ -27,7 +27,7 @@
     {
         "name": "[CSS] Variable",
         "scope": "source.scss variable.declaration.sass, support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
-        "foreground": "var(green)"
+        "foreground": "var(brown)"
     },
     {
         "name": "[CSS] Properties Value",
@@ -103,7 +103,7 @@
     },
     {
         "name": "[CSS] Function",
-        "scope": "source.css meta.at-rule.import.css keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass",
+        "scope": "source.scss meta.function.declaration.sass meta.function.parameters.sass constant.language.sass, source.css meta.at-rule.import.css keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass",
         "foreground": "var(pink)"
     }
 ]

@@ -1,22 +1,19 @@
 {
-    "name": "Meetio-Ocean",
-    "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
-    "variables": {
-        "accent"     : "#7dcac4",
-        "caret"      : "#ffcc00",
-        "foreground" : "#eeffff",
-        "background" : "#182124",
-        "comments"   : "color(var(foreground) alpha(0.3))",
-        "white"      : "#fff",
-        "blue"       : "#82aaff",
-        "cyan"       : "#89ddff",
-        "gray"       : "#3d3d3d",
-        "green"      : "#c3e88d",
-        "orange"     : "#fb914f",
-        "pink"       : "#f07178",
-        "red"        : "#ff5370",
-        "magenta"    : "#c792ea",
-        "light-blue" : "#b2ccd6",
-        "yellow"     : "#ffcb6b"
-    }
+  "name": "Meetio-Ocean",
+  "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
+  "variables": {
+    "caret": "#ffcc00",
+    "foreground": "#eeffff",
+    "background": "#182124",
+    "comments": "color(var(foreground) alpha(0.3))",
+    "blue": "#82aaff",
+    "brown": "#c17e70",
+    "cyan": "#89ddff",
+    "green": "#c3e88d",
+    "orange": "#fb914f",
+    "pink": "#f07178",
+    "purple": "#c792ea",
+    "red": "#ff5370",
+    "yellow": "#ffcb6b"
+  }
 }

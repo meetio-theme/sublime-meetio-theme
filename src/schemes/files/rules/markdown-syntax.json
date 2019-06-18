@@ -24,12 +24,12 @@
         "name": "[Markdown] Links",
         "scope": "string.other.link, markup.underline.link",
         "font_style": "italic",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "[Markdown] Link Description",
         "scope": "entity.name.reference.link.markdown, string.other.link.description.title.markdown, markup.underline.link.image.markdown",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "[Markdown] Link Description",
@@ -81,7 +81,7 @@
     {
         "name": "[Markdown] Punctuation",
         "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "[Markdown] Blockquotes",

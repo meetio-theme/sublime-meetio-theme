@@ -1,22 +1,19 @@
 {
-    "name": "Meetio-Cobalt",
-    "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
-    "variables": {
-        "accent"     : "#7dcac4",
-        "caret"      : "#ffcc00",
-        "foreground" : "#fff",
-        "background" : "#193549",
-        "comments"   : "#0088ff",
-        "white"      : "#fff",
-        "blue"       : "#40c4fe",
-        "cyan"       : "#9effff",
-        "gray"       : "#3d3d3d",
-        "green"      : "#9eff80",
-        "orange"     : "#da8f49",
-        "pink"       : "#ffa5f3",
-        "red"        : "#ed6e74",
-        "magenta"    : "#c2afff",
-        "light-blue" : "#e1f5fe",
-        "yellow"     : "#ffc600"
-    }
+  "name": "Meetio-Cobalt",
+  "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
+  "variables": {
+    "caret": "#ffcc00",
+    "foreground": "#fff",
+    "background": "#193549",
+    "comments": "#0088ff",
+    "blue": "#40c4fe",
+    "brown": "#c17e70",
+    "cyan": "#9effff",
+    "green": "#9eff80",
+    "orange": "#da8f49",
+    "pink": "#ffa5f3",
+    "purple": "#c2afff",
+    "red": "#ed6e74",
+    "yellow": "#ffc600"
+  }
 }

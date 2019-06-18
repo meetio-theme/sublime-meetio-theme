@@ -12,7 +12,7 @@
     {
         "name": "[JSON] Constant",
         "scope": "constant.language.json",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "[JSON] Character Escape",
@@ -22,7 +22,7 @@
     {
         "name": "[JSON] Constant Numeric",
         "scope": "constant.numeric.json",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "[JSON] Punctuation Section",
@@ -38,5 +38,15 @@
         "name": "[JSON] Punctuation String",
         "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
         "foreground": "var(blue)"
+    },
+    {
+        "name": "[JSON] Mapping Level 1",
+        "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+        "foreground": "var(yellow)"
+    },
+    {
+        "name": "[JSON] Mapping Level 2",
+        "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+        "foreground": "var(brown)"
     }
 ]

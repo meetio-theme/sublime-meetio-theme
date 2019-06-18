@@ -12,7 +12,7 @@
     {
         "name": "[JavaScript] Import - Export",
         "scope": "keyword.control.import-export.js, keyword.control.import-export.ts",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "[JavaScript] Storage Type (const, var, let)",
@@ -22,7 +22,7 @@
     {
         "name": "[JavaScript] Constructor",
         "scope": "meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "[JavaScript] Object Key",
@@ -79,7 +79,7 @@
     {
         "name": "[JavaScript] Support",
         "scope": "keyword.control.flow.js, keyword.control.flow.ts",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "[JavaScript] Parameter",
@@ -127,8 +127,8 @@
         "foreground": "var(cyan)"
     },
     {
-        "name": "[JavaScript] Return",
+        "name": "[JavaScript] Vue Object",
         "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     }
 ]

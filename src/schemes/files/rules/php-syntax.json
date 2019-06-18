@@ -7,12 +7,12 @@
     {
         "name": "[PHP] Storage",
         "scope": "storage.modifier.php",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "[PHP] Extends",
         "scope": "storage.modifier.extends.php",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "[PHP] Construct",
@@ -33,7 +33,7 @@
     {
         "name": "[PHP] Block",
         "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "[PHP] Return",

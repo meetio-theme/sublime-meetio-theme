@@ -13,7 +13,7 @@
     {
         "name": "Constant",
         "scope": "constant.character, constant.other",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "Variable",
@@ -23,7 +23,7 @@
     {
         "name": "Operator",
         "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
-        "foreground": "var(magenta)"
+        "foreground": "var(purple)"
     },
     {
         "name": "Punctuation",
@@ -43,13 +43,13 @@
     {
         "name": "Invalid",
         "scope": "invalid",
-        "foreground": "var(white)",
+        "foreground": "#fff",
         "background": "color(var(red) alpha(0.9))"
     },
     {
         "name": "Deprecated",
         "scope": "invalid.deprecated",
-        "foreground": "var(white)",
+        "foreground": "#fff",
         "background": "color(var(yellow) alpha(0.9))"
     }
 ]

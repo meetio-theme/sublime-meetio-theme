@@ -14,9 +14,11 @@ $addon-store-color: #333 !default;
       font-weight: bold;
       padding: my-calculation-function(10px, 5px);
 
+      @include border-radius(5px, true, true, true);
+
       &::after {
         display: block;
-        content: "/";
+        content: '/';
       }
     }
   }
@@ -24,11 +26,11 @@ $addon-store-color: #333 !default;
   a {
     color: $addon-store-color;
 
-    &:hover {
+    &:hover  {
       color: darken($addon-store-color, 30%);
     }
 
-    &:focus{
+    &:focus {
       color: lighten($addon-store-color, 30%);
     }
   }
@@ -46,8 +48,7 @@ $addon-store-color: #333 !default;
 @mixin grid($flex) {
   @if ($flex) {
     @include flex;
-  }
-  @else {
+  } @else {
     display: block;
   }
 }
@@ -55,4 +56,17 @@ $addon-store-color: #333 !default;
 /* Functions */
 @function my-calculation-function($some-number, $another-number) {
   @return $some-number + $another-number;
+}
+
+@mixin border-radius($radius: 5px, $moz: true, $webkit: true, $ms: true) {
+  @if $moz {
+    -moz-border-radius: $radius;
+  }
+  @if $webkit {
+    -webkit-border-radius: $radius;
+  }
+  @if $ms {
+    -ms-border-radius: $radius;
+  }
+  border-radius: $radius;
 }

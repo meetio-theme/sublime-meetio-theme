@@ -23,7 +23,7 @@
     {
         "name":"[Python] Constant",
         "scope":"source.python meta.function.parameters.default-value.python constant.language.python",
-        "foreground":"var(magenta)"
+        "foreground":"var(purple)"
     },
     {
         "name":"[Python] Support",

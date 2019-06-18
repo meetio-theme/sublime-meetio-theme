@@ -1,6 +1,4 @@
 /* eslint-disable */
-import { Utils as util } from './utils/index.js';
-
 export default class Point {
     constructor(x, y) {
         this.x = x;
@@ -39,7 +37,14 @@ class CustomError extends Error {
         }
 
         this.foo = foo;
-        this.date = new Date();
+        this.date = this.getDate();
+    }
+
+    getDate(date) {
+        if (date) {
+            return new Date(date);
+        }
+        return new Date();
     }
 }
 
@@ -53,9 +58,11 @@ try {
     [...document.body.querySelectorAll('[button]')].map(btn => {
         btn.addEventListener('click', () => {
             cp.toString(); // '(25, 8) in green'
-            document.body.bgColor = cp.color;
-            console.log(cp instanceof ColorPoint); // true
-            console.log(cp instanceof Point); // true
+            if (isOk || !isWrong) {
+                document.body.bgColor = cp.color;
+                console.log(cp instanceof ColorPoint); // true
+                console.log(cp instanceof Point); // true
+            }
         })
     });
 
