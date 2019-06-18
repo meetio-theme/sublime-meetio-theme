@@ -6,14 +6,14 @@
     "foreground": "#eeffff",
     "background": "#263238",
     "comments": "#546e7a",
-    "blue": "#6398ce",
+    "blue": "#82aaff",
     "brown": "#c17e70",
-    "cyan": "#5bb3b4",
-    "green": "#97c892",
-    "orange": "#ffb266",
+    "cyan": "#89ddff",
+    "green": "#c3e88d",
+    "orange": "#f78c6c",
     "pink": "#ff526f",
-    "purple": "#c692c6",
-    "red": "#d95757",
+    "purple": "#c792ea",
+    "red": "#ff5370",
     "yellow": "#fbc959"
   }
 }

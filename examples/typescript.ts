@@ -1,6 +1,4 @@
-import { Utils as util } from './utils/index.js';
-
-class Animal {
+export default class Animal {
     private name : String;
     private age : Number;
     private options : Object;
@@ -38,6 +36,17 @@ class Horse extends Animal {
         console.log("Galloping...");
         super.move(45);
     }
+}
+
+interface Pizza {
+  name: string;
+  toppings: string[];
+}
+
+class PizzaMaker {
+  static create(event: Pizza) {
+    return { name: event.name, toppings: event.toppings };
+  }
 }
 
 const sam = new Snake("Sammy the Python", 20);
