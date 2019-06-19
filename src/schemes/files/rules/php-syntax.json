@@ -50,5 +50,10 @@
         "name": "[PHP] Condition",
         "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
         "foreground": "var(cyan)"
+    },
+    {
+        "name": "[PHP] Constant",
+        "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
+        "foreground": "var(orange)"
     }
 ]

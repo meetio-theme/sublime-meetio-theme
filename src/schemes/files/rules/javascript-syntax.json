@@ -72,6 +72,11 @@
         "foreground": "var(orange)"
     },
     {
+        "name": "[JavaScript] Constant Builtin",
+        "scope": "source.js meta.function.js meta.block.js meta.function-call.method.js meta.group.js meta.function.js meta.block.js meta.conditional.js meta.block.js meta.function-call.method.js meta.group.js meta.function.js meta.block.js meta.function-call.method.js support.constant.builtin.js",
+        "foreground": "var(orange)"
+    },
+    {
         "name": "[JavaScript] Boolean",
         "scope": "source.js meta.export.js meta.binding.name.js variable.other.constant.js, constant.language.boolean.false.js, constant.language.boolean.true.js, source.js meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js variable.other.constant.js",
         "foreground": "var(orange)"
@@ -114,7 +119,7 @@
     {
         "name": "[JavaScript] Parameters",
         "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts, variable.parameter.function.js, variable.parameter.function.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts",
-        "foreground": "var(orange)"
+        "foreground": "var(red)"
     },
     {
         "name": "[JavaScript] Storage Type (const, var, let)",
