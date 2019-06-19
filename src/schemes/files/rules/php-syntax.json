@@ -1,8 +1,8 @@
 [
     {
         "name": "[PHP] Inherited Class",
-        "scope": "entity.other.inherited-class.php",
-        "foreground": "var(yellow)"
+        "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
+        "foreground": "var(orange)"
     },
     {
         "name": "[PHP] Storage",
@@ -19,11 +19,11 @@
         "scope": "support.function.construct.php",
         "foreground": "var(cyan)"
     },
-
     {
         "name": "[PHP] Echo",
         "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
-        "foreground": "var(orange)"
+        "font_style": "normal",
+        "foreground": "var(pink)"
     },
     {
         "name": "[PHP] Var",

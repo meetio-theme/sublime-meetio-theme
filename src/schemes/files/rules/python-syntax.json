@@ -26,9 +26,10 @@
         "foreground":"var(purple)"
     },
     {
-        "name":"[Python] Support",
+        "name":"[Python] Print",
         "scope":"source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
-        "foreground":"var(yellow)"
+        "font_style": "normal",
+        "foreground":"var(pink)"
     },
     {
         "name":"[Python] Function Parameters",

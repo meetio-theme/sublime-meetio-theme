@@ -1,7 +1,7 @@
 [
     {
         "name": "[JavaScript] Constructor",
-        "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
+        "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js storage.type.accessor.js, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
         "foreground": "var(purple)"
     },
     {
@@ -16,13 +16,13 @@
     },
     {
         "name": "[JavaScript] Function",
-        "scope": "variable.function, variable.annotation, entity.name.function",
+        "scope": "variable.function, variable.annotation, entity.name.function, meta.class-method.js entity.name.function.js, variable.function",
         "foreground": "var(blue)"
     },
     {
-        "name": "[JavaScript] Function",
-        "scope": "meta.class-method.js entity.name.function.js, variable.function",
-        "foreground": "var(blue)"
+        "name": "[JavaScript] Function Parameter",
+        "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
+        "foreground": "var(pink)"
     },
     {
         "name": "[JavaScript] Language Library",
@@ -73,18 +73,33 @@
     },
     {
         "name": "[JavaScript] Boolean",
-        "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
+        "scope": "source.js meta.export.js meta.binding.name.js variable.other.constant.js, constant.language.boolean.false.js, constant.language.boolean.true.js, source.js meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js variable.other.constant.js",
         "foreground": "var(orange)"
     },
     {
         "name": "[JavaScript] Return",
-        "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js, source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js keyword.control.flow.js",
+        "scope": "source.js meta.function.js meta.block.js keyword.control.flow.js, source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js, source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js keyword.control.flow.js",
         "foreground": "var(cyan)"
     },
     {
-        "name": "[JavaScript] Vue Object",
+        "name": "[JavaScript] Object",
+        "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
+        "foreground": "var(pink)"
+    },
+    {
+        "name": "[Vue] Function Parameter",
+        "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
+        "foreground": "var(pink)"
+    },
+    {
+        "name": "[Vue] Object",
         "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
         "foreground": "var(purple)"
+    },
+    {
+        "name": "[Vue] Object Value",
+        "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
+        "foreground": "var(brown)"
     },
     {
         "name": "[JavaScript] Declaration",
@@ -103,7 +118,7 @@
     },
     {
         "name": "[JavaScript] Storage Type (const, var, let)",
-        "scope": "storage.type.js, storage.type.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.var.expr.ts storage.type.ts",
+        "scope": "source.js meta.try.js meta.block.js storage.type.js, storage.type.js, storage.type.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.var.expr.ts storage.type.ts",
         "foreground": "var(pink)"
     }
 ]

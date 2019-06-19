@@ -11,7 +11,7 @@
         "cyan": "#89ddff",
         "green": "#c3e88d",
         "orange": "#f78c6c",
-        "pink": "#ff526f",
+        "pink": "#f07178",
         "purple": "#c792ea",
         "red": "#ff5370",
         "yellow": "#fbc959"
@@ -49,79 +49,9 @@
     },
     "rules": [
         {
-            "foreground": "#E7E7E7FF",
-            "scope": "col_229922FF",
-            "background": "#229922FF"
-        },
-        {
-            "foreground": "#FEFEFEFF",
-            "scope": "col_D95468FF",
-            "background": "#D95468FF"
-        },
-        {
-            "foreground": "#FEFEFEFF",
-            "scope": "col_D26911FF",
-            "background": "#D26911FF"
-        },
-        {
-            "foreground": "#B3B3B3FF",
-            "scope": "col_333333FF",
-            "background": "#333333FF"
-        },
-        {
-            "foreground": "#A8A8A8FF",
-            "scope": "col_00000026",
-            "background": "#00000026"
-        },
-        {
-            "foreground": "#808080FF",
-            "scope": "col_000000FF",
-            "background": "#000000FF"
-        },
-        {
-            "foreground": "#717171FF",
-            "scope": "col_F1F1F1FF",
-            "background": "#F1F1F1FF"
-        },
-        {
-            "foreground": "#7A7A7AFF",
-            "scope": "col_FAFAFAFF",
-            "background": "#FAFAFAFF"
-        },
-        {
-            "foreground": "#4C4C4CFF",
-            "scope": "col_CCCCCCFF",
-            "background": "#CCCCCCFF"
-        },
-        {
-            "foreground": "#7F7F7FFF",
-            "scope": "col_FFFFFFFF",
-            "background": "#FFFFFFFF"
-        },
-        {
-            "foreground": "#5D5D5DFF",
-            "scope": "col_DDDDDDFF",
-            "background": "#DDDDDDFF"
-        },
-        {
-            "foreground": "#1F1F1FFF",
-            "scope": "col_00EEAAFF",
-            "background": "#00EEAAFF"
-        },
-        {
-            "foreground": "#ffffff",
-            "scope": "col_gutter",
-            "background": "#000000"
-        },
-        {
-            "foreground": "#737373FF",
-            "scope": "col_FFEEEEFF",
-            "background": "#FFEEEEFF"
-        },
-        {
             "name": "[CSS] String",
             "scope": "source.css string",
-            "foreground": "var(blue)"
+            "foreground": "var(green)"
         },
         {
             "name": "[CSS] Classes",
@@ -146,7 +76,7 @@
         {
             "name": "[CSS] Variable",
             "scope": "source.scss variable.declaration.sass, support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
-            "foreground": "var(brown)"
+            "foreground": "var(red)"
         },
         {
             "name": "[CSS] Properties Value",
@@ -161,7 +91,7 @@
         {
             "name": "[CSS] Prefix",
             "scope": "support.type.vendor-prefix.css",
-            "foreground": "var(cyan)"
+            "foreground": "var(blue)"
         },
         {
             "name": "[CSS] Property Name",
@@ -203,27 +133,45 @@
         {
             "name": "[CSS] Color Values",
             "scope": "support.constant.color.w3c-standard-color-name.css, constant.other.color.rgb-value.css, support.constant.color.w3c-extended-color-keywords.css",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[CSS] Gradient",
-            "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css, support.function.gradient.css",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[CSS] Property Vendor",
-            "scope": "support.type.property-vendor.css, support.constant.media.css",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[CSS] Conditional",
-            "scope": "source.scss meta.at-rule.sass keyword.control.at-rule.return.sass, source.scss meta.at-rule.sass keyword.control.flow.conditional.sass, source.scss meta.at-rule.sass keyword.control.flow.sass, source.scss meta.at-rule.each.sass keyword.control.flow.sass",
             "foreground": "var(cyan)"
         },
         {
             "name": "[CSS] Function",
-            "scope": "source.scss meta.function.declaration.sass meta.function.parameters.sass constant.language.sass, source.css meta.at-rule.import.css keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass",
-            "foreground": "var(pink)"
+            "scope": "source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.color.css, support.function.var.css, support.function.filter.css, support.function.calc.css, support.function.gradient.css, source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.var.css",
+            "foreground": "var(blue)",
+            "font_style": "normal"
+        },
+        {
+            "name": "[CSS] Property Vendor",
+            "scope": "source.css meta.at-rule.media.css keyword.control.at-rule.media.css, support.type.property-vendor.css, support.constant.media.css",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[SCSS] Punctuation",
+            "scope": "source.scss meta.selector.css keyword.operator.ampersand.sass, source.scss meta.selector.css entity.other.attribute-name.class.css punctuation.definition.entity.css",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[SCSS] Prefix",
+            "scope": "source.scss meta.property-name.css support.type.vendor-prefix.css",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "[SCSS] Function Call",
+            "scope": "source.scss meta.property-value.css meta.function-call.css support.function.custom.sass, source.scss meta.property-value.css meta.function-call.sass support.function.sass",
+            "foreground": "var(blue)",
+            "font_style": "normal"
+        },
+        {
+            "name": "[SCSS] Conditional",
+            "scope": "source.scss meta.at-rule.sass keyword.control.at-rule.return.sass, source.scss meta.at-rule.sass keyword.control.flow.conditional.sass, source.scss meta.at-rule.sass keyword.control.flow.sass, source.scss meta.at-rule.each.sass keyword.control.flow.sass",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[SCSS] Function",
+            "scope": "source.scss meta.function.declaration.sass keyword.control.at-rule.sass, source.scss meta.function.declaration.sass meta.function.parameters.sass constant.language.sass, source.css meta.at-rule.import.css keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass",
+            "foreground": "var(cyan)",
+            "font_style": "italic"
         },
         {
             "name": "[Diff] Deleted",
@@ -236,6 +184,16 @@
             "scope": "diff.inserted, diff.inserted.char",
             "background": "color(var(green) alpha(0.08))",
             "foreground": "var(green)"
+        },
+        {
+            "name": "[Groovy] Conditional",
+            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Groovy] Return",
+            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
+            "foreground": "var(cyan)"
         },
         {
             "name": "[HTML] String",
@@ -269,7 +227,7 @@
         },
         {
             "name": "[JavaScript] Constructor",
-            "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
+            "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js storage.type.accessor.js, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
             "foreground": "var(purple)"
         },
         {
@@ -284,13 +242,13 @@
         },
         {
             "name": "[JavaScript] Function",
-            "scope": "variable.function, variable.annotation, entity.name.function",
+            "scope": "variable.function, variable.annotation, entity.name.function, meta.class-method.js entity.name.function.js, variable.function",
             "foreground": "var(blue)"
         },
         {
-            "name": "[JavaScript] Function",
-            "scope": "meta.class-method.js entity.name.function.js, variable.function",
-            "foreground": "var(blue)"
+            "name": "[JavaScript] Function Parameter",
+            "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
+            "foreground": "var(pink)"
         },
         {
             "name": "[JavaScript] Language Library",
@@ -341,18 +299,33 @@
         },
         {
             "name": "[JavaScript] Boolean",
-            "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
+            "scope": "source.js meta.export.js meta.binding.name.js variable.other.constant.js, constant.language.boolean.false.js, constant.language.boolean.true.js, source.js meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js variable.other.constant.js",
             "foreground": "var(orange)"
         },
         {
             "name": "[JavaScript] Return",
-            "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js, source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js keyword.control.flow.js",
+            "scope": "source.js meta.function.js meta.block.js keyword.control.flow.js, source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js, source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js keyword.control.flow.js",
             "foreground": "var(cyan)"
         },
         {
-            "name": "[JavaScript] Vue Object",
+            "name": "[JavaScript] Object",
+            "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Vue] Function Parameter",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Vue] Object",
             "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
             "foreground": "var(purple)"
+        },
+        {
+            "name": "[Vue] Object Value",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
+            "foreground": "var(brown)"
         },
         {
             "name": "[JavaScript] Declaration",
@@ -371,7 +344,7 @@
         },
         {
             "name": "[JavaScript] Storage Type (const, var, let)",
-            "scope": "storage.type.js, storage.type.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.var.expr.ts storage.type.ts",
+            "scope": "source.js meta.try.js meta.block.js storage.type.js, storage.type.js, storage.type.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.var.expr.ts storage.type.ts",
             "foreground": "var(pink)"
         },
         {
@@ -540,19 +513,24 @@
             "foreground": "var(yellow)"
         },
         {
+            "name": "Function Call",
+            "scope": "meta.class meta.block meta.function meta.block meta.function-call.constructor variable.type",
+            "foreground": "var(yellow)"
+        },
+        {
             "name": "Import & Export",
-            "scope": "meta.export keyword.control.import-export, meta.export.default keyword.control.export, meta.export.default keyword.control.default",
+            "scope": "meta.use keyword.other.use, meta.use keyword.control.import.use, meta.at-rule.import keyword.control.at-rule.import, meta.import keyword.control.import-export, meta.export keyword.control.import-export, meta.export.default keyword.control.export, meta.export.default keyword.control.default",
             "foreground": "var(cyan)",
             "font_style": "italic"
         },
         {
             "name": "Declaration",
-            "scope": "meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
+            "scope": "meta.interface storage.modifier, meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
             "foreground": "var(purple)"
         },
         {
             "name": "Inherited",
-            "scope": "meta.class entity.other.inherited-class",
+            "scope": "meta.interface entity.other.inherited-class, meta.class meta.path entity.other.inherited-class, meta.class entity.other.inherited-class",
             "foreground": "var(orange)"
         },
         {
@@ -619,8 +597,8 @@
         },
         {
             "name": "[PHP] Inherited Class",
-            "scope": "entity.other.inherited-class.php",
-            "foreground": "var(yellow)"
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
+            "foreground": "var(orange)"
         },
         {
             "name": "[PHP] Storage",
@@ -640,7 +618,8 @@
         {
             "name": "[PHP] Echo",
             "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
-            "foreground": "var(orange)"
+            "font_style": "normal",
+            "foreground": "var(pink)"
         },
         {
             "name": "[PHP] Var",
@@ -684,9 +663,10 @@
             "foreground": "var(purple)"
         },
         {
-            "name": "[Python] Support",
+            "name": "[Python] Print",
             "scope": "source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
-            "foreground": "var(yellow)"
+            "font_style": "normal",
+            "foreground": "var(pink)"
         },
         {
             "name": "[Python] Function Parameters",
@@ -717,6 +697,16 @@
             "name": "[Yaml] Key",
             "scope": "entity.name.tag.yaml",
             "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Yaml] Numeric",
+            "scope": "source.yaml constant.numeric.float.yaml, source.yaml constant.numeric.integer.yaml",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Yaml] Anchor",
+            "scope": "source.yaml meta.property.yaml entity.name.other.anchor.yaml",
+            "foreground": "var(yellow)"
         }
     ]
 }

@@ -3,5 +3,15 @@
         "name": "[Yaml] Key",
         "scope": "entity.name.tag.yaml",
         "foreground": "var(cyan)"
+    },
+    {
+        "name": "[Yaml] Numeric",
+        "scope": "source.yaml constant.numeric.float.yaml, source.yaml constant.numeric.integer.yaml",
+        "foreground": "var(purple)"
+    },
+    {
+        "name": "[Yaml] Anchor",
+        "scope": "source.yaml meta.property.yaml entity.name.other.anchor.yaml",
+        "foreground": "var(yellow)"
     }
 ]

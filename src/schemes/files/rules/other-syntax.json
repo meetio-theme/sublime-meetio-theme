@@ -26,19 +26,24 @@
         "foreground": "var(yellow)"
     },
     {
+        "name": "Function Call",
+        "scope": "meta.class meta.block meta.function meta.block meta.function-call.constructor variable.type",
+        "foreground": "var(yellow)"
+    },
+    {
         "name": "Import & Export",
-        "scope": "meta.export keyword.control.import-export, meta.export.default keyword.control.export, meta.export.default keyword.control.default",
+        "scope": "meta.use keyword.other.use, meta.use keyword.control.import.use, meta.at-rule.import keyword.control.at-rule.import, meta.import keyword.control.import-export, meta.export keyword.control.import-export, meta.export.default keyword.control.export, meta.export.default keyword.control.default",
         "foreground": "var(cyan)",
         "font_style": "italic"
     },
     {
         "name": "Declaration",
-        "scope": "meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
+        "scope": "meta.interface storage.modifier, meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
         "foreground": "var(purple)"
     },
     {
         "name": "Inherited",
-        "scope": "meta.class entity.other.inherited-class",
+        "scope": "meta.interface entity.other.inherited-class, meta.class meta.path entity.other.inherited-class, meta.class entity.other.inherited-class",
         "foreground": "var(orange)"
     },
     {

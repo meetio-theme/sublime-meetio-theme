@@ -2,7 +2,7 @@
     {
         "name": "[CSS] String",
         "scope": "source.css string",
-        "foreground": "var(blue)"
+        "foreground": "var(green)"
     },
     {
         "name": "[CSS] Classes",
@@ -27,7 +27,7 @@
     {
         "name": "[CSS] Variable",
         "scope": "source.scss variable.declaration.sass, support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
-        "foreground": "var(brown)"
+        "foreground": "var(red)"
     },
     {
         "name": "[CSS] Properties Value",
@@ -42,7 +42,7 @@
     {
         "name": "[CSS] Prefix",
         "scope": "support.type.vendor-prefix.css",
-        "foreground": "var(cyan)"
+        "foreground": "var(blue)"
     },
     {
         "name": "[CSS] Property Name",
@@ -84,26 +84,44 @@
     {
         "name": "[CSS] Color Values",
         "scope": "support.constant.color.w3c-standard-color-name.css, constant.other.color.rgb-value.css, support.constant.color.w3c-extended-color-keywords.css",
-        "foreground": "var(blue)"
-    },
-    {
-        "name": "[CSS] Gradient",
-        "scope": "support.function.var.css, support.function.filter.css, support.function.calc.css, support.function.gradient.css",
-        "foreground": "var(cyan)"
-    },
-    {
-        "name": "[CSS] Property Vendor",
-        "scope": "support.type.property-vendor.css, support.constant.media.css",
-        "foreground": "var(cyan)"
-    },
-    {
-        "name": "[CSS] Conditional",
-        "scope": "source.scss meta.at-rule.sass keyword.control.at-rule.return.sass, source.scss meta.at-rule.sass keyword.control.flow.conditional.sass, source.scss meta.at-rule.sass keyword.control.flow.sass, source.scss meta.at-rule.each.sass keyword.control.flow.sass",
         "foreground": "var(cyan)"
     },
     {
         "name": "[CSS] Function",
-        "scope": "source.scss meta.function.declaration.sass meta.function.parameters.sass constant.language.sass, source.css meta.at-rule.import.css keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass",
-        "foreground": "var(pink)"
+        "scope": "source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.color.css, support.function.var.css, support.function.filter.css, support.function.calc.css, support.function.gradient.css, source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.var.css",
+        "foreground": "var(blue)",
+        "font_style": "normal"
+    },
+    {
+        "name": "[CSS] Property Vendor",
+        "scope": "source.css meta.at-rule.media.css keyword.control.at-rule.media.css, support.type.property-vendor.css, support.constant.media.css",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[SCSS] Punctuation",
+        "scope": "source.scss meta.selector.css keyword.operator.ampersand.sass, source.scss meta.selector.css entity.other.attribute-name.class.css punctuation.definition.entity.css",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[SCSS] Prefix",
+        "scope": "source.scss meta.property-name.css support.type.vendor-prefix.css",
+        "foreground": "var(foreground)"
+    },
+    {
+        "name": "[SCSS] Function Call",
+        "scope": "source.scss meta.property-value.css meta.function-call.css support.function.custom.sass, source.scss meta.property-value.css meta.function-call.sass support.function.sass",
+        "foreground": "var(blue)",
+        "font_style": "normal"
+    },
+    {
+        "name": "[SCSS] Conditional",
+        "scope": "source.scss meta.at-rule.sass keyword.control.at-rule.return.sass, source.scss meta.at-rule.sass keyword.control.flow.conditional.sass, source.scss meta.at-rule.sass keyword.control.flow.sass, source.scss meta.at-rule.each.sass keyword.control.flow.sass",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[SCSS] Function",
+        "scope": "source.scss meta.function.declaration.sass keyword.control.at-rule.sass, source.scss meta.function.declaration.sass meta.function.parameters.sass constant.language.sass, source.css meta.at-rule.import.css keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass",
+        "foreground": "var(cyan)",
+        "font_style": "italic"
     }
 ]
