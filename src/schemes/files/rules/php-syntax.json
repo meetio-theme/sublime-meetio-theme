@@ -36,8 +36,19 @@
         "foreground": "var(purple)"
     },
     {
+        "name": "[PHP] Function",
+        "scope": "meta.function-call.php support.function, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.group.php meta.function-call.php support.function.array.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.function-call.php support.function.string.php",
+        "font_style": "normal",
+        "foreground": "var(blue)"
+    },
+    {
         "name": "[PHP] Return",
         "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[PHP] Condition",
+        "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
         "foreground": "var(cyan)"
     }
 ]

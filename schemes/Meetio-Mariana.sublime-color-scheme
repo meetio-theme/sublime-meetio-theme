@@ -576,26 +576,6 @@
             "background": "color(var(yellow) alpha(0.9))"
         },
         {
-            "name": "[Perl] Statements",
-            "scope": "source.perl keyword.control.flow.perl, source.perl keyword.control.flow.perl, source.perl keyword.control.conditional.perl",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Perl] Variable",
-            "scope": "source.perl variable.other.readwrite.global.perl",
-            "foreground": "var(foreground)"
-        },
-        {
-            "name": "[Perl] Function",
-            "scope": "source.perl support.function.perl",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[Perl] Function",
-            "scope": "source.perl meta.function.perl meta.block.perl keyword.other.flow.perl",
-            "foreground": "var(cyan)"
-        },
-        {
             "name": "[PHP] Inherited Class",
             "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
             "foreground": "var(orange)"
@@ -632,8 +612,39 @@
             "foreground": "var(purple)"
         },
         {
+            "name": "[PHP] Function",
+            "scope": "meta.function-call.php support.function, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.group.php meta.function-call.php support.function.array.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.function-call.php support.function.string.php",
+            "font_style": "normal",
+            "foreground": "var(blue)"
+        },
+        {
             "name": "[PHP] Return",
             "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Condition",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Perl] Statements",
+            "scope": "source.perl keyword.control.flow.perl, source.perl keyword.control.flow.perl, source.perl keyword.control.conditional.perl",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Perl] Variable",
+            "scope": "source.perl variable.other.readwrite.global.perl",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "[Perl] Function",
+            "scope": "source.perl support.function.perl",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[Perl] Function",
+            "scope": "source.perl meta.function.perl meta.block.perl keyword.other.flow.perl",
             "foreground": "var(cyan)"
         },
         {
