@@ -11,6 +11,37 @@
         "foreground": "var(green)"
     },
     {
+        "name": "Class",
+        "scope": "meta.export.default meta.class storage.type.class, meta.class storage.type.class, meta.interface storage.type.interface",
+        "foreground": "var(purple)"
+    },
+    {
+        "name": "Entity Name",
+        "scope": "meta.export meta.class entity.name.class, meta.class entity.name.class, meta.class entity.name.type.class",
+        "foreground": "var(yellow)"
+    },
+    {
+        "name": "Interface Name",
+        "scope": "meta.interface entity.name.type.interface",
+        "foreground": "var(yellow)"
+    },
+    {
+        "name": "Import & Export",
+        "scope": "meta.export keyword.control.import-export, meta.export.default keyword.control.export, meta.export.default keyword.control.default",
+        "foreground": "var(cyan)",
+        "font_style": "italic"
+    },
+    {
+        "name": "Declaration",
+        "scope": "meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
+        "foreground": "var(purple)"
+    },
+    {
+        "name": "Inherited",
+        "scope": "meta.class entity.other.inherited-class",
+        "foreground": "var(orange)"
+    },
+    {
         "name": "Constant",
         "scope": "constant.character, constant.other",
         "foreground": "var(purple)"

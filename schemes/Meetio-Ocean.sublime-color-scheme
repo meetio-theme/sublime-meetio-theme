@@ -198,6 +198,113 @@
             "foreground": "var(purple)"
         },
         {
+            "name": "[JavaScript] Constructor",
+            "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JavaScript] Object Key",
+            "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Dollar",
+            "scope": "variable.other.dollar.only.js, variable.other.dollar.only.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Function",
+            "scope": "variable.function, variable.annotation, entity.name.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Function",
+            "scope": "meta.class-method.js entity.name.function.js, variable.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Language Library",
+            "scope": "variable.language",
+            "foreground": "var(red)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Library",
+            "scope": "support.function, support.macro",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "support.type, support.class",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "keyword.control.flow.js, keyword.control.flow.ts",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JavaScript] Try Catch",
+            "scope": "keyword.control.trycatch.js, keyword.control.trycatch.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Loop",
+            "scope": "keyword.control.loop.js, keyword.control.loop.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Conditional",
+            "scope": "keyword.control.conditional.js, keyword.control.conditional.ts, keyword.control.switch.js, keyword.control.switch.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Null",
+            "scope": "constant.language.null.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Undefined",
+            "scope": "constant.language.undefined.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Boolean",
+            "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Return",
+            "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js, source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js keyword.control.flow.js",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Vue Object",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JavaScript] Declaration",
+            "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.export.default.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JavaScript] Primitive",
+            "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts support.type.primitive.ts",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[JavaScript] Parameters",
+            "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts, variable.parameter.function.js, variable.parameter.function.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Storage Type (const, var, let)",
+            "scope": "storage.type.js, storage.type.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.var.expr.ts storage.type.ts",
+            "foreground": "var(pink)"
+        },
+        {
             "name": "[JSON] Key ",
             "scope": "meta.mapping.key.json string.quoted.double.json",
             "foreground": "var(red)"
@@ -246,138 +353,6 @@
             "name": "[JSON] Mapping Level 2",
             "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
             "foreground": "var(brown)"
-        },
-        {
-            "name": "[JavaScript] String",
-            "scope": "source.js string, source.ts string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JavaScript] Import",
-            "scope": "meta.import.js, meta.import.ts",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JavaScript] Import - Export",
-            "scope": "keyword.control.import-export.js, keyword.control.import-export.ts",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JavaScript] Storage Type (const, var, let)",
-            "scope": "storage.type.js, storage.type.ts",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[JavaScript] Constructor",
-            "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JavaScript] Object Key",
-            "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Dollar",
-            "scope": "variable.other.dollar.only.js, variable.other.dollar.only.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Sub Methods",
-            "scope": "entity.name.module.js, variable.import.parameter.js, variable.other.class.js",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JavaScript] Function",
-            "scope": "variable.function, variable.annotation, entity.name.function",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Storage",
-            "scope": "storage.type.class.js",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JavaScript] Function",
-            "scope": "meta.class-method.js entity.name.function.js, variable.function",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] New",
-            "scope": "keyword.operator.word.new.js, keyword.operator.word.new.ts",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JavaScript] Language Library",
-            "scope": "variable.language",
-            "foreground": "var(red)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[JavaScript] Library",
-            "scope": "support.function, support.macro",
-            "foreground": "var(blue)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[JavaScript] Support",
-            "scope": "support.type, support.class",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JavaScript] Support",
-            "scope": "keyword.control.flow.js, keyword.control.flow.ts",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JavaScript] Parameter",
-            "scope": "variable.parameter.function.js, variable.parameter.function.ts",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Try Catch",
-            "scope": "keyword.control.trycatch.js, keyword.control.trycatch.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Loop",
-            "scope": "keyword.control.loop.js, keyword.control.loop.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Conditional",
-            "scope": "keyword.control.conditional.js, keyword.control.conditional.ts, keyword.control.switch.js, keyword.control.switch.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Entity Name",
-            "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label)",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Null",
-            "scope": "constant.language.null.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Undefined",
-            "scope": "constant.language.undefined.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Boolean",
-            "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Return",
-            "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js, source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js keyword.control.flow.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Vue Object",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
-            "foreground": "var(purple)"
         },
         {
             "name": "[Markdown] Deleted",
@@ -478,6 +453,37 @@
             "name": "Number",
             "scope": "constant.numeric",
             "foreground": "var(green)"
+        },
+        {
+            "name": "Class",
+            "scope": "meta.export.default meta.class storage.type.class, meta.class storage.type.class, meta.interface storage.type.interface",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Entity Name",
+            "scope": "meta.export meta.class entity.name.class, meta.class entity.name.class, meta.class entity.name.type.class",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Interface Name",
+            "scope": "meta.interface entity.name.type.interface",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Import & Export",
+            "scope": "meta.export keyword.control.import-export, meta.export.default keyword.control.export, meta.export.default keyword.control.default",
+            "foreground": "var(cyan)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Declaration",
+            "scope": "meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Inherited",
+            "scope": "meta.class entity.other.inherited-class",
+            "foreground": "var(orange)"
         },
         {
             "name": "Constant",
