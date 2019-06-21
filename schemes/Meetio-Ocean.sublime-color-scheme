@@ -186,6 +186,16 @@
             "foreground": "var(green)"
         },
         {
+            "name": "[Groovy] Conditional",
+            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Groovy] Return",
+            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
+            "foreground": "var(cyan)"
+        },
+        {
             "name": "[HTML] String",
             "scope": "text.html.basic string",
             "foreground": "var(green)"
@@ -214,16 +224,6 @@
             "name": "[HTML] Tag Attribute",
             "scope": "text.html.basic entity.other.attribute-name",
             "foreground": "var(purple)"
-        },
-        {
-            "name": "[Groovy] Conditional",
-            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Groovy] Return",
-            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
-            "foreground": "var(cyan)"
         },
         {
             "name": "[JavaScript] Constructor",
@@ -351,6 +351,95 @@
             "name": "[JavaScript] Storage Type (const, var, let)",
             "scope": "source.js meta.try.js meta.block.js storage.type.js, storage.type.js, storage.type.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.var.expr.ts storage.type.ts",
             "foreground": "var(pink)"
+        },
+        {
+            "name": "[Markdown] Deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Markdown] Inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markdown] Changed",
+            "scope": "markup.changed",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[Markdown] Headings",
+            "scope": "markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown",
+            "font_style": "bold",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markdown] Links",
+            "scope": "string.other.link, markup.underline.link",
+            "font_style": "italic",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Markdown] Link Description",
+            "scope": "entity.name.reference.link.markdown, string.other.link.description.title.markdown, markup.underline.link.image.markdown",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Markdown] Link Description",
+            "scope": "markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.description.markdown, meta.block-level.markdown markup.quote.markdown meta.link.inline.description.markdown, text.html.markdown meta.paragraph.markdown meta.link.inline.description.markdown",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[Markdown] Image Inline",
+            "scope": "meta.paragraph.markdown meta.link.inline.description.markdown meta.image.inline.description.markdown, meta.paragraph.markdown meta.image.inline.description.markdown",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[Markdown] Bold",
+            "scope": "markup.bold",
+            "font_style": "bold",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Markdown] Italic",
+            "scope": "markup.italic",
+            "font_style": "italic",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Markdown] Bold & Italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "[Markdown] Line",
+            "scope": "punctuation.definition.thematic-break",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Markdown] Numbered List Bullet",
+            "scope": "markup.list.numbered.bullet",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markdown] Code Inline",
+            "scope": "markup.raw.inline",
+            "background": "color(var(blue) alpha(0.05))"
+        },
+        {
+            "name": "[Markdown] Code Block",
+            "scope": "meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm, meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm, meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
+            "background": "color(var(blue) alpha(0.05))"
+        },
+        {
+            "name": "[Markdown] Punctuation",
+            "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Markdown] Blockquotes",
+            "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
+            "font_style": "italic"
         },
         {
             "name": "[JSON] Key ",
@@ -492,95 +581,6 @@
             "background": "color(var(yellow) alpha(0.9))"
         },
         {
-            "name": "[Markdown] Deleted",
-            "scope": "markup.deleted",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Markdown] Inserted",
-            "scope": "markup.inserted",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markdown] Changed",
-            "scope": "markup.changed",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[Markdown] Headings",
-            "scope": "markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown",
-            "font_style": "bold",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markdown] Links",
-            "scope": "string.other.link, markup.underline.link",
-            "font_style": "italic",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Markdown] Link Description",
-            "scope": "entity.name.reference.link.markdown, string.other.link.description.title.markdown, markup.underline.link.image.markdown",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Markdown] Link Description",
-            "scope": "markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.description.markdown, meta.block-level.markdown markup.quote.markdown meta.link.inline.description.markdown, text.html.markdown meta.paragraph.markdown meta.link.inline.description.markdown",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[Markdown] Image Inline",
-            "scope": "meta.paragraph.markdown meta.link.inline.description.markdown meta.image.inline.description.markdown, meta.paragraph.markdown meta.image.inline.description.markdown",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[Markdown] Bold",
-            "scope": "markup.bold",
-            "font_style": "bold",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Markdown] Italic",
-            "scope": "markup.italic",
-            "font_style": "italic",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Markdown] Bold & Italic",
-            "scope": "markup.italic markup.bold | markup.bold markup.italic",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "[Markdown] Line",
-            "scope": "punctuation.definition.thematic-break",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Markdown] Numbered List Bullet",
-            "scope": "markup.list.numbered.bullet",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markdown] Code Inline",
-            "scope": "markup.raw.inline",
-            "background": "color(var(blue) alpha(0.05))"
-        },
-        {
-            "name": "[Markdown] Code Block",
-            "scope": "meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm, meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm, meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
-            "background": "color(var(blue) alpha(0.05))"
-        },
-        {
-            "name": "[Markdown] Punctuation",
-            "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Markdown] Blockquotes",
-            "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
-            "font_style": "italic"
-        },
-        {
             "name": "[Perl] Statements",
             "scope": "source.perl keyword.control.flow.perl, source.perl keyword.control.flow.perl, source.perl keyword.control.conditional.perl",
             "foreground": "var(cyan)"
@@ -598,63 +598,6 @@
         {
             "name": "[Perl] Function",
             "scope": "source.perl meta.function.perl meta.block.perl keyword.other.flow.perl",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Python] Variables",
-            "scope": "source.python meta.function.parameters.python variable.parameter.python, source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python, source.python meta.function-call.arguments.python variable.parameter.python",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[Python] Function Arguments",
-            "scope": "source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python",
-            "foreground": "var(foreground)"
-        },
-        {
-            "name": "[Python] Statement While",
-            "scope": "source.python meta.statement.while.python constant.language.python, source.python constant.language.python",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[Python] Annotation",
-            "scope": "source.python meta.function.parameters.annotation.python meta.qualified-name.python support.type.python",
-            "foreground": "var(yellow)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[Python] Constant",
-            "scope": "source.python meta.function.parameters.default-value.python constant.language.python",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Python] Print",
-            "scope": "source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
-            "font_style": "normal",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[Python] Function Parameters",
-            "scope": "source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Python] Generic Name",
-            "scope": "source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[Python] Exception",
-            "scope": "source.python meta.statement.raise.python meta.function-call.python meta.qualified-name.python variable.function.python support.type.exception.python",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Python] Statements",
-            "scope": "source.python meta.statement.for.python keyword.control.flow.for.python, source.python meta.statement.if.python keyword.control.flow.conditional.python, source.python meta.statement.conditional.python keyword.control.flow.conditional.python, source.python keyword.control.flow.break.python, source.python keyword.control.flow.continue.python, source.python meta.statement.while.python keyword.control.flow.while.python, source.python keyword.control.flow.pass.python",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Python] Return",
-            "scope": "source.python keyword.control.flow.return.python",
             "foreground": "var(cyan)"
         },
         {
@@ -713,6 +656,67 @@
             "name": "[PHP] Constant",
             "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
             "foreground": "var(orange)"
+        },
+        {
+            "name": "[Python] Variables",
+            "scope": "source.python meta.function.parameters.python variable.parameter.python, source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python, source.python meta.function-call.arguments.python variable.parameter.python",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[Python] Function Arguments",
+            "scope": "source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "[Python] Statement While",
+            "scope": "source.python meta.statement.while.python constant.language.python, source.python constant.language.python",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Python] Annotation",
+            "scope": "source.python meta.function.parameters.annotation.python meta.qualified-name.python support.type.python",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[Python] Constant",
+            "scope": "source.python meta.function.parameters.default-value.python constant.language.python",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Python] Print",
+            "scope": "source.python keyword.other.print.python, source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
+            "font_style": "normal",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Python] Function Parameters",
+            "scope": "source.python meta.item-access.arguments.python meta.qualified-name.python meta.generic-name.python, source.python meta.item-access.arguments.python meta.qualified-name.python support.type.python, source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Python] Generic Name",
+            "scope": "source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[Python] Exception",
+            "scope": "source.python meta.statement.raise.python meta.function-call.python meta.qualified-name.python variable.function.python support.type.exception.python",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Python] Statements",
+            "scope": "source.python meta.statement.for.python keyword.control.flow.for.python, source.python meta.statement.if.python keyword.control.flow.conditional.python, source.python meta.statement.conditional.python keyword.control.flow.conditional.python, source.python keyword.control.flow.break.python, source.python keyword.control.flow.continue.python, source.python meta.statement.while.python keyword.control.flow.while.python, source.python keyword.control.flow.pass.python",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Python] Function Parameters",
+            "scope": "source.python meta.item-access.python meta.qualified-name.python meta.generic-name.python, source.python meta.function.parameters.annotation.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[Python] Return",
+            "scope": "source.python keyword.control.flow.return.python",
+            "foreground": "var(cyan)"
         },
         {
             "name": "[Yaml] Key",

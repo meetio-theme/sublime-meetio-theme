@@ -17,8 +17,7 @@
     {
         "name":"[Python] Annotation",
         "scope":"source.python meta.function.parameters.annotation.python meta.qualified-name.python support.type.python",
-        "foreground":"var(yellow)",
-        "font_style":"italic"
+        "foreground":"var(yellow)"
     },
     {
         "name":"[Python] Constant",
@@ -27,13 +26,13 @@
     },
     {
         "name":"[Python] Print",
-        "scope":"source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
+        "scope":"source.python keyword.other.print.python, source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
         "font_style": "normal",
         "foreground":"var(pink)"
     },
     {
         "name":"[Python] Function Parameters",
-        "scope":"source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
+        "scope":"source.python meta.item-access.arguments.python meta.qualified-name.python meta.generic-name.python, source.python meta.item-access.arguments.python meta.qualified-name.python support.type.python, source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
         "foreground":"var(green)"
     },
     {
@@ -50,6 +49,11 @@
         "name":"[Python] Statements",
         "scope":"source.python meta.statement.for.python keyword.control.flow.for.python, source.python meta.statement.if.python keyword.control.flow.conditional.python, source.python meta.statement.conditional.python keyword.control.flow.conditional.python, source.python keyword.control.flow.break.python, source.python keyword.control.flow.continue.python, source.python meta.statement.while.python keyword.control.flow.while.python, source.python keyword.control.flow.pass.python",
         "foreground":"var(cyan)"
+    },
+    {
+        "name":"[Python] Function Parameters",
+        "scope":"source.python meta.item-access.python meta.qualified-name.python meta.generic-name.python, source.python meta.function.parameters.annotation.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
+        "foreground":"var(yellow)"
     },
     {
         "name":"[Python] Return",
