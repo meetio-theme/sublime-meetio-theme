@@ -49,6 +49,66 @@
     },
     "rules": [
         {
+            "foreground": "#BBBBBBFF",
+            "scope": "col_0033FFFF",
+            "background": "#0033FFFF"
+        },
+        {
+            "foreground": "#ffffff",
+            "scope": "col_gutter",
+            "background": "#000000"
+        },
+        {
+            "foreground": "#FEFEFEFF",
+            "scope": "col_D26911FF",
+            "background": "#D26911FF"
+        },
+        {
+            "foreground": "#B3B3B3FF",
+            "scope": "col_333333FF",
+            "background": "#333333FF"
+        },
+        {
+            "foreground": "#545454FF",
+            "scope": "col_00000026",
+            "background": "#00000026"
+        },
+        {
+            "foreground": "#808080FF",
+            "scope": "col_000000FF",
+            "background": "#000000FF"
+        },
+        {
+            "foreground": "#717171FF",
+            "scope": "col_F1F1F1FF",
+            "background": "#F1F1F1FF"
+        },
+        {
+            "foreground": "#4C4C4CFF",
+            "scope": "col_CCCCCCFF",
+            "background": "#CCCCCCFF"
+        },
+        {
+            "foreground": "#797979FF",
+            "scope": "col_F9F9F9FF",
+            "background": "#F9F9F9FF"
+        },
+        {
+            "foreground": "#1F1F1FFF",
+            "scope": "col_00EEAAFF",
+            "background": "#00EEAAFF"
+        },
+        {
+            "foreground": "#5D5D5DFF",
+            "scope": "col_DDDDDDFF",
+            "background": "#DDDDDDFF"
+        },
+        {
+            "foreground": "#7F7F7FFF",
+            "scope": "col_FFFFFFFF",
+            "background": "#FFFFFFFF"
+        },
+        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(green)"
@@ -76,7 +136,7 @@
         {
             "name": "[CSS] Variable",
             "scope": "source.scss variable.declaration.sass, support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
-            "foreground": "var(red)"
+            "foreground": "var(brown)"
         },
         {
             "name": "[CSS] Properties Value",

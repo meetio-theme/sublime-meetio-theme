@@ -27,7 +27,7 @@
     {
         "name": "[CSS] Variable",
         "scope": "source.scss variable.declaration.sass, support.type.custom-property.css, support.type.custom-property.scss, variable.other.sass, variable.other.scss",
-        "foreground": "var(red)"
+        "foreground": "var(brown)"
     },
     {
         "name": "[CSS] Properties Value",
