@@ -135,7 +135,6 @@
     {
         "class": "tab_close_button",
         "parents": [{ "class": "tab_control", "attributes": ["dirty"] }],
-        "settings": ["meetio_tabs_diff_icon", "highlight_modified_tabs"],
         "content_margin": [8, 8],
         "settings": ["meetio_tabs_diff_pencil_icon"]
     },
