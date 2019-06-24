@@ -49,19 +49,64 @@
     },
     "rules": [
         {
+            "foreground": "#737373FF",
+            "scope": "col_FFEEEEFF",
+            "background": "#FFEEEEFF"
+        },
+        {
+            "foreground": "#FEFEFEFF",
+            "scope": "col_D95468FF",
+            "background": "#D95468FF"
+        },
+        {
             "foreground": "#ffffff",
             "scope": "col_gutter",
             "background": "#000000"
         },
         {
-            "foreground": "#333333FF",
-            "scope": "col_80CBC4FF",
-            "background": "#80CBC4FF"
+            "foreground": "#FEFEFEFF",
+            "scope": "col_D26911FF",
+            "background": "#D26911FF"
         },
         {
-            "foreground": "#D4D4D4FF",
-            "scope": "col_455A64FF",
-            "background": "#455A64FF"
+            "foreground": "#B3B3B3FF",
+            "scope": "col_333333FF",
+            "background": "#333333FF"
+        },
+        {
+            "foreground": "#A8A8A8FF",
+            "scope": "col_00000026",
+            "background": "#00000026"
+        },
+        {
+            "foreground": "#808080FF",
+            "scope": "col_000000FF",
+            "background": "#000000FF"
+        },
+        {
+            "foreground": "#717171FF",
+            "scope": "col_F1F1F1FF",
+            "background": "#F1F1F1FF"
+        },
+        {
+            "foreground": "#7A7A7AFF",
+            "scope": "col_FAFAFAFF",
+            "background": "#FAFAFAFF"
+        },
+        {
+            "foreground": "#4C4C4CFF",
+            "scope": "col_CCCCCCFF",
+            "background": "#CCCCCCFF"
+        },
+        {
+            "foreground": "#1F1F1FFF",
+            "scope": "col_00EEAAFF",
+            "background": "#00EEAAFF"
+        },
+        {
+            "foreground": "#5D5D5DFF",
+            "scope": "col_DDDDDDFF",
+            "background": "#DDDDDDFF"
         },
         {
             "foreground": "#7F7F7FFF",
@@ -190,8 +235,7 @@
         {
             "name": "[SCSS] Function",
             "scope": "source.scss meta.function.declaration.sass keyword.control.at-rule.sass, source.scss meta.function.declaration.sass meta.function.parameters.sass constant.language.sass, source.css meta.at-rule.import.css keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass",
-            "foreground": "var(cyan)",
-            "font_style": "italic"
+            "foreground": "var(cyan)"
         },
         {
             "name": "[Diff] Deleted",

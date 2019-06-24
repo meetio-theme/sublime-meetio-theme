@@ -170,8 +170,7 @@
         {
             "name": "[SCSS] Function",
             "scope": "source.scss meta.function.declaration.sass keyword.control.at-rule.sass, source.scss meta.function.declaration.sass meta.function.parameters.sass constant.language.sass, source.css meta.at-rule.import.css keyword.control.at-rule.import.css, source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass",
-            "foreground": "var(cyan)",
-            "font_style": "italic"
+            "foreground": "var(cyan)"
         },
         {
             "name": "[Diff] Deleted",
