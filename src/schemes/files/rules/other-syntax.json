@@ -27,7 +27,7 @@
     },
     {
         "name": "Function Call",
-        "scope": "meta.class meta.block meta.function meta.block meta.function-call.constructor variable.type",
+        "scope": "meta.export meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.export meta.object-literal meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.catch meta.block meta.function-call.constructor variable.type, meta.function-call meta.group meta.function meta.block meta.function meta.block meta.function-call.constructor variable.type, meta.try meta.block meta.function-call.constructor variable.type, meta.class meta.block meta.function meta.block meta.function-call.constructor variable.type",
         "foreground": "var(yellow)"
     },
     {
