@@ -246,11 +246,6 @@
             "foreground": "var(blue)"
         },
         {
-            "name": "[JavaScript] Function Parameter",
-            "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
-            "foreground": "var(pink)"
-        },
-        {
             "name": "[JavaScript] Language Library",
             "scope": "variable.language",
             "foreground": "var(red)",
@@ -298,11 +293,6 @@
             "foreground": "var(orange)"
         },
         {
-            "name": "[JavaScript] Constant Builtin",
-            "scope": "source.js meta.function.js meta.block.js meta.function-call.method.js meta.group.js meta.function.js meta.block.js meta.conditional.js meta.block.js meta.function-call.method.js meta.group.js meta.function.js meta.block.js meta.function-call.method.js support.constant.builtin.js",
-            "foreground": "var(orange)"
-        },
-        {
             "name": "[JavaScript] Boolean",
             "scope": "source.js meta.export.js meta.binding.name.js variable.other.constant.js, constant.language.boolean.false.js, constant.language.boolean.true.js, source.js meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js variable.other.constant.js",
             "foreground": "var(orange)"
@@ -346,11 +336,6 @@
             "name": "[JavaScript] Parameters",
             "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts, variable.parameter.function.js, variable.parameter.function.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts",
             "foreground": "var(red)"
-        },
-        {
-            "name": "[JavaScript] Storage Type (const, var, let)",
-            "scope": "source.js meta.try.js meta.block.js storage.type.js, storage.type.js, storage.type.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.var.expr.ts storage.type.ts",
-            "foreground": "var(pink)"
         },
         {
             "name": "[JSON] Key ",
@@ -560,8 +545,8 @@
         },
         {
             "name": "Storage",
-            "scope": "storage",
-            "foreground": "var(red)"
+            "scope": "storage, storage.type",
+            "foreground": "var(purple)"
         },
         {
             "name": "String",

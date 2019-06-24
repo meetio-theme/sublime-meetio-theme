@@ -68,8 +68,8 @@
     },
     {
         "name": "Storage",
-        "scope": "storage",
-        "foreground": "var(red)"
+        "scope": "storage, storage.type",
+        "foreground": "var(purple)"
     },
     {
         "name": "String",

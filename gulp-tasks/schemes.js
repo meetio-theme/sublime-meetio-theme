@@ -1,5 +1,6 @@
 import path from 'path';
 import fs from 'fs';
+import rimraf from 'rimraf';
 import globals from './../src/schemes/files/globals.json';
 
 function build() {
@@ -36,15 +37,19 @@ function build() {
         data = JSON.parse(data);
         const scheme = Object.assign(data, allRules);
 
-        fs.writeFileSync(
-          `schemes/${data.name}.sublime-color-scheme`,
-          JSON.stringify(scheme, null, 4),
-          err => {
-            if (err) {
-              console.log(err);
-            }
-          }
-        );
+        rimraf('schemes', () => {
+          fs.mkdir('schemes', () => {
+            fs.writeFileSync(
+              `schemes/${data.name}.sublime-color-scheme`,
+              JSON.stringify(scheme, null, 4),
+              err => {
+                if (err) {
+                  console.log(err);
+                }
+              }
+            );
+          });
+        });
       });
     }
   });

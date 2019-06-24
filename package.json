@@ -38,6 +38,7 @@
     "prettier": "^1.15.3"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.1"
+    "babel-eslint": "^10.0.1",
+    "gulp-rimraf": "^0.2.2"
   }
 }

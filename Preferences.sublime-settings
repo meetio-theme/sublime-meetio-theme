@@ -12,7 +12,7 @@
   // Replace folder icons with arrows
   "meetio_arrow_folders": false,
   // Set disclosure tree controls
-  "meetio_sidebar_disclosure": true,
+  "meetio_sidebar_disclosure": false,
 
   // Show icon search in inputs
   "meetio_input_search_icon": true,
