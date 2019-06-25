@@ -127,7 +127,7 @@
     {
         "class": "tab_close_button",
         "parents": [{ "class": "tab_control", "attributes": ["dirty"] }],
-        "settings": ["meetio_tabs_diff_icon", "highlight_modified_tabs"],
+        "settings": ["meetio_tabs_diff_icon"],
         "layer0.opacity": 0,
         "layer1.opacity": 1,
         "content_margin": [6, 6]
@@ -141,7 +141,7 @@
     {
         "class": "tab_close_button",
         "parents": [{ "class": "tab_control", "attributes": ["dirty"] }],
-        "settings": ["meetio_tabs_diff_icon", "highlight_modified_tabs"],
+        "settings": ["meetio_tabs_diff_icon"],
         "attributes": ["hover"],
         "layer0.opacity": 0,
         "layer1.opacity": 1
@@ -149,14 +149,14 @@
     {
         "class": "tab_close_button",
         "parents": [{ "class": "tab_control", "attributes": ["selected", "dirty"] }],
-        "settings": ["meetio_tabs_diff_icon", "highlight_modified_tabs"],
+        "settings": ["meetio_tabs_diff_icon"],
         "layer0.opacity": 0,
         "layer1.opacity": 1
     },
     {
         "class": "tab_close_button",
         "parents": [{ "class": "tab_control", "attributes": ["selected", "dirty"] }],
-        "settings": ["meetio_tabs_diff_icon", "highlight_modified_tabs"],
+        "settings": ["meetio_tabs_diff_icon"],
         "attributes": ["hover"],
         "layer0.opacity": 0,
         "layer1.opacity": 1
