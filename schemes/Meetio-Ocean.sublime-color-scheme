@@ -49,6 +49,81 @@
     },
     "rules": [
         {
+            "foreground": "#FBFBFBFF",
+            "background": "#6772E4FF",
+            "scope": "col_6772E4FF"
+        },
+        {
+            "foreground": "#737373FF",
+            "background": "#FFEEEEFF",
+            "scope": "col_FFEEEEFF"
+        },
+        {
+            "foreground": "#7A7A7AFF",
+            "background": "#FAFAFAFF",
+            "scope": "col_FAFAFAFF"
+        },
+        {
+            "foreground": "#9A9A9AFF",
+            "background": "#00000026",
+            "scope": "col_00000026"
+        },
+        {
+            "foreground": "#717171FF",
+            "background": "#F1F1F1FF",
+            "scope": "col_F1F1F1FF"
+        },
+        {
+            "foreground": "#BBBBBBFF",
+            "background": "#0033FFFF",
+            "scope": "col_0033FFFF"
+        },
+        {
+            "foreground": "#FEFEFEFF",
+            "background": "#D26911FF",
+            "scope": "col_D26911FF"
+        },
+        {
+            "foreground": "#5D5D5DFF",
+            "background": "#DDDDDDFF",
+            "scope": "col_DDDDDDFF"
+        },
+        {
+            "foreground": "#4C4C4CFF",
+            "background": "#CCCCCCFF",
+            "scope": "col_CCCCCCFF"
+        },
+        {
+            "foreground": "#1F1F1FFF",
+            "background": "#00EEAAFF",
+            "scope": "col_00EEAAFF"
+        },
+        {
+            "foreground": "#B3B3B3FF",
+            "background": "#333333FF",
+            "scope": "col_333333FF"
+        },
+        {
+            "foreground": "#ffffff",
+            "background": "#000000",
+            "scope": "col_gutter"
+        },
+        {
+            "foreground": "#333333FF",
+            "background": "#80CBC4FF",
+            "scope": "col_80CBC4FF"
+        },
+        {
+            "foreground": "#D4D4D4FF",
+            "background": "#455A64FF",
+            "scope": "col_455A64FF"
+        },
+        {
+            "foreground": "#7F7F7FFF",
+            "background": "#FFFFFFFF",
+            "scope": "col_FFFFFFFF"
+        },
+        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(green)"

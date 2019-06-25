@@ -4,10 +4,7 @@
   // Show icon diff in tab
   "meetio_tabs_diff_icon": true,
   // Show diff pencil icon in tab.
-  // The see this option, ensure that "meetio_tabs_diff_icon" is TRUE.
   "meetio_tabs_diff_pencil_icon": false,
-  // Show diff tab with different color
-  "meetio_tabs_diff_highlight": false,
 
   // Replace folder icons with arrows
   "meetio_arrow_folders": false,

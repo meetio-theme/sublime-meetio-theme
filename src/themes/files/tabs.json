@@ -43,7 +43,7 @@
         "class": "tab_control",
         "attributes": ["selected", "dirty"],
         "layer1.opacity": 1,
-        "settings": ["meetio_tabs_diff_highlight", "highlight_modified_tabs"],
+        "settings": ["highlight_modified_tabs"],
         "layer3.opacity": 1,
         "layer3.inner_margin": "var(tabSelectedBorderSize)",
         "layer3.draw_center": false,
@@ -82,7 +82,7 @@
     {
         "class": "tab_label",
         "attributes": ["dirty"],
-        "settings": ["meetio_tabs_diff_highlight", "highlight_modified_tabs"],
+        "settings": ["highlight_modified_tabs"],
         "fg": "var(tabDiffColor)",
         "font.italic": "var(tabDiffItalic)"
     },

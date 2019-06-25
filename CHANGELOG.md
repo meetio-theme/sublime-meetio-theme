@@ -6,6 +6,23 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ---
 
+<a name="2.3.0"></a>
+## [2.3.0](https://github.com/mauroreisvieira/meetio/compare/v2.2.0...v2.3.0) (XXXX-XX-XX)
+
+### BREAKING CHANGES
+* Remove options for Tabs: `meetio_tabs_diff_highlight` use only the default `highlight_modified_tabs`.
+
+---
+
+<a name="2.2.0"></a>
+## [2.2.0](https://github.com/mauroreisvieira/meetio/compare/v2.1.0...v2.2.0) (2019-06-25)
+
+### FEATURES
+* Add syntax improvements for: `CSS`, `PHP`, `Perl` & `Python`. TY [@pykong](https://github.com/pykong).
+* Add new scheme called `Meetio-Mariana`.
+
+---
+
 <a name="2.1.0"></a>
 ## [2.1.0](https://github.com/mauroreisvieira/meetio/compare/v2.0.1...v2.1.0) (2019-06-11)
 

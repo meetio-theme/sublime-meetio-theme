@@ -69,7 +69,6 @@ This theme provide a visual configuration tool that allow you to configure the t
   // Tabs
   "meetio_tabs_selected_border" : true,  // Show border in selected tab
   "meetio_tabs_diff_icon"       : true,  // Show icon diff in tab
-  "meetio_tabs_diff_highlight"  : true, // Show diff tab with different color
   "meetio_tabs_diff_pencil_icon": true, // Show diff pencil icon in tab
 
   // Sidebar
