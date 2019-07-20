@@ -1,42 +1,63 @@
 [
     {
         "class": "vcs_status_badge",
-        "parents": [{ "class": "file_system_entry", "attributes": ["untracked"] }],
-        "layer0.texture": "Theme - Default/common/status_untracked.png",
+        "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
+        "layer0.texture": "Meetio/assets/default/untracked.png",
         "layer0.tint": "var(vscUntracked)",
-        "layer0.opacity": 1.0,
-        "content_margin": 6
+        "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
-        "parents": [{ "class": "file_system_entry", "attributes": ["modified"] }],
-        "layer0.texture": "Theme - Default/common/status_modified.png",
+        "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
+        "layer0.texture": "Meetio/assets/default/modified.png",
         "layer0.tint": "var(vscModified)",
-        "layer0.opacity": 1.0,
-        "content_margin": 6
+        "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
-        "parents": [{ "class": "file_system_entry", "attributes": ["added"] }],
+        "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
+        "layer0.texture": "Meetio/assets/default/added.png",
         "layer0.tint": "var(vscUntracked)",
-        "layer0.opacity": 1.0,
-        "content_margin": 6
+        "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
-        "parents": [{ "class": "file_system_entry", "attributes": ["unmerged"] }],
+        "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
         "layer0.texture": "Theme - Default/common/status_unmerged.png",
         "layer0.tint": "var(vscUnmerged)",
-        "layer0.opacity": 1.0,
-        "content_margin": 6
+        "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
-        "parents": [{ "class": "file_system_entry", "attributes": ["staged"] }],
-        "layer0.texture": "Theme - Default/common/status_staged.png",
+        "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
+        "layer0.texture": "Meetio/assets/default/staged.png",
         "layer0.tint": "var(vscStaged)",
-        "layer0.opacity": 1.0,
-        "content_margin": 6
+        "content_margin": "var(vcsBadgeSize)"
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
+        "layer0.tint": "var(vscDeleted)",
+        "content_margin": "var(vcsBadgeSize)"
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
+        "layer0.tint": "var(vscMissing)",
+        "content_margin": "var(vcsBadgeSize)"
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "layer0.texture": "Theme - Default/common/status_modified.png"
+    },
+    {
+        "class": "vcs_status_badge",
+        "parents": [
+            {"class": "tree_row", "attributes": ["expandable"]},
+            {"class": "file_system_entry", "attributes": ["unmerged"]}
+        ],
+        "layer0.texture": "Theme - Default/common/status_unmerged.png"
     },
     {
         "class": "sidebar_label",
@@ -45,22 +66,22 @@
     },
     {
         "class": "sidebar_label",
-        "parents": [{ "class": "file_system_entry", "attributes": ["untracked"] }],
+        "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
         "color": "var(vscUntracked)"
     },
     {
         "class": "sidebar_label",
-        "parents": [{ "class": "file_system_entry", "attributes": ["modified"] }],
+        "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
         "color": "var(vscModified)"
     },
     {
         "class": "sidebar_label",
-        "parents": [{ "class": "file_system_entry", "attributes": ["added"] }],
+        "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
         "color": "var(vscUntracked)"
     },
     {
         "class": "sidebar_label",
-        "parents": [{ "class": "file_system_entry", "attributes": ["unmerged"] }],
+        "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
         "color": "var(vscUnmerged)"
     },
     {
@@ -75,7 +96,7 @@
     },
     {
         "class": "sidebar_label",
-        "parents": [{ "class": "file_system_entry", "attributes": ["staged"] }],
+        "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
         "color": "var(vscStaged)"
     },
     {

@@ -162,6 +162,7 @@
         "gridLayoutBorderSize": 2,
         "minimapColor": "color(var(colorAccent) a(0.2))",
         "minimapOpacity": "0.5",
+        "vcsBadgeSize": 5,
         "vscIgnored": "color(var(sidebarLabelColor) a(0.5))",
         "vscModified": "var(--bluish)",
         "vscStaged": "var(--yellowish)",
