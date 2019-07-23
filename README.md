@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/meetio.png" width="620"/>
+  <img src="assets/meetio.png" width="520"/>
 </p>
 
 [![GitHub tag](https://img.shields.io/github/release/mauroreisvieira/meetio.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/releases)
