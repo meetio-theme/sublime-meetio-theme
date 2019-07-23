@@ -6,6 +6,15 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ---
 
+<a name="2.4.0"></a>
+## [2.4.0](https://github.com/mauroreisvieira/meetio/compare/v2.3.0...v2.4.0) (2019-07-23)
+
+### FEATURES
+* Add custom git badges in sidebar, for untracked, modified, added, unmerged, and staged files. Thanks [@pykong](https://github.com/pykong) for suggestion.
+* Add variable `vcsBadgeSize` to change the size of badge in sidebar.
+
+---
+
 <a name="2.3.0"></a>
 ## [2.3.0](https://github.com/mauroreisvieira/meetio/compare/v2.2.0...v2.3.0) (XXXX-XX-XX)
 
