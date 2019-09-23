@@ -49,219 +49,26 @@
     },
     "rules": [
         {
-            "scope": "col_ED6E74FF",
-            "foreground": "#141414FF",
-            "background": "#ED6E74FF"
+            "name": "[Diff] Deleted",
+            "scope": "diff.deleted, diff.deleted.char",
+            "background": "color(var(red) alpha(0.08))",
+            "foreground": "var(red)"
         },
         {
-            "scope": "col_9EFFFFFF",
-            "foreground": "#616161FF",
-            "background": "#9EFFFFFF"
+            "name": "[Diff] Insert",
+            "scope": "diff.inserted, diff.inserted.char",
+            "background": "color(var(green) alpha(0.08))",
+            "foreground": "var(green)"
         },
         {
-            "scope": "col_FFA5F3FF",
-            "foreground": "#484848FF",
-            "background": "#FFA5F3FF"
+            "name": "[Groovy] Conditional",
+            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
+            "foreground": "var(cyan)"
         },
         {
-            "scope": "col_FFC600FF",
-            "foreground": "#404040FF",
-            "background": "#FFC600FF"
-        },
-        {
-            "scope": "col_40C4FEFF",
-            "foreground": "#232323FF",
-            "background": "#40C4FEFF"
-        },
-        {
-            "scope": "col_0088FFFF",
-            "foreground": "#ECECECFF",
-            "background": "#0088FFFF"
-        },
-        {
-            "scope": "col_193549FF",
-            "foreground": "#AEAEAEFF",
-            "background": "#193549FF"
-        },
-        {
-            "scope": "col_9EFF80FF",
-            "foreground": "#535353FF",
-            "background": "#9EFF80FF"
-        },
-        {
-            "scope": "col_DA8F49FF",
-            "foreground": "#1D1D1DFF",
-            "background": "#DA8F49FF"
-        },
-        {
-            "scope": "col_C2AFFFFF",
-            "foreground": "#3D3D3DFF",
-            "background": "#C2AFFFFF"
-        },
-        {
-            "scope": "col_D95468FF",
-            "foreground": "#FEFEFEFF",
-            "background": "#D95468FF"
-        },
-        {
-            "scope": "col_FFEEEEFF",
-            "foreground": "#737373FF",
-            "background": "#FFEEEEFF"
-        },
-        {
-            "scope": "col_00EEAAFF",
-            "foreground": "#1F1F1FFF",
-            "background": "#00EEAAFF"
-        },
-        {
-            "scope": "col_F1F1F1FF",
-            "foreground": "#717171FF",
-            "background": "#F1F1F1FF"
-        },
-        {
-            "scope": "col_D26911FF",
-            "foreground": "#FEFEFEFF",
-            "background": "#D26911FF"
-        },
-        {
-            "scope": "col_333333FF",
-            "foreground": "#B3B3B3FF",
-            "background": "#333333FF"
-        },
-        {
-            "scope": "col_CCCCCCFF",
-            "foreground": "#4C4C4CFF",
-            "background": "#CCCCCCFF"
-        },
-        {
-            "scope": "col_0033FFFF",
-            "foreground": "#BBBBBBFF",
-            "background": "#0033FFFF"
-        },
-        {
-            "scope": "col_DDDDDDFF",
-            "foreground": "#5D5D5DFF",
-            "background": "#DDDDDDFF"
-        },
-        {
-            "scope": "col_FAFAFAFF",
-            "foreground": "#7A7A7AFF",
-            "background": "#FAFAFAFF"
-        },
-        {
-            "scope": "col_FFFFFFFF",
-            "foreground": "#7F7F7FFF",
-            "background": "#FFFFFFFF"
-        },
-        {
-            "scope": "col_00000026",
-            "foreground": "#B5B5B5FF",
-            "background": "#00000026"
-        },
-        {
-            "scope": "col_B9A7FFFF",
-            "foreground": "#363636FF",
-            "background": "#B9A7FFFF"
-        },
-        {
-            "scope": "col_65DDD9FF",
-            "foreground": "#383838FF",
-            "background": "#65DDD9FF"
-        },
-        {
-            "scope": "col_32404FFF",
-            "foreground": "#BDBDBDFF",
-            "background": "#32404FFF"
-        },
-        {
-            "scope": "col_FF8D58FF",
-            "foreground": "#292929FF",
-            "background": "#FF8D58FF"
-        },
-        {
-            "scope": "col_FF767BFF",
-            "foreground": "#1F1F1FFF",
-            "background": "#FF767BFF"
-        },
-        {
-            "scope": "col_FFC312FF",
-            "foreground": "#404040FF",
-            "background": "#FFC312FF"
-        },
-        {
-            "scope": "col_9294A3FF",
-            "foreground": "#151515FF",
-            "background": "#9294A3FF"
-        },
-        {
-            "scope": "col_FF5370FF",
-            "foreground": "#090909FF",
-            "background": "#FF5370FF"
-        },
-        {
-            "scope": "col_C17E70FF",
-            "foreground": "#101010FF",
-            "background": "#C17E70FF"
-        },
-        {
-            "scope": "col_82AAFFFF",
-            "foreground": "#272727FF",
-            "background": "#82AAFFFF"
-        },
-        {
-            "scope": "col_EEFFFFFF",
-            "foreground": "#797979FF",
-            "background": "#EEFFFFFF"
-        },
-        {
-            "scope": "col_546E7AFF",
-            "foreground": "#E7E7E7FF",
-            "background": "#546E7AFF"
-        },
-        {
-            "scope": "col_FFCC00FF",
-            "foreground": "#434343FF",
-            "background": "#FFCC00FF"
-        },
-        {
-            "scope": "col_C3E88DFF",
-            "foreground": "#525252FF",
-            "background": "#C3E88DFF"
-        },
-        {
-            "scope": "col_F07178FF",
-            "foreground": "#171717FF",
-            "background": "#F07178FF"
-        },
-        {
-            "scope": "col_C792EAFF",
-            "foreground": "#2B2B2BFF",
-            "background": "#C792EAFF"
-        },
-        {
-            "scope": "col_gutter",
-            "foreground": "#ffffff",
-            "background": "#000000"
-        },
-        {
-            "scope": "col_F78C6CFF",
-            "foreground": "#282828FF",
-            "background": "#F78C6CFF"
-        },
-        {
-            "scope": "col_263238FF",
-            "foreground": "#AFAFAFFF",
-            "background": "#263238FF"
-        },
-        {
-            "scope": "col_89DDFFFF",
-            "foreground": "#474747FF",
-            "background": "#89DDFFFF"
-        },
-        {
-            "scope": "col_FBC959FF",
-            "foreground": "#4B4B4BFF",
-            "background": "#FBC959FF"
+            "name": "[Groovy] Return",
+            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
+            "foreground": "var(cyan)"
         },
         {
             "name": "[CSS] String",
@@ -388,28 +195,6 @@
             "foreground": "var(cyan)"
         },
         {
-            "name": "[Groovy] Conditional",
-            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Groovy] Return",
-            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Diff] Deleted",
-            "scope": "diff.deleted, diff.deleted.char",
-            "background": "color(var(red) alpha(0.08))",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Diff] Insert",
-            "scope": "diff.inserted, diff.inserted.char",
-            "background": "color(var(green) alpha(0.08))",
-            "foreground": "var(green)"
-        },
-        {
             "name": "[HTML] String",
             "scope": "text.html.basic string",
             "foreground": "var(green)"
@@ -438,6 +223,118 @@
             "name": "[HTML] Tag Attribute",
             "scope": "text.html.basic entity.other.attribute-name",
             "foreground": "var(purple)"
+        },
+        {
+            "name": "[JavaScript] Constructor",
+            "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js storage.type.accessor.js, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JavaScript] Object Key",
+            "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Dollar",
+            "scope": "variable.other.dollar.only.js, variable.other.dollar.only.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Function",
+            "scope": "variable.function, variable.annotation, entity.name.function, meta.class-method.js entity.name.function.js, variable.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Language Library",
+            "scope": "variable.language",
+            "foreground": "var(red)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Library",
+            "scope": "support.function, support.macro",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "support.type, support.class",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "keyword.control.flow.js, keyword.control.flow.ts",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JavaScript] Try Catch",
+            "scope": "keyword.control.trycatch.js, keyword.control.trycatch.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Loop",
+            "scope": "keyword.control.loop.js, keyword.control.loop.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Conditional",
+            "scope": "keyword.control.conditional.js, keyword.control.conditional.ts, keyword.control.switch.js, keyword.control.switch.ts",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Null",
+            "scope": "constant.language.null.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Undefined",
+            "scope": "constant.language.undefined.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Boolean",
+            "scope": "source.js meta.export.js meta.binding.name.js variable.other.constant.js, constant.language.boolean.false.js, constant.language.boolean.true.js, source.js meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js variable.other.constant.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Return",
+            "scope": "source.js meta.function.js meta.block.js keyword.control.flow.js, source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js, source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js keyword.control.flow.js",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Object",
+            "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Vue] Function Parameter",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Vue] Object",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Vue] Object Value",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
+            "foreground": "var(brown)"
+        },
+        {
+            "name": "[JavaScript] Declaration",
+            "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.export.default.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JavaScript] Primitive",
+            "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts support.type.primitive.ts",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[JavaScript] Parameters",
+            "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts, variable.parameter.function.js, variable.parameter.function.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts",
+            "foreground": "var(red)"
         },
         {
             "name": "[Markdown] Deleted",
@@ -577,118 +474,6 @@
             "name": "[JSON] Mapping Level 2",
             "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
             "foreground": "var(brown)"
-        },
-        {
-            "name": "[JavaScript] Constructor",
-            "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js storage.type.accessor.js, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JavaScript] Object Key",
-            "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Dollar",
-            "scope": "variable.other.dollar.only.js, variable.other.dollar.only.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Function",
-            "scope": "variable.function, variable.annotation, entity.name.function, meta.class-method.js entity.name.function.js, variable.function",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Language Library",
-            "scope": "variable.language",
-            "foreground": "var(red)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[JavaScript] Library",
-            "scope": "support.function, support.macro",
-            "foreground": "var(blue)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[JavaScript] Support",
-            "scope": "support.type, support.class",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JavaScript] Support",
-            "scope": "keyword.control.flow.js, keyword.control.flow.ts",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JavaScript] Try Catch",
-            "scope": "keyword.control.trycatch.js, keyword.control.trycatch.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Loop",
-            "scope": "keyword.control.loop.js, keyword.control.loop.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Conditional",
-            "scope": "keyword.control.conditional.js, keyword.control.conditional.ts, keyword.control.switch.js, keyword.control.switch.ts",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Null",
-            "scope": "constant.language.null.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Undefined",
-            "scope": "constant.language.undefined.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Boolean",
-            "scope": "source.js meta.export.js meta.binding.name.js variable.other.constant.js, constant.language.boolean.false.js, constant.language.boolean.true.js, source.js meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js variable.other.constant.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Return",
-            "scope": "source.js meta.function.js meta.block.js keyword.control.flow.js, source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js, source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js keyword.control.flow.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Object",
-            "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[Vue] Function Parameter",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[Vue] Object",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Vue] Object Value",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
-            "foreground": "var(brown)"
-        },
-        {
-            "name": "[JavaScript] Declaration",
-            "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.export.default.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JavaScript] Primitive",
-            "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts support.type.primitive.ts",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[JavaScript] Parameters",
-            "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts, variable.parameter.function.js, variable.parameter.function.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts",
-            "foreground": "var(red)"
         },
         {
             "name": "Comment",
