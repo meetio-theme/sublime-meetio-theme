@@ -4,16 +4,16 @@
   "variables": {
     "caret": "#ffcc00",
     "foreground": "#eeffff",
-    "background": "#1D1F21",
-    "comments": "#545454",
+    "background": "#182124",
+    "comments": "color(var(foreground) alpha(0.3))",
     "blue": "#82aaff",
     "brown": "#c17e70",
     "cyan": "#89ddff",
     "green": "#c3e88d",
-    "orange": "#f78c6c",
-    "pink": "#f06292",
-    "purple": "#b39ddb",
-    "red": "#d95757",
+    "orange": "#fb914f",
+    "pink": "#f07178",
+    "purple": "#c792ea",
+    "red": "#ff5370",
     "yellow": "#ffcb6b"
   }
 }

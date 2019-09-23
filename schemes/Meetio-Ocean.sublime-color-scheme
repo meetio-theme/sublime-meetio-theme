@@ -49,28 +49,6 @@
     },
     "rules": [
         {
-            "name": "[Diff] Deleted",
-            "scope": "diff.deleted, diff.deleted.char",
-            "background": "color(var(red) alpha(0.08))",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Diff] Insert",
-            "scope": "diff.inserted, diff.inserted.char",
-            "background": "color(var(green) alpha(0.08))",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Groovy] Conditional",
-            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Groovy] Return",
-            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
-            "foreground": "var(cyan)"
-        },
-        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(green)"
@@ -195,6 +173,18 @@
             "foreground": "var(cyan)"
         },
         {
+            "name": "[Diff] Deleted",
+            "scope": "diff.deleted, diff.deleted.char",
+            "background": "color(var(red) alpha(0.08))",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Diff] Insert",
+            "scope": "diff.inserted, diff.inserted.char",
+            "background": "color(var(green) alpha(0.08))",
+            "foreground": "var(green)"
+        },
+        {
             "name": "[HTML] String",
             "scope": "text.html.basic string",
             "foreground": "var(green)"
@@ -223,6 +213,16 @@
             "name": "[HTML] Tag Attribute",
             "scope": "text.html.basic entity.other.attribute-name",
             "foreground": "var(purple)"
+        },
+        {
+            "name": "[Groovy] Conditional",
+            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Groovy] Return",
+            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
+            "foreground": "var(cyan)"
         },
         {
             "name": "[JavaScript] Constructor",

@@ -49,26 +49,179 @@
     },
     "rules": [
         {
-            "name": "[Diff] Deleted",
-            "scope": "diff.deleted, diff.deleted.char",
-            "background": "color(var(red) alpha(0.08))",
-            "foreground": "var(red)"
+            "scope": "col_F78C6CFF",
+            "background": "#F78C6CFF",
+            "foreground": "#282828FF"
         },
         {
-            "name": "[Diff] Insert",
-            "scope": "diff.inserted, diff.inserted.char",
-            "background": "color(var(green) alpha(0.08))",
-            "foreground": "var(green)"
+            "scope": "col_A6ACCDFF",
+            "background": "#A6ACCDFF",
+            "foreground": "#2D2D2DFF"
         },
         {
-            "name": "[Groovy] Conditional",
-            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
-            "foreground": "var(cyan)"
+            "scope": "col_292D3EFF",
+            "background": "#292D3EFF",
+            "foreground": "#ADADADFF"
         },
         {
-            "name": "[Groovy] Return",
-            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
-            "foreground": "var(cyan)"
+            "scope": "col_D95757FF",
+            "background": "#D95757FF",
+            "foreground": "#FDFDFDFF"
+        },
+        {
+            "scope": "col_C2AFFFFF",
+            "background": "#C2AFFFFF",
+            "foreground": "#3D3D3DFF"
+        },
+        {
+            "scope": "col_5FB3B3FF",
+            "background": "#5FB3B3FF",
+            "foreground": "#191919FF"
+        },
+        {
+            "scope": "col_FAFAFAFF",
+            "background": "#FAFAFAFF",
+            "foreground": "#7A7A7AFF"
+        },
+        {
+            "scope": "col_7C4DFFFF",
+            "background": "#7C4DFFFF",
+            "foreground": "#EFEFEFFF"
+        },
+        {
+            "scope": "col_91B859FF",
+            "background": "#91B859FF",
+            "foreground": "#212121FF"
+        },
+        {
+            "scope": "col_546171FF",
+            "background": "#546171FF",
+            "foreground": "#DEDEDEFF"
+        },
+        {
+            "scope": "col_90A4AEFF",
+            "background": "#90A4AEFF",
+            "foreground": "#1F1F1FFF"
+        },
+        {
+            "scope": "col_E53935FF",
+            "background": "#E53935FF",
+            "foreground": "#EBEBEBFF"
+        },
+        {
+            "scope": "col_6182B8FF",
+            "background": "#6182B8FF",
+            "foreground": "#FEFEFEFF"
+        },
+        {
+            "scope": "col_F76D47FF",
+            "background": "#F76D47FF",
+            "foreground": "#111111FF"
+        },
+        {
+            "scope": "col_FFB62EFF",
+            "background": "#FFB62EFF",
+            "foreground": "#3C3C3CFF"
+        },
+        {
+            "scope": "col_32404FFF",
+            "background": "#32404FFF",
+            "foreground": "#BDBDBDFF"
+        },
+        {
+            "scope": "col_FF767BFF",
+            "background": "#FF767BFF",
+            "foreground": "#1F1F1FFF"
+        },
+        {
+            "scope": "col_FF8D58FF",
+            "background": "#FF8D58FF",
+            "foreground": "#292929FF"
+        },
+        {
+            "scope": "col_9294A3FF",
+            "background": "#9294A3FF",
+            "foreground": "#151515FF"
+        },
+        {
+            "scope": "col_FFC312FF",
+            "background": "#FFC312FF",
+            "foreground": "#404040FF"
+        },
+        {
+            "scope": "col_65DDD9FF",
+            "background": "#65DDD9FF",
+            "foreground": "#383838FF"
+        },
+        {
+            "scope": "col_B9A7FFFF",
+            "background": "#B9A7FFFF",
+            "foreground": "#363636FF"
+        },
+        {
+            "scope": "col_gutter",
+            "background": "#000000",
+            "foreground": "#ffffff"
+        },
+        {
+            "scope": "col_FFCB6BFF",
+            "background": "#FFCB6BFF",
+            "foreground": "#4F4F4FFF"
+        },
+        {
+            "scope": "col_82AAFFFF",
+            "background": "#82AAFFFF",
+            "foreground": "#272727FF"
+        },
+        {
+            "scope": "col_FFCC00FF",
+            "background": "#FFCC00FF",
+            "foreground": "#434343FF"
+        },
+        {
+            "scope": "col_C792EAFF",
+            "background": "#C792EAFF",
+            "foreground": "#2B2B2BFF"
+        },
+        {
+            "scope": "col_EEFFFFFF",
+            "background": "#EEFFFFFF",
+            "foreground": "#797979FF"
+        },
+        {
+            "scope": "col_C3E88DFF",
+            "background": "#C3E88DFF",
+            "foreground": "#525252FF"
+        },
+        {
+            "scope": "col_89DDFFFF",
+            "background": "#89DDFFFF",
+            "foreground": "#474747FF"
+        },
+        {
+            "scope": "col_FF5370FF",
+            "background": "#FF5370FF",
+            "foreground": "#090909FF"
+        },
+        {
+            "scope": "col_182124FF",
+            "background": "#182124FF",
+            "foreground": "#9E9E9EFF"
+        },
+        {
+            "scope": "col_F07178FF",
+            "background": "#F07178FF",
+            "foreground": "#171717FF"
+        },
+        {
+            "scope": "col_FB914FFF",
+            "background": "#FB914FFF",
+            "foreground": "#292929FF"
+        },
+        {
+            "scope": "col_C17E70FF",
+            "background": "#C17E70FF",
+            "foreground": "#101010FF"
         },
         {
             "name": "[CSS] String",
@@ -195,6 +348,18 @@
             "foreground": "var(cyan)"
         },
         {
+            "name": "[Diff] Deleted",
+            "scope": "diff.deleted, diff.deleted.char",
+            "background": "color(var(red) alpha(0.08))",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Diff] Insert",
+            "scope": "diff.inserted, diff.inserted.char",
+            "background": "color(var(green) alpha(0.08))",
+            "foreground": "var(green)"
+        },
+        {
             "name": "[HTML] String",
             "scope": "text.html.basic string",
             "foreground": "var(green)"
@@ -223,6 +388,16 @@
             "name": "[HTML] Tag Attribute",
             "scope": "text.html.basic entity.other.attribute-name",
             "foreground": "var(purple)"
+        },
+        {
+            "name": "[Groovy] Conditional",
+            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Groovy] Return",
+            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
+            "foreground": "var(cyan)"
         },
         {
             "name": "[JavaScript] Constructor",
