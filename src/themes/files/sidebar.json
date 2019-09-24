@@ -8,7 +8,7 @@
     {
         "class": "sidebar_tree",
         "row_padding": "var(sidebarLabelPadding)",
-        "indent": 8,
+        "indent": "var(sidebarIndent)",
         "indent_offset": "var(sidebarIndentOffset)",
         "indent_top_level": false,
         "dark_content": false,

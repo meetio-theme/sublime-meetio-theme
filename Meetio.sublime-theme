@@ -80,7 +80,8 @@
             14,
             3
         ],
-        "sidebarIndentOffset": 14,
+        "sidebarIndent": 20,
+        "sidebarIndentOffset": 0,
         "sidebarLabelColor": "color(var(colorDark) l(+ 20%))",
         "sidebarLabelSelectedBackground": [
             "foreground",
