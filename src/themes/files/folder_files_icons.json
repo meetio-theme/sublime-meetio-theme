@@ -25,10 +25,30 @@
     },
     {
         "class": "icon_folder",
+        "layer0.texture": "Meetio/assets/default/folder_closed_colorful.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [9, 9]
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
+        "layer0.texture": "Meetio/assets/default/folder_open_colorful.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [9, 9]
+    },
+    {
+        "class": "icon_folder_dup",
+        "layer0.texture": "Meetio/assets/default/folder_dup_colorful.png",
+        "layer0.opacity": 1,
+        "content_margin": [9, 9]
+    },
+    {
+        "class": "icon_folder",
         "layer0.texture": "Meetio/assets/default/folder_closed.png",
         "layer0.tint": "var(sidebarIconFolderColor)",
         "layer0.opacity": 1.0,
-        "content_margin": [9, 9]
+        "content_margin": [9, 9],
+        "settings": ["meetio_folders"]
     },
     {
         "class": "icon_folder",
@@ -36,7 +56,16 @@
         "layer0.texture": "Meetio/assets/default/folder_open.png",
         "layer0.tint": "var(sidebarIconFolderExpandedColor)",
         "layer0.opacity": 1.0,
-        "content_margin": [9, 9]
+        "content_margin": [9, 9],
+        "settings": ["meetio_folders"]
+    },
+    {
+        "class": "icon_folder_dup",
+        "layer0.texture": "Meetio/assets/default/folder_dup.png",
+        "layer0.tint": "var(sidebarIconFolderColor)",
+        "layer0.opacity": 1,
+        "content_margin": [9, 9],
+        "settings": ["meetio_folders"]
     },
     {
         "class": "icon_folder",
@@ -74,13 +103,6 @@
             "loop": true,
             "frame_time": 0.08
         },
-        "layer0.tint": "var(sidebarIconFolderColor)",
-        "layer0.opacity": 1,
-        "content_margin": [9, 9]
-    },
-    {
-        "class": "icon_folder_dup",
-        "layer0.texture": "Meetio/assets/default/folder_dup.png",
         "layer0.tint": "var(sidebarIconFolderColor)",
         "layer0.opacity": 1,
         "content_margin": [9, 9]
