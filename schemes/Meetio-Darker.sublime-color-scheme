@@ -4,16 +4,16 @@
     "variables": {
         "caret": "#ffcc00",
         "foreground": "#eeffff",
-        "background": "#1D1F21",
-        "comments": "#545454",
+        "background": "#182124",
+        "comments": "color(var(foreground) alpha(0.3))",
         "blue": "#82aaff",
         "brown": "#c17e70",
         "cyan": "#89ddff",
         "green": "#c3e88d",
-        "orange": "#f78c6c",
-        "pink": "#f06292",
-        "purple": "#b39ddb",
-        "red": "#d95757",
+        "orange": "#fb914f",
+        "pink": "#f07178",
+        "purple": "#c792ea",
+        "red": "#ff5370",
         "yellow": "#ffcb6b"
     },
     "globals": {
@@ -48,48 +48,6 @@
         "tags_foreground": "var(pink)"
     },
     "rules": [
-        {
-            "name": "[Diff] Deleted",
-            "scope": "diff.deleted, diff.deleted.char",
-            "background": "color(var(red) alpha(0.08))",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Diff] Insert",
-            "scope": "diff.inserted, diff.inserted.char",
-            "background": "color(var(green) alpha(0.08))",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.other.template, keyword.other.substitution",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Tag Name",
-            "scope": "entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(purple)"
-        },
         {
             "name": "[CSS] String",
             "scope": "source.css string",
@@ -215,6 +173,48 @@
             "foreground": "var(cyan)"
         },
         {
+            "name": "[Diff] Deleted",
+            "scope": "diff.deleted, diff.deleted.char",
+            "background": "color(var(red) alpha(0.08))",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Diff] Insert",
+            "scope": "diff.inserted, diff.inserted.char",
+            "background": "color(var(green) alpha(0.08))",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.other.template, keyword.other.substitution",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(purple)"
+        },
+        {
             "name": "[Groovy] Conditional",
             "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
             "foreground": "var(cyan)"
@@ -223,145 +223,6 @@
             "name": "[Groovy] Return",
             "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
             "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JSON] Key ",
-            "scope": "meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Value",
-            "scope": "meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JSON] Constant",
-            "scope": "constant.language.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Character Escape",
-            "scope": "constant.character.escape.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Constant Numeric",
-            "scope": "constant.numeric.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Punctuation Section",
-            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation Mapping",
-            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation String",
-            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Mapping Level 1",
-            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Mapping Level 2",
-            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(brown)"
-        },
-        {
-            "name": "Comment",
-            "scope": "comment, punctuation.definition.comment",
-            "foreground": "var(comments)",
-            "font_style": "italic"
-        },
-        {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Class",
-            "scope": "meta.export.default meta.class storage.type.class, meta.class storage.type.class, meta.interface storage.type.interface",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Entity Name",
-            "scope": "meta.export meta.class entity.name.class, meta.class entity.name.class, meta.class entity.name.type.class",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "Interface Name",
-            "scope": "meta.interface entity.name.type.interface",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "Function Call",
-            "scope": "meta.function-call.constructor variable.type, meta.export meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.export meta.object-literal meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.catch meta.block meta.function-call.constructor variable.type, meta.function-call meta.group meta.function meta.block meta.function meta.block meta.function-call.constructor variable.type, meta.try meta.block meta.function-call.constructor variable.type, meta.class meta.block meta.function meta.block meta.function-call.constructor variable.type",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "Import & Export",
-            "scope": "meta.use keyword.other.use, meta.use keyword.control.import.use, meta.at-rule.import keyword.control.at-rule.import, meta.import keyword.control.import-export, meta.export keyword.control.import-export, meta.export.default keyword.control.export, meta.export.default keyword.control.default",
-            "foreground": "var(cyan)",
-            "font_style": "italic"
-        },
-        {
-            "name": "Declaration",
-            "scope": "meta.interface storage.modifier, meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Inherited",
-            "scope": "meta.interface entity.other.inherited-class, meta.class meta.path entity.other.inherited-class, meta.class entity.other.inherited-class",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "Constant",
-            "scope": "constant.character, constant.other",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Variable",
-            "scope": "variable.member",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "Operator",
-            "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Punctuation",
-            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "Storage",
-            "scope": "storage, storage.type",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "String",
-            "scope": "string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Invalid",
-            "scope": "invalid",
-            "foreground": "#fff",
-            "background": "color(var(red) alpha(0.9))"
-        },
-        {
-            "name": "Deprecated",
-            "scope": "invalid.deprecated",
-            "foreground": "#fff",
-            "background": "color(var(yellow) alpha(0.9))"
         },
         {
             "name": "[JavaScript] Constructor",
@@ -476,6 +337,56 @@
             "foreground": "var(red)"
         },
         {
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Punctuation Section",
+            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation String",
+            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Mapping Level 1",
+            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Mapping Level 2",
+            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(brown)"
+        },
+        {
             "name": "[Markdown] Deleted",
             "scope": "markup.deleted",
             "foreground": "var(red)"
@@ -565,6 +476,172 @@
             "font_style": "italic"
         },
         {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(comments)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Class",
+            "scope": "meta.export.default meta.class storage.type.class, meta.class storage.type.class, meta.interface storage.type.interface",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Entity Name",
+            "scope": "meta.export meta.class entity.name.class, meta.class entity.name.class, meta.class entity.name.type.class",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Interface Name",
+            "scope": "meta.interface entity.name.type.interface",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Function Call",
+            "scope": "meta.function-call.constructor variable.type, meta.export meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.export meta.object-literal meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.catch meta.block meta.function-call.constructor variable.type, meta.function-call meta.group meta.function meta.block meta.function meta.block meta.function-call.constructor variable.type, meta.try meta.block meta.function-call.constructor variable.type, meta.class meta.block meta.function meta.block meta.function-call.constructor variable.type",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Import & Export",
+            "scope": "meta.use keyword.other.use, meta.use keyword.control.import.use, meta.at-rule.import keyword.control.at-rule.import, meta.import keyword.control.import-export, meta.export keyword.control.import-export, meta.export.default keyword.control.export, meta.export.default keyword.control.default",
+            "foreground": "var(cyan)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Declaration",
+            "scope": "meta.interface storage.modifier, meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Inherited",
+            "scope": "meta.interface entity.other.inherited-class, meta.class meta.path entity.other.inherited-class, meta.class entity.other.inherited-class",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable.member",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Operator",
+            "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage, storage.type",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "#fff",
+            "background": "color(var(red) alpha(0.9))"
+        },
+        {
+            "name": "Deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "#fff",
+            "background": "color(var(yellow) alpha(0.9))"
+        },
+        {
+            "name": "[Perl] Statements",
+            "scope": "source.perl keyword.control.flow.perl, source.perl keyword.control.flow.perl, source.perl keyword.control.conditional.perl",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Perl] Variable",
+            "scope": "source.perl variable.other.readwrite.global.perl",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "[Perl] Function",
+            "scope": "source.perl support.function.perl",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[Perl] Function",
+            "scope": "source.perl meta.function.perl meta.block.perl keyword.other.flow.perl",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Inherited Class",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[PHP] Storage",
+            "scope": "storage.modifier.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Extends",
+            "scope": "storage.modifier.extends.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Echo",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
+            "font_style": "normal",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[PHP] Var",
+            "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Block",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Function",
+            "scope": "meta.function-call.php support.function, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.group.php meta.function-call.php support.function.array.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.function-call.php support.function.string.php",
+            "font_style": "normal",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[PHP] Return",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Condition",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Constant",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
+            "foreground": "var(orange)"
+        },
+        {
             "name": "[Python] Variables",
             "scope": "source.python meta.function.parameters.python variable.parameter.python, source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python, source.python meta.function-call.arguments.python variable.parameter.python",
             "foreground": "var(orange)"
@@ -626,63 +703,6 @@
             "foreground": "var(cyan)"
         },
         {
-            "name": "[PHP] Inherited Class",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[PHP] Storage",
-            "scope": "storage.modifier.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Extends",
-            "scope": "storage.modifier.extends.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Construct",
-            "scope": "support.function.construct.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Echo",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
-            "font_style": "normal",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[PHP] Var",
-            "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Block",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Function",
-            "scope": "meta.function-call.php support.function, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.group.php meta.function-call.php support.function.array.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.function-call.php support.function.string.php",
-            "font_style": "normal",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[PHP] Return",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Condition",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Constant",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
-            "foreground": "var(orange)"
-        },
-        {
             "name": "[Yaml] Key",
             "scope": "entity.name.tag.yaml",
             "foreground": "var(cyan)"
@@ -696,26 +716,6 @@
             "name": "[Yaml] Anchor",
             "scope": "source.yaml meta.property.yaml entity.name.other.anchor.yaml",
             "foreground": "var(yellow)"
-        },
-        {
-            "name": "[Perl] Statements",
-            "scope": "source.perl keyword.control.flow.perl, source.perl keyword.control.flow.perl, source.perl keyword.control.conditional.perl",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Perl] Variable",
-            "scope": "source.perl variable.other.readwrite.global.perl",
-            "foreground": "var(foreground)"
-        },
-        {
-            "name": "[Perl] Function",
-            "scope": "source.perl support.function.perl",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[Perl] Function",
-            "scope": "source.perl meta.function.perl meta.block.perl keyword.other.flow.perl",
-            "foreground": "var(cyan)"
         }
     ]
 }

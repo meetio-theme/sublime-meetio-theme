@@ -172,183 +172,53 @@
     },
     "rules": [
         {
-            "class": "disclosure_button_control",
-            "layer0.texture": "Meetio/assets/default/disclosure.png",
+            "class": "popup_control",
             "layer0.tint": [
-                "foreground",
-                0.6
+                "background",
+                1
             ],
-            "layer0.opacity": {
-                "target": 0.3,
-                "speed": 4,
-                "interpolation": "smoothstep"
-            },
+            "layer0.opacity": 1,
             "content_margin": [
-                0,
-                0,
                 0,
                 0
             ]
         },
         {
-            "class": "disclosure_button_control",
-            "attributes": [
-                "expanded"
-            ],
-            "layer0.texture": "Meetio/assets/default/disclosure_expanded.png",
-            "layer0.tint": "var(sidebarIconFolderColor)"
-        },
-        {
-            "class": "disclosure_button_control",
-            "attributes": [
-                "hover"
-            ],
-            "layer0.opacity": {
-                "target": 0.5,
-                "speed": 4,
-                "interpolation": "smoothstep"
-            }
-        },
-        {
-            "class": "disclosure_button_control",
-            "settings": [
-                "meetio_sidebar_disclosure",
-                "!meetio_arrow_folders"
-            ],
-            "content_margin": [
-                8,
-                8
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "icon_folder",
-            "layer0.texture": "Meetio/assets/default/folder_closed.png",
-            "layer0.tint": "var(sidebarIconFolderColor)",
-            "layer0.opacity": 1,
-            "content_margin": [
-                9,
-                9
-            ]
-        },
-        {
-            "class": "icon_folder",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "expanded"
-                    ]
-                }
-            ],
-            "layer0.texture": "Meetio/assets/default/folder_open.png",
-            "layer0.tint": "var(sidebarIconFolderExpandedColor)",
-            "layer0.opacity": 1,
-            "content_margin": [
-                9,
-                9
-            ]
-        },
-        {
-            "class": "icon_folder",
-            "layer0.texture": "Meetio/assets/default/arrow_folder_closed.png",
-            "content_margin": [
+            "class": "auto_complete",
+            "row_padding": [
                 12,
-                12
+                6
             ],
-            "settings": [
-                "meetio_arrow_folders"
-            ]
-        },
-        {
-            "class": "icon_folder",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "expanded"
-                    ]
-                }
-            ],
-            "layer0.texture": "Meetio/assets/default/arrow_folder_open.png",
-            "layer0.tint": "var(sidebarIconFolderExpandedColor)",
-            "content_margin": [
-                12,
-                12
-            ],
-            "settings": [
-                "meetio_arrow_folders"
-            ]
-        },
-        {
-            "class": "icon_folder_loading",
-            "layer0.texture": {
-                "keyframes": [
-                    "Meetio/assets/default/spinner11.png",
-                    "Meetio/assets/default/spinner10.png",
-                    "Meetio/assets/default/spinner9.png",
-                    "Meetio/assets/default/spinner8.png",
-                    "Meetio/assets/default/spinner7.png",
-                    "Meetio/assets/default/spinner6.png",
-                    "Meetio/assets/default/spinner5.png",
-                    "Meetio/assets/default/spinner4.png",
-                    "Meetio/assets/default/spinner3.png",
-                    "Meetio/assets/default/spinner2.png",
-                    "Meetio/assets/default/spinner1.png",
-                    "Meetio/assets/default/spinner.png"
-                ],
-                "loop": true,
-                "frame_time": 0.08
-            },
-            "layer0.tint": "var(sidebarIconFolderColor)",
-            "layer0.opacity": 1,
-            "content_margin": [
-                9,
-                9
-            ]
-        },
-        {
-            "class": "icon_folder_dup",
-            "layer0.texture": "Meetio/assets/default/folder_dup.png",
-            "layer0.tint": "var(sidebarIconFolderColor)",
-            "layer0.opacity": 1,
-            "content_margin": [
-                9,
-                9
-            ]
-        },
-        {
-            "class": "icon_file_type",
-            "layer0.tint": "var(sidebarIconFileColor)",
-            "layer0.opacity": 1,
-            "content_margin": [
-                8,
-                8
-            ]
-        },
-        {
-            "class": "icon_file_type",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "hover"
-                    ]
-                }
+            "layer0.tint": [
+                "background",
+                1
             ],
             "layer0.opacity": 1
         },
         {
-            "class": "icon_file_type",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "selected"
-                    ]
-                }
+            "class": "auto_complete_label",
+            "fg": [
+                "foreground",
+                0.5
             ],
-            "layer0.opacity": 1
+            "match_fg": "var(colorAccent)",
+            "selected_fg": [
+                "foreground",
+                1
+            ],
+            "selected_match_fg": "var(colorAccent)"
+        },
+        {
+            "class": "table_row",
+            "layer0.tint": "var(colorWhite)",
+            "layer0.opacity": 0
+        },
+        {
+            "class": "table_row",
+            "attributes": [
+                "selected"
+            ],
+            "layer0.opacity": 0.2
         },
         {
             "class": "button_control",
@@ -749,63 +619,6 @@
             "layer0.opacity": 1
         },
         {
-            "class": "popup_control",
-            "layer0.tint": [
-                "background",
-                1
-            ],
-            "layer0.opacity": 1,
-            "content_margin": [
-                0,
-                0
-            ]
-        },
-        {
-            "class": "auto_complete",
-            "row_padding": [
-                12,
-                6
-            ],
-            "layer0.tint": [
-                "background",
-                1
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "auto_complete_label",
-            "fg": [
-                "foreground",
-                0.5
-            ],
-            "match_fg": "var(colorAccent)",
-            "selected_fg": [
-                "foreground",
-                1
-            ],
-            "selected_match_fg": "var(colorAccent)"
-        },
-        {
-            "class": "table_row",
-            "layer0.tint": "var(colorWhite)",
-            "layer0.opacity": 0
-        },
-        {
-            "class": "table_row",
-            "attributes": [
-                "selected"
-            ],
-            "layer0.opacity": 0.2
-        },
-        {
-            "class": "dialog",
-            "layer0.tint": [
-                "background",
-                0.94
-            ],
-            "layer0.opacity": 1
-        },
-        {
             "class": "fold_button_control",
             "layer0.texture": "Meetio/assets/default/arrow_right.png",
             "layer0.tint": "var(colorAccent)",
@@ -838,6 +651,14 @@
                 12,
                 12
             ]
+        },
+        {
+            "class": "dialog",
+            "layer0.tint": [
+                "background",
+                0.94
+            ],
+            "layer0.opacity": 1
         },
         {
             "class": "grid_layout_control",
@@ -967,6 +788,229 @@
                 "hover"
             ],
             "layer0.opacity": 0.8
+        },
+        {
+            "class": "disclosure_button_control",
+            "layer0.texture": "Meetio/assets/default/disclosure.png",
+            "layer0.tint": [
+                "foreground",
+                0.6
+            ],
+            "layer0.opacity": {
+                "target": 0.3,
+                "speed": 4,
+                "interpolation": "smoothstep"
+            },
+            "content_margin": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "class": "disclosure_button_control",
+            "attributes": [
+                "expanded"
+            ],
+            "layer0.texture": "Meetio/assets/default/disclosure_expanded.png",
+            "layer0.tint": "var(sidebarIconFolderColor)"
+        },
+        {
+            "class": "disclosure_button_control",
+            "attributes": [
+                "hover"
+            ],
+            "layer0.opacity": {
+                "target": 0.5,
+                "speed": 4,
+                "interpolation": "smoothstep"
+            }
+        },
+        {
+            "class": "disclosure_button_control",
+            "settings": [
+                "meetio_sidebar_disclosure",
+                "!meetio_arrow_folders"
+            ],
+            "content_margin": [
+                8,
+                8
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "icon_folder",
+            "layer0.texture": "Meetio/assets/default/folder_closed_colorful.png",
+            "layer0.opacity": 1,
+            "content_margin": [
+                9,
+                9
+            ]
+        },
+        {
+            "class": "icon_folder",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expanded"
+                    ]
+                }
+            ],
+            "layer0.texture": "Meetio/assets/default/folder_open_colorful.png",
+            "layer0.opacity": 1,
+            "content_margin": [
+                9,
+                9
+            ]
+        },
+        {
+            "class": "icon_folder_dup",
+            "layer0.texture": "Meetio/assets/default/folder_dup_colorful.png",
+            "layer0.opacity": 1,
+            "content_margin": [
+                9,
+                9
+            ]
+        },
+        {
+            "class": "icon_folder",
+            "layer0.texture": "Meetio/assets/default/folder_closed.png",
+            "layer0.tint": "var(sidebarIconFolderColor)",
+            "layer0.opacity": 1,
+            "content_margin": [
+                9,
+                9
+            ],
+            "settings": [
+                "meetio_folders"
+            ]
+        },
+        {
+            "class": "icon_folder",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expanded"
+                    ]
+                }
+            ],
+            "layer0.texture": "Meetio/assets/default/folder_open.png",
+            "layer0.tint": "var(sidebarIconFolderExpandedColor)",
+            "layer0.opacity": 1,
+            "content_margin": [
+                9,
+                9
+            ],
+            "settings": [
+                "meetio_folders"
+            ]
+        },
+        {
+            "class": "icon_folder_dup",
+            "layer0.texture": "Meetio/assets/default/folder_dup.png",
+            "layer0.tint": "var(sidebarIconFolderColor)",
+            "layer0.opacity": 1,
+            "content_margin": [
+                9,
+                9
+            ],
+            "settings": [
+                "meetio_folders"
+            ]
+        },
+        {
+            "class": "icon_folder",
+            "layer0.texture": "Meetio/assets/default/arrow_folder_closed.png",
+            "content_margin": [
+                12,
+                12
+            ],
+            "settings": [
+                "meetio_arrow_folders"
+            ]
+        },
+        {
+            "class": "icon_folder",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expanded"
+                    ]
+                }
+            ],
+            "layer0.texture": "Meetio/assets/default/arrow_folder_open.png",
+            "layer0.tint": "var(sidebarIconFolderExpandedColor)",
+            "content_margin": [
+                12,
+                12
+            ],
+            "settings": [
+                "meetio_arrow_folders"
+            ]
+        },
+        {
+            "class": "icon_folder_loading",
+            "layer0.texture": {
+                "keyframes": [
+                    "Meetio/assets/default/spinner11.png",
+                    "Meetio/assets/default/spinner10.png",
+                    "Meetio/assets/default/spinner9.png",
+                    "Meetio/assets/default/spinner8.png",
+                    "Meetio/assets/default/spinner7.png",
+                    "Meetio/assets/default/spinner6.png",
+                    "Meetio/assets/default/spinner5.png",
+                    "Meetio/assets/default/spinner4.png",
+                    "Meetio/assets/default/spinner3.png",
+                    "Meetio/assets/default/spinner2.png",
+                    "Meetio/assets/default/spinner1.png",
+                    "Meetio/assets/default/spinner.png"
+                ],
+                "loop": true,
+                "frame_time": 0.08
+            },
+            "layer0.tint": "var(sidebarIconFolderColor)",
+            "layer0.opacity": 1,
+            "content_margin": [
+                9,
+                9
+            ]
+        },
+        {
+            "class": "icon_file_type",
+            "layer0.tint": "var(sidebarIconFileColor)",
+            "layer0.opacity": 1,
+            "content_margin": [
+                8,
+                8
+            ]
+        },
+        {
+            "class": "icon_file_type",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "hover"
+                    ]
+                }
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "icon_file_type",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "selected"
+                    ]
+                }
+            ],
+            "layer0.opacity": 1
         },
         {
             "class": "label_control",
@@ -1206,23 +1250,6 @@
             }
         },
         {
-            "class": "progress_bar_control",
-            "layer0.tint": [
-                "background",
-                0.94
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "progress_gauge_control",
-            "layer0.tint": "var(colorAccent)",
-            "layer0.opacity": 1,
-            "content_margin": [
-                0,
-                8
-            ]
-        },
-        {
             "class": "mini_quick_panel_row",
             "layer0.tint": "var(panelRowBackground)",
             "layer0.inner_margin": [
@@ -1283,6 +1310,23 @@
             "match_fg": "var(panelRowMatchColor)",
             "selected_fg": "var(panelRowSelectedColor)",
             "selected_match_fg": "var(panelRowSelectedMatchColor)"
+        },
+        {
+            "class": "progress_bar_control",
+            "layer0.tint": [
+                "background",
+                0.94
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "progress_gauge_control",
+            "layer0.tint": "var(colorAccent)",
+            "layer0.opacity": 1,
+            "content_margin": [
+                0,
+                8
+            ]
         },
         {
             "class": "scroll_area_control",
@@ -1671,238 +1715,6 @@
             "font.bold": "var(statusbarLabelBold)"
         },
         {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "untracked"
-                    ]
-                }
-            ],
-            "layer0.texture": "Meetio/assets/default/untracked.png",
-            "layer0.tint": "var(vscUntracked)",
-            "content_margin": "var(vcsBadgeSize)"
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "modified"
-                    ]
-                }
-            ],
-            "layer0.texture": "Meetio/assets/default/modified.png",
-            "layer0.tint": "var(vscModified)",
-            "content_margin": "var(vcsBadgeSize)"
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "added"
-                    ]
-                }
-            ],
-            "layer0.texture": "Meetio/assets/default/added.png",
-            "layer0.tint": "var(vscUntracked)",
-            "content_margin": "var(vcsBadgeSize)"
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "unmerged"
-                    ]
-                }
-            ],
-            "layer0.texture": "Theme - Default/common/status_unmerged.png",
-            "layer0.tint": "var(vscUnmerged)",
-            "content_margin": "var(vcsBadgeSize)"
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "staged"
-                    ]
-                }
-            ],
-            "layer0.texture": "Meetio/assets/default/staged.png",
-            "layer0.tint": "var(vscStaged)",
-            "content_margin": "var(vcsBadgeSize)"
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "deleted"
-                    ]
-                }
-            ],
-            "layer0.tint": "var(vscDeleted)",
-            "content_margin": "var(vcsBadgeSize)"
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "missing"
-                    ]
-                }
-            ],
-            "layer0.tint": "var(vscMissing)",
-            "content_margin": "var(vcsBadgeSize)"
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "expandable"
-                    ]
-                }
-            ],
-            "layer0.texture": "Theme - Default/common/status_modified.png"
-        },
-        {
-            "class": "vcs_status_badge",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "expandable"
-                    ]
-                },
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "unmerged"
-                    ]
-                }
-            ],
-            "layer0.texture": "Theme - Default/common/status_unmerged.png"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "ignored"
-                    ]
-                }
-            ],
-            "color": "color(var(vscIgnored)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "untracked"
-                    ]
-                }
-            ],
-            "color": "var(vscUntracked)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "modified"
-                    ]
-                }
-            ],
-            "color": "var(vscModified)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "added"
-                    ]
-                }
-            ],
-            "color": "var(vscUntracked)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "unmerged"
-                    ]
-                }
-            ],
-            "color": "var(vscUnmerged)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "missing"
-                    ]
-                }
-            ],
-            "color": "var(vscMissing)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "deleted"
-                    ]
-                }
-            ],
-            "color": "var(vscDeleted)"
-        },
-        {
-            "class": "sidebar_label",
-            "parents": [
-                {
-                    "class": "file_system_entry",
-                    "attributes": [
-                        "staged"
-                    ]
-                }
-            ],
-            "color": "var(vscStaged)"
-        },
-        {
-            "class": "vcs_changes_annotation",
-            "border_color": "var(statusbarLabelColor)",
-            "content_margin": [
-                3,
-                1,
-                3,
-                1
-            ]
-        },
-        {
             "class": "tabset_control",
             "layer0.opacity": 1,
             "layer0.tint": "var(tabBackground)",
@@ -2261,6 +2073,238 @@
             "class": "title_bar",
             "bg": "var(titleBarBackground)",
             "fg": "var(titleBarColor)"
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "untracked"
+                    ]
+                }
+            ],
+            "layer0.texture": "Meetio/assets/default/untracked.png",
+            "layer0.tint": "var(vscUntracked)",
+            "content_margin": "var(vcsBadgeSize)"
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "modified"
+                    ]
+                }
+            ],
+            "layer0.texture": "Meetio/assets/default/modified.png",
+            "layer0.tint": "var(vscModified)",
+            "content_margin": "var(vcsBadgeSize)"
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "added"
+                    ]
+                }
+            ],
+            "layer0.texture": "Meetio/assets/default/added.png",
+            "layer0.tint": "var(vscUntracked)",
+            "content_margin": "var(vcsBadgeSize)"
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "unmerged"
+                    ]
+                }
+            ],
+            "layer0.texture": "Theme - Default/common/status_unmerged.png",
+            "layer0.tint": "var(vscUnmerged)",
+            "content_margin": "var(vcsBadgeSize)"
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "staged"
+                    ]
+                }
+            ],
+            "layer0.texture": "Meetio/assets/default/staged.png",
+            "layer0.tint": "var(vscStaged)",
+            "content_margin": "var(vcsBadgeSize)"
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "deleted"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(vscDeleted)",
+            "content_margin": "var(vcsBadgeSize)"
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "missing"
+                    ]
+                }
+            ],
+            "layer0.tint": "var(vscMissing)",
+            "content_margin": "var(vcsBadgeSize)"
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expandable"
+                    ]
+                }
+            ],
+            "layer0.texture": "Theme - Default/common/status_modified.png"
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "expandable"
+                    ]
+                },
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "unmerged"
+                    ]
+                }
+            ],
+            "layer0.texture": "Theme - Default/common/status_unmerged.png"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "ignored"
+                    ]
+                }
+            ],
+            "color": "color(var(vscIgnored)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "untracked"
+                    ]
+                }
+            ],
+            "color": "var(vscUntracked)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "modified"
+                    ]
+                }
+            ],
+            "color": "var(vscModified)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "added"
+                    ]
+                }
+            ],
+            "color": "var(vscUntracked)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "unmerged"
+                    ]
+                }
+            ],
+            "color": "var(vscUnmerged)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "missing"
+                    ]
+                }
+            ],
+            "color": "var(vscMissing)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "deleted"
+                    ]
+                }
+            ],
+            "color": "var(vscDeleted)"
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [
+                {
+                    "class": "file_system_entry",
+                    "attributes": [
+                        "staged"
+                    ]
+                }
+            ],
+            "color": "var(vscStaged)"
+        },
+        {
+            "class": "vcs_changes_annotation",
+            "border_color": "var(statusbarLabelColor)",
+            "content_margin": [
+                3,
+                1,
+                3,
+                1
+            ]
         },
         {
             "class": "tool_tip_control",
