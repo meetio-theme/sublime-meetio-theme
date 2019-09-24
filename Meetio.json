@@ -1,6 +1,6 @@
 {
     "variables": {
-        "colorAccent": "#80cbc4",
+        "colorAccent": "#4A7C8A",
         "colorDark": "#455A64",
         "fontSizeSm": 11,
         "fontSizeMd": 12,
@@ -70,9 +70,9 @@
             "background",
             1
         ],
-        "sidebarIconFolderColor": "color(var(colorDark) l(+ 20%))",
-        "sidebarIconFileColor": "#ffffff",
         "sidebarIconFolderExpandedColor": "var(colorAccent)",
+        "sidebarIconFolderColor": "var(colorAccent)",
+        "sidebarIconFileColor": "#ffffff",
         "sidebarHeadingFontSize": "var(fontSizeSm)",
         "sidebarLabelFontSize": "var(fontSizeMd)",
         "sidebarLabelPadding": [
@@ -125,7 +125,7 @@
             0,
             0,
             0,
-            1
+            2
         ],
         "tabSelectedColor": [
             "foreground",
@@ -172,11 +172,11 @@
         ],
         "vcsBadgeSize": 5,
         "vscIgnored": "color(var(sidebarLabelColor) a(0.5))",
-        "vscModified": "var(--bluish)",
+        "vscModified": "var(--redish)",
+        "vscUnmerged": "var(--bluish)",
+        "vscDeleted": "var(--bluish)",
         "vscStaged": "var(--yellowish)",
-        "vscUnmerged": "var(--redish)",
         "vscUntracked": "var(--greenish)",
-        "vscDeleted": "var(--redish)",
         "vscMissing": "var(--orangish)"
     },
     "rules": [
@@ -670,6 +670,135 @@
             "layer0.opacity": 1
         },
         {
+            "class": "grid_layout_control",
+            "border_color": "var(gridLayoutBorderColor)",
+            "border_size": "var(gridLayoutBorderSize)"
+        },
+        {
+            "class": "text_line_control",
+            "layer0.opacity": 1,
+            "layer0.inner_margin": [
+                20,
+                5,
+                20,
+                5
+            ],
+            "layer0.tint": "var(inputBackground)",
+            "layer1.tint": "var(inputBorderColor)",
+            "layer1.opacity": 1,
+            "layer1.inner_margin": "var(inputBorderSize)",
+            "layer1.draw_center": false,
+            "tint_index": 1,
+            "content_margin": "var(inputBorderMargin)",
+            "color_scheme_tint": "var(inputBackground)"
+        },
+        {
+            "class": "text_line_control",
+            "platforms": [
+                "osx",
+                "linux"
+            ],
+            "parents": [
+                {
+                    "class": "overlay_control"
+                }
+            ],
+            "layer1.opacity": 0,
+            "content_margin": [
+                52,
+                10,
+                10,
+                10
+            ],
+            "settings": [
+                "meetio_input_search_icon"
+            ]
+        },
+        {
+            "class": "text_line_control",
+            "parents": [
+                {
+                    "class": "overlay_control"
+                }
+            ],
+            "layer1.opacity": 0,
+            "layer2.inner_margin": [
+                52,
+                48,
+                0,
+                0
+            ],
+            "layer2.draw_center": false,
+            "layer2.texture": "Meetio/assets/default/icon_search.png",
+            "layer2.tint": "var(colorAccent)",
+            "layer2.opacity": 1,
+            "settings": [
+                "meetio_input_search_icon"
+            ]
+        },
+        {
+            "class": "text_line_control",
+            "platforms": [
+                "osx",
+                "linux"
+            ],
+            "parents": [
+                {
+                    "class": "switch_project_window"
+                }
+            ],
+            "layer1.opacity": 0,
+            "content_margin": [
+                52,
+                10,
+                10,
+                10
+            ],
+            "settings": [
+                "meetio_input_search_icon"
+            ]
+        },
+        {
+            "class": "text_line_control",
+            "parents": [
+                {
+                    "class": "switch_project_window"
+                }
+            ],
+            "layer2.inner_margin": [
+                52,
+                48,
+                0,
+                0
+            ],
+            "layer2.draw_center": false,
+            "layer2.texture": "Meetio/assets/default/icon_search.png",
+            "layer2.tint": "var(colorAccent)",
+            "layer2.opacity": 1,
+            "layer1.opacity": 0,
+            "settings": [
+                "meetio_input_search_icon"
+            ]
+        },
+        {
+            "class": "dropdown_button_control",
+            "layer0.texture": "Meetio/assets/default/overflow_menu.png",
+            "layer0.tint": "var(colorAccent)",
+            "layer0.opacity": 1,
+            "layer0.inner_margin": 0,
+            "content_margin": [
+                12,
+                12
+            ]
+        },
+        {
+            "class": "dropdown_button_control",
+            "attributes": [
+                "hover"
+            ],
+            "layer0.opacity": 0.8
+        },
+        {
             "class": "disclosure_button_control",
             "layer0.texture": "Meetio/assets/default/disclosure.png",
             "layer0.tint": [
@@ -892,135 +1021,6 @@
                 }
             ],
             "layer0.opacity": 1
-        },
-        {
-            "class": "grid_layout_control",
-            "border_color": "var(gridLayoutBorderColor)",
-            "border_size": "var(gridLayoutBorderSize)"
-        },
-        {
-            "class": "text_line_control",
-            "layer0.opacity": 1,
-            "layer0.inner_margin": [
-                20,
-                5,
-                20,
-                5
-            ],
-            "layer0.tint": "var(inputBackground)",
-            "layer1.tint": "var(inputBorderColor)",
-            "layer1.opacity": 1,
-            "layer1.inner_margin": "var(inputBorderSize)",
-            "layer1.draw_center": false,
-            "tint_index": 1,
-            "content_margin": "var(inputBorderMargin)",
-            "color_scheme_tint": "var(inputBackground)"
-        },
-        {
-            "class": "text_line_control",
-            "platforms": [
-                "osx",
-                "linux"
-            ],
-            "parents": [
-                {
-                    "class": "overlay_control"
-                }
-            ],
-            "layer1.opacity": 0,
-            "content_margin": [
-                52,
-                10,
-                10,
-                10
-            ],
-            "settings": [
-                "meetio_input_search_icon"
-            ]
-        },
-        {
-            "class": "text_line_control",
-            "parents": [
-                {
-                    "class": "overlay_control"
-                }
-            ],
-            "layer1.opacity": 0,
-            "layer2.inner_margin": [
-                52,
-                48,
-                0,
-                0
-            ],
-            "layer2.draw_center": false,
-            "layer2.texture": "Meetio/assets/default/icon_search.png",
-            "layer2.tint": "var(colorAccent)",
-            "layer2.opacity": 1,
-            "settings": [
-                "meetio_input_search_icon"
-            ]
-        },
-        {
-            "class": "text_line_control",
-            "platforms": [
-                "osx",
-                "linux"
-            ],
-            "parents": [
-                {
-                    "class": "switch_project_window"
-                }
-            ],
-            "layer1.opacity": 0,
-            "content_margin": [
-                52,
-                10,
-                10,
-                10
-            ],
-            "settings": [
-                "meetio_input_search_icon"
-            ]
-        },
-        {
-            "class": "text_line_control",
-            "parents": [
-                {
-                    "class": "switch_project_window"
-                }
-            ],
-            "layer2.inner_margin": [
-                52,
-                48,
-                0,
-                0
-            ],
-            "layer2.draw_center": false,
-            "layer2.texture": "Meetio/assets/default/icon_search.png",
-            "layer2.tint": "var(colorAccent)",
-            "layer2.opacity": 1,
-            "layer1.opacity": 0,
-            "settings": [
-                "meetio_input_search_icon"
-            ]
-        },
-        {
-            "class": "dropdown_button_control",
-            "layer0.texture": "Meetio/assets/default/overflow_menu.png",
-            "layer0.tint": "var(colorAccent)",
-            "layer0.opacity": 1,
-            "layer0.inner_margin": 0,
-            "content_margin": [
-                12,
-                12
-            ]
-        },
-        {
-            "class": "dropdown_button_control",
-            "attributes": [
-                "hover"
-            ],
-            "layer0.opacity": 0.8
         },
         {
             "class": "label_control",
@@ -1339,6 +1339,129 @@
             "selected_match_fg": "var(panelRowSelectedMatchColor)"
         },
         {
+            "class": "scroll_area_control",
+            "settings": [
+                "overlay_scroll_bars"
+            ],
+            "overlay": true
+        },
+        {
+            "class": "scroll_area_control",
+            "settings": [
+                "!overlay_scroll_bars"
+            ],
+            "overlay": false
+        },
+        {
+            "class": "scroll_area_control",
+            "parents": [
+                {
+                    "class": "sidebar_container"
+                }
+            ],
+            "content_margin": [
+                0,
+                10,
+                0,
+                10
+            ]
+        },
+        {
+            "class": "scroll_bar_control",
+            "layer0.opacity": 1,
+            "content_margin": 4,
+            "tint_index": 0
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": [
+                "overlay_scroll_bars"
+            ],
+            "layer0.opacity": 0
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": [
+                "!overlay_scroll_bars"
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "scroll_track_control",
+            "layer0.tint": "var(scrollBar)",
+            "layer0.opacity": 1,
+            "layer0.inner_margin": 2,
+            "content_margin": [
+                4,
+                4,
+                3,
+                4
+            ]
+        },
+        {
+            "class": "puck_control",
+            "layer0.tint": "var(scrollTrack)",
+            "layer0.opacity": 1
+        },
+        {
+            "class": "scroll_corner_control",
+            "layer0.opacity": 1,
+            "tint_index": 0
+        },
+        {
+            "class": "scroll_track_control",
+            "attributes": [
+                "horizontal"
+            ],
+            "layer0.tint": "var(scrollBar)",
+            "content_margin": [
+                4,
+                4,
+                4,
+                3
+            ]
+        },
+        {
+            "class": "puck_control",
+            "attributes": [
+                "horizontal"
+            ],
+            "layer0.tint": "var(scrollTrack)"
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [
+                {
+                    "class": "sidebar_container"
+                }
+            ],
+            "layer0.opacity": 0
+        },
+        {
+            "class": "scroll_corner_control",
+            "parents": [
+                {
+                    "class": "sidebar_container"
+                }
+            ],
+            "layer0.opacity": 0
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [
+                {
+                    "class": "overlay_control"
+                }
+            ],
+            "layer0.opacity": 0,
+            "content_margin": [
+                4,
+                0,
+                0,
+                0
+            ]
+        },
+        {
             "class": "sidebar_container",
             "layer0.tint": "var(sidebarBackground)",
             "layer0.opacity": 1,
@@ -1516,145 +1639,81 @@
             "font.italic": false
         },
         {
-            "class": "scroll_area_control",
-            "settings": [
-                "overlay_scroll_bars"
-            ],
-            "overlay": true
-        },
-        {
-            "class": "scroll_area_control",
-            "settings": [
-                "!overlay_scroll_bars"
-            ],
-            "overlay": false
-        },
-        {
-            "class": "scroll_area_control",
-            "parents": [
-                {
-                    "class": "sidebar_container"
-                }
-            ],
-            "content_margin": [
-                0,
-                10,
-                0,
-                10
-            ]
-        },
-        {
-            "class": "scroll_bar_control",
-            "layer0.opacity": 1,
-            "content_margin": 4,
-            "tint_index": 0
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": [
-                "overlay_scroll_bars"
-            ],
-            "layer0.opacity": 0
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": [
-                "!overlay_scroll_bars"
-            ],
+            "class": "status_bar",
+            "content_margin": "var(statusbarMargin)",
+            "layer0.tint": "var(statusbarBackground)",
             "layer0.opacity": 1
         },
         {
-            "class": "scroll_track_control",
-            "layer0.tint": "var(scrollBar)",
+            "class": "panel_button_control",
+            "layer0.texture": "Meetio/assets/default/overflow_menu.png",
+            "layer0.tint": "var(statusbarLabelColor)",
             "layer0.opacity": 1,
-            "layer0.inner_margin": 2,
-            "content_margin": [
-                4,
-                4,
-                3,
-                4
-            ]
+            "content_margin": 9,
+            "layer0.inner_margin": 4
         },
         {
-            "class": "puck_control",
-            "layer0.tint": "var(scrollTrack)",
-            "layer0.opacity": 1
-        },
-        {
-            "class": "scroll_corner_control",
-            "layer0.opacity": 1,
-            "tint_index": 0
-        },
-        {
-            "class": "scroll_track_control",
-            "attributes": [
-                "horizontal"
-            ],
-            "layer0.tint": "var(scrollBar)",
-            "content_margin": [
-                4,
-                4,
-                4,
-                3
-            ]
-        },
-        {
-            "class": "puck_control",
-            "attributes": [
-                "horizontal"
-            ],
-            "layer0.tint": "var(scrollTrack)"
-        },
-        {
-            "class": "scroll_bar_control",
-            "parents": [
-                {
-                    "class": "sidebar_container"
-                }
-            ],
-            "layer0.opacity": 0
-        },
-        {
-            "class": "scroll_corner_control",
-            "parents": [
-                {
-                    "class": "sidebar_container"
-                }
-            ],
-            "layer0.opacity": 0
-        },
-        {
-            "class": "scroll_bar_control",
-            "parents": [
-                {
-                    "class": "overlay_control"
-                }
-            ],
+            "class": "vcs_branch_icon",
+            "layer0.texture": "Meetio/assets/default/icon_branch.png",
+            "layer0.tint": "var(statusbarLabelColor)",
             "layer0.opacity": 0,
+            "content_margin": 8,
+            "layer0.inner_margin": 2
+        },
+        {
+            "class": "vcs_branch_icon",
+            "layer0.texture": "Meetio/assets/default/icon_branch.png",
+            "settings": [
+                "meetio_status_badges"
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "panel_button_control",
+            "attributes": [
+                "hover"
+            ],
+            "layer0.opacity": 0.8
+        },
+        {
+            "class": "vcs_branch_icon",
+            "attributes": [
+                "hover"
+            ],
+            "layer0.opacity": 0.8
+        },
+        {
+            "class": "status_container",
             "content_margin": [
-                4,
+                8,
                 0,
                 0,
                 0
             ]
         },
         {
-            "class": "title_bar",
-            "bg": "var(titleBarBackground)",
-            "fg": "var(titleBarColor)"
-        },
-        {
-            "class": "tool_tip_control",
-            "layer0.tint": "var(tooltipBackground)",
-            "layer0.opacity": 1,
+            "class": "status_button",
             "content_margin": [
-                12,
-                8
+                10,
+                0,
+                10,
+                0
+            ],
+            "min_size": [
+                80,
+                0
             ]
         },
         {
-            "class": "tool_tip_label_control",
-            "fg": "var(tooltipLabelColor)"
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "status_bar"
+                }
+            ],
+            "font.size": "var(statusbarLabelFontSize)",
+            "color": "var(statusbarLabelColor)",
+            "font.bold": "var(statusbarLabelBold)"
         },
         {
             "class": "tabset_control",
@@ -1742,9 +1801,6 @@
                 "selected"
             ],
             "layer1.opacity": 1,
-            "settings": [
-                "meetio_tabs_selected_border"
-            ],
             "layer2.opacity": 1,
             "layer2.inner_margin": "var(tabSelectedBorderSize)",
             "layer2.draw_center": false,
@@ -2012,81 +2068,55 @@
             "layer0.opacity": 0.8
         },
         {
-            "class": "status_bar",
-            "content_margin": "var(statusbarMargin)",
-            "layer0.tint": "var(statusbarBackground)",
-            "layer0.opacity": 1
+            "class": "title_bar",
+            "bg": "var(titleBarBackground)",
+            "fg": "var(titleBarColor)"
         },
         {
-            "class": "panel_button_control",
-            "layer0.texture": "Meetio/assets/default/overflow_menu.png",
-            "layer0.tint": "var(statusbarLabelColor)",
+            "class": "tool_tip_control",
+            "layer0.tint": "var(tooltipBackground)",
             "layer0.opacity": 1,
-            "content_margin": 9,
-            "layer0.inner_margin": 4
+            "content_margin": [
+                12,
+                8
+            ]
         },
         {
-            "class": "vcs_branch_icon",
-            "layer0.texture": "Meetio/assets/default/icon_branch.png",
-            "layer0.tint": "var(statusbarLabelColor)",
-            "layer0.opacity": 0,
-            "content_margin": 8,
-            "layer0.inner_margin": 2
+            "class": "tool_tip_label_control",
+            "fg": "var(tooltipLabelColor)"
         },
         {
-            "class": "vcs_branch_icon",
-            "layer0.texture": "Meetio/assets/default/icon_branch.png",
+            "class": "minimap_control",
             "settings": [
-                "meetio_status_badges"
+                "always_show_minimap_viewport"
             ],
-            "layer0.opacity": 1
+            "viewport_color": "color(var(colorAccent) a(0.2))",
+            "viewport_opacity": "var(minimapOpacity)"
         },
         {
-            "class": "panel_button_control",
+            "class": "minimap_control",
+            "settings": [
+                "!always_show_minimap_viewport"
+            ],
+            "viewport_opacity": {
+                "target": 0,
+                "speed": 4,
+                "interpolation": "smoothstep"
+            }
+        },
+        {
+            "class": "minimap_control",
             "attributes": [
                 "hover"
             ],
-            "layer0.opacity": 0.8
-        },
-        {
-            "class": "vcs_branch_icon",
-            "attributes": [
-                "hover"
+            "settings": [
+                "!always_show_minimap_viewport"
             ],
-            "layer0.opacity": 0.8
-        },
-        {
-            "class": "status_container",
-            "content_margin": [
-                8,
-                0,
-                0,
-                0
-            ]
-        },
-        {
-            "class": "status_button",
-            "content_margin": [
-                10,
-                0,
-                10,
-                0
-            ],
-            "min_size": [
-                80,
-                0
-            ]
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "status_bar"
-                }
-            ],
-            "font.size": "var(statusbarLabelFontSize)",
-            "color": "var(statusbarLabelColor)",
-            "font.bold": "var(statusbarLabelBold)"
+            "viewport_opacity": {
+                "target": 0.4,
+                "speed": 20,
+                "interpolation": "smoothstep"
+            }
         },
         {
             "class": "vcs_status_badge",
@@ -2319,39 +2349,6 @@
                 3,
                 1
             ]
-        },
-        {
-            "class": "minimap_control",
-            "settings": [
-                "always_show_minimap_viewport"
-            ],
-            "viewport_color": "color(var(colorAccent) a(0.2))",
-            "viewport_opacity": "var(minimapOpacity)"
-        },
-        {
-            "class": "minimap_control",
-            "settings": [
-                "!always_show_minimap_viewport"
-            ],
-            "viewport_opacity": {
-                "target": 0,
-                "speed": 4,
-                "interpolation": "smoothstep"
-            }
-        },
-        {
-            "class": "minimap_control",
-            "attributes": [
-                "hover"
-            ],
-            "settings": [
-                "!always_show_minimap_viewport"
-            ],
-            "viewport_opacity": {
-                "target": 0.4,
-                "speed": 20,
-                "interpolation": "smoothstep"
-            }
         }
     ]
 }

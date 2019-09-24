@@ -54,7 +54,6 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer1.opacity": 1,
-        "settings": ["meetio_tabs_selected_border"],
         "layer2.opacity": 1,
         "layer2.inner_margin": "var(tabSelectedBorderSize)",
         "layer2.draw_center": false,

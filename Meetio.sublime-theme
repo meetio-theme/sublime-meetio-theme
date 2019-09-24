@@ -1,7 +1,7 @@
 {
     "extends": "Meetio.json",
     "variables": {
-        "colorAccent": "#80cbc4",
+        "colorAccent": "#4A7C8A",
         "colorDark": "#455A64",
         "fontSizeSm": 11,
         "fontSizeMd": 12,
@@ -71,9 +71,9 @@
             "background",
             1
         ],
-        "sidebarIconFolderColor": "color(var(colorDark) l(+ 20%))",
-        "sidebarIconFileColor": "#ffffff",
         "sidebarIconFolderExpandedColor": "var(colorAccent)",
+        "sidebarIconFolderColor": "var(colorAccent)",
+        "sidebarIconFileColor": "#ffffff",
         "sidebarHeadingFontSize": "var(fontSizeSm)",
         "sidebarLabelFontSize": "var(fontSizeMd)",
         "sidebarLabelPadding": [
@@ -126,7 +126,7 @@
             0,
             0,
             0,
-            1
+            2
         ],
         "tabSelectedColor": [
             "foreground",
@@ -173,11 +173,11 @@
         ],
         "vcsBadgeSize": 5,
         "vscIgnored": "color(var(sidebarLabelColor) a(0.5))",
-        "vscModified": "var(--bluish)",
+        "vscModified": "var(--redish)",
+        "vscUnmerged": "var(--bluish)",
+        "vscDeleted": "var(--bluish)",
         "vscStaged": "var(--yellowish)",
-        "vscUnmerged": "var(--redish)",
         "vscUntracked": "var(--greenish)",
-        "vscDeleted": "var(--redish)",
         "vscMissing": "var(--orangish)"
     }
 }

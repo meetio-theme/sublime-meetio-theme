@@ -59,20 +59,19 @@ This theme provide a visual configuration tool that allow you to configure the t
 ```js
 {
   // Tabs
-  "meetio_tabs_selected_border": true, // Show border in selected tab
-  "meetio_tabs_diff_icon": true, // Show icon diff in tab
-  "meetio_tabs_diff_pencil_icon": false, // Show diff pencil icon in tab
+  "meetio_tabs_diff_icon": true, // show icon diff in tab
+  "meetio_tabs_diff_pencil_icon": false, // show diff pencil icon in tab
 
   // Sidebar
-  "meetio_icon_folder": false, // Replace colorful folder to a flat icon folder
-  "meetio_arrow_folder": false, // Replace folder icons with arrows
-  "meetio_sidebar_disclosure": false, // Set disclosure tree controls
+  "meetio_icon_folder": false, // replace colorful folder to a flat icon folder
+  "meetio_arrow_folder": false, // replace folder icons with arrows
+  "meetio_sidebar_disclosure": false, // set disclosure tree controls
 
   // Panels
-  "meetio_input_search_icon": true, // Show icon search in inputs
+  "meetio_input_search_icon": true, // show icon search in inputs
 
   // Status bar
-  "meetio_status_badges": true, // Show vcs status badges in the status bar
+  "meetio_status_badges": true, // show vcs status badges in the status bar
 }
 ```
 
