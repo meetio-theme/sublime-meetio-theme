@@ -25,20 +25,12 @@ You can help improve the theme by reporting issues [here](https://github.com/mau
 1. Open `Command Palette` using menu item `Tools → Command Palette` or <kbd>CMD/CTRL</kbd> + <kbd>SHIFT</kbd> +<kbd>P</kbd>.
 2. Choose `Package Control: Install Package`.
 3. Type `Meetio` and press <kbd>ENTER</kbd>.
-4. Restart Sublime Text.
-    * **macOS** : menu item `Sublime Text → Quit Sublime Text`.
-    * **Windows**: menu item `File → Exit`.
-    * **Linux** : menu item `File → Exit`.
-5. Ready to use.
 
 **Manually:**
 
 1. Download latest release and unzip. it into your Packages folder.
 2. Go to `Sublime Text → Preferences → Browse Packages`.
 3. Move folder to inside and rename the folder to `Meetio`.
-4. Restart Sublime Text.
-5. Start using.
-
 
 ## Activate Theme
 
@@ -94,7 +86,7 @@ This theme provide a visual configuration tool that allow you to configure the t
 {
   "variables": {
     "colorAccent": "#6772e4",
-    "statusbarBackground": "#6772e4",
+    "statusbarBackground": "var(colorAccent)",
     "statusbarLabelColor": "#fff"
   }
 }
