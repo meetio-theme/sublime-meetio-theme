@@ -1,19 +1,19 @@
 {
-  "name": "Meetio",
-  "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
-  "variables": {
-    "caret": "#ffcc00",
-    "foreground": "#eeffff",
-    "background": "#334150",
-    "comments": "#9294a3",
-    "blue": "#82aaff",
-    "brown": "#c17e70",
-    "cyan": "#65ddd9",
-    "green": "#c3e88d",
-    "orange": "#ff8d58",
-    "pink": "#f07178",
-    "purple": "#b9a7ff",
-    "red": "#ff767b",
-    "yellow": "#ffc312"
-  }
+    "name": "Meetio",
+    "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
+    "variables": {
+        "caret": "#ffcc00",
+        "foreground": "#eeffff",
+        "background": "#263238",
+        "comments": "#9294a3",
+        "blue": "#82aaff",
+        "brown": "#c17e70",
+        "cyan": "#65ddd9",
+        "green": "#c3e88d",
+        "orange": "#ff8d58",
+        "pink": "#f07178",
+        "purple": "#b9a7ff",
+        "red": "#ff767b",
+        "yellow": "#ffc312"
+    }
 }
