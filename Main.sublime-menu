@@ -29,7 +29,10 @@
                             { "caption": "-" },
                             {
                                 "caption": "Changelog",
-                                "command": "mo_changelog"
+                                "command": "open_url",
+                                "args": {
+                                    "url": "https://github.com/mauroreisvieira/meetio/blob/master/CHANGELOG.md"
+                                }
                             },
                             {
                                 "caption": "Issues",
