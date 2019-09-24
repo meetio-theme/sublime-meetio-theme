@@ -1,3 +1,5 @@
+/*eslint-disable no-undef */
+
 import path from "path"
 import fs from "fs"
 import svg2img from "svg2img"

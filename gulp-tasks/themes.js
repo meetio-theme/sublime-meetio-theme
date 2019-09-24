@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 import path from "path"
 import fs from "fs"
 import variables from "./../src/themes/variables.json"

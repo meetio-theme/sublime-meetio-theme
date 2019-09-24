@@ -18,6 +18,6 @@ module.exports = {
                 singleQuote: false,
             },
         ],
-        eqeqeq: ["error", "always"],
+        "no-console": "off",
     },
-};
+}
