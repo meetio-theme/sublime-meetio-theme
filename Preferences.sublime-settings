@@ -6,8 +6,10 @@
   // Show diff pencil icon in tab.
   "meetio_tabs_diff_pencil_icon": false,
 
-  // Replace folder icons with arrows
-  "meetio_arrow_folders": false,
+  // Replace colorful folder to a flat icon folder
+  "meetio_icon_folder": false,
+  // Replace folder icons with arrow icon.
+  "meetio_arrow_folder": false,
   // Set disclosure tree controls
   "meetio_sidebar_disclosure": false,
 
