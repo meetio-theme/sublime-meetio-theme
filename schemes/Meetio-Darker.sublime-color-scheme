@@ -185,6 +185,16 @@
             "foreground": "var(green)"
         },
         {
+            "name": "[Groovy] Conditional",
+            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Groovy] Return",
+            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
+            "foreground": "var(cyan)"
+        },
+        {
             "name": "[HTML] String",
             "scope": "text.html.basic string",
             "foreground": "var(green)"
@@ -215,14 +225,54 @@
             "foreground": "var(purple)"
         },
         {
-            "name": "[Groovy] Conditional",
-            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
-            "foreground": "var(cyan)"
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(red)"
         },
         {
-            "name": "[Groovy] Return",
-            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
-            "foreground": "var(cyan)"
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Punctuation Section",
+            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation String",
+            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Mapping Level 1",
+            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Mapping Level 2",
+            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(brown)"
         },
         {
             "name": "[JavaScript] Constructor",
@@ -337,56 +387,6 @@
             "foreground": "var(red)"
         },
         {
-            "name": "[JSON] Key ",
-            "scope": "meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Value",
-            "scope": "meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JSON] Constant",
-            "scope": "constant.language.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Character Escape",
-            "scope": "constant.character.escape.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Constant Numeric",
-            "scope": "constant.numeric.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Punctuation Section",
-            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation Mapping",
-            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation String",
-            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Mapping Level 1",
-            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Mapping Level 2",
-            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(brown)"
-        },
-        {
             "name": "[Markdown] Deleted",
             "scope": "markup.deleted",
             "foreground": "var(red)"
@@ -474,6 +474,63 @@
             "name": "[Markdown] Blockquotes",
             "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
             "font_style": "italic"
+        },
+        {
+            "name": "[PHP] Inherited Class",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[PHP] Storage",
+            "scope": "storage.modifier.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Extends",
+            "scope": "storage.modifier.extends.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Echo",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
+            "font_style": "normal",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[PHP] Var",
+            "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Block",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Function",
+            "scope": "meta.function-call.php support.function, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.group.php meta.function-call.php support.function.array.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.function-call.php support.function.string.php",
+            "font_style": "normal",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[PHP] Return",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Condition",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Constant",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
+            "foreground": "var(orange)"
         },
         {
             "name": "Comment",
@@ -583,63 +640,6 @@
             "name": "[Perl] Function",
             "scope": "source.perl meta.function.perl meta.block.perl keyword.other.flow.perl",
             "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Inherited Class",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[PHP] Storage",
-            "scope": "storage.modifier.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Extends",
-            "scope": "storage.modifier.extends.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Construct",
-            "scope": "support.function.construct.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Echo",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
-            "font_style": "normal",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[PHP] Var",
-            "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Block",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Function",
-            "scope": "meta.function-call.php support.function, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.group.php meta.function-call.php support.function.array.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.function-call.php support.function.string.php",
-            "font_style": "normal",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[PHP] Return",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Condition",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Constant",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
-            "foreground": "var(orange)"
         },
         {
             "name": "[Python] Variables",

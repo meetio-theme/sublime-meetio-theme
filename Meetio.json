@@ -619,6 +619,14 @@
             "layer0.opacity": 1
         },
         {
+            "class": "dialog",
+            "layer0.tint": [
+                "background",
+                0.94
+            ],
+            "layer0.opacity": 1
+        },
+        {
             "class": "fold_button_control",
             "layer0.texture": "Meetio/assets/default/arrow_right.png",
             "layer0.tint": "var(colorAccent)",
@@ -653,21 +661,7 @@
             ]
         },
         {
-            "class": "dialog",
-            "layer0.tint": [
-                "background",
-                0.94
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "disclosure_button_control",
-            "layer0.texture": "Meetio/assets/default/disclosure.png",
-            "layer0.tint": [
-                "foreground",
-                0.6
-            ],
-            "layer0.opacity": {
+ {
                 "target": 0.3,
                 "speed": 4,
                 "interpolation": "smoothstep"

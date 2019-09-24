@@ -1,19 +1,19 @@
 {
-  "name": "Meetio-Lighter",
-  "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
-  "variables": {
-    "caret": "#ffcc00",
-    "foreground": "#546171",
-    "background": "#fafafa",
-    "comments": "#90a4ae",
-    "blue": "#6182b8",
-    "brown": "#c17e70",
-    "cyan": "#5fb3b3",
-    "green": "#91b859",
-    "orange": "#f76d47",
-    "pink": "#ff5370",
-    "purple": "#7c4dff",
-    "red": "#e53935",
-    "yellow": "#ffb62e"
-  }
+    "name": "Meetio-Lighter",
+    "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
+    "variables": {
+        "caret": "#ffcc00",
+        "foreground": "#546171",
+        "background": "#fafafa",
+        "comments": "#90a4ae",
+        "blue": "#6182b8",
+        "brown": "#c17e70",
+        "cyan": "#5fb3b3",
+        "green": "#91b859",
+        "orange": "#f76d47",
+        "pink": "#ff5370",
+        "purple": "#7c4dff",
+        "red": "#e53935",
+        "yellow": "#ffb62e"
+    }
 }
