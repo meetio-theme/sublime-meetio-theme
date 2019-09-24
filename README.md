@@ -107,6 +107,8 @@ To enjoy a better experience of using the **Meetio Theme** in your Sublime Text,
 }
 ```
 
+The font recommended is **FREE** you can download on: [Fira Code](https://github.com/tonsky/FiraCode)
+
 ## Theme Inspired
 A special thanks to the following people who developed great projects, in which I inspired me to develop **Meetio Theme**.
 
