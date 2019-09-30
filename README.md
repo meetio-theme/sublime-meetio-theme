@@ -64,7 +64,6 @@ This theme provide a visual configuration tool that allow you to configure the t
 
   // Sidebar
   "meetio_icon_folder": false, // replace colorful folder to a flat icon folder
-  "meetio_arrow_folder": false, // replace folder icons with arrows
   "meetio_sidebar_disclosure": false, // set disclosure tree controls
 
   // Panels

@@ -9,7 +9,7 @@
         "blue": "#82aaff",
         "brown": "#c17e70",
         "cyan": "#89ddff",
-        "green": "#c3e88d",
+        "green": "#C3E88D",
         "orange": "#f78c6c",
         "pink": "#f07178",
         "purple": "#c2afff",
@@ -48,266 +48,6 @@
         "tags_foreground": "var(pink)"
     },
     "rules": [
-        {
-            "foreground": "#F7F7F7FF",
-            "background": "#777777FF",
-            "scope": "col_777777FF"
-        },
-        {
-            "foreground": "#727272FF",
-            "background": "#F4F2F2FF",
-            "scope": "col_F4F2F2FF"
-        },
-        {
-            "foreground": "#F1F1F1FF",
-            "background": "#625EFCFF",
-            "scope": "col_625EFCFF"
-        },
-        {
-            "foreground": "#E8E8E8FF",
-            "background": "#0E8F94FF",
-            "scope": "col_0E8F94FF"
-        },
-        {
-            "foreground": "#676767FF",
-            "background": "#E7E7E7FF",
-            "scope": "col_E7E7E7FF"
-        },
-        {
-            "foreground": "#808080FF",
-            "background": "#000000FF",
-            "scope": "col_000000FF"
-        },
-        {
-            "foreground": "#FDFDFDFF",
-            "background": "#2196F3FF",
-            "scope": "col_2196F3FF"
-        },
-        {
-            "foreground": "#A6A6A6FF",
-            "background": "#00000028",
-            "scope": "col_00000028"
-        },
-        {
-            "foreground": "#6E6E6EFF",
-            "background": "#EEEEEEFF",
-            "scope": "col_EEEEEEFF"
-        },
-        {
-            "foreground": "#2A2A2AFF",
-            "background": "#AAAAAAFF",
-            "scope": "col_AAAAAAFF"
-        },
-        {
-            "foreground": "#9E9E9EFF",
-            "background": "#182124FF",
-            "scope": "col_182124FF"
-        },
-        {
-            "foreground": "#2B2B2BFF",
-            "background": "#C792EAFF",
-            "scope": "col_C792EAFF"
-        },
-        {
-            "foreground": "#292929FF",
-            "background": "#FB914FFF",
-            "scope": "col_FB914FFF"
-        },
-        {
-            "foreground": "#363636FF",
-            "background": "#B9A7FFFF",
-            "scope": "col_B9A7FFFF"
-        },
-        {
-            "foreground": "#1F1F1FFF",
-            "background": "#FF767BFF",
-            "scope": "col_FF767BFF"
-        },
-        {
-            "foreground": "#797979FF",
-            "background": "#EEFFFFFF",
-            "scope": "col_EEFFFFFF"
-        },
-        {
-            "foreground": "#AFAFAFFF",
-            "background": "#263238FF",
-            "scope": "col_263238FF"
-        },
-        {
-            "foreground": "#151515FF",
-            "background": "#9294A3FF",
-            "scope": "col_9294A3FF"
-        },
-        {
-            "foreground": "#404040FF",
-            "background": "#FFC312FF",
-            "scope": "col_FFC312FF"
-        },
-        {
-            "foreground": "#292929FF",
-            "background": "#FF8D58FF",
-            "scope": "col_FF8D58FF"
-        },
-        {
-            "foreground": "#383838FF",
-            "background": "#65DDD9FF",
-            "scope": "col_65DDD9FF"
-        },
-        {
-            "foreground": "#EBEBEBFF",
-            "background": "#E53935FF",
-            "scope": "col_E53935FF"
-        },
-        {
-            "foreground": "#111111FF",
-            "background": "#F76D47FF",
-            "scope": "col_F76D47FF"
-        },
-        {
-            "foreground": "#191919FF",
-            "background": "#5FB3B3FF",
-            "scope": "col_5FB3B3FF"
-        },
-        {
-            "foreground": "#212121FF",
-            "background": "#91B859FF",
-            "scope": "col_91B859FF"
-        },
-        {
-            "foreground": "#7A7A7AFF",
-            "background": "#FAFAFAFF",
-            "scope": "col_FAFAFAFF"
-        },
-        {
-            "foreground": "#FEFEFEFF",
-            "background": "#6182B8FF",
-            "scope": "col_6182B8FF"
-        },
-        {
-            "foreground": "#090909FF",
-            "background": "#FF5370FF",
-            "scope": "col_FF5370FF"
-        },
-        {
-            "foreground": "#EFEFEFFF",
-            "background": "#7C4DFFFF",
-            "scope": "col_7C4DFFFF"
-        },
-        {
-            "foreground": "#3C3C3CFF",
-            "background": "#FFB62EFF",
-            "scope": "col_FFB62EFF"
-        },
-        {
-            "foreground": "#DEDEDEFF",
-            "background": "#546171FF",
-            "scope": "col_546171FF"
-        },
-        {
-            "foreground": "#434343FF",
-            "background": "#FFCC00FF",
-            "scope": "col_FFCC00FF"
-        },
-        {
-            "foreground": "#1F1F1FFF",
-            "background": "#90A4AEFF",
-            "scope": "col_90A4AEFF"
-        },
-        {
-            "foreground": "#BDBDBDFF",
-            "background": "#3D3D3DFF",
-            "scope": "col_3D3D3DFF"
-        },
-        {
-            "foreground": "#4F4F4FFF",
-            "background": "#FFCB6BFF",
-            "scope": "col_FFCB6BFF"
-        },
-        {
-            "foreground": "#3D3D3DFF",
-            "background": "#C2AFFFFF",
-            "scope": "col_C2AFFFFF"
-        },
-        {
-            "foreground": "#282828FF",
-            "background": "#F78C6CFF",
-            "scope": "col_F78C6CFF"
-        },
-        {
-            "foreground": "#101010FF",
-            "background": "#C17E70FF",
-            "scope": "col_C17E70FF"
-        },
-        {
-            "foreground": "#171717FF",
-            "background": "#F07178FF",
-            "scope": "col_F07178FF"
-        },
-        {
-            "foreground": "#272727FF",
-            "background": "#82AAFFFF",
-            "scope": "col_82AAFFFF"
-        },
-        {
-            "foreground": "#474747FF",
-            "background": "#89DDFFFF",
-            "scope": "col_89DDFFFF"
-        },
-        {
-            "foreground": "#ACACACFF",
-            "background": "#282C3DFF",
-            "scope": "col_282C3DFF"
-        },
-        {
-            "foreground": "#FDFDFDFF",
-            "background": "#D95757FF",
-            "scope": "col_D95757FF"
-        },
-        {
-            "foreground": "#F2F2F2FF",
-            "background": "#697098FF",
-            "scope": "col_697098FF"
-        },
-        {
-            "foreground": "#525252FF",
-            "background": "#C3E88DFF",
-            "scope": "col_C3E88DFF"
-        },
-        {
-            "foreground": "#464646FF",
-            "background": "#BFC7D5FF",
-            "scope": "col_BFC7D5FF"
-        },
-        {
-            "foreground": "#D4D4D4FF",
-            "background": "#455A64FF",
-            "scope": "col_455A64FF"
-        },
-        {
-            "foreground": "#7F7F7FFF",
-            "background": "#FFFFFFFF",
-            "scope": "col_FFFFFFFF"
-        },
-        {
-            "foreground": "#EEEEEEFF",
-            "background": "#4A7C8AFF",
-            "scope": "col_4A7C8AFF"
-        },
-        {
-            "foreground": "#EEEEEEFF",
-            "background": "#7E57C2FF",
-            "scope": "col_7E57C2FF"
-        },
-        {
-            "foreground": "#ffffff",
-            "background": "#000000",
-            "scope": "col_gutter"
-        },
-        {
-            "foreground": "#1F1F1FFF",
-            "background": "#FF7777FF",
-            "scope": "col_FF7777FF"
-        },
         {
             "name": "[CSS] String",
             "scope": "source.css string",
@@ -597,56 +337,6 @@
             "foreground": "var(red)"
         },
         {
-            "name": "[JSON] Key ",
-            "scope": "meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Value",
-            "scope": "meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JSON] Constant",
-            "scope": "constant.language.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Character Escape",
-            "scope": "constant.character.escape.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Constant Numeric",
-            "scope": "constant.numeric.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Punctuation Section",
-            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation Mapping",
-            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation String",
-            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Mapping Level 1",
-            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Mapping Level 2",
-            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(brown)"
-        },
-        {
             "name": "[Markdown] Deleted",
             "scope": "markup.deleted",
             "foreground": "var(red)"
@@ -734,6 +424,56 @@
             "name": "[Markdown] Blockquotes",
             "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
             "font_style": "italic"
+        },
+        {
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Punctuation Section",
+            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation String",
+            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Mapping Level 1",
+            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Mapping Level 2",
+            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(brown)"
         },
         {
             "name": "Comment",

@@ -19,7 +19,7 @@
     },
     {
         "class": "disclosure_button_control",
-        "settings": ["meetio_sidebar_disclosure", "!meetio_arrow_folder"],
+        "settings": ["meetio_sidebar_disclosure"],
         "content_margin": [8, 8],
         "layer0.opacity": 1.0
     },
@@ -66,21 +66,6 @@
         "layer0.opacity": 1,
         "content_margin": [9, 9],
         "settings": ["meetio_icon_folder"]
-    },
-    {
-        "class": "icon_folder",
-        "layer0.texture": "Meetio/assets/default/arrow_folder_closed.png",
-        "layer0.tint": "var(sidebarIconFolderExpandedColor)",
-        "content_margin": [12, 12],
-        "settings": ["meetio_arrow_folder"]
-    },
-    {
-        "class": "icon_folder",
-        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
-        "layer0.texture": "Meetio/assets/default/arrow_folder_open.png",
-        "layer0.tint": "var(sidebarIconFolderExpandedColor)",
-        "content_margin": [12, 12],
-        "settings": ["meetio_arrow_folder"]
     },
     {
         "class": "icon_folder_loading",
