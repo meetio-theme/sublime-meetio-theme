@@ -15,9 +15,9 @@
         "purple": "#c2afff",
         "red": "#d95757",
         "yellow": "#ffcb6b",
-        "invalid": "color(var(red) alpha(0.9))",
+        "invalid": "#ec3a37",
         "diffAdded": "color(var(green) alpha(0.6))",
         "diffModified": "color(var(blue) alpha(0.6))",
-        "diffDeleted": "color(var(red) alpha(0.6))"
+        "diffDeleted": "#ff000f"
     }
 }

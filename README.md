@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="assets/meetio.png" width="520"/>
-</p>
+<div align="center">
+
+# Meetio Theme for Sublime Text 3
 
 [![GitHub tag](https://img.shields.io/github/release/mauroreisvieira/meetio.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/releases)
 ![Build Status](https://img.shields.io/travis/mauroreisvieira/meetio/master.svg?style=for-the-badge)
@@ -8,8 +8,10 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/blob/master/LICENSE)
 
-**Meetio Theme** is the most powerful theme for Sublime Text 3 with different scheme variations only for 3176+ version.\
-You can help improve the theme by reporting issues [here](https://github.com/mauroreisvieira/meetio/issues).
+[![Twitter followers](https://img.shields.io/twitter/follow/mauroreisvieira?style=for-the-badge)](https://twitter.com/mauroreisvieira/)
+[![GitHub followers](https://img.shields.io/github/followers/mauroreisvieira?style=for-the-badge)](https://github.com/mauroreisvieira/)
+
+</div>
 
 ## Installation
 
@@ -72,8 +74,8 @@ This theme provide a visual configuration tool that allow you to configure the t
 
 **Meetio Theme** provides a bunch of variables to improve your experience with theming.
 
--   Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Theme Configuration`.
--   You can also open the settings from the Command Palette by searching `Meetio: Theme Configuration`.
+-   `Sublime Text → Preferences → Packages Settings → Meetio → Theme Configuration`.
+-   Command Palette <kbd>CMD/CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> searching `Meetio: Theme Configuration`.
 
 ```json
 {
@@ -101,8 +103,6 @@ To enjoy a better experience of using the **Meetio Theme** in your Sublime Text,
 }
 ```
 
-The font recommended is **FREE** you can download on: [Fira Code](https://github.com/tonsky/FiraCode)
-
 ## Schemes Palettes
 
 | USAGE         | LIGHT                                                                | DARK                                                                 | DIM                                                                  |
@@ -120,7 +120,7 @@ The font recommended is **FREE** you can download on: [Fira Code](https://github
 | Purple        | ![#7c4dff](https://placehold.it/15/7c4dff/000000?text=%20) `#7c4dff` | ![#c2afff](https://placehold.it/15/c2afff/000000?text=%20) `#c2afff` | ![#a599e9](https://placehold.it/15/a599e9/000000?text=%20) `#a599e9` |
 | Red           | ![#e53935](https://placehold.it/15/e53935/000000?text=%20) `#e53935` | ![#d95757](https://placehold.it/15/d95757/000000?text=%20) `#d95757` | ![#d95757](https://placehold.it/15/d95757/000000?text=%20) `#d95757` |
 | Yellow        | ![#ffb62e](https://placehold.it/15/ffb62e/000000?text=%20) `#ffb62e` | ![#ffcb6b](https://placehold.it/15/ffcb6b/000000?text=%20) `#ffcb6b` | ![#fad000](https://placehold.it/15/fad000/000000?text=%20) `#fad000` |
-| Invalid       |                                                                      |                                                                      |                                                                      |
-| Diff Added    |                                                                      |                                                                      |                                                                      |
-| Diff Modified |                                                                      |                                                                      |                                                                      |
-| Diff Deleted  |                                                                      |                                                                      |                                                                      |
+| Invalid       | ![#ec3a37](https://placehold.it/15/ec3a37/000000?text=%20) `#ec3a37` | ![#ec3a37](https://placehold.it/15/ec3a37/000000?text=%20) `#ec3a37` | ![#ec3a37](https://placehold.it/15/ec3a37/000000?text=%20) `#ec3a37` |
+| Diff Added    | ![#ec3a37](https://placehold.it/15/ec3a37/000000?text=%20) `#ec3a37` | ![#ec3a37](https://placehold.it/15/ec3a37/000000?text=%20) `#ec3a37` | ![#ec3a37](https://placehold.it/15/ec3a37/000000?text=%20) `#ec3a37` |
+| Diff Modified | ![#ec3a37](https://placehold.it/15/ec3a37/000000?text=%20) `#ec3a37` | ![#ec3a37](https://placehold.it/15/ec3a37/000000?text=%20) `#ec3a37` | ![#ec3a37](https://placehold.it/15/ec3a37/000000?text=%20) `#ec3a37` |
+| Diff Deleted  | ![#ff000f](https://placehold.it/15/ff000f/000000?text=%20) `#ff000f` | ![#ff000f](https://placehold.it/15/ff000f/000000?text=%20) `#ff000f` | ![#ff000f](https://placehold.it/15/ff000f/000000?text=%20) `#ff000f` |

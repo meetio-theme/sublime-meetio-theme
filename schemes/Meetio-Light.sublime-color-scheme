@@ -15,10 +15,10 @@
         "purple": "#7c4dff",
         "red": "#e53935",
         "yellow": "#ffb62e",
-        "invalid": "color(var(red) alpha(0.9))",
+        "invalid": "#ec3a37",
         "diffAdded": "color(var(green) alpha(0.6))",
         "diffModified": "color(var(blue) alpha(0.6))",
-        "diffDeleted": "color(var(red) alpha(0.6))"
+        "diffDeleted": "#ff000f"
     },
     "globals": {
         "foreground": "var(foreground)",
