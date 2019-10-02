@@ -1,110 +1,23 @@
-:root {
-    --primary-color: #03f;
-    --accent-color: #0ea;
-}
-
+/* CSS File Example */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
-}
-
-h1, h2, h3 {
-    color: var(--accent-color);
-}
-
-a {
-    color: var(--primary-color);
-}
-
-@media (hover: hover) {
-  a:hover {
-    color: var(--accent-color);
-  }
-}
-.addon-store .pagehead h1 { display: inline-block }
-.addon-store .addon-summary::after { clear: both }
-
-#addon-store .pagehead .electrocat-small {
-    bottom: calc(100% - 20px);
-    position: absolute;
-    right: 0;
-}
-
-.addon-store .addons-nav::after {
-    display: block;
-    content: attr("data-link");
-}
-
-.addon-store .addons-nav a:hover {
-   background-color: red;
-}
-
-.addon-store .addons-nav a.selected {
-    border-bottom-color: #d26911;
-    color: #333;
-    font-weight: bold;
-    padding: 0 0 14px;
-}
-
-.addon-store img {
-    filter: grayscale(100%);
-}
-
-@supports (display: grid) {
-  div {
-    display: grid;
-  }
-}
-
-.addon-store .addon-icon {
-    background: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-    float: left;
-    height: 80px;
-    margin-right: 14px;
-    width: 80px;
-}
-
-.addon-store .developer-callout {
-    background-color: #f1f1f1;
-    background-image: -moz-linear-gradient(#fafafa, #f1f1f1);
-    background-image: -webkit-linear-gradient(#fafafa, #f1f1f1);
-    background-image: linear-gradient(#fafafa, #f1f1f1);
-    background-repeat: repeat-x;
-    border: 1px solid #ddd;
-    border-bottom: 1px solid #ccc;
-    border-radius: 3px;
-    box-shadow: inset 0 1px 0 #fff, 0 1px 5px #f1f1f1;
-    margin-top: 40px;
-    text-shadow: 0 1px 0 #fff;
-}
-
-.addon-field-editor .addon-field-list, .addon-field-editor .addon-new-field {
-    border-radius: 3px;
-    box-sizing: border-box !important;
-    display: inline-block;
-    text-align: center;
-    width: 595px;
-}
-
-.textfield ~ label:first-child,
-.textfield ~ label:last-child,
-.textfield ~ label:nth-child(4) {
-    text-transform: uppercase;
-}
-
-.textfield ~ input[type="text"],
-.textfield ~ input[type="text"] + label {
-    color: var(--accent-color);
-}
-
-@keyframes mymove {
-    from {top: 0px;}
-    to {top: 200px;}
+    margin: 25px;
+    background-color: rgb(240,240,240);
+    font-family: arial, sans-serif;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    background-color: blue;
-  }
+    body {
+        background-color: blue;
+    }
 }
+
+h1 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.someclass { color: red; }
+
+#someid { color: green; }

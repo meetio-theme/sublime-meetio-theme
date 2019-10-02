@@ -1,20 +1,24 @@
 {
-    "name": "Meetio-Lighter",
+    "name": "Meetio-Dim",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
-        "caret": "#ffcc00",
-        "foreground": "#546171",
-        "background": "#fafafa",
-        "comments": "#90a4ae",
-        "blue": "#6182b8",
+        "caret": "#7e57c2",
+        "foreground": "#eeffff",
+        "background": "#2d2b55",
+        "comments": "#697098",
+        "blue": "#82aaff",
         "brown": "#c17e70",
-        "cyan": "#5fb3b3",
-        "green": "#91b859",
-        "orange": "#f76d47",
-        "pink": "#ff5370",
-        "purple": "#7c4dff",
-        "red": "#e53935",
-        "yellow": "#ffb62e"
+        "cyan": "#9effff",
+        "green": "#a5ff90",
+        "orange": "#ff7200",
+        "pink": "#ff628c",
+        "purple": "#a599e9",
+        "red": "#d95757",
+        "yellow": "#fad000",
+        "invalid": "color(var(red) alpha(0.9))",
+        "diffAdded": "color(var(green) alpha(0.6))",
+        "diffModified": "color(var(blue) alpha(0.6))",
+        "diffDeleted": "color(var(red) alpha(0.6))"
     },
     "globals": {
         "foreground": "var(foreground)",
@@ -41,13 +45,243 @@
         "bracket_contents_options": "underline",
         "bracket_contents_foreground": "var(cyan)",
         "line_diff_width": "3",
-        "line_diff_added": "color(var(green) alpha(0.6))",
-        "line_diff_modified": "color(var(blue) alpha(0.6))",
-        "line_diff_deleted": "color(var(red) alpha(0.6))",
+        "line_diff_added": "var(diffAdded)",
+        "line_diff_modified": "var(diffModified)",
+        "line_diff_deleted": "var(diffDeleted)",
         "tags_options": "stippled_underline",
         "tags_foreground": "var(pink)"
     },
     "rules": [
+        {
+            "foreground": "#EEEEEEFF",
+            "background": "#7E57C2FF",
+            "scope": "col_7E57C2FF"
+        },
+        {
+            "foreground": "#3C3C3CFF",
+            "background": "#FFB62EFF",
+            "scope": "col_FFB62EFF"
+        },
+        {
+            "foreground": "#1F1F1FFF",
+            "background": "#90A4AEFF",
+            "scope": "col_90A4AEFF"
+        },
+        {
+            "foreground": "#090909FF",
+            "background": "#FF5370FF",
+            "scope": "col_FF5370FF"
+        },
+        {
+            "foreground": "#7A7A7AFF",
+            "background": "#FAFAFAFF",
+            "scope": "col_FAFAFAFF"
+        },
+        {
+            "foreground": "#EFEFEFFF",
+            "background": "#7C4DFFFF",
+            "scope": "col_7C4DFFFF"
+        },
+        {
+            "foreground": "#212121FF",
+            "background": "#91B859FF",
+            "scope": "col_91B859FF"
+        },
+        {
+            "foreground": "#EBEBEBFF",
+            "background": "#E53935FF",
+            "scope": "col_E53935FF"
+        },
+        {
+            "foreground": "#FEFEFEFF",
+            "background": "#6182B8FF",
+            "scope": "col_6182B8FF"
+        },
+        {
+            "foreground": "#DEDEDEFF",
+            "background": "#546171FF",
+            "scope": "col_546171FF"
+        },
+        {
+            "foreground": "#111111FF",
+            "background": "#F76D47FF",
+            "scope": "col_F76D47FF"
+        },
+        {
+            "foreground": "#191919FF",
+            "background": "#5FB3B3FF",
+            "scope": "col_5FB3B3FF"
+        },
+        {
+            "foreground": "#ADADADFF",
+            "background": "#292D3EFF",
+            "scope": "col_292D3EFF"
+        },
+        {
+            "foreground": "#525252FF",
+            "background": "#C3E88DFF",
+            "scope": "col_C3E88DFF"
+        },
+        {
+            "foreground": "#797979FF",
+            "background": "#EEFFFFFF",
+            "scope": "col_EEFFFFFF"
+        },
+        {
+            "foreground": "#F2F2F2FF",
+            "background": "#697098FF",
+            "scope": "col_697098FF"
+        },
+        {
+            "foreground": "#282828FF",
+            "background": "#F78C6CFF",
+            "scope": "col_F78C6CFF"
+        },
+        {
+            "foreground": "#272727FF",
+            "background": "#82AAFFFF",
+            "scope": "col_82AAFFFF"
+        },
+        {
+            "foreground": "#101010FF",
+            "background": "#C17E70FF",
+            "scope": "col_C17E70FF"
+        },
+        {
+            "foreground": "#474747FF",
+            "background": "#89DDFFFF",
+            "scope": "col_89DDFFFF"
+        },
+        {
+            "foreground": "#FDFDFDFF",
+            "background": "#D95757FF",
+            "scope": "col_D95757FF"
+        },
+        {
+            "foreground": "#434343FF",
+            "background": "#FFCC00FF",
+            "scope": "col_FFCC00FF"
+        },
+        {
+            "foreground": "#4F4F4FFF",
+            "background": "#FFCB6BFF",
+            "scope": "col_FFCB6BFF"
+        },
+        {
+            "foreground": "#171717FF",
+            "background": "#F07178FF",
+            "scope": "col_F07178FF"
+        },
+        {
+            "foreground": "#3D3D3DFF",
+            "background": "#C2AFFFFF",
+            "scope": "col_C2AFFFFF"
+        },
+        {
+            "foreground": "#101010FF",
+            "background": "#3AD900FF",
+            "scope": "col_3AD900FF"
+        },
+        {
+            "foreground": "#C7C7C7FF",
+            "background": "#4D21FCFF",
+            "scope": "col_4D21FCFF"
+        },
+        {
+            "foreground": "#A1A1A1FF",
+            "background": "#1E1E3FFF",
+            "scope": "col_1E1E3FFF"
+        },
+        {
+            "foreground": "#AFAFAFFF",
+            "background": "#2C2A54FF",
+            "scope": "col_2C2A54FF"
+        },
+        {
+            "foreground": "#696969FF",
+            "background": "#FAEFA5FF",
+            "scope": "col_FAEFA5FF"
+        },
+        {
+            "foreground": "#252525FF",
+            "background": "#A599E9FF",
+            "scope": "col_A599E9FF"
+        },
+        {
+            "foreground": "#444444FF",
+            "background": "#FAD000FF",
+            "scope": "col_FAD000FF"
+        },
+        {
+            "foreground": "#0C0C0CFF",
+            "background": "#B362FFFF",
+            "scope": "col_B362FFFF"
+        },
+        {
+            "foreground": "#151515FF",
+            "background": "#FF628CFF",
+            "scope": "col_FF628CFF"
+        },
+        {
+            "foreground": "#575757FF",
+            "background": "#A5FF90FF",
+            "scope": "col_A5FF90FF"
+        },
+        {
+            "foreground": "#666666FF",
+            "background": "#FFEE80FF",
+            "scope": "col_FFEE80FF"
+        },
+        {
+            "foreground": "#282828FF",
+            "background": "#FF9D00FF",
+            "scope": "col_FF9D00FF"
+        },
+        {
+            "foreground": "#BFBFBFFF",
+            "background": "#FF000D81",
+            "scope": "col_FF000D81"
+        },
+        {
+            "foreground": "#EDEDEDFF",
+            "background": "#00FF009A",
+            "scope": "col_00FF009A"
+        },
+        {
+            "foreground": "#0F0F0FFF",
+            "background": "#FF7200FF",
+            "scope": "col_FF7200FF"
+        },
+        {
+            "foreground": "#ECECECFF",
+            "background": "#EC3A37F5",
+            "scope": "col_EC3A37F5"
+        },
+        {
+            "foreground": "#616161FF",
+            "background": "#9EFFFFFF",
+            "scope": "col_9EFFFFFF"
+        },
+        {
+            "foreground": "#3E3E3EFF",
+            "background": "#FB94FFFF",
+            "scope": "col_FB94FFFF"
+        },
+        {
+            "foreground": "#ffffff",
+            "background": "#000000",
+            "scope": "col_gutter"
+        },
+        {
+            "foreground": "#FBFBFBFF",
+            "background": "#6772E4FF",
+            "scope": "col_6772E4FF"
+        },
+        {
+            "foreground": "#7F7F7FFF",
+            "background": "#FFFFFFFF",
+            "scope": "col_FFFFFFFF"
+        },
         {
             "name": "[CSS] String",
             "scope": "source.css string",
@@ -337,6 +571,56 @@
             "foreground": "var(red)"
         },
         {
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Punctuation Section",
+            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation String",
+            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Mapping Level 1",
+            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Mapping Level 2",
+            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(brown)"
+        },
+        {
             "name": "[Markdown] Deleted",
             "scope": "markup.deleted",
             "foreground": "var(red)"
@@ -426,56 +710,6 @@
             "font_style": "italic"
         },
         {
-            "name": "[JSON] Key ",
-            "scope": "meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Value",
-            "scope": "meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JSON] Constant",
-            "scope": "constant.language.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Character Escape",
-            "scope": "constant.character.escape.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Constant Numeric",
-            "scope": "constant.numeric.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Punctuation Section",
-            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation Mapping",
-            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation String",
-            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Mapping Level 1",
-            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Mapping Level 2",
-            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(brown)"
-        },
-        {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "var(comments)",
@@ -556,7 +790,7 @@
             "name": "Invalid",
             "scope": "invalid",
             "foreground": "#fff",
-            "background": "color(var(red) alpha(0.9))"
+            "background": "var(invalid)"
         },
         {
             "name": "Deprecated",

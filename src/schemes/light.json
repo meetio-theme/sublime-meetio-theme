@@ -1,5 +1,5 @@
 {
-    "name": "Meetio-Lighter",
+    "name": "Meetio-Light",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
         "caret": "#ffcc00",
@@ -14,6 +14,10 @@
         "pink": "#ff5370",
         "purple": "#7c4dff",
         "red": "#e53935",
-        "yellow": "#ffb62e"
+        "yellow": "#ffb62e",
+        "invalid": "color(var(red) alpha(0.9))",
+        "diffAdded": "color(var(green) alpha(0.6))",
+        "diffModified": "color(var(blue) alpha(0.6))",
+        "diffDeleted": "color(var(red) alpha(0.6))"
     }
 }

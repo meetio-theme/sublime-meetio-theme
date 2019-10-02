@@ -1,133 +1,102 @@
-# Welcome to StackEdit!
+[![GitHub tag](https://img.shields.io/github/release/mauroreisvieira/meetio.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/releases)
+![Build Status](https://img.shields.io/travis/mauroreisvieira/meetio/master.svg?style=for-the-badge)
+[![GitHub issues](https://img.shields.io/github/issues/mauroreisvieira/meetio.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/issues)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/blob/master/LICENSE)
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+**Meetio Theme** is the most powerful theme for Sublime Text 3 with different scheme variations only for 3176+ version.\
+You can help improve the theme by reporting issues [here](https://github.com/mauroreisvieira/meetio/issues).
 
-# Files
+ - [Installation](#installation)
+ - [Activate Theme](#activate-theme)
+ - [Theme Settings](#theme-settings)
+ - [Override Theme Variables](#override-theme-variables)
+ - [Recommended Settings](#recommended-settings)
+ - [Theme Inspired](#theme-inspired)
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+## Installation
 
-## Create files and folders
+**Package Control:**
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+1. Open `Command Palette` using menu item `Tools → Command Palette` or <kbd>CMD/CTRL</kbd> + <kbd>SHIFT</kbd> +<kbd>P</kbd>.
+2. Choose `Package Control: Install Package`.
+3. Type `Meetio` and press <kbd>ENTER</kbd>.
 
-## Switch to another file
+**Manually:**
 
-All your files are listed in the file explorer. You can switch from one to another by clicking a file in the list.
+1. Download latest release and unzip. it into your Packages folder.
+2. Go to `Sublime Text → Preferences → Browse Packages`.
+3. Move folder to inside and rename the folder to `Meetio`.
 
-## Rename a file
+## Activate Theme
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+**You can active this theme from:**
 
-## Delete a file
+1. Command Palette `Tools → Command Palette` or <kbd>CMD/CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd>.
+2. Typing `UI: Select Theme` next find for `Meetio` and press <kbd>ENTER</kbd>.
+3. Same process for scheme go to the Command Palette.
+4. Typing `UI: Select Color Scheme` choose you favorite scheme and press <kbd>ENTER</kbd>.
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+Manually you can go to (**Preferences > Settings - User**) and paste the following code:
 
-## Export a file
-
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
-
-# Synchronization
-
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
-
-There are two types of synchronization and they can complement each other:
-
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-
-  > To start syncing your workspace, just sign in with Google in the menu.
-
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-  > Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
-
-## Open a file
-
-You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
-
-## Save a file
-
-You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
-
-## Synchronize a file
-
-Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
-
-If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
-
-> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
-
-## Manage file synchronization
-
-Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
-
-# Publication
-
-Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
-
-> Before starting to publish, you must link an account in the **Publish** sub-menu.
-
-## Publish a File
-
-You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
-
-- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
-
-## Update a publication
-
-After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
-
-> **Note:** The **Publish now** button is disabled if your file has not been published yet.
-
-## Manage file publication
-
-Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
-
-# Markdown extensions
-
-StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
-
-> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
-
-## SmartyPants
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
-|                  | ASCII                           | HTML                          |
-| ---------------- | ------------------------------- | ----------------------------- |
-| Single backticks | `'Isn't this fun?'`             | 'Isn't this fun?'             |
-| Quotes           | `"Isn't this fun?"`             | "Isn't this fun?"             |
-| Dashes           | `-- is en-dash, --- is em-dash` | -- is en-dash, --- is em-dash |
-
-## KaTeX
-
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
-
-The _Gamma function_ satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
+```json
+{
+  "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
+  "theme": "Meetio.sublime-theme"
+}
 ```
 
-And this will produce a flow chart:
+## Theme Settings
+This theme provide a visual configuration tool that allow you to configure the theme by activating the available options from an inline popup.
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
+* Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Edit Settings`.
+* You can also open the settings from the Command Palette by searching `Meetio: Edit Settings`.
+
+```js
+{
+  // Tabs
+  "meetio_tabs_diff_icon": true, // show icon diff in tab
+  "meetio_tabs_diff_pencil_icon": false, // show diff pencil icon in tab
+
+  // Sidebar
+  "meetio_icon_folder": false, // replace colorful folder to a flat icon folder
+  "meetio_sidebar_disclosure": false, // set disclosure tree controls
+
+  // Panels
+  "meetio_input_search_icon": true, // show icon search in inputs
+
+  // Status bar
+  "meetio_status_badges": true, // show vcs status badges in the status bar
+}
+```
+
+## Override Theme Variables
+**Meetio Theme** provides a bunch of variables to improve your experience with theming.
+
+* Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Theme Configuration`.
+* You can also open the settings from the Command Palette by searching `Meetio: Theme Configuration`.
+
+```json
+{
+  "variables": {
+    "colorAccent": "#6772e4",
+    "statusbarBackground": "var(colorAccent)",
+    "statusbarLabelColor": "#fff"
+  }
+}
+```
+
+## Recommended Settings
+To enjoy a better experience of using the **Meetio Theme** in your Sublime Text, please check the following settings.
+
+```js
+{
+    "font_face": "Fira Code",
+    "highlight_line": true,
+    "font_options": ["gray_antialias", "subpixel_antialias"], // On retina Mac & Windows
+    "indent_guide_options": ["draw_normal", "draw_active"], // Highlight active indent
+    "margin": 20,
+    "line_padding_bottom": 7,
+    "line_padding_top": 7
+}
 ```

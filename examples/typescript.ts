@@ -1,3 +1,7 @@
+/**
+ * 1. Install "TypeScript" and "TypeScript Syntax" extension for syntax support
+ * 2. Set Syntax: TypeScript
+ */
 export default class Animal {
     private name : String;
     private age : Number;
@@ -24,13 +28,6 @@ export default class Animal {
     }
 }
 
-class Snake extends Animal {
-    public move(): void {
-        console.log("Slithering...");
-        super.move(5);
-    }
-}
-
 class Horse extends Animal {
     public move(): void {
         console.log("Galloping...");
@@ -38,19 +35,5 @@ class Horse extends Animal {
     }
 }
 
-interface Pizza {
-  name: string;
-  toppings: string[];
-}
-
-class PizzaMaker {
-  static create(event: Pizza) {
-    return { name: event.name, toppings: event.toppings };
-  }
-}
-
-const sam = new Snake("Sammy the Python", 20);
 const tom: Animal = new Horse("Tommy the Palomino", 10);
-
-sam.move()
 tom.move(34)

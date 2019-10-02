@@ -23,9 +23,9 @@
     "bracket_contents_options"    : "underline",
     "bracket_contents_foreground" : "var(cyan)",
     "line_diff_width"             : "3",
-    "line_diff_added"             : "color(var(green) alpha(0.6))",
-    "line_diff_modified"          : "color(var(blue) alpha(0.6))",
-    "line_diff_deleted"           : "color(var(red) alpha(0.6))",
+    "line_diff_added"             : "var(diffAdded)",
+    "line_diff_modified"          : "var(diffModified)",
+    "line_diff_deleted"           : "var(diffDeleted)",
     "tags_options"                : "stippled_underline",
     "tags_foreground"             : "var(pink)"
 }

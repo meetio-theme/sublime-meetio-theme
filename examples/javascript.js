@@ -40,10 +40,7 @@ class CustomError extends Error {
         this.date = this.getDate();
     }
 
-    getDate(date) {
-        if (date) {
-            return new Date(date);
-        }
+    getDate() {
         return new Date();
     }
 }
@@ -66,13 +63,7 @@ try {
         })
     });
 
-    for (let i = 0; i < document.querySelectorAll('[button]').length; i++) {
-        console.log('Button', i);
-    }
-
 } catch(e) {
-    console.warn(e.foo);
-    console.warn(e.message);
-    console.warn(e.stack);
+    console.warn(e);
     throw new CustomError('baz', 'bazMessage');
 }

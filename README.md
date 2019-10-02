@@ -11,13 +11,6 @@
 **Meetio Theme** is the most powerful theme for Sublime Text 3 with different scheme variations only for 3176+ version.\
 You can help improve the theme by reporting issues [here](https://github.com/mauroreisvieira/meetio/issues).
 
- - [Installation](#installation)
- - [Activate Theme](#activate-theme)
- - [Theme Settings](#theme-settings)
- - [Override Theme Variables](#override-theme-variables)
- - [Recommended Settings](#recommended-settings)
- - [Theme Inspired](#theme-inspired)
-
 ## Installation
 
 **Package Control:**
@@ -45,16 +38,17 @@ Manually you can go to (**Preferences > Settings - User**) and paste the followi
 
 ```json
 {
-  "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
-  "theme": "Meetio.sublime-theme"
+    "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
+    "theme": "Meetio.sublime-theme"
 }
 ```
 
 ## Theme Settings
+
 This theme provide a visual configuration tool that allow you to configure the theme by activating the available options from an inline popup.
 
-* Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Edit Settings`.
-* You can also open the settings from the Command Palette by searching `Meetio: Edit Settings`.
+-   Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Edit Settings`.
+-   You can also open the settings from the Command Palette by searching `Meetio: Edit Settings`.
 
 ```js
 {
@@ -75,22 +69,24 @@ This theme provide a visual configuration tool that allow you to configure the t
 ```
 
 ## Override Theme Variables
+
 **Meetio Theme** provides a bunch of variables to improve your experience with theming.
 
-* Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Theme Configuration`.
-* You can also open the settings from the Command Palette by searching `Meetio: Theme Configuration`.
+-   Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Theme Configuration`.
+-   You can also open the settings from the Command Palette by searching `Meetio: Theme Configuration`.
 
 ```json
 {
-  "variables": {
-    "colorAccent": "#6772e4",
-    "statusbarBackground": "var(colorAccent)",
-    "statusbarLabelColor": "#fff"
-  }
+    "variables": {
+        "colorAccent": "#6772e4",
+        "statusbarBackground": "var(colorAccent)",
+        "statusbarLabelColor": "#fff"
+    }
 }
 ```
 
 ## Recommended Settings
+
 To enjoy a better experience of using the **Meetio Theme** in your Sublime Text, please check the following settings.
 
 ```js
@@ -107,11 +103,24 @@ To enjoy a better experience of using the **Meetio Theme** in your Sublime Text,
 
 The font recommended is **FREE** you can download on: [Fira Code](https://github.com/tonsky/FiraCode)
 
-## Theme Inspired
-A special thanks to the following people who developed great projects, in which I inspired me to develop **Meetio Theme**.
+## Schemes Palettes
 
-* [Material Theme](https://github.com/equinusocio/material-theme) theme created by [@equinusocio](https://github.com/equinusocio).
-* [cobalt2](https://github.com/wesbos/cobalt2) theme created by [@wesbos](https://github.com/wesbos).
-* [DA UI](https://github.com/ihodev/sublime-da-ui) theme created by [@ihodev](https://github.com/ihodev).
-* Icon resource from [Material Design](https://material.io/tools/icons/).
-* Color resource from [Material Design](https://material.io/design/color/the-color-system.html#tools-for-picking-colors).
+| USAGE         | LIGHT                                                                | DARK                                                                 | DIM                                                                  |
+| ------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Caret         | ![#ffcc00](https://placehold.it/15/ffcc00/000000?text=%20) `#ffcc00` | ![#ffcc00](https://placehold.it/15/ffcc00/000000?text=%20) `#ffcc00` | ![#7e57c2](https://placehold.it/15/7e57c2/000000?text=%20) `#7e57c2` |
+| Foreground    | ![#546171](https://placehold.it/15/546171/000000?text=%20) `#546171` | ![#eeffff](https://placehold.it/15/eeffff/000000?text=%20) `#eeffff` | ![#eeffff](https://placehold.it/15/eeffff/000000?text=%20) `#eeffff` |
+| Background    | ![#fafafa](https://placehold.it/15/fafafa/000000?text=%20) `#fafafa` | ![#292d3e](https://placehold.it/15/292d3e/000000?text=%20) `#292d3e` | ![#2d2b55](https://placehold.it/15/2d2b55/000000?text=%20) `#2d2b55` |
+| Comments      | ![#90a4ae](https://placehold.it/15/90a4ae/000000?text=%20) `#90a4ae` | ![#697098](https://placehold.it/15/697098/000000?text=%20) `#697098` | ![#697098](https://placehold.it/15/697098/000000?text=%20) `#697098` |
+| Blue          | ![#6182b8](https://placehold.it/15/6182b8/000000?text=%20) `#6182b8` | ![#82aaff](https://placehold.it/15/82aaff/000000?text=%20) `#82aaff` | ![#82aaff](https://placehold.it/15/82aaff/000000?text=%20) `#82aaff` |
+| Brown         | ![#c17e70](https://placehold.it/15/c17e70/000000?text=%20) `#c17e70` | ![#c17e70](https://placehold.it/15/c17e70/000000?text=%20) `#c17e70` | ![#c17e70](https://placehold.it/15/c17e70/000000?text=%20) `#c17e70` |
+| Cyan          | ![#5fb3b3](https://placehold.it/15/5fb3b3/000000?text=%20) `#5fb3b3` | ![#89ddff](https://placehold.it/15/89ddff/000000?text=%20) `#89ddff` | ![#9effff](https://placehold.it/15/9effff/000000?text=%20) `#9effff` |
+| Green         | ![#91b859](https://placehold.it/15/91b859/000000?text=%20) `#91b859` | ![#C3E88D](https://placehold.it/15/C3E88D/000000?text=%20) `#C3E88D` | ![#a5ff90](https://placehold.it/15/a5ff90/000000?text=%20) `#a5ff90` |
+| Orange        | ![#f76d47](https://placehold.it/15/f76d47/000000?text=%20) `#f76d47` | ![#f78c6c](https://placehold.it/15/f78c6c/000000?text=%20) `#f78c6c` | ![#ff7200](https://placehold.it/15/ff7200/000000?text=%20) `#ff7200` |
+| Pink          | ![#ff5370](https://placehold.it/15/ff5370/000000?text=%20) `#ff5370` | ![#f07178](https://placehold.it/15/f07178/000000?text=%20) `#f07178` | ![#ff628c](https://placehold.it/15/ff628c/000000?text=%20) `#ff628c` |
+| Purple        | ![#7c4dff](https://placehold.it/15/7c4dff/000000?text=%20) `#7c4dff` | ![#c2afff](https://placehold.it/15/c2afff/000000?text=%20) `#c2afff` | ![#a599e9](https://placehold.it/15/a599e9/000000?text=%20) `#a599e9` |
+| Red           | ![#e53935](https://placehold.it/15/e53935/000000?text=%20) `#e53935` | ![#d95757](https://placehold.it/15/d95757/000000?text=%20) `#d95757` | ![#d95757](https://placehold.it/15/d95757/000000?text=%20) `#d95757` |
+| Yellow        | ![#ffb62e](https://placehold.it/15/ffb62e/000000?text=%20) `#ffb62e` | ![#ffcb6b](https://placehold.it/15/ffcb6b/000000?text=%20) `#ffcb6b` | ![#fad000](https://placehold.it/15/fad000/000000?text=%20) `#fad000` |
+| Invalid       |                                                                      |                                                                      |                                                                      |
+| Diff Added    |                                                                      |                                                                      |                                                                      |
+| Diff Modified |                                                                      |                                                                      |                                                                      |
+| Diff Deleted  |                                                                      |                                                                      |                                                                      |

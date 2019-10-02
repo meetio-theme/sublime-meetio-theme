@@ -80,7 +80,7 @@
         "name": "Invalid",
         "scope": "invalid",
         "foreground": "#fff",
-        "background": "color(var(red) alpha(0.9))"
+        "background": "var(invalid)"
     },
     {
         "name": "Deprecated",

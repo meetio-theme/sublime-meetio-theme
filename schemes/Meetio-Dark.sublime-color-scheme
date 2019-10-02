@@ -1,20 +1,24 @@
 {
-    "name": "Meetio",
+    "name": "Meetio-Dark",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
         "caret": "#ffcc00",
         "foreground": "#eeffff",
-        "background": "#263238",
-        "comments": "#9294a3",
+        "background": "#292d3e",
+        "comments": "#697098",
         "blue": "#82aaff",
         "brown": "#c17e70",
-        "cyan": "#65ddd9",
-        "green": "#c3e88d",
-        "orange": "#ff8d58",
+        "cyan": "#89ddff",
+        "green": "#C3E88D",
+        "orange": "#f78c6c",
         "pink": "#f07178",
-        "purple": "#b9a7ff",
-        "red": "#ff767b",
-        "yellow": "#ffc312"
+        "purple": "#c2afff",
+        "red": "#d95757",
+        "yellow": "#ffcb6b",
+        "invalid": "color(var(red) alpha(0.9))",
+        "diffAdded": "color(var(green) alpha(0.6))",
+        "diffModified": "color(var(blue) alpha(0.6))",
+        "diffDeleted": "color(var(red) alpha(0.6))"
     },
     "globals": {
         "foreground": "var(foreground)",
@@ -41,9 +45,9 @@
         "bracket_contents_options": "underline",
         "bracket_contents_foreground": "var(cyan)",
         "line_diff_width": "3",
-        "line_diff_added": "color(var(green) alpha(0.6))",
-        "line_diff_modified": "color(var(blue) alpha(0.6))",
-        "line_diff_deleted": "color(var(red) alpha(0.6))",
+        "line_diff_added": "var(diffAdded)",
+        "line_diff_modified": "var(diffModified)",
+        "line_diff_deleted": "var(diffDeleted)",
         "tags_options": "stippled_underline",
         "tags_foreground": "var(pink)"
     },
@@ -337,6 +341,56 @@
             "foreground": "var(red)"
         },
         {
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Punctuation Section",
+            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation String",
+            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Mapping Level 1",
+            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Mapping Level 2",
+            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(brown)"
+        },
+        {
             "name": "[Markdown] Deleted",
             "scope": "markup.deleted",
             "foreground": "var(red)"
@@ -426,56 +480,6 @@
             "font_style": "italic"
         },
         {
-            "name": "[JSON] Key ",
-            "scope": "meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Value",
-            "scope": "meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JSON] Constant",
-            "scope": "constant.language.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Character Escape",
-            "scope": "constant.character.escape.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Constant Numeric",
-            "scope": "constant.numeric.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Punctuation Section",
-            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation Mapping",
-            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation String",
-            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Mapping Level 1",
-            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Mapping Level 2",
-            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(brown)"
-        },
-        {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "var(comments)",
@@ -556,7 +560,7 @@
             "name": "Invalid",
             "scope": "invalid",
             "foreground": "#fff",
-            "background": "color(var(red) alpha(0.9))"
+            "background": "var(invalid)"
         },
         {
             "name": "Deprecated",
