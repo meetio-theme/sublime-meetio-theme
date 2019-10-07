@@ -1,7 +1,7 @@
 {
     "extends": "Meetio.json",
     "variables": {
-        "colorAccent": "#4A7C8A",
+        "colorAccent": "#5f7e97",
         "colorDark": "#455A64",
         "fontSizeSm": 11,
         "fontSizeMd": 12,
