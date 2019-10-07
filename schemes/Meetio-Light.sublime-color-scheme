@@ -3,7 +3,7 @@
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
         "caret": "#ffcc00",
-        "foreground": "#403f53",
+        "foreground": "#455A64",
         "background": "#fbfbfb",
         "comments": "#90a4ae",
         "blue": "#6182b8",
@@ -53,39 +53,9 @@
     },
     "rules": [
         {
-            "scope": "col_F07178FF",
-            "background": "#F07178FF",
-            "foreground": "#171717FF"
-        },
-        {
-            "scope": "col_6772E4FF",
-            "background": "#6772E4FF",
-            "foreground": "#FBFBFBFF"
-        },
-        {
-            "scope": "col_FFFFFFFF",
-            "background": "#FFFFFFFF",
-            "foreground": "#7F7F7FFF"
-        },
-        {
-            "scope": "col_FFCB6BFF",
-            "background": "#FFCB6BFF",
-            "foreground": "#4F4F4FFF"
-        },
-        {
-            "scope": "col_697098FF",
-            "background": "#697098FF",
-            "foreground": "#F2F2F2FF"
-        },
-        {
-            "scope": "col_81C5DAFF",
-            "background": "#81C5DAFF",
-            "foreground": "#333333FF"
-        },
-        {
-            "scope": "col_403F53FF",
-            "background": "#403F53FF",
-            "foreground": "#C1C1C1FF"
+            "scope": "col_gutter",
+            "background": "#000000",
+            "foreground": "#ffffff"
         },
         {
             "scope": "col_7C4DFFFF",
@@ -93,9 +63,34 @@
             "foreground": "#EFEFEFFF"
         },
         {
-            "scope": "col_E53935FF",
-            "background": "#E53935FF",
-            "foreground": "#EBEBEBFF"
+            "scope": "col_FFFFFFFF",
+            "background": "#FFFFFFFF",
+            "foreground": "#7F7F7FFF"
+        },
+        {
+            "scope": "col_455A64FF",
+            "background": "#455A64FF",
+            "foreground": "#D4D4D4FF"
+        },
+        {
+            "scope": "col_6772E4FF",
+            "background": "#6772E4FF",
+            "foreground": "#FBFBFBFF"
+        },
+        {
+            "scope": "col_EF5350FF",
+            "background": "#EF5350FF",
+            "foreground": "#010101FF"
+        },
+        {
+            "scope": "col_C17E70FF",
+            "background": "#C17E70FF",
+            "foreground": "#101010FF"
+        },
+        {
+            "scope": "col_F07178FF",
+            "background": "#F07178FF",
+            "foreground": "#171717FF"
         },
         {
             "scope": "col_90A4AEFF",
@@ -108,14 +103,39 @@
             "foreground": "#313131FF"
         },
         {
+            "scope": "col_82AAFFFF",
+            "background": "#82AAFFFF",
+            "foreground": "#272727FF"
+        },
+        {
+            "scope": "col_FFCB6BFF",
+            "background": "#FFCB6BFF",
+            "foreground": "#4F4F4FFF"
+        },
+        {
             "scope": "col_FFCC00FF",
             "background": "#FFCC00FF",
             "foreground": "#434343FF"
         },
         {
-            "scope": "col_F76D47FF",
-            "background": "#F76D47FF",
-            "foreground": "#111111FF"
+            "scope": "col_8E95B4FF",
+            "background": "#8E95B4FF",
+            "foreground": "#161616FF"
+        },
+        {
+            "scope": "col_697098FF",
+            "background": "#697098FF",
+            "foreground": "#F2F2F2FF"
+        },
+        {
+            "scope": "col_E53935FF",
+            "background": "#E53935FF",
+            "foreground": "#EBEBEBFF"
+        },
+        {
+            "scope": "col_E2B93DFF",
+            "background": "#E2B93DFF",
+            "foreground": "#373737FF"
         },
         {
             "scope": "col_5FB3B3FF",
@@ -123,14 +143,29 @@
             "foreground": "#191919FF"
         },
         {
-            "scope": "col_FF5370FF",
-            "background": "#FF5370FF",
-            "foreground": "#090909FF"
+            "scope": "col_F76D47FF",
+            "background": "#F76D47FF",
+            "foreground": "#111111FF"
+        },
+        {
+            "scope": "col_011627FF",
+            "background": "#011627FF",
+            "foreground": "#919191FF"
         },
         {
             "scope": "col_FFB62EFF",
             "background": "#FFB62EFF",
             "foreground": "#3C3C3CFF"
+        },
+        {
+            "scope": "col_D46C6CFF",
+            "background": "#D46C6CFF",
+            "foreground": "#0B0B0BFF"
+        },
+        {
+            "scope": "col_C2AFFFFF",
+            "background": "#C2AFFFFF",
+            "foreground": "#3D3D3DFF"
         },
         {
             "scope": "col_6182B8FF",
@@ -143,79 +178,14 @@
             "foreground": "#ECECECFF"
         },
         {
-            "scope": "col_FAFAFAFF",
-            "background": "#FAFAFAFF",
-            "foreground": "#7A7A7AFF"
-        },
-        {
-            "scope": "col_91B859FF",
-            "background": "#91B859FF",
-            "foreground": "#212121FF"
-        },
-        {
-            "scope": "col_gutter",
-            "background": "#000000",
-            "foreground": "#ffffff"
-        },
-        {
-            "scope": "col_E2B93DFF",
-            "background": "#E2B93DFF",
-            "foreground": "#373737FF"
-        },
-        {
-            "scope": "col_EF5350FF",
-            "background": "#EF5350FF",
-            "foreground": "#010101FF"
-        },
-        {
-            "scope": "col_ADDB67FF",
-            "background": "#ADDB67FF",
-            "foreground": "#404040FF"
-        },
-        {
-            "scope": "col_82AAFFFF",
-            "background": "#82AAFFFF",
-            "foreground": "#272727FF"
-        },
-        {
-            "scope": "col_8E95B4FF",
-            "background": "#8E95B4FF",
-            "foreground": "#161616FF"
-        },
-        {
-            "scope": "col_011627FF",
-            "background": "#011627FF",
-            "foreground": "#919191FF"
-        },
-        {
-            "scope": "col_FF5874FF",
-            "background": "#FF5874FF",
-            "foreground": "#0D0D0DFF"
-        },
-        {
-            "scope": "col_C17E70FF",
-            "background": "#C17E70FF",
-            "foreground": "#101010FF"
-        },
-        {
-            "scope": "col_C2AFFFFF",
-            "background": "#C2AFFFFF",
-            "foreground": "#3D3D3DFF"
-        },
-        {
-            "scope": "col_D46C6CFF",
-            "background": "#D46C6CFF",
-            "foreground": "#0B0B0BFF"
+            "scope": "col_FF5370FF",
+            "background": "#FF5370FF",
+            "foreground": "#090909FF"
         },
         {
             "scope": "col_7E57C2FF",
             "background": "#7E57C2FF",
             "foreground": "#EEEEEEFF"
-        },
-        {
-            "scope": "col_F78C6CFF",
-            "background": "#F78C6CFF",
-            "foreground": "#282828FF"
         },
         {
             "scope": "col_C3E88DFF",
@@ -228,19 +198,24 @@
             "foreground": "#FDFDFDFF"
         },
         {
-            "scope": "col_7FDBCAFF",
-            "background": "#7FDBCAFF",
-            "foreground": "#3D3D3DFF"
+            "scope": "col_F78C6CFF",
+            "background": "#F78C6CFF",
+            "foreground": "#282828FF"
         },
         {
-            "scope": "col_FFCB8BFF",
-            "background": "#FFCB8BFF",
-            "foreground": "#535353FF"
+            "scope": "col_81C5DAFF",
+            "background": "#81C5DAFF",
+            "foreground": "#333333FF"
         },
         {
-            "scope": "col_637777FF",
-            "background": "#637777FF",
-            "foreground": "#F1F1F1FF"
+            "scope": "col_FAFAFAFF",
+            "background": "#FAFAFAFF",
+            "foreground": "#7A7A7AFF"
+        },
+        {
+            "scope": "col_91B859FF",
+            "background": "#91B859FF",
+            "foreground": "#212121FF"
         },
         {
             "name": "[CSS] String",
@@ -759,6 +734,63 @@
             "background": "color(var(yellow) alpha(0.9))"
         },
         {
+            "name": "[PHP] Inherited Class",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[PHP] Storage",
+            "scope": "storage.modifier.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Extends",
+            "scope": "storage.modifier.extends.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Echo",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
+            "font_style": "normal",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[PHP] Var",
+            "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Block",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Function",
+            "scope": "meta.function-call.php support.function, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.group.php meta.function-call.php support.function.array.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.function-call.php support.function.string.php",
+            "font_style": "normal",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[PHP] Return",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Condition",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Constant",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
+            "foreground": "var(orange)"
+        },
+        {
             "name": "[Perl] Statements",
             "scope": "source.perl keyword.control.flow.perl, source.perl keyword.control.flow.perl, source.perl keyword.control.conditional.perl",
             "foreground": "var(cyan)"
@@ -838,63 +870,6 @@
             "name": "[Python] Return",
             "scope": "source.python keyword.control.flow.return.python",
             "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Inherited Class",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[PHP] Storage",
-            "scope": "storage.modifier.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Extends",
-            "scope": "storage.modifier.extends.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Construct",
-            "scope": "support.function.construct.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Echo",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
-            "font_style": "normal",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[PHP] Var",
-            "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Block",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Function",
-            "scope": "meta.function-call.php support.function, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.group.php meta.function-call.php support.function.array.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.function-call.php support.function.string.php",
-            "font_style": "normal",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[PHP] Return",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Condition",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Constant",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
-            "foreground": "var(orange)"
         },
         {
             "name": "[Yaml] Key",
