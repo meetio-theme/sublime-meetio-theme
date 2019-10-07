@@ -119,7 +119,7 @@ To enjoy a better experience of using the **Meetio Theme** in your Sublime Text,
 | Pink          | ![#ff5370](https://placehold.it/15/ff5370/000000?text=%20) `#ff5370` | ![#f07178](https://placehold.it/15/f07178/000000?text=%20) `#f07178` |
 | Purple        | ![#7c4dff](https://placehold.it/15/7c4dff/000000?text=%20) `#7c4dff` | ![#c2afff](https://placehold.it/15/c2afff/000000?text=%20) `#c2afff` |
 | Red           | ![#e53935](https://placehold.it/15/e53935/000000?text=%20) `#e53935` | ![#d95757](https://placehold.it/15/d95757/000000?text=%20) `#d95757` |
-| Yellow        | ![#ffb62e](https://placehold.it/15/ffb62e/000000?text=%20) `#ffb62e` | ![#ffcb6b](https://placehold.it/15/ffcb6b/000000?text=%20) `#ffcb6b` |
+| Yellow        | ![#f3ad2c](https://placehold.it/15/f3ad2c/000000?text=%20) `#f3ad2c` | ![#ffcb6b](https://placehold.it/15/ffcb6b/000000?text=%20) `#ffcb6b` |
 | Invalid       | ![#d3423e](https://placehold.it/15/d3423e/000000?text=%20) `#d3423e` | ![#d46c6c](https://placehold.it/15/d46c6c/000000?text=%20) `#d46c6c` |
 | Diff Added    | ![#9ccc65](https://placehold.it/15/9ccc65/000000?text=%20) `#9ccc65` | ![#9ccc65](https://placehold.it/15/9ccc65/000000?text=%20) `#9ccc65` |
 | Diff Modified | ![#e2b93d](https://placehold.it/15/e2b93d/000000?text=%20) `#e2b93d` | ![#e2b93d](https://placehold.it/15/e2b93d/000000?text=%20) `#e2b93d` |
