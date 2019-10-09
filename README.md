@@ -108,7 +108,7 @@ To enjoy a better experience of using the **Meetio Theme** in your Sublime Text,
 | USAGE         | LIGHT                                                                | DARK                                                                 |
 | ------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | Caret         | ![#ffcc00](https://placehold.it/15/ffcc00/000000?text=%20) `#ffcc00` | ![#7e57c2](https://placehold.it/15/7e57c2/000000?text=%20) `#7e57c2` |
-| Foreground    | ![#455A64](https://placehold.it/15/455A64/000000?text=%20) `#455A64` | ![#8e95b4](https://placehold.it/15/8e95b4/000000?text=%20) `#8e95b4` |
+| Foreground    | ![#455A64](https://placehold.it/15/455A64/000000?text=%20) `#455A64` | ![#dedfe4](https://placehold.it/15/dedfe4/000000?text=%20) `#dedfe4` |
 | Background    | ![#fbfbfb](https://placehold.it/15/fbfbfb/000000?text=%20) `#fbfbfb` | ![#011627](https://placehold.it/15/011627/000000?text=%20) `#011627` |
 | Comments      | ![#90a4ae](https://placehold.it/15/90a4ae/000000?text=%20) `#90a4ae` | ![#697098](https://placehold.it/15/697098/000000?text=%20) `#697098` |
 | Blue          | ![#6182b8](https://placehold.it/15/6182b8/000000?text=%20) `#6182b8` | ![#82aaff](https://placehold.it/15/82aaff/000000?text=%20) `#82aaff` |
