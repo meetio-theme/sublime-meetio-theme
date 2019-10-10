@@ -1,8 +1,8 @@
 {
     "foreground"                  : "var(foreground)",
     "background"                  : "var(background)",
-    "caret"                       : "var(caret)",
-    "block_caret"                 : "var(caret)",
+    "caret"                       : "var(cursor)",
+    "block_caret"                 : "var(cursor)",
     "line_highlight"              : "color(var(foreground) alpha(0.1))",
     "selection"                   : "color(var(cyan) alpha(0.1))",
     "selection_border"            : "var(blue)",

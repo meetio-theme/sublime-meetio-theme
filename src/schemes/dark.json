@@ -2,7 +2,7 @@
     "name": "Meetio-Dark",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
-        "caret"        : "#7e57c2",
+        "cursor"        : "#ffcc00",
         "foreground"   : "#dedfe4",
         "background"   : "#011627",
         "comments"     : "#637777",
