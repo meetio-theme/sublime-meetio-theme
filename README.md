@@ -6,9 +6,6 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/blob/master/LICENSE)
 
-[![Twitter followers](https://img.shields.io/twitter/follow/mauroreisvieira?style=for-the-badge)](https://twitter.com/mauroreisvieira/)
-[![GitHub followers](https://img.shields.io/github/followers/mauroreisvieira?style=for-the-badge)](https://github.com/mauroreisvieira/)
-
 ## Installation
 
 **Package Control:**
