@@ -501,63 +501,6 @@
             "font_style": "italic"
         },
         {
-            "name": "[PHP] Inherited Class",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[PHP] Storage",
-            "scope": "storage.modifier.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Extends",
-            "scope": "storage.modifier.extends.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Construct",
-            "scope": "support.function.construct.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Echo",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
-            "font_style": "normal",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[PHP] Var",
-            "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Block",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Function",
-            "scope": "meta.function-call.php support.function, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.group.php meta.function-call.php support.function.array.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.function-call.php support.function.string.php",
-            "font_style": "normal",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[PHP] Return",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Condition",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Constant",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
-            "foreground": "var(orange)"
-        },
-        {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "var(comments)",
@@ -647,40 +590,61 @@
             "background": "color(var(yellow) alpha(0.9))"
         },
         {
-            "name": "[SublimeLinter] Error",
-            "scope": "sublimelinter.mark.error",
-            "foreground": "var(invalid)"
+            "name": "[PHP] Inherited Class",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
+            "foreground": "var(orange)"
         },
         {
-            "name": "[SublimeLinter] Gutter mark",
-            "scope": "sublimelinter.gutter-mark",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[Vue] Directive symbol",
-            "scope": "text.html.vue punctuation.definition.attribute.html",
-            "foreground": "var(yellow)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[Vue] Attribute assignment",
-            "scope": "text.html.vue punctuation.separator.key-value.html",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Yaml] Key",
-            "scope": "entity.name.tag.yaml",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Yaml] Numeric",
-            "scope": "source.yaml constant.numeric.float.yaml, source.yaml constant.numeric.integer.yaml",
+            "name": "[PHP] Storage",
+            "scope": "storage.modifier.php",
             "foreground": "var(purple)"
         },
         {
-            "name": "[Yaml] Anchor",
-            "scope": "source.yaml meta.property.yaml entity.name.other.anchor.yaml",
-            "foreground": "var(yellow)"
+            "name": "[PHP] Extends",
+            "scope": "storage.modifier.extends.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Echo",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
+            "font_style": "normal",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[PHP] Var",
+            "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Block",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Function",
+            "scope": "meta.function-call.php support.function, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.group.php meta.function-call.php support.function.array.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.function-call.php support.function.string.php",
+            "font_style": "normal",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[PHP] Return",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Condition",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Constant",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
+            "foreground": "var(orange)"
         },
         {
             "name": "[Python] Variables",
@@ -741,6 +705,27 @@
         {
             "name": "[Python] Return",
             "scope": "source.python keyword.control.flow.return.python",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[SublimeLinter] Error",
+            "scope": "sublimelinter.mark.error",
+            "foreground": "var(invalid)"
+        },
+        {
+            "name": "[SublimeLinter] Gutter mark",
+            "scope": "sublimelinter.gutter-mark",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[Vue] Directive symbol",
+            "scope": "text.html.vue punctuation.definition.attribute.html",
+            "foreground": "var(yellow)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[Vue] Attribute assignment",
+            "scope": "text.html.vue punctuation.separator.key-value.html",
             "foreground": "var(cyan)"
         }
     ]

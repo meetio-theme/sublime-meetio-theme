@@ -2,7 +2,7 @@
     "name": "Meetio-Light",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
-        "cursor"        : "#ffcc00",
+        "cursor"        : "#7e57c2",
         "foreground"   : "#455A64",
         "background"   : "#fbfbfb",
         "comments"     : "#90a4ae",

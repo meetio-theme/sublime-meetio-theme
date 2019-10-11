@@ -100,7 +100,7 @@ To enjoy a better experience of using the **Meetio Theme** in your Sublime Text,
 
 | Usage           | Light                                                                   | Dark                                                                    |
 | --------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| `Cursor`        | ![#ffcc00](https://placehold.it/30x24/ffcc00/000000?text=%20) `#ffcc00` | ![#ffcc00](https://placehold.it/30x24/ffcc00/000000?text=%20) `#ffcc00` |
+| `Cursor`        | ![#5f7e97](https://placehold.it/30x24/5f7e97/000000?text=%20) `#5f7e97` | ![#ffcc00](https://placehold.it/30x24/ffcc00/000000?text=%20) `#ffcc00` |
 | `Foreground`    | ![#455A64](https://placehold.it/30x24/455A64/000000?text=%20) `#455A64` | ![#dedfe4](https://placehold.it/30x24/dedfe4/000000?text=%20) `#dedfe4` |
 | `Background`    | ![#fbfbfb](https://placehold.it/30x24/fbfbfb/000000?text=%20) `#fbfbfb` | ![#011627](https://placehold.it/30x24/011627/000000?text=%20) `#011627` |
 | `Comments`      | ![#90a4ae](https://placehold.it/30x24/90a4ae/000000?text=%20) `#90a4ae` | ![#697098](https://placehold.it/30x24/697098/000000?text=%20) `#697098` |
