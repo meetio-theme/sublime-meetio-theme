@@ -98,7 +98,7 @@ To enjoy a better experience of using the **Meetio Theme** in your Sublime Text,
 
 ## Schemes Palettes
 
-| USAGE           | LIGHT                                                                   | DARK                                                                    |
+| Usage           | Light                                                                   | Dark                                                                    |
 | --------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | `Cursor`        | ![#ffcc00](https://placehold.it/30x24/ffcc00/000000?text=%20) `#ffcc00` | ![#ffcc00](https://placehold.it/30x24/ffcc00/000000?text=%20) `#ffcc00` |
 | `Foreground`    | ![#455A64](https://placehold.it/30x24/455A64/000000?text=%20) `#455A64` | ![#dedfe4](https://placehold.it/30x24/dedfe4/000000?text=%20) `#dedfe4` |
