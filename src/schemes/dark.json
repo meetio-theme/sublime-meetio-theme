@@ -18,6 +18,7 @@
         "invalid"      : "#d46c6c",
         "diffAdded"    : "#addb67",
         "diffModified" : "#e2b93d",
-        "diffDeleted"  : "#ef5350"
+        "diffDeleted"  : "#ef5350",
+        "diffIgnored"  : "#4C566A"
     }
 }

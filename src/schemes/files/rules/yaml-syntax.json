@@ -2,7 +2,7 @@
     {
         "name": "[Yaml] Key",
         "scope": "entity.name.tag.yaml",
-        "foreground": "var(cyan)"
+        "foreground": "var(red)"
     },
     {
         "name": "[Yaml] Numeric",

@@ -1,0 +1,13 @@
+[
+    {
+        "name": "[Vue] Directive symbol",
+        "scope": "text.html.vue punctuation.definition.attribute.html",
+        "foreground": "var(yellow)",
+        "font_style": "italic"
+    },
+    {
+        "name": "[Vue] Attribute assignment",
+        "scope": "text.html.vue punctuation.separator.key-value.html",
+        "foreground": "var(cyan)"
+    }
+]
