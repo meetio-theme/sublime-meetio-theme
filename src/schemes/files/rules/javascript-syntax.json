@@ -1,17 +1,17 @@
 [
     {
         "name": "[JavaScript] Constructor",
-        "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js storage.type.accessor.js, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
+        "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js storage.type.accessor.js, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js",
         "foreground": "var(purple)"
     },
     {
         "name": "[JavaScript] Object Key",
-        "scope": "meta.object-literal.key.js, meta.object-literal.key.ts",
+        "scope": "meta.object-literal.key.js",
         "foreground": "var(blue)"
     },
     {
         "name": "[JavaScript] Dollar",
-        "scope": "variable.other.dollar.only.js, variable.other.dollar.only.ts",
+        "scope": "variable.other.dollar.only.js",
         "foreground": "var(cyan)"
     },
     {
@@ -38,22 +38,22 @@
     },
     {
         "name": "[JavaScript] Support",
-        "scope": "keyword.control.flow.js, keyword.control.flow.ts",
+        "scope": "keyword.control.flow.js",
         "foreground": "var(purple)"
     },
     {
         "name": "[JavaScript] Try Catch",
-        "scope": "keyword.control.trycatch.js, keyword.control.trycatch.ts",
+        "scope": "keyword.control.trycatch.js",
         "foreground": "var(cyan)"
     },
     {
         "name": "[JavaScript] Loop",
-        "scope": "keyword.control.loop.js, keyword.control.loop.ts",
+        "scope": "keyword.control.loop.js",
         "foreground": "var(cyan)"
     },
     {
         "name": "[JavaScript] Conditional",
-        "scope": "keyword.control.conditional.js, keyword.control.conditional.ts, keyword.control.switch.js, keyword.control.switch.ts",
+        "scope": "keyword.control.conditional.js, keyword.control.switch.js",
         "foreground": "var(cyan)"
     },
     {
@@ -74,42 +74,12 @@
     },
     {
         "name": "[JavaScript] Return",
-        "scope": "source.js meta.function.js meta.block.js keyword.control.flow.js, source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js, source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js keyword.control.flow.js",
+        "scope": "source.js meta.function.js meta.block.js keyword.control.flow.js, source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js",
         "foreground": "var(cyan)"
     },
     {
         "name": "[JavaScript] Object",
         "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
         "foreground": "var(pink)"
-    },
-    {
-        "name": "[Vue] Function Parameter",
-        "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
-        "foreground": "var(pink)"
-    },
-    {
-        "name": "[Vue] Object",
-        "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
-        "foreground": "var(purple)"
-    },
-    {
-        "name": "[Vue] Object Value",
-        "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
-        "foreground": "var(brown)"
-    },
-    {
-        "name": "[JavaScript] Declaration",
-        "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.export.default.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
-        "foreground": "var(yellow)"
-    },
-    {
-        "name": "[JavaScript] Primitive",
-        "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts support.type.primitive.ts",
-        "foreground": "var(pink)"
-    },
-    {
-        "name": "[JavaScript] Parameters",
-        "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts, variable.parameter.function.js, variable.parameter.function.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts",
-        "foreground": "var(red)"
     }
 ]

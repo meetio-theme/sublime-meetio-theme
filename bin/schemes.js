@@ -1,8 +1,8 @@
 /*eslint-disable no-undef */
-import path from "path"
-import fs from "fs"
-import rimraf from "rimraf"
-import globals from "./../src/schemes/files/globals.json"
+const path = require("path")
+const fs = require("fs")
+const rimraf = require("rimraf")
+const globals = require("./../src/schemes/files/globals.json")
 
 function build() {
     const rules = []
@@ -56,6 +56,4 @@ function build() {
     })
 }
 
-export default function schemes() {
-    build()
-}
+build()

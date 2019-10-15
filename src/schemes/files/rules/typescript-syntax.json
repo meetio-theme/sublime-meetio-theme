@@ -1,0 +1,57 @@
+[
+    {
+        "name": "[JavaScript] Constructor",
+        "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
+        "foreground": "var(purple)"
+    },
+    {
+        "name": "[Typescript] Declaration",
+        "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.export.default.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+        "foreground": "var(yellow)"
+    },
+    {
+        "name": "[Typescript] Primitive",
+        "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts support.type.primitive.ts",
+        "foreground": "var(pink)"
+    },
+    {
+        "name": "[Typescript] Parameters",
+        "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts, variable.parameter.function.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts",
+        "foreground": "var(red)"
+    },
+    {
+        "name": "[Typescript] Object Key",
+        "scope": "meta.object-literal.key.ts",
+        "foreground": "var(blue)"
+    },
+    {
+        "name": "[Typescript] Dollar",
+        "scope": "variable.other.dollar.only.ts",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[Typescript] Support",
+        "scope": "keyword.control.flow.ts",
+        "foreground": "var(purple)"
+    },
+    {
+        "name": "[Typescript] Try Catch",
+        "scope": "keyword.control.trycatch.ts",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[Typescript] Loop",
+        "scope": "keyword.control.loop.ts",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[Typescript] Conditional",
+        "scope": "keyword.control.conditional.ts, keyword.control.switch.ts",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[Typescript] Return",
+        "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts",
+        "foreground": "var(cyan)"
+    }
+]

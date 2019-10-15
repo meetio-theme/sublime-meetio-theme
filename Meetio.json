@@ -628,14 +628,6 @@
             "layer0.opacity": 1
         },
         {
-            "class": "dialog",
-            "layer0.tint": [
-                "background",
-                0.94
-            ],
-            "layer0.opacity": 1
-        },
-        {
             "class": "fold_button_control",
             "layer0.texture": "Meetio/assets/default/arrow_right.png",
             "layer0.tint": "var(colorAccent)",
@@ -668,6 +660,14 @@
                 12,
                 12
             ]
+        },
+        {
+            "class": "dialog",
+            "layer0.tint": [
+                "background",
+                0.94
+            ],
+            "layer0.opacity": 1
         },
         {
             "class": "disclosure_button_control",
@@ -861,11 +861,6 @@
             "layer0.opacity": 1
         },
         {
-            "class": "grid_layout_control",
-            "border_color": "var(gridLayoutBorderColor)",
-            "border_size": "var(gridLayoutBorderSize)"
-        },
-        {
             "class": "text_line_control",
             "layer0.opacity": 1,
             "layer0.inner_margin": [
@@ -990,6 +985,11 @@
             "layer0.opacity": 0.8
         },
         {
+            "class": "grid_layout_control",
+            "border_color": "var(gridLayoutBorderColor)",
+            "border_size": "var(gridLayoutBorderSize)"
+        },
+        {
             "class": "label_control",
             "fg": [
                 "foreground",
@@ -1038,49 +1038,6 @@
                     "class": "button_control"
                 }
             ]
-        },
-        {
-            "class": "close_button",
-            "layer0.texture": "Meetio/assets/default/icon_close.png",
-            "layer0.tint": "var(colorAccent)",
-            "layer0.opacity": 1,
-            "layer0.inner_margin": [
-                3,
-                3
-            ],
-            "content_margin": [
-                8,
-                8
-            ]
-        },
-        {
-            "class": "close_button",
-            "parents": [
-                {
-                    "class": "tree_row",
-                    "attributes": [
-                        "hover"
-                    ]
-                }
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "close_button",
-            "attributes": [
-                "dirty"
-            ],
-            "layer0.texture": "Meetio/assets/default/dirty_icon.png",
-            "layer0.tint": "var(colorAccent)"
-        },
-        {
-            "class": "close_button",
-            "attributes": [
-                "hover",
-                "dirty"
-            ],
-            "layer0.texture": "Meetio/assets/default/dirty_icon.png",
-            "layer0.tint": "var(colorAccent)"
         },
         {
             "class": "panel_control",
@@ -1227,6 +1184,66 @@
             }
         },
         {
+            "class": "close_button",
+            "layer0.texture": "Meetio/assets/default/icon_close.png",
+            "layer0.tint": "var(colorAccent)",
+            "layer0.opacity": 1,
+            "layer0.inner_margin": [
+                3,
+                3
+            ],
+            "content_margin": [
+                8,
+                8
+            ]
+        },
+        {
+            "class": "close_button",
+            "parents": [
+                {
+                    "class": "tree_row",
+                    "attributes": [
+                        "hover"
+                    ]
+                }
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "close_button",
+            "attributes": [
+                "dirty"
+            ],
+            "layer0.texture": "Meetio/assets/default/dirty_icon.png",
+            "layer0.tint": "var(colorAccent)"
+        },
+        {
+            "class": "close_button",
+            "attributes": [
+                "hover",
+                "dirty"
+            ],
+            "layer0.texture": "Meetio/assets/default/dirty_icon.png",
+            "layer0.tint": "var(colorAccent)"
+        },
+        {
+            "class": "progress_bar_control",
+            "layer0.tint": [
+                "background",
+                0.94
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "progress_gauge_control",
+            "layer0.tint": "var(colorAccent)",
+            "layer0.opacity": 1,
+            "content_margin": [
+                0,
+                8
+            ]
+        },
+        {
             "class": "mini_quick_panel_row",
             "layer0.tint": "var(panelRowBackground)",
             "layer0.inner_margin": [
@@ -1289,20 +1306,126 @@
             "selected_match_fg": "var(panelRowSelectedMatchColor)"
         },
         {
-            "class": "progress_bar_control",
-            "layer0.tint": [
-                "background",
-                0.94
+            "class": "scroll_area_control",
+            "settings": [
+                "overlay_scroll_bars"
+            ],
+            "overlay": true
+        },
+        {
+            "class": "scroll_area_control",
+            "settings": [
+                "!overlay_scroll_bars"
+            ],
+            "overlay": false
+        },
+        {
+            "class": "scroll_area_control",
+            "parents": [
+                {
+                    "class": "sidebar_container"
+                }
+            ],
+            "content_margin": [
+                0,
+                10,
+                0,
+                10
+            ]
+        },
+        {
+            "class": "scroll_bar_control",
+            "layer0.opacity": 1,
+            "content_margin": 4,
+            "tint_index": 0
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": [
+                "overlay_scroll_bars"
+            ],
+            "layer0.opacity": 0
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": [
+                "!overlay_scroll_bars"
             ],
             "layer0.opacity": 1
         },
         {
-            "class": "progress_gauge_control",
-            "layer0.tint": "var(colorAccent)",
+            "class": "scroll_track_control",
+            "layer0.tint": "var(scrollBar)",
             "layer0.opacity": 1,
+            "layer0.inner_margin": 2,
             "content_margin": [
+                4,
+                4,
+                3,
+                4
+            ]
+        },
+        {
+            "class": "puck_control",
+            "layer0.tint": "var(scrollTrack)",
+            "layer0.opacity": 1
+        },
+        {
+            "class": "scroll_corner_control",
+            "layer0.opacity": 1,
+            "tint_index": 0
+        },
+        {
+            "class": "scroll_track_control",
+            "attributes": [
+                "horizontal"
+            ],
+            "layer0.tint": "var(scrollBar)",
+            "content_margin": [
+                4,
+                4,
+                4,
+                3
+            ]
+        },
+        {
+            "class": "puck_control",
+            "attributes": [
+                "horizontal"
+            ],
+            "layer0.tint": "var(scrollTrack)"
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [
+                {
+                    "class": "sidebar_container"
+                }
+            ],
+            "layer0.opacity": 0
+        },
+        {
+            "class": "scroll_corner_control",
+            "parents": [
+                {
+                    "class": "sidebar_container"
+                }
+            ],
+            "layer0.opacity": 0
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [
+                {
+                    "class": "overlay_control"
+                }
+            ],
+            "layer0.opacity": 0,
+            "content_margin": [
+                4,
                 0,
-                8
+                0,
+                0
             ]
         },
         {
@@ -1481,129 +1604,6 @@
                 "transient"
             ],
             "font.italic": false
-        },
-        {
-            "class": "scroll_area_control",
-            "settings": [
-                "overlay_scroll_bars"
-            ],
-            "overlay": true
-        },
-        {
-            "class": "scroll_area_control",
-            "settings": [
-                "!overlay_scroll_bars"
-            ],
-            "overlay": false
-        },
-        {
-            "class": "scroll_area_control",
-            "parents": [
-                {
-                    "class": "sidebar_container"
-                }
-            ],
-            "content_margin": [
-                0,
-                10,
-                0,
-                10
-            ]
-        },
-        {
-            "class": "scroll_bar_control",
-            "layer0.opacity": 1,
-            "content_margin": 4,
-            "tint_index": 0
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": [
-                "overlay_scroll_bars"
-            ],
-            "layer0.opacity": 0
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": [
-                "!overlay_scroll_bars"
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "scroll_track_control",
-            "layer0.tint": "var(scrollBar)",
-            "layer0.opacity": 1,
-            "layer0.inner_margin": 2,
-            "content_margin": [
-                4,
-                4,
-                3,
-                4
-            ]
-        },
-        {
-            "class": "puck_control",
-            "layer0.tint": "var(scrollTrack)",
-            "layer0.opacity": 1
-        },
-        {
-            "class": "scroll_corner_control",
-            "layer0.opacity": 1,
-            "tint_index": 0
-        },
-        {
-            "class": "scroll_track_control",
-            "attributes": [
-                "horizontal"
-            ],
-            "layer0.tint": "var(scrollBar)",
-            "content_margin": [
-                4,
-                4,
-                4,
-                3
-            ]
-        },
-        {
-            "class": "puck_control",
-            "attributes": [
-                "horizontal"
-            ],
-            "layer0.tint": "var(scrollTrack)"
-        },
-        {
-            "class": "scroll_bar_control",
-            "parents": [
-                {
-                    "class": "sidebar_container"
-                }
-            ],
-            "layer0.opacity": 0
-        },
-        {
-            "class": "scroll_corner_control",
-            "parents": [
-                {
-                    "class": "sidebar_container"
-                }
-            ],
-            "layer0.opacity": 0
-        },
-        {
-            "class": "scroll_bar_control",
-            "parents": [
-                {
-                    "class": "overlay_control"
-                }
-            ],
-            "layer0.opacity": 0,
-            "content_margin": [
-                4,
-                0,
-                0,
-                0
-            ]
         },
         {
             "class": "status_bar",

@@ -1,9 +1,8 @@
 /*eslint-disable no-undef */
-
-import path from "path"
-import fs from "fs"
-import svg2img from "svg2img"
-import defaultOptions from "./../src/icons/default.json"
+const path = require("path")
+const fs = require("fs")
+const svg2img = require("svg2img")
+const defaultOptions = require("./../src/icons/default.json")
 
 function build(folder) {
     let iconPath
@@ -42,6 +41,4 @@ function build(folder) {
     })
 }
 
-export default function icons() {
-    build("default")
-}
+build("default")

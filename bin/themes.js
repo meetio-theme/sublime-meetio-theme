@@ -1,7 +1,7 @@
 /*eslint-disable no-undef */
-import path from "path"
-import fs from "fs"
-import variables from "./../src/themes/variables.json"
+const path = require("path")
+const fs = require("fs")
+const variables = require("./../src/themes/variables.json")
 
 function build(name) {
     const merge = []
@@ -41,6 +41,4 @@ function build(name) {
     })
 }
 
-export default function themes() {
-    build("Meetio")
-}
+build("Meetio")

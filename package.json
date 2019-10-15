@@ -12,11 +12,10 @@
     "theme"
   ],
   "scripts": {
-    "build": "gulp && prettier src/**/*.json \"gulp-tasks/*.js\" --write",
-    "build:themes": "gulp themes",
-    "build:schemes": "gulp schemes",
-    "build:icons": "gulp icons",
-    "lint": "eslint \"*.js\" \"src/**/*.json\" \"src/**/**/*.json\" \"src/**/**/**/*.json\" \"gulp-tasks/*.js\"",
+    "build:themes": "node bin/themes",
+    "build:schemes": "node bin/schemes",
+    "build:icons": "node bin/icons",
+    "lint": "eslint \"*.js\" \"src/**/*.json\" \"src/**/**/*.json\" \"src/**/**/**/*.json\" \"bin/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -34,9 +33,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-config-prettier": "^6.3.0",
     "svg2img": "^0.6.1",
-    "gulp": "^4.0.0",
     "prettier": "^1.15.3",
-    "babel-eslint": "^10.0.1",
-    "gulp-rimraf": "^0.2.2"
+    "babel-eslint": "^10.0.1"
   }
 }
