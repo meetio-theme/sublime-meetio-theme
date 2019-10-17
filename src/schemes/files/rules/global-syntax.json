@@ -31,12 +31,6 @@
         "foreground": "var(yellow)"
     },
     {
-        "name": "Import & Export",
-        "scope": "meta.use keyword.other.use, meta.use keyword.control.import.use, meta.at-rule.import keyword.control.at-rule.import, meta.import keyword.control.import-export, meta.export keyword.control.import-export, meta.export.default keyword.control.export, meta.export.default keyword.control.default",
-        "foreground": "var(cyan)",
-        "font_style": "italic"
-    },
-    {
         "name": "Declaration",
         "scope": "meta.interface storage.modifier, meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
         "foreground": "var(purple)"
@@ -57,13 +51,8 @@
         "foreground": "var(red)"
     },
     {
-        "name": "Operator",
-        "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
-        "foreground": "var(purple)"
-    },
-    {
-        "name": "Punctuation",
-        "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
+        "name": "Operator, Misc",
+        "scope": "keyword.control, constant.other.color, punctuation.definition.tag, punctuation, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitutio, keyword.operator.star.sql",
         "foreground": "var(cyan)"
     },
     {

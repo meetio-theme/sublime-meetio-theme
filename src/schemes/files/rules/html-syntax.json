@@ -10,11 +10,6 @@
         "foreground": "var(green)"
     },
     {
-        "name": "[HTML] Operator",
-        "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
-        "foreground": "var(cyan)"
-    },
-    {
         "name": "[HTML] Attributes",
         "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
         "foreground": "var(yellow)"

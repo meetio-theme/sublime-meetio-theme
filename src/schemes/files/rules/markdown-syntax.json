@@ -16,7 +16,7 @@
     },
     {
         "name": "[Markdown] Headings",
-        "scope": "markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown",
+        "scope": "markdown.heading, markup.heading | markup.heading entity.name",
         "font_style": "bold",
         "foreground": "var(green)"
     },
@@ -59,11 +59,6 @@
         "font_style": "bold italic"
     },
     {
-        "name": "[Markdown] Line",
-        "scope": "punctuation.definition.thematic-break",
-        "foreground": "var(cyan)"
-    },
-    {
         "name": "[Markdown] Numbered List Bullet",
         "scope": "markup.list.numbered.bullet",
         "foreground": "var(green)"
@@ -77,11 +72,6 @@
         "name": "[Markdown] Code Block",
         "scope": "meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm, meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm, meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
         "background": "color(var(blue) alpha(0.05))"
-    },
-    {
-        "name": "[Markdown] Punctuation",
-        "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
-        "foreground": "var(purple)"
     },
     {
         "name": "[Markdown] Blockquotes",

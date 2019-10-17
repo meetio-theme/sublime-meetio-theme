@@ -54,10 +54,5 @@
         "name":"[Python] Function Parameters",
         "scope":"source.python meta.item-access.python meta.qualified-name.python meta.generic-name.python, source.python meta.function.parameters.annotation.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
         "foreground":"var(yellow)"
-    },
-    {
-        "name":"[Python] Return",
-        "scope":"source.python keyword.control.flow.return.python",
-        "foreground":"var(cyan)"
     }
 ]

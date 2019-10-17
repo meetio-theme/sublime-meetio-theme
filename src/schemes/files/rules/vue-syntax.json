@@ -1,15 +1,5 @@
 [
     {
-        "name": "[Vue] Directive symbol",
-        "scope": "text.html.vue punctuation.definition.attribute.html",
-        "foreground": "var(yellow)"
-    },
-    {
-        "name": "[Vue] Attribute assignment",
-        "scope": "text.html.vue punctuation.separator.key-value.html",
-        "foreground": "var(cyan)"
-    },
-    {
         "name": "[Vue] Function Parameter",
         "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
         "foreground": "var(pink)"

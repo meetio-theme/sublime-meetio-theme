@@ -121,11 +121,6 @@
             "font_style": "italic"
         },
         {
-            "name": "[CSS] Important",
-            "scope": "keyword.other.important.css",
-            "foreground": "var(red)"
-        },
-        {
             "name": "[CSS] Unit",
             "scope": "keyword.other.unit.css",
             "foreground": "var(orange)"
@@ -138,23 +133,13 @@
         {
             "name": "[CSS] Color Values",
             "scope": "support.constant.color.w3c-standard-color-name.css, constant.other.color.rgb-value.css, support.constant.color.w3c-extended-color-keywords.css",
-            "foreground": "var(cyan)"
+            "foreground": "var(pink)"
         },
         {
             "name": "[CSS] Function",
             "scope": "source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.color.css, support.function.var.css, support.function.filter.css, support.function.calc.css, support.function.gradient.css, source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.var.css",
             "foreground": "var(blue)",
             "font_style": "normal"
-        },
-        {
-            "name": "[CSS] Property Vendor",
-            "scope": "source.css meta.at-rule.media.css keyword.control.at-rule.media.css, support.type.property-vendor.css, support.constant.media.css",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[SCSS] Punctuation",
-            "scope": "source.scss meta.selector.css keyword.operator.ampersand.sass, source.scss meta.selector.css entity.other.attribute-name.class.css punctuation.definition.entity.css",
-            "foreground": "var(cyan)"
         },
         {
             "name": "[SCSS] Prefix",
@@ -166,11 +151,6 @@
             "scope": "source.scss meta.property-value.css meta.function-call.css support.function.custom.sass, source.scss meta.property-value.css meta.function-call.sass support.function.sass",
             "foreground": "var(blue)",
             "font_style": "normal"
-        },
-        {
-            "name": "[SCSS] Conditional",
-            "scope": "source.scss meta.at-rule.sass keyword.control.at-rule.return.sass, source.scss meta.at-rule.sass keyword.control.flow.conditional.sass, source.scss meta.at-rule.sass keyword.control.flow.sass, source.scss meta.at-rule.each.sass keyword.control.flow.sass",
-            "foreground": "var(cyan)"
         },
         {
             "name": "[SCSS] Function",
@@ -190,14 +170,49 @@
             "foreground": "var(green)"
         },
         {
-            "name": "[Groovy] Conditional",
-            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
-            "foreground": "var(cyan)"
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
         },
         {
-            "name": "[Groovy] Return",
-            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
-            "foreground": "var(cyan)"
+            "name": "[HTML] Operator",
+            "scope": "keyword.other.template, keyword.other.substitution",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[GitGutter] Inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": "var(diffAdded)"
+        },
+        {
+            "name": "[GitGutter] Modified",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "var(diffModified)"
+        },
+        {
+            "name": "[GitGutter] Deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "var(diffDeleted)"
+        },
+        {
+            "name": "[GitGutter] Ignored",
+            "scope": "markup.ignored.git_gutter",
+            "foreground": "var(diffIgnored)"
         },
         {
             "name": "Comment",
@@ -231,12 +246,6 @@
             "foreground": "var(yellow)"
         },
         {
-            "name": "Import & Export",
-            "scope": "meta.use keyword.other.use, meta.use keyword.control.import.use, meta.at-rule.import keyword.control.at-rule.import, meta.import keyword.control.import-export, meta.export keyword.control.import-export, meta.export.default keyword.control.export, meta.export.default keyword.control.default",
-            "foreground": "var(cyan)",
-            "font_style": "italic"
-        },
-        {
             "name": "Declaration",
             "scope": "meta.interface storage.modifier, meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
             "foreground": "var(purple)"
@@ -257,13 +266,8 @@
             "foreground": "var(red)"
         },
         {
-            "name": "Operator",
-            "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Punctuation",
-            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
+            "name": "Operator, Misc",
+            "scope": "keyword.control, constant.other.color, punctuation.definition.tag, punctuation, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitutio, keyword.operator.star.sql",
             "foreground": "var(cyan)"
         },
         {
@@ -289,81 +293,6 @@
             "background": "color(var(yellow) alpha(0.9))"
         },
         {
-            "name": "[GitGutter] Inserted",
-            "scope": "markup.inserted.git_gutter",
-            "foreground": "var(diffAdded)"
-        },
-        {
-            "name": "[GitGutter] Modified",
-            "scope": "markup.changed.git_gutter",
-            "foreground": "var(diffModified)"
-        },
-        {
-            "name": "[GitGutter] Deleted",
-            "scope": "markup.deleted.git_gutter",
-            "foreground": "var(diffDeleted)"
-        },
-        {
-            "name": "[GitGutter] Ignored",
-            "scope": "markup.ignored.git_gutter",
-            "foreground": "var(diffIgnored)"
-        },
-        {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.other.template, keyword.other.substitution",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Tag Name",
-            "scope": "entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[INI] - Color for Entity",
-            "scope": "source.ini entity, meta.embedded.block.ini, source.ini",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[INI] - Color for Keyword",
-            "scope": "source.ini keyword, keyword.other.definition.ini",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[INI] - Color for Value",
-            "scope": "source.ini meta.declaration.ini meta.value.ini string.name.value.ini",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[INI] - Color for Punctuation Definition",
-            "scope": "source.ini punctuation.definition",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[INI] - Color for Punctuation Separator",
-            "scope": "source.ini punctuation.separator, punctuation.separator.key-value.ini",
-            "foreground": "var(cyan)"
-        },
-        {
             "name": "[JavaScript] Constructor",
             "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js storage.type.accessor.js, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js",
             "foreground": "var(purple)"
@@ -372,11 +301,6 @@
             "name": "[JavaScript] Object Key",
             "scope": "meta.object-literal.key.js",
             "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Dollar",
-            "scope": "variable.other.dollar.only.js",
-            "foreground": "var(cyan)"
         },
         {
             "name": "[JavaScript] Function",
@@ -401,26 +325,6 @@
             "foreground": "var(yellow)"
         },
         {
-            "name": "[JavaScript] Support",
-            "scope": "keyword.control.flow.js",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JavaScript] Try Catch",
-            "scope": "keyword.control.trycatch.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Loop",
-            "scope": "keyword.control.loop.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Conditional",
-            "scope": "keyword.control.conditional.js, keyword.control.switch.js",
-            "foreground": "var(cyan)"
-        },
-        {
             "name": "[JavaScript] Null",
             "scope": "constant.language.null.js",
             "foreground": "var(orange)"
@@ -436,64 +340,9 @@
             "foreground": "var(orange)"
         },
         {
-            "name": "[JavaScript] Return",
-            "scope": "source.js meta.function.js meta.block.js keyword.control.flow.js, source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js",
-            "foreground": "var(cyan)"
-        },
-        {
             "name": "[JavaScript] Object",
             "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
             "foreground": "var(pink)"
-        },
-        {
-            "name": "[JSON] Key ",
-            "scope": "meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Value",
-            "scope": "meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JSON] Constant",
-            "scope": "constant.language.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Character Escape",
-            "scope": "constant.character.escape.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Constant Numeric",
-            "scope": "constant.numeric.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Punctuation Section",
-            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation Mapping",
-            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation String",
-            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Mapping Level 1",
-            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Mapping Level 2",
-            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(brown)"
         },
         {
             "name": "[Markdown] Deleted",
@@ -512,7 +361,7 @@
         },
         {
             "name": "[Markdown] Headings",
-            "scope": "markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown",
+            "scope": "markdown.heading, markup.heading | markup.heading entity.name",
             "font_style": "bold",
             "foreground": "var(green)"
         },
@@ -555,11 +404,6 @@
             "font_style": "bold italic"
         },
         {
-            "name": "[Markdown] Line",
-            "scope": "punctuation.definition.thematic-break",
-            "foreground": "var(cyan)"
-        },
-        {
             "name": "[Markdown] Numbered List Bullet",
             "scope": "markup.list.numbered.bullet",
             "foreground": "var(green)"
@@ -573,11 +417,6 @@
             "name": "[Markdown] Code Block",
             "scope": "meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm, meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm, meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
             "background": "color(var(blue) alpha(0.05))"
-        },
-        {
-            "name": "[Markdown] Punctuation",
-            "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
-            "foreground": "var(purple)"
         },
         {
             "name": "[Markdown] Blockquotes",
@@ -616,25 +455,9 @@
             "foreground": "var(pink)"
         },
         {
-            "name": "[PHP] Var",
-            "scope": "support.function.var.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.exception.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php meta.catch.php keyword.control.exception.catch.php",
-            "foreground": "var(cyan)"
-        },
-        {
             "name": "[PHP] Block",
             "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
             "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Function",
-            "scope": "meta.function-call.php support.function, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.group.php meta.function-call.php support.function.array.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php meta.function-call.php support.function.string.php",
-            "font_style": "normal",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[PHP] Return",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php keyword.control.php",
-            "foreground": "var(cyan)"
         },
         {
             "name": "[PHP] Condition",
@@ -645,6 +468,81 @@
             "name": "[PHP] Constant",
             "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
             "foreground": "var(orange)"
+        },
+        {
+            "name": "[SQL] Source",
+            "scope": "source.sql",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "[SQL] — Other keywords",
+            "scope": "keyword.other.DML.sql",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[SQL] — Function",
+            "scope": "support.function.aggregate.sql",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[SublimeLinter] Error",
+            "scope": "sublimelinter.mark.error",
+            "foreground": "var(invalid)"
+        },
+        {
+            "name": "[SublimeLinter] Gutter mark",
+            "scope": "sublimelinter.gutter-mark",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[INI] - Color for Entity",
+            "scope": "source.ini entity, meta.embedded.block.ini, source.ini",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[INI] - Color for Keyword",
+            "scope": "source.ini keyword, keyword.other.definition.ini",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[INI] - Color for Value",
+            "scope": "source.ini meta.declaration.ini meta.value.ini string.name.value.ini",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Mapping Level 1",
+            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Mapping Level 2",
+            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(brown)"
         },
         {
             "name": "[Python] Variables",
@@ -703,46 +601,6 @@
             "foreground": "var(yellow)"
         },
         {
-            "name": "[Python] Return",
-            "scope": "source.python keyword.control.flow.return.python",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[SublimeLinter] Error",
-            "scope": "sublimelinter.mark.error",
-            "foreground": "var(invalid)"
-        },
-        {
-            "name": "[SublimeLinter] Gutter mark",
-            "scope": "sublimelinter.gutter-mark",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[Vue] Directive symbol",
-            "scope": "text.html.vue punctuation.definition.attribute.html",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[Vue] Attribute assignment",
-            "scope": "text.html.vue punctuation.separator.key-value.html",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Vue] Function Parameter",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[Vue] Object",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Vue] Object Value",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
-            "foreground": "var(brown)"
-        },
-        {
             "name": "[JavaScript] Constructor",
             "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
             "foreground": "var(purple)"
@@ -758,11 +616,6 @@
             "foreground": "var(pink)"
         },
         {
-            "name": "[Typescript] Return",
-            "scope": "source.tsx meta.export.default.tsx meta.class.tsx meta.field.declaration.tsx meta.arrow.tsx meta.block.tsx keyword.control.flow.tsx, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts, source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx keyword.control.flow.tsx",
-            "foreground": "var(cyan)"
-        },
-        {
             "name": "[JavaScript] Try Catch",
             "scope": "keyword.control.trycatch.ts, keyword.control.trycatch.tsx",
             "foreground": "var(cyan)"
@@ -770,11 +623,6 @@
         {
             "name": "[JavaScript] Loop",
             "scope": "keyword.control.loop.ts, keyword.control.loop.tsx",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Conditional",
-            "scope": "keyword.control.conditional.ts, keyword.control.conditional.tsx, keyword.control.switch.ts, keyword.control.switch.tsx",
             "foreground": "var(cyan)"
         },
         {
@@ -803,11 +651,6 @@
             "foreground": "var(cyan)"
         },
         {
-            "name": "[Typescript] Conditional",
-            "scope": "keyword.control.conditional.ts, keyword.control.switch.ts",
-            "foreground": "var(cyan)"
-        },
-        {
             "name": "[Typescript] Field Declaration",
             "scope": "source.tsx meta.export.default.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx",
             "foreground": "var(yellow)"
@@ -815,6 +658,21 @@
         {
             "name": "[Typescript] Method Declaration",
             "scope": "source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.function-call.tsx variable.other.object.tsx, source.tsx meta.export.default.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.module.tsx",
+            "foreground": "var(brown)"
+        },
+        {
+            "name": "[Vue] Function Parameter",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Vue] Object",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Vue] Object Value",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
             "foreground": "var(brown)"
         }
     ]

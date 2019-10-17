@@ -10,11 +10,6 @@
         "foreground": "var(blue)"
     },
     {
-        "name": "[JavaScript] Dollar",
-        "scope": "variable.other.dollar.only.js",
-        "foreground": "var(cyan)"
-    },
-    {
         "name": "[JavaScript] Function",
         "scope": "variable.function, variable.annotation, entity.name.function, meta.class-method.js entity.name.function.js, variable.function",
         "foreground": "var(blue)"
@@ -37,26 +32,6 @@
         "foreground": "var(yellow)"
     },
     {
-        "name": "[JavaScript] Support",
-        "scope": "keyword.control.flow.js",
-        "foreground": "var(purple)"
-    },
-    {
-        "name": "[JavaScript] Try Catch",
-        "scope": "keyword.control.trycatch.js",
-        "foreground": "var(cyan)"
-    },
-    {
-        "name": "[JavaScript] Loop",
-        "scope": "keyword.control.loop.js",
-        "foreground": "var(cyan)"
-    },
-    {
-        "name": "[JavaScript] Conditional",
-        "scope": "keyword.control.conditional.js, keyword.control.switch.js",
-        "foreground": "var(cyan)"
-    },
-    {
         "name": "[JavaScript] Null",
         "scope": "constant.language.null.js",
         "foreground": "var(orange)"
@@ -66,16 +41,10 @@
         "scope": "constant.language.undefined.js",
         "foreground": "var(orange)"
     },
-
     {
         "name": "[JavaScript] Boolean",
         "scope": "source.js meta.export.js meta.binding.name.js variable.other.constant.js, constant.language.boolean.false.js, constant.language.boolean.true.js, source.js meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js variable.other.constant.js",
         "foreground": "var(orange)"
-    },
-    {
-        "name": "[JavaScript] Return",
-        "scope": "source.js meta.function.js meta.block.js keyword.control.flow.js, source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js",
-        "foreground": "var(cyan)"
     },
     {
         "name": "[JavaScript] Object",

@@ -13,15 +13,5 @@
         "name": "[INI] - Color for Value",
         "scope": "source.ini meta.declaration.ini meta.value.ini string.name.value.ini",
         "foreground": "var(green)"
-    },
-    {
-        "name": "[INI] - Color for Punctuation Definition",
-        "scope": "source.ini punctuation.definition",
-        "foreground": "var(cyan)"
-    },
-    {
-        "name": "[INI] - Color for Punctuation Separator",
-        "scope": "source.ini punctuation.separator, punctuation.separator.key-value.ini",
-        "foreground": "var(cyan)"
     }
 ]

@@ -15,11 +15,6 @@
         "foreground": "var(pink)"
     },
     {
-        "name": "[Typescript] Return",
-        "scope": "source.tsx meta.export.default.tsx meta.class.tsx meta.field.declaration.tsx meta.arrow.tsx meta.block.tsx keyword.control.flow.tsx, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts, source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx keyword.control.flow.tsx",
-        "foreground": "var(cyan)"
-    },
- {
         "name": "[JavaScript] Try Catch",
         "scope": "keyword.control.trycatch.ts, keyword.control.trycatch.tsx",
         "foreground": "var(cyan)"
@@ -27,11 +22,6 @@
     {
         "name": "[JavaScript] Loop",
         "scope": "keyword.control.loop.ts, keyword.control.loop.tsx",
-        "foreground": "var(cyan)"
-    },
-    {
-        "name": "[JavaScript] Conditional",
-        "scope": "keyword.control.conditional.ts, keyword.control.conditional.tsx, keyword.control.switch.ts, keyword.control.switch.tsx",
         "foreground": "var(cyan)"
     },
     {
@@ -57,11 +47,6 @@
     {
         "name": "[Typescript] Loop",
         "scope": "keyword.control.loop.ts, source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.array.literal.tsx keyword.control.as.tsx",
-        "foreground": "var(cyan)"
-    },
-    {
-        "name": "[Typescript] Conditional",
-        "scope": "keyword.control.conditional.ts, keyword.control.switch.ts",
         "foreground": "var(cyan)"
     },
     {
