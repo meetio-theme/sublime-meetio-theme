@@ -190,6 +190,108 @@
             "foreground": "var(green)"
         },
         {
+            "name": "[GitGutter] Inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": "var(diffAdded)"
+        },
+        {
+            "name": "[GitGutter] Modified",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "var(diffModified)"
+        },
+        {
+            "name": "[GitGutter] Deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "var(diffDeleted)"
+        },
+        {
+            "name": "[GitGutter] Ignored",
+            "scope": "markup.ignored.git_gutter",
+            "foreground": "var(diffIgnored)"
+        },
+        {
+            "name": "[JavaScript] Constructor",
+            "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js storage.type.accessor.js, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JavaScript] Object Key",
+            "scope": "meta.object-literal.key.js",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Dollar",
+            "scope": "variable.other.dollar.only.js",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Function",
+            "scope": "variable.function, variable.annotation, entity.name.function, meta.class-method.js entity.name.function.js, variable.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Language Library",
+            "scope": "variable.language",
+            "foreground": "var(red)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Library",
+            "scope": "support.function, support.macro",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "support.type, support.class",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "keyword.control.flow.js",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JavaScript] Try Catch",
+            "scope": "keyword.control.trycatch.js",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Loop",
+            "scope": "keyword.control.loop.js",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Conditional",
+            "scope": "keyword.control.conditional.js, keyword.control.switch.js",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Null",
+            "scope": "constant.language.null.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Undefined",
+            "scope": "constant.language.undefined.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Boolean",
+            "scope": "source.js meta.export.js meta.binding.name.js variable.other.constant.js, constant.language.boolean.false.js, constant.language.boolean.true.js, source.js meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js variable.other.constant.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Return",
+            "scope": "source.js meta.function.js meta.block.js keyword.control.flow.js, source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Object",
+            "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
+            "foreground": "var(pink)"
+        },
+        {
             "name": "[HTML] String",
             "scope": "text.html.basic string",
             "foreground": "var(green)"
@@ -218,26 +320,6 @@
             "name": "[HTML] Tag Attribute",
             "scope": "text.html.basic entity.other.attribute-name",
             "foreground": "var(purple)"
-        },
-        {
-            "name": "[GitGutter] Inserted",
-            "scope": "markup.inserted.git_gutter",
-            "foreground": "var(diffAdded)"
-        },
-        {
-            "name": "[GitGutter] Modified",
-            "scope": "markup.changed.git_gutter",
-            "foreground": "var(diffModified)"
-        },
-        {
-            "name": "[GitGutter] Deleted",
-            "scope": "markup.deleted.git_gutter",
-            "foreground": "var(diffDeleted)"
-        },
-        {
-            "name": "[GitGutter] Ignored",
-            "scope": "markup.ignored.git_gutter",
-            "foreground": "var(diffIgnored)"
         },
         {
             "name": "Comment",
@@ -329,187 +411,6 @@
             "background": "color(var(yellow) alpha(0.9))"
         },
         {
-            "name": "[JavaScript] Constructor",
-            "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js storage.type.accessor.js, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JavaScript] Object Key",
-            "scope": "meta.object-literal.key.js",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Dollar",
-            "scope": "variable.other.dollar.only.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Function",
-            "scope": "variable.function, variable.annotation, entity.name.function, meta.class-method.js entity.name.function.js, variable.function",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Language Library",
-            "scope": "variable.language",
-            "foreground": "var(red)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[JavaScript] Library",
-            "scope": "support.function, support.macro",
-            "foreground": "var(blue)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[JavaScript] Support",
-            "scope": "support.type, support.class",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JavaScript] Support",
-            "scope": "keyword.control.flow.js",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JavaScript] Try Catch",
-            "scope": "keyword.control.trycatch.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Loop",
-            "scope": "keyword.control.loop.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Conditional",
-            "scope": "keyword.control.conditional.js, keyword.control.switch.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Null",
-            "scope": "constant.language.null.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Undefined",
-            "scope": "constant.language.undefined.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Boolean",
-            "scope": "source.js meta.export.js meta.binding.name.js variable.other.constant.js, constant.language.boolean.false.js, constant.language.boolean.true.js, source.js meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js variable.other.constant.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Return",
-            "scope": "source.js meta.function.js meta.block.js keyword.control.flow.js, source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Object",
-            "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[Markdown] Deleted",
-            "scope": "markup.deleted",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Markdown] Inserted",
-            "scope": "markup.inserted",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markdown] Changed",
-            "scope": "markup.changed",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[Markdown] Headings",
-            "scope": "markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown",
-            "font_style": "bold",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markdown] Links",
-            "scope": "string.other.link, markup.underline.link",
-            "font_style": "italic",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Markdown] Link Description",
-            "scope": "entity.name.reference.link.markdown, string.other.link.description.title.markdown, markup.underline.link.image.markdown",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Markdown] Link Description",
-            "scope": "markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.description.markdown, meta.block-level.markdown markup.quote.markdown meta.link.inline.description.markdown, text.html.markdown meta.paragraph.markdown meta.link.inline.description.markdown",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[Markdown] Image Inline",
-            "scope": "meta.paragraph.markdown meta.link.inline.description.markdown meta.image.inline.description.markdown, meta.paragraph.markdown meta.image.inline.description.markdown",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[Markdown] Bold",
-            "scope": "markup.bold",
-            "font_style": "bold",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Markdown] Italic",
-            "scope": "markup.italic",
-            "font_style": "italic",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Markdown] Bold & Italic",
-            "scope": "markup.italic markup.bold | markup.bold markup.italic",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "[Markdown] Line",
-            "scope": "punctuation.definition.thematic-break",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Markdown] Numbered List Bullet",
-            "scope": "markup.list.numbered.bullet",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markdown] Code Inline",
-            "scope": "markup.raw.inline",
-            "background": "color(var(blue) alpha(0.05))"
-        },
-        {
-            "name": "[Markdown] Code Block",
-            "scope": "meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm, meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm, meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
-            "background": "color(var(blue) alpha(0.05))"
-        },
-        {
-            "name": "[Markdown] Punctuation",
-            "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Markdown] Blockquotes",
-            "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
-            "font_style": "italic"
-        },
-        {
-            "name": "[Groovy] Conditional",
-            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Groovy] Return",
-            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
-            "foreground": "var(cyan)"
-        },
-        {
             "name": "[PHP] Inherited Class",
             "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
             "foreground": "var(orange)"
@@ -567,14 +468,14 @@
             "foreground": "var(orange)"
         },
         {
-            "name": "[SublimeLinter] Error",
-            "scope": "sublimelinter.mark.error",
-            "foreground": "var(invalid)"
+            "name": "[Groovy] Conditional",
+            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
+            "foreground": "var(cyan)"
         },
         {
-            "name": "[SublimeLinter] Gutter mark",
-            "scope": "sublimelinter.gutter-mark",
-            "foreground": "var(blue)"
+            "name": "[Groovy] Return",
+            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
+            "foreground": "var(cyan)"
         },
         {
             "name": "[JSON] Key ",
@@ -688,29 +589,108 @@
             "foreground": "var(cyan)"
         },
         {
-            "name": "[Vue] Directive symbol",
-            "scope": "text.html.vue punctuation.definition.attribute.html",
-            "foreground": "var(yellow)"
+            "name": "[SublimeLinter] Error",
+            "scope": "sublimelinter.mark.error",
+            "foreground": "var(invalid)"
         },
         {
-            "name": "[Vue] Attribute assignment",
-            "scope": "text.html.vue punctuation.separator.key-value.html",
-            "foreground": "var(cyan)"
+            "name": "[SublimeLinter] Gutter mark",
+            "scope": "sublimelinter.gutter-mark",
+            "foreground": "var(blue)"
         },
         {
-            "name": "[Vue] Function Parameter",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
-            "foreground": "var(pink)"
+            "name": "[Markdown] Deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red)"
         },
         {
-            "name": "[Vue] Object",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
+            "name": "[Markdown] Inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markdown] Changed",
+            "scope": "markup.changed",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[Markdown] Headings",
+            "scope": "markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown",
+            "font_style": "bold",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markdown] Links",
+            "scope": "string.other.link, markup.underline.link",
+            "font_style": "italic",
             "foreground": "var(purple)"
         },
         {
-            "name": "[Vue] Object Value",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
-            "foreground": "var(brown)"
+            "name": "[Markdown] Link Description",
+            "scope": "entity.name.reference.link.markdown, string.other.link.description.title.markdown, markup.underline.link.image.markdown",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Markdown] Link Description",
+            "scope": "markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.description.markdown, meta.block-level.markdown markup.quote.markdown meta.link.inline.description.markdown, text.html.markdown meta.paragraph.markdown meta.link.inline.description.markdown",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[Markdown] Image Inline",
+            "scope": "meta.paragraph.markdown meta.link.inline.description.markdown meta.image.inline.description.markdown, meta.paragraph.markdown meta.image.inline.description.markdown",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[Markdown] Bold",
+            "scope": "markup.bold",
+            "font_style": "bold",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Markdown] Italic",
+            "scope": "markup.italic",
+            "font_style": "italic",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Markdown] Bold & Italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "[Markdown] Line",
+            "scope": "punctuation.definition.thematic-break",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Markdown] Numbered List Bullet",
+            "scope": "markup.list.numbered.bullet",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markdown] Code Inline",
+            "scope": "markup.raw.inline",
+            "background": "color(var(blue) alpha(0.05))"
+        },
+        {
+            "name": "[Markdown] Code Block",
+            "scope": "meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm, meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm, meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
+            "background": "color(var(blue) alpha(0.05))"
+        },
+        {
+            "name": "[Markdown] Punctuation",
+            "scope": "(text punctuation.definition.italic | text punctuation.definition.bold)",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Markdown] Blockquotes",
+            "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
+            "font_style": "italic"
+        },
+        {
+            "name": "[Markdown] - Color for Punctuation — Heading, `Code` and fenced ```code blocks```, **Bold**, _Italic_",
+            "scope": "punctuation.definition.raw.begin.markdown, punctuation.definition.raw.end.markdown,  punctuation.definition.raw.code-fence.begin.markdown, punctuation.definition.raw.code-fence.end.markdown, punctuation.definition.heading.begin.markdown, punctuation.definition.bold.begin.markdown, punctuation.definition.bold.end.markdown, punctuation.definition.italic.begin.markdown, punctuation.definition.italic.end.markdown",
+            "foreground": "color(var(background) blend(var(foreground) 80%))"
         },
         {
             "name": "[JavaScript] Constructor",
@@ -766,6 +746,31 @@
             "name": "[Typescript] Return",
             "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts",
             "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Vue] Directive symbol",
+            "scope": "text.html.vue punctuation.definition.attribute.html",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[Vue] Attribute assignment",
+            "scope": "text.html.vue punctuation.separator.key-value.html",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Vue] Function Parameter",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Vue] Object",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Vue] Object Value",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
+            "foreground": "var(brown)"
         }
     ]
 }

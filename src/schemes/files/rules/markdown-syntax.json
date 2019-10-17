@@ -87,5 +87,10 @@
         "name": "[Markdown] Blockquotes",
         "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
         "font_style": "italic"
+    },
+    {
+        "name": "[Markdown] - Color for Punctuation — Heading, `Code` and fenced ```code blocks```, **Bold**, _Italic_",
+        "scope": "punctuation.definition.raw.begin.markdown, punctuation.definition.raw.end.markdown,  punctuation.definition.raw.code-fence.begin.markdown, punctuation.definition.raw.code-fence.end.markdown, punctuation.definition.heading.begin.markdown, punctuation.definition.bold.begin.markdown, punctuation.definition.bold.end.markdown, punctuation.definition.italic.begin.markdown, punctuation.definition.italic.end.markdown",
+        "foreground": "color(var(background) blend(var(foreground) 80%))"
     }
 ]
