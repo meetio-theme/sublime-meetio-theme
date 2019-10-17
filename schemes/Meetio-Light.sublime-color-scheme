@@ -190,6 +190,105 @@
             "foreground": "var(green)"
         },
         {
+            "name": "[Groovy] Conditional",
+            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Groovy] Return",
+            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(comments)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Class",
+            "scope": "meta.export.default meta.class storage.type.class, meta.class storage.type.class, meta.interface storage.type.interface",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Entity Name",
+            "scope": "meta.export meta.class entity.name.class, meta.class entity.name.class, meta.class entity.name.type.class",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Interface Name",
+            "scope": "meta.interface entity.name.type.interface",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Function Call",
+            "scope": "meta.function-call.constructor variable.type, meta.export meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.export meta.object-literal meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.catch meta.block meta.function-call.constructor variable.type, meta.function-call meta.group meta.function meta.block meta.function meta.block meta.function-call.constructor variable.type, meta.try meta.block meta.function-call.constructor variable.type, meta.class meta.block meta.function meta.block meta.function-call.constructor variable.type",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Import & Export",
+            "scope": "meta.use keyword.other.use, meta.use keyword.control.import.use, meta.at-rule.import keyword.control.at-rule.import, meta.import keyword.control.import-export, meta.export keyword.control.import-export, meta.export.default keyword.control.export, meta.export.default keyword.control.default",
+            "foreground": "var(cyan)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Declaration",
+            "scope": "meta.interface storage.modifier, meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Inherited",
+            "scope": "meta.interface entity.other.inherited-class, meta.class meta.path entity.other.inherited-class, meta.class entity.other.inherited-class",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable.member",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Operator",
+            "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage, storage.type",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "#fff",
+            "background": "var(invalid)"
+        },
+        {
+            "name": "Deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "#fff",
+            "background": "color(var(yellow) alpha(0.9))"
+        },
+        {
             "name": "[GitGutter] Inserted",
             "scope": "markup.inserted.git_gutter",
             "foreground": "var(diffAdded)"
@@ -210,14 +309,191 @@
             "foreground": "var(diffIgnored)"
         },
         {
-            "name": "[Groovy] Conditional",
-            "scope": "source.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.groovy, source.groovy meta.block.groovy meta.block.groovy meta.block.groovy keyword.control.exception.groovy",
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.other.template, keyword.other.substitution",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
             "foreground": "var(cyan)"
         },
         {
-            "name": "[Groovy] Return",
-            "scope": "source.groovy meta.block.groovy meta.block.groovy keyword.control.groovy",
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[INI] - Color for Entity",
+            "scope": "source.ini entity, meta.embedded.block.ini, source.ini",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[INI] - Color for Keyword",
+            "scope": "source.ini keyword, keyword.other.definition.ini",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[INI] - Color for Value",
+            "scope": "source.ini meta.declaration.ini meta.value.ini string.name.value.ini",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[INI] - Color for Punctuation Definition",
+            "scope": "source.ini punctuation.definition",
             "foreground": "var(cyan)"
+        },
+        {
+            "name": "[INI] - Color for Punctuation Separator",
+            "scope": "source.ini punctuation.separator, punctuation.separator.key-value.ini",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Constructor",
+            "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js storage.type.accessor.js, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JavaScript] Object Key",
+            "scope": "meta.object-literal.key.js",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Dollar",
+            "scope": "variable.other.dollar.only.js",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Function",
+            "scope": "variable.function, variable.annotation, entity.name.function, meta.class-method.js entity.name.function.js, variable.function",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JavaScript] Language Library",
+            "scope": "variable.language",
+            "foreground": "var(red)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Library",
+            "scope": "support.function, support.macro",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "support.type, support.class",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JavaScript] Support",
+            "scope": "keyword.control.flow.js",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JavaScript] Try Catch",
+            "scope": "keyword.control.trycatch.js",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Loop",
+            "scope": "keyword.control.loop.js",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Conditional",
+            "scope": "keyword.control.conditional.js, keyword.control.switch.js",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Null",
+            "scope": "constant.language.null.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Undefined",
+            "scope": "constant.language.undefined.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Boolean",
+            "scope": "source.js meta.export.js meta.binding.name.js variable.other.constant.js, constant.language.boolean.false.js, constant.language.boolean.true.js, source.js meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js variable.other.constant.js",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JavaScript] Return",
+            "scope": "source.js meta.function.js meta.block.js keyword.control.flow.js, source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[JavaScript] Object",
+            "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Punctuation Section",
+            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation Mapping",
+            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Punctuation String",
+            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[JSON] Mapping Level 1",
+            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Mapping Level 2",
+            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(brown)"
         },
         {
             "name": "[Markdown] Deleted",
@@ -312,257 +588,6 @@
             "name": "[Markdown] - Color for Punctuation — Heading, `Code` and fenced ```code blocks```, **Bold**, _Italic_",
             "scope": "punctuation.definition.raw.begin.markdown, punctuation.definition.raw.end.markdown,  punctuation.definition.raw.code-fence.begin.markdown, punctuation.definition.raw.code-fence.end.markdown, punctuation.definition.heading.begin.markdown, punctuation.definition.bold.begin.markdown, punctuation.definition.bold.end.markdown, punctuation.definition.italic.begin.markdown, punctuation.definition.italic.end.markdown",
             "foreground": "color(var(background) blend(var(foreground) 80%))"
-        },
-        {
-            "name": "[JSON] Key ",
-            "scope": "meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Value",
-            "scope": "meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JSON] Constant",
-            "scope": "constant.language.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Character Escape",
-            "scope": "constant.character.escape.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Constant Numeric",
-            "scope": "constant.numeric.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Punctuation Section",
-            "scope": "punctuation.section.sequence.begin.json, punctuation.section.sequence.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation Mapping",
-            "scope": "punctuation.section.mapping.begin.json, punctuation.section.mapping.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Punctuation String",
-            "scope": "punctuation.definition.string.begin.json, punctuation.definition.string.end.json",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JSON] Mapping Level 1",
-            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Mapping Level 2",
-            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(brown)"
-        },
-        {
-            "name": "[JavaScript] Constructor",
-            "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js storage.type.accessor.js, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JavaScript] Object Key",
-            "scope": "meta.object-literal.key.js",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Dollar",
-            "scope": "variable.other.dollar.only.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Function",
-            "scope": "variable.function, variable.annotation, entity.name.function, meta.class-method.js entity.name.function.js, variable.function",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[JavaScript] Language Library",
-            "scope": "variable.language",
-            "foreground": "var(red)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[JavaScript] Library",
-            "scope": "support.function, support.macro",
-            "foreground": "var(blue)",
-            "font_style": "italic"
-        },
-        {
-            "name": "[JavaScript] Support",
-            "scope": "support.type, support.class",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JavaScript] Support",
-            "scope": "keyword.control.flow.js",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JavaScript] Try Catch",
-            "scope": "keyword.control.trycatch.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Loop",
-            "scope": "keyword.control.loop.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Conditional",
-            "scope": "keyword.control.conditional.js, keyword.control.switch.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Null",
-            "scope": "constant.language.null.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Undefined",
-            "scope": "constant.language.undefined.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Boolean",
-            "scope": "source.js meta.export.js meta.binding.name.js variable.other.constant.js, constant.language.boolean.false.js, constant.language.boolean.true.js, source.js meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js variable.other.constant.js",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[JavaScript] Return",
-            "scope": "source.js meta.function.js meta.block.js keyword.control.flow.js, source.js meta.class.js meta.block.js meta.function.js meta.block.js keyword.control.flow.js",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[JavaScript] Object",
-            "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.other.template, keyword.other.substitution",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.operator, constant.other.color, punctuation, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Tag Name",
-            "scope": "entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Comment",
-            "scope": "comment, punctuation.definition.comment",
-            "foreground": "var(comments)",
-            "font_style": "italic"
-        },
-        {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Class",
-            "scope": "meta.export.default meta.class storage.type.class, meta.class storage.type.class, meta.interface storage.type.interface",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Entity Name",
-            "scope": "meta.export meta.class entity.name.class, meta.class entity.name.class, meta.class entity.name.type.class",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "Interface Name",
-            "scope": "meta.interface entity.name.type.interface",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "Function Call",
-            "scope": "meta.function-call.constructor variable.type, meta.export meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.export meta.object-literal meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.catch meta.block meta.function-call.constructor variable.type, meta.function-call meta.group meta.function meta.block meta.function meta.block meta.function-call.constructor variable.type, meta.try meta.block meta.function-call.constructor variable.type, meta.class meta.block meta.function meta.block meta.function-call.constructor variable.type",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "Import & Export",
-            "scope": "meta.use keyword.other.use, meta.use keyword.control.import.use, meta.at-rule.import keyword.control.at-rule.import, meta.import keyword.control.import-export, meta.export keyword.control.import-export, meta.export.default keyword.control.export, meta.export.default keyword.control.default",
-            "foreground": "var(cyan)",
-            "font_style": "italic"
-        },
-        {
-            "name": "Declaration",
-            "scope": "meta.interface storage.modifier, meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Inherited",
-            "scope": "meta.interface entity.other.inherited-class, meta.class meta.path entity.other.inherited-class, meta.class entity.other.inherited-class",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "Constant",
-            "scope": "constant.character, constant.other",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Variable",
-            "scope": "variable.member",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "Operator",
-            "scope": "keyword.operator, keyword - keyword.operator, keyword.operator.word",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Punctuation",
-            "scope": "punctuation.terminator, punctuation.section, punctuation.definition.annotation",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "Storage",
-            "scope": "storage, storage.type",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "String",
-            "scope": "string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Invalid",
-            "scope": "invalid",
-            "foreground": "#fff",
-            "background": "var(invalid)"
-        },
-        {
-            "name": "Deprecated",
-            "scope": "invalid.deprecated",
-            "foreground": "#fff",
-            "background": "color(var(yellow) alpha(0.9))"
         },
         {
             "name": "[PHP] Inherited Class",
@@ -693,6 +718,31 @@
             "foreground": "var(blue)"
         },
         {
+            "name": "[Vue] Directive symbol",
+            "scope": "text.html.vue punctuation.definition.attribute.html",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[Vue] Attribute assignment",
+            "scope": "text.html.vue punctuation.separator.key-value.html",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[Vue] Function Parameter",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Vue] Object",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Vue] Object Value",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
+            "foreground": "var(brown)"
+        },
+        {
             "name": "[JavaScript] Constructor",
             "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts, meta.function-call.constructor.ts, entity.name.function.constructor.ts, variable.language.constructor.ts",
             "foreground": "var(purple)"
@@ -765,31 +815,6 @@
         {
             "name": "[Typescript] Method Declaration",
             "scope": "source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.function-call.tsx variable.other.object.tsx, source.tsx meta.export.default.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.module.tsx",
-            "foreground": "var(brown)"
-        },
-        {
-            "name": "[Vue] Directive symbol",
-            "scope": "text.html.vue punctuation.definition.attribute.html",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[Vue] Attribute assignment",
-            "scope": "text.html.vue punctuation.separator.key-value.html",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[Vue] Function Parameter",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[Vue] Object",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Vue] Object Value",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
             "foreground": "var(brown)"
         }
     ]

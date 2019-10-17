@@ -1,0 +1,27 @@
+[
+    {
+        "name": "[INI] - Color for Entity",
+        "scope": "source.ini entity, meta.embedded.block.ini, source.ini",
+        "foreground": "var(red)"
+    },
+    {
+        "name": "[INI] - Color for Keyword",
+        "scope": "source.ini keyword, keyword.other.definition.ini",
+        "foreground": "var(purple)"
+    },
+    {
+        "name": "[INI] - Color for Value",
+        "scope": "source.ini meta.declaration.ini meta.value.ini string.name.value.ini",
+        "foreground": "var(green)"
+    },
+    {
+        "name": "[INI] - Color for Punctuation Definition",
+        "scope": "source.ini punctuation.definition",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[INI] - Color for Punctuation Separator",
+        "scope": "source.ini punctuation.separator, punctuation.separator.key-value.ini",
+        "foreground": "var(cyan)"
+    }
+]
