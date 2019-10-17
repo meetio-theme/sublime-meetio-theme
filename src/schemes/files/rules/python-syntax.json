@@ -20,11 +20,6 @@
         "foreground":"var(yellow)"
     },
     {
-        "name":"[Python] Constant",
-        "scope":"source.python meta.function.parameters.default-value.python constant.language.python",
-        "foreground":"var(purple)"
-    },
-    {
         "name":"[Python] Print",
         "scope":"source.python keyword.other.print.python, source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
         "font_style": "normal",
@@ -44,11 +39,6 @@
         "name":"[Python] Exception",
         "scope":"source.python meta.statement.raise.python meta.function-call.python meta.qualified-name.python variable.function.python support.type.exception.python",
         "foreground":"var(red)"
-    },
-    {
-        "name":"[Python] Statements",
-        "scope":"source.python meta.statement.for.python keyword.control.flow.for.python, source.python meta.statement.if.python keyword.control.flow.conditional.python, source.python meta.statement.conditional.python keyword.control.flow.conditional.python, source.python keyword.control.flow.break.python, source.python keyword.control.flow.continue.python, source.python meta.statement.while.python keyword.control.flow.while.python, source.python keyword.control.flow.pass.python",
-        "foreground":"var(cyan)"
     },
     {
         "name":"[Python] Function Parameters",

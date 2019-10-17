@@ -54,6 +54,91 @@
     },
     "rules": [
         {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(comments)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Class",
+            "scope": "meta.export.default meta.class storage.type.class, meta.class storage.type.class, meta.interface storage.type.interface",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Entity Name",
+            "scope": "meta.export meta.class entity.name.class, meta.class entity.name.class, meta.class entity.name.type.class",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Interface Name",
+            "scope": "meta.interface entity.name.type.interface",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Function Call",
+            "scope": "meta.function-call.constructor variable.type, meta.export meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.export meta.object-literal meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.catch meta.block meta.function-call.constructor variable.type, meta.function-call meta.group meta.function meta.block meta.function meta.block meta.function-call.constructor variable.type, meta.try meta.block meta.function-call.constructor variable.type, meta.class meta.block meta.function meta.block meta.function-call.constructor variable.type",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "Declaration",
+            "scope": "meta.interface storage.modifier, meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Inherited",
+            "scope": "meta.interface entity.other.inherited-class, meta.class meta.path entity.other.inherited-class, meta.class entity.other.inherited-class",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+            "scope": "constant.numeric, constant.language, support.constant, constant.character, constant.escape, keyword.other.unit, keyword.other",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable.member",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Operator, Misc",
+            "scope": "keyword.control, constant.other.color, punctuation.definition.tag, punctuation, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitutio, keyword.operator.star.sql",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage, storage.type",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "#fff",
+            "background": "var(invalid)"
+        },
+        {
+            "name": "Deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "#fff",
+            "background": "color(var(yellow) alpha(0.9))"
+        },
+        {
+            "name": "[Diff] Deleted",
+            "scope": "diff.deleted, diff.deleted.char",
+            "background": "color(var(red) alpha(0.08))",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Diff] Insert",
+            "scope": "diff.inserted, diff.inserted.char",
+            "background": "color(var(green) alpha(0.08))",
+            "foreground": "var(green)"
+        },
+        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(green)"
@@ -158,141 +243,6 @@
             "foreground": "var(cyan)"
         },
         {
-            "name": "[Diff] Deleted",
-            "scope": "diff.deleted, diff.deleted.char",
-            "background": "color(var(red) alpha(0.08))",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Diff] Insert",
-            "scope": "diff.inserted, diff.inserted.char",
-            "background": "color(var(green) alpha(0.08))",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.other.template, keyword.other.substitution",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Tag Name",
-            "scope": "entity.name.tag",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[GitGutter] Inserted",
-            "scope": "markup.inserted.git_gutter",
-            "foreground": "var(diffAdded)"
-        },
-        {
-            "name": "[GitGutter] Modified",
-            "scope": "markup.changed.git_gutter",
-            "foreground": "var(diffModified)"
-        },
-        {
-            "name": "[GitGutter] Deleted",
-            "scope": "markup.deleted.git_gutter",
-            "foreground": "var(diffDeleted)"
-        },
-        {
-            "name": "[GitGutter] Ignored",
-            "scope": "markup.ignored.git_gutter",
-            "foreground": "var(diffIgnored)"
-        },
-        {
-            "name": "Comment",
-            "scope": "comment, punctuation.definition.comment",
-            "foreground": "var(comments)",
-            "font_style": "italic"
-        },
-        {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Class",
-            "scope": "meta.export.default meta.class storage.type.class, meta.class storage.type.class, meta.interface storage.type.interface",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Entity Name",
-            "scope": "meta.export meta.class entity.name.class, meta.class entity.name.class, meta.class entity.name.type.class",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "Interface Name",
-            "scope": "meta.interface entity.name.type.interface",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "Function Call",
-            "scope": "meta.function-call.constructor variable.type, meta.export meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.export meta.object-literal meta.object-literal meta.function meta.block meta.function-call.constructor variable.type, meta.catch meta.block meta.function-call.constructor variable.type, meta.function-call meta.group meta.function meta.block meta.function meta.block meta.function-call.constructor variable.type, meta.try meta.block meta.function-call.constructor variable.type, meta.class meta.block meta.function meta.block meta.function-call.constructor variable.type",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "Declaration",
-            "scope": "meta.interface storage.modifier, meta.export.default meta.class meta.method.declaration storage.modifier, meta.class storage.modifier",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Inherited",
-            "scope": "meta.interface entity.other.inherited-class, meta.class meta.path entity.other.inherited-class, meta.class entity.other.inherited-class",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "Constant",
-            "scope": "constant.character, constant.other",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Variable",
-            "scope": "variable.member",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "Operator, Misc",
-            "scope": "keyword.control, constant.other.color, punctuation.definition.tag, punctuation, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitutio, keyword.operator.star.sql",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "Storage",
-            "scope": "storage, storage.type",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "String",
-            "scope": "string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "Invalid",
-            "scope": "invalid",
-            "foreground": "#fff",
-            "background": "var(invalid)"
-        },
-        {
-            "name": "Deprecated",
-            "scope": "invalid.deprecated",
-            "foreground": "#fff",
-            "background": "color(var(yellow) alpha(0.9))"
-        },
-        {
             "name": "[JavaScript] Constructor",
             "scope": "source.js meta.class.js meta.block.js meta.function.declaration.js storage.type.accessor.js, meta.function-call.constructor.js, entity.name.function.constructor.js, variable.language.constructor.js",
             "foreground": "var(purple)"
@@ -343,6 +293,66 @@
             "name": "[JavaScript] Object",
             "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
             "foreground": "var(pink)"
+        },
+        {
+            "name": "[INI] - Color for Entity",
+            "scope": "source.ini entity, meta.embedded.block.ini, source.ini",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[INI] - Color for Keyword",
+            "scope": "source.ini keyword, keyword.other.definition.ini",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[INI] - Color for Value",
+            "scope": "source.ini meta.declaration.ini meta.value.ini string.name.value.ini",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Operator",
+            "scope": "keyword.other.template, keyword.other.substitution",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[HTML] Tag Name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[GitGutter] Inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": "var(diffAdded)"
+        },
+        {
+            "name": "[GitGutter] Modified",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "var(diffModified)"
+        },
+        {
+            "name": "[GitGutter] Deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "var(diffDeleted)"
+        },
+        {
+            "name": "[GitGutter] Ignored",
+            "scope": "markup.ignored.git_gutter",
+            "foreground": "var(diffIgnored)"
         },
         {
             "name": "[Markdown] Deleted",
@@ -470,46 +480,6 @@
             "foreground": "var(orange)"
         },
         {
-            "name": "[SQL] Source",
-            "scope": "source.sql",
-            "foreground": "var(foreground)"
-        },
-        {
-            "name": "[SQL] — Other keywords",
-            "scope": "keyword.other.DML.sql",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[SQL] — Function",
-            "scope": "support.function.aggregate.sql",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[SublimeLinter] Error",
-            "scope": "sublimelinter.mark.error",
-            "foreground": "var(invalid)"
-        },
-        {
-            "name": "[SublimeLinter] Gutter mark",
-            "scope": "sublimelinter.gutter-mark",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[INI] - Color for Entity",
-            "scope": "source.ini entity, meta.embedded.block.ini, source.ini",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[INI] - Color for Keyword",
-            "scope": "source.ini keyword, keyword.other.definition.ini",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[INI] - Color for Value",
-            "scope": "source.ini meta.declaration.ini meta.value.ini string.name.value.ini",
-            "foreground": "var(green)"
-        },
-        {
             "name": "[JSON] Key ",
             "scope": "meta.mapping.key.json string.quoted.double.json",
             "foreground": "var(red)"
@@ -565,11 +535,6 @@
             "foreground": "var(yellow)"
         },
         {
-            "name": "[Python] Constant",
-            "scope": "source.python meta.function.parameters.default-value.python constant.language.python",
-            "foreground": "var(purple)"
-        },
-        {
             "name": "[Python] Print",
             "scope": "source.python keyword.other.print.python, source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
             "font_style": "normal",
@@ -591,14 +556,34 @@
             "foreground": "var(red)"
         },
         {
-            "name": "[Python] Statements",
-            "scope": "source.python meta.statement.for.python keyword.control.flow.for.python, source.python meta.statement.if.python keyword.control.flow.conditional.python, source.python meta.statement.conditional.python keyword.control.flow.conditional.python, source.python keyword.control.flow.break.python, source.python keyword.control.flow.continue.python, source.python meta.statement.while.python keyword.control.flow.while.python, source.python keyword.control.flow.pass.python",
-            "foreground": "var(cyan)"
-        },
-        {
             "name": "[Python] Function Parameters",
             "scope": "source.python meta.item-access.python meta.qualified-name.python meta.generic-name.python, source.python meta.function.parameters.annotation.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
             "foreground": "var(yellow)"
+        },
+        {
+            "name": "[SQL] Source",
+            "scope": "source.sql",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "[SQL] — Other keywords",
+            "scope": "keyword.other.DML.sql",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[SQL] — Function",
+            "scope": "support.function.aggregate.sql",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[SublimeLinter] Error",
+            "scope": "sublimelinter.mark.error",
+            "foreground": "var(invalid)"
+        },
+        {
+            "name": "[SublimeLinter] Gutter mark",
+            "scope": "sublimelinter.gutter-mark",
+            "foreground": "var(blue)"
         },
         {
             "name": "[JavaScript] Constructor",

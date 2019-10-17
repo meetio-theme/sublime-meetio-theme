@@ -6,11 +6,6 @@
         "font_style": "italic"
     },
     {
-        "name": "Number",
-        "scope": "constant.numeric",
-        "foreground": "var(green)"
-    },
-    {
         "name": "Class",
         "scope": "meta.export.default meta.class storage.type.class, meta.class storage.type.class, meta.interface storage.type.interface",
         "foreground": "var(purple)"
@@ -41,9 +36,9 @@
         "foreground": "var(orange)"
     },
     {
-        "name": "Constant",
-        "scope": "constant.character, constant.other",
-        "foreground": "var(purple)"
+        "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+        "scope": "constant.numeric, constant.language, support.constant, constant.character, constant.escape, keyword.other.unit, keyword.other",
+        "foreground": "var(pink)"
     },
     {
         "name": "Variable",
