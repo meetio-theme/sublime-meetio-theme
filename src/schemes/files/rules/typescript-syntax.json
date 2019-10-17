@@ -11,8 +11,28 @@
     },
     {
         "name": "[Typescript] Primitive",
-        "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts support.type.primitive.ts",
+        "scope": "support.type.primitive.ts",
         "foreground": "var(pink)"
+    },
+    {
+        "name": "[Typescript] Return",
+        "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts, source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx keyword.control.flow.tsx",
+        "foreground": "var(cyan)"
+    },
+ {
+        "name": "[JavaScript] Try Catch",
+        "scope": "keyword.control.trycatch.ts, keyword.control.trycatch.tsx",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[JavaScript] Loop",
+        "scope": "keyword.control.loop.ts, keyword.control.loop.tsx",
+        "foreground": "var(cyan)"
+    },
+    {
+        "name": "[JavaScript] Conditional",
+        "scope": "keyword.control.conditional.ts, keyword.control.conditional.tsx, keyword.control.switch.ts, keyword.control.switch.tsx",
+        "foreground": "var(cyan)"
     },
     {
         "name": "[Typescript] Parameters",
@@ -30,11 +50,6 @@
         "foreground": "var(cyan)"
     },
     {
-        "name": "[Typescript] Support",
-        "scope": "keyword.control.flow.ts",
-        "foreground": "var(purple)"
-    },
-    {
         "name": "[Typescript] Try Catch",
         "scope": "keyword.control.trycatch.ts",
         "foreground": "var(cyan)"
@@ -50,8 +65,8 @@
         "foreground": "var(cyan)"
     },
     {
-        "name": "[Typescript] Return",
-        "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts",
-        "foreground": "var(cyan)"
+        "name": "[Typescript] Declaration",
+        "scope": "source.tsx meta.export.default.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx",
+        "foreground": "var(pink)"
     }
 ]
