@@ -16,7 +16,7 @@
     },
     {
         "name": "[Typescript] Return",
-        "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts, source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx keyword.control.flow.tsx",
+        "scope": "source.tsx meta.export.default.tsx meta.class.tsx meta.field.declaration.tsx meta.arrow.tsx meta.block.tsx keyword.control.flow.tsx, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.block.ts keyword.control.flow.ts, source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts, source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx keyword.control.flow.tsx",
         "foreground": "var(cyan)"
     },
  {
@@ -56,7 +56,7 @@
     },
     {
         "name": "[Typescript] Loop",
-        "scope": "keyword.control.loop.ts",
+        "scope": "keyword.control.loop.ts, source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.array.literal.tsx keyword.control.as.tsx",
         "foreground": "var(cyan)"
     },
     {
@@ -65,8 +65,13 @@
         "foreground": "var(cyan)"
     },
     {
-        "name": "[Typescript] Declaration",
+        "name": "[Typescript] Field Declaration",
         "scope": "source.tsx meta.export.default.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx",
-        "foreground": "var(pink)"
+        "foreground": "var(yellow)"
+    },
+    {
+        "name": "[Typescript] Method Declaration",
+        "scope": "source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.function-call.tsx variable.other.object.tsx, source.tsx meta.export.default.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.module.tsx",
+        "foreground": "var(brown)"
     }
 ]
