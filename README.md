@@ -100,7 +100,7 @@ To enjoy a better experience of using the **Meetio Theme** in your Sublime Text,
 
 | Usage           | Light                                                                         | Dark                                                                          |
 | --------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| `Cursor`        | ![#5f7e97](https://placehold.it/30x24/5f7e97/000000?text=%20) `#5f7e97`       | ![#ffcc00](https://placehold.it/30x24/ffcc00/000000?text=%20) `#ffcc00`       |
+| `Cursor`        | ![#7e57c2](https://placehold.it/30x24/7e57c2/000000?text=%20) `#7e57c2`       | ![#ffcc00](https://placehold.it/30x24/ffcc00/000000?text=%20) `#ffcc00`       |
 | `Foreground`    | ![#455A64](https://placehold.it/30x24/455A64/000000?text=%20) `#455A64`       | ![#dedfe4](https://placehold.it/30x24/dedfe4/000000?text=%20) `#dedfe4`       |
 | `Background`    | ![#fbfbfb](https://placehold.it/30x24/fbfbfb/000000?text=%20) `#fbfbfb`       | ![#011627](https://placehold.it/30x24/011627/000000?text=%20) `#011627`       |
 | `Comments`      | ![#90a4ae](https://placehold.it/30x24/90a4ae/000000?text=%20) `#90a4ae`       | ![#697098](https://placehold.it/30x24/697098/000000?text=%20) `#697098`       |
@@ -113,7 +113,7 @@ To enjoy a better experience of using the **Meetio Theme** in your Sublime Text,
 | `Purple`        | ![#7c4dff](https://placehold.it/30x24/7c4dff/000000?text=%20) `#7c4dff`       | ![#c2afff](https://placehold.it/30x24/c2afff/000000?text=%20) `#c2afff`       |
 | `Red`           | ![#e53935](https://placehold.it/30x24/e53935/000000?text=%20) `#e53935`       | ![#d95757](https://placehold.it/30x24/d95757/000000?text=%20) `#d95757`       |
 | `Yellow`        | ![#f3ad2c](https://placehold.it/30x24/f3ad2c/000000?text=%20) `#f3ad2c`       | ![#ffcb6b](https://placehold.it/30x24/ffcb6b/000000?text=%20) `#ffcb6b`       |
-| `Invalid`       | ![#d3423e3a](https://placehold.it/30x24/d3423e3a/000000?text=%20) `#d3423e3a` | ![#d46c6c3a](https://placehold.it/30x24/d46c6c3a/000000?text=%20) `#d46c6c3a` |
+| `Invalid`       | ![#d3423e66](https://placehold.it/30x24/d3423e66/000000?text=%20) `#d3423e66` | ![#d46c6c66](https://placehold.it/30x24/d46c6c66/000000?text=%20) `#d46c6c66` |
 | `Diff Added`    | ![#9ccc65](https://placehold.it/30x24/9ccc65/000000?text=%20) `#9ccc65`       | ![#9ccc65](https://placehold.it/30x24/9ccc65/000000?text=%20) `#9ccc65`       |
 | `Diff Modified` | ![#e2b93d](https://placehold.it/30x24/e2b93d/000000?text=%20) `#e2b93d`       | ![#e2b93d](https://placehold.it/30x24/e2b93d/000000?text=%20) `#e2b93d`       |
 | `Diff Deleted`  | ![#ef5350](https://placehold.it/30x24/ef5350/000000?text=%20) `#ef5350`       | ![#ef5350](https://placehold.it/30x24/ef5350/000000?text=%20) `#ef5350`       |
