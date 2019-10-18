@@ -15,7 +15,7 @@
         "purple"       : "#c2afff",
         "red"          : "#d95757",
         "yellow"       : "#ffcb8b",
-        "invalid"      : "#d46c6c",
+        "invalid"      : "#d46c6c3a",
         "diffAdded"    : "#addb67",
         "diffModified" : "#e2b93d",
         "diffDeleted"  : "#ef5350",
