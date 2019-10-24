@@ -7,7 +7,7 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ---
 
 <a name="2.4.0"></a>
-## [2.4.0](https://github.com/mauroreisvieira/meetio/compare/v2.3.0...v2.4.0) (2019-07-23)
+## [2.4.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v2.3.0...v2.4.0) (2019-07-23)
 
 ### BREAKING CHANGES
 * Remove options for Tabs: `meetio_tabs_diff_highlight` use only the default `highlight_modified_tabs`.
@@ -19,7 +19,7 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ---
 
 <a name="2.2.0"></a>
-## [2.2.0](https://github.com/mauroreisvieira/meetio/compare/v2.1.0...v2.2.0) (2019-06-25)
+## [2.2.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v2.1.0...v2.2.0) (2019-06-25)
 
 ### FEATURES
 * Add syntax improvements for: `CSS`, `PHP`, `Perl` & `Python`. TY [@pykong](https://github.com/pykong).
@@ -28,7 +28,7 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ---
 
 <a name="2.1.0"></a>
-## [2.1.0](https://github.com/mauroreisvieira/meetio/compare/v2.0.1...v2.1.0) (2019-06-11)
+## [2.1.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v2.0.1...v2.1.0) (2019-06-11)
 
 ### FEATURES
 * Add syntax improvements for: `PHP` & `Python`. Thanks [@pykong](https://github.com/pykong) for your feedback.
@@ -37,7 +37,7 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 * Add variable `tabBold`.
 
 ### BUGFIXES
-* Fix multiple files stay selected on Windows [issue #11](https://github.com/mauroreisvieira/meetio/issues/11). Thanks [@f8ttyc8t](https://github.com/f8ttyc8t) for your report.
+* Fix multiple files stay selected on Windows [issue #11](https://github.com/meetio-theme/sublime-meetio-theme/issues/11). Thanks [@f8ttyc8t](https://github.com/f8ttyc8t) for your report.
 
 ### BREAKING CHANGES
 * Remove options for Tabs: `meetio_tabs_big`, `meetio_tabs_bold` & `meetio_tabs_autowidth`.
@@ -47,7 +47,7 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ---
 
 <a name="2.0.1"></a>
-## [2.0.1](https://github.com/mauroreisvieira/meetio/compare/v2.0.0...v2.0.1) (2019-05-03)
+## [2.0.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v2.0.0...v2.0.1) (2019-05-03)
 
 ### FEATURES
 * Add option `meetio_tabs_diff_pencil_icon`  to show a pencil icon in tab.
@@ -59,7 +59,7 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ---
 
 <a name="2.0.0"></a>
-## [2.0.0](https://github.com/mauroreisvieira/meetio/compare/v1.8.0...v2.0.0) (2019-04-09)
+## [2.0.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.8.0...v2.0.0) (2019-04-09)
 
 ### FEATURES
 * Add variables to allow more customize.
@@ -70,7 +70,7 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ---
 
 <a name="1.8.0"></a>
-## [1.8.0](https://github.com/mauroreisvieira/meetio/compare/v1.7.1...v1.8.0) (2019-03-14)
+## [1.8.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.7.1...v1.8.0) (2019-03-14)
 
 ### FEATURES
 * Add option `meetio_status_badges` show/hide status badges in status bar.
@@ -88,7 +88,7 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ---
 
 <a name="1.7.1"></a>
-## [1.7.1](https://github.com/mauroreisvieira/meetio/compare/v1.7.0...v1.7.1) (2019-03-14)
+## [1.7.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.7.0...v1.7.1) (2019-03-14)
 
 ### BUGFIXES
 * Fix variables on panel and status bar.
@@ -96,7 +96,7 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 ---
 
 <a name="1.7.0"></a>
-## [1.7.0](https://github.com/mauroreisvieira/meetio/compare/v1.6.9...v1.7.0) (2019-03-12)
+## [1.7.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.6.9...v1.7.0) (2019-03-12)
 
 ### FEATURES
 * Add option `meetio_tabs_diff_icon`  to show/hide the icon diff in tab.
@@ -109,12 +109,12 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 * Fix `button_background_color_hover` variable, to use the correct color instead of opacity.
 
 #### NOTE
-Thanks [abathur](https://github.com/abathur) for you feedback/report on issue [#6](https://github.com/mauroreisvieira/meetio/issues/6).
+Thanks [abathur](https://github.com/abathur) for you feedback/report on issue [#6](https://github.com/meetio-theme/sublime-meetio-theme/issues/6).
 
 ---
 
 <a name="1.6.0"></a>
-## [1.6.0](https://github.com/mauroreisvieira/meetio/compare/v1.5.1...v1.6.0) (2019-03-01)
+## [1.6.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.5.1...v1.6.0) (2019-03-01)
 
 ### FEATURES
 * Add syntax Improvements for: `HTML`, `CSS`, `JavaScript`, `PHP` & `Markdown` and others.
@@ -126,7 +126,7 @@ Thanks [abathur](https://github.com/abathur) for you feedback/report on issue [#
 ---
 
 <a name="1.5.1"></a>
-## [1.5.1](https://github.com/mauroreisvieira/meetio/compare/v1.5.0...v1.5.1) (2019-02-24)
+## [1.5.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.5.0...v1.5.1) (2019-02-24)
 
 ### BUGFIXES
 * Fix color of lighter scheme.
@@ -134,7 +134,7 @@ Thanks [abathur](https://github.com/abathur) for you feedback/report on issue [#
 ---
 
 <a name="1.5.0"></a>
-## [1.5.0](https://github.com/mauroreisvieira/meetio/compare/v1.4.1...v1.5.0) (2019-02-20)
+## [1.5.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.4.1...v1.5.0) (2019-02-20)
 
 ### FEATURES
 * Add new variation of scheme: `Meetio-Ocean`.
@@ -152,7 +152,7 @@ Thanks [abathur](https://github.com/abathur) for you feedback/report on issue [#
 ---
 
 <a name="1.4.1"></a>
-## [1.4.1](https://github.com/mauroreisvieira/meetio/compare/v1.4.0...v1.4.1) (2019-02-15)
+## [1.4.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.4.0...v1.4.1) (2019-02-15)
 
 ### FEATURES
 * Add variable of `sidebar_icon_file_color`, to possibility change the color of icons in sidebar.
@@ -163,7 +163,7 @@ Thanks [abathur](https://github.com/abathur) for you feedback/report on issue [#
 ---
 
 <a name="1.4.0"></a>
-## [1.4.0](https://github.com/mauroreisvieira/meetio/compare/v1.3.0...v1.4.0) (2019-02-01)
+## [1.4.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.3.0...v1.4.0) (2019-02-01)
 
 ### FEATURES
 * Add colors of `line_diff_modified`, `line_diff_added` and `line_diff_deleted` in scheme.
@@ -178,7 +178,7 @@ Thanks [abathur](https://github.com/abathur) for you feedback/report on issue [#
 ---
 
 <a name="1.3.0"></a>
-## [1.3.0](https://github.com/mauroreisvieira/meetio/compare/v1.2.0...v1.3.0) (2019-01-25)
+## [1.3.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.2.0...v1.3.0) (2019-01-25)
 
 ### FEATURES
 * Add new scheme `Meetio-Ocean`.sublime-scheme
@@ -191,7 +191,7 @@ Thanks [abathur](https://github.com/abathur) for you feedback/report on issue [#
 ---
 
 <a name="1.2.0"></a>
-## [1.2.0](https://github.com/mauroreisvieira/meetio/compare/v1.1.1...v1.2.0) (2019-01-19)
+## [1.2.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.1.1...v1.2.0) (2019-01-19)
 
 ### FEATURES
 * Add option `Meetio: Theme Configuration`  this allow the possibility to overwrite the default variables
@@ -209,7 +209,7 @@ Thanks [abathur](https://github.com/abathur) for you feedback/report on issue [#
 ---
 
 <a name="1.1.1"></a>
-## [1.1.1](https://github.com/mauroreisvieira/meetio/compare/v1.0.0...v1.1.1) (2019-01-15)
+## [1.1.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.0.0...v1.1.1) (2019-01-15)
 
 ### CHANGED
 * Update color of background in Meetio Darker Scheme
