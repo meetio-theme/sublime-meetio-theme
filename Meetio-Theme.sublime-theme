@@ -1,5 +1,5 @@
 {
-    "extends": "Meetio.json",
+    "extends": "Meetio-Theme.json",
     "variables": {
         "colorAccent": "#5f7e97",
         "colorDark": "#455A64",

@@ -8,13 +8,13 @@
                 "id": "package-settings",
                 "children": [
                     {
-                        "caption": "Meetio",
+                        "caption": "Meetio-Theme",
                         "children": [
                             {
                                 "caption": "Edit Settings",
                                 "command": "edit_settings",
                                 "args": {
-                                    "base_file": "${packages}/Meetio/Preferences.sublime-settings",
+                                    "base_file": "${packages}/Meetio-Theme/Preferences.sublime-settings",
                                     "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
                                 }
                             },
@@ -22,7 +22,7 @@
                                 "caption": "Theme Configuration",
                                 "command": "edit_settings",
                                 "args": {
-                                    "base_file": "${packages}/Meetio/Meetio.sublime-theme",
+                                    "base_file": "${packages}/Meetio-Theme/Meetio-Theme.sublime-theme",
                                     "default": "{\n    \"variables\": {\n\t\t$0\n\t}\n}\n"
                                 }
                             },
@@ -31,14 +31,14 @@
                                 "caption": "Changelog",
                                 "command": "open_url",
                                 "args": {
-                                    "url": "https://github.com/mauroreisvieira/meetio/blob/master/CHANGELOG.md"
+                                    "url": "https://github.com/meetio-theme/sublime-meetio-theme/blob/master/CHANGELOG.md"
                                 }
                             },
                             {
                                 "caption": "Issues",
                                 "command": "open_url",
                                 "args": {
-                                    "url": "https://github.com/mauroreisvieira/meetio/issues"
+                                    "url": "https://github.com/meetio-theme/sublime-meetio-theme/issues"
                                 }
                             }
                         ]

@@ -1,102 +1,157 @@
-[![GitHub tag](https://img.shields.io/github/release/mauroreisvieira/meetio.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/releases)
-![Build Status](https://img.shields.io/travis/mauroreisvieira/meetio/master.svg?style=for-the-badge)
-[![GitHub issues](https://img.shields.io/github/issues/mauroreisvieira/meetio.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/issues)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/mauroreisvieira/meetio/blob/master/LICENSE)
+# Markdown File Example
 
-**Meetio Theme** is the most powerful theme for Sublime Text 3 with different scheme variations only for 3176+ version.\
-You can help improve the theme by reporting issues [here](https://github.com/mauroreisvieira/meetio/issues).
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
- - [Installation](#installation)
- - [Activate Theme](#activate-theme)
- - [Theme Settings](#theme-settings)
- - [Override Theme Variables](#override-theme-variables)
- - [Recommended Settings](#recommended-settings)
- - [Theme Inspired](#theme-inspired)
+Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
 
-## Installation
+-   Type some Markdown on the left
+-   See HTML in the right
+-   Magic
 
-**Package Control:**
+## New Features!
 
-1. Open `Command Palette` using menu item `Tools → Command Palette` or <kbd>CMD/CTRL</kbd> + <kbd>SHIFT</kbd> +<kbd>P</kbd>.
-2. Choose `Package Control: Install Package`.
-3. Type `Meetio` and press <kbd>ENTER</kbd>.
+-   Import a HTML file and watch it magically convert to Markdown
+-   Drag and drop images (requires your Dropbox account be linked)
 
-**Manually:**
+You can also:
 
-1. Download latest release and unzip. it into your Packages folder.
-2. Go to `Sublime Text → Preferences → Browse Packages`.
-3. Move folder to inside and rename the folder to `Meetio`.
+-   Import and save files from GitHub, Dropbox, Google Drive and One Drive
+-   Drag and drop markdown and HTML files into Dillinger
+-   Export documents as Markdown, HTML and PDF
 
-## Activate Theme
+Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email. As [John Gruber] writes on the [Markdown site][df1]
 
-**You can active this theme from:**
+> The overriding design goal for Markdown's
+> formatting syntax is to make it as readable
+> as possible. The idea is that a
+> Markdown-formatted document should be
+> publishable as-is, as plain text, without
+> looking like it's been marked up with tags
+> or formatting instructions.
 
-1. Command Palette `Tools → Command Palette` or <kbd>CMD/CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd>.
-2. Typing `UI: Select Theme` next find for `Meetio` and press <kbd>ENTER</kbd>.
-3. Same process for scheme go to the Command Palette.
-4. Typing `UI: Select Color Scheme` choose you favorite scheme and press <kbd>ENTER</kbd>.
+This text you see here is _actually_ written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
 
-Manually you can go to (**Preferences > Settings - User**) and paste the following code:
+### Tech
 
-```json
-{
-  "color_scheme": "Packages/Meetio/schemes/Meetio.sublime-color-scheme",
-  "theme": "Meetio.sublime-theme"
-}
+Dillinger uses a number of open source projects to work properly:
+
+-   [AngularJS] - HTML enhanced for web apps!
+-   [Ace Editor] - awesome web-based text editor
+-   [markdown-it] - Markdown parser done right. Fast and easy to extend.
+-   [Twitter Bootstrap] - great UI boilerplate for modern web apps
+-   [node.js] - evented I/O for the backend
+-   [Express] - fast node.js network app framework [@tjholowaychuk]
+-   [Gulp] - the streaming build system
+-   [Breakdance](http://breakdance.io) - HTML to Markdown converter
+-   [jQuery] - duh
+
+And of course Dillinger itself is open source with a [public repository][dill]
+on GitHub.
+
+### Installation
+
+Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+$ cd dillinger
+$ npm install -d
+$ node app
 ```
 
-## Theme Settings
-This theme provide a visual configuration tool that allow you to configure the theme by activating the available options from an inline popup.
+For production environments...
 
-* Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Edit Settings`.
-* You can also open the settings from the Command Palette by searching `Meetio: Edit Settings`.
-
-```js
-{
-  // Tabs
-  "meetio_tabs_diff_icon": true, // show icon diff in tab
-  "meetio_tabs_diff_pencil_icon": false, // show diff pencil icon in tab
-
-  // Sidebar
-  "meetio_icon_folder": false, // replace colorful folder to a flat icon folder
-  "meetio_sidebar_disclosure": false, // set disclosure tree controls
-
-  // Panels
-  "meetio_input_search_icon": true, // show icon search in inputs
-
-  // Status bar
-  "meetio_status_badges": true, // show vcs status badges in the status bar
-}
+```sh
+$ npm install --production
+$ NODE_ENV=production node app
 ```
 
-## Override Theme Variables
-**Meetio Theme** provides a bunch of variables to improve your experience with theming.
+### Plugins
 
-* Just click in `Sublime Text → Preferences → Packages Settings → Meetio → Theme Configuration`.
-* You can also open the settings from the Command Palette by searching `Meetio: Theme Configuration`.
+Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
 
-```json
-{
-  "variables": {
-    "colorAccent": "#6772e4",
-    "statusbarBackground": "var(colorAccent)",
-    "statusbarLabelColor": "#fff"
-  }
-}
+| Plugin           | README                                    |
+| ---------------- | ----------------------------------------- |
+| Dropbox          | [plugins/dropbox/README.md][pldb]         |
+| GitHub           | [plugins/github/README.md][plgh]          |
+| Google Drive     | [plugins/googledrive/README.md][plgd]     |
+| OneDrive         | [plugins/onedrive/README.md][plod]        |
+| Medium           | [plugins/medium/README.md][plme]          |
+| Google Analytics | [plugins/googleanalytics/README.md][plga] |
+
+### Development
+
+Want to contribute? Great!
+
+Dillinger uses Gulp + Webpack for fast developing.
+Make a change in your file and instantanously see your updates!
+
+Open your favorite Terminal and run these commands.
+
+First Tab:
+
+```sh
+$ node app
 ```
 
-## Recommended Settings
-To enjoy a better experience of using the **Meetio Theme** in your Sublime Text, please check the following settings.
+Second Tab:
 
-```js
-{
-    "font_face": "Fira Code",
-    "highlight_line": true,
-    "font_options": ["gray_antialias", "subpixel_antialias"], // On retina Mac & Windows
-    "indent_guide_options": ["draw_normal", "draw_active"], // Highlight active indent
-    "margin": 20,
-    "line_padding_bottom": 7,
-    "line_padding_top": 7
-}
+```sh
+$ gulp watch
 ```
+
+(optional) Third:
+
+```sh
+$ karma test
+```
+
+#### Building for source
+
+For production release:
+
+```sh
+$ gulp build --prod
+```
+
+Generating pre-built zip archives for distribution:
+
+```sh
+$ gulp build dist --prod
+```
+
+### Docker
+
+Dillinger is very easy to install and deploy in a Docker container.
+
+By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.
+
+```sh
+cd dillinger
+docker build -t joemccann/dillinger:${package.json.version} .
+```
+
+This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out `${package.json.version}` with the actual version of Dillinger.
+
+Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
+
+```sh
+docker run -d -p 8000:8080 --restart="always" <youruser>/dillinger:${package.json.version}
+```
+
+Verify the deployment by navigating to your server address in your preferred browser.
+
+```sh
+127.0.0.1:8000
+```
+
+#### Kubernetes + Google Cloud
+
+See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
+
+### Todos
+
+-   Write MORE Tests
+-   Add Night Mode

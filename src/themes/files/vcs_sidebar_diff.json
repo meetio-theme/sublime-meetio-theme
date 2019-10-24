@@ -2,21 +2,21 @@
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
-        "layer0.texture": "Meetio/assets/default/vsc_untracked.png",
+        "layer0.texture": "Meetio-Theme/assets/default/vsc_untracked.png",
         "layer0.tint": "var(vscUntracked)",
         "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
-        "layer0.texture": "Meetio/assets/default/vsc_modified.png",
+        "layer0.texture": "Meetio-Theme/assets/default/vsc_modified.png",
         "layer0.tint": "var(vscModified)",
         "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
-        "layer0.texture": "Meetio/assets/default/vsc_added.png",
+        "layer0.texture": "Meetio-Theme/assets/default/vsc_added.png",
         "layer0.tint": "var(vscUntracked)",
         "content_margin": "var(vcsBadgeSize)"
     },
@@ -30,7 +30,7 @@
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-        "layer0.texture": "Meetio/assets/default/vsc_staged.png",
+        "layer0.texture": "Meetio-Theme/assets/default/vsc_staged.png",
         "layer0.tint": "var(vscStaged)",
         "content_margin": "var(vcsBadgeSize)"
     },

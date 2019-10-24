@@ -27,7 +27,7 @@ function build(name) {
                     }
                 }
             )
-            const theme = { extends: "Meetio.json", variables: variables }
+            const theme = { extends: "Meetio-Theme.json", variables: variables }
             fs.writeFileSync(
                 `${name}.sublime-theme`,
                 JSON.stringify(theme, null, 4),
@@ -41,4 +41,4 @@ function build(name) {
     })
 }
 
-build("Meetio")
+build("Meetio-Theme")
