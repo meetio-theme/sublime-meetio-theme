@@ -12,9 +12,9 @@
     "theme"
   ],
   "scripts": {
-    "build:themes": "node bin/themes",
-    "build:schemes": "node bin/schemes",
-    "build:icons": "node bin/icons",
+    "build:themes": "node src/themes/index.js",
+    "build:schemes": "node src/schemes/index.js",
+    "build:icons": "node src/icons/index.js",
     "lint": "eslint \"*.js\" \"src/**/*.json\" \"src/**/**/*.json\" \"src/**/**/**/*.json\" \"bin/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

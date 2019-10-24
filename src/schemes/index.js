@@ -2,13 +2,13 @@
 const path = require("path")
 const fs = require("fs")
 const rimraf = require("rimraf")
-const globals = require("./../src/schemes/files/globals.json")
+const globals = require("./files/globals.json")
 
 function build() {
     const rules = []
     let syntax, filePath
-    fs.readdirSync("./src/schemes/files/rules/").forEach(file => {
-        filePath = path.join(__dirname, "/../src/schemes/files/rules/" + file)
+    fs.readdirSync("./files/rules/").forEach(file => {
+        filePath = path.join(__dirname, "/files/rules/" + file)
         fs.readFile(filePath, "utf8", (err, data) => {
             if (err) {
                 throw err
@@ -22,8 +22,8 @@ function build() {
         })
     })
 
-    fs.readdirSync("./src/schemes/").forEach(file => {
-        filePath = path.join(__dirname, "/../src/schemes/" + file)
+    fs.readdirSync("./schemes/").forEach(file => {
+        filePath = path.join(__dirname, "/schemes/" + file)
         if (fs.lstatSync(filePath).isFile()) {
             fs.readFile(filePath, "utf8", (err, data) => {
                 if (err) {
