@@ -1,15 +1,16 @@
 {
   "name": "Meetio-Theme",
   "version": "3.0.0",
-  "description": "Meetio is the most powerful theme for Sublime Text 3 with different Scheme variations only for 3176+ version.",
+  "description": "The most powerful and adaptive theme for Sublime Text 3",
   "bugs": {
-    "url": "https://github.com/mauroreisvieira/meetio/issues"
+    "url": "https://github.com/meetio-theme/sublime-meetio-theme/issues"
   },
   "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
   "license": "MIT",
   "keywords": [
     "sublime-text",
-    "theme"
+    "scheme",
+    "theme",
   ],
   "scripts": {
     "build:themes": "node src/themes.js",
