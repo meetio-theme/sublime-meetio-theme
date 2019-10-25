@@ -1,7 +1,7 @@
 [
     {
         "class": "fold_button_control",
-        "layer0.texture": "Meetio-Theme/assets/default/arrow_right.png",
+        "layer0.texture": "Meetio-Theme/assets/arrow_right.png",
         "layer0.tint": "var(colorAccent)",
         "layer0.opacity": 0.4,
         "layer0.inner_margin": 0,
@@ -16,7 +16,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Meetio-Theme/assets/default/arrow_down.png",
+        "layer0.texture": "Meetio-Theme/assets/arrow_down.png",
         "layer0.tint": "var(colorAccent)",
         "content_margin": [12, 12]
     }

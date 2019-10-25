@@ -54,6 +54,111 @@
     },
     "rules": [
         {
+            "scope": "col_gutter",
+            "background": "#000000",
+            "foreground": "#ffffff"
+        },
+        {
+            "scope": "col_FF5370FF",
+            "background": "#FF5370FF",
+            "foreground": "#090909FF"
+        },
+        {
+            "scope": "col_90A4AEFF",
+            "background": "#90A4AEFF",
+            "foreground": "#1F1F1FFF"
+        },
+        {
+            "scope": "col_FAFAFAFF",
+            "background": "#FAFAFAFF",
+            "foreground": "#7A7A7AFF"
+        },
+        {
+            "scope": "col_7E57C2FF",
+            "background": "#7E57C2FF",
+            "foreground": "#EEEEEEFF"
+        },
+        {
+            "scope": "col_4C566AFF",
+            "background": "#4C566AFF",
+            "foreground": "#D5D5D5FF"
+        },
+        {
+            "scope": "col_C96765FF",
+            "background": "#C96765FF",
+            "foreground": "#040404FF"
+        },
+        {
+            "scope": "col_F3AD2CFF",
+            "background": "#F3AD2CFF",
+            "foreground": "#333333FF"
+        },
+        {
+            "scope": "col_3D3D3DFF",
+            "background": "#3D3D3DFF",
+            "foreground": "#BDBDBDFF"
+        },
+        {
+            "scope": "col_FFFFFFFF",
+            "background": "#FFFFFFFF",
+            "foreground": "#7F7F7FFF"
+        },
+        {
+            "scope": "col_D3423E66",
+            "background": "#D3423E66",
+            "foreground": "#424242FF"
+        },
+        {
+            "scope": "col_7C4DFFFF",
+            "background": "#7C4DFFFF",
+            "foreground": "#EFEFEFFF"
+        },
+        {
+            "scope": "col_455A64FF",
+            "background": "#455A64FF",
+            "foreground": "#D4D4D4FF"
+        },
+        {
+            "scope": "col_E2B93DFF",
+            "background": "#E2B93DFF",
+            "foreground": "#373737FF"
+        },
+        {
+            "scope": "col_E53935FF",
+            "background": "#E53935FF",
+            "foreground": "#EBEBEBFF"
+        },
+        {
+            "scope": "col_91B859FF",
+            "background": "#91B859FF",
+            "foreground": "#212121FF"
+        },
+        {
+            "scope": "col_9CCC65FF",
+            "background": "#9CCC65FF",
+            "foreground": "#313131FF"
+        },
+        {
+            "scope": "col_5FB3B3FF",
+            "background": "#5FB3B3FF",
+            "foreground": "#191919FF"
+        },
+        {
+            "scope": "col_EF5350FF",
+            "background": "#EF5350FF",
+            "foreground": "#010101FF"
+        },
+        {
+            "scope": "col_6182B8FF",
+            "background": "#6182B8FF",
+            "foreground": "#FEFEFEFF"
+        },
+        {
+            "scope": "col_BC5454FF",
+            "background": "#BC5454FF",
+            "foreground": "#F3F3F3FF"
+        },
+        {
             "name": "[CSS] String",
             "scope": "source.css string",
             "foreground": "var(green)"
@@ -158,29 +263,16 @@
             "foreground": "var(cyan)"
         },
         {
-            "name": "[HTML] String",
-            "scope": "text.html.basic string",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Operator",
-            "scope": "keyword.other.template, keyword.other.substitution",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[HTML] Attributes",
-            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[HTML] Tag Name",
-            "scope": "entity.name.tag",
+            "name": "[Diff] Deleted",
+            "scope": "diff.deleted, diff.deleted.char",
+            "background": "color(var(red) alpha(0.08))",
             "foreground": "var(red)"
         },
         {
-            "name": "[HTML] Tag Attribute",
-            "scope": "text.html.basic entity.other.attribute-name",
-            "foreground": "var(purple)"
+            "name": "[Diff] Insert",
+            "scope": "diff.inserted, diff.inserted.char",
+            "background": "color(var(green) alpha(0.08))",
+            "foreground": "var(green)"
         },
         {
             "name": "Comment",
@@ -256,59 +348,29 @@
             "background": "color(var(yellow) alpha(0.9))"
         },
         {
-            "name": "[GitGutter] Inserted",
-            "scope": "markup.inserted.git_gutter",
-            "foreground": "var(diffAdded)"
-        },
-        {
-            "name": "[GitGutter] Modified",
-            "scope": "markup.changed.git_gutter",
-            "foreground": "var(diffModified)"
-        },
-        {
-            "name": "[GitGutter] Deleted",
-            "scope": "markup.deleted.git_gutter",
-            "foreground": "var(diffDeleted)"
-        },
-        {
-            "name": "[GitGutter] Ignored",
-            "scope": "markup.ignored.git_gutter",
-            "foreground": "var(diffIgnored)"
-        },
-        {
-            "name": "[JSON] Key ",
-            "scope": "meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Value",
-            "scope": "meta.mapping.value.json string.quoted.double.json",
+            "name": "[HTML] String",
+            "scope": "text.html.basic string",
             "foreground": "var(green)"
         },
         {
-            "name": "[JSON] Constant",
-            "scope": "constant.language.json",
-            "foreground": "var(purple)"
+            "name": "[HTML] Operator",
+            "scope": "keyword.other.template, keyword.other.substitution",
+            "foreground": "var(green)"
         },
         {
-            "name": "[JSON] Character Escape",
-            "scope": "constant.character.escape.json",
+            "name": "[HTML] Attributes",
+            "scope": "entity.other.attribute-name.html, entity.other.attribute-name",
             "foreground": "var(yellow)"
         },
         {
-            "name": "[JSON] Constant Numeric",
-            "scope": "constant.numeric.json",
+            "name": "[HTML] Tag Name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[HTML] Tag Attribute",
+            "scope": "text.html.basic entity.other.attribute-name",
             "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Mapping Level 1",
-            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Mapping Level 2",
-            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(brown)"
         },
         {
             "name": "[JavaScript] Constructor",
@@ -363,45 +425,39 @@
             "foreground": "var(pink)"
         },
         {
-            "name": "[PHP] Inherited Class",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
-            "foreground": "var(orange)"
+            "name": "[GitGutter] Inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": "var(diffAdded)"
         },
         {
-            "name": "[PHP] Storage",
-            "scope": "storage.modifier.php",
+            "name": "[GitGutter] Modified",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "var(diffModified)"
+        },
+        {
+            "name": "[GitGutter] Deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "var(diffDeleted)"
+        },
+        {
+            "name": "[GitGutter] Ignored",
+            "scope": "markup.ignored.git_gutter",
+            "foreground": "var(diffIgnored)"
+        },
+        {
+            "name": "[INI] - Color for Entity",
+            "scope": "source.ini entity, meta.embedded.block.ini, source.ini",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[INI] - Color for Keyword",
+            "scope": "source.ini keyword, keyword.other.definition.ini",
             "foreground": "var(purple)"
         },
         {
-            "name": "[PHP] Extends",
-            "scope": "storage.modifier.extends.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Construct",
-            "scope": "support.function.construct.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Echo",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
-            "font_style": "normal",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[PHP] Block",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Condition",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Constant",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
-            "foreground": "var(orange)"
+            "name": "[INI] - Color for Value",
+            "scope": "source.ini meta.declaration.ini meta.value.ini string.name.value.ini",
+            "foreground": "var(green)"
         },
         {
             "name": "[Markdown] Deleted",
@@ -488,16 +544,136 @@
             "foreground": "color(var(background) blend(var(foreground) 85%))"
         },
         {
-            "name": "[Diff] Deleted",
-            "scope": "diff.deleted, diff.deleted.char",
-            "background": "color(var(red) alpha(0.08))",
+            "name": "[PHP] Inherited Class",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[PHP] Storage",
+            "scope": "storage.modifier.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Extends",
+            "scope": "storage.modifier.extends.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Echo",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
+            "font_style": "normal",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[PHP] Block",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Condition",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Constant",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[JSON] Key ",
+            "scope": "meta.mapping.key.json string.quoted.double.json",
             "foreground": "var(red)"
         },
         {
-            "name": "[Diff] Insert",
-            "scope": "diff.inserted, diff.inserted.char",
-            "background": "color(var(green) alpha(0.08))",
+            "name": "[JSON] Value",
+            "scope": "meta.mapping.value.json string.quoted.double.json",
             "foreground": "var(green)"
+        },
+        {
+            "name": "[JSON] Constant",
+            "scope": "constant.language.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Character Escape",
+            "scope": "constant.character.escape.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Constant Numeric",
+            "scope": "constant.numeric.json",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[JSON] Mapping Level 1",
+            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[JSON] Mapping Level 2",
+            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(brown)"
+        },
+        {
+            "name": "[SublimeLinter] Error",
+            "scope": "sublimelinter.mark.error",
+            "foreground": "var(invalid)"
+        },
+        {
+            "name": "[SublimeLinter] Gutter mark",
+            "scope": "sublimelinter.gutter-mark",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[Python] Variables",
+            "scope": "source.python meta.function.parameters.python variable.parameter.python, source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python, source.python meta.function-call.arguments.python variable.parameter.python",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[Python] Function Arguments",
+            "scope": "source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "[Python] Statement While",
+            "scope": "source.python meta.statement.while.python constant.language.python, source.python constant.language.python",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Python] Annotation",
+            "scope": "source.python meta.function.parameters.annotation.python meta.qualified-name.python support.type.python",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[Python] Print",
+            "scope": "source.python keyword.other.print.python, source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
+            "font_style": "normal",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Python] Function Parameters",
+            "scope": "source.python meta.item-access.arguments.python meta.qualified-name.python meta.generic-name.python, source.python meta.item-access.arguments.python meta.qualified-name.python support.type.python, source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Python] Generic Name",
+            "scope": "source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[Python] Exception",
+            "scope": "source.python meta.statement.raise.python meta.function-call.python meta.qualified-name.python variable.function.python support.type.exception.python",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Python] Function Parameters",
+            "scope": "source.python meta.item-access.python meta.qualified-name.python meta.generic-name.python, source.python meta.function.parameters.annotation.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(yellow)"
         },
         {
             "name": "[SQL] Source",
@@ -575,52 +751,6 @@
             "foreground": "var(brown)"
         },
         {
-            "name": "[Python] Variables",
-            "scope": "source.python meta.function.parameters.python variable.parameter.python, source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python, source.python meta.function-call.arguments.python variable.parameter.python",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[Python] Function Arguments",
-            "scope": "source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python",
-            "foreground": "var(foreground)"
-        },
-        {
-            "name": "[Python] Statement While",
-            "scope": "source.python meta.statement.while.python constant.language.python, source.python constant.language.python",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[Python] Annotation",
-            "scope": "source.python meta.function.parameters.annotation.python meta.qualified-name.python support.type.python",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[Python] Print",
-            "scope": "source.python keyword.other.print.python, source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
-            "font_style": "normal",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[Python] Function Parameters",
-            "scope": "source.python meta.item-access.arguments.python meta.qualified-name.python meta.generic-name.python, source.python meta.item-access.arguments.python meta.qualified-name.python support.type.python, source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Python] Generic Name",
-            "scope": "source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[Python] Exception",
-            "scope": "source.python meta.statement.raise.python meta.function-call.python meta.qualified-name.python variable.function.python support.type.exception.python",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Python] Function Parameters",
-            "scope": "source.python meta.item-access.python meta.qualified-name.python meta.generic-name.python, source.python meta.function.parameters.annotation.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
-            "foreground": "var(yellow)"
-        },
-        {
             "name": "[Vue] Function Parameter",
             "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
             "foreground": "var(pink)"
@@ -634,31 +764,6 @@
             "name": "[Vue] Object Value",
             "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
             "foreground": "var(brown)"
-        },
-        {
-            "name": "[INI] - Color for Entity",
-            "scope": "source.ini entity, meta.embedded.block.ini, source.ini",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[INI] - Color for Keyword",
-            "scope": "source.ini keyword, keyword.other.definition.ini",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[INI] - Color for Value",
-            "scope": "source.ini meta.declaration.ini meta.value.ini string.name.value.ini",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[SublimeLinter] Error",
-            "scope": "sublimelinter.mark.error",
-            "foreground": "var(invalid)"
-        },
-        {
-            "name": "[SublimeLinter] Gutter mark",
-            "scope": "sublimelinter.gutter-mark",
-            "foreground": "var(blue)"
         }
     ]
 }

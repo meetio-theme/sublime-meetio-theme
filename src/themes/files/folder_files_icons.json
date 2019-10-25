@@ -1,7 +1,7 @@
 [
     {
         "class": "disclosure_button_control",
-        "layer0.texture": "Meetio-Theme/assets/default/disclosure.png",
+        "layer0.texture": "Meetio-Theme/assets/disclosure.png",
         "layer0.tint": ["foreground", 0.6],
         "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [0, 0, 0, 0]
@@ -9,7 +9,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Meetio-Theme/assets/default/disclosure_expanded.png",
+        "layer0.texture": "Meetio-Theme/assets/disclosure_expanded.png",
         "layer0.tint": "var(sidebarIconFolderColor)"
     },
     {
@@ -25,26 +25,26 @@
     },
     {
         "class": "icon_folder",
-        "layer0.texture": "Meetio-Theme/assets/default/folder_closed_colorful.png",
+        "layer0.texture": "Meetio-Theme/assets/folder_closed_colorful.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_folder",
         "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
-        "layer0.texture": "Meetio-Theme/assets/default/folder_open_colorful.png",
+        "layer0.texture": "Meetio-Theme/assets/folder_open_colorful.png",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_folder_dup",
-        "layer0.texture": "Meetio-Theme/assets/default/folder_dup_colorful.png",
+        "layer0.texture": "Meetio-Theme/assets/folder_dup_colorful.png",
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_folder",
-        "layer0.texture": "Meetio-Theme/assets/default/folder_closed.png",
+        "layer0.texture": "Meetio-Theme/assets/folder_closed.png",
         "layer0.tint": "var(sidebarIconFolderColor)",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9],
@@ -53,7 +53,7 @@
     {
         "class": "icon_folder",
         "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
-        "layer0.texture": "Meetio-Theme/assets/default/folder_open.png",
+        "layer0.texture": "Meetio-Theme/assets/folder_open.png",
         "layer0.tint": "var(sidebarIconFolderExpandedColor)",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9],
@@ -61,7 +61,7 @@
     },
     {
         "class": "icon_folder_dup",
-        "layer0.texture": "Meetio-Theme/assets/default/folder_dup.png",
+        "layer0.texture": "Meetio-Theme/assets/folder_dup.png",
         "layer0.tint": "var(sidebarIconFolderColor)",
         "layer0.opacity": 1,
         "content_margin": [9, 9],
@@ -73,18 +73,18 @@
         {
             "keyframes":
             [
-                "Meetio-Theme/assets/default/spinner11.png",
-                "Meetio-Theme/assets/default/spinner10.png",
-                "Meetio-Theme/assets/default/spinner9.png",
-                "Meetio-Theme/assets/default/spinner8.png",
-                "Meetio-Theme/assets/default/spinner7.png",
-                "Meetio-Theme/assets/default/spinner6.png",
-                "Meetio-Theme/assets/default/spinner5.png",
-                "Meetio-Theme/assets/default/spinner4.png",
-                "Meetio-Theme/assets/default/spinner3.png",
-                "Meetio-Theme/assets/default/spinner2.png",
-                "Meetio-Theme/assets/default/spinner1.png",
-                "Meetio-Theme/assets/default/spinner.png"
+                "Meetio-Theme/assets/spinner11.png",
+                "Meetio-Theme/assets/spinner10.png",
+                "Meetio-Theme/assets/spinner9.png",
+                "Meetio-Theme/assets/spinner8.png",
+                "Meetio-Theme/assets/spinner7.png",
+                "Meetio-Theme/assets/spinner6.png",
+                "Meetio-Theme/assets/spinner5.png",
+                "Meetio-Theme/assets/spinner4.png",
+                "Meetio-Theme/assets/spinner3.png",
+                "Meetio-Theme/assets/spinner2.png",
+                "Meetio-Theme/assets/spinner1.png",
+                "Meetio-Theme/assets/spinner.png"
             ],
             "loop": true,
             "frame_time": 0.08

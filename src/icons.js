@@ -4,7 +4,7 @@ const fs = require("fs")
 const svg2img = require("svg2img")
 const defaultOptions = require("./../src/icons/default.json")
 
-function build(folder) {
+function build() {
     let iconPath
     fs.readdirSync("./src/icons/svg/").forEach(icon => {
         iconPath = path.join(__dirname, `/../src/icons/svg/${icon}`)
@@ -24,7 +24,7 @@ function build(folder) {
                     { width: setting.size, height: setting.size },
                     function(error, buffer) {
                         fs.writeFileSync(
-                            `assets/${folder}/${
+                            `assets/${
                                 setting.suffix ? icon + setting.suffix : icon
                             }.png`,
                             buffer,
@@ -41,4 +41,4 @@ function build(folder) {
     })
 }
 
-build("default")
+build()

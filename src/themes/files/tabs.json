@@ -88,18 +88,18 @@
     {
         "class": "tab_close_button",
         "content_margin": 0,
-        "layer0.texture": "Meetio-Theme/assets/default/icon_close.png",
+        "layer0.texture": "Meetio-Theme/assets/icon_close.png",
         "layer0.tint": "var(tabCloseColor)",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Meetio-Theme/assets/default/dirty_dot_icon.png",
+        "layer1.texture": "Meetio-Theme/assets/dirty_dot_icon.png",
         "layer1.tint": "var(tabDiffIconColor)",
         "layer1.inner_margin": [2, 2],
         "layer1.opacity": 0
     },
     {
         "class": "tab_close_button",
-        "layer1.texture": "Meetio-Theme/assets/default/dirty_icon.png",
+        "layer1.texture": "Meetio-Theme/assets/dirty_icon.png",
         "layer1.inner_margin": 0,
         "settings": ["meetio_tabs_diff_pencil_icon"]
     },
@@ -162,7 +162,7 @@
     },
     {
         "class": "scroll_tabs_left_button",
-        "layer0.texture": "Meetio-Theme/assets/default/arrow_left.png",
+        "layer0.texture": "Meetio-Theme/assets/arrow_left.png",
         "layer0.tint": "var(colorAccent)",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [10, 10]
@@ -174,7 +174,7 @@
     },
     {
         "class": "scroll_tabs_right_button",
-        "layer0.texture": "Meetio-Theme/assets/default/arrow_right.png",
+        "layer0.texture": "Meetio-Theme/assets/arrow_right.png",
         "layer0.tint": "var(colorAccent)",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [10, 10]
@@ -187,7 +187,7 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [12, 12],
-        "layer0.texture": "Meetio-Theme/assets/default/overflow_menu.png",
+        "layer0.texture": "Meetio-Theme/assets/overflow_menu.png",
         "layer0.tint": "var(colorAccent)",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
