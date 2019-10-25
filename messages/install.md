@@ -2,7 +2,7 @@
 
 This theme has undergone many tweaks over the past few months and finally have an update for you all.
 
-You can see all the refinements and suggested settings at https://github.com/mauroreisvieira/meetio
+You can see all the refinements and suggested settings at https://github.com/meetio-theme/sublime-meetio-theme
 as well as suggest any tweaks you may have.
 
 **Many new things have been added, including:**
@@ -40,7 +40,7 @@ Manually you can go to (**Preferences → Settings - User**) and paste the follo
 
 ---
 
-👉 You can see all the refinements and suggested settings at https://github.com/mauroreisvieira/meetio
+👉 You can see all the refinements and suggested settings at https://github.com/meetio-theme/sublime-meetio-theme
 as well as suggest any tweaks you may have.
 
 We ♥️ Sublime Text, follow me in [Twitter](https://twitter.com/mauroreisviera) and

@@ -1,102 +1,65 @@
-@media screen and (min-height: 500px)
-  body
-    color: #f00
+addon-store-border-color: #d95468 !default;
+addon-store-color: #333 !default;
 
-@-moz-document url-prefix()
-  body
-    color: #f00
+#app
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  width: 200px;
+  padding-right: @width / 2;
+  padding-left: @width / 2;
 
-@page
-  margin: 0
-@keyframes foo
-  0%
-    width: 400px
-  50%, 75%
-    width: 300px
-  100%
-    width: 200px
-@namespace svg "http://www.w3.org/2000/svg"
-@host
-  body
-    color: #f00
+  .addons-nav
+    .selected
+      border-bottom-color: addon-store-border-color !default
+      color: addon-store-color
+      font-weight: bold
+      padding: my-calculation-function(10px, 5px)
 
-@supports (display: flex)
-  div
-    display: flex
+      border-radius(5px, true, true, true)
 
-@font-face
-  font-family: "Bitstream Vera Serif Bold"
-  src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf")
+      &::after
+        display: block
+        content: '/'
 
-#dialog
-  position: fixed
-  left: 50%
-  top: 150px
-  max-width: 600px
-  min-width: 250px
-  border: 1px solid #eee
-  background: #fff
-  z-index: 1000
+  a
+    color: addon-store-color
 
-#dialog .content
-  padding: 15px 20px
+    &:hover 
+      color: darken(addon-store-color, 30%)
 
-#dialog h1
-  margin: 0 0 5px 0
-  font-size: 16px
-  font-weight: normal
+    &:focus
+      color: lighten(addon-store-color, 30%)
 
-#dialog p
-  margin: 0
-  padding: 0
-  font-size: 0.9em
+.row
+  grid(true)
 
-#dialog.modal
-  box-shadow: 0 1px 8px 0 #000
+/* Mixins */
+funcFlex()
+  display: flex
 
-/* close */
-#dialog .close
-  position: absolute
-  top: 3px
-  right: 10px
-  text-decoration: none
-  color: #888
-  font-size: 16px
-  font-weight: bold
-  display: none
 
-#dialog.closable .close
-  display: block
+grid(isFlex)
+  if (isFlex)
+    funcFlex()
+   else
+    display: block
 
-#dialog .close:hover
-  color: #000
+/* Functions */
+my-calculation-function(some-number, another-number)
+  return some-number + another-number
 
-#dialog .close:active
-  margin-top: 1px
 
-#dialog.slide
-  -webkit-transition: opacity 300ms, top 300ms
-  -moz-transition: opacity 300ms, top 300ms
+border-radius(radius: 5px, moz: true, webkit: true, ms: true)
+  if moz
+    -moz-border-radius: radius
 
-#dialog.slide.hide
-  opacity: 0
-  top: -500px
+  if webkit
+    -webkit-border-radius: radius
 
-/* fade */
-#dialog.fade
-  -webkit-transition: opacity 300ms
-  -moz-transition: opacity 300ms
+  if ms
+    -ms-border-radius: radius
 
-#dialog.fade.hide
-  opacity: 0
+  border-radius: radius
 
-/* scale */
-#dialog.scale
-  -webkit-transition: -webkit-transform 300ms
-  -moz-transition: -moz-transform 300ms
-  -webkit-transform: scale(1)
-  -moz-transform: scale(1)
-
-#dialog.scale.hide
-  -webkit-transform: scale(0)
-  -moz-transform: scale(0)

@@ -6,6 +6,26 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ---
 
+<a name="3.0.0"></a>
+## [3.0.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v2.4.0...v3.0.0) (2019-10-25)
+
+## BREAKING CHANGES
+
+* Rename option `meetio_arrow_folders` to `meetio_arrow_folder`.
+* Remove option `meetio_tabs_selected_border`.
+* Remove option `meetio_arrow_folder`.
+* Remove Palenight Scheme, Mariana Scheme, Ocean Scheme and Cobalt Scheme.
+
+## FEATURES
+
+* Add NEW ICONS.
+* Add option `meetio_icon_folder`.
+* Add new variables `scrollBar` and `scrollTrack` to control the color of scroll.
+* Add support for `stylus` syntax.
+* Add some improves `Markdown` syntax.
+
+---
+
 <a name="2.4.0"></a>
 ## [2.4.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v2.3.0...v2.4.0) (2019-07-23)
 
