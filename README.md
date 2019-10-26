@@ -1,6 +1,6 @@
 # Meetio Theme for Sublime Text 3
 
-![Meetio-Theme](images/dark/meetio-theme.gif)
+![Meetio Theme](images/dark/meetio-theme.gif)
 
 [![GitHub tag](https://img.shields.io/github/release/meetio-theme/sublime-meetio-theme.svg?style=for-the-badge)](https://github.com/meetio-theme/sublime-meetio-theme/releases)
 ![Build Status](https://img.shields.io/travis/meetio-theme/sublime-meetio-theme/master.svg?style=for-the-badge)
@@ -14,20 +14,20 @@
 
 1. Open `Command Palette` using menu item `Tools → Command Palette` or <kbd>CMD/CTRL</kbd> + <kbd>SHIFT</kbd> +<kbd>P</kbd>.
 2. Choose `Package Control: Install Package`.
-3. Type `Meetio-Theme` and press <kbd>ENTER</kbd>.
+3. Type `Meetio Theme` and press <kbd>ENTER</kbd>.
 
 **Manually:**
 
 1. Download latest release and unzip. it into your Packages folder.
 2. Go to `Sublime Text → Preferences → Browse Packages`.
-3. Move folder to inside and rename the folder to `Meetio-Theme`.
+3. Move folder to inside and rename the folder to `Meetio Theme`.
 
 ## Activate Theme
 
 **You can active this theme from:**
 
 1. Command Palette `Tools → Command Palette` or <kbd>CMD/CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd>.
-2. Typing `UI: Select Theme` next find for `Meetio-Theme` and press <kbd>ENTER</kbd>.
+2. Typing `UI: Select Theme` next find for `Meetio Theme` and press <kbd>ENTER</kbd>.
 3. Same process for scheme go to the Command Palette.
 4. Typing `UI: Select Color Scheme` choose you favorite scheme and press <kbd>ENTER</kbd>.
 
@@ -35,7 +35,7 @@ Manually you can go to (**Preferences > Settings - User**) and paste the followi
 
 ```json
 {
-    "color_scheme": "Packages/Meetio-Theme/schemes/Meetio-Theme-Light.sublime-color-scheme",
+    "color_scheme": "Packages/Meetio Theme/schemes/Meetio-Theme-Light.sublime-color-scheme",
     "theme": "Meetio-Theme.sublime-theme"
 }
 ```
@@ -44,8 +44,8 @@ Manually you can go to (**Preferences > Settings - User**) and paste the followi
 
 This theme provide a visual configuration tool that allow you to configure the theme by activating the available options from an inline popup.
 
--   Just click in `Sublime Text → Preferences → Packages Settings → Meetio-Theme → Edit Settings`.
--   You can also open the settings from the Command Palette by searching `Meetio-Theme: Edit Settings`.
+-   Just click in `Sublime Text → Preferences → Packages Settings → Meetio Theme → Edit Settings`.
+-   You can also open the settings from the Command Palette by searching `Meetio Theme: Edit Settings`.
 
 ```js
 {
@@ -67,10 +67,10 @@ This theme provide a visual configuration tool that allow you to configure the t
 
 ## Override Theme Variables
 
-**Meetio-Theme Theme** provides a bunch of variables to improve your experience with theming.
+**Meetio Theme** provides a bunch of variables to improve your experience with theming.
 
--   `Sublime Text → Preferences → Packages Settings → Meetio-Theme → Theme Configuration`.
--   Command Palette <kbd>CMD/CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> searching `Meetio-Theme: Theme Configuration`.
+-   `Sublime Text → Preferences → Packages Settings → Meetio Theme → Theme Configuration`.
+-   Command Palette <kbd>CMD/CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> searching `Meetio Theme: Theme Configuration`.
 
 ```json
 {
@@ -84,7 +84,7 @@ This theme provide a visual configuration tool that allow you to configure the t
 
 ## Recommended Settings
 
-To enjoy a better experience of using the **Meetio-Theme Theme** in your Sublime Text, please check the following settings.
+To enjoy a better experience of using the **Meetio Theme** in your Sublime Text, please check the following settings.
 
 ```js
 {
