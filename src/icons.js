@@ -2,7 +2,7 @@
 const path = require("path")
 const fs = require("fs")
 const svg2img = require("svg2img")
-const defaultOptions = require("./../src/icons/default.json")
+const defaultOptions = require("./icons/default.js")
 
 function build() {
     let iconPath
@@ -13,10 +13,7 @@ function build() {
             .slice(0, -1)
             .join(".")
         fs.readFile(iconPath, "utf8", (err, data) => {
-            if (err) {
-                throw err
-            }
-            data = data.replace("#000", defaultOptions.color)
+            if (err) throw err
             data = Buffer.from(data, "utf8")
             defaultOptions.settings.forEach(setting => {
                 svg2img(
