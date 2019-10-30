@@ -18,6 +18,6 @@ module.exports = [
         scope: [
             "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
         ],
-        foreground: "var(brown)"
-    }
+        foreground: "var(brown)",
+    },
 ]

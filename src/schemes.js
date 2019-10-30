@@ -2,58 +2,52 @@
 const path = require("path")
 const fs = require("fs")
 const rimraf = require("rimraf")
-const globals = require("./../src/schemes/files/globals.json")
 
-function build() {
-    const rules = []
-    let syntax, filePath
-    fs.readdirSync("./src/schemes/files/rules/").forEach(file => {
-        filePath = path.join(__dirname, "/../src/schemes/files/rules/" + file)
-        fs.readFile(filePath, "utf8", (err, data) => {
-            if (err) {
-                throw err
+const schemes = require("./schemes/index")
+const globals = require("./schemes/files/globals")
+const rules = require("./schemes/files/rules/index")
+
+
+schemes.forEach(scheme => {
+    const data = []
+    const allRules = []
+    const allScopes = new Set()
+
+    rules.forEach((rule, index) => {
+        rule.forEach(item => {
+
+            if (allScopes.has(item.scope.toString())) {
+                console.log(`duplicated scope: ${item.scope.toString()}`)
             }
+            allScopes.add(item.scope.toString());
 
-            syntax = JSON.parse(data)
-            Object.keys(syntax).map(syntaxKey => {
-                const value = syntax[syntaxKey]
-                rules.push(value)
+            allRules.push({
+                name: item.name,
+                scope: item.scope.toString(),
+                foreground: item.foreground,
             })
         })
     })
 
-    fs.readdirSync("./src/schemes/").forEach(file => {
-        filePath = path.join(__dirname, "/../src/schemes/" + file)
-        if (fs.lstatSync(filePath).isFile()) {
-            fs.readFile(filePath, "utf8", (err, data) => {
-                if (err) {
-                    throw err
+    data.push({
+        name: scheme.name,
+        author: scheme.author,
+        variables: scheme.variables,
+        globals: globals,
+        rules: allRules
+    });
+
+    rimraf("schemes", () => {
+        fs.mkdir("schemes", () => {
+            fs.writeFileSync(
+                `schemes/${scheme.name}.sublime-color-scheme`,
+                JSON.stringify(data[0], null, 4),
+                err => {
+                    if (err) {
+                        console.log(err)
+                    }
                 }
-
-                const allRules = {
-                    globals,
-                    rules,
-                }
-
-                data = JSON.parse(data)
-                const scheme = Object.assign(data, allRules)
-
-                rimraf("schemes", () => {
-                    fs.mkdir("schemes", () => {
-                        fs.writeFileSync(
-                            `schemes/${data.name}.sublime-color-scheme`,
-                            JSON.stringify(scheme, null, 4),
-                            err => {
-                                if (err) {
-                                    console.log(err)
-                                }
-                            }
-                        )
-                    })
-                })
-            })
-        }
+            )
+        })
     })
-}
-
-build()
+})
