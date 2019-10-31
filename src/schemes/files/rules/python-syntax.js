@@ -39,7 +39,8 @@ module.exports = [
     {
         name: "[Python] Function Parameters",
         scope: [
-            "source.python meta.item-access.arguments.python meta.qualified-name.python meta.generic-name.python, source.python meta.item-access.arguments.python meta.qualified-name.python support.type.python, source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
+            "source.python meta.item-access.arguments.python meta.qualified-name.python meta.generic-name.python",
+            "source.python meta.item-access.arguments.python meta.qualified-name.python support.type.python, source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
         ],
         foreground: "var(green)",
     },
@@ -60,7 +61,8 @@ module.exports = [
     {
         name: "[Python] Function Parameters",
         scope: [
-            "source.python meta.item-access.python meta.qualified-name.python meta.generic-name.python, source.python meta.function.parameters.annotation.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
+            "source.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
+            "source.python meta.function.parameters.annotation.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
         ],
         foreground: "var(yellow)",
     },

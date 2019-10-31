@@ -1,33 +1,33 @@
-const css = require("./css-syntax")
-const diff = require("./diff-syntax")
-const global = require("./global-syntax")
-const git = require("./git-gutter")
-const html = require("./html-syntax")
-const ini = require("./ini-syntax")
-const javascript = require("./javascript-syntax")
-const json = require("./json-syntax")
+const common = require("./common-syntax")
 const markdown = require("./markdown-syntax")
-const php = require("./php-syntax")
-const python = require("./python-syntax")
-const sql = require("./sql-syntax")
-const sublimelinter = require("./sublimelinter")
+const css = require("./css-syntax")
+const html = require("./html-syntax")
+const json = require("./json-syntax")
+const javascript = require("./javascript-syntax")
 const typescript = require("./typescript-syntax")
 const vue = require("./vue-syntax")
+const php = require("./php-syntax")
+const sql = require("./sql-syntax")
+const python = require("./python-syntax")
+const ini = require("./ini-syntax")
+const git = require("./git-gutter")
+const sublimelinter = require("./sublimelinter")
+const diff = require("./diff-syntax")
 
 module.exports = [
-    css,
-    diff,
-    global,
-    git,
-    html,
-    ini,
-    javascript,
-    json,
+    common,
     markdown,
-    php,
-    python,
-    sql,
-    sublimelinter,
+    css,
+    html,
+    json,
+    javascript,
     typescript,
-    vue
+    vue,
+    php,
+    sql,
+    python,
+    ini,
+    git,
+    sublimelinter,
+    diff,
 ]

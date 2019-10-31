@@ -4,14 +4,17 @@ module.exports = [
         scope: [
             "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts",
             "meta.function-call.constructor.ts",
-            "entity.name.function.constructor.ts, variable.language.constructor.ts",
+            "entity.name.function.constructor.ts",
+            "variable.language.constructor.ts",
         ],
         foreground: "var(purple)",
     },
     {
         name: "[Typescript] Declaration",
         scope: [
-            "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.export.default.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+            "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
+            "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
+            "source.ts meta.export.default.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
         ],
         foreground: "var(yellow)",
     },
@@ -57,7 +60,8 @@ module.exports = [
     {
         name: "[Typescript] Loop",
         scope: [
-            "keyword.control.loop.ts, source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.array.literal.tsx keyword.control.as.tsx",
+            "keyword.control.loop.ts",
+            "source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.array.literal.tsx keyword.control.as.tsx",
         ],
         foreground: "var(cyan)",
     },
