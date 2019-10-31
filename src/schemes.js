@@ -15,11 +15,12 @@ schemes.forEach(scheme => {
 
     rules.forEach((rule, index) => {
         rule.forEach(item => {
-
-            if (allScopes.has(item.scope.toString())) {
-                console.log(`duplicated scope: ${item.scope.toString()}`)
-            }
-            allScopes.add(item.scope.toString());
+            item.scope.forEach(i => {
+                if (allScopes.has(i)) {
+                    console.log(`duplicated scope: ${i} in ${item.name}`)
+                }
+                allScopes.add(i);
+            })
 
             allRules.push({
                 name: item.name,
@@ -47,7 +48,7 @@ schemes.forEach(scheme => {
                         console.log(err)
                     }
                 }
-            )
+                )
         })
     })
 })

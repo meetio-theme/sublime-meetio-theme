@@ -57,7 +57,6 @@ module.exports = [
             "source.js meta.export.js meta.binding.name.js variable.other.constant.js",
             "constant.language.boolean.false.js",
             "constant.language.boolean.true.js",
-            "entity.name.function",
             "source.js meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js variable.other.constant.js",
         ],
         foreground: "var(orange)",
