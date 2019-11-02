@@ -17,10 +17,10 @@ module.exports = [
     {
         name: "[JavaScript] Function",
         scope: [
-            "variable.function, variable.annotation",
+            "variable.function",
+            "variable.annotation",
             "entity.name.function",
             "meta.class-method.js entity.name.function.js",
-            "variable.function",
         ],
         foreground: "var(blue)",
     },

@@ -17,7 +17,8 @@ module.exports = [
     {
         name: "[Python] Statement While",
         scope: [
-            "source.python meta.statement.while.python constant.language.python, source.python constant.language.python",
+            "source.python meta.statement.while.python constant.language.python",
+            "source.python constant.language.python",
         ],
         foreground: "var(pink)",
     },
@@ -31,7 +32,8 @@ module.exports = [
     {
         name: "[Python] Print",
         scope: [
-            "source.python keyword.other.print.python, source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
+            "source.python keyword.other.print.python",
+            "source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
         ],
         font_style: "normal",
         foreground: "var(pink)",
@@ -40,7 +42,8 @@ module.exports = [
         name: "[Python] Function Parameters",
         scope: [
             "source.python meta.item-access.arguments.python meta.qualified-name.python meta.generic-name.python",
-            "source.python meta.item-access.arguments.python meta.qualified-name.python support.type.python, source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
+            "source.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
+            "source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
         ],
         foreground: "var(green)",
     },

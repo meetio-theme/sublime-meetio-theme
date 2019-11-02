@@ -221,12 +221,12 @@
         },
         {
             "name": "[CSS] Properties",
-            "scope": "source.css support.type,source.sass support.type,source.scss support.type,source.less support.type, source.stylus",
+            "scope": "source.css support.type,source.sass support.type,source.scss support.type,source.less support.type,source.stylus",
             "foreground": "var(foreground)"
         },
         {
             "name": "[CSS] Variable",
-            "scope": "source.scss variable.declaration.sass,support.type.custom-property.css,support.type.custom-property.scss,variable.other.sass,variable.other.scss, variable.other.stylus,source.stylus variable.other.property.stylus",
+            "scope": "source.scss variable.declaration.sass,support.type.custom-property.css,support.type.custom-property.scss,variable.other.sass,variable.other.scss,variable.other.stylus,source.stylus variable.other.property.stylus",
             "foreground": "var(brown)"
         },
         {
@@ -236,7 +236,7 @@
         },
         {
             "name": "[CSS] Constant Numeric",
-            "scope": "constant.numeric.css, source.stylus constant.numeric.stylus",
+            "scope": "constant.numeric.css,source.stylus constant.numeric.stylus",
             "foreground": "var(orange)"
         },
         {
@@ -286,7 +286,7 @@
         },
         {
             "name": "[CSS] Function",
-            "scope": "source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.color.css,support.function.var.css, support.function.filter.css,support.function.calc.css, support.function.gradient.css,source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.var.css",
+            "scope": "source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.color.css,support.function.var.css,support.function.filter.css,support.function.calc.css,support.function.gradient.css,source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.var.css",
             "foreground": "var(blue)"
         },
         {
@@ -386,7 +386,7 @@
         },
         {
             "name": "[JavaScript] Function",
-            "scope": "variable.function, variable.annotation,entity.name.function,meta.class-method.js entity.name.function.js,variable.function",
+            "scope": "variable.function,variable.annotation,entity.name.function,meta.class-method.js entity.name.function.js",
             "foreground": "var(blue)"
         },
         {
@@ -566,7 +566,7 @@
         },
         {
             "name": "[Python] Statement While",
-            "scope": "source.python meta.statement.while.python constant.language.python, source.python constant.language.python",
+            "scope": "source.python meta.statement.while.python constant.language.python,source.python constant.language.python",
             "foreground": "var(pink)"
         },
         {
@@ -576,12 +576,12 @@
         },
         {
             "name": "[Python] Print",
-            "scope": "source.python keyword.other.print.python, source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
+            "scope": "source.python keyword.other.print.python,source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
             "foreground": "var(pink)"
         },
         {
             "name": "[Python] Function Parameters",
-            "scope": "source.python meta.item-access.arguments.python meta.qualified-name.python meta.generic-name.python,source.python meta.item-access.arguments.python meta.qualified-name.python support.type.python, source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
+            "scope": "source.python meta.item-access.arguments.python meta.qualified-name.python meta.generic-name.python,source.python meta.item-access.arguments.python meta.qualified-name.python support.type.python,source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
             "foreground": "var(green)"
         },
         {
