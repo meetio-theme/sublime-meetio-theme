@@ -18,8 +18,7 @@
         "invalid": "#d3423e66",
         "diffAdded": "#9ccc65",
         "diffModified": "#e2b93d",
-        "diffDeleted": "#ef5350",
-        "diffIgnored": "#4C566A"
+        "diffDeleted": "#ef5350"
     },
     "globals": {
         "foreground": "var(foreground)",
@@ -100,7 +99,7 @@
         },
         {
             "name": "Operator, Misc",
-            "scope": "keyword.control,constant.other.color,punctuation.definition.tag,punctuation,punctuation.separator.inheritance.php,punctuation.definition.tag.html,punctuation.definition.tag.begin.html,punctuation.definition.tag.end.html,punctuation.section.embedded,keyword.other.template,keyword.other.substitutio,keyword.operator.star.sql",
+            "scope": "keyword.control,constant.other.color,punctuation.definition.tag,punctuation,punctuation.separator.inheritance.php,punctuation.definition.tag.html,punctuation.definition.tag.begin.html,punctuation.definition.tag.end.html,punctuation.section.embedded,keyword.other.template",
             "foreground": "var(cyan)"
         },
         {
@@ -115,13 +114,8 @@
         },
         {
             "name": "Invalid",
-            "scope": "invalid",
-            "foreground": "#fff"
-        },
-        {
-            "name": "Deprecated",
-            "scope": "invalid.deprecated",
-            "foreground": "#fff"
+            "scope": "invalid,invalid.illegal",
+            "foreground": "var(invalid)"
         },
         {
             "name": "[Markdown] Deleted",
@@ -615,6 +609,11 @@
             "foreground": "var(green)"
         },
         {
+            "name": "[GitGutter] Deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "var(diffDeleted)"
+        },
+        {
             "name": "[GitGutter] Inserted",
             "scope": "markup.inserted.git_gutter",
             "foreground": "var(diffAdded)"
@@ -623,16 +622,6 @@
             "name": "[GitGutter] Modified",
             "scope": "markup.changed.git_gutter",
             "foreground": "var(diffModified)"
-        },
-        {
-            "name": "[GitGutter] Deleted",
-            "scope": "markup.deleted.git_gutter",
-            "foreground": "var(diffDeleted)"
-        },
-        {
-            "name": "[GitGutter] Ignored",
-            "scope": "markup.ignored.git_gutter",
-            "foreground": "var(diffIgnored)"
         },
         {
             "name": "[SublimeLinter] Error",

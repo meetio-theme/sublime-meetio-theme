@@ -90,8 +90,6 @@ module.exports = [
             "punctuation.definition.tag.end.html",
             "punctuation.section.embedded",
             "keyword.other.template",
-            "keyword.other.substitutio",
-            "keyword.operator.star.sql",
         ],
         foreground: "var(cyan)",
     },
@@ -107,14 +105,7 @@ module.exports = [
     },
     {
         name: "Invalid",
-        scope: ["invalid"],
-        foreground: "#fff",
-        background: "var(invalid)",
-    },
-    {
-        name: "Deprecated",
-        scope: ["invalid.deprecated"],
-        foreground: "#fff",
-        background: "color(var(yellow) alpha(0.9))",
-    },
+        scope: ["invalid", "invalid.illegal"],
+        foreground: "var(invalid)"
+    }
 ]
