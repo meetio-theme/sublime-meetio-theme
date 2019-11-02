@@ -6,6 +6,8 @@ module.exports = {
     line_highlight: "color(var(foreground) alpha(0.1))",
     selection: "color(var(foreground) alpha(0.10))",
     selection_border: "var(cyan)",
+    selection_corner_style: "cut",
+    selection_corner_radius: "cut",
     inactive_selection: "color(var(cyan) alpha(0.1))",
     misspelling: "var(red)",
     shadow: "color(var(background) alpha(0.5))",
@@ -19,5 +21,5 @@ module.exports = {
     line_diff_width: "2",
     line_diff_added: "var(diffAdded)",
     line_diff_modified: "var(diffModified)",
-    line_diff_deleted: "var(diffDeleted)"
+    line_diff_deleted: "var(diffDeleted)",
 }
