@@ -19,6 +19,5 @@ module.exports = {
         diffAdded: "#9ccc65",
         diffModified: "#e2b93d",
         diffDeleted: "#ef5350",
-        diffIgnored: "#4C566A",
     },
 }
