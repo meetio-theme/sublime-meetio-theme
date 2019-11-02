@@ -2,12 +2,16 @@ module.exports = [
     {
         name: "[CSS] String",
         scope: ["source.css string"],
-        foreground: "var(green)",
+        settings: {
+            foreground: "var(green)",
+        },
     },
     {
         name: "[CSS] Classes",
         scope: ["entity.other.attribute-name.class"],
-        foreground: "var(purple)",
+        settings: {
+            foreground: "var(purple)",
+        },
     },
     {
         name: "[CSS] Tag",
@@ -15,7 +19,9 @@ module.exports = [
             "entity.name.tag.css",
             "source.stylus meta.selector.stylus entity.name.tag.stylus",
         ],
-        foreground: "var(yellow)",
+        settings: {
+            foreground: "var(yellow)",
+        },
     },
     {
         name: "[CSS] ID",
@@ -23,7 +29,9 @@ module.exports = [
             "entity.other.attribute-name.id.css",
             "source.stylus meta.selector.stylus entity.other.attribute-name.id.stylus",
         ],
-        foreground: "var(red)",
+        settings: {
+            foreground: "var(red)",
+        },
     },
     {
         name: "[CSS] Properties",
@@ -34,7 +42,9 @@ module.exports = [
             "source.less support.type",
             "source.stylus",
         ],
-        foreground: "var(foreground)",
+        settings: {
+            foreground: "var(foreground)",
+        },
     },
     {
         name: "[CSS] Variable",
@@ -47,7 +57,9 @@ module.exports = [
             "variable.other.stylus",
             "source.stylus variable.other.property.stylus",
         ],
-        foreground: "var(brown)",
+        settings: {
+            foreground: "var(brown)",
+        },
     },
     {
         name: "[CSS] Properties Value",
@@ -56,7 +68,9 @@ module.exports = [
             "source.stylus constant.property-value.stylus",
             "source.stylus keyword.language.function.misc.stylus",
         ],
-        foreground: "var(orange)",
+        settings: {
+            foreground: "var(orange)",
+        },
     },
     {
         name: "[CSS] Constant Numeric",
@@ -64,12 +78,16 @@ module.exports = [
             "constant.numeric.css",
             "source.stylus constant.numeric.stylus",
         ],
-        foreground: "var(orange)",
+        settings: {
+            foreground: "var(orange)",
+        },
     },
     {
         name: "[CSS] Prefix",
         scope: ["support.type.vendor-prefix.css"],
-        foreground: "var(blue)",
+        settings: {
+            foreground: "var(blue)",
+        },
     },
     {
         name: "[CSS] Property Name",
@@ -77,12 +95,16 @@ module.exports = [
             "meta.property-name.css",
             "source.stylus meta.property-name.stylus support.type.property-name.stylus",
         ],
-        foreground: "var(foreground)",
+        settings: {
+            foreground: "var(foreground)",
+        },
     },
     {
         name: "[CSS] Tag",
         scope: ["source.css entity.name.tag.custom.css"],
-        foreground: "var(red)",
+        settings: {
+            foreground: "var(red)",
+        },
     },
     {
         name: "[CSS] Pseudo Class",
@@ -91,14 +113,18 @@ module.exports = [
             "source.stylus meta.selector.stylus entity.other.attribute-name.pseudo-class.stylus",
             "source.stylus meta.selector.stylus entity.other.attribute-name.pseudo-element.stylus",
         ],
-        foreground: "var(red)",
-        font_style: "italic",
+        settings: {
+            foreground: "var(red)",
+            font_style: "italic",
+        },
     },
     {
         name: "[CSS] Pseudo Element",
         scope: ["entity.other.pseudo-element.css"],
-        foreground: "var(red)",
-        font_style: "italic",
+        settings: {
+            foreground: "var(red)",
+            font_style: "italic",
+        },
     },
     {
         name: "[CSS] Unit",
@@ -106,12 +132,16 @@ module.exports = [
             "keyword.other.unit.css",
             "source.stylus constant.numeric.stylus keyword.other.unit.stylus",
         ],
-        foreground: "var(orange)",
+        settings: {
+            foreground: "var(orange)",
+        },
     },
     {
         name: "[CSS] Font Name",
         scope: ["support.constant.font-name.css"],
-        foreground: "var(pink)",
+        settings: {
+            foreground: "var(pink)",
+        },
     },
     {
         name: "[CSS] Color Values",
@@ -120,7 +150,9 @@ module.exports = [
             "constant.other.color.rgb-value.css",
             "support.constant.color.w3c-extended-color-keywords.css",
         ],
-        foreground: "var(pink)",
+        settings: {
+            foreground: "var(pink)",
+        },
     },
     {
         name: "[STYLUS] Color Values",
@@ -131,7 +163,9 @@ module.exports = [
             "source.stylus constant.other.color.rgb-value.stylus constant.other.color.rgb-value.green.stylus",
             "source.stylus constant.other.color.rgb-value.stylus constant.other.color.rgb-value.blue.stylus",
         ],
-        foreground: "var(pink)",
+        settings: {
+            foreground: "var(pink)",
+        },
     },
     {
         name: "[CSS] Function",
@@ -143,8 +177,10 @@ module.exports = [
             "support.function.gradient.css",
             "source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.var.css",
         ],
-        foreground: "var(blue)",
-        font_style: "normal",
+        settings: {
+            foreground: "var(blue)",
+            font_style: "normal",
+        },
     },
     {
         name: "[STYLUS] Function",
@@ -152,21 +188,27 @@ module.exports = [
             "source.stylus meta.function-call.stylus entity.function-name.stylus",
             "source.stylus meta.function-call.stylus entity.other.attribute-name.mixin.stylus",
         ],
-        foreground: "var(blue)",
-        font_style: "normal",
+        settings: {
+            foreground: "var(blue)",
+            font_style: "normal",
+        },
     },
     {
         name: "[SCSS] Prefix",
         scope: [
             "source.scss meta.property-name.css support.type.vendor-prefix.css",
         ],
-        foreground: "var(foreground)",
+        settings: {
+            foreground: "var(foreground)",
+        },
     },
     {
         name: "[SCSS] Prefix",
         scope: ["source.stylus meta.selector.stylus variable.language.stylus"],
-        font_style: "normal",
-        foreground: "var(foreground)",
+        settings: {
+            font_style: "normal",
+            foreground: "var(foreground)",
+        },
     },
     {
         name: "[SCSS] Function Call",
@@ -174,8 +216,10 @@ module.exports = [
             "source.scss meta.property-value.css meta.function-call.css support.function.custom.sass",
             "source.scss meta.property-value.css meta.function-call.sass support.function.sass",
         ],
-        foreground: "var(blue)",
-        font_style: "normal",
+        settings: {
+            foreground: "var(blue)",
+            font_style: "normal",
+        },
     },
     {
         name: "[SCSS] Function",
@@ -186,6 +230,8 @@ module.exports = [
             "source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass",
             "source.stylus meta.selector.stylus entity.other.attribute-name.pseudo-element.stylus puncutation.definition.entity.stylus",
         ],
-        foreground: "var(cyan)",
+        settings: {
+            foreground: "var(cyan)",
+        },
     },
 ]

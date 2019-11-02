@@ -2,17 +2,23 @@ module.exports = [
     {
         name: "[Markdown] Deleted",
         scope: ["markup.deleted"],
-        foreground: "var(red)",
+        settings: {
+            foreground: "var(red)",
+        },
     },
     {
         name: "[Markdown] Inserted",
         scope: ["markup.inserted"],
-        foreground: "var(green)",
+        settings: {
+            foreground: "var(green)",
+        },
     },
     {
         name: "[Markdown] Changed",
         scope: ["markup.changed"],
-        foreground: "var(blue)",
+        settings: {
+            foreground: "var(blue)",
+        },
     },
     {
         name: "[Markdown] Headings",
@@ -20,14 +26,18 @@ module.exports = [
             "markdown.heading",
             "markup.heading | markup.heading entity.name",
         ],
-        font_style: "bold",
-        foreground: "var(green)",
+        settings: {
+            font_style: "bold",
+            foreground: "var(green)",
+        },
     },
     {
         name: "[Markdown] Links",
         scope: ["string.other.link", "markup.underline.link"],
-        font_style: "italic",
-        foreground: "var(purple)",
+        settings: {
+            font_style: "italic",
+            foreground: "var(purple)",
+        },
     },
     {
         name: "[Markdown] Link Description",
@@ -36,7 +46,9 @@ module.exports = [
             "string.other.link.description.title.markdown",
             "markup.underline.link.image.markdown",
         ],
-        foreground: "var(purple)",
+        settings: {
+            foreground: "var(purple)",
+        },
     },
     {
         name: "[Markdown] Link Description",
@@ -45,7 +57,9 @@ module.exports = [
             "meta.block-level.markdown markup.quote.markdown meta.link.inline.description.markdown",
             "text.html.markdown meta.paragraph.markdown meta.link.inline.description.markdown",
         ],
-        foreground: "var(yellow)",
+        settings: {
+            foreground: "var(yellow)",
+        },
     },
     {
         name: "[Markdown] Image Inline",
@@ -53,34 +67,46 @@ module.exports = [
             "meta.paragraph.markdown meta.link.inline.description.markdown",
             "meta.paragraph.markdown meta.image.inline.description.markdown",
         ],
-        foreground: "var(orange)",
+        settings: {
+            foreground: "var(orange)",
+        },
     },
     {
         name: "[Markdown] Bold",
         scope: ["markup.bold"],
-        font_style: "bold",
-        foreground: "var(red)",
+        settings: {
+            font_style: "bold",
+            foreground: "var(red)",
+        },
     },
     {
         name: "[Markdown] Italic",
         scope: ["markup.italic"],
-        font_style: "italic",
-        foreground: "var(red)",
+        settings: {
+            font_style: "italic",
+            foreground: "var(red)",
+        },
     },
     {
         name: "[Markdown] Bold & Italic",
         scope: ["markup.italic markup.bold | markup.bold markup.italic"],
-        font_style: "bold italic",
+        settings: {
+            font_style: "bold italic",
+        },
     },
     {
         name: "[Markdown] Numbered List Bullet",
         scope: ["markup.list.numbered.bullet"],
-        foreground: "var(green)",
+        settings: {
+            foreground: "var(green)",
+        },
     },
     {
         name: "[Markdown] Code Inline",
         scope: ["markup.raw.inline"],
-        background: "color(var(blue) alpha(0.05))",
+        settings: {
+            background: "color(var(blue) alpha(0.05))",
+        },
     },
     {
         name: "[Markdown] Code Block",
@@ -89,14 +115,18 @@ module.exports = [
             "meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm",
             "meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
         ],
-        background: "color(var(blue) alpha(0.05))",
+        settings: {
+            background: "color(var(blue) alpha(0.05))",
+        },
     },
     {
         name: "[Markdown] Blockquotes",
         scope: [
             "text.html.markdown meta.block-level.markdown markup.quote.markdown",
         ],
-        font_style: "italic",
+        settings: {
+            font_style: "italic",
+        },
     },
     {
         name:
@@ -112,6 +142,8 @@ module.exports = [
             "punctuation.definition.italic.begin.markdown",
             "punctuation.definition.italic.end.markdown",
         ],
-        foreground: "color(var(background) blend(var(foreground) 85%))",
+        settings: {
+            foreground: "color(var(background) blend(var(foreground) 85%))",
+        },
     },
 ]

@@ -2,8 +2,10 @@ module.exports = [
     {
         name: "Comment",
         scope: ["comment, punctuation.definition.comment"],
-        foreground: "var(comments)",
-        font_style: "italic",
+        settings: {
+            foreground: "var(comments)",
+            font_style: "italic",
+        },
     },
     {
         name: "Class",
@@ -12,7 +14,9 @@ module.exports = [
             "meta.class storage.type.class",
             "meta.interface storage.type.interface",
         ],
-        foreground: "var(purple)",
+        settings: {
+            foreground: "var(purple)",
+        },
     },
     {
         name: "Entity Name",
@@ -21,12 +25,16 @@ module.exports = [
             "meta.class entity.name.class",
             "meta.class entity.name.type.class",
         ],
-        foreground: "var(yellow)",
+        settings: {
+            foreground: "var(yellow)",
+        },
     },
     {
         name: "Interface Name",
         scope: ["meta.interface entity.name.type.interface"],
-        foreground: "var(yellow)",
+        settings: {
+            foreground: "var(yellow)",
+        },
     },
     {
         name: "Function Call",
@@ -39,7 +47,9 @@ module.exports = [
             "meta.try meta.block meta.function-call.constructor variable.type",
             "meta.class meta.block meta.function meta.block meta.function-call.constructor variable.type",
         ],
-        foreground: "var(yellow)",
+        settings: {
+            foreground: "var(yellow)",
+        },
     },
     {
         name: "Declaration",
@@ -48,7 +58,9 @@ module.exports = [
             "meta.export.default meta.class meta.method.declaration storage.modifier",
             "meta.class storage.modifier",
         ],
-        foreground: "var(purple)",
+        settings: {
+            foreground: "var(purple)",
+        },
     },
     {
         name: "Inherited",
@@ -57,7 +69,9 @@ module.exports = [
             "meta.class meta.path entity.other.inherited-class",
             "meta.class entity.other.inherited-class",
         ],
-        foreground: "var(orange)",
+        settings: {
+            foreground: "var(orange)",
+        },
     },
     {
         name: "Number, Constant, Function Argument, Tag Attribute, Embedded",
@@ -70,12 +84,16 @@ module.exports = [
             "keyword.other.unit",
             "keyword.other",
         ],
-        foreground: "var(pink)",
+        settings: {
+            foreground: "var(pink)",
+        },
     },
     {
         name: "Variable",
         scope: ["variable.member"],
-        foreground: "var(red)",
+        settings: {
+            foreground: "var(red)",
+        },
     },
     {
         name: "Operator, Misc",
@@ -91,21 +109,29 @@ module.exports = [
             "punctuation.section.embedded",
             "keyword.other.template",
         ],
-        foreground: "var(cyan)",
+        settings: {
+            foreground: "var(cyan)",
+        },
     },
     {
         name: "Storage",
         scope: ["storage, storage.type"],
-        foreground: "var(purple)",
+        settings: {
+            foreground: "var(purple)",
+        },
     },
     {
         name: "String",
         scope: ["string"],
-        foreground: "var(green)",
+        settings: {
+            foreground: "var(green)",
+        },
     },
     {
         name: "Invalid",
         scope: ["invalid", "invalid.illegal"],
-        foreground: "var(invalid)"
-    }
+        settings: {
+            foreground: "var(invalid)",
+        },
+    },
 ]

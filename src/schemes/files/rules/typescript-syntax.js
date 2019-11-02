@@ -7,7 +7,9 @@ module.exports = [
             "entity.name.function.constructor.ts",
             "variable.language.constructor.ts",
         ],
-        foreground: "var(purple)",
+        settings: {
+            foreground: "var(purple)",
+        },
     },
     {
         name: "[Typescript] Declaration",
@@ -16,22 +18,30 @@ module.exports = [
             "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts",
             "source.ts meta.export.default.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
         ],
-        foreground: "var(yellow)",
+        settings: {
+            foreground: "var(yellow)",
+        },
     },
     {
         name: "[Typescript] Primitive",
         scope: ["support.type.primitive.ts"],
-        foreground: "var(pink)",
+        settings: {
+            foreground: "var(pink)",
+        },
     },
     {
         name: "[JavaScript] Try Catch",
         scope: ["keyword.control.trycatch.ts, keyword.control.trycatch.tsx"],
-        foreground: "var(cyan)",
+        settings: {
+            foreground: "var(cyan)",
+        },
     },
     {
         name: "[JavaScript] Loop",
         scope: ["keyword.control.loop.ts, keyword.control.loop.tsx"],
-        foreground: "var(cyan)",
+        settings: {
+            foreground: "var(cyan)",
+        },
     },
     {
         name: "[Typescript] Parameters",
@@ -40,22 +50,30 @@ module.exports = [
             "variable.parameter.function.ts",
             "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts variable.parameter.ts",
         ],
-        foreground: "var(red)",
+        settings: {
+            foreground: "var(red)",
+        },
     },
     {
         name: "[Typescript] Object Key",
         scope: ["meta.object-literal.key.ts"],
-        foreground: "var(blue)",
+        settings: {
+            foreground: "var(blue)",
+        },
     },
     {
         name: "[Typescript] Dollar",
         scope: ["variable.other.dollar.only.ts"],
-        foreground: "var(cyan)",
+        settings: {
+            foreground: "var(cyan)",
+        },
     },
     {
         name: "[Typescript] Try Catch",
         scope: ["keyword.control.trycatch.ts"],
-        foreground: "var(cyan)",
+        settings: {
+            foreground: "var(cyan)",
+        },
     },
     {
         name: "[Typescript] Loop",
@@ -63,14 +81,18 @@ module.exports = [
             "keyword.control.loop.ts",
             "source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.array.literal.tsx keyword.control.as.tsx",
         ],
-        foreground: "var(cyan)",
+        settings: {
+            foreground: "var(cyan)",
+        },
     },
     {
         name: "[Typescript] Field Declaration",
         scope: [
             "source.tsx meta.export.default.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx",
         ],
-        foreground: "var(yellow)",
+        settings: {
+            foreground: "var(yellow)",
+        },
     },
     {
         name: "[Typescript] Method Declaration",
@@ -78,6 +100,8 @@ module.exports = [
             "source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.function-call.tsx variable.other.object.tsx",
             "source.tsx meta.export.default.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.module.tsx",
         ],
-        foreground: "var(brown)",
+        settings: {
+            foreground: "var(brown)",
+        },
     },
 ]

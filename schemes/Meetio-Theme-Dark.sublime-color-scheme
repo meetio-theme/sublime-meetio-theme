@@ -27,35 +27,30 @@
         "block_caret": "var(cursor)",
         "line_highlight": "color(var(foreground) alpha(0.1))",
         "selection": "color(var(cyan) alpha(0.1))",
-        "selection_border": "var(blue)",
+        "selection_border": "var(cyan)",
         "selection_corner_style": "cut",
         "selection_corner_radius": "cut",
         "inactive_selection": "color(var(cyan) alpha(0.1))",
         "misspelling": "var(red)",
         "shadow": "color(var(background) alpha(0.5))",
         "gutter_foreground": "color(var(foreground) alpha(0.2))",
-        "active_guide": "var(cyan)",
-        "stack_guide": "var(cyan)",
+        "active_guide": "var(red)",
+        "stack_guide": "var(orange)",
         "fold_marker": "var(yellow)",
-        "highlight": "var(cyan)",
+        "highlight": "var(pink)",
         "find_highlight": "var(yellow)",
-        "find_highlight_foreground": "#3d3d3d",
-        "brackets_options": "underline",
-        "brackets_foreground": "#3d3d3d",
-        "bracket_contents_options": "underline",
-        "bracket_contents_foreground": "var(cyan)",
+        "find_highlight_foreground": "var(brown)",
         "line_diff_width": "3",
         "line_diff_added": "var(diffAdded)",
         "line_diff_modified": "var(diffModified)",
-        "line_diff_deleted": "var(diffDeleted)",
-        "tags_options": "stippled_underline",
-        "tags_foreground": "var(pink)"
+        "line_diff_deleted": "var(diffDeleted)"
     },
     "rules": [
         {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
-            "foreground": "var(comments)"
+            "foreground": "var(comments)",
+            "font_style": "italic"
         },
         {
             "name": "Class",
@@ -135,11 +130,13 @@
         {
             "name": "[Markdown] Headings",
             "scope": "markdown.heading,markup.heading | markup.heading entity.name",
+            "font_style": "bold",
             "foreground": "var(green)"
         },
         {
             "name": "[Markdown] Links",
             "scope": "string.other.link,markup.underline.link",
+            "font_style": "italic",
             "foreground": "var(purple)"
         },
         {
@@ -160,16 +157,19 @@
         {
             "name": "[Markdown] Bold",
             "scope": "markup.bold",
+            "font_style": "bold",
             "foreground": "var(red)"
         },
         {
             "name": "[Markdown] Italic",
             "scope": "markup.italic",
+            "font_style": "italic",
             "foreground": "var(red)"
         },
         {
             "name": "[Markdown] Bold & Italic",
-            "scope": "markup.italic markup.bold | markup.bold markup.italic"
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "bold italic"
         },
         {
             "name": "[Markdown] Numbered List Bullet",
@@ -178,15 +178,18 @@
         },
         {
             "name": "[Markdown] Code Inline",
-            "scope": "markup.raw.inline"
+            "scope": "markup.raw.inline",
+            "background": "color(var(blue) alpha(0.05))"
         },
         {
             "name": "[Markdown] Code Block",
-            "scope": "meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm,meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm,meta.paragraph.markdown markup.raw.code-fence.markdown-gfm"
+            "scope": "meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm,meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm,meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
+            "background": "color(var(blue) alpha(0.05))"
         },
         {
             "name": "[Markdown] Blockquotes",
-            "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown"
+            "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
+            "font_style": "italic"
         },
         {
             "name": "[Markdown] - Color for Punctuation — Heading, `Code` and fenced ```code blocks```, **Bold**, _Italic_",
@@ -251,12 +254,14 @@
         {
             "name": "[CSS] Pseudo Class",
             "scope": "entity.other.pseudo-class.css,source.stylus meta.selector.stylus entity.other.attribute-name.pseudo-class.stylus,source.stylus meta.selector.stylus entity.other.attribute-name.pseudo-element.stylus",
-            "foreground": "var(red)"
+            "foreground": "var(red)",
+            "font_style": "italic"
         },
         {
             "name": "[CSS] Pseudo Element",
             "scope": "entity.other.pseudo-element.css",
-            "foreground": "var(red)"
+            "foreground": "var(red)",
+            "font_style": "italic"
         },
         {
             "name": "[CSS] Unit",
@@ -281,12 +286,14 @@
         {
             "name": "[CSS] Function",
             "scope": "source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.color.css,support.function.var.css,support.function.filter.css,support.function.calc.css,support.function.gradient.css,source.css meta.property-list.css meta.property-value.css meta.function-call.css support.function.var.css",
-            "foreground": "var(blue)"
+            "foreground": "var(blue)",
+            "font_style": "normal"
         },
         {
             "name": "[STYLUS] Function",
             "scope": "source.stylus meta.function-call.stylus entity.function-name.stylus,source.stylus meta.function-call.stylus entity.other.attribute-name.mixin.stylus",
-            "foreground": "var(blue)"
+            "foreground": "var(blue)",
+            "font_style": "normal"
         },
         {
             "name": "[SCSS] Prefix",
@@ -296,12 +303,14 @@
         {
             "name": "[SCSS] Prefix",
             "scope": "source.stylus meta.selector.stylus variable.language.stylus",
+            "font_style": "normal",
             "foreground": "var(foreground)"
         },
         {
             "name": "[SCSS] Function Call",
             "scope": "source.scss meta.property-value.css meta.function-call.css support.function.custom.sass,source.scss meta.property-value.css meta.function-call.sass support.function.sass",
-            "foreground": "var(blue)"
+            "foreground": "var(blue)",
+            "font_style": "normal"
         },
         {
             "name": "[SCSS] Function",
@@ -386,12 +395,14 @@
         {
             "name": "[JavaScript] Language Library",
             "scope": "variable.language",
-            "foreground": "var(red)"
+            "foreground": "var(red)",
+            "font_style": "italic"
         },
         {
             "name": "[JavaScript] Library",
             "scope": "support.function,support.macro",
-            "foreground": "var(blue)"
+            "foreground": "var(blue)",
+            "font_style": "italic"
         },
         {
             "name": "[JavaScript] Support",
@@ -516,6 +527,7 @@
         {
             "name": "[PHP] Echo",
             "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
+            "font_style": "normal",
             "foreground": "var(pink)"
         },
         {
@@ -571,6 +583,7 @@
         {
             "name": "[Python] Print",
             "scope": "source.python keyword.other.print.python,source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
+            "font_style": "normal",
             "foreground": "var(pink)"
         },
         {
@@ -636,11 +649,13 @@
         {
             "name": "[Diff] Deleted",
             "scope": "diff.deleted,diff.deleted.char",
+            "background": "color(var(red) alpha(0.08))",
             "foreground": "var(red)"
         },
         {
             "name": "[Diff] Insert",
             "scope": "diff.inserted,diff.inserted.char",
+            "background": "color(var(green) alpha(0.08))",
             "foreground": "var(green)"
         }
     ]

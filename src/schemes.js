@@ -7,7 +7,6 @@ const schemes = require("./schemes/index")
 const globals = require("./schemes/files/globals")
 const rules = require("./schemes/files/rules/index")
 
-
 schemes.forEach(scheme => {
     const data = []
     const allRules = []
@@ -19,14 +18,15 @@ schemes.forEach(scheme => {
                 if (allScopes.has(i)) {
                     console.log(`duplicated scope: ${i} in ${item.name}`)
                 }
-                allScopes.add(i);
+                allScopes.add(i)
             })
 
             allRules.push({
                 name: item.name,
                 scope: item.scope.toString(),
-                foreground: item.foreground,
             })
+
+            Object.assign(allRules[allRules.length - 1], item.settings)
         })
     })
 
@@ -35,8 +35,8 @@ schemes.forEach(scheme => {
         author: scheme.author,
         variables: scheme.variables,
         globals: globals,
-        rules: allRules
-    });
+        rules: allRules,
+    })
 
     rimraf("schemes", () => {
         fs.mkdir("schemes", () => {
@@ -48,7 +48,7 @@ schemes.forEach(scheme => {
                         console.log(err)
                     }
                 }
-                )
+            )
         })
     })
 })

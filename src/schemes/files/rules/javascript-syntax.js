@@ -7,12 +7,16 @@ module.exports = [
             "entity.name.function.constructor.js",
             "variable.language.constructor.js",
         ],
-        foreground: "var(purple)",
+        settings: {
+            foreground: "var(purple)",
+        },
     },
     {
         name: "[JavaScript] Object Key",
         scope: ["meta.object-literal.key.js"],
-        foreground: "var(blue)",
+        settings: {
+            foreground: "var(blue)",
+        },
     },
     {
         name: "[JavaScript] Function",
@@ -22,34 +26,46 @@ module.exports = [
             "entity.name.function",
             "meta.class-method.js entity.name.function.js",
         ],
-        foreground: "var(blue)",
+        settings: {
+            foreground: "var(blue)",
+        },
     },
     {
         name: "[JavaScript] Language Library",
         scope: ["variable.language"],
-        foreground: "var(red)",
-        font_style: "italic",
+        settings: {
+            foreground: "var(red)",
+            font_style: "italic",
+        },
     },
     {
         name: "[JavaScript] Library",
         scope: ["support.function", "support.macro"],
-        foreground: "var(blue)",
-        font_style: "italic",
+        settings: {
+            foreground: "var(blue)",
+            font_style: "italic",
+        },
     },
     {
         name: "[JavaScript] Support",
         scope: ["support.type", "support.class"],
-        foreground: "var(yellow)",
+        settings: {
+            foreground: "var(yellow)",
+        },
     },
     {
         name: "[JavaScript] Null",
         scope: ["constant.language.null.js"],
-        foreground: "var(orange)",
+        settings: {
+            foreground: "var(orange)",
+        },
     },
     {
         name: "[JavaScript] Undefined",
         scope: ["constant.language.undefined.js"],
-        foreground: "var(orange)",
+        settings: {
+            foreground: "var(orange)",
+        },
     },
     {
         name: "[JavaScript] Boolean",
@@ -59,13 +75,17 @@ module.exports = [
             "constant.language.boolean.true.js",
             "source.js meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js variable.other.constant.js",
         ],
-        foreground: "var(orange)",
+        settings: {
+            foreground: "var(orange)",
+        },
     },
     {
         name: "[JavaScript] Object",
         scope: [
             "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
         ],
-        foreground: "var(pink)",
+        settings: {
+            foreground: "var(pink)",
+        },
     },
 ]
