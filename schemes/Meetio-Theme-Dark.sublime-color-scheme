@@ -301,21 +301,21 @@
             "foreground": "var(foreground)"
         },
         {
-            "name": "[SCSS] Prefix",
+            "name": "[STYLUS] Prefix",
             "scope": "source.stylus meta.selector.stylus variable.language.stylus",
             "font_style": "normal",
             "foreground": "var(foreground)"
         },
         {
-            "name": "[SCSS] Function Call",
+            "name": "[SCSS | STYLUS] Function Call",
+            "scope": "source.scss meta.function.declaration.sass keyword.control.at-rule.sass,source.scss meta.function.declaration.sass meta.function.parameters.sass constant.language.sass,source.css meta.at-rule.import.css keyword.control.at-rule.import.css,source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass,source.stylus meta.selector.stylus entity.other.attribute-name.pseudo-element.stylus puncutation.definition.entity.stylus",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[SCSS] Property Value",
             "scope": "source.scss meta.property-value.css meta.function-call.css support.function.custom.sass,source.scss meta.property-value.css meta.function-call.sass support.function.sass",
             "foreground": "var(blue)",
             "font_style": "normal"
-        },
-        {
-            "name": "[SCSS] Function",
-            "scope": "source.scss meta.function.declaration.sass keyword.control.at-rule.sass,source.scss meta.function.declaration.sass meta.function.parameters.sass constant.language.sass,source.css meta.at-rule.import.css keyword.control.at-rule.import.css,source.scss meta.function-call.sass variable.function.sass keyword.control.at-rule.sass,source.stylus meta.selector.stylus entity.other.attribute-name.pseudo-element.stylus puncutation.definition.entity.stylus",
-            "foreground": "var(cyan)"
         },
         {
             "name": "[HTML] String",

@@ -203,7 +203,7 @@ module.exports = [
         },
     },
     {
-        name: "[SCSS] Prefix",
+        name: "[STYLUS] Prefix",
         scope: ["source.stylus meta.selector.stylus variable.language.stylus"],
         settings: {
             font_style: "normal",
@@ -211,18 +211,7 @@ module.exports = [
         },
     },
     {
-        name: "[SCSS] Function Call",
-        scope: [
-            "source.scss meta.property-value.css meta.function-call.css support.function.custom.sass",
-            "source.scss meta.property-value.css meta.function-call.sass support.function.sass",
-        ],
-        settings: {
-            foreground: "var(blue)",
-            font_style: "normal",
-        },
-    },
-    {
-        name: "[SCSS] Function",
+        name: "[SCSS | STYLUS] Function Call",
         scope: [
             "source.scss meta.function.declaration.sass keyword.control.at-rule.sass",
             "source.scss meta.function.declaration.sass meta.function.parameters.sass constant.language.sass",
@@ -232,6 +221,17 @@ module.exports = [
         ],
         settings: {
             foreground: "var(cyan)",
+        },
+    },
+    {
+        name: "[SCSS] Property Value",
+        scope: [
+            "source.scss meta.property-value.css meta.function-call.css support.function.custom.sass",
+            "source.scss meta.property-value.css meta.function-call.sass support.function.sass",
+        ],
+        settings: {
+            foreground: "var(blue)",
+            font_style: "normal",
         },
     },
 ]
