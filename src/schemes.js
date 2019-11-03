@@ -1,5 +1,4 @@
 /*eslint-disable no-undef */
-const path = require("path")
 const fs = require("fs")
 const rimraf = require("rimraf")
 
@@ -8,7 +7,6 @@ const globals = require("./schemes/files/globals")
 const rules = require("./schemes/files/rules/index")
 
 schemes.forEach(scheme => {
-    const data = []
     const allRules = []
     const allScopes = new Set()
 
@@ -30,23 +28,21 @@ schemes.forEach(scheme => {
         })
     })
 
-    data.push({
+    const data = {
         name: scheme.name,
         author: scheme.author,
         variables: scheme.variables,
         globals: globals,
         rules: allRules,
-    })
+    }
 
     rimraf("schemes", () => {
         fs.mkdir("schemes", () => {
             fs.writeFileSync(
                 `schemes/${scheme.name}.sublime-color-scheme`,
-                JSON.stringify(data[0], null, 4),
+                JSON.stringify(data, null, 4),
                 err => {
-                    if (err) {
-                        console.log(err)
-                    }
+                    if (err) throw err
                 }
             )
         })
