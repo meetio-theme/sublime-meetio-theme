@@ -129,6 +129,16 @@ module.exports = [
         },
     },
     {
+        name: "[Markdown] Punctuation inside inline raw",
+        scope: [
+            "text.html.markdown meta.block-level.markdown meta.table.markdown-gfm markup.raw.inline.markdown punctuation.definition.raw.end.markdown",
+            "text.html.markdown meta.block-level.markdown meta.table.markdown-gfm markup.raw.inline.markdown punctuation.definition.raw.begin.markdown",
+        ],
+        settings: {
+            foreground: "color(var(cyan) alpha(0.8))",
+        },
+    },
+    {
         name:
             "[Markdown] - Color for Punctuation — Heading, `Code` and fenced ```code blocks```, **Bold**, _Italic_",
         scope: [
