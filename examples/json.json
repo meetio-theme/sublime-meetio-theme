@@ -9,7 +9,7 @@
         },
         "image": {
             "src": "Images/Sun.png",
-            "name": "sun1",
+            "name": "sun 1",
             "visible": true,
             "hOffset": 250,
             "vOffset": 250,
