@@ -32,6 +32,7 @@
     "sidebarIconFolderExpandedColor": "var(colorAccent)",
     "sidebarIconFolderColor": "var(colorAccent)",
     "sidebarIconFileColor": "#ffffff",
+    "sidebarIconFileSize": 6,
     "sidebarHeadingFontSize": "var(fontSizeSm)",
     "sidebarLabelFontSize": "var(fontSizeMd)",
     "sidebarLabelPadding": [14, 3],

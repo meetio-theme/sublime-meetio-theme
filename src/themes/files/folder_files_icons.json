@@ -97,7 +97,7 @@
         "class": "icon_file_type",
         "layer0.tint": "var(sidebarIconFileColor)",
         "layer0.opacity": 1,
-        "content_margin": [8, 8]
+        "content_margin": "var(sidebarIconFileSize)"
     },
     {
         "class": "icon_file_type",
