@@ -10,7 +10,7 @@ schemes.forEach(scheme => {
     const allRules = []
     const allScopes = new Set()
 
-    rules.forEach((rule, index) => {
+    rules.forEach(rule => {
         rule.forEach(item => {
             item.scope.forEach(i => {
                 if (allScopes.has(i)) {
