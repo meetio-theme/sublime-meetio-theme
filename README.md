@@ -82,6 +82,11 @@ This theme provide a visual configuration tool that allow you to configure the t
 }
 ```
 
+## File Icons
+
+`Meetio Theme` from version `3.0.0` supports customization via [A File Icon](https://github.com/SublimeText/AFileIcon) package.Please install it and restart Sublime for better experience.
+
+
 ## Recommended Settings
 
 To enjoy a better experience of using the **Meetio Theme** in your Sublime Text, please check the following settings.
