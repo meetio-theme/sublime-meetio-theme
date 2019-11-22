@@ -6,6 +6,16 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ---
 
+<a name="3.1.0"></a>
+## [3.1.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v3.0.7...v3.1.0) (2019-11-22)
+
+## FEATURES
+
+* Add support for A File Icon
+* Add NEW ICONS (support @3X retina display)
+
+---
+
 <a name="3.0.0"></a>
 ## [3.0.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v2.4.0...v3.0.0) (2019-10-25)
 
