@@ -3,7 +3,7 @@ const path = require("path")
 const fs = require("fs")
 const svg2img = require("svg2img")
 const defaultOptions = require("./icons/default.js")
-const fileIcons = require("../../node_modules/meetio-theme-icons/src/index")
+const fileIcons = require("../node_modules/meetio-theme-icons/src/index.js")
 
 fs.readdirSync("./src/icons/svg/").forEach(icon => {
     const iconPath = path.join(__dirname, `/../src/icons/svg/${icon}`)
@@ -36,4 +36,4 @@ fs.readdirSync("./src/icons/svg/").forEach(icon => {
     })
 })
 
-fileIcons.build()
+fileIcons.run()
