@@ -1,7 +1,5 @@
 # Meetio Theme for Sublime Text 3
 
-![Meetio Theme](images/dark/meetio-theme.gif)
-
 [![GitHub tag](https://img.shields.io/github/release/meetio-theme/sublime-meetio-theme.svg?style=for-the-badge)](https://github.com/meetio-theme/sublime-meetio-theme/releases)
 ![Build Status](https://img.shields.io/travis/meetio-theme/sublime-meetio-theme/master.svg?style=for-the-badge)
 [![GitHub issues](https://img.shields.io/github/issues/meetio-theme/sublime-meetio-theme.svg?style=for-the-badge)](https://github.com/meetio-theme/sublime-meetio-theme/issues)

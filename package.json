@@ -37,7 +37,7 @@
     "prettier": "^1.15.3",
     "svg2img": "^0.6.1",
     "meetio-theme-colors": "^1.0.3",
-    "meetio-theme-icons": "^1.1.1",
+    "meetio-theme-icons": "^1.1.2",
     "rimraf": "^3.0.0"
   }
 }

@@ -7,7 +7,7 @@
     },
     {
         "class": "panel_button_control",
-        "layer0.texture": "Meetio Theme/assets/overflow_menu.png",
+        "layer0.texture": "Meetio Theme/icons/overflow_menu.png",
         "layer0.tint": "var(statusbarLabelColor)",
         "layer0.opacity": 1,
         "content_margin": 9,
@@ -15,7 +15,7 @@
     },
     {
         "class": "vcs_branch_icon",
-        "layer0.texture": "Meetio Theme/assets/icon_branch.png",
+        "layer0.texture": "Meetio Theme/icons/icon_branch.png",
         "layer0.tint": "var(statusbarLabelColor)",
         "layer0.opacity": 0,
         "content_margin": 8,
@@ -23,7 +23,7 @@
     },
     {
         "class": "vcs_branch_icon",
-        "layer0.texture": "Meetio Theme/assets/icon_branch.png",
+        "layer0.texture": "Meetio Theme/icons/icon_branch.png",
         "settings": ["meetio_status_badges"],
         "layer0.opacity": 1
     },
