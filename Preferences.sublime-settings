@@ -8,6 +8,8 @@
   "meetio_icon_folder": true,
   // Set disclosure tree controls
   "meetio_sidebar_disclosure": false,
+  // Show button in the left corner of the status bar
+  "meetio_sidebar_button": true,
 
   // Show icon search in inputs
   "meetio_input_search_icon": true,
