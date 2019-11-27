@@ -4,8 +4,6 @@
   // Show diff pencil icon in tab.
   "meetio_tabs_diff_pencil_icon": true,
 
-  // Replace colorful folder to a flat icon folder
-  "meetio_icon_folder": true,
   // Set disclosure tree controls
   "meetio_sidebar_disclosure": false,
   // Show button in the left corner of the status bar
