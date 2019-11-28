@@ -188,28 +188,5 @@
         "class": "icon_use_buffer",
         "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
         "layer0.opacity": 1.0
-    },
-{
-        "class": "sidebar_button_control",
-        "settings": ["!meetio_sidebar_button"],
-        "content_margin": 0,
-        "layer0.texture": "",
-        "layer0.opacity": 0.0
-    },
-    {
-        "class": "sidebar_button_control",
-        "settings": ["meetio_sidebar_button"],
-        "layer0.texture": "Meetio Theme/icons/sidebar_button.png",
-        "layer0.opacity": 0,
-        "content_margin": 8,
-        "layer0.inner_margin": 2,
-        "layer0.tint": "var(buttonIconFileColor)",
-        "layer0.opacity": { "target": 0.5, "speed": 5.0, "interpolation": "smoothstep" }
-    },
-    {
-        "class": "sidebar_button_control",
-        "settings": ["meetio_sidebar_button"],
-        "attributes": ["hover"],
-        "layer0.opacity": 1.0
     }
 ]
