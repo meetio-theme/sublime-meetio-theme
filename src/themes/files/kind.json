@@ -1,0 +1,14 @@
+[
+    {
+        "class": "kind_container",
+        "layer1.draw_center": false,
+        "layer1.inner_margin": [5, 2, 5, 2]
+    },
+    {
+        "class": "kind_label",
+        "font.face": "var(kindFontFace)",
+        "font.size": "var(kindFontSize)",
+        "font.bold": true,
+        "font.italic": true
+    }
+]

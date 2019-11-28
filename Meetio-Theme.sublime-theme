@@ -8,6 +8,8 @@
         "fontSizeLg": 14,
         "fontSizeHuge": 24,
         "fontFace": "system",
+        "kindFontFace": "monospace",
+        "kindFontSize": "var(fontSizeLg)",
         "buttonBackground": [
             "background",
             0.5
@@ -28,7 +30,7 @@
         "panelPathRowColor": "color(var(colorDark) l(+ 20%))",
         "panelPathRowFontItalic": true,
         "panelRowPadding": [
-            30,
+            10,
             10
         ],
         "panelRowFontSize": "var(fontSizeMd)",

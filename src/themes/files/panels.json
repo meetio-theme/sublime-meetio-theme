@@ -41,10 +41,6 @@
         "content_margin": [32, 8, 32, 8]
     },
     {
-        "class": "panel_control",
-        "parents": [{ "class": "window" }]
-    },
-    {
         "class": "panel_grid_control",
         "inside_spacing": 4,
         "outside_hspacing": 4,
