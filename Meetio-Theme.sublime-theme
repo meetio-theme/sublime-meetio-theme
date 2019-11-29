@@ -20,6 +20,22 @@
             80,
             28
         ],
+        "autoCompleteFontSize": "var(fontSizeSm)",
+        "autoCompleteFontItalic": true,
+        "autoCompleteColor": [
+            "foreground",
+            0.5
+        ],
+        "autoCompleteMatchColor": "var(colorAccent)",
+        "autoCompleteSelectedColor": [
+            "foreground",
+            1
+        ],
+        "autoCompleteSelectedMatchColor": "var(colorAccent)",
+        "autoCompleteSelectedBackground": [
+            "foreground",
+            0.1
+        ],
         "panelControlBackground": [
             "background",
             1
@@ -27,8 +43,11 @@
         "panelControlBorderColor": "var(panelControlBackground)",
         "panelControlBorderSize": 0,
         "panelPathRowFontSize": "var(fontSizeSm)",
-        "panelPathRowColor": "color(var(colorDark) l(+ 20%))",
         "panelPathRowFontItalic": true,
+        "panelPathRowColor": [
+            "foreground",
+            1
+        ],
         "panelRowPadding": [
             10,
             10

@@ -6,6 +6,17 @@
         "content_margin": [0, 0]
     },
     {
+        "class": "auto_complete_details",
+        "tint_index": 0,
+        "layer0.opacity": 1.0,
+        "tint_modifier": [0, 0, 0, 0.1],
+        "content_margin": [8, 5, 8, 5]
+    },
+    {
+        "class": "auto_complete_info",
+        "spacing": 8
+    },
+    {
         "class": "auto_complete",
         "row_padding": [12, 6],
         "layer0.tint": ["background", 1.0],
@@ -13,18 +24,23 @@
     },
     {
         "class": "auto_complete_label",
-        "fg": ["foreground", 0.5],
-        "match_fg": "var(colorAccent)",
-        "selected_fg": ["foreground", 1.0],
-        "selected_match_fg": "var(colorAccent)"
+        "font.face": "var(fontFace)",
+        "font.size": "var(autoCompleteFontSize)",
+        "font.italic": "var(autoCompleteFontItalic)",
+        "fg": "var(autoCompleteColor)",
+        "match_fg": "var(autoCompleteMatchColor)",
+        "selected_fg": "var(autoCompleteSelectedColor)",
+        "selected_match_fg": "var(autoCompleteSelectedMatchColor)",
+        "fg_blend": false
     },
     {
         "class": "table_row",
+        "layer0.tint": "var(autoCompleteSelectedBackground)",
         "layer0.opacity": 0.0
     },
     {
         "class": "table_row",
         "attributes": ["selected"],
-        "layer0.opacity": 0.2
+        "layer0.opacity": 1.0
     }
 ]
