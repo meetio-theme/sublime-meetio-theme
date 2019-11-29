@@ -3,7 +3,7 @@
         "class": "close_button",
         "layer0.texture": "Meetio Theme/icons/icon_close.png",
         "layer0.tint": "var(colorAccent)",
-        "layer0.opacity": 1,
+        "layer0.opacity": 1.0,
         "layer0.inner_margin": [3, 3],
         "content_margin": [8, 8]
     },

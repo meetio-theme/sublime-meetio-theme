@@ -16,7 +16,7 @@
     },
     {
         "class": "scroll_bar_control",
-        "layer0.opacity": 1,
+        "layer0.opacity": 1.0,
         "content_margin": 4,
         "tint_index": 0
     },
@@ -60,7 +60,7 @@
  {
         "class": "scroll_track_control",
         "layer0.tint": "var(scrollBar)",
-        "layer0.opacity": 1,
+        "layer0.opacity": 1.0,
         "layer0.inner_margin": 2,
         "content_margin": [4, 4, 3, 4]
     },
@@ -71,7 +71,7 @@
     },
     {
         "class": "scroll_corner_control",
-        "layer0.opacity": 1,
+        "layer0.opacity": 1.0,
         "tint_index": 0
     },
     {

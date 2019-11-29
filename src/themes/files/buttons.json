@@ -11,7 +11,7 @@
         "class": "button_control",
         "attributes": ["hover"],
         "layer0.tint": "var(buttonBackgroundHover)",
-        "layer0.opacity": 1
+        "layer0.opacity": 1.0
     },
     {
         "class": "button_control",

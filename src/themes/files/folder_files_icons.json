@@ -42,7 +42,7 @@
         "class": "icon_folder_dup",
         "layer0.texture": "Meetio Theme/icons/folder_dup.png",
         "layer0.tint": "var(sidebarIconFolderColor)",
-        "layer0.opacity": 1,
+        "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
@@ -68,13 +68,13 @@
             "frame_time": 0.08
         },
         "layer0.tint": "var(sidebarIconFolderColor)",
-        "layer0.opacity": 1,
+        "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_file_type",
         "layer0.tint": "var(sidebarIconFileColor)",
-        "layer0.opacity": 1,
+        "layer0.opacity": 1.0,
         "content_margin": "var(sidebarIconFileSize)"
     },
     {
