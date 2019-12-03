@@ -53,7 +53,7 @@
     "sidebarIconFileSize": 8,
     "statusbarBackground": ["background", 1.0],
     "statusbarLabelColor": "color(var(colorDark) l(+ 20%))",
-    "statusbarIconColor": "var(colorAccent)",
+    "statusbarIconColor": "var(statusbarLabelColor)",
     "statusbarLabelBold": false,
     "statusbarLabelFontSize": "var(fontSizeSm)",
     "statusbarMargin": [10, 4, 0, 4],

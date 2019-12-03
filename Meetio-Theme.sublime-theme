@@ -124,7 +124,7 @@
             1
         ],
         "statusbarLabelColor": "color(var(colorDark) l(+ 20%))",
-        "statusbarIconColor": "var(colorAccent)",
+        "statusbarIconColor": "var(statusbarLabelColor)",
         "statusbarLabelBold": false,
         "statusbarLabelFontSize": "var(fontSizeSm)",
         "statusbarMargin": [
