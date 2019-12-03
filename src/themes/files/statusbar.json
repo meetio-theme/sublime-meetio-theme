@@ -8,7 +8,7 @@
     {
         "class": "panel_button_control",
         "layer0.texture": "Meetio Theme/icons/overflow_menu.png",
-        "layer0.tint": "var(statusbarLabelColor)",
+        "layer0.tint": "var(statusbarIconColor)",
         "layer0.opacity": 1,
         "content_margin": 9,
         "layer0.inner_margin": 4
@@ -20,16 +20,18 @@
     },
     {
         "class": "vcs_branch_icon",
-        "layer0.texture": "Meetio Theme/icons/icon_branch.png",
-        "layer0.tint": "var(statusbarLabelColor)",
-        "layer0.opacity": 0,
-        "content_margin": 8,
-        "layer0.inner_margin": 2
+        "settings": ["!meetio_status_badges"],
+        "content_margin": 0,
+        "layer0.texture": "",
+        "layer0.opacity": 0
     },
     {
         "class": "vcs_branch_icon",
-        "layer0.texture": "Meetio Theme/icons/icon_branch.png",
         "settings": ["meetio_status_badges"],
+        "layer0.texture": "Meetio Theme/icons/icon_branch.png",
+       "content_margin": 8,
+        "layer0.tint": "var(statusbarIconColor)",
+        "layer0.inner_margin": 2,
         "layer0.opacity": 1
     },
     {
@@ -42,20 +44,19 @@
         "settings": ["!meetio_sidebar_button"],
         "content_margin": 0,
         "layer0.texture": "",
-        "layer0.opacity": 0.0
+        "layer0.opacity": 0
     },
     {
         "class": "sidebar_button_control",
         "settings": ["meetio_sidebar_button"],
-        "content_margin": 8,
         "layer0.texture": "Meetio Theme/icons/sidebar_button.png",
-        "layer0.tint": "var(buttonIconFileColor)",
+        "content_margin": 8,
+        "layer0.tint": "var(statusbarIconColor)",
         "layer0.inner_margin": 2,
         "layer0.opacity": 1
     },
     {
         "class": "sidebar_button_control",
-        "settings": ["meetio_sidebar_button"],
         "attributes": ["hover"],
         "layer0.opacity": 0.8
     },
