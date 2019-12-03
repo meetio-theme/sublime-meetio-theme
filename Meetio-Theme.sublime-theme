@@ -92,10 +92,6 @@
             "background",
             1
         ],
-        "sidebarIconFolderExpandedColor": "var(colorAccent)",
-        "sidebarIconFolderColor": "var(colorAccent)",
-        "sidebarIconFileColor": "#ffffff",
-        "sidebarIconFileSize": 8,
         "sidebarHeadingFontSize": "var(fontSizeSm)",
         "sidebarLabelFontSize": "var(fontSizeMd)",
         "sidebarLabelPadding": [
@@ -120,6 +116,9 @@
             0
         ],
         "sidebarLabelSelectedBorderColor": "var(colorAccent)",
+        "sidebarIconFolderColor": "var(sidebarLabelColor)",
+        "sidebarIconFolderExpandedColor": "var(sidebarLabelSelectedColor)",
+        "sidebarIconFileSize": 8,
         "statusbarBackground": [
             "background",
             1
