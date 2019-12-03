@@ -40,7 +40,6 @@
     "sidebarBackground": ["background", 1],
     "sidebarIconFolderExpandedColor": "var(colorAccent)",
     "sidebarIconFolderColor": "var(colorAccent)",
-    "sidebarIconFileColor": "#ffffff",
     "sidebarIconFileSize": 8,
     "sidebarHeadingFontSize": "var(fontSizeSm)",
     "sidebarLabelFontSize": "var(fontSizeMd)",
