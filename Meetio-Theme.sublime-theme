@@ -109,10 +109,7 @@
             "foreground",
             1
         ],
-        "sidebarLabelExpandableColor": [
-            "foreground",
-            1
-        ],
+        "sidebarLabelExpandableColor": "var(colorAccent)",
         "sidebarLabelSelectedBorderSize": [
             2,
             0,
@@ -121,7 +118,7 @@
         ],
         "sidebarLabelSelectedBorderColor": "var(colorAccent)",
         "sidebarIconFolderColor": "var(sidebarLabelColor)",
-        "sidebarIconFolderExpandedColor": "var(sidebarLabelSelectedColor)",
+        "sidebarIconFolderExpandedColor": "var(sidebarLabelExpandableColor)",
         "sidebarIconFileSize": 8,
         "statusbarBackground": [
             "background",
