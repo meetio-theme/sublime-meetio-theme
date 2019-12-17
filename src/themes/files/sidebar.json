@@ -88,7 +88,7 @@
     {
         "class": "sidebar_label",
         "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
-        "color": "var(sidebarIconFolderExpandedColor)"
+        "color": "var(sidebarLabelExpandableColor)"
     },
     {
         "class": "sidebar_label",

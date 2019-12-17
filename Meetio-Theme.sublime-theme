@@ -109,6 +109,10 @@
             "foreground",
             1
         ],
+        "sidebarLabelExpandableColor": [
+            "foreground",
+            1
+        ],
         "sidebarLabelSelectedBorderSize": [
             2,
             0,
