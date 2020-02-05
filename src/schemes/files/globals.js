@@ -16,7 +16,7 @@ module.exports = {
     line_diff_deleted: "var(diffDeleted)",
     line_diff_modified: "var(diffModified)",
     line_diff_width: "2",
-    rulers: "color(var(orange) alpha(0.5))",
+    rulers: "color(var(foreground) alpha(0.5))",
     line_highlight: "color(var(foreground) alpha(0.1))",
     misspelling: "var(red)",
     selection: "color(var(foreground) alpha(0.10))",
