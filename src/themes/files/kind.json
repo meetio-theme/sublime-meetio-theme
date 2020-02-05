@@ -1,8 +1,9 @@
 [
     {
         "class": "kind_container",
+        "content_margin": [7, 0, 6, 0],
         "layer1.draw_center": false,
-        "layer1.inner_margin": [5, 2, 5, 2]
+        "layer1.inner_margin": 0
     },
     {
         "class": "kind_label",
