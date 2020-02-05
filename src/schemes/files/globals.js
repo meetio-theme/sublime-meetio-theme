@@ -16,6 +16,7 @@ module.exports = {
     line_diff_deleted: "var(diffDeleted)",
     line_diff_modified: "var(diffModified)",
     line_diff_width: "2",
+    rulers: "color(var(orange) alpha(0.5))",
     line_highlight: "color(var(foreground) alpha(0.1))",
     misspelling: "var(red)",
     selection: "color(var(foreground) alpha(0.10))",
@@ -26,4 +27,8 @@ module.exports = {
     stack_guide: "var(brown)",
     tags_options: "underline",
     tags_foreground: "var(cyan)",
+    brackets_options: "underline",
+    brackets_foreground: "var(cyan)",
+    bracket_contents_options: "underline",
+    bracket_contents_foreground: "var(yellow)",
 }
