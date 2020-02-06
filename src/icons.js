@@ -1,19 +1,19 @@
 /*eslint-disable no-undef */
-const path = require("path")
-const fs = require("fs")
-const svg2img = require("svg2img")
-const defaultOptions = require("./icons/default.js")
-const fileIcons = require("../node_modules/meetio-theme-icons/src/index.js")
+const path = require("path");
+const fs = require("fs");
+const svg2img = require("svg2img");
+const defaultOptions = require("./icons/default.js");
+const fileIcons = require("./icons/index");
 
 fs.readdirSync("./src/icons/svg/").forEach(icon => {
-    const iconPath = path.join(__dirname, `/../src/icons/svg/${icon}`)
+    const iconPath = path.join(__dirname, `/../src/icons/svg/${icon}`);
     icon = icon
         .split(".")
         .slice(0, -1)
-        .join(".")
+        .join(".");
     fs.readFile(iconPath, "utf8", (err, data) => {
-        if (err) throw err
-        data = Buffer.from(data, "utf8")
+        if (err) throw err;
+        data = Buffer.from(data, "utf8");
         defaultOptions.settings.forEach(setting => {
             svg2img(
                 data,
@@ -26,14 +26,14 @@ fs.readdirSync("./src/icons/svg/").forEach(icon => {
                         buffer,
                         err => {
                             if (err) {
-                                console.log(err)
+                                console.log(err);
                             }
                         }
-                    )
+                    );
                 }
-            )
-        })
-    })
-})
+            );
+        });
+    });
+});
 
-fileIcons.run()
+fileIcons.run();

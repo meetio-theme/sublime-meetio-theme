@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = [
     {
         name: "[SublimeLinter] Error",
@@ -13,4 +14,4 @@ module.exports = [
             foreground: "var(blue)",
         },
     },
-]
+];

@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = [
     {
         name: "[Markdown] Deleted",
@@ -156,4 +157,4 @@ module.exports = [
             foreground: "color(var(background) blend(var(foreground) 85%))",
         },
     },
-]
+];

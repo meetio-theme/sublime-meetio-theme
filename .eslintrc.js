@@ -18,6 +18,7 @@ module.exports = {
                 singleQuote: false,
             },
         ],
+        "semi": 2,
         "no-console": "off",
     },
 }

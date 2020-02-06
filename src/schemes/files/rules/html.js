@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = [
     {
         name: "[HTML] String",
@@ -37,4 +38,4 @@ module.exports = [
             foreground: "var(purple)",
         },
     },
-]
+];

@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = [
     {
         name: "[JavaScript] Constructor",
@@ -104,4 +105,4 @@ module.exports = [
             foreground: "var(brown)",
         },
     },
-]
+];

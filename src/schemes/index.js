@@ -1,5 +1,5 @@
 /*eslint-disable no-undef */
-const scheme = require("../../node_modules/meetio-theme-colors/theme/index")
+const scheme = require("../../node_modules/meetio-theme-colors/theme/index");
 
 module.exports = [
     {
@@ -12,4 +12,4 @@ module.exports = [
         author: "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
         variables: scheme.light,
     },
-]
+];

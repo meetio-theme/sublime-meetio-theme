@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = [
     {
         name: "[Python] Variables",
@@ -87,4 +88,4 @@ module.exports = [
             foreground: "var(yellow)",
         },
     },
-]
+];

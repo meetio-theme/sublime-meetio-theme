@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = [
     {
         name: "[Vue] Function Parameter",
@@ -26,4 +27,4 @@ module.exports = [
             foreground: "var(brown)",
         },
     },
-]
+];

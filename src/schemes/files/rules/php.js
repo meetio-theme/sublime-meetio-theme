@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = [
     {
         name: "[PHP] Inherited Class",
@@ -67,4 +68,4 @@ module.exports = [
             foreground: "var(orange)",
         },
     },
-]
+];

@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = [
     {
         name: "[Diff] Deleted",
@@ -15,4 +16,4 @@ module.exports = [
             foreground: "var(green)",
         },
     },
-]
+];

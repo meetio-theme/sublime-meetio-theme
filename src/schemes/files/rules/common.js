@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = [
     {
         name: "Comment",
@@ -134,4 +135,4 @@ module.exports = [
             foreground: "var(invalid)",
         },
     },
-]
+];

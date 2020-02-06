@@ -16,7 +16,7 @@
     "build:themes": "node src/themes.js",
     "build:schemes": "node src/schemes.js",
     "build:icons": "node src/icons.js",
-    "lint": "eslint \"*.js\" \"src/**/*.json\" \"src/**/**/*.json\" \"src/**/**/**/*.json\" \"bin/*.js\"",
+    "lint": "eslint \"*.js\" \"src/*.js\" \"src/**/*.js\" \"src/**/**/*.js\" \"src/**/*.json\" \"src/**/**/*.json\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {

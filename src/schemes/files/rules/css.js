@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = [
     {
         name: "[CSS] String",
@@ -234,4 +235,4 @@ module.exports = [
             font_style: "normal",
         },
     },
-]
+];

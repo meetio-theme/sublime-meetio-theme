@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = [
     {
         name: "[GitGutter] Deleted",
@@ -20,4 +21,4 @@ module.exports = [
             foreground: "var(diffModified)",
         },
     },
-]
+];

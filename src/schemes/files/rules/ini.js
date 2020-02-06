@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = [
     {
         name: "[INI] - Color for Entity",
@@ -22,4 +23,4 @@ module.exports = [
             foreground: "var(green)",
         },
     },
-]
+];

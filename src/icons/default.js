@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = {
     color: "#fff",
     settings: [
@@ -14,4 +15,4 @@ module.exports = {
             suffix: "@3x",
         },
     ],
-}
+};

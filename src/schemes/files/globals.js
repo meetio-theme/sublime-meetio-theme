@@ -1,3 +1,4 @@
+/*eslint-disable no-undef */
 module.exports = {
     active_guide: "var(cyan)",
     background: "var(background)",
@@ -11,7 +12,7 @@ module.exports = {
     gutter_foreground: "color(var(foreground) alpha(0.2))",
     highlight: "var(yellow)",
     inactive_selection: "color(var(cyan) alpha(0.1))",
-    invisibles: "var(blue)",
+    invisibles: "color(var(foreground) alpha(0.3))",
     line_diff_added: "var(diffAdded)",
     line_diff_deleted: "var(diffDeleted)",
     line_diff_modified: "var(diffModified)",
@@ -31,4 +32,4 @@ module.exports = {
     brackets_foreground: "var(cyan)",
     bracket_contents_options: "underline",
     bracket_contents_foreground: "var(yellow)",
-}
+};
