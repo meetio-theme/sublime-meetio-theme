@@ -5,6 +5,7 @@
 # Files and directories with the attribute export-ignore won’t be added to
 # archive files. See http://git-scm.com/docs/gitattributes for details.
 /.github/           export-ignore
+/examples/          export-ignore
 /messages/          export-ignore
 /src/               export-ignore
 /.eslintignore      export-ignore
