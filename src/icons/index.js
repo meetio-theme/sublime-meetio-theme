@@ -2,11 +2,11 @@
 const path = require("path");
 const fs = require("fs");
 const svg2img = require("svg2img");
-const defaultOptions = require("./default");
+const fileTypeSettings = require("./fileTypeSettings");
 
 module.exports.run = function(settings = { dist: "icons" }) {
     const { dist } = settings;
-    const sizes = defaultOptions;
+    const sizes = fileTypeSettings;
 
     const svgSrc = path.join(__dirname, `/file_type/`);
     fs.readdirSync(svgSrc).forEach(icon => {
