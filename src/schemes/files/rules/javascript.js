@@ -83,10 +83,20 @@ module.exports = [
     {
         name: "[JavaScript] Object",
         scope: [
-            "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
+            "source.js meta.function.declaration.js variable.parameter.function.js",
+            "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js",
         ],
         settings: {
             foreground: "var(pink)",
+        },
+    },
+    {
+        name: "[JavaScript] Object",
+        scope: [
+            "source.js meta.function-call.method.js variable.other.readwrite.js",
+        ],
+        settings: {
+            foreground: "var(yellow)",
         },
     },
 ];

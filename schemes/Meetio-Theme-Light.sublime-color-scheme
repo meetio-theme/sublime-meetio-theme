@@ -440,8 +440,13 @@
         },
         {
             "name": "[JavaScript] Object",
-            "scope": "source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js variable.other.readwrite.js",
+            "scope": "source.js meta.function.declaration.js variable.parameter.function.js,source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js",
             "foreground": "var(pink)"
+        },
+        {
+            "name": "[JavaScript] Object",
+            "scope": "source.js meta.function-call.method.js variable.other.readwrite.js",
+            "foreground": "var(yellow)"
         },
         {
             "name": "[JavaScript] Constructor",
@@ -502,6 +507,11 @@
             "name": "[Typescript] Method Declaration",
             "scope": "source.tsx meta.export.default.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.function-call.tsx variable.other.object.tsx,source.tsx meta.export.default.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.module.tsx",
             "foreground": "var(brown)"
+        },
+        {
+            "name": "[JavaScript] Object",
+            "scope": "source.ts meta.function-call.ts variable.other.object.ts",
+            "foreground": "var(yellow)"
         },
         {
             "name": "[Vue] Function Parameter",
