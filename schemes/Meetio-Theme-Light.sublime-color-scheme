@@ -122,6 +122,12 @@
             "foreground": "var(invalid)"
         },
         {
+            "name": "Console",
+            "scope": "support.function.console.",
+            "foreground": "var(blue)",
+            "font_style": "normal"
+        },
+        {
             "name": "[Markdown] Deleted",
             "scope": "markup.deleted",
             "foreground": "var(red)"
@@ -444,11 +450,6 @@
             "foreground": "var(pink)"
         },
         {
-            "name": "[JavaScript] Object",
-            "scope": "source.js meta.function-call.method.js variable.other.readwrite.js",
-            "foreground": "var(yellow)"
-        },
-        {
             "name": "[JavaScript] Constructor",
             "scope": "source.ts meta.export.default.ts meta.class.ts meta.method.declaration.ts storage.type.ts,meta.function-call.constructor.ts,entity.name.function.constructor.ts,variable.language.constructor.ts",
             "foreground": "var(purple)"
@@ -509,7 +510,7 @@
             "foreground": "var(brown)"
         },
         {
-            "name": "[JavaScript] Object",
+            "name": "[Typescript] Object",
             "scope": "source.ts meta.function-call.ts variable.other.object.ts",
             "foreground": "var(yellow)"
         },

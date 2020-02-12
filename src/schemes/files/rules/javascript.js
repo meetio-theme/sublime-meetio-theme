@@ -89,14 +89,5 @@ module.exports = [
         settings: {
             foreground: "var(pink)",
         },
-    },
-    {
-        name: "[JavaScript] Object",
-        scope: [
-            "source.js meta.function-call.method.js variable.other.readwrite.js",
-        ],
-        settings: {
-            foreground: "var(yellow)",
-        },
-    },
+    }
 ];

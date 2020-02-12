@@ -106,7 +106,7 @@ module.exports = [
         },
     },
     {
-        name: "[JavaScript] Object",
+        name: "[Typescript] Object",
         scope: ["source.ts meta.function-call.ts variable.other.object.ts"],
         settings: {
             foreground: "var(yellow)",

@@ -135,4 +135,12 @@ module.exports = [
             foreground: "var(invalid)",
         },
     },
+    {
+        name: "Console",
+        scope: ["support.function.console."],
+        settings: {
+            foreground: "var(blue)",
+            font_style: "normal",
+        },
+    },
 ];
