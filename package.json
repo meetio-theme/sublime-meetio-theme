@@ -1,44 +1,51 @@
 {
-  "name": "sublime-meetio-theme",
-  "version": "3.2.0",
-  "description": "The most powerful and adaptive theme for Sublime Text 3",
-  "bugs": {
-    "url": "https://github.com/meetio-theme/sublime-meetio-theme/issues"
-  },
-  "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
-  "license": "MIT",
-  "keywords": [
-    "sublime-text",
-    "scheme",
-    "theme"
-  ],
-  "scripts": {
-    "build:themes": "node src/themes.js",
-    "build:schemes": "node src/schemes.js",
-    "build:icons": "node src/icons.js",
-    "lint": "eslint \"*.js\" \"src/*.js\" \"src/**/*.js\" \"src/**/**/*.js\" \"src/**/*.json\" \"src/**/**/*.json\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "engines": {
-    "node": ">=6.0.0"
-  },
-  "devDependencies": {
-    "@meetio/meetio-colors": "^1.0.3",
-    "@meetio/meetio-icons": "^1.3.0",
-    "@meetio/scheme-generator": "^0.1.0",
-    "babel-core": "^6.14.0",
-    "babel-eslint": "^10.0.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "babel-root-import": "^4.1.8",
-    "eslint": "^5.12.1",
-    "eslint-config-eslint": "^5.0.1",
-    "eslint-config-prettier": "^6.3.0",
-    "eslint-plugin-json": "^1.3.2",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-prettier": "^3.0.1",
-    "prettier": "^1.15.3",
-    "rimraf": "^3.0.0",
-    "svg2img": "^0.6.1"
-  }
+    "name": "sublime-meetio-theme",
+    "version": "3.2.0",
+    "description": "The most powerful and adaptive theme for Sublime Text 3",
+    "bugs": {
+        "url": "https://github.com/meetio-theme/sublime-meetio-theme/issues"
+    },
+    "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+        "sublime-text",
+        "scheme",
+        "theme"
+    ],
+    "scripts": {
+        "build:theme": "tsc src/theme.ts",
+        "build:schemes": "tsc src/scheme.ts",
+        "build:icons": "node src/icons.js",
+        "lint": "eslint \"*.js\" \"src/*.js\" \"src/**/*.js\" \"src/**/**/*.js\" \"src/**/*.json\" \"src/**/**/*.json\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": ">=6.0.0"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
+    },
+    "dependencies": {
+        "@types/node": "^13.7.1"
+    },
+    "devDependencies": {
+        "@babel/core": "7.4.5",
+        "@babel/preset-env": "7.4.5",
+        "@commitlint/cli": "^8.3.5",
+        "@commitlint/config-conventional": "^8.3.4",
+        "@meetio/meetio-colors": "^1.0.3",
+        "@meetio/meetio-icons": "^1.3.0",
+        "@meetio/scheme-generator": "^0.1.0",
+        "@typescript-eslint/eslint-plugin": "2.15.0",
+        "@typescript-eslint/parser": "2.15.0",
+        "babel-eslint": "^10.0.3",
+        "eslint": "6.8.0",
+        "husky": "^4.2.1",
+        "prettier": "^1.18.2",
+        "rimraf": "^3.0.0",
+        "svg2img": "^0.6.1",
+        "typescript": "^3.7.2"
+    }
 }
