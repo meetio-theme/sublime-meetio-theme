@@ -1,6 +1,11 @@
 import { generateScheme, ISchemeSetting } from '@meetio/scheme-generator';
 import * as pallete from '@meetio/meetio-colors';
-import * as rules from './schemes/files/index';
+
+interface IScheme {
+    name: string;
+    author: string;
+    variables: string[];
+}
 
 [
     {
@@ -13,7 +18,7 @@ import * as rules from './schemes/files/index';
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
         variables: pallete.light,
     },
-].map(item => {
+].map((item: IScheme) => {
     const settings: ISchemeSetting = {
         colors: item.variables,
         rules: [],
