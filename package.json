@@ -13,8 +13,10 @@
         "theme"
     ],
     "scripts": {
-        "build:theme": "tsc src/theme.ts",
-        "build:schemes": "tsc src/scheme.ts",
+        "theme": "tsc src/theme.ts",
+        "schemes": "tsc src/schemes.ts",
+        "build:theme": "node src/theme.js",
+        "build:schemes": "node src/schemes.js",
         "build:icons": "node src/icons.js",
         "lint": "eslint \"*.js\" \"src/*.js\" \"src/**/*.js\" \"src/**/**/*.js\" \"src/**/*.json\" \"src/**/**/*.json\"",
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -35,7 +37,7 @@
         "@babel/preset-env": "7.4.5",
         "@commitlint/cli": "^8.3.5",
         "@commitlint/config-conventional": "^8.3.4",
-        "@meetio/meetio-colors": "^1.0.3",
+        "@meetio/meetio-colors": "^1.0.4",
         "@meetio/meetio-icons": "^1.3.0",
         "@meetio/scheme-generator": "^0.1.0",
         "@typescript-eslint/eslint-plugin": "2.15.0",

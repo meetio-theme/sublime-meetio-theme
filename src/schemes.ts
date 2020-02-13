@@ -1,5 +1,6 @@
 import { generateScheme, ISchemeSetting } from '@meetio/scheme-generator';
-import * as pallete from '@meetio/meetio-colors/theme/index';
+import * as pallete from '@meetio/meetio-colors';
+import * as rules from './schemes/files/index';
 
 [
     {

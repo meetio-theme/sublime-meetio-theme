@@ -3,7 +3,7 @@
         "module": "commonjs",
         "declaration": true,
         "target": "es6",
-        "outDir": "dist",
+        "outDir": "dist/",
         "lib": ["es7", "dom"],
         "esModuleInterop": true,
         "sourceMap": true,
