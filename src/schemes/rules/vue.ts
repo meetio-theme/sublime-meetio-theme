@@ -1,5 +1,4 @@
-/*eslint-disable no-undef */
-module.exports = [
+export default [
     {
         name: "[Vue] Function Parameter",
         scope: [

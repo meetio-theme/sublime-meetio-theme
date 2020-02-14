@@ -1,18 +1,19 @@
-/*eslint-disable no-undef */
-module.exports = [
+"use strict";
+exports.__esModule = true;
+exports["default"] = [
     {
         name: "[INI] - Color for Entity",
         scope: ["source.ini entity", "meta.embedded.block.ini", "source.ini"],
         settings: {
-            foreground: "var(red)",
-        },
+            foreground: "var(red)"
+        }
     },
     {
         name: "[INI] - Color for Keyword",
         scope: ["source.ini keyword", "keyword.other.definition.ini"],
         settings: {
-            foreground: "var(purple)",
-        },
+            foreground: "var(purple)"
+        }
     },
     {
         name: "[INI] - Color for Value",
@@ -20,7 +21,7 @@ module.exports = [
             "source.ini meta.declaration.ini meta.value.ini string.name.value.ini",
         ],
         settings: {
-            foreground: "var(green)",
-        },
+            foreground: "var(green)"
+        }
     },
 ];

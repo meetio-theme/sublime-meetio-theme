@@ -13,8 +13,8 @@
         "theme"
     ],
     "scripts": {
-        "theme": "tsc src/theme.ts",
-        "schemes": "tsc src/schemes.ts",
+        "generate:theme": "tsc src/theme.ts",
+        "generate:schemes": "tsc src/schemes.ts",
         "build:theme": "node src/theme.js",
         "build:schemes": "node src/schemes.js",
         "build:icons": "node src/icons.js",
@@ -39,7 +39,7 @@
         "@commitlint/config-conventional": "^8.3.4",
         "@meetio/meetio-colors": "^1.0.4",
         "@meetio/meetio-icons": "^1.3.0",
-        "@meetio/scheme-generator": "^0.1.0",
+        "@meetio/scheme-generator": "^0.2.0",
         "@typescript-eslint/eslint-plugin": "2.15.0",
         "@typescript-eslint/parser": "2.15.0",
         "babel-eslint": "^10.0.3",

@@ -1,22 +1,22 @@
 {
-    "name": "Meetio-Theme-Dark",
+    "name": "Meetio-Theme-Light-2",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
-        "cursor": "#ffcc00",
-        "foreground": "#dedfe4",
-        "background": "#011627",
-        "comments": "#637777",
-        "blue": "#82aaff",
-        "brown": "#c17e70",
-        "cyan": "#7fdbca",
-        "green": "#c3e88d",
-        "orange": "#f78c6c",
-        "pink": "#ff5874",
-        "purple": "#c2afff",
-        "red": "#d95757",
-        "yellow": "#ffcb8b",
-        "invalid": "#d46c6c66",
-        "diffAdded": "#addb67",
+        "cursor": "#7e57c2",
+        "foreground": "#455A64",
+        "background": "#fbfbfb",
+        "comments": "#90a4ae",
+        "blue": "#6182b8",
+        "brown": "#bc5454",
+        "cyan": "#5fb3b3",
+        "green": "#91b859",
+        "orange": "#C96765",
+        "pink": "#ff5370",
+        "purple": "#7c4dff",
+        "red": "#e53935",
+        "yellow": "#f3ad2c",
+        "invalid": "#d3423e66",
+        "diffAdded": "#9ccc65",
         "diffModified": "#e2b93d",
         "diffDeleted": "#ef5350"
     },
@@ -128,93 +128,16 @@
             "font_style": "normal"
         },
         {
-            "name": "[Markdown] Deleted",
-            "scope": "markup.deleted",
+            "name": "[Diff] Deleted",
+            "scope": "diff.deleted,diff.deleted.char",
+            "background": "color(var(red) alpha(0.08))",
             "foreground": "var(red)"
         },
         {
-            "name": "[Markdown] Inserted",
-            "scope": "markup.inserted",
+            "name": "[Diff] Insert",
+            "scope": "diff.inserted,diff.inserted.char",
+            "background": "color(var(green) alpha(0.08))",
             "foreground": "var(green)"
-        },
-        {
-            "name": "[Markdown] Changed",
-            "scope": "markup.changed",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[Markdown] Headings",
-            "scope": "markdown.heading,markup.heading | markup.heading entity.name",
-            "font_style": "bold",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markdown] Links",
-            "scope": "string.other.link,markup.underline.link",
-            "font_style": "italic",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Markdown] Link Description",
-            "scope": "entity.name.reference.link.markdown,string.other.link.description.title.markdown,markup.underline.link.image.markdown",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Markdown] Link Description",
-            "scope": "markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.description.markdown,meta.block-level.markdown markup.quote.markdown meta.link.inline.description.markdown,text.html.markdown meta.paragraph.markdown meta.link.inline.description.markdown",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[Markdown] Image Inline",
-            "scope": "meta.paragraph.markdown meta.link.inline.description.markdown,meta.paragraph.markdown meta.image.inline.description.markdown",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[Markdown] Bold",
-            "scope": "markup.bold",
-            "font_style": "bold",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Markdown] Italic",
-            "scope": "markup.italic",
-            "font_style": "italic",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Markdown] Bold & Italic",
-            "scope": "markup.italic markup.bold | markup.bold markup.italic",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "[Markdown] Numbered List Bullet",
-            "scope": "markup.list.numbered.bullet",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Markdown] Code Inline",
-            "scope": "markup.raw.inline",
-            "background": "color(var(blue) alpha(0.05))"
-        },
-        {
-            "name": "[Markdown] Code Block",
-            "scope": "meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm,meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm,meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
-            "background": "color(var(blue) alpha(0.05))"
-        },
-        {
-            "name": "[Markdown] Blockquotes",
-            "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
-            "font_style": "italic"
-        },
-        {
-            "name": "[Markdown] Punctuation inside inline raw",
-            "scope": "text.html.markdown meta.block-level.markdown meta.table.markdown-gfm markup.raw.inline.markdown punctuation.definition.raw.end.markdown,text.html.markdown meta.block-level.markdown meta.table.markdown-gfm markup.raw.inline.markdown punctuation.definition.raw.begin.markdown",
-            "foreground": "color(var(cyan) alpha(0.8))"
-        },
-        {
-            "name": "[Markdown] - Color for Punctuation — Heading, `Code` and fenced ```code blocks```, **Bold**, _Italic_",
-            "scope": "punctuation.definition.raw.begin.markdown,punctuation.definition.raw.end.markdown,punctuation.definition.raw.code-fence.begin.markdown,punctuation.definition.raw.code-fence.end.markdown,punctuation.definition.heading.begin.markdown,punctuation.definition.bold.begin.markdown,punctuation.definition.bold.end.markdown,punctuation.definition.italic.begin.markdown,punctuation.definition.italic.end.markdown",
-            "foreground": "color(var(background) blend(var(foreground) 85%))"
         },
         {
             "name": "[CSS] String",
@@ -338,6 +261,21 @@
             "font_style": "normal"
         },
         {
+            "name": "[GitGutter] Deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "var(diffDeleted)"
+        },
+        {
+            "name": "[GitGutter] Inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": "var(diffAdded)"
+        },
+        {
+            "name": "[GitGutter] Modified",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "var(diffModified)"
+        },
+        {
             "name": "[HTML] String",
             "scope": "text.html.basic string",
             "foreground": "var(green)"
@@ -361,41 +299,6 @@
             "name": "[HTML] Tag Attribute",
             "scope": "text.html.basic entity.other.attribute-name",
             "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Key ",
-            "scope": "meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[JSON] Value",
-            "scope": "meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[JSON] Constant",
-            "scope": "constant.language.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Character Escape",
-            "scope": "constant.character.escape.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Constant Numeric",
-            "scope": "constant.numeric.json",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[JSON] Mapping Level 1",
-            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[JSON] Mapping Level 2",
-            "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(brown)"
         },
         {
             "name": "[JavaScript] Constructor",
@@ -447,6 +350,197 @@
         {
             "name": "[JavaScript] Object",
             "scope": "source.js meta.function.declaration.js variable.parameter.function.js,source.js meta.class.js meta.block.js meta.function.js meta.block.js meta.function-call.constructor.js meta.group.js meta.object-literal.js",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Markdown] Deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Markdown] Inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markdown] Changed",
+            "scope": "markup.changed",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[Markdown] Headings",
+            "scope": "markdown.heading,markup.heading | markup.heading entity.name",
+            "font_style": "bold",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markdown] Links",
+            "scope": "string.other.link,markup.underline.link",
+            "font_style": "italic",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Markdown] Link Description",
+            "scope": "entity.name.reference.link.markdown,string.other.link.description.title.markdown,markup.underline.link.image.markdown",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Markdown] Link Description",
+            "scope": "markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.description.markdown,meta.block-level.markdown markup.quote.markdown meta.link.inline.description.markdown,text.html.markdown meta.paragraph.markdown meta.link.inline.description.markdown",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[Markdown] Image Inline",
+            "scope": "meta.paragraph.markdown meta.link.inline.description.markdown,meta.paragraph.markdown meta.image.inline.description.markdown",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[Markdown] Bold",
+            "scope": "markup.bold",
+            "font_style": "bold",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Markdown] Italic",
+            "scope": "markup.italic",
+            "font_style": "italic",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Markdown] Bold & Italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "[Markdown] Numbered List Bullet",
+            "scope": "markup.list.numbered.bullet",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Markdown] Code Inline",
+            "scope": "markup.raw.inline",
+            "background": "color(var(blue) alpha(0.05))"
+        },
+        {
+            "name": "[Markdown] Code Block",
+            "scope": "meta.paragraph.markdown meta.code-fence.definition.begin.text.markdown-gfm,meta.paragraph.markdown meta.code-fence.definition.end.text.markdown-gfm,meta.paragraph.markdown markup.raw.code-fence.markdown-gfm",
+            "background": "color(var(blue) alpha(0.05))"
+        },
+        {
+            "name": "[Markdown] Blockquotes",
+            "scope": "text.html.markdown meta.block-level.markdown markup.quote.markdown",
+            "font_style": "italic"
+        },
+        {
+            "name": "[Markdown] Punctuation inside inline raw",
+            "scope": "text.html.markdown meta.block-level.markdown meta.table.markdown-gfm markup.raw.inline.markdown punctuation.definition.raw.end.markdown,text.html.markdown meta.block-level.markdown meta.table.markdown-gfm markup.raw.inline.markdown punctuation.definition.raw.begin.markdown",
+            "foreground": "color(var(cyan) alpha(0.8))"
+        },
+        {
+            "name": "[Markdown] - Color for Punctuation — Heading, `Code` and fenced ```code blocks```, **Bold**, _Italic_",
+            "scope": "punctuation.definition.raw.begin.markdown,punctuation.definition.raw.end.markdown,punctuation.definition.raw.code-fence.begin.markdown,punctuation.definition.raw.code-fence.end.markdown,punctuation.definition.heading.begin.markdown,punctuation.definition.bold.begin.markdown,punctuation.definition.bold.end.markdown,punctuation.definition.italic.begin.markdown,punctuation.definition.italic.end.markdown",
+            "foreground": "color(var(background) blend(var(foreground) 85%))"
+        },
+        {
+            "name": "[PHP] Inherited Class",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[PHP] Storage",
+            "scope": "storage.modifier.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Extends",
+            "scope": "storage.modifier.extends.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Construct",
+            "scope": "support.function.construct.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Echo",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
+            "font_style": "normal",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[PHP] Block",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php,embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[PHP] Condition",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "[PHP] Constant",
+            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[Python] Variables",
+            "scope": "source.python meta.function.parameters.python variable.parameter.python,source.python meta.function-call.arguments.python variable.parameter.python",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "[Python] Function Arguments",
+            "scope": "source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "[Python] Statement While",
+            "scope": "source.python meta.statement.while.python constant.language.python,source.python constant.language.python",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Python] Annotation",
+            "scope": "source.python meta.function.parameters.annotation.python meta.qualified-name.python support.type.python",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[Python] Print",
+            "scope": "source.python keyword.other.print.python,source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
+            "font_style": "normal",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "[Python] Function Parameters",
+            "scope": "source.python meta.item-access.arguments.python meta.qualified-name.python meta.generic-name.python,source.python meta.item-access.arguments.python meta.qualified-name.python support.type.python,source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "[Python] Generic Name",
+            "scope": "source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[Python] Exception",
+            "scope": "source.python meta.statement.raise.python meta.function-call.python meta.qualified-name.python variable.function.python support.type.exception.python",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "[Python] Function Parameters",
+            "scope": "source.python meta.item-access.python meta.qualified-name.python meta.generic-name.python,source.python meta.function.parameters.annotation.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(yellow)"
+        },
+        {
+            "name": "[SQL] Source",
+            "scope": "source.sql",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "[SQL] Other keywords",
+            "scope": "keyword.other.DML.sql",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "[SQL] Function",
+            "scope": "support.function.aggregate.sql",
             "foreground": "var(pink)"
         },
         {
@@ -515,123 +609,6 @@
             "foreground": "var(yellow)"
         },
         {
-            "name": "[Vue] Function Parameter",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[Vue] Object",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[Vue] Object Value",
-            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
-            "foreground": "var(brown)"
-        },
-        {
-            "name": "[PHP] Inherited Class",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.path.php entity.other.inherited-class.php",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[PHP] Storage",
-            "scope": "storage.modifier.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Extends",
-            "scope": "storage.modifier.extends.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Construct",
-            "scope": "support.function.construct.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Echo",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php support.function.construct.php",
-            "font_style": "normal",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[PHP] Block",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php storage.modifier.php,embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php storage.modifier.php",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "[PHP] Condition",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.function.php meta.block.php keyword.control.php",
-            "foreground": "var(cyan)"
-        },
-        {
-            "name": "[PHP] Constant",
-            "scope": "embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php meta.block.php meta.function.php meta.block.php constant.language.php",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[SQL] Source",
-            "scope": "source.sql",
-            "foreground": "var(foreground)"
-        },
-        {
-            "name": "[SQL] Other keywords",
-            "scope": "keyword.other.DML.sql",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[SQL] Function",
-            "scope": "support.function.aggregate.sql",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[Python] Variables",
-            "scope": "source.python meta.function.parameters.python variable.parameter.python,source.python meta.function-call.arguments.python variable.parameter.python",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "[Python] Function Arguments",
-            "scope": "source.python meta.function-call.arguments.python meta.qualified-name.python meta.generic-name.python",
-            "foreground": "var(foreground)"
-        },
-        {
-            "name": "[Python] Statement While",
-            "scope": "source.python meta.statement.while.python constant.language.python,source.python constant.language.python",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[Python] Annotation",
-            "scope": "source.python meta.function.parameters.annotation.python meta.qualified-name.python support.type.python",
-            "foreground": "var(yellow)"
-        },
-        {
-            "name": "[Python] Print",
-            "scope": "source.python keyword.other.print.python,source.python meta.function-call.python meta.qualified-name.python variable.function.python support.function.builtin.python",
-            "font_style": "normal",
-            "foreground": "var(pink)"
-        },
-        {
-            "name": "[Python] Function Parameters",
-            "scope": "source.python meta.item-access.arguments.python meta.qualified-name.python meta.generic-name.python,source.python meta.item-access.arguments.python meta.qualified-name.python support.type.python,source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.qualified-name.python support.type.python",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "[Python] Generic Name",
-            "scope": "source.python meta.function.parameters.annotation.python meta.item-access.arguments.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "[Python] Exception",
-            "scope": "source.python meta.statement.raise.python meta.function-call.python meta.qualified-name.python variable.function.python support.type.exception.python",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "[Python] Function Parameters",
-            "scope": "source.python meta.item-access.python meta.qualified-name.python meta.generic-name.python,source.python meta.function.parameters.annotation.python meta.item-access.python meta.qualified-name.python meta.generic-name.python",
-            "foreground": "var(yellow)"
-        },
-        {
             "name": "[INI] - Color for Entity",
             "scope": "source.ini entity,meta.embedded.block.ini,source.ini",
             "foreground": "var(red)"
@@ -647,21 +624,6 @@
             "foreground": "var(green)"
         },
         {
-            "name": "[GitGutter] Deleted",
-            "scope": "markup.deleted.git_gutter",
-            "foreground": "var(diffDeleted)"
-        },
-        {
-            "name": "[GitGutter] Inserted",
-            "scope": "markup.inserted.git_gutter",
-            "foreground": "var(diffAdded)"
-        },
-        {
-            "name": "[GitGutter] Modified",
-            "scope": "markup.changed.git_gutter",
-            "foreground": "var(diffModified)"
-        },
-        {
             "name": "[SublimeLinter] Error",
             "scope": "sublimelinter.mark.error",
             "foreground": "var(invalid)"
@@ -672,16 +634,19 @@
             "foreground": "var(blue)"
         },
         {
-            "name": "[Diff] Deleted",
-            "scope": "diff.deleted,diff.deleted.char",
-            "background": "color(var(red) alpha(0.08))",
-            "foreground": "var(red)"
+            "name": "[Vue] Function Parameter",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.js meta.function.declaration.js meta.binding.name.js variable.parameter.function.js",
+            "foreground": "var(pink)"
         },
         {
-            "name": "[Diff] Insert",
-            "scope": "diff.inserted,diff.inserted.char",
-            "background": "color(var(green) alpha(0.08))",
-            "foreground": "var(green)"
+            "name": "[Vue] Object",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.object-literal.key.js",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "[Vue] Object Value",
+            "scope": "text.html.vue source.js.embedded.html source.js meta.export.js meta.object-literal.js meta.function.js meta.block.js meta.object-literal.js meta.object-literal.js meta.object-literal.key.js",
+            "foreground": "var(brown)"
         }
     ]
 }

@@ -1,5 +1,4 @@
-/*eslint-disable no-undef */
-module.exports = [
+export default [
     {
         name: "[SublimeLinter] Error",
         scope: ["sublimelinter.mark.error"],
