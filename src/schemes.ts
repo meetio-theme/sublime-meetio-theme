@@ -1,4 +1,8 @@
-import { generateScheme, ISchemeSetting, IColors } from '@meetio/scheme-generator';
+import {
+    generateScheme,
+    ISchemeSetting,
+    IColors,
+} from '@meetio/scheme-generator';
 import * as pallete from '@meetio/meetio-colors';
 
 import rules from './schemes/index';
@@ -23,7 +27,10 @@ interface IScheme {
 ].map((item: IScheme) => {
     const settings: ISchemeSetting = {
         colors: item.variables,
-        rules,
+        rules: [
+            ...rules,
+            ...[],
+        ],
     };
     generateScheme(item.name, item.author, item.name, settings, 'schemes');
 });
