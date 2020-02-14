@@ -11,12 +11,12 @@ interface IScheme {
 
 [
     {
-        name: 'Meetio-Theme-Dark-2',
+        name: 'Meetio-Theme-Dark',
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
         variables: pallete.dark,
     },
     {
-        name: 'Meetio-Theme-Light-2',
+        name: 'Meetio-Theme-Light',
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
         variables: pallete.light,
     },
