@@ -2,7 +2,7 @@ import {
     generateScheme,
     ISchemeSetting,
     IColors,
-    IRules
+    IRules,
 } from '@meetio/scheme-generator';
 import * as pallete from '@meetio/meetio-colors';
 
@@ -13,7 +13,7 @@ interface IScheme {
     name: string;
     author: string;
     variables: IColors;
-    customRules: Array<IRules>; // specific rules for each IScheme
+    customRules: Array<IRules>; // specific rules for each scheme
 }
 
 [
@@ -28,7 +28,7 @@ interface IScheme {
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
         variables: pallete.light,
         customRules: [],
-    },
+    }
 ].map((item: IScheme) => {
     const settings: ISchemeSetting = {
         colors: item.variables,

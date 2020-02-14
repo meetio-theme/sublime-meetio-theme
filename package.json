@@ -13,11 +13,10 @@
         "theme"
     ],
     "scripts": {
-        "build": "tsc src/*.ts",
         "build:theme": "node src/theme.js",
-        "build:schemes": "node src/schemes.js",
+        "build:schemes": "ts-node src/schemes.ts",
         "build:icons": "node src/icons.js",
-        "lint": "eslint \"*.js\" \"src/*.js\" \"src/**/*.js\" \"src/**/**/*.js\" \"src/**/*.json\" \"src/**/**/*.json\"",
+        "lint": "eslint \"src/*.ts\" \"src/**/*.ts\" \"src/**/**/*.ts\" \"src/**/*.json\" \"src/**/**/*.json\"",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "engines": {
@@ -42,11 +41,13 @@
         "@typescript-eslint/eslint-plugin": "2.15.0",
         "@typescript-eslint/parser": "2.15.0",
         "babel-eslint": "^10.0.3",
-        "eslint": "6.8.0",
+        "eslint": "^6.8.0",
+        "eslint-plugin-json": "^2.0.1",
         "husky": "^4.2.1",
         "prettier": "^1.18.2",
         "rimraf": "^3.0.0",
         "svg2img": "^0.6.1",
+        "ts-node": "^8.6.2",
         "typescript": "^3.7.2"
     }
 }
