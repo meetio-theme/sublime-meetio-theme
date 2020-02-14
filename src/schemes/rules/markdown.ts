@@ -24,7 +24,7 @@ export default [
             'punctuation.definition.italic.end.markdown',
         ],
         settings: {
-            foreground: 'color(var(background) blend(var(foreground) 85%))',
+            foreground: 'color(var(background) blend(var(foreground) 75%))',
         },
     },
 ];
