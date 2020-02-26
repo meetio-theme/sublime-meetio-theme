@@ -1,6 +1,8 @@
 # Meetio Theme for Sublime Text 3
 
+
 [![GitHub tag](https://img.shields.io/github/release/meetio-theme/sublime-meetio-theme.svg?style=for-the-badge)](https://github.com/meetio-theme/sublime-meetio-theme/releases)
+![builtfor-sublimetext](https://img.shields.io/badge/built_for_sublimetext-3179-e79330?style=for-the-badge&logo=sublime-text)
 [![GitHub issues](https://img.shields.io/github/issues/meetio-theme/sublime-meetio-theme.svg?style=for-the-badge)](https://github.com/meetio-theme/sublime-meetio-theme/issues)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)](https://github.com/prettier/prettier)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/meetio-theme/sublime-meetio-theme/blob/master/LICENSE)
