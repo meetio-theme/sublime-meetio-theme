@@ -20,8 +20,6 @@
     "autoCompleteSelectedMatchColor": "var(colorAccent)",
     "autoCompleteSelectedBackground": ["foreground", 0.1],
     "panelControlBackground": ["background", 1.0],
-    "panelControlBorderColor": "var(panelControlBackground)",
-    "panelControlBorderSize": 0,
     "panelPathRowFontSize": "var(fontSizeSm)",
     "panelPathRowFontItalic": true,
     "panelPathRowColor": ["foreground", 1],

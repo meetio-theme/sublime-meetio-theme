@@ -40,8 +40,6 @@
             "background",
             1
         ],
-        "panelControlBorderColor": "var(panelControlBackground)",
-        "panelControlBorderSize": 0,
         "panelPathRowFontSize": "var(fontSizeSm)",
         "panelPathRowFontItalic": true,
         "panelPathRowColor": [
@@ -174,14 +172,8 @@
             1
         ],
         "titleBarColor": "color(var(colorDark) l(+ 20%))",
-        "tooltipBackground": [
-            "foreground",
-            1
-        ],
-        "tooltipLabelColor": [
-            "background",
-            1
-        ],
+        "tooltipBackground": "var(colorAccent)",
+        "tooltipLabelColor": "var(colorDark)",
         "gridLayoutBorderColor": "color(var(colorAccent) blenda(var(colorDark) 30%))",
         "gridLayoutBorderSize": 2,
         "minimapColor": "color(var(colorAccent) a(0.2))",
