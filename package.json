@@ -48,6 +48,7 @@
         "prettier": "^1.18.2",
         "rimraf": "^3.0.0",
         "svg2img": "^0.6.1",
+        "ts-node": "^8.6.2",
         "typescript": "^3.7.2"
     }
 }

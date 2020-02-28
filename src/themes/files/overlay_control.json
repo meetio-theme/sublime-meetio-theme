@@ -3,8 +3,8 @@
         "class": "overlay_control",
         "content_margin": [15, 16, 15, 31],
         "layer0.inner_margin": [24, 19, 24, 34],
-        "layer0.texture": "Meetio Theme/assets/overlay_bg.png",
+        "layer0.texture": "Meetio Theme/textures/overlay_bg.png",
         "layer1.inner_margin": [16, 0, 16, 25],
-        "layer1.texture": "Meetio Theme/assets/quick_panel_background.png"
+        "layer1.texture": "Meetio Theme/textures/quick_panel_background.png"
     }
 ]

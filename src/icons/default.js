@@ -1,5 +1,5 @@
 /*eslint-disable no-undef */
-module.exports = {
+export const defaultOptions = {
     color: "#fff",
     settings: [
         {

@@ -1,7 +1,7 @@
 [
     {
         "class": "dropdown_button_control",
-        "layer0.texture": "Meetio Theme/assets/overflow_menu.png",
+        "layer0.texture": "Meetio Theme/textures/overflow_menu.png",
         "layer0.tint": "var(colorAccent)",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,

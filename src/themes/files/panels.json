@@ -8,7 +8,7 @@
     },
     {
         "class": "panel_close_button",
-        "layer0.texture": "Meetio Theme/assets/icon_close.png",
+        "layer0.texture": "Meetio Theme/textures/icon_close.png",
         "layer0.tint": "var(colorAccent)",
         "layer0.opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
         "layer1.opacity": 0,
