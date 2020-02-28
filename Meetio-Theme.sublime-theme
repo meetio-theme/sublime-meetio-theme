@@ -1,5 +1,5 @@
 {
-    "extends": "Meetio-Theme.json",
+    "extends": "Meetio-Theme.hidden-theme",
     "variables": {
         "colorAccent": "#5f7e97",
         "colorDark": "#455A64",
@@ -202,5 +202,6 @@
         "vscStaged": "var(--yellowish)",
         "vscUntracked": "var(--greenish)",
         "vscMissing": "var(--orangish)"
-    }
+    },
+    "rules": []
 }

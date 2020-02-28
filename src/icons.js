@@ -5,8 +5,9 @@ const svg2img = require("svg2img");
 const defaultOptions = require("./icons/default.js");
 const fileIcons = require("./icons/index");
 
-fs.readdirSync("./src/icons/svg/").forEach(icon => {
-    const iconPath = path.join(__dirname, `/../src/icons/svg/${icon}`);
+fs.readdirSync("./src/icons/common/").forEach(icon => {
+    const iconPath = path.join(__dirname, `/../src/icons/common/${icon}`);
+    console.log(iconPath);
     icon = icon
         .split(".")
         .slice(0, -1)
@@ -20,7 +21,7 @@ fs.readdirSync("./src/icons/svg/").forEach(icon => {
                 { width: setting.size, height: setting.size },
                 function(error, buffer) {
                     fs.writeFileSync(
-                        `icons/${
+                        `assets/${
                             setting.suffix ? icon + setting.suffix : icon
                         }.png`,
                         buffer,

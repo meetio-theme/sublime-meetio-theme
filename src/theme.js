@@ -19,7 +19,7 @@ function build(name) {
             });
             const options = { variables: variables, rules: merge };
             fs.writeFileSync(
-                `${name}.json`,
+                `${name}.hidden-theme`,
                 JSON.stringify(options, null, 4),
                 e => {
                     if (e) {
@@ -28,8 +28,9 @@ function build(name) {
                 }
             );
             const theme = {
-                extends: "Meetio-Theme.json",
+                extends: "Meetio-Theme.hidden-theme",
                 variables: variables,
+                rules: []
             };
             fs.writeFileSync(
                 `${name}.sublime-theme`,
