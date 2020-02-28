@@ -1,4 +1,4 @@
-/*eslint-disable no-undef */
+// @ts-ignore
 import * as path from 'path';
 import * as fs from 'fs';
 import * as variables from './../src/themes/variables';

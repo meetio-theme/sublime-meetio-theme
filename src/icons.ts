@@ -1,9 +1,9 @@
-/*eslint-disable no-undef */
+// @ts-ignore
 import * as path from 'path';
 import * as fs from 'fs';
-import { svg2img } from 'svg2img';
-import { defaultOptions } from './icons/default';
-import { fileIcons } from './icons/index';
+import svg2img from 'svg2img';
+import * as defaultOptions from './icons/default';
+import * as fileIcons from './icons/index';
 
 fs.readdirSync('./src/icons/common/').forEach((icon: string) => {
     const iconPath = path.join(__dirname, `/../src/icons/common/${icon}`);
