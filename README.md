@@ -2,9 +2,10 @@
 
 
 [![GitHub tag](https://img.shields.io/github/release/meetio-theme/sublime-meetio-theme.svg?style=for-the-badge)](https://github.com/meetio-theme/sublime-meetio-theme/releases)
-![builtfor-sublimetext](https://img.shields.io/badge/built_for_sublimetext-3179-e79330?style=for-the-badge&logo=sublime-text)
-[![GitHub issues](https://img.shields.io/github/issues/meetio-theme/sublime-meetio-theme.svg?style=for-the-badge)](https://github.com/meetio-theme/sublime-meetio-theme/issues)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/meetio-theme/sublime-meetio-theme/blob/master/LICENSE)
+![Sublime Version](https://img.shields.io/badge/built_for_sublimetext-3179-e79330?style=for-the-badge&logo=sublime-text)
+[![Downloads](https://img.shields.io/packagecontrol/dt/Meetio%20Theme?style=for-the-badge)](package-control)
+[![GitHub Issues](https://img.shields.io/github/issues/meetio-theme/sublime-meetio-theme.svg?style=for-the-badge)](https://github.com/meetio-theme/sublime-meetio-theme/issues)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/meetio-theme/sublime-meetio-theme/blob/master/LICENSE)
 
 ## Installation
 
