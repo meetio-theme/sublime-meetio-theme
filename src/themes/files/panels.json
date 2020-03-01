@@ -3,8 +3,38 @@
         "class": "panel_control",
         "layer0.tint": "var(panelControlBackground)",
         "layer0.inner_margin": [2, 2, 2, 2],
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 1,
+        "layer2.draw_center": false,
         "content_margin": [6, 12, 6, 12]
+    },
+    {
+        "class": "panel_control",
+        "parents": [{ "class": "overlay_control" }],
+        "layer0.opacity": 1,
+        "layer0.inner_margin": [32, 0, 32, 2],
+        "layer0.tint": "var(panelControlBackground)",
+        "layer1.inner_margin": [32, 0, 32, 2],
+        "layer1.opacity": 1,
+        "content_margin": [32, 8, 32, 8]
+    },
+    {
+        "class": "panel_control",
+        "parents": [{ "class": "switch_project_window" }],
+        "layer0.inner_margin": [32, 0, 32, 2],
+        "layer0.tint": "var(panelControlBackground)",
+        "layer1.inner_margin": [32, 0, 32, 2],
+        "layer1.tint": "var(panelControlBackground)",
+        "content_margin": [32, 8, 32, 8]
+    },
+    {
+        "class": "panel_control",
+        "parents": [{ "class": "window" }]
+    },
+    {
+        "class": "panel_grid_control",
+        "inside_spacing": 4,
+        "outside_hspacing": 4,
+        "outside_vspacing": 4
     },
     {
         "class": "panel_close_button",

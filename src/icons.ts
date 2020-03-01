@@ -11,10 +11,6 @@ interface ISettings {
 }
 
 fs.readdirSync('./src/icons/textures/').forEach((icon: any) => {
-    if (!isFile(icon)) {
-        console.log(icon);
-    }
-
     const iconPath = path.join(__dirname, `/../src/icons/textures/${icon}`);
     icon = icon
         .split('.')
@@ -39,9 +35,5 @@ fs.readdirSync('./src/icons/textures/').forEach((icon: any) => {
         });
     });
 });
-
-function isFile(pathItem: any) {
-  return !!path.extname(pathItem);
-}
 
 iconsType.run();
