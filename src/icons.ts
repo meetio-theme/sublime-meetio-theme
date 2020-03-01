@@ -3,12 +3,7 @@ import * as path from 'path';
 import * as fs from 'fs';
 import svg2img from 'svg2img';
 import * as defaultOptions from './icons/default';
-import * as iconsType from './icons/index';
-
-interface ISettings {
-    size: number;
-    suffix: string | boolean;
-}
+import buildIconsType, { ISettings } from './icons/index';
 
 fs.readdirSync('./src/icons/textures/').forEach((icon: any) => {
     const iconPath = path.join(__dirname, `/../src/icons/textures/${icon}`);
@@ -36,4 +31,4 @@ fs.readdirSync('./src/icons/textures/').forEach((icon: any) => {
     });
 });
 
-iconsType.run();
+buildIconsType();

@@ -1,28 +1,33 @@
 /*eslint-disable no-undef */
-const path = require("path");
-const fs = require("fs");
-const svg2img = require("svg2img");
-const iconTypeSettings = require("./iconTypeSettings");
+const path = require('path');
+const fs = require('fs');
+const svg2img = require('svg2img');
+const iconTypeSettings = require('./iconTypeSettings');
 
-module.exports.run = function(settings = { dist: "icons" }) {
+export interface ISettings {
+    size: number;
+    suffix: string | boolean;
+}
+
+export default function buildIconsType(settings = { dist: 'icons' }) {
     const { dist } = settings;
-    const sizes = iconTypeSettings;
+    const typeSettings: ISettings = iconTypeSettings;
 
     const svgSrc = path.join(__dirname, `/iconType/`);
-    fs.readdirSync(svgSrc).forEach(icon => {
+    fs.readdirSync(svgSrc).forEach((icon: string) => {
         const iconPath = path.join(__dirname, `/iconType/${icon}`);
         icon = icon
-            .split(".")
+            .split('.')
             .slice(0, -1)
-            .join(".");
-        fs.readFile(iconPath, "utf8", (err, data) => {
+            .join('.');
+        fs.readFile(iconPath, 'utf8', (err, data) => {
             if (err) throw err;
-            data = Buffer.from(data, "utf8");
-            Object.values(sizes).forEach(setting => {
+            data = Buffer.from(data, 'utf8');
+            Object.values(typeSettings).forEach((setting: ISettings) => {
                 svg2img(
                     data,
                     { width: setting.size, height: setting.size },
-                    (error, buffer) => {
+                    (_: any, buffer: Buffer) => {
                         fs.mkdir(`${dist}`, () => {
                             fs.writeFileSync(
                                 `${dist}/${
@@ -31,7 +36,7 @@ module.exports.run = function(settings = { dist: "icons" }) {
                                         : icon
                                 }.png`,
                                 buffer,
-                                err => {
+                                (err: Error) => {
                                     if (err) {
                                         console.log(err);
                                     }
@@ -43,4 +48,4 @@ module.exports.run = function(settings = { dist: "icons" }) {
             });
         });
     });
-};
+}

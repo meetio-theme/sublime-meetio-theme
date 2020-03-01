@@ -1,4 +1,4 @@
-module.exports = {
+export const variables = {
     colorAccent: '#5f7e97',
     colorDark: '#455A64',
     fontSizeSm: 11,

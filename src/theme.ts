@@ -1,7 +1,7 @@
 // @ts-ignore
 import * as path from 'path';
 import * as fs from 'fs';
-import * as variables from './../src/themes/variables';
+import { variables } from './../src/themes/variables';
 
 interface IOptions {
     variables: any;
@@ -22,7 +22,7 @@ function build(name: string) {
                 const value = rules[rulesKey];
                 merge.push(value);
             });
-            const options: IOptions = { variables: variables, rules: merge };
+            const options: IOptions = { variables, rules: merge };
             fs.writeFileSync(
                 `${name}.hidden-theme`,
                 JSON.stringify(options, null, 4)
