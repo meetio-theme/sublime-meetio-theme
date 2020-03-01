@@ -1,5 +1,4 @@
-/*eslint-disable no-undef */
-module.exports = [
+export default [
     {
         size: 16,
         suffix: false,
