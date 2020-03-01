@@ -3,12 +3,17 @@ import * as path from 'path';
 import * as fs from 'fs';
 import * as variables from './../src/themes/variables';
 
+interface IOptions {
+    variables: any;
+    rules: string[];
+}
+
 function build(name: string) {
     const merge: string[] = [];
     let rules: any = {};
-    fs.readdirSync("./src/themes/files/").forEach((file: string) => {
-        file = path.join(__dirname, "/../src/themes/files/" + file);
-        fs.readFile(file, "utf8", (err, data) => {
+    fs.readdirSync('./src/themes/files/').forEach((file: string) => {
+        file = path.join(__dirname, '/../src/themes/files/' + file);
+        fs.readFile(file, 'utf8', (err, data) => {
             if (err) {
                 throw err;
             }
@@ -17,15 +22,15 @@ function build(name: string) {
                 const value = rules[rulesKey];
                 merge.push(value);
             });
-            const options = { variables: variables, rules: merge };
+            const options: IOptions = { variables: variables, rules: merge };
             fs.writeFileSync(
                 `${name}.hidden-theme`,
                 JSON.stringify(options, null, 4)
             );
             const theme = {
-                extends: "Meetio-Theme.hidden-theme",
+                extends: 'Meetio-Theme.hidden-theme',
                 variables: variables,
-                rules: []
+                rules: [],
             };
             fs.writeFileSync(
                 `${name}.sublime-theme`,
@@ -35,4 +40,4 @@ function build(name: string) {
     });
 }
 
-build("Meetio-Theme");
+build('Meetio-Theme');

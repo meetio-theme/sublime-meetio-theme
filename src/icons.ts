@@ -3,10 +3,19 @@ import * as path from 'path';
 import * as fs from 'fs';
 import svg2img from 'svg2img';
 import * as defaultOptions from './icons/default';
-import * as fileIcons from './icons/index';
+import * as iconsType from './icons/index';
 
-fs.readdirSync('./src/icons/common/').forEach((icon: string) => {
-    const iconPath = path.join(__dirname, `/../src/icons/common/${icon}`);
+interface ISettings {
+    size: number;
+    suffix: string | boolean;
+}
+
+fs.readdirSync('./src/icons/textures/').forEach((icon: any) => {
+    if (!isFile(icon)) {
+        console.log(icon);
+    }
+
+    const iconPath = path.join(__dirname, `/../src/icons/textures/${icon}`);
     icon = icon
         .split('.')
         .slice(0, -1)
@@ -14,7 +23,7 @@ fs.readdirSync('./src/icons/common/').forEach((icon: string) => {
     fs.readFile(iconPath, 'utf8', (err: any, data: any) => {
         if (err) throw err;
         data = Buffer.from(data, 'utf8');
-        defaultOptions.settings.forEach((setting: any) => {
+        defaultOptions.settings.forEach((setting: ISettings) => {
             svg2img(
                 data,
                 { width: setting.size, height: setting.size },
@@ -31,4 +40,8 @@ fs.readdirSync('./src/icons/common/').forEach((icon: string) => {
     });
 });
 
-fileIcons.run();
+function isFile(pathItem: any) {
+  return !!path.extname(pathItem);
+}
+
+iconsType.run();
