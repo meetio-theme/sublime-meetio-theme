@@ -5,35 +5,33 @@ import {
     IColors,
     IRules,
 } from '@meetio/scheme-generator';
-import * as pallete from '@meetio/meetio-colors';
 
-// common rules for all schemes
-import rules from './schemes/index';
+import { light, dark } from './settings/pallete';
 
 interface IScheme {
     name: string;
     author: string;
     variables: IColors;
-    customRules: Array<IRules>; // specific rules for each scheme
+    customRules: Array<IRules>;
 }
 
 [
     {
         name: 'Meetio-Theme-Dark',
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
-        variables: pallete.dark,
+        variables: dark,
         customRules: [],
     },
     {
         name: 'Meetio-Theme-Light',
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
-        variables: pallete.light,
+        variables: light,
         customRules: [],
     }
 ].map((item: IScheme) => {
     const settings: ISchemeSetting = {
         colors: item.variables,
-        rules: [...rules, ...item.customRules],
+        rules: item.customRules,
     };
     generateScheme(item.name, item.author, item.name, settings, 'schemes');
 });

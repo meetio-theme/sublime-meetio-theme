@@ -18,7 +18,7 @@ fs.readdirSync('./src/icons/textures/').forEach((icon: any) => {
             svg2img(
                 data,
                 { width: setting.size, height: setting.size },
-                (_: any, buffer: Buffer) => {
+                (err: any, buffer: Buffer) => {
                     fs.writeFileSync(
                         `textures/${
                             setting.suffix ? icon + setting.suffix : icon

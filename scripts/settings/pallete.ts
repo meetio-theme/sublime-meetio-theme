@@ -1,0 +1,43 @@
+const dark = {
+    cursor: '#ffcc00',
+    foreground: '#dedfe4',
+    background: '#011627',
+    comments: '#637777',
+    blue: '#82aaff',
+    brown: '#c17e70',
+    cyan: '#7fdbca',
+    green: '#c3e88d',
+    orange: '#f78c6c',
+    pink: '#ff5874',
+    purple: '#c2afff',
+    red: '#d95757',
+    yellow: '#ffcb8b',
+    deprecated: '#ffc777a1',
+    invalid: '#d46c6c66',
+    diffAdded: '#addb67',
+    diffModified: '#e2b93d',
+    diffDeleted: '#ef5350',
+};
+
+const light = {
+    cursor: '#7e57c2',
+    foreground: '#455A64',
+    background: '#fbfbfb',
+    comments: '#90a4ae',
+    blue: '#6182b8',
+    brown: '#bc5454',
+    cyan: '#5fb3b3',
+    green: '#91b859',
+    orange: '#f76d47',
+    pink: '#ff5370',
+    purple: '#7c4dff',
+    red: '#e53935',
+    yellow: '#f3ad2c',
+    deprecated: '#ffc777a1',
+    invalid: '#d3423e66',
+    diffAdded: '#9ccc65',
+    diffModified: '#e2b93d',
+    diffDeleted: '#ef5350',
+};
+
+export { light, dark };
