@@ -235,14 +235,19 @@
             "foreground": "var(red)"
         },
         {
+            "name": "MARKUP - Deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red)"
+        },
+        {
             "name": "MARKUP - Inserted",
             "scope": "markup.inserted",
             "foreground": "var(green)"
         },
         {
-            "name": "MARKUP - Deleted",
-            "scope": "markup.deleted",
-            "foreground": "var(red)"
+            "name": "MARKUP - Changed",
+            "scope": "markup.changed",
+            "foreground": "var(orange)"
         },
         {
             "name": "MARKUP - Blockquotes and other quote styles",
@@ -347,8 +352,13 @@
         },
         {
             "name": "META - Object",
-            "scope": "meta.definition.property",
-            "foreground": "var(red)"
+            "scope": "meta.field.declaration",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "META - Diff Header",
+            "scope": "meta.diff, meta.diff.header",
+            "foreground": "var(pink)"
         },
         {
             "name": "PUNCTUATION - Separators such as commas",
@@ -557,6 +567,26 @@
             "foreground": "var(purple)"
         },
         {
+            "name": "DIFF - Deleted",
+            "scope": "diff.deleted",
+            "background": "color(var(red) alpha(0.10))"
+        },
+        {
+            "name": "DIFF - Deleted Char",
+            "scope": "diff.deleted.char",
+            "background": "color(var(red) alpha(0.10))"
+        },
+        {
+            "name": "DIFF - Inserted",
+            "scope": "diff.inserted",
+            "background": "color(var(green) alpha(0.10))"
+        },
+        {
+            "name": "DIFF - Inserted Char",
+            "scope": "diff.inserted.char",
+            "background": "color(var(green) alpha(0.10))"
+        },
+        {
             "name": "JS - Console, \"console\"",
             "scope": "support.type.object.console,support.class.console",
             "foreground": "var(yellow)"
@@ -564,6 +594,11 @@
         {
             "name": "JS - Console, \"log\"",
             "scope": "support.function.console",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "JS - Other property",
+            "scope": "source.js variable.other.property.js",
             "foreground": "var(blue)"
         },
         {
@@ -580,6 +615,11 @@
             "name": "JSON - Mapping Level 2",
             "scope": "source.json meta.mapping.value.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
             "foreground": "var(orange)"
+        },
+        {
+            "name": "JSX - Meta",
+            "scope": "meta.jsx.js",
+            "foreground": "var(foreground)"
         },
         {
             "name": "Python - Declaration function",

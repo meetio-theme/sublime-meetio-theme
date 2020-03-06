@@ -1,7 +1,3 @@
-/**
- * 1. Install "TypeScript" and "TypeScript Syntax" extension for syntax support
- * 2. Set Syntax: TypeScript
- */
 export default class Animal {
     private name : String;
     private age : Number;

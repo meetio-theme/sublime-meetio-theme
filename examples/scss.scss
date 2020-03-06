@@ -26,7 +26,7 @@ $addon-store-color: #333 !default;
   a {
     color: $addon-store-color;
 
-    &:hover  {
+    &:hover {
       color: darken($addon-store-color, 30%);
     }
 

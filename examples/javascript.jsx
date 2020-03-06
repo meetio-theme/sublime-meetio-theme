@@ -1,4 +1,3 @@
-/* eslint-disable */
 export default class TodoList extends Component {
     state = { todos: [], text: '' };
     setText = e => {
@@ -11,7 +10,7 @@ export default class TodoList extends Component {
     };
     render({ }, { todos, text }) {
         return (
-            <form onSubmit={this.addTodo} action="javascript:">
+            <form onSubmit={this.addTodo}>
                 <label>
                   <span>Add Todo</span>
                   <input value={text} onInput={this.setText} />
