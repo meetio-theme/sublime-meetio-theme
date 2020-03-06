@@ -1,7 +1,7 @@
 // @ts-ignore
 import * as path from 'path';
 import * as fs from 'fs';
-import { variables } from './../src/themes/variables';
+import { variables } from './variables';
 
 interface IOptions {
     variables: any;
@@ -11,8 +11,8 @@ interface IOptions {
 function build(name: string) {
     const merge: string[] = [];
     let rules: any = {};
-    fs.readdirSync('./src/themes/files/').forEach((file: string) => {
-        file = path.join(__dirname, '/../src/themes/files/' + file);
+    fs.readdirSync('./scripts/theme/files/').forEach((file: string) => {
+        file = path.join(__dirname, '/files/' + file);
         fs.readFile(file, 'utf8', (err, data) => {
             if (err) {
                 throw err;

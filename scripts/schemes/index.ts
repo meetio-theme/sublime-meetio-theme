@@ -6,7 +6,7 @@ import {
     IRules,
 } from '@meetio/scheme-generator';
 
-import { light, dark } from './settings/pallete';
+import { light, dark } from './pallete';
 
 interface IScheme {
     name: string;
