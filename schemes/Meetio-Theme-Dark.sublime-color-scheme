@@ -321,6 +321,11 @@
             "foreground": "var(yellow)"
         },
         {
+            "name": "Meta - Mapping Key",
+            "scope": "meta.mapping.key",
+            "foreground": "var(blue)"
+        },
+        {
             "name": "META - Sections of code delineated by curly braces",
             "scope": "meta.block,punctuation.section.block.begin,punctuation.section.block.end,meta.braces,punctuation.section.braces.begin,punctuation.section.braces.end",
             "foreground": "var(cyan)"
@@ -486,6 +491,16 @@
             "foreground": "var(foreground)"
         },
         {
+            "name": "SUPPORT - Class Component",
+            "scope": "support.class.component",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "SUPPORT - Type Primitive",
+            "scope": "support.type.primitive",
+            "foreground": "var(yellow)"
+        },
+        {
             "name": "TEXT - HTML",
             "scope": "text.html",
             "foreground": "var(foreground)"
@@ -494,6 +509,11 @@
             "name": "TEXT - XML",
             "scope": "text.xml",
             "foreground": "var(foreground)"
+        },
+        {
+            "name": "VARIABLE - Declaration",
+            "scope": "variable.declaration",
+            "foreground": "var(brown)"
         },
         {
             "name": "VARIABLE - A generic variable",
@@ -629,11 +649,6 @@
         {
             "name": "Python - Function",
             "scope": "source.python meta.function.python entity.name.function.python support.function.magic.python",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "Vue - Console, \"console\"",
-            "scope": "text.html.vue meta.mapping.key",
             "foreground": "var(blue)"
         },
         {
