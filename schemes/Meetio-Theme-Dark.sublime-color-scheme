@@ -512,12 +512,12 @@
         },
         {
             "name": "VARIABLE - Declaration",
-            "scope": "variable.declaration",
+            "scope": "variable.declaration,variable.other",
             "foreground": "var(brown)"
         },
         {
             "name": "VARIABLE - A generic variable",
-            "scope": "variable.other,variable.other.readwrite",
+            "scope": "variable.other.readwrite",
             "foreground": "var(foreground)"
         },
         {
@@ -642,17 +642,32 @@
             "foreground": "var(foreground)"
         },
         {
-            "name": "Python - Declaration function",
-            "scope": "source.python meta.function.python storage.type.function.python keyword.declaration.function.python",
+            "name": "PYTHON - Keyword declaration function",
+            "scope": "source.python keyword.declaration.function.python",
             "foreground": "var(purple)"
         },
         {
-            "name": "Python - Function",
-            "scope": "source.python meta.function.python entity.name.function.python support.function.magic.python",
+            "name": "PYTHON - Function magic",
+            "scope": "source.python support.function.magic.python",
             "foreground": "var(blue)"
         },
         {
-            "name": "Vue - Console, \"console\"",
+            "name": "PYTHON - Function",
+            "scope": "source.python meta.function.python",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "PYTHON - Qualified name",
+            "scope": "source.python meta.qualified-name.python",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "PYTHON - Generic name",
+            "scope": "source.python variable.function.python meta.generic-name.python",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "VUE - Console, \"console\"",
             "scope": "text.html.vue meta.property.object",
             "foreground": "var(foreground)"
         }
