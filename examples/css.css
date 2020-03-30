@@ -1,6 +1,11 @@
 /* CSS File Example */
 @import url('reset.css');
 
+html {
+   padding: 0;
+   margin: 0;
+}
+
 body {
     margin: 25px;
     background-color: rgb(240,240,240);
