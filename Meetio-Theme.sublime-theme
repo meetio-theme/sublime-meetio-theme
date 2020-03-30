@@ -21,6 +21,10 @@
             28
         ],
         "autoCompleteFontSize": "var(fontSizeSm)",
+        "autoCompleteRowPadding": [
+            10,
+            3
+        ],
         "autoCompleteFontItalic": true,
         "autoCompleteColor": [
             "foreground",

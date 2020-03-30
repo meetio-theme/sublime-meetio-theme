@@ -13,6 +13,7 @@ export const variables = {
     buttonIconFileColor: 'var(colorAccent)',
     buttonMinSize: [80, 28],
     autoCompleteFontSize: 'var(fontSizeSm)',
+    autoCompleteRowPadding: [10, 3],
     autoCompleteFontItalic: true,
     autoCompleteColor: ['foreground', 0.5],
     autoCompleteMatchColor: 'var(colorAccent)',

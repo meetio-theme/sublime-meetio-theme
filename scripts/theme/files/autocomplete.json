@@ -3,7 +3,7 @@
         "class": "popup_control",
         "layer0.tint": ["background", 1.0],
         "layer0.opacity": 1.0,
-        "content_margin": [0, 0]
+        "content_margin": 0
     },
     {
         "class": "auto_complete_details",
@@ -18,8 +18,9 @@
     },
     {
         "class": "auto_complete",
-        "row_padding": [12, 6],
-        "layer0.tint": ["background", 1.0],
+        "row_padding": "var(autoCompleteRowPadding)",
+        "tint_index": 0,
+        "tint_modifier": ["background", 1.0],
         "layer0.opacity": 1.0
     },
     {
@@ -32,6 +33,15 @@
         "selected_fg": "var(autoCompleteSelectedColor)",
         "selected_match_fg": "var(autoCompleteSelectedMatchColor)",
         "fg_blend": false
+    },
+    {
+        "class": "auto_complete_kind_name_label",
+        "font.italic": true,
+        "border_color": "color(var(--accent) a(0.8))"
+    },
+    {
+        "class": "auto_complete_description_label",
+        "font.italic": true
     },
     {
         "class": "table_row",

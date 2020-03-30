@@ -10,6 +10,6 @@
         "font.face": "var(kindFontFace)",
         "font.size": "var(kindFontSize)",
         "font.bold": true,
-        "font.italic": true
+        "font.italic": false
     }
 ]

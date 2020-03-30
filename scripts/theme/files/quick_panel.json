@@ -17,6 +17,16 @@
         "layer0.opacity": 1.0
     },
     {
+        "class": "quick_panel",
+        "parents": [{"class": "overlay_control goto_symbol"}],
+        "row_padding": [0, 0, 0, 0]
+    },
+    {
+        "class": "quick_panel",
+        "parents": [{"class": "overlay_control goto_symbol_in_project"}],
+        "row_padding": [0, 0, 0, 0]
+    },
+    {
         "class": "quick_panel_row",
         "layer0.opacity": 1.0
     },
@@ -48,5 +58,9 @@
         "match_fg": "var(panelRowMatchColor)",
         "selected_fg": "var(panelRowSelectedColor)",
         "selected_match_fg": "var(panelRowSelectedMatchColor)"
+    },
+    {
+        "class": "quick_panel_entry",
+        "spacing": 1
     }
 ]
