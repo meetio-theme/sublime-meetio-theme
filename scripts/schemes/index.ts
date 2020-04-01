@@ -2,11 +2,10 @@
 import {
     generateScheme,
     ISchemeSetting,
-    IColors,
     IRules,
 } from '@meetio/scheme-generator';
 
-import { light, dark } from './pallete';
+import { light, dark, IColors } from '@meetio/meetio-colors';
 
 interface IScheme {
     name: string;
