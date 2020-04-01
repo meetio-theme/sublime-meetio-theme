@@ -3,9 +3,10 @@ import {
     generateScheme,
     ISchemeSetting,
     IRules,
+    IColors
 } from '@meetio/scheme-generator';
 
-import { light, dark, IColors } from '@meetio/meetio-colors';
+import { light, dark } from '@meetio/meetio-colors';
 
 interface IScheme {
     name: string;

@@ -1,6 +1,6 @@
 {
     "name": "sublime-meetio-theme",
-    "version": "4.0.0",
+    "version": "4.0.1",
     "description": "The most powerful and adaptive theme for Sublime Text 3",
     "bugs": {
         "url": "https://github.com/meetio-theme/sublime-meetio-theme/issues"
@@ -37,7 +37,7 @@
         "@commitlint/config-conventional": "^8.3.4",
         "@meetio/meetio-colors": "^1.6.0",
         "@meetio/meetio-icons": "^1.10.0",
-        "@meetio/scheme-generator": "^1.4.2",
+        "@meetio/scheme-generator": "^1.4.6",
         "@typescript-eslint/eslint-plugin": "2.15.0",
         "@typescript-eslint/parser": "2.15.0",
         "babel-eslint": "^10.0.3",
