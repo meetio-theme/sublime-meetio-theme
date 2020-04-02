@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function Counter({ name }) {
+export function Counter({ name }) {
     const [count, setCount] = useState(0);
 
     function onClick() {
@@ -18,6 +18,6 @@ function Counter({ name }) {
                 {name}'s count: {count}
             </h2>
             <button onClick={onClick}>+</button>
-        <div/>
+        </div>
     );
 }

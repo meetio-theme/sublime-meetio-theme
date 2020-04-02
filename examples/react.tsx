@@ -1,29 +1,43 @@
-import * as React from 'react';
+import React, { Component } from 'react';
 
-export default class Counter extends React.Component {
-  state = {
-    count: 0
-  };
+type ClockState = {
+    time: Date;
+};
 
-  increment = () => {
-    this.setState({
-      count: (this.state.count + 1)
-    });
-  };
+type NoticeProps = {
+    msg: string;
+};
 
-  decrement = () => {
-    this.setState({
-      count: (this.state.count - 1)
-    });
-  };
+export class Clock extends Component<{}, ClockState> {
+    static defaultProps = {
+        msg: 'Hello everyone!',
+    };
+    constructor(props) {
+        super(props);
+    }
 
-  render () {
-    return (
-      <div>
-        <h1>{this.state.count}</h1>
-        <button onClick={this.increment}>Increment</button>
-        <button onClick={this.decrement}>Decrement</button>
-      </div>
-    );
-  }
+    tick() {
+        this.setState({
+            time: new Date(),
+        });
+    }
+
+    componentWillMount() {
+        this.tick();
+    }
+
+    componentDidMount() {
+        setInterval(() => this.tick(), 1000);
+    }
+
+    render() {
+        return (
+            <>
+                <p>{this.props.msg}</p>
+                <p>
+                    The current time is {this.state.time.toLocaleTimeString()}
+                </p>
+            </>
+        );
+    }
 }
