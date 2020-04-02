@@ -1,5 +1,5 @@
 export const variables = {
-    colorAccent: '#5f7e97',
+    colorAccent: '#80CBC4',
     colorDark: '#455A64',
     fontSizeSm: 11,
     fontSizeMd: 12,

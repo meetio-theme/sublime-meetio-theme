@@ -1,12 +1,29 @@
-# Meetio Theme for Sublime Text 3
+<p align="center">
+    <img width="960px" src="./assets/screen.png">
+</p>
 
-[![GitHub tag](https://img.shields.io/github/release/meetio-theme/sublime-meetio-theme.svg?style=for-the-badge)](https://github.com/meetio-theme/sublime-meetio-theme/releases)
-![Sublime Version](https://img.shields.io/badge/built_for_sublimetext-3179-e79330?style=for-the-badge&logo=sublime-text)
-[![Downloads](https://img.shields.io/packagecontrol/dt/Meetio%20Theme?style=for-the-badge)](package-control)
+<p align="center">
+    <a href="https://github.com/meetio-theme/sublime-meetio-theme/releases" title="GitHub tag">
+        <img src="https://img.shields.io/github/release/meetio-theme/sublime-meetio-theme.svg?style=for-the-badge"/>
+    </a>
+    <a href="" title="Sublime Version">
+        <img src="https://img.shields.io/badge/built_for_sublimetext-3179-e79330?style=for-the-badge&logo=sublime-text"/>
+    </a>
+    <a href="https://packagecontrol.io/packages/Meetio%20Theme" title="Package Control">
+        <img src="https://img.shields.io/packagecontrol/dt/Meetio%20Theme?style=for-the-badge"/>
+    </a>
+</p>
+
+-   [Installation](#installation)
+-   [Activate theme](#activate-theme)
+-   [Theme Settings](#theme-settings)
+-   [Override Theme Variables](#override-theme-variables)
+-   [Recommended Settings for a better experience](#recommended-settings)
+-   [Other resources](#other-resources)
 
 ## Installation
 
-**Package Control:**
+**Easy:**
 
 1. Open `Command Palette` using menu item `Tools → Command Palette` or <kbd>CMD/CTRL</kbd> + <kbd>SHIFT</kbd> +<kbd>P</kbd>.
 2. Choose `Package Control: Install Package`.
@@ -82,7 +99,6 @@ This theme provide a visual configuration tool that allow you to configure the t
 
 `Meetio Theme` from version `3.0.0` supports customization via [A File Icon](https://github.com/SublimeText/AFileIcon) package.Please install it and restart Sublime for better experience.
 
-
 ## Recommended Settings
 
 To enjoy a better experience of using the **Meetio Theme** in your Sublime Text, please check the following settings.
@@ -98,3 +114,9 @@ To enjoy a better experience of using the **Meetio Theme** in your Sublime Text,
     "line_padding_top": 7
 }
 ```
+
+## Other resources
+
+-   [Meetio Color](https://github.com/meetio-theme/meetio-colors)
+-   [Meetio Icons](https://github.com/meetio-theme/meetio-icons)
+-   [Scheme Generator](https://github.com/meetio-theme/scheme-generator)
