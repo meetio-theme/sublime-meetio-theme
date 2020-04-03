@@ -1,0 +1,12 @@
+# Date:      Sun Aug 27 16:50:14 2017 -0700
+
+The message can contain # which is no comment start
+
+@user-name
+Thanks to @username <name@mail-host.domain>.
+
+This commit closes #230 without comment.
+
+Signed-off-by: username <user.name@domain.com>
+                                        
+This commit references a hash: 21dde213
