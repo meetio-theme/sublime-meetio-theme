@@ -188,7 +188,7 @@
         {
             "name": "KEYWORD - Operators are typically symbols, so the term keyword can seem somewhat contradictory.",
             "scope": "keyword.operator,keyword.operator.arithmetic,keyword.operator.bitwise,keyword.operator.logical",
-            "foreground": "var(orange)"
+            "foreground": "var(cyan)"
         },
         {
             "name": "KEYWORD - When the operator is a word, such as and, or or not, the following variant is used",
@@ -377,7 +377,7 @@
         },
         {
             "name": "PUNCTUATION - Parameters eg: ()",
-            "scope": "punctuation.section.inheritance.begin,punctuation.section.inheritance.end,punctuation.section.arguments.begin,punctuation.section.arguments.end,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,punctuation.definition.block,punctuation.definition.metadata.begin,punctuation.definition.metadata.end",
+            "scope": "punctuation.section.inheritance.begin,punctuation.section.inheritance.end,punctuation.section.arguments.begin,punctuation.section.arguments.end,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,punctuation.definition.block,punctuation.definition.metadata.begin,punctuation.definition.metadata.end,meta.group.braces.round.function.arguments",
             "foreground": "var(cyan)"
         },
         {
@@ -645,6 +645,11 @@
             "name": "JSX - Meta",
             "scope": "meta.jsx.js",
             "foreground": "var(foreground)"
+        },
+        {
+            "name": "JSX - String Quoted",
+            "scope": "string.quoted.jsx",
+            "foreground": "var(green)"
         },
         {
             "name": "PYTHON - Keyword declaration function",
