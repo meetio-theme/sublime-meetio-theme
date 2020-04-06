@@ -331,6 +331,11 @@
             "foreground": "var(cyan)"
         },
         {
+            "name": "META - Sections of code delineated by round braces",
+            "scope": "meta.brace.round",
+            "foreground": "var(orange)"
+        },
+        {
             "name": "META - Sections of code delineated by parentheses",
             "scope": "meta.group,punctuation.section.group.begin,punctuation.section.group.end,meta.parens,punctuation.section.parens.begin,punctuation.section.parens.end",
             "foreground": "var(cyan)"
@@ -377,7 +382,7 @@
         },
         {
             "name": "PUNCTUATION - Parameters eg: ()",
-            "scope": "punctuation.section.inheritance.begin,punctuation.section.inheritance.end,punctuation.section.arguments.begin,punctuation.section.arguments.end,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,punctuation.definition.block,punctuation.definition.metadata.begin,punctuation.definition.metadata.end,meta.group.braces.round.function.arguments",
+            "scope": "punctuation.definition.group.begin,punctuation.definition.group.end,punctuation.section.inheritance.begin,punctuation.section.inheritance.end,punctuation.section.arguments.begin,punctuation.section.arguments.end,punctuation.definition.parameters.begin,punctuation.definition.parameters.end,punctuation.definition.block,punctuation.definition.metadata.begin,punctuation.definition.metadata.end,meta.group.braces.round.function.arguments",
             "foreground": "var(cyan)"
         },
         {
@@ -617,19 +622,19 @@
             "foreground": "var(foreground)"
         },
         {
-            "name": "GIT - Author",
+            "name": "GIT - Author username",
             "scope": "text.git.commit meta.reference.username.git entity.name.reference.username.git",
             "font_style": "italic",
             "foreground": "var(cyan)"
         },
         {
-            "name": "GIT - Author Email",
+            "name": "GIT - Author email",
             "scope": "text.git.commit entity.name.reference.email.git",
             "font_style": "italic",
             "foreground": "var(blue)"
         },
         {
-            "name": "GIT - Timestamp",
+            "name": "GIT - Comment Timestamp",
             "scope": "text.git.commit comment.line.git.commit constant.language.timestamp.git.commit",
             "foreground": "var(yellow)"
         },
@@ -640,7 +645,7 @@
             "foreground": "var(purple)"
         },
         {
-            "name": "GIT - hash number",
+            "name": "GIT - Hash number",
             "scope": "text.git.commit meta.message.git.commit constant.other.hash.git.commit",
             "font_style": "bold",
             "foreground": "var(green)"
