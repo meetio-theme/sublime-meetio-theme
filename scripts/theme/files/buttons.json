@@ -112,7 +112,7 @@
         "content_margin": [12, 12]
     },
     {
-        "class": "in_selection",
+        "class": "icon_in_selection",
         "attributes": ["hover"],
         "layer0.opacity": { "target": 0.9, "speed": 5.0, "interpolation": "smoothstep" }
     },
