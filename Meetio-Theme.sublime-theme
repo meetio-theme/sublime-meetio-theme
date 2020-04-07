@@ -36,6 +36,7 @@
             1
         ],
         "autoCompleteSelectedMatchColor": "var(colorAccent)",
+        "autoCompleteBlend": true,
         "autoCompleteSelectedBackground": [
             "foreground",
             0.1
@@ -162,12 +163,7 @@
         "tabDiffItalic": true,
         "tabHeight": 45,
         "tabWidth": 90,
-        "tabMargin": [
-            0,
-            0,
-            0,
-            4
-        ],
+        "tabMargin": 0,
         "tabCloseColor": [
             "foreground",
             0.5
@@ -203,13 +199,13 @@
             0.4
         ],
         "vcsBadgeSize": 5,
-        "vscIgnored": "color(var(sidebarLabelColor) a(0.5))",
-        "vscModified": "var(--redish)",
-        "vscUnmerged": "var(--bluish)",
-        "vscDeleted": "var(--bluish)",
-        "vscStaged": "var(--yellowish)",
-        "vscUntracked": "var(--greenish)",
-        "vscMissing": "var(--orangish)"
+        "vcsIgnored": "color(var(sidebarLabelColor) a(0.5))",
+        "vcsModified": "var(--redish)",
+        "vcsUnmerged": "var(--bluish)",
+        "vcsDeleted": "var(--bluish)",
+        "vcsStaged": "var(--yellowish)",
+        "vcsUntracked": "var(--greenish)",
+        "vcsMissing": "var(--orangish)"
     },
     "rules": []
 }

@@ -2,48 +2,48 @@
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
-        "layer0.texture": "Meetio Theme/textures/vsc_untracked.png",
-        "layer0.tint": "var(vscUntracked)",
+        "layer0.texture": "Meetio Theme/textures/vcs_untracked.png",
+        "layer0.tint": "var(vcsUntracked)",
         "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
-        "layer0.texture": "Meetio Theme/textures/vsc_modified.png",
-        "layer0.tint": "var(vscModified)",
+        "layer0.texture": "Meetio Theme/textures/vcs_modified.png",
+        "layer0.tint": "var(vcsModified)",
         "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
-        "layer0.texture": "Meetio Theme/textures/vsc_added.png",
-        "layer0.tint": "var(vscUntracked)",
+        "layer0.texture": "Meetio Theme/textures/vcs_added.png",
+        "layer0.tint": "var(vcsUntracked)",
         "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
         "layer0.texture": "Theme - Default/common/status_unmerged.png",
-        "layer0.tint": "var(vscUnmerged)",
+        "layer0.tint": "var(vcsUnmerged)",
         "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-        "layer0.texture": "Meetio Theme/textures/vsc_staged.png",
-        "layer0.tint": "var(vscStaged)",
+        "layer0.texture": "Meetio Theme/textures/vcs_staged.png",
+        "layer0.tint": "var(vcsStaged)",
         "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
-        "layer0.tint": "var(vscDeleted)",
+        "layer0.tint": "var(vcsDeleted)",
         "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
-        "layer0.tint": "var(vscMissing)",
+        "layer0.tint": "var(vcsMissing)",
         "content_margin": "var(vcsBadgeSize)"
     },
     {
@@ -62,42 +62,42 @@
     {
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["ignored"] }],
-        "color": "color(var(vscIgnored)"
+        "color": "color(var(vcsIgnored)"
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
-        "color": "var(vscUntracked)"
+        "color": "var(vcsUntracked)"
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
-        "color": "var(vscModified)"
+        "color": "var(vcsModified)"
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
-        "color": "var(vscUntracked)"
+        "color": "var(vcsUntracked)"
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
-        "color": "var(vscUnmerged)"
+        "color": "var(vcsUnmerged)"
     },
     {
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["missing"] }],
-        "color": "var(vscMissing)"
+        "color": "var(vcsMissing)"
     },
     {
         "class": "sidebar_label",
         "parents": [{ "class": "file_system_entry", "attributes": ["deleted"] }],
-        "color": "var(vscDeleted)"
+        "color": "var(vcsDeleted)"
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-        "color": "var(vscStaged)"
+        "color": "var(vcsStaged)"
     },
     {
         "class": "vcs_changes_annotation",

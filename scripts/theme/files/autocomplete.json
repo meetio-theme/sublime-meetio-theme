@@ -32,7 +32,7 @@
         "match_fg": "var(autoCompleteMatchColor)",
         "selected_fg": "var(autoCompleteSelectedColor)",
         "selected_match_fg": "var(autoCompleteSelectedMatchColor)",
-        "fg_blend": false
+        "fg_blend": "var(autoCompleteBlend)"
     },
     {
         "class": "auto_complete_kind_name_label",
