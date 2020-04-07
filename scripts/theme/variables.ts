@@ -69,6 +69,7 @@ export const variables = {
     tabDiffItalic: true,
     tabHeight: 45,
     tabWidth: 90,
+    tabMargin: 0,
     tabCloseColor: ['foreground', 0.5],
     tabCloseSelectedColor: ['foreground', 1],
     tabCloseHoverColor: 'var(colorAccent)',

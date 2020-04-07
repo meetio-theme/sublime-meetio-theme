@@ -7,6 +7,7 @@
         "tab_overlap": 0,
         "tab_width": "var(tabWidth)",
         "tab_height": "var(tabHeight)",
+        "content_margin": "var(tabMargin)",
         "mouse_wheel_switch": false
     },
     {
