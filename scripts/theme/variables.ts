@@ -12,6 +12,7 @@ export const variables = {
     buttonBackgroundHover: 'color(var(colorAccent) a(0.2))',
     buttonMinSize: [80, 28],
     buttonIconFileColor: 'var(colorAccent)',
+    buttonIconFileSelectedColor: 'var(buttonIconFileColor)',
     buttonIconFileBackground: ['background', 1.0],
     buttonIconFileSelectedBackground: 'var(buttonIconFileBackground)',
     buttonIconFileContentMargin: [12, 12],
