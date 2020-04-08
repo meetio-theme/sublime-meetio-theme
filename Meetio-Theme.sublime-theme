@@ -15,10 +15,19 @@
             0.5
         ],
         "buttonBackgroundHover": "color(var(colorAccent) a(0.2))",
-        "buttonIconFileColor": "var(colorAccent)",
         "buttonMinSize": [
             80,
             28
+        ],
+        "buttonIconFileColor": "var(colorAccent)",
+        "buttonIconFileBackground": [
+            "background",
+            1
+        ],
+        "buttonIconFileSelectedBackground": "var(buttonIconFileBackground)",
+        "buttonIconFileContentMargin": [
+            12,
+            12
         ],
         "autoCompleteFontSize": "var(fontSizeSm)",
         "autoCompleteRowPadding": [
