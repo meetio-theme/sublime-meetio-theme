@@ -19,8 +19,8 @@
             80,
             28
         ],
-        "buttonIconFileColor": "var(colorAccent)",
-        "buttonIconFileSelectedColor": "var(buttonIconFileColor)",
+        "buttonIconFileColor": "color(var(colorAccent) a(0.90))",
+        "buttonIconFileSelectedColor": "var(colorAccent)",
         "buttonIconFileBackground": [
             "background",
             1
