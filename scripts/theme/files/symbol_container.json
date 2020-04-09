@@ -1,9 +1,5 @@
 [
     {
-        "class": "trigger_container",
-        "content_margin": [2, 4, 0, 2]
-    },
-    {
         "class": "symbol_container",
         "content_margin": 4
     },
