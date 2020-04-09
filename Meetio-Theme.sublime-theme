@@ -33,7 +33,7 @@
         "autoCompleteFontSize": "var(fontSizeSm)",
         "autoCompleteRowPadding": [
             10,
-            3
+            6
         ],
         "autoCompleteFontItalic": true,
         "autoCompleteColor": [

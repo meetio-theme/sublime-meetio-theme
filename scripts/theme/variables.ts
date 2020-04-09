@@ -17,7 +17,7 @@ export const variables = {
     buttonIconFileSelectedBackground: 'var(buttonIconFileBackground)',
     buttonIconFileContentMargin: [12, 12],
     autoCompleteFontSize: 'var(fontSizeSm)',
-    autoCompleteRowPadding: [10, 3],
+    autoCompleteRowPadding: [10, 6],
     autoCompleteFontItalic: true,
     autoCompleteColor: ['foreground', 0.5],
     autoCompleteMatchColor: 'var(colorAccent)',

@@ -18,7 +18,7 @@
     },
     {
         "class": "auto_complete",
-        "row_padding": "var(autoCompleteRowPadding)",
+        "row_padding": 0,
         "tint_index": 0,
         "tint_modifier": ["background", 1.0],
         "layer0.opacity": 1.0
@@ -41,6 +41,11 @@
     },
     {
         "class": "auto_complete_description_label",
+        "font.italic": true
+    },
+    {
+        "class": "auto_complete_hint",
+        "opacity": 0.7,
         "font.italic": true
     },
     {
