@@ -26,7 +26,7 @@
     },
     {
         "class": "kind_container kind_function",
-        "layer0.opacity": 0.5,
+        "layer0.opacity": 0.2,
         "layer1.tint": "var(--redish)",
         "layer1.opacity": 0.1
     },
@@ -45,7 +45,7 @@
     },
     {
         "class": "kind_container kind_keyword",
-        "layer0.opacity": 0.5,
+        "layer0.opacity": 0.2,
         "layer1.tint": "var(--pinkish)",
         "layer1.opacity": 0.1
     },
@@ -64,7 +64,7 @@
     },
     {
         "class": "kind_container kind_markup",
-        "layer0.opacity": 0.5,
+        "layer0.opacity": 0.2,
         "layer1.tint": "var(--orangish)",
         "layer1.opacity": 0.1
     },
@@ -83,7 +83,7 @@
     },
     {
         "class": "kind_container kind_namespace",
-        "layer0.opacity": 0.5,
+        "layer0.opacity": 0.2,
         "layer1.tint": "var(--bluish)",
         "layer1.opacity": 0.1
     },
@@ -102,7 +102,7 @@
     },
     {
         "class": "kind_container kind_navigation",
-        "layer0.opacity": 0.5,
+        "layer0.opacity": 0.2,
         "layer1.tint": "var(--yellowish)",
         "layer1.opacity": 0.1
     },
@@ -121,7 +121,7 @@
     },
     {
         "class": "kind_container kind_snippet",
-        "layer0.opacity": 0.5,
+        "layer0.opacity": 0.2,
         "layer1.tint": "var(--greenish)",
         "layer1.opacity": 0.1
     },
@@ -140,7 +140,7 @@
     },
     {
         "class": "kind_container kind_type",
-        "layer0.opacity": 0.5,
+        "layer0.opacity": 0.2,
         "layer1.tint": "var(--purplish)",
         "layer1.opacity": 0.1
     },
@@ -159,7 +159,7 @@
     },
     {
         "class": "kind_container kind_variable",
-        "layer0.opacity": 0.5,
+        "layer0.opacity": 0.2,
         "layer1.tint": "var(--cyanish)",
         "layer1.opacity": 0.1
     },
