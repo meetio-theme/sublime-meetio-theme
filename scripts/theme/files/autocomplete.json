@@ -6,11 +6,7 @@
         "content_margin": 0
     },
     {
-        "class": "auto_complete_details",
-        "tint_index": 0,
-        "layer0.opacity": 1.0,
-        "tint_modifier": [0, 0, 0, 0.1],
-        "content_margin": [8, 5, 8, 5]
+        "class": "auto_complete_details"
     },
     {
         "class": "auto_complete_info",
