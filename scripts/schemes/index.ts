@@ -3,16 +3,21 @@ import {
     generateScheme,
     ISchemeSetting,
     IRules,
-    IColors
+    IColors,
 } from '@meetio/scheme-generator';
 
 import { light, dark } from '@meetio/meetio-colors';
+
+interface UI {
+    [key: string]: string;
+}
 
 interface IScheme {
     name: string;
     author: string;
     variables: IColors;
-    customRules: Array<IRules>;
+    customeUi: UI;
+    customeRules: Array<IRules>;
 }
 
 [
@@ -20,18 +25,32 @@ interface IScheme {
         name: 'Meetio-Theme-Dark',
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
         variables: dark,
-        customRules: [],
+        customeUi: {
+            tags_foreground: 'var(cyan)',
+        },
+        customeRules: [],
     },
     {
         name: 'Meetio-Theme-Light',
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
         variables: light,
-        customRules: [],
-    }
+        customeUi: {
+            tags_foreground: 'var(cyan)',
+        },
+        customeRules: [],
+    },
 ].map((item: IScheme) => {
+    const { variables, customeRules, customeUi } = item;
     const settings: ISchemeSetting = {
-        colors: item.variables,
-        rules: item.customRules,
+        colors: variables,
+        rules: customeRules,
+        ui: {
+            ...customeUi,
+            ...{
+                tags_options: 'underline, glow',
+                brackets_options: 'underline, glow',
+            },
+        },
     };
     generateScheme(item.name, item.author, item.name, settings, 'schemes');
 });

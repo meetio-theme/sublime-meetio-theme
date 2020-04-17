@@ -48,9 +48,9 @@
         "selection_corner_style": "cut",
         "shadow": "color(var(background) alpha(0.5))",
         "stack_guide": "var(brown)",
-        "tags_options": "underline",
+        "tags_options": "underline, glow",
         "tags_foreground": "var(cyan)",
-        "brackets_options": "underline",
+        "brackets_options": "underline, glow",
         "brackets_foreground": "var(cyan)",
         "bracket_contents_options": "underline",
         "bracket_contents_foreground": "var(yellow)"
