@@ -7,6 +7,7 @@ import {
 } from '@meetio/scheme-generator';
 
 import { light, dark } from '@meetio/meetio-colors';
+import { customeRules } from './customeRules';
 
 interface UI {
     [key: string]: string;
@@ -28,7 +29,7 @@ interface IScheme {
         customeUi: {
             tags_foreground: 'var(cyan)',
         },
-        customeRules: [],
+        customeRules,
     },
     {
         name: 'Meetio-Theme-Light',
@@ -37,7 +38,7 @@ interface IScheme {
         customeUi: {
             tags_foreground: 'var(cyan)',
         },
-        customeRules: [],
+        customeRules,
     },
 ].map((item: IScheme) => {
     const { variables, customeRules, customeUi } = item;

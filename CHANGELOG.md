@@ -7,6 +7,38 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ---
 
+<a name="4.4.0"></a>
+
+## [4.4.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.0.0...v4.4.0) (2020-04-20)
+
+## FEATURES
+
+-   Add `autoCompleteRowPadding` variable.
+
+## CHANGED
+
+-   Revert accent color in Theme.
+
+## IMPROVEMENTES
+
+-   Re-factor all scheme scopes. [Issue #30](https://github.com/meetio-theme/sublime-meetio-theme/issues/30)
+
+<a name="4.0.0"></a>
+
+## [4.0.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v3.2.0...v4.0.0) (2020-04-01)
+
+## FEATURES
+
+-   Add `autoCompleteRowPadding` variable.
+
+## CHANGED
+
+-   Revert accent color in Theme.
+
+## IMPROVEMENTES
+
+-   Re-factor all scheme scopes. [Issue #30](https://github.com/meetio-theme/sublime-meetio-theme/issues/30)
+
 <a name="3.2.0"></a>
 
 ## [3.2.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v3.1.0...v3.2.0) (2020-01-05)
@@ -28,8 +60,6 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 -   Remove variable `sidebarIconFileColor`.
 -   Remove unused icons.
 
----
-
 <a name="3.1.0"></a>
 
 ## [3.1.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v3.0.7...v3.1.0) (2019-11-22)
@@ -38,8 +68,6 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 -   Add support for A File Icon
 -   Add NEW ICONS (support @3X retina display)
-
----
 
 <a name="3.0.0"></a>
 
@@ -60,91 +88,79 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 -   Add support for `stylus` syntax.
 -   Add some improves `Markdown` syntax.
 
----
-
 <a name="2.4.0"></a>
 
 ## [2.4.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v2.3.0...v2.4.0) (2019-07-23)
 
-### BREAKING CHANGES
+## BREAKING CHANGES
 
 -   Remove options for Tabs: `meetio_tabs_diff_highlight` use only the default `highlight_modified_tabs`.
 
-### FEATURES
+## FEATURES
 
 -   Add custom git badges in sidebar, for untracked, modified, added, unmerged, and staged files. Thanks [@pykong](https://github.com/pykong) for suggestion.
 -   Add variable `vcsBadgeSize` to change the size of badge in sidebar.
-
----
 
 <a name="2.2.0"></a>
 
 ## [2.2.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v2.1.0...v2.2.0) (2019-06-25)
 
-### FEATURES
+## FEATURES
 
 -   Add syntax improvements for: `CSS`, `PHP`, `Perl` & `Python`. TY [@pykong](https://github.com/pykong).
 -   Add new scheme called `Meetio-Mariana`.
-
----
 
 <a name="2.1.0"></a>
 
 ## [2.1.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v2.0.1...v2.1.0) (2019-06-11)
 
-### FEATURES
+## FEATURES
 
 -   Add syntax improvements for: `PHP` & `Python`. Thanks [@pykong](https://github.com/pykong) for your feedback.
 -   Add theme colors improvements.
 -   Add variable `sidebarLabelPadding`.
 -   Add variable `tabBold`.
 
-### BUGFIXES
+## BUGFIXES
 
 -   Fix multiple files stay selected on Windows [issue #11](https://github.com/meetio-theme/sublime-meetio-theme/issues/11). Thanks [@f8ttyc8t](https://github.com/f8ttyc8t) for your report.
 
-### BREAKING CHANGES
+## BREAKING CHANGES
 
 -   Remove options for Tabs: `meetio_tabs_big`, `meetio_tabs_bold` & `meetio_tabs_autowidth`.
 -   Remove options for SideBar: `meetio_sidebar_font_big` & `meetio_compact_sidebar`.
 -   Remove options for Title: `meetio_titlebar`.
 
----
-
 <a name="2.0.1"></a>
 
 ## [2.0.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v2.0.0...v2.0.1) (2019-05-03)
 
-### FEATURES
+## FEATURES
 
 -   Add option `meetio_tabs_diff_pencil_icon` to show a pencil icon in tab.
 -   Add variables `tabDiffIconColor` to change the color of icon in tab.
 
-### BUGFIXES
+## BUGFIXES
 
 -   Fix `overlay_control` layer problem.
-
----
 
 <a name="2.0.0"></a>
 
 ## [2.0.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.8.0...v2.0.0) (2019-04-09)
 
-### FEATURES
+## FEATURES
 
 -   Add variables to allow more customize.
 
-### BREAKING CHANGES
+## BREAKING CHANGES
 
 -   Naming of variables in theme, for example: `buttonBackground` instead of `button_background`.
-
----
 
 <a name="1.8.0"></a>
 
 ## [1.8.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.7.1...v1.8.0) (2019-03-14)
 
-### FEATURES
+## FEATURES
 
 -   Add option `meetio_status_badges` show/hide status badges in status bar.
 -   Add variable `font_face`.
@@ -158,174 +174,152 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 -   Add variable `panel_row_match_foreground_color`.
 -   Add variable `panel_row_selected_match_foreground_color`.
 
----
-
 <a name="1.7.1"></a>
 
 ## [1.7.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.7.0...v1.7.1) (2019-03-14)
 
-### BUGFIXES
+## BUGFIXES
 
 -   Fix variables on panel and status bar.
-
----
 
 <a name="1.7.0"></a>
 
 ## [1.7.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.6.9...v1.7.0) (2019-03-12)
 
-### FEATURES
+## FEATURES
 
 -   Add option `meetio_tabs_diff_icon` to show/hide the icon diff in tab.
 -   Add option `meetio_tabs_diff_highlight` allow possibility to have a different color in modifier tab.
 -   Add variable `tabset_diff_color` to change the color of modifier tab.
 -   Add variable `tabset_diff_italic` to put the italic in modifier tab.
 
-### BUGFIXES
+## BUGFIXES
 
 -   Fix `input_background_color` variable to change the color in correct place.
 -   Fix `button_background_color_hover` variable, to use the correct color instead of opacity.
 
-#### NOTE
+## NOTE
 
 Thanks [abathur](https://github.com/abathur) for you feedback/report on issue [#6](https://github.com/meetio-theme/sublime-meetio-theme/issues/6).
-
----
 
 <a name="1.6.0"></a>
 
 ## [1.6.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.5.1...v1.6.0) (2019-03-01)
 
-### FEATURES
+## FEATURES
 
 -   Add syntax Improvements for: `HTML`, `CSS`, `JavaScript`, `PHP` & `Markdown` and others.
 -   Add customize colors for `diff.deleted`, `diff.deleted.char`, `diff.inserted`, and `diff.inserted.char` see [build 3193](https://www.sublimetext.com/3dev).
 
-### BUGFIXES
+## BUGFIXES
 
 -   Fix background color of `quick_panel`.
-
----
 
 <a name="1.5.1"></a>
 
 ## [1.5.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.5.0...v1.5.1) (2019-02-24)
 
-### BUGFIXES
+## BUGFIXES
 
 -   Fix color of lighter scheme.
-
----
 
 <a name="1.5.0"></a>
 
 ## [1.5.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.4.1...v1.5.0) (2019-02-20)
 
-### FEATURES
+## FEATURES
 
 -   Add new variation of scheme: `Meetio-Ocean`.
 -   Add `block_caret` on colors schemes.
 -   Add variable `vsc_deleted` when one or more of a folder‘s files has been added to the index for removal.
 -   Add variable `vsc_missing` when one or more of a folder‘s files is no longer on disk.
 
-### CHANGED
+## CHANGED
 
 -   Update name of `Meetio-Ocean` to `Meetio-Cobalt`.
 -   Update color of `caret` in all schemes to use the accent color.
 
-### BUGFIXES
+## BUGFIXES
 
 -   Fix typo in messages. Thanks [@pykong](https://github.com/pykong).
-
----
 
 <a name="1.4.1"></a>
 
 ## [1.4.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.4.0...v1.4.1) (2019-02-15)
 
-### FEATURES
+## FEATURES
 
 -   Add variable of `sidebar_icon_file_color`, to possibility change the color of icons in sidebar.
 
-### BUGFIXES
+## BUGFIXES
 
 -   Fix `status_unmerged` icon in sidebar.
-
----
 
 <a name="1.4.0"></a>
 
 ## [1.4.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.3.0...v1.4.0) (2019-02-01)
 
-### FEATURES
+## FEATURES
 
 -   Add colors of `line_diff_modified`, `line_diff_added` and `line_diff_deleted` in scheme.
 
-### CHANGED
+## CHANGED
 
 -   Updated name of option `meetio_tabs_border` to `meetio_tabs_selected_border`.
 -   Updated colors of file_system_entry.
 
-### BREAKING CHANGES
+## BREAKING CHANGES
 
 -   Remove `meetio_statusbar_big` option.
-
----
 
 <a name="1.3.0"></a>
 
 ## [1.3.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.2.0...v1.3.0) (2019-01-25)
 
-### FEATURES
+## FEATURES
 
 -   Add new scheme `Meetio-Ocean`.sublime-scheme
 -   Add option `meetio_tabs_border` show border in selected tab.
 -   Add various variables to customize the Theme.
 
-### CHANGED
+## CHANGED
 
 -   Update colors in Palenight Schemes.
-
----
 
 <a name="1.2.0"></a>
 
 ## [1.2.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.1.1...v1.2.0) (2019-01-19)
 
-### FEATURES
+## FEATURES
 
 -   Add option `Meetio: Theme Configuration` this allow the possibility to overwrite the default variables
 
-### CHANGED
+## CHANGED
 
 -   Update color of background in Schemes: Default, Lighter and Darker
 
-### BUGFIXES
+## BUGFIXES
 
 -   Fix foreground and background color of status bar
 -   Fix button hover
 
-### BREAKING CHANGES
+## BREAKING CHANGES
 
 -   Remove `Meetio: Theme Activator`
-
----
 
 <a name="1.1.1"></a>
 
 ## [1.1.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v1.0.0...v1.1.1) (2019-01-15)
 
-### CHANGED
+## CHANGED
 
 -   Update color of background in Meetio Darker Scheme
-
----
 
 <a name="1.0.0"></a>
 
 ## 1.0.0 (2019-01-11)
 
-### FEATURES
+## FEATURES
 
 -   Add Support for Git Gutter
 -   Add Support for Gutter Color

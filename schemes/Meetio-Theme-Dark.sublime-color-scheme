@@ -724,6 +724,11 @@
             "name": "VUE - Console, \"console\"",
             "scope": "text.html.vue meta.property.object",
             "foreground": "var(foreground)"
+        },
+        {
+            "name": "PYTHON - Parameters Annotation ",
+            "scope": "source.python meta.function.parameters.annotation.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(blue)"
         }
     ]
 }

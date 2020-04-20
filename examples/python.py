@@ -88,6 +88,6 @@ def copy(
     pretend: bool = False,
     force: bool = False,
     skip: bool = False,
-    quiet: bool = False,
+    quiet: bool = False
 ) -> None:
     pass
