@@ -13,15 +13,11 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## FEATURES
 
--   Add `autoCompleteRowPadding` variable.
-
-## CHANGED
-
--   Revert accent color in Theme.
+-   Add font option `glow` on `tags_options` and `brackets_options` on Light/Dark schemes.
 
 ## IMPROVEMENTES
 
--   Re-factor all scheme scopes. [Issue #30](https://github.com/meetio-theme/sublime-meetio-theme/issues/30)
+-   Add support for `meta.function.parameters.annotation` on Python syntax.
 
 <a name="4.0.0"></a>
 
