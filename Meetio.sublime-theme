@@ -166,5 +166,6 @@
         "vscUntracked": "var(--greenish)",
         "vscDeleted": "var(--redish)",
         "vscMissing": "var(--orangish)"
-    }
+    },
+    "rules": []
 }
