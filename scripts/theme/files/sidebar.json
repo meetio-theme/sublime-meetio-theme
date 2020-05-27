@@ -62,7 +62,7 @@
     {
         "class": "sidebar_label",
         "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
-        "color": "var(sidebarLabelColor)"
+        "color": "var(sidebarLabelColorHover)"
     },
     {
         "class": "sidebar_label",
