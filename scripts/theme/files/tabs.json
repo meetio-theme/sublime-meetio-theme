@@ -17,9 +17,15 @@
     },
     {
         "class": "tab_control",
-        "layer0.inner_margin":[24, 8],
+        "layer0.tint": ["background", 0.0],
+        "layer0.inner_margin": [24, 8],
+        "layer0.opacity": 1,
         "tint_index": 0,
+        "layer1.tint": ["background", 1],
         "layer1.inner_margin": 8,
+        "layer1.opacity": 0,
+        "layer2.opacity": 0,
+        "layer3.opacity": 0,
         "content_margin": [8, 0, 8, 0],
         "max_margin_trim": 0
     },

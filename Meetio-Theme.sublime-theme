@@ -109,7 +109,7 @@
         "sidebarLabelFontSize": "var(fontSizeMd)",
         "sidebarLabelPadding": [
             14,
-            3
+            4
         ],
         "sidebarIndent": 20,
         "sidebarIndentOffset": 14,
