@@ -30,12 +30,6 @@
     },
     {
         "class": "tab_control",
-        "attributes": ["selected"],
-        "layer1.opacity": 1,
-        "tint_index": 1
-    },
-    {
-        "class": "tab_control",
         "attributes": ["selected", "dirty"],
         "layer1.opacity": 1,
         "settings": ["highlight_modified_tabs"],
