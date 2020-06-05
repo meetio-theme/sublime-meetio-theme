@@ -1,4 +1,3 @@
-// @ts-ignore
 import {
     generateScheme,
     ISchemeSetting,
@@ -9,15 +8,10 @@ import {
 import { light, dark } from '@meetio/meetio-colors';
 import { customeRules } from './customeRules';
 
-interface UI {
-    [key: string]: string;
-}
-
 interface IScheme {
     name: string;
     author: string;
     variables: IColors;
-    customeUi: UI;
     customeRules: Array<IRules>;
 }
 
@@ -26,31 +20,29 @@ interface IScheme {
         name: 'Meetio-Theme-Dark',
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
         variables: dark,
-        customeUi: {
-            tags_foreground: 'var(cyan)',
-        },
-        customeRules,
+        customeRules
     },
     {
         name: 'Meetio-Theme-Light',
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
         variables: light,
-        customeUi: {
-            tags_foreground: 'var(cyan)',
-        },
-        customeRules,
+        customeRules
     },
 ].map((item: IScheme) => {
-    const { variables, customeRules, customeUi } = item;
+    const { variables, customeRules } = item;
     const settings: ISchemeSetting = {
-        colors: variables,
+        colors: {
+            accent: "#80CBC4",
+            ...variables
+        },
         rules: customeRules,
         ui: {
-            ...customeUi,
-            ...{
-                tags_options: 'underline, glow',
-                brackets_options: 'underline, glow',
-            },
+            accent: 'var(accent)',
+            bracket_contents_options: 'underline',
+            brackets_options: 'underline, glow',
+            gutter_foreground_highlight: 'var(foreground)',
+            scroll_highlight: 'var(yellow)',
+            scroll_selected_highlight: 'var(cyan)'
         },
     };
     generateScheme(item.name, item.author, item.name, settings, 'schemes');

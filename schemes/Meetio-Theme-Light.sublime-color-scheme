@@ -2,6 +2,7 @@
     "name": "Meetio-Theme-Light",
     "author": "Mauro Reis Vieira <mauroreisvieira@gmail.com>",
     "variables": {
+        "accent": "#80CBC4",
         "cursor": "#7e57c2",
         "foreground": "#455A64",
         "background": "#fbfbfb",
@@ -46,7 +47,6 @@
         "line_diff_width": "2",
         "line_highlight": "color(var(foreground) alpha(0.1))",
         "misspelling": "var(red)",
-        "rulers": "color(var(foreground) alpha(0.5))",
         "selection": "color(var(foreground) alpha(0.10))",
         "selection_border": "var(cyan)",
         "selection_corner_radius": "cut",
@@ -54,7 +54,11 @@
         "shadow": "color(var(background) alpha(0.5))",
         "stack_guide": "var(brown)",
         "tags_foreground": "var(cyan)",
-        "tags_options": "underline, glow"
+        "tags_options": "underline",
+        "accent": "var(accent)",
+        "gutter_foreground_highlight": "var(foreground)",
+        "scroll_highlight": "var(yellow)",
+        "scroll_selected_highlight": "var(cyan)"
     },
     "rules": [
         {

@@ -12,6 +12,7 @@ function build(name: string) {
     const merge: string[] = [];
     let rules: any = {};
     fs.readdirSync('./scripts/theme/files/').forEach((file: string) => {
+        // eslint-disable-next-line no-undef
         file = path.join(__dirname, '/files/' + file);
         fs.readFile(file, 'utf8', (err, data) => {
             if (err) {
