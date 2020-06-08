@@ -13,10 +13,12 @@
         "theme"
     ],
     "scripts": {
-        "theme": "ts-node scripts/theme/index.ts",
-        "scheme": "ts-node scripts/scheme/index.ts",
-        "icons": "ts-node scripts/icons/index.ts",
-        "lint": "eslint \"scripts/*.ts\" \"scripts/**/*.ts\" \"scripts/**/**/*.ts\" \"scripts/**/*.json\" \"scripts/**/**/*.json\"",
+        "theme": "ts-node src/theme.ts",
+        "scheme": "ts-node src/scheme.ts",
+        "icons": "ts-node src/icons.ts",
+        "lint": "eslint \"src/*.ts\" \"src/**/*.ts\" \"src/**/**/*.ts\" \"src/**/*.json\" \"src/**/**/*.json\"",
+        "changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
+        "release": "bash scripts/release.sh",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "engines": {
@@ -35,6 +37,7 @@
         "@babel/preset-env": "7.9.6",
         "@commitlint/cli": "^8.3.5",
         "@commitlint/config-conventional": "^8.3.4",
+        "conventional-changelog-cli": "^2.0.11",
         "@meetio/meetio-colors": "^1.7.0",
         "@meetio/meetio-icons": "^1.10.0",
         "@meetio/scheme-generator": "^1.10.2",

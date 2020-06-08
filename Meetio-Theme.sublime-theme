@@ -178,6 +178,14 @@
         "tabHeight": 45,
         "tabWidth": 90,
         "tabMargin": 0,
+        "tabNavigationColor": [
+            "foreground",
+            1
+        ],
+        "tabMoreColor": [
+            "foreground",
+            1
+        ],
         "tabCloseColor": [
             "foreground",
             0.5

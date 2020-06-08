@@ -1,14 +1,19 @@
 {
-  // Show icon diff in tab
+  // Show icon diff in tab.
   "meetio_tabs_diff_icon": true,
   // Show diff pencil icon in tab.
   "meetio_tabs_diff_pencil_icon": true,
+  // show tab navigation buttons left and right.
+  "meetio_tab_navigation": true,
 
-  // Set disclosure tree controls
+  // option increases the contrast between the editor.
+  "meetio_high_contrast": false,
+
+  // Set disclosure tree controls.
   "meetio_sidebar_disclosure": false,
 
-  // Show icon search in inputs
+  // Show icon search in inputs.
   "meetio_input_search_icon": true,
-  // Show vcs status badges in the status bar
+  // Show vcs status badges in the status bar.
   "meetio_status_badges": true
 }
