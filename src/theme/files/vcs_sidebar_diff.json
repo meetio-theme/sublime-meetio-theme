@@ -2,21 +2,21 @@
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
-        "layer0.texture": "Meetio Theme/textures/vcs_untracked.png",
+        "layer0.texture": "Meetio Theme/textures/vcs/vcs_untracked.png",
         "layer0.tint": "var(vcsUntracked)",
         "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
-        "layer0.texture": "Meetio Theme/textures/vcs_modified.png",
+        "layer0.texture": "Meetio Theme/textures/vcs/vcs_modified.png",
         "layer0.tint": "var(vcsModified)",
         "content_margin": "var(vcsBadgeSize)"
     },
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
-        "layer0.texture": "Meetio Theme/textures/vcs_added.png",
+        "layer0.texture": "Meetio Theme/textures/vcs/vcs_added.png",
         "layer0.tint": "var(vcsUntracked)",
         "content_margin": "var(vcsBadgeSize)"
     },
@@ -30,7 +30,7 @@
     {
         "class": "vcs_status_badge",
         "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-        "layer0.texture": "Meetio Theme/textures/vcs_staged.png",
+        "layer0.texture": "Meetio Theme/textures/vcs/vcs_staged.png",
         "layer0.tint": "var(vcsStaged)",
         "content_margin": "var(vcsBadgeSize)"
     },

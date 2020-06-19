@@ -129,8 +129,7 @@
     {
         "class": "tab_close_button",
         "parents": [{ "class": "tab_control", "attributes": ["dirty"] }],
-        "content_margin": [8, 8],
-        "settings": ["meetio_tabs_diff_pencil_icon"]
+        "layer0.texture": "Theme - Default/common/dark/tab_dirty.png"
     },
     {
         "class": "tab_close_button",
