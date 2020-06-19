@@ -41,7 +41,7 @@
     },
     {
         "class": "sidebar_button_control",
-        "layer0.texture": "Meetio Theme/textures/sidebar_button.png",
+        "layer0.texture": "Meetio Theme/textures/actions/sidebar_button.png",
         "content_margin": 8,
         "layer0.tint": "var(statusbarIconColor)",
         "layer0.inner_margin": 2,

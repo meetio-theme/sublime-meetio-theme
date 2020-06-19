@@ -2,7 +2,7 @@
     {
         "class": "annotation_close_button",
         "content_margin": 8,
-        "layer0.texture": "Meetio Theme/textures/icon_close.png",
+        "layer0.texture": "Meetio Theme/textures/actions/icon_close.png",
         "layer0.tint": "var(colorAccent)",
         "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" }
     },
