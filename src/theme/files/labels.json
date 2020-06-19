@@ -1,0 +1,28 @@
+[
+    {
+        "class": "label_control",
+        "fg": ["foreground", 1.0],
+        "font.bold": false
+    },
+    {
+        "class": "label_control",
+        "parents": [{ "class": "button_control" }],
+        "color": ["foreground", 1.0],
+        "font.bold": true
+    },
+    {
+        "class": "label_control",
+        "parents": [{ "class": "panel_control" }],
+        "color": ["foreground", 1.0],
+        "font.bold": true
+    },
+    {
+        "class": "title_label_control",
+        "fg": ["foreground", 1.0],
+        "font.size": "var(fontSizeHuge)"
+    },
+    {
+        "class": "label_control",
+        "parents": [{ "class": "button_control" }]
+    }
+]

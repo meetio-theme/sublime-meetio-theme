@@ -1,0 +1,88 @@
+[
+    {
+        "class": "scroll_area_control",
+        "settings": ["overlay_scroll_bars"],
+        "overlay": true
+    },
+    {
+        "class": "scroll_area_control",
+        "settings": ["!overlay_scroll_bars"],
+        "overlay": false
+    },
+    {
+        "class": "scroll_area_control",
+        "parents": [{ "class": "sidebar_container" }],
+        "content_margin": [0, 10, 0, 10]
+    },
+    {
+        "class": "scroll_bar_control",
+        "layer0.opacity": 1.0,
+        "content_margin": 4,
+        "tint_index": 0
+    },
+    {
+        "class": "scroll_bar_control",
+        "settings": ["overlay_scroll_bars"],
+        "layer0.opacity": 0.0
+    },
+    {
+        "class": "scroll_bar_control",
+        "settings": ["!overlay_scroll_bars"],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "scroll_bar_control",
+        "parents": [{"class": "popup_control auto_complete_popup"}],
+        "tint_modifier": [0, 0, 0, 0.05]
+    },
+    {
+        "class": "scroll_bar_control",
+        "parents": [{"class": "switch_project_window"}],
+        "layer0.tint": [235, 237, 239],
+        "tint_index": -1
+    },
+    {
+        "class": "scroll_bar_control",
+        "parents": [{ "class": "sidebar_container" }],
+        "layer0.opacity": 0.0
+    },
+    {
+        "class": "scroll_corner_control",
+        "parents": [{ "class": "sidebar_container" }],
+        "layer0.opacity": 0.0
+    },
+    {
+        "class": "scroll_bar_control",
+        "parents": [{ "class": "overlay_control" }],
+        "layer0.opacity": 0.0,
+        "content_margin": [4, 0, 0, 0]
+    },
+ {
+        "class": "scroll_track_control",
+        "layer0.tint": "var(scrollBar)",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 2,
+        "content_margin": [4, 4, 3, 4]
+    },
+    {
+        "class": "puck_control",
+        "layer0.tint": "var(scrollTrack)",
+        "layer0.opacity": 1
+    },
+    {
+        "class": "scroll_corner_control",
+        "layer0.opacity": 1.0,
+        "tint_index": 0
+    },
+    {
+        "class": "scroll_track_control",
+        "attributes": ["horizontal"],
+        "layer0.tint": "var(scrollBar)",
+        "content_margin": [4, 4, 4, 3]
+    },
+    {
+        "class": "puck_control",
+        "attributes": ["horizontal"],
+        "layer0.tint": "var(scrollTrack)"
+    }
+]

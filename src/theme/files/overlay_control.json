@@ -1,0 +1,13 @@
+[
+    {
+        "class": "overlay_control",
+        "layer0.texture": "Meetio Theme/textures/overlay_bg.png",
+        "layer0.inner_margin": [24, 4, 24, 33],
+        "layer0.opacity": 1,
+        "layer0.tint": "var(panelControlBackground)",
+        "layer1.texture": "Meetio Theme/textures/quick_panel_background.png",
+        "layer1.inner_margin": [16, 0, 16, 25],
+        "layer1.opacity": 1,
+        "content_margin": [12, 4, 13, 28]
+    }
+]

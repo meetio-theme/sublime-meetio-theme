@@ -1,0 +1,7 @@
+[
+    {
+        "class": "title_bar",
+        "bg": "var(titleBarBackground)",
+        "fg": "var(titleBarColor)"
+    }
+]
