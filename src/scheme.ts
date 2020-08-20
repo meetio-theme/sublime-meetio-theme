@@ -39,7 +39,7 @@ interface IScheme {
         ui: {
             accent: 'var(accent)',
             bracket_contents_options: 'underline',
-            brackets_options: 'underline, glow',
+            brackets_options: 'underline',
             gutter_foreground_highlight: 'var(foreground)',
             scroll_highlight: 'var(yellow)',
             scroll_selected_highlight: 'var(cyan)'

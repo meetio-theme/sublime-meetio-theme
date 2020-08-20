@@ -10,4 +10,11 @@ export const customeRules: Array<IRules> = [
             foreground: 'var(blue)',
         },
     },
+    {
+        name: 'ENTITY - Filenames',
+        scope: ['entity.name.filename'],
+        settings: {
+            foreground: 'var(green)',
+        },
+    },
 ];

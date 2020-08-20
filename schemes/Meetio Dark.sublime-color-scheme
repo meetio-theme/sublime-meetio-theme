@@ -29,7 +29,7 @@
         "bracket_contents_foreground": "var(yellow)",
         "bracket_contents_options": "underline",
         "brackets_foreground": "var(cyan)",
-        "brackets_options": "underline, glow",
+        "brackets_options": "underline",
         "caret": "var(cursor)",
         "find_highlight": "var(yellow)",
         "find_highlight_foreground": "var(background)",
@@ -159,11 +159,6 @@
             "name": "ENTITY - HTML and XML tags",
             "scope": "entity.name.tag",
             "foreground": "var(red)"
-        },
-        {
-            "name": "ENTITY - Filenames",
-            "scope": "entity.name.filename",
-            "foreground": "var(green)"
         },
         {
             "name": "ENTITY - HTML, CSS and XML",
@@ -739,6 +734,11 @@
             "name": "PYTHON - Parameters Annotation ",
             "scope": "source.python meta.function.parameters.annotation.python meta.qualified-name.python meta.generic-name.python",
             "foreground": "var(blue)"
+        },
+        {
+            "name": "ENTITY - Filenames",
+            "scope": "entity.name.filename",
+            "foreground": "var(green)"
         }
     ]
 }
