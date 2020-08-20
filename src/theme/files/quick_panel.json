@@ -57,7 +57,6 @@
         "class": "quick_panel_path_label",
         "font.face": "var(fontFace)",
         "font.size": "var(panelPathRowFontSize)",
-        "font.italic": "var(panelPathRowFontItalic)",
         "fg": "var(panelPathRowColor)",
         "match_fg": "var(panelRowMatchColor)",
         "selected_fg": "var(panelRowSelectedColor)",
