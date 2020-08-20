@@ -8,14 +8,14 @@ echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
   echo "Releasing v$VERSION ..."
-  yarn run lint
+  npm run lint
 
-  yarn run build
+  npm run build
   # generate the version so that the changelog can be generated too
-  yarn version --no-git-tag-version --no-commit-hooks --new-version $VERSION
+  npm version --no-git-tag-version --no-commit-hooks --new-version $VERSION
 
   # changelog
-  yarn run changelog
+  npm run changelog
 
   echo "Please check the git history and the changelog and press enter"
   read OKAY

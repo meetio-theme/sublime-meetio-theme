@@ -1,6 +1,6 @@
 {
     "name": "sublime-meetio-theme",
-    "version": "4.5.5",
+    "version": "4.5.6",
     "description": "The most powerful and adaptive theme for Sublime Text 3",
     "bugs": {
         "url": "https://github.com/meetio-theme/sublime-meetio-theme/issues"
@@ -17,12 +17,10 @@
         "scheme": "ts-node src/scheme.ts",
         "icons": "ts-node src/icons.ts",
         "lint": "eslint \"src/*.ts\" \"src/**/*.ts\" \"src/**/**/*.ts\" \"src/**/*.json\" \"src/**/**/*.json\"",
+        "build": "npm run theme & npm run scheme & npm run icons",
         "changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
         "release": "bash scripts/release.sh",
         "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "engines": {
-        "node": "^11.0.0"
     },
     "husky": {
         "hooks": {

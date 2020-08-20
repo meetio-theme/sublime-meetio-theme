@@ -1,3 +1,30 @@
+<a name="4.5.6"></a>
+## [4.5.6](https://github.com/meetio-theme/sublime-meetio-theme/compare/4.5.5...4.5.6) (2020-08-20)
+
+
+### Bug Fixes
+
+* add `entity.name.filename` as a custom rule for schemes ([a76c662](https://github.com/meetio-theme/sublime-meetio-theme/commit/a76c662))
+* add new icons ([bbed1b4](https://github.com/meetio-theme/sublime-meetio-theme/commit/bbed1b4))
+* entity.filename ([c8f1c72](https://github.com/meetio-theme/sublime-meetio-theme/commit/c8f1c72))
+* find in files scheme rules ([c90b6c0](https://github.com/meetio-theme/sublime-meetio-theme/commit/c90b6c0))
+* invalid prop `font.italic`, ran `npm run theme`, bump version ([20d6f76](https://github.com/meetio-theme/sublime-meetio-theme/commit/20d6f76))
+* path for icons ([a508bb2](https://github.com/meetio-theme/sublime-meetio-theme/commit/a508bb2))
+* remove icons duplication ([b30f1b7](https://github.com/meetio-theme/sublime-meetio-theme/commit/b30f1b7))
+* **icons:** move icons to a different folder ([556a1d6](https://github.com/meetio-theme/sublime-meetio-theme/commit/556a1d6))
+* **infrastructure:** change folder and files struct ([4915a7c](https://github.com/meetio-theme/sublime-meetio-theme/commit/4915a7c))
+* **rename scheme:** rename schemes ([4f55f63](https://github.com/meetio-theme/sublime-meetio-theme/commit/4f55f63))
+* **schemes:** add accent color ([f3e5a5f](https://github.com/meetio-theme/sublime-meetio-theme/commit/f3e5a5f))
+* tabs ([ea71471](https://github.com/meetio-theme/sublime-meetio-theme/commit/ea71471))
+* tabs ([906c5ba](https://github.com/meetio-theme/sublime-meetio-theme/commit/906c5ba))
+
+
+### Features
+
+* add option `sidebarLabelColorHover` ([66660a2](https://github.com/meetio-theme/sublime-meetio-theme/commit/66660a2))
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
