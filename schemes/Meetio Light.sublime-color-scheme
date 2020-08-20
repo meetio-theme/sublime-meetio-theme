@@ -161,6 +161,11 @@
             "foreground": "var(red)"
         },
         {
+            "name": "ENTITY - Filenames",
+            "scope": "entity.name.filename",
+            "foreground": "var(green)"
+        },
+        {
             "name": "ENTITY - HTML, CSS and XML",
             "scope": "entity.other.attribute-name",
             "foreground": "var(yellow)"
