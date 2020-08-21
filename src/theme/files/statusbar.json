@@ -1,9 +1,25 @@
 [
     {
         "class": "status_bar",
-        "content_margin": "var(statusbarMargin)",
+        "layer0.opacity": 1,
         "layer0.tint": "var(statusbarBackground)",
-        "layer0.opacity": 1
+        "content_margin": "var(statusbarMargin)",
+        "layer1.opacity": 1,
+        "layer1.inner_margin": [0, 1, 0, 0],
+        "layer1.draw_center": false
+    },
+    {
+        "class": "status_bar",
+        "layer0.tint": "color(var(statusbarBackground) alpha(0.8))",
+        "layer1.tint": "color(#000 l(20%))",
+        "settings": ["meetio_high_contrast"]
+    },
+    {
+        "class": "status_bar",
+        "parents": [{ "class": "window", "attributes": ["file_light"] }],
+        "layer0.tint": "color(var(statusbarBackground) alpha(0.96))",
+        "layer1.tint": "color(#000 l(80%))",
+        "settings": ["meetio_high_contrast"]
     },
     {
         "class": "panel_button_control",
