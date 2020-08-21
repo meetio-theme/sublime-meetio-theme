@@ -115,7 +115,11 @@
         "settings": ["show_tab_close_buttons"],
         "attributes": ["hover"],
         "layer0.tint": "var(tabCloseHoverColor)",
-        "layer0.opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+        "layer0.opacity": {
+            "target": 1.0,
+            "speed": 4.0,
+            "interpolation": "smoothstep"
+        },
         "layer1.opacity": 0
     },
     {
@@ -141,14 +145,18 @@
     },
     {
         "class": "tab_close_button",
-        "parents": [{ "class": "tab_control", "attributes": ["selected", "dirty"] }],
+        "parents": [
+            { "class": "tab_control", "attributes": ["selected", "dirty"] }
+        ],
         "settings": ["meetio_tabs_diff_icon"],
         "layer0.opacity": 0,
         "layer1.opacity": 1
     },
     {
         "class": "tab_close_button",
-        "parents": [{ "class": "tab_control", "attributes": ["selected", "dirty"] }],
+        "parents": [
+            { "class": "tab_control", "attributes": ["selected", "dirty"] }
+        ],
         "settings": ["meetio_tabs_diff_icon"],
         "attributes": ["hover"],
         "layer0.opacity": 0,
@@ -158,25 +166,53 @@
         "class": "scroll_tabs_left_button",
         "layer0.texture": "Meetio Theme/textures/navigation/arrow_left_small.png",
         "layer0.tint": "var(tabNavigationColor)",
-        "layer0.opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
-        "content_margin": [10, 10]
+        "layer0.opacity": {
+            "target": 0.5,
+            "speed": 4.0,
+            "interpolation": "smoothstep"
+        },
+        "content_margin": [10, 10],
+        "settings": ["meetio_tab_navigation"]
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.opacity": { "target": 1, "speed": 4.0, "interpolation": "smoothstep" }
+        "layer0.opacity": {
+            "target": 1,
+            "speed": 4.0,
+            "interpolation": "smoothstep"
+        }
     },
     {
         "class": "scroll_tabs_right_button",
         "layer0.texture": "Meetio Theme/textures/navigation/arrow_right_small.png",
         "layer0.tint": "var(tabNavigationColor)",
-        "layer0.opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
-        "content_margin": [10, 10]
+        "layer0.opacity": {
+            "target": 0.5,
+            "speed": 4.0,
+            "interpolation": "smoothstep"
+        },
+        "content_margin": [10, 10],
+        "settings": ["meetio_tab_navigation"]
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer0.opacity": { "target": 1, "speed": 4.0, "interpolation": "smoothstep" }
+        "layer0.opacity": {
+            "target": 1,
+            "speed": 4.0,
+            "interpolation": "smoothstep"
+        }
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "settings": ["!meetio_tab_navigation"],
+        "content_margin": 0
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "settings": ["!meetio_tab_navigation"],
+        "content_margin": 0
     },
     {
         "class": "show_tabs_dropdown_button",
