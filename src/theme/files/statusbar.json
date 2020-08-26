@@ -4,14 +4,15 @@
         "layer0.opacity": 1,
         "layer0.tint": "var(statusbarBackground)",
         "content_margin": "var(statusbarMargin)",
-        "layer1.opacity": 1,
         "layer1.inner_margin": [0, 1, 0, 0],
+        "layer1.opacity": 0,
         "layer1.draw_center": false
     },
     {
         "class": "status_bar",
         "layer0.tint": "color(var(statusbarBackground) alpha(0.8))",
         "layer1.tint": "color(#000 l(20%))",
+        "layer1.opacity": 1,
         "settings": ["meetio_high_contrast"]
     },
     {
@@ -19,6 +20,7 @@
         "parents": [{ "class": "window", "attributes": ["file_light"] }],
         "layer0.tint": "color(var(statusbarBackground) alpha(0.96))",
         "layer1.tint": "color(#000 l(80%))",
+        "layer1.opacity": 1,
         "settings": ["meetio_high_contrast"]
     },
     {

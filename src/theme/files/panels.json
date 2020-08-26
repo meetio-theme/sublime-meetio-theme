@@ -2,29 +2,25 @@
     {
         "class": "panel_control",
         "layer0.tint": "var(panelControlBackground)",
+        "layer0.opacity": 1,
         "layer0.inner_margin": [2, 2, 2, 2],
-        "layer0.opacity": 1,
-        "layer2.draw_center": false,
-        "content_margin": [6, 12, 6, 12]
+        "layer1.opacity": 0,
+        "layer1.draw_center": false,
+        "layer1.inner_margin": [0, 1, 0, 0],
+        "content_margin": [12, 12]
     },
     {
         "class": "panel_control",
-        "parents": [{ "class": "overlay_control" }],
-        "layer0.opacity": 1,
-        "layer0.inner_margin": [32, 0, 32, 2],
-        "layer0.tint": "var(panelControlBackground)",
-        "layer1.inner_margin": [32, 0, 32, 2],
         "layer1.opacity": 1,
-        "content_margin": [32, 8, 32, 8]
+        "layer1.tint": "color(#000 l(20%))",
+        "settings": ["meetio_high_contrast"]
     },
     {
         "class": "panel_control",
-        "parents": [{ "class": "switch_project_window" }],
-        "layer0.inner_margin": [32, 0, 32, 2],
-        "layer0.tint": "var(panelControlBackground)",
-        "layer1.inner_margin": [32, 0, 32, 2],
-        "layer1.tint": "var(panelControlBackground)",
-        "content_margin": [32, 8, 32, 8]
+        "parents": [{ "class": "window", "attributes": ["file_light"] }],
+        "layer1.opacity": 1,
+        "layer1.tint": "color(#000 l(80%))",
+        "settings": ["meetio_high_contrast"]
     },
     {
         "class": "panel_control",

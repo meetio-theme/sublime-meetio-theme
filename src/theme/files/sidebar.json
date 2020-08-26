@@ -3,8 +3,8 @@
         "class": "sidebar_container",
         "layer0.opacity": 1,
         "layer0.tint": "var(sidebarBackground)",
-        "layer1.opacity": 1,
         "layer1.inner_margin": [0, 1, 1, 0],
+        "layer0.opacity": 1,
         "layer1.draw_center": false,
         "content_margin": [0, 6, 0, 0]
     },
@@ -12,6 +12,7 @@
         "class": "sidebar_container",
         "layer0.tint": "color(var(sidebarBackground) alpha(0.8))",
         "layer1.tint": "color(#000 l(20%))",
+        "layer1.opacity": 1,
         "settings": ["meetio_high_contrast"]
     },
     {
@@ -19,6 +20,7 @@
         "parents": [{ "class": "window", "attributes": ["file_light"] }],
         "layer0.tint": "color(var(sidebarBackground) alpha(0.96))",
         "layer1.tint": "color(#000 l(80%))",
+        "layer1.opacity": 1,
         "settings": ["meetio_high_contrast"]
     },
     {
