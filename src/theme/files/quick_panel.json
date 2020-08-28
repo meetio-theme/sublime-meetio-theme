@@ -55,7 +55,6 @@
     },
     {
         "class": "quick_panel_path_label",
-        "link_color": "var(colorAccent)",
         "font.face": "var(fontFace)",
         "font.size": "var(panelPathRowFontSize)",
         "fg": "var(panelPathRowColor)",

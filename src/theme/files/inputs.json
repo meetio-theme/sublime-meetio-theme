@@ -8,7 +8,6 @@
         "layer1.opacity": 1.0,
         "layer1.inner_margin": "var(inputBorderSize)",
         "layer1.draw_center": false,
-        "tint_index": 1,
         "content_margin": "var(inputBorderMargin)",
         "color_scheme_tint": "var(inputBackground)"
     },
