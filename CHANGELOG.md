@@ -1,3 +1,32 @@
+<a name="4.6.0"></a>
+# [4.6.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.5.6...v4.6.0) (2020-08-28)
+
+
+### Bug Fixes
+
+* border in status bar ([79d2499](https://github.com/meetio-theme/sublime-meetio-theme/commit/79d2499))
+* remove tint_index in input ([bc742e7](https://github.com/meetio-theme/sublime-meetio-theme/commit/bc742e7))
+* update schemes ([4f9f5be](https://github.com/meetio-theme/sublime-meetio-theme/commit/4f9f5be))
+
+
+### Features
+
+* add `meetio_high_contrast` option ([8a3cbde](https://github.com/meetio-theme/sublime-meetio-theme/commit/8a3cbde))
+* add `meetio_tab_navigation` option ([1ff6c36](https://github.com/meetio-theme/sublime-meetio-theme/commit/1ff6c36))
+* theme add link_color prop ([5312506](https://github.com/meetio-theme/sublime-meetio-theme/commit/5312506))
+
+
+
+<a name="4.5.6"></a>
+## [4.5.6](https://github.com/meetio-theme/sublime-meetio-theme/compare/4.5.5...v4.5.6) (2020-08-20)
+
+
+### Bug Fixes
+
+* add `entity.name.filename` as a custom rule for schemes ([a76c662](https://github.com/meetio-theme/sublime-meetio-theme/commit/a76c662))
+
+
+
 <a name="4.5.6"></a>
 ## [4.5.6](https://github.com/meetio-theme/sublime-meetio-theme/compare/4.5.5...4.5.6) (2020-08-20)
 
