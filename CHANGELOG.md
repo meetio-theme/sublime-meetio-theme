@@ -1,3 +1,32 @@
+<a name="4.7.0"></a>
+# [4.7.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.6.0...v4.7.0) (2020-09-30)
+
+
+### Bug Fixes
+
+* add support for `link_color` ([fd7ca7a](https://github.com/meetio-theme/sublime-meetio-theme/commit/fd7ca7a))
+
+
+
+<a name="4.6.0"></a>
+# [4.6.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.5.6...v4.6.0) (2020-08-28)
+
+
+### Bug Fixes
+
+* border in status bar ([79d2499](https://github.com/meetio-theme/sublime-meetio-theme/commit/79d2499))
+* remove tint_index in input ([bc742e7](https://github.com/meetio-theme/sublime-meetio-theme/commit/bc742e7))
+* update schemes ([4f9f5be](https://github.com/meetio-theme/sublime-meetio-theme/commit/4f9f5be))
+
+
+### Features
+
+* add `meetio_high_contrast` option ([8a3cbde](https://github.com/meetio-theme/sublime-meetio-theme/commit/8a3cbde))
+* add `meetio_tab_navigation` option ([1ff6c36](https://github.com/meetio-theme/sublime-meetio-theme/commit/1ff6c36))
+* theme add link_color prop ([5312506](https://github.com/meetio-theme/sublime-meetio-theme/commit/5312506))
+
+
+
 <a name="4.6.0"></a>
 # [4.6.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.5.6...v4.6.0) (2020-08-28)
 
