@@ -20,7 +20,7 @@
         "invalid": "#d46c6c66",
         "diffAdded": "#addb67",
         "diffModified": "#e2b93d",
-        "diffDeleted": "#ef5350"
+        "diffDeleted": "#ef5350",
     },
     "globals": {
         "accent": "var(accent)",
