@@ -20,7 +20,7 @@
         "invalid": "#d46c6c66",
         "diffAdded": "#addb67",
         "diffModified": "#e2b93d",
-        "diffDeleted": "#ef5350",
+        "diffDeleted": "#ef5350"
     },
     "globals": {
         "accent": "var(accent)",
@@ -47,7 +47,7 @@
         "line_diff_modified": "var(diffModified)",
         "line_diff_width": "2",
         "line_highlight": "color(var(foreground) alpha(0.1))",
-        "misspelling": "var(red)",
+        "misspelling": "var(blue)",
         "selection": "color(var(foreground) alpha(0.10))",
         "selection_border": "var(cyan)",
         "selection_corner_radius": "cut",
