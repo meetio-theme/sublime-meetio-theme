@@ -252,6 +252,53 @@
             }
         },
         {
+            "class": "button_control",
+            "layer0.tint": "var(buttonBackground)",
+            "layer0.opacity": {
+                "target": 0.6,
+                "speed": 4,
+                "interpolation": "smoothstep"
+            },
+            "layer0.inner_margin": [
+                6,
+                6
+            ],
+            "content_margin": [
+                6,
+                10,
+                6,
+                10
+            ],
+            "min_size": "var(buttonMinSize)"
+        },
+        {
+            "class": "button_control",
+            "attributes": [
+                "hover"
+            ],
+            "layer0.tint": "var(buttonBackgroundHover)",
+            "layer0.opacity": 1
+        },
+        {
+            "class": "button_control",
+            "attributes": [
+                "pressed"
+            ],
+            "layer0.opacity": {
+                "target": 0.1,
+                "speed": 4,
+                "interpolation": "smoothstep"
+            }
+        },
+        {
+            "class": "dialog",
+            "layer0.tint": [
+                "background",
+                0.94
+            ],
+            "layer0.opacity": 1
+        },
+        {
             "class": "popup_control",
             "layer0.tint": [
                 "background",
@@ -349,51 +396,9 @@
             ]
         },
         {
-            "class": "button_control",
-            "layer0.tint": "var(buttonBackground)",
-            "layer0.opacity": {
-                "target": 0.6,
-                "speed": 4,
-                "interpolation": "smoothstep"
-            },
-            "layer0.inner_margin": [
-                6,
-                6
-            ],
-            "content_margin": [
-                6,
-                10,
-                6,
-                10
-            ],
-            "min_size": "var(buttonMinSize)"
-        },
-        {
-            "class": "button_control",
-            "attributes": [
-                "hover"
-            ],
-            "layer0.tint": "var(buttonBackgroundHover)",
-            "layer0.opacity": 1
-        },
-        {
-            "class": "button_control",
-            "attributes": [
-                "pressed"
-            ],
-            "layer0.opacity": {
-                "target": 0.1,
-                "speed": 4,
-                "interpolation": "smoothstep"
-            }
-        },
-        {
-            "class": "dialog",
-            "layer0.tint": [
-                "background",
-                0.94
-            ],
-            "layer0.opacity": 1
+            "class": "grid_layout_control",
+            "border_color": "var(gridLayoutBorderColor)",
+            "border_size": "var(gridLayoutBorderSize)"
         },
         {
             "class": "dropdown_button_control",
@@ -412,11 +417,6 @@
                 "hover"
             ],
             "layer0.opacity": 0.8
-        },
-        {
-            "class": "grid_layout_control",
-            "border_color": "var(gridLayoutBorderColor)",
-            "border_size": "var(gridLayoutBorderSize)"
         },
         {
             "class": "disclosure_button_control",
@@ -2047,6 +2047,17 @@
             "font.italic": false
         },
         {
+            "class": "symbol_container",
+            "content_margin": 4
+        },
+        {
+            "class": "symbol_container",
+            "platforms": [
+                "windows"
+            ],
+            "content_margin": 4
+        },
+        {
             "class": "status_bar",
             "layer0.opacity": 1,
             "layer0.tint": "var(statusbarBackground)",
@@ -2175,17 +2186,6 @@
             "font.size": "var(statusbarLabelFontSize)",
             "color": "var(statusbarLabelColor)",
             "font.bold": "var(statusbarLabelBold)"
-        },
-        {
-            "class": "symbol_container",
-            "content_margin": 4
-        },
-        {
-            "class": "symbol_container",
-            "platforms": [
-                "windows"
-            ],
-            "content_margin": 4
         },
         {
             "class": "tabset_control",

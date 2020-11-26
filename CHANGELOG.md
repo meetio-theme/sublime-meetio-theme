@@ -1,3 +1,24 @@
+<a name="4.8.1"></a>
+## [4.8.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.0...v4.8.1) (2020-11-26)
+
+
+### Bug Fixes
+
+* theme ([1d3938c](https://github.com/meetio-theme/sublime-meetio-theme/commit/1d3938c))
+
+
+
+<a name="4.8.0"></a>
+# [4.8.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.7.0...v4.8.0) (2020-11-26)
+
+
+### Bug Fixes
+
+* property ([ed2adb1](https://github.com/meetio-theme/sublime-meetio-theme/commit/ed2adb1))
+* update color of `misspelling` ([308820c](https://github.com/meetio-theme/sublime-meetio-theme/commit/308820c))
+
+
+
 <a name="4.8.0"></a>
 # [4.8.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.7.0...v4.8.0) (2020-11-26)
 
