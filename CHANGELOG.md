@@ -1,3 +1,24 @@
+<a name="4.9.0"></a>
+# [4.9.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v4.9.0) (2020-12-15)
+
+
+### Bug Fixes
+
+* remove `meetio_tab_navigation` use `enable_tab_scrolling` instead ([c778995](https://github.com/meetio-theme/sublime-meetio-theme/commit/c778995))
+* revert features from ST4000 ([7c1ce7f](https://github.com/meetio-theme/sublime-meetio-theme/commit/7c1ce7f))
+
+
+
+<a name="4.8.1"></a>
+## [4.8.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.0...v4.8.1) (2020-11-26)
+
+
+### Bug Fixes
+
+* theme ([1d3938c](https://github.com/meetio-theme/sublime-meetio-theme/commit/1d3938c))
+
+
+
 <a name="4.8.1"></a>
 ## [4.8.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.0...v4.8.1) (2020-11-26)
 
