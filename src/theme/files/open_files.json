@@ -1,7 +1,7 @@
 [
     {
         "class": "close_button",
-        "layer0.texture": "Meetio Theme/textures/actions/icon_close.png",
+        "layer0.texture": "Meetio Theme/textures/actions/close.png",
         "layer0.tint": "var(colorAccent)",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [3, 3],

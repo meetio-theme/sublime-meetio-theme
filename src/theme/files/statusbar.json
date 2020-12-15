@@ -25,7 +25,7 @@
     },
     {
         "class": "panel_button_control",
-        "layer0.texture": "Meetio Theme/textures/actions/overflow_menu.png",
+        "layer0.texture": "Meetio Theme/textures/actions/more.png",
         "layer0.tint": "var(statusbarIconColor)",
         "layer0.opacity": 1,
         "content_margin": 9,
