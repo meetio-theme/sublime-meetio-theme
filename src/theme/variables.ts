@@ -6,8 +6,6 @@ export const variables = {
     fontSizeLg: 14,
     fontSizeHuge: 24,
     fontFace: 'system',
-    kindFontFace: 'monospace',
-    kindFontSize: 'var(fontSizeLg)',
     buttonBackground: ['background', 0.5],
     buttonBackgroundHover: 'color(var(colorAccent) a(0.2))',
     buttonMinSize: [80, 28],

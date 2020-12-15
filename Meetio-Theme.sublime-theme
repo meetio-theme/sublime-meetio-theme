@@ -11,8 +11,6 @@
         "fontSizeLg": 14,
         "fontSizeHuge": 24,
         "fontFace": "system",
-        "kindFontFace": "monospace",
-        "kindFontSize": "var(fontSizeLg)",
         "buttonBackground": [
             "background",
             0.5

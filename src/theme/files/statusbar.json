@@ -58,19 +58,6 @@
         "layer0.opacity": 0.8
     },
     {
-        "class": "sidebar_button_control",
-        "layer0.texture": "Meetio Theme/textures/actions/sidebar_button.png",
-        "content_margin": 8,
-        "layer0.tint": "var(statusbarIconColor)",
-        "layer0.inner_margin": 2,
-        "layer0.opacity": 1
-    },
-    {
-        "class": "sidebar_button_control",
-        "attributes": ["hover"],
-        "layer0.opacity": 0.8
-    },
-    {
         "class": "status_container",
         "content_margin": [8, 0, 0, 0]
     },

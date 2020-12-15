@@ -60,8 +60,7 @@
         "fg": "var(panelPathRowColor)",
         "match_fg": "var(panelRowMatchColor)",
         "selected_fg": "var(panelRowSelectedColor)",
-        "selected_match_fg": "var(panelRowSelectedMatchColor)",
-        "link_color": "var(colorAccent)"
+        "selected_match_fg": "var(panelRowSelectedMatchColor)"
     },
     {
         "class": "quick_panel_label hint",
