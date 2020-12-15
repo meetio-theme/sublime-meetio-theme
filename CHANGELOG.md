@@ -1,3 +1,29 @@
+<a name="4.10.0"></a>
+# [4.10.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v4.10.0) (2020-12-15)
+
+
+### Bug Fixes
+
+* remove `meetio_tab_navigation` use `enable_tab_scrolling` instead ([17cec1d](https://github.com/meetio-theme/sublime-meetio-theme/commit/17cec1d))
+* title bar flick when change scheme ([918c864](https://github.com/meetio-theme/sublime-meetio-theme/commit/918c864))
+
+
+### Features
+
+* add support for `themed_title_bar` ([3a521f0](https://github.com/meetio-theme/sublime-meetio-theme/commit/3a521f0))
+
+
+
+<a name="4.8.1"></a>
+## [4.8.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.0...v4.8.1) (2020-11-26)
+
+
+### Bug Fixes
+
+* theme ([1d3938c](https://github.com/meetio-theme/sublime-meetio-theme/commit/1d3938c))
+
+
+
 <a name="4.9.0"></a>
 # [4.9.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v4.9.0) (2020-12-15)
 
