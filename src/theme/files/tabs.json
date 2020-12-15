@@ -171,8 +171,7 @@
             "speed": 4.0,
             "interpolation": "smoothstep"
         },
-        "content_margin": [10, 10],
-        "settings": ["meetio_tab_navigation"]
+        "content_margin": [10, 10]
     },
     {
         "class": "scroll_tabs_left_button",
@@ -192,8 +191,7 @@
             "speed": 4.0,
             "interpolation": "smoothstep"
         },
-        "content_margin": [10, 10],
-        "settings": ["meetio_tab_navigation"]
+        "content_margin": [10, 10]
     },
     {
         "class": "scroll_tabs_right_button",
@@ -203,16 +201,6 @@
             "speed": 4.0,
             "interpolation": "smoothstep"
         }
-    },
-    {
-        "class": "scroll_tabs_left_button",
-        "settings": ["!meetio_tab_navigation"],
-        "content_margin": 0
-    },
-    {
-        "class": "scroll_tabs_right_button",
-        "settings": ["!meetio_tab_navigation"],
-        "content_margin": 0
     },
     {
         "class": "show_tabs_dropdown_button",
