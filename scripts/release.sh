@@ -10,7 +10,7 @@ then
   npm run lint
 
   npm run build
-  # generate the version so that the CHANGELOG can be generated too
+  # GENERATE THE VERSION SO THAT THE CHANGELOG CAN BE GENERATED TOO
   npm version --no-git-tag-version --no-commit-hooks --new-version $VERSION
 
   # CHANGELOG
