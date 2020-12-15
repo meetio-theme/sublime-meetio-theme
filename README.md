@@ -65,7 +65,6 @@ This theme provide a visual configuration tool that allow you to configure the t
   // Tabs
   "meetio_tabs_diff_icon": true, // show icon diff in tab.
   "meetio_tabs_diff_pencil_icon": false, // show diff pencil icon in tab.
-  "meetio_tab_navigation": true, // show tab navigation buttons left and right.
 
   // Sidebar
   "meetio_icon_folder": false, // replace colorful folder to a flat icon folder.
@@ -111,6 +110,7 @@ To enjoy a better experience of using the **Meetio Theme** in your Sublime Text,
 {
     "font_face": "Fira Code",
     "highlight_line": true,
+    "enable_tab_scrolling": true,
     "font_options": ["gray_antialias", "subpixel_antialias"], // On retina Mac & Windows
     "indent_guide_options": ["draw_normal", "draw_active"], // Highlight active indent
     "margin": 20,

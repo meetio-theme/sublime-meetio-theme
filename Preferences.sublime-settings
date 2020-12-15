@@ -3,8 +3,6 @@
   "meetio_tabs_diff_icon": true,
   // Show diff pencil icon in tab.
   "meetio_tabs_diff_pencil_icon": true,
-  // show tab navigation buttons left and right.
-  "meetio_tab_navigation": true,
 
   // option increases the contrast between the editor.
   "meetio_high_contrast": false,
