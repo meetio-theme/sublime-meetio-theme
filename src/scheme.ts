@@ -1,49 +1,40 @@
-import {
-    generateScheme,
-    ISchemeSetting,
-    IRules,
-    IColors,
-} from '@meetio/scheme-generator';
+import { generateScheme, ISchemeSetting } from '@meetio/scheme-generator';
 
-import { light, dark } from '@meetio/meetio-colors';
-import { customeRules } from './rules/customeRules';
+import { lighter, darker, palenight } from './settings';
 
 interface IScheme {
     name: string;
     author: string;
-    variables: IColors;
-    customeRules: Array<IRules>;
+    variables: ISchemeSetting;
 }
 
 [
     {
-        name: 'Meetio Dark',
+        name: 'Meetio Lighter',
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
-        variables: dark,
-        customeRules
+        variables: lighter,
     },
     {
-        name: 'Meetio Light',
+        name: 'Meetio Darker',
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
-        variables: light,
-        customeRules
+        variables: darker,
     },
-].map((item: IScheme) => {
-    const { variables, customeRules } = item;
-    const settings: ISchemeSetting = {
-        colors: {
-            accent: "#80CBC4",
-            ...variables
-        },
-        rules: customeRules,
-        ui: {
-            accent: 'var(accent)',
-            bracket_contents_options: 'underline',
-            brackets_options: 'underline',
-            gutter_foreground_highlight: 'var(foreground)',
-            scroll_highlight: 'var(yellow)',
-            scroll_selected_highlight: 'var(cyan)'
-        },
-    };
-    generateScheme(item.name, item.author, item.name, settings, 'schemes');
+    {
+        name: 'Meetio Palenight',
+        author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
+        variables: palenight,
+    },
+].map((scheme: IScheme) => {
+    const { colors, rules, ui } = scheme.variables;
+
+    generateScheme({
+        name: scheme.name,
+        author: scheme.author,
+        schemeName :scheme.name,
+        settings: {
+            colors,
+            rules,
+            ui,
+        }
+    });
 });
