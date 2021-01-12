@@ -1,6 +1,6 @@
 import { IRules } from '@meetio/scheme-generator';
 
-export const customeRules: Array<IRules> = [
+export const rules: Array<IRules> = [
     {
         name: 'PYTHON - Parameters Annotation ',
         scope: [
