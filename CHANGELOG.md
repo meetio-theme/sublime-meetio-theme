@@ -1,3 +1,23 @@
+# [5.0.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.11.1...v5.0.0) (2021-01-12)
+
+
+
+## [4.11.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v4.11.1) (2021-01-03)
+
+
+### Bug Fixes
+
+* `themed_title_bar` setting color in light version ([a6b17dc](https://github.com/meetio-theme/sublime-meetio-theme/commit/a6b17dceb9ef94f251b6432fe8b7415464e1e330))
+* remove `meetio_tab_navigation` use `enable_tab_scrolling` instead ([17cec1d](https://github.com/meetio-theme/sublime-meetio-theme/commit/17cec1d610a3e36490b38b141531a5cb23f53e0e))
+* title bar flick when change scheme ([918c864](https://github.com/meetio-theme/sublime-meetio-theme/commit/918c8649a23369baa7ebe4b9c28a23aa401dd0bc))
+
+
+### Features
+
+* add support for `themed_title_bar` ([3a521f0](https://github.com/meetio-theme/sublime-meetio-theme/commit/3a521f03bc58ff3f50ec085f2b49053fbff4cd8c))
+
+
+
 <a name="4.11.1"></a>
 ## [4.11.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v4.11.1) (2021-01-03)
 
