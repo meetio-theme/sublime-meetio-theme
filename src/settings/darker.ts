@@ -5,7 +5,7 @@ export default {
     colors: darker,
     ui: {
         tags_options: 'underline',
-        brackets_options: 'underline',
+        brackets_options: 'underline, glow',
         line_highlight: '#00000040',
         selection: '#61616150',
         gutter_foreground: '#424242',
