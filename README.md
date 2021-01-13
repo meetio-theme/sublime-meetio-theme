@@ -48,7 +48,7 @@ Manually you can go to (**Preferences > Settings - User**) and paste the followi
 
 ```json
 {
-    "color_scheme": "Packages/Meetio Theme/schemes/Meetio-Theme-Light.sublime-color-scheme",
+    "color_scheme": "Packages/Meetio Theme/schemes/Meetio Darker.sublime-color-scheme",
     "theme": "Meetio-Theme.sublime-theme"
 }
 ```
@@ -67,7 +67,6 @@ This theme provide a visual configuration tool that allow you to configure the t
   "meetio_tabs_diff_pencil_icon": false, // show diff pencil icon in tab.
 
   // Sidebar
-  "meetio_icon_folder": false, // replace colorful folder to a flat icon folder.
   "meetio_sidebar_disclosure": false, // set disclosure tree controls.
 
   // Global
