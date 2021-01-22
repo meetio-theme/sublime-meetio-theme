@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/github/release/meetio-theme/sublime-meetio-theme.svg?style=for-the-badge"/>
     </a>
     <a href="" title="Sublime Version">
-        <img src="https://img.shields.io/badge/built_for_sublimetext-3179-e79330?style=for-the-badge&logo=sublime-text"/>
+        <img src="https://img.shields.io/badge/built_for_sublimetext-4070-e79330?style=for-the-badge&logo=sublime-text"/>
     </a>
     <a href="https://packagecontrol.io/packages/Meetio%20Theme" title="Package Control">
         <img src="https://img.shields.io/packagecontrol/dt/Meetio%20Theme?style=for-the-badge"/>
