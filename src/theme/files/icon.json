@@ -17,7 +17,7 @@
     },
     {
         "class": "icon_regex",
-        "layer0.texture": "Meetio Theme/textures/find/icon_regex.png",
+        "layer0.texture": "Meetio Theme/textures/find/regex.png",
         "layer0.tint": "var(buttonIconFileColor)",
         "layer0.opacity": {
             "target": 0.5,
@@ -45,7 +45,7 @@
     },
     {
         "class": "icon_case",
-        "layer0.texture": "Meetio Theme/textures/find/icon_case_sensitive.png",
+        "layer0.texture": "Meetio Theme/textures/find/case_sensitive.png",
         "layer0.tint": "var(buttonIconFileColor)",
         "layer0.opacity": {
             "target": 0.5,
@@ -73,7 +73,7 @@
     },
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Meetio Theme/textures/find/icon_whole_word.png",
+        "layer0.texture": "Meetio Theme/textures/find/whole_word.png",
         "layer0.tint": "var(buttonIconFileColor)",
         "layer0.opacity": {
             "target": 0.5,
@@ -101,7 +101,7 @@
     },
     {
         "class": "icon_wrap",
-        "layer0.texture": "Meetio Theme/textures/find/icon_wrap.png",
+        "layer0.texture": "Meetio Theme/textures/find/wrap.png",
         "layer0.tint": "var(buttonIconFileColor)",
         "layer0.opacity": {
             "target": 0.5,
@@ -129,7 +129,7 @@
     },
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Meetio Theme/textures/find/icon_in_selection.png",
+        "layer0.texture": "Meetio Theme/textures/find/in_selection.png",
         "layer0.tint": "var(buttonIconFileColor)",
         "layer0.opacity": {
             "target": 0.5,
@@ -157,7 +157,7 @@
     },
     {
         "class": "icon_highlight",
-        "layer0.texture": "Meetio Theme/textures/find/icon_highlight_matches.png",
+        "layer0.texture": "Meetio Theme/textures/find/highlight_matches.png",
         "layer0.tint": "var(buttonIconFileColor)",
         "layer0.opacity": {
             "target": 0.5,
@@ -185,7 +185,7 @@
     },
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Meetio Theme/textures/find/icon_preserve_case.png",
+        "layer0.texture": "Meetio Theme/textures/find/preserve_case.png",
         "layer0.tint": "var(buttonIconFileColor)",
         "layer0.opacity": {
             "target": 0.5,
@@ -213,7 +213,7 @@
     },
     {
         "class": "icon_context",
-        "layer0.texture": "Meetio Theme/textures/find/icon_in_context.png",
+        "layer0.texture": "Meetio Theme/textures/find/in_context.png",
         "layer0.tint": "var(buttonIconFileColor)",
         "layer0.opacity": {
             "target": 0.5,
@@ -241,7 +241,7 @@
     },
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Meetio Theme/textures/find/icon_use_buffer.png",
+        "layer0.texture": "Meetio Theme/textures/find/use_buffer.png",
         "layer0.tint": "var(buttonIconFileColor)",
         "layer0.opacity": {
             "target": 0.5,
@@ -269,7 +269,7 @@
     },
     {
         "class": "icon_use_gitignore",
-        "layer0.texture": "Meetio Theme/textures/find/icon_use_gitignore.png",
+        "layer0.texture": "Meetio Theme/textures/find/use_gitignore.png",
         "layer0.tint": "var(buttonIconFileColor)",
         "layer0.opacity": {
             "target": 0.5,
