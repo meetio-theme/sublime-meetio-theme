@@ -123,7 +123,7 @@
         "layer0.tint": "var(tabCloseHoverColor)",
         "layer0.opacity": {
             "target": 1.0,
-            "speed": 4.0,
+            "speed": 5.0,
             "interpolation": "smoothstep"
         },
         "layer1.opacity": 0
@@ -174,7 +174,7 @@
         "layer0.tint": "var(tabNavigationColor)",
         "layer0.opacity": {
             "target": 0.5,
-            "speed": 4.0,
+            "speed": 5.0,
             "interpolation": "smoothstep"
         },
         "content_margin": [10, 10]
@@ -184,7 +184,7 @@
         "attributes": ["hover"],
         "layer0.opacity": {
             "target": 1,
-            "speed": 4.0,
+            "speed": 5.0,
             "interpolation": "smoothstep"
         }
     },
@@ -194,7 +194,7 @@
         "layer0.tint": "var(tabNavigationColor)",
         "layer0.opacity": {
             "target": 0.5,
-            "speed": 4.0,
+            "speed": 5.0,
             "interpolation": "smoothstep"
         },
         "content_margin": [10, 10]
@@ -204,7 +204,38 @@
         "attributes": ["hover"],
         "layer0.opacity": {
             "target": 1,
-            "speed": 4.0,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        }
+    },
+    {
+        "class": "new_tab_button",
+        "layer0.texture": "Meetio Theme/textures/actions/add.png",
+        "layer0.opacity": {
+            "target": 0.5,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        },
+        "layer0.tint": "var(tabMoreColor)",
+        "layer0.inner_margin": 0,
+        "content_margin": [10, 10]
+    },
+    {
+        "class": "new_tab_button",
+        "settings": ["!enable_tab_scrolling"],
+        "content_margin": [10, 10]
+    },
+    {
+        "class": "new_tab_button",
+        "settings": ["hide_new_tab_button"],
+        "content_margin": 0
+    },
+    {
+        "class": "new_tab_button",
+        "attributes": ["hover"],
+        "layer0.opacity": {
+            "target": 1.0,
+            "speed": 5.0,
             "interpolation": "smoothstep"
         }
     },
@@ -212,13 +243,21 @@
         "class": "show_tabs_dropdown_button",
         "layer0.texture": "Meetio Theme/textures/actions/more.png",
         "layer0.tint": "var(tabMoreColor)",
-        "layer0.opacity": 0.5,
+        "layer0.opacity": {
+            "target": 0.5,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        },
         "content_margin": [10, 10],
         "layer0.inner_margin": 0
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.opacity": 1.0
+        "layer0.opacity": {
+            "target": 1.0,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        }
     }
 ]
