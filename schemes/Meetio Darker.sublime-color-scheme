@@ -33,7 +33,7 @@
         "bracket_contents_foreground": "var(yellow)",
         "bracket_contents_options": "underline",
         "brackets_foreground": "var(cyan)",
-        "brackets_options": "underline, glow",
+        "brackets_options": "underline glow",
         "caret": "var(cursor)",
         "find_highlight": "#FFCC00",
         "find_highlight_foreground": "var(background)",

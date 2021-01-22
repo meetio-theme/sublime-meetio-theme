@@ -56,6 +56,12 @@
         "tint_index": 1
     },
     {
+        "class": "tab_control",
+        "settings": ["show_tab_close_buttons_on_left"],
+        "close_button_side": "left",
+        "content_margin": [8, 8]
+    },
+    {
         "class": "tab_label",
         "font.face": "var(fontFace)",
         "font.size": "var(tabFontSize)",
