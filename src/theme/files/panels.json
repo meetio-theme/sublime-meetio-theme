@@ -35,14 +35,21 @@
     {
         "class": "panel_close_button",
         "layer0.texture": "Meetio Theme/textures/actions/close.png",
-        "layer0.tint": "var(colorAccent)",
         "layer0.opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
-        "layer1.opacity": 0,
-        "content_margin": [0, 0]
+        "layer0.tint": "var(colorAccent)",
+        "settings": ["meetio_panel_close_button"],
+        "layer0.inner_margin": [3, 3],
+        "content_margin": [8, 8]
     },
     {
         "class": "panel_close_button",
         "attributes": ["hover"],
-        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" }
+        "layer0.opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "panel_close_button",
+        "settings": ["!meetio_panel_close_button"],
+        "layer0.inner_margin": 0,
+        "content_margin": 0
     }
 ]
