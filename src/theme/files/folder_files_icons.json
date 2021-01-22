@@ -3,7 +3,11 @@
         "class": "disclosure_button_control",
         "layer0.texture": "Meetio Theme/textures/disclosure.png",
         "layer0.tint": ["foreground", 0.6],
-        "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
+        "layer0.opacity": {
+            "target": 0.3,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        },
         "content_margin": [0, 0, 0, 0]
     },
     {
@@ -15,7 +19,11 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["hover"],
-        "layer0.opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" }
+        "layer0.opacity": {
+            "target": 0.5,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        }
     },
     {
         "class": "disclosure_button_control",
@@ -47,10 +55,8 @@
     },
     {
         "class": "icon_folder_loading",
-        "layer0.texture":
-        {
-            "keyframes":
-            [
+        "layer0.texture": {
+            "keyframes": [
                 "Meetio Theme/textures/spinner11.png",
                 "Meetio Theme/textures/spinner10.png",
                 "Meetio Theme/textures/spinner9.png",
@@ -78,12 +84,12 @@
     },
     {
         "class": "icon_file_type",
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
         "layer0.opacity": 1
     },
     {
         "class": "icon_file_type",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
         "layer0.opacity": 1
     }
 ]

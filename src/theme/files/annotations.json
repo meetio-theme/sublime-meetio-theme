@@ -4,11 +4,19 @@
         "content_margin": 8,
         "layer0.texture": "Meetio Theme/textures/actions/close.png",
         "layer0.tint": "var(colorAccent)",
-        "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" }
+        "layer0.opacity": {
+            "target": 0.5,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        }
     },
     {
         "class": "annotation_close_button",
         "attributes": ["hover"],
-        "layer0.opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" }
+        "layer0.opacity": {
+            "target": 1.0,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        }
     }
 ]

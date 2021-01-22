@@ -4,7 +4,7 @@
         "layer0.tint": "var(buttonBackground)",
         "layer0.opacity": {
             "target": 0.6,
-            "speed": 4.0,
+            "speed": 5.0,
             "interpolation": "smoothstep"
         },
         "layer0.inner_margin": [6, 6],
@@ -22,7 +22,7 @@
         "attributes": ["pressed"],
         "layer0.opacity": {
             "target": 0.1,
-            "speed": 4.0,
+            "speed": 5.0,
             "interpolation": "smoothstep"
         }
     }
