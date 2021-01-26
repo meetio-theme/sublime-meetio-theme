@@ -33,7 +33,7 @@
     },
     {
         "class": "icon_folder",
-        "layer0.texture": "Meetio Theme/textures/folder_closed.png",
+        "layer0.texture": "Meetio Theme/textures/tree/folder_closed.png",
         "layer0.tint": "var(sidebarIconFolderColor)",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
@@ -41,14 +41,14 @@
     {
         "class": "icon_folder",
         "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
-        "layer0.texture": "Meetio Theme/textures/folder_open.png",
+        "layer0.texture": "Meetio Theme/textures/tree/folder_open.png",
         "layer0.tint": "var(sidebarIconFolderExpandedColor)",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_folder_dup",
-        "layer0.texture": "Meetio Theme/textures/folder_dup.png",
+        "layer0.texture": "Meetio Theme/textures/tree/folder_dup.png",
         "layer0.tint": "var(sidebarIconFolderColor)",
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]

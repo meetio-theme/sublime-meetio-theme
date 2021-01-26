@@ -1,9 +1,11 @@
+/* eslint-disable no-undef */
 import * as path from 'path';
 import * as fs from 'fs';
-import glob from 'glob';
 import svg2img from 'svg2img';
-
 import buildIconsType from '@meetio/meetio-icons';
+import { icons, IOptions } from './icons/index';
+
+import { success, error } from './utils';
 
 export interface ISettings {
     size: number;
@@ -11,52 +13,37 @@ export interface ISettings {
     fill?: string;
 }
 
-const defaultOptions: ISettings[] = [
-    {
-        size: 24,
-        suffix: false
-    },
-    {
-        size: 48,
-        suffix: '@2x'
-    },
-    {
-        size: 72,
-        suffix: '@3x'
-    },
-];
-
-glob('./src/icons/**/*.svg', function (_: Error, files: string[]) {
-    files.forEach((icon: string) => {
-        // eslint-disable-next-line no-undef
-        const iconPath = path.join(__dirname, `../${icon}`);
-        icon = iconPath.replace('.svg', '').replace('src/icons', 'textures');
-        const distFolder = icon
-            .split('/')
-            .slice(0, -1)
-            .join('/');
-
-        fs.readFile(iconPath, 'utf8', (err: any, data: any) => {
+icons.forEach((files: IOptions) => {
+    files.icons.forEach((icon) => {
+        const srcFolder = path.join(
+            __dirname,
+            `icons/${files.folder}/${icon.name}.svg`
+        );
+        const distFolder = path.join(__dirname, `../textures/${files.folder}`);
+        fs.readFile(srcFolder, 'utf8', (err: any, data: any) => {
             if (err) throw err;
             // eslint-disable-next-line no-undef
             data = Buffer.from(data, 'utf8');
-            defaultOptions.forEach((setting: ISettings) => {
-                const { size, suffix } = setting;
-                fs.mkdir(distFolder, function() {
-                    svg2img(
-                        data,
-                        { width: size, height: size },
-                        (_: any, buffer: any) => {
+            icon.settings.forEach((setting) => {
+                const { width, height, suffix } = setting;
+                fs.mkdir(distFolder, function () {
+                    svg2img(data, { width, height }, (_: any, buffer: any) => {
+                        try {
                             fs.writeFileSync(
-                                `${suffix ? icon + suffix : icon}.png`,
+                                `${distFolder}/${
+                                    suffix ? icon.name + suffix : icon.name
+                                }.png`,
                                 buffer
                             );
+                            success(icon.name, distFolder);
+                        } catch (e) {
+                            error(e);
                         }
-                    );
+                    });
                 });
             });
         });
-    })
+    });
 });
 
 buildIconsType();
