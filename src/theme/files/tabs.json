@@ -241,8 +241,8 @@
             "speed": 5.0,
             "interpolation": "smoothstep"
         },
-        "layer0.inner_margin": [21, 0, 1, 0],
-        "content_margin": [12, 12]
+        "layer0.inner_margin": [21, 0, 0, 0],
+        "content_margin": [12, 12, 10, 12]
     },
     {
         "class": "new_tab_button",
@@ -272,8 +272,7 @@
             "speed": 5.0,
             "interpolation": "smoothstep"
         },
-        "content_margin": [15, 12],
-        "layer0.inner_margin": 0
+        "content_margin": [15, 12]
     },
     {
         "class": "show_tabs_dropdown_button",
