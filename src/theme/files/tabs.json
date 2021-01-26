@@ -272,7 +272,7 @@
             "speed": 5.0,
             "interpolation": "smoothstep"
         },
-        "content_margin": [10, 10],
+        "content_margin": [15, 12],
         "layer0.inner_margin": 0
     },
     {

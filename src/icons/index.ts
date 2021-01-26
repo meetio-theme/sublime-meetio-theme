@@ -2,6 +2,7 @@ export interface ISetting {
     width: number;
     height: number;
     suffix: string | boolean;
+    preserveAspectRatio?: boolean | string;
 }
 
 export interface IIcon {
@@ -15,9 +16,9 @@ export interface IOptions {
 }
 
 const defaultSettings: ISetting[] = [
-    { width: 24, height: 24, suffix: false },
-    { width: 48, height: 48, suffix: '@2x' },
-    { width: 72, height: 72, suffix: '@3x' },
+    { width: 24, height: 24, suffix: false, preserveAspectRatio: true },
+    { width: 48, height: 48, suffix: '@2x', preserveAspectRatio: true },
+    { width: 72, height: 72, suffix: '@3x', preserveAspectRatio: true },
 ];
 
 export const icons: IOptions[] = [
@@ -38,11 +39,58 @@ export const icons: IOptions[] = [
             },
             {
                 name: 'more',
-                settings: defaultSettings,
+                settings: [
+                    {
+                        width: 52,
+                        height: 48,
+                        suffix: false,
+                        preserveAspectRatio: 'xMinYMid meet',
+                    },
+                    {
+                        width: 104,
+                        height: 96,
+                        suffix: '@2x',
+                        preserveAspectRatio: 'xMinYMid meet',
+                    },
+                    {
+                        width: 156,
+                        height: 144,
+                        suffix: '@3x',
+                        preserveAspectRatio: 'xMinYMid meet',
+                    },
+                ],
             },
             {
                 name: 'sidebar',
                 settings: defaultSettings,
+            },
+        ],
+    },
+    {
+        folder: 'input',
+        icons: [
+            {
+                name: 'search',
+                settings: [
+                    {
+                        width: 52,
+                        height: 48,
+                        suffix: false,
+                        preserveAspectRatio: 'xMinYMid meet',
+                    },
+                    {
+                        width: 104,
+                        height: 96,
+                        suffix: '@2x',
+                        preserveAspectRatio: 'xMinYMid meet',
+                    },
+                    {
+                        width: 156,
+                        height: 144,
+                        suffix: '@3x',
+                        preserveAspectRatio: 'xMinYMid meet',
+                    },
+                ],
             },
         ],
     },

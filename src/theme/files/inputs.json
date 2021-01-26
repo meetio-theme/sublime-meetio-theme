@@ -25,7 +25,7 @@
         "layer1.opacity": 0,
         "layer2.inner_margin": [52, 48, 0, 0],
         "layer2.draw_center": false,
-        "layer2.texture": "Meetio Theme/textures/inputs/icon_search.png",
+        "layer2.texture": "Meetio Theme/textures/input/search.png",
         "layer2.tint": "var(colorAccent)",
         "layer2.opacity": 1,
         "settings": ["meetio_input_search_icon"]
@@ -43,7 +43,7 @@
         "parents": [{ "class": "switch_project_window" }],
         "layer2.inner_margin": [52, 48, 0, 0],
         "layer2.draw_center": false,
-        "layer2.texture": "Meetio Theme/textures/inputs/icon_search.png",
+        "layer2.texture": "Meetio Theme/textures/input/search.png",
         "layer2.tint": "var(colorAccent)",
         "layer2.opacity": 1,
         "layer1.opacity": 0,
