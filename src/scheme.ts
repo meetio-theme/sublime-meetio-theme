@@ -1,6 +1,6 @@
 import { generateScheme, ISchemeSetting } from '@meetio/scheme-generator';
 
-import { lighter, darker, palenight } from './settings';
+import { lighter, darker, palenight, deepocean } from './settings';
 
 interface IScheme {
     name: string;
@@ -23,6 +23,11 @@ interface IScheme {
         name: 'Meetio Palenight',
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
         variables: palenight,
+    },
+    {
+        name: 'Meetio Deepocean',
+        author: 'Terminal <https://github.com/TheSecEng>',
+        variables: deepocean,
     },
 ].map((scheme: IScheme) => {
     const { colors, rules, ui } = scheme.variables;
