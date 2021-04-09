@@ -1,3 +1,28 @@
+# [5.2.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v5.0.0...v5.2.0) (2021-04-09)
+
+
+### Bug Fixes
+
+* cursor color in `Meetio Lighter` ([e134a93](https://github.com/meetio-theme/sublime-meetio-theme/commit/e134a93ea2d7b1c470ab024e0bf3f4d9219b442d))
+
+
+### Features
+
+* add `meetio_panel_close_button` setting to show/hide button close on "Find" panel ([639ade9](https://github.com/meetio-theme/sublime-meetio-theme/commit/639ade98a45152bc337b63d15adb1ca8bb4b308f))
+* add icon for `new_tab_button` ([18d445a](https://github.com/meetio-theme/sublime-meetio-theme/commit/18d445a152e4de2e1e794c9af60bff6a2c9cc5c6))
+* add new scheme color `Meetio Deepocean` ([51423ce](https://github.com/meetio-theme/sublime-meetio-theme/commit/51423cea6a224777db19c40a6d15e944ac6a8259))
+* add support for `inactive_sheet_dimming ([52ad893](https://github.com/meetio-theme/sublime-meetio-theme/commit/52ad8932092b91be1c82e09561379372f8ef42f3))
+* add support for `show_tab_close_buttons_on_left` ([bbfdaed](https://github.com/meetio-theme/sublime-meetio-theme/commit/bbfdaed68dcb79b5ebfdb4a25119b112330567a8))
+* added opacity with small transition ([11d0ec4](https://github.com/meetio-theme/sublime-meetio-theme/commit/11d0ec4517ea2280c4ac5a99a6f9876dc12f9baf))
+* update icon for preserve_case ([bf891a6](https://github.com/meetio-theme/sublime-meetio-theme/commit/bf891a6c24ce50f6c2143d328b98553847f0104f))
+* update icon more and search ([8f8c449](https://github.com/meetio-theme/sublime-meetio-theme/commit/8f8c44926134dc7fed20c7a3c8355525ee22afce))
+
+
+
+# [5.0.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.11.1...v5.0.0) (2021-01-12)
+
+
+
 # [5.1.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v5.0.0...v5.1.0) (2021-01-22)
 
 
