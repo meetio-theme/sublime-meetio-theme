@@ -1,3 +1,28 @@
+# [5.1.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v5.1.0) (2021-04-09)
+
+
+### Bug Fixes
+
+* cursor color in `Meetio Lighter` ([8129eff](https://github.com/meetio-theme/sublime-meetio-theme/commit/8129eff41a550363231af6bbc74ccd1d58051a61))
+* remove `meetio_tab_navigation` use `enable_tab_scrolling` instead ([c778995](https://github.com/meetio-theme/sublime-meetio-theme/commit/c7789959b2526fd4b1c259d602c4d9a56d9e168f))
+* revert features from ST4000 ([7c1ce7f](https://github.com/meetio-theme/sublime-meetio-theme/commit/7c1ce7f4dd0318f656d69587b3289fb0a846736c))
+
+
+### Features
+
+* add new scheme color `Meetio Deepocean` ([2296377](https://github.com/meetio-theme/sublime-meetio-theme/commit/2296377a27b6b27dad5c2915472c55bd09c49e51))
+
+
+
+## [4.8.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.0...v4.8.1) (2020-11-26)
+
+
+### Bug Fixes
+
+* theme ([1d3938c](https://github.com/meetio-theme/sublime-meetio-theme/commit/1d3938cb9299a1aa7e108ef803e5acfb1ad328e0))
+
+
+
 # [5.0.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v5.0.0) (2021-01-12)
 
 
