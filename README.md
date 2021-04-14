@@ -66,17 +66,17 @@ This theme provide a visual configuration tool that allow you to configure the t
   "meetio_tabs_diff_icon": true, // show icon diff in tab.
   "meetio_tabs_diff_pencil_icon": false, // show diff pencil icon in tab.
 
-  // Sidebar
-  "meetio_sidebar_disclosure": false, // set disclosure tree controls.
-
   // Global
   "meetio_high_contrast": false, // increases the contrast between the editor.
 
-  // Panels
+  // Sidebar
+  "meetio_sidebar_disclosure": false, // set disclosure tree controls.
+
+  // Command Palette
   "meetio_input_search_icon": true, // show icon search in inputs.
 
-  // Status bar
-  "meetio_status_badges": true, // show vcs status badges in the status bar.
+  // Panel
+  "meetio_panel_close_button": true // Show button close on "Find" panel.
 }
 ```
 
