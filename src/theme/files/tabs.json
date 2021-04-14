@@ -115,7 +115,6 @@
     },
     {
         "class": "tab_close_button",
-        "settings": ["show_tab_close_buttons"],
         "parents": [{ "class": "tab_control", "attributes": ["selected"] }],
         "layer0.tint": "var(tabCloseSelectedColor)",
         "layer0.opacity": {
@@ -126,7 +125,6 @@
     },
     {
         "class": "tab_close_button",
-        "settings": ["show_tab_close_buttons"],
         "attributes": ["hover"],
         "layer0.tint": "var(tabCloseHoverColor)",
         "layer0.opacity": {
@@ -213,6 +211,11 @@
         }
     },
     {
+        "class": "scroll_tabs_left_button",
+        "settings": ["hide_tab_scrolling_buttons"],
+        "content_margin": 0
+    },
+    {
         "class": "scroll_tabs_right_button",
         "layer0.texture": "Meetio Theme/textures/navigation/arrow_right_small.png",
         "layer0.tint": "var(tabNavigationColor)",
@@ -231,6 +234,11 @@
             "speed": 5.0,
             "interpolation": "smoothstep"
         }
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "settings": ["hide_tab_scrolling_buttons"],
+        "content_margin": 0
     },
     {
         "class": "new_tab_button",

@@ -12,8 +12,6 @@
 
   // Show icon search in inputs.
   "meetio_input_search_icon": true,
-  // Show vcs status badges in the status bar.
-  "meetio_status_badges": true,
 
   // Show button close on "Find" panel.
   "meetio_panel_close_button": true

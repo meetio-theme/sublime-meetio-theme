@@ -38,16 +38,14 @@
     },
     {
         "class": "vcs_branch_icon",
-        "settings": ["!meetio_status_badges"],
-        "content_margin": 0,
-        "layer0.texture": "",
-        "layer0.opacity": 0
+        "settings": ["!show_git_status_in_status_bar"],
+        "content_margin": 0
     },
     {
         "class": "vcs_branch_icon",
-        "settings": ["meetio_status_badges"],
+        "settings": ["show_git_status_in_status_bar"],
         "layer0.texture": "Meetio Theme/textures/actions/branch.png",
-       "content_margin": 8,
+        "content_margin": 8,
         "layer0.tint": "var(statusbarIconColor)",
         "layer0.inner_margin": 2,
         "layer0.opacity": 1
