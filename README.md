@@ -90,8 +90,8 @@ This theme provide a visual configuration tool that allow you to configure the t
 ```json
 {
     "variables": {
-        "colorAccent": "#6772e4",
-        "statusbarBackground": "var(colorAccent)",
+        "accent": "#6772e4",
+        "statusbarBackground": "var(accent)",
         "statusbarLabelColor": "#fff"
     }
 }
