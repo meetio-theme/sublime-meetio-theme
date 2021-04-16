@@ -7,7 +7,7 @@ import {
 
 import { getColors, Theme } from './colors';
 
-const { ui, ...rest} = options;
+const { ui, ...rest } = options;
 
 interface Scheme {
     name: string;
@@ -53,8 +53,11 @@ export function getScheme(theme: Theme) {
         colors: getColors(theme),
         ui: global,
         rules: [
-            ...[].concat.apply([], Object.values(rest).map(item => item)),
-            ...rules
+            ...[].concat.apply(
+                [],
+                Object.values(rest).map((item) => item)
+            ),
+            ...rules,
         ],
     };
 }

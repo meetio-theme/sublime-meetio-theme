@@ -5,7 +5,7 @@ import svg2img from 'svg2img';
 import buildIconsType from '@meetio/meetio-icons';
 import { icons, IOptions } from './icons/index';
 
-import { success, error } from './utils';
+import { log } from './utils/log';
 
 export interface ISettings {
     size: number;
@@ -35,9 +35,9 @@ icons.forEach((files: IOptions) => {
                                 }.png`,
                                 buffer
                             );
-                            success(icon.name, distFolder);
+                            log.success(icon.name, distFolder);
                         } catch (e) {
-                            error(e);
+                            log.error(e);
                         }
                     });
                 });

@@ -12,3 +12,5 @@ export const success = (icon: string, folder: string) => {
 };
 
 export const error = (error: string) => console.log(chalk.bold.red(error));
+
+export const log = { success, error };
