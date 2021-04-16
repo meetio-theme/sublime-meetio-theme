@@ -8,9 +8,9 @@
         "cursor": "#FFCC00",
         "comments": "#676E95",
         "deprecated": "#FFC777A1",
-        "diffAdded": "color(var(green) alpha(0.30))",
-        "diffDeleted": "color(var(red) alpha(0.30))",
-        "diffModified": "color(var(yellow) alpha(0.30))",
+        "diffAdded": "#9CCC65",
+        "diffDeleted": "#EF5350",
+        "diffModified": "#E2B93D",
         "invalid": "#D3423E66",
         "black": "#000000",
         "blue": "#82AAFF",
@@ -40,7 +40,7 @@
         "fold_marker": "var(yellow)",
         "foreground": "var(foreground)",
         "gutter": "var(background)",
-        "gutter_foreground": "#3A3F58",
+        "gutter_foreground": "#424242",
         "highlight": "var(yellow)",
         "inactive_selection": "#00000030",
         "inactive_selection_border": "color(var(cyan) alpha(0.1))",
@@ -51,7 +51,7 @@
         "line_diff_width": "2",
         "line_highlight": "#00000040",
         "misspelling": "var(blue)",
-        "selection": "#717CB450",
+        "selection": "#61616150",
         "selection_border": "var(cyan)",
         "selection_corner_radius": "cut",
         "selection_corner_style": "cut",
@@ -114,6 +114,26 @@
             "name": "CONSTANT - Other language-specific constant values",
             "scope": "constant.other.color",
             "foreground": "var(pink)"
+        },
+        {
+            "name": "DIFF - Deleted",
+            "scope": "diff.deleted",
+            "background": "color(var(diffDeleted) alpha(0.20))"
+        },
+        {
+            "name": "DIFF - Deleted Char",
+            "scope": "diff.deleted.char",
+            "background": "color(var(diffDeleted) alpha(0.20))"
+        },
+        {
+            "name": "DIFF - Inserted",
+            "scope": "diff.inserted",
+            "background": "color(var(diffAdded) alpha(0.20))"
+        },
+        {
+            "name": "DIFF - Inserted Char",
+            "scope": "diff.inserted.char",
+            "background": "color(var(diffAdded) alpha(0.20))"
         },
         {
             "name": "ENTITY - The names of data structures",
@@ -571,17 +591,6 @@
             "foreground": "var(yellow)"
         },
         {
-            "name": "HTML - Attribute name ID",
-            "scope": "meta.attribute-with-value.id. entity.other.attribute-name.id",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "HTML - Attribute name ID",
-            "scope": "meta.attribute-with-value.id. string.quoted.double. meta.toc-list.id.",
-            "foreground": "var(green)",
-            "font_style": "normal"
-        },
-        {
             "name": "CSS - Attribute name ID",
             "scope": "entity.other.attribute-name.id",
             "foreground": "var(orange)"
@@ -602,24 +611,15 @@
             "foreground": "var(purple)"
         },
         {
-            "name": "DIFF - Deleted",
-            "scope": "diff.deleted",
-            "background": "var(diffDeleted)"
+            "name": "HTML - Attribute name ID",
+            "scope": "meta.attribute-with-value.id. entity.other.attribute-name.id",
+            "foreground": "var(purple)"
         },
         {
-            "name": "DIFF - Deleted Char",
-            "scope": "diff.deleted.char",
-            "background": "var(diffDeleted)"
-        },
-        {
-            "name": "DIFF - Inserted",
-            "scope": "diff.inserted",
-            "background": "var(diffAdded)"
-        },
-        {
-            "name": "DIFF - Inserted Char",
-            "scope": "diff.inserted.char",
-            "background": "var(diffAdded)"
+            "name": "HTML - Attribute name ID",
+            "scope": "meta.attribute-with-value.id. string.quoted.double. meta.toc-list.id.",
+            "foreground": "var(green)",
+            "font_style": "normal"
         },
         {
             "name": "GIT - Text",

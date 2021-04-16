@@ -8,9 +8,9 @@
         "cursor": "#FFCC00",
         "comments": "#545454",
         "deprecated": "#FFC777A1",
-        "diffAdded": "color(var(green) alpha(0.25))",
-        "diffDeleted": "color(var(red) alpha(0.25))",
-        "diffModified": "color(var(yellow) alpha(0.25))",
+        "diffAdded": "#ADDB67",
+        "diffDeleted": "#EF5350",
+        "diffModified": "#E2B93D",
         "invalid": "#D46C6C66",
         "black": "#000000",
         "blue": "#82AAFF",
@@ -114,6 +114,26 @@
             "name": "CONSTANT - Other language-specific constant values",
             "scope": "constant.other.color",
             "foreground": "var(pink)"
+        },
+        {
+            "name": "DIFF - Deleted",
+            "scope": "diff.deleted",
+            "background": "color(var(diffDeleted) alpha(0.20))"
+        },
+        {
+            "name": "DIFF - Deleted Char",
+            "scope": "diff.deleted.char",
+            "background": "color(var(diffDeleted) alpha(0.20))"
+        },
+        {
+            "name": "DIFF - Inserted",
+            "scope": "diff.inserted",
+            "background": "color(var(diffAdded) alpha(0.20))"
+        },
+        {
+            "name": "DIFF - Inserted Char",
+            "scope": "diff.inserted.char",
+            "background": "color(var(diffAdded) alpha(0.20))"
         },
         {
             "name": "ENTITY - The names of data structures",
@@ -571,17 +591,6 @@
             "foreground": "var(yellow)"
         },
         {
-            "name": "HTML - Attribute name ID",
-            "scope": "meta.attribute-with-value.id. entity.other.attribute-name.id",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "HTML - Attribute name ID",
-            "scope": "meta.attribute-with-value.id. string.quoted.double. meta.toc-list.id.",
-            "foreground": "var(green)",
-            "font_style": "normal"
-        },
-        {
             "name": "CSS - Attribute name ID",
             "scope": "entity.other.attribute-name.id",
             "foreground": "var(orange)"
@@ -602,24 +611,15 @@
             "foreground": "var(purple)"
         },
         {
-            "name": "DIFF - Deleted",
-            "scope": "diff.deleted",
-            "background": "var(diffDeleted)"
+            "name": "HTML - Attribute name ID",
+            "scope": "meta.attribute-with-value.id. entity.other.attribute-name.id",
+            "foreground": "var(purple)"
         },
         {
-            "name": "DIFF - Deleted Char",
-            "scope": "diff.deleted.char",
-            "background": "var(diffDeleted)"
-        },
-        {
-            "name": "DIFF - Inserted",
-            "scope": "diff.inserted",
-            "background": "var(diffAdded)"
-        },
-        {
-            "name": "DIFF - Inserted Char",
-            "scope": "diff.inserted.char",
-            "background": "var(diffAdded)"
+            "name": "HTML - Attribute name ID",
+            "scope": "meta.attribute-with-value.id. string.quoted.double. meta.toc-list.id.",
+            "foreground": "var(green)",
+            "font_style": "normal"
         },
         {
             "name": "GIT - Text",
