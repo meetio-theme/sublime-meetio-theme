@@ -26,7 +26,7 @@
         "layer2.inner_margin": [52, 48, 0, 0],
         "layer2.draw_center": false,
         "layer2.texture": "Meetio Theme/textures/input/search.png",
-        "layer2.tint": "var(colorAccent)",
+        "layer2.tint": "var(accent)",
         "layer2.opacity": 1,
         "settings": ["meetio_input_search_icon"]
     },
@@ -44,7 +44,7 @@
         "layer2.inner_margin": [52, 48, 0, 0],
         "layer2.draw_center": false,
         "layer2.texture": "Meetio Theme/textures/input/search.png",
-        "layer2.tint": "var(colorAccent)",
+        "layer2.tint": "var(accent)",
         "layer2.opacity": 1,
         "layer1.opacity": 0,
         "settings": ["meetio_input_search_icon"]

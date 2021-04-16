@@ -61,7 +61,7 @@
         "match_fg": "var(panelRowMatchColor)",
         "selected_fg": "var(panelRowSelectedColor)",
         "selected_match_fg": "var(panelRowSelectedMatchColor)",
-        "link_color": "var(colorAccent)"
+        "link_color": "var(accent)"
     },
     {
         "class": "quick_panel_label hint",

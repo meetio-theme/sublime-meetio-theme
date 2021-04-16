@@ -1,18 +1,9 @@
 {
     "variables": {
-        "colorAccent": [
-            "accent",
-            1
-        ],
+        "accent": "var(--accent)",
+        "foreground": "var(--foreground)",
+        "background": "var(--background)",
         "colorDark": "#455A64",
-        "foreground": [
-            "foreground",
-            1
-        ],
-        "background": [
-            "background",
-            1
-        ],
         "fontSizeSm": 11,
         "fontSizeMd": 12,
         "fontSizeLg": 14,
@@ -24,13 +15,13 @@
             "background",
             0.5
         ],
-        "buttonBackgroundHover": "color(var(colorAccent) a(0.2))",
+        "buttonBackgroundHover": "color(var(accent) a(0.2))",
         "buttonMinSize": [
             80,
             28
         ],
-        "buttonIconFileColor": "color(var(colorAccent) a(0.70))",
-        "buttonIconFileSelectedColor": "var(colorAccent)",
+        "buttonIconFileColor": "color(var(accent) a(0.70))",
+        "buttonIconFileSelectedColor": "var(accent)",
         "buttonIconFileBackground": "var(background)",
         "buttonIconFileSelectedBackground": "var(buttonIconFileBackground)",
         "buttonIconFileContentMargin": [
@@ -47,9 +38,9 @@
             "foreground",
             0.5
         ],
-        "autoCompleteMatchColor": "var(colorAccent)",
+        "autoCompleteMatchColor": "var(accent)",
         "autoCompleteSelectedColor": "var(foreground)",
-        "autoCompleteSelectedMatchColor": "var(colorAccent)",
+        "autoCompleteSelectedMatchColor": "var(accent)",
         "autoCompleteBlend": true,
         "autoCompleteSelectedBackground": [
             "foreground",
@@ -71,8 +62,8 @@
             0.1
         ],
         "panelRowSelectedColor": "var(foreground)",
-        "panelRowMatchColor": "var(colorAccent)",
-        "panelRowSelectedMatchColor": "var(colorAccent)",
+        "panelRowMatchColor": "var(accent)",
+        "panelRowSelectedMatchColor": "var(accent)",
         "inputBackground": "var(background)",
         "inputBorderColor": [
             "foreground",
@@ -105,15 +96,15 @@
             "foreground",
             0.06
         ],
-        "sidebarLabelSelectedColor": "var(colorAccent)",
-        "sidebarLabelExpandableColor": "var(colorAccent)",
+        "sidebarLabelSelectedColor": "var(accent)",
+        "sidebarLabelExpandableColor": "var(accent)",
         "sidebarLabelSelectedBorderSize": [
             2,
             0,
             0,
             0
         ],
-        "sidebarLabelSelectedBorderColor": "var(colorAccent)",
+        "sidebarLabelSelectedBorderColor": "var(accent)",
         "sidebarIconFolderColor": "var(sidebarLabelColor)",
         "sidebarIconFolderExpandedColor": "var(sidebarLabelExpandableColor)",
         "sidebarIconFileSize": 7,
@@ -135,8 +126,8 @@
             0.5
         ],
         "tabBackground": "var(background)",
-        "tabBackgroundSheetModifier": "blend(var(colorAccent) 95%)",
-        "tabSelectedBorderColor": "var(colorAccent)",
+        "tabBackgroundSheetModifier": "blend(var(accent) 95%)",
+        "tabSelectedBorderColor": "var(accent)",
         "tabSelectedBorderSize": [
             0,
             0,
@@ -144,7 +135,7 @@
             2
         ],
         "tabSelectedColor": "var(foreground)",
-        "tabDiffIconColor": "var(colorAccent)",
+        "tabDiffIconColor": "var(accent)",
         "tabDiffColor": "var(--bluish)",
         "tabDiffItalic": true,
         "tabHeight": 45,
@@ -157,14 +148,14 @@
             0.5
         ],
         "tabCloseSelectedColor": "var(foreground)",
-        "tabCloseHoverColor": "var(colorAccent)",
+        "tabCloseHoverColor": "var(accent)",
         "titleBarBackground": "var(background)",
         "titleBarColor": "color(var(colorDark) l(+ 20%))",
         "tooltipBackground": "var(foreground)",
         "tooltipLabelColor": "var(background)",
-        "gridLayoutBorderColor": "color(var(colorAccent) blenda(var(colorDark) 30%))",
+        "gridLayoutBorderColor": "color(var(accent) blenda(var(colorDark) 30%))",
         "gridLayoutBorderSize": 2,
-        "minimapColor": "color(var(colorAccent) a(0.2))",
+        "minimapColor": "color(var(accent) a(0.2))",
         "minimapOpacity": "0.5",
         "scrollBar": [
             "foreground",
@@ -287,6 +278,40 @@
             }
         },
         {
+            "class": "fold_button_control",
+            "layer0.texture": "Meetio Theme/textures/navigation/arrow_right.png",
+            "layer0.tint": "var(accent)",
+            "layer0.opacity": 0.4,
+            "layer0.inner_margin": 0,
+            "content_margin": [
+                12,
+                12
+            ]
+        },
+        {
+            "class": "fold_button_control",
+            "attributes": [
+                "hover"
+            ],
+            "layer0.opacity": 1,
+            "content_margin": [
+                12,
+                12
+            ]
+        },
+        {
+            "class": "fold_button_control",
+            "attributes": [
+                "expanded"
+            ],
+            "layer0.texture": "Meetio Theme/textures/navigation/arrow_down.png",
+            "layer0.tint": "var(accent)",
+            "content_margin": [
+                12,
+                12
+            ]
+        },
+        {
             "class": "dialog",
             "layer0.tint": [
                 "background",
@@ -298,7 +323,7 @@
             "class": "annotation_close_button",
             "content_margin": 8,
             "layer0.texture": "Meetio Theme/textures/actions/close.png",
-            "layer0.tint": "var(colorAccent)",
+            "layer0.tint": "var(accent)",
             "layer0.opacity": {
                 "target": 0.5,
                 "speed": 5,
@@ -315,6 +340,24 @@
                 "speed": 5,
                 "interpolation": "smoothstep"
             }
+        },
+        {
+            "class": "dropdown_button_control",
+            "layer0.texture": "Meetio Theme/textures/actions/history.png",
+            "layer0.tint": "var(accent)",
+            "layer0.opacity": 1,
+            "layer0.inner_margin": 0,
+            "content_margin": [
+                8,
+                8
+            ]
+        },
+        {
+            "class": "dropdown_button_control",
+            "attributes": [
+                "hover"
+            ],
+            "layer0.opacity": 0.8
         },
         {
             "class": "disclosure_button_control",
@@ -458,24 +501,6 @@
                 }
             ],
             "layer0.opacity": 1
-        },
-        {
-            "class": "dropdown_button_control",
-            "layer0.texture": "Meetio Theme/textures/actions/history.png",
-            "layer0.tint": "var(colorAccent)",
-            "layer0.opacity": 1,
-            "layer0.inner_margin": 0,
-            "content_margin": [
-                8,
-                8
-            ]
-        },
-        {
-            "class": "dropdown_button_control",
-            "attributes": [
-                "hover"
-            ],
-            "layer0.opacity": 0.8
         },
         {
             "class": "grid_layout_control",
@@ -881,389 +906,6 @@
             "layer0.opacity": 1
         },
         {
-            "class": "label_control",
-            "fg": [
-                "foreground",
-                1
-            ],
-            "font.bold": false
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "button_control"
-                }
-            ],
-            "color": [
-                "foreground",
-                1
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "panel_control"
-                }
-            ],
-            "color": [
-                "foreground",
-                1
-            ],
-            "font.bold": true
-        },
-        {
-            "class": "title_label_control",
-            "fg": [
-                "foreground",
-                1
-            ],
-            "font.size": "var(fontSizeHuge)"
-        },
-        {
-            "class": "label_control",
-            "parents": [
-                {
-                    "class": "button_control"
-                }
-            ]
-        },
-        {
-            "class": "fold_button_control",
-            "layer0.texture": "Meetio Theme/textures/navigation/arrow_right.png",
-            "layer0.tint": "var(colorAccent)",
-            "layer0.opacity": 0.4,
-            "layer0.inner_margin": 0,
-            "content_margin": [
-                12,
-                12
-            ]
-        },
-        {
-            "class": "fold_button_control",
-            "attributes": [
-                "hover"
-            ],
-            "layer0.opacity": 1,
-            "content_margin": [
-                12,
-                12
-            ]
-        },
-        {
-            "class": "fold_button_control",
-            "attributes": [
-                "expanded"
-            ],
-            "layer0.texture": "Meetio Theme/textures/navigation/arrow_down.png",
-            "layer0.tint": "var(colorAccent)",
-            "content_margin": [
-                12,
-                12
-            ]
-        },
-        {
-            "class": "text_line_control",
-            "layer0.opacity": 1,
-            "layer0.inner_margin": [
-                20,
-                5,
-                20,
-                5
-            ],
-            "layer0.tint": "var(inputBackground)",
-            "layer1.tint": "var(inputBorderColor)",
-            "layer1.opacity": 1,
-            "layer1.inner_margin": "var(inputBorderSize)",
-            "layer1.draw_center": false,
-            "content_margin": "var(inputBorderMargin)",
-            "color_scheme_tint": "var(inputBackground)"
-        },
-        {
-            "class": "text_line_control",
-            "platforms": [
-                "osx",
-                "linux"
-            ],
-            "parents": [
-                {
-                    "class": "overlay_control"
-                }
-            ],
-            "layer1.opacity": 0,
-            "content_margin": [
-                52,
-                10,
-                10,
-                10
-            ],
-            "settings": [
-                "meetio_input_search_icon"
-            ]
-        },
-        {
-            "class": "text_line_control",
-            "parents": [
-                {
-                    "class": "overlay_control"
-                }
-            ],
-            "layer1.opacity": 0,
-            "layer2.inner_margin": [
-                52,
-                48,
-                0,
-                0
-            ],
-            "layer2.draw_center": false,
-            "layer2.texture": "Meetio Theme/textures/input/search.png",
-            "layer2.tint": "var(colorAccent)",
-            "layer2.opacity": 1,
-            "settings": [
-                "meetio_input_search_icon"
-            ]
-        },
-        {
-            "class": "text_line_control",
-            "platforms": [
-                "osx",
-                "linux"
-            ],
-            "parents": [
-                {
-                    "class": "switch_project_window"
-                }
-            ],
-            "layer1.opacity": 0,
-            "content_margin": [
-                52,
-                10,
-                10,
-                10
-            ],
-            "settings": [
-                "meetio_input_search_icon"
-            ]
-        },
-        {
-            "class": "text_line_control",
-            "parents": [
-                {
-                    "class": "switch_project_window"
-                }
-            ],
-            "layer2.inner_margin": [
-                52,
-                48,
-                0,
-                0
-            ],
-            "layer2.draw_center": false,
-            "layer2.texture": "Meetio Theme/textures/input/search.png",
-            "layer2.tint": "var(colorAccent)",
-            "layer2.opacity": 1,
-            "layer1.opacity": 0,
-            "settings": [
-                "meetio_input_search_icon"
-            ]
-        },
-        {
-            "class": "overlay_control",
-            "layer0.texture": "Meetio Theme/textures/overlay_bg.png",
-            "layer0.inner_margin": [
-                24,
-                4,
-                24,
-                33
-            ],
-            "layer0.opacity": 1,
-            "layer0.tint": "var(panelControlBackground)",
-            "layer1.texture": "Meetio Theme/textures/quick_panel_background.png",
-            "layer1.inner_margin": [
-                16,
-                0,
-                16,
-                25
-            ],
-            "layer1.opacity": 1,
-            "content_margin": [
-                12,
-                4,
-                13,
-                28
-            ]
-        },
-        {
-            "class": "progress_bar_control",
-            "layer0.tint": [
-                "background",
-                0.94
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "progress_gauge_control",
-            "layer0.tint": "var(colorAccent)",
-            "layer0.opacity": 1,
-            "content_margin": [
-                0,
-                8
-            ]
-        },
-        {
-            "class": "scroll_area_control",
-            "settings": [
-                "overlay_scroll_bars"
-            ],
-            "overlay": true
-        },
-        {
-            "class": "scroll_area_control",
-            "settings": [
-                "!overlay_scroll_bars"
-            ],
-            "overlay": false
-        },
-        {
-            "class": "scroll_area_control",
-            "parents": [
-                {
-                    "class": "sidebar_container"
-                }
-            ],
-            "content_margin": [
-                0,
-                10,
-                0,
-                10
-            ]
-        },
-        {
-            "class": "scroll_bar_control",
-            "layer0.opacity": 1,
-            "content_margin": 4,
-            "tint_index": 0
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": [
-                "overlay_scroll_bars"
-            ],
-            "layer0.opacity": 0
-        },
-        {
-            "class": "scroll_bar_control",
-            "settings": [
-                "!overlay_scroll_bars"
-            ],
-            "layer0.opacity": 1
-        },
-        {
-            "class": "scroll_bar_control",
-            "parents": [
-                {
-                    "class": "popup_control auto_complete_popup"
-                }
-            ],
-            "tint_modifier": [
-                0,
-                0,
-                0,
-                0.05
-            ]
-        },
-        {
-            "class": "scroll_bar_control",
-            "parents": [
-                {
-                    "class": "switch_project_window"
-                }
-            ],
-            "layer0.tint": [
-                235,
-                237,
-                239
-            ],
-            "tint_index": -1
-        },
-        {
-            "class": "scroll_bar_control",
-            "parents": [
-                {
-                    "class": "sidebar_container"
-                }
-            ],
-            "layer0.opacity": 0
-        },
-        {
-            "class": "scroll_corner_control",
-            "parents": [
-                {
-                    "class": "sidebar_container"
-                }
-            ],
-            "layer0.opacity": 0
-        },
-        {
-            "class": "scroll_bar_control",
-            "parents": [
-                {
-                    "class": "overlay_control"
-                }
-            ],
-            "layer0.opacity": 0,
-            "content_margin": [
-                4,
-                0,
-                0,
-                0
-            ]
-        },
-        {
-            "class": "scroll_track_control",
-            "layer0.tint": "var(scrollBar)",
-            "layer0.opacity": 1,
-            "layer0.inner_margin": 2,
-            "content_margin": [
-                4,
-                4,
-                3,
-                4
-            ]
-        },
-        {
-            "class": "puck_control",
-            "layer0.tint": "var(scrollTrack)",
-            "layer0.opacity": 1
-        },
-        {
-            "class": "scroll_corner_control",
-            "layer0.opacity": 1,
-            "tint_index": 0
-        },
-        {
-            "class": "scroll_track_control",
-            "attributes": [
-                "horizontal"
-            ],
-            "layer0.tint": "var(scrollBar)",
-            "content_margin": [
-                4,
-                4,
-                4,
-                3
-            ]
-        },
-        {
-            "class": "puck_control",
-            "attributes": [
-                "horizontal"
-            ],
-            "layer0.tint": "var(scrollTrack)"
-        },
-        {
             "class": "kind_container",
             "content_margin": "var(autoCompleteRowPadding)",
             "layer0.opacity": 0,
@@ -1559,9 +1201,190 @@
             "border_color": "color(var(--accent) a(0.8))"
         },
         {
+            "class": "text_line_control",
+            "layer0.opacity": 1,
+            "layer0.inner_margin": [
+                20,
+                5,
+                20,
+                5
+            ],
+            "layer0.tint": "var(inputBackground)",
+            "layer1.tint": "var(inputBorderColor)",
+            "layer1.opacity": 1,
+            "layer1.inner_margin": "var(inputBorderSize)",
+            "layer1.draw_center": false,
+            "content_margin": "var(inputBorderMargin)",
+            "color_scheme_tint": "var(inputBackground)"
+        },
+        {
+            "class": "text_line_control",
+            "platforms": [
+                "osx",
+                "linux"
+            ],
+            "parents": [
+                {
+                    "class": "overlay_control"
+                }
+            ],
+            "layer1.opacity": 0,
+            "content_margin": [
+                52,
+                10,
+                10,
+                10
+            ],
+            "settings": [
+                "meetio_input_search_icon"
+            ]
+        },
+        {
+            "class": "text_line_control",
+            "parents": [
+                {
+                    "class": "overlay_control"
+                }
+            ],
+            "layer1.opacity": 0,
+            "layer2.inner_margin": [
+                52,
+                48,
+                0,
+                0
+            ],
+            "layer2.draw_center": false,
+            "layer2.texture": "Meetio Theme/textures/input/search.png",
+            "layer2.tint": "var(accent)",
+            "layer2.opacity": 1,
+            "settings": [
+                "meetio_input_search_icon"
+            ]
+        },
+        {
+            "class": "text_line_control",
+            "platforms": [
+                "osx",
+                "linux"
+            ],
+            "parents": [
+                {
+                    "class": "switch_project_window"
+                }
+            ],
+            "layer1.opacity": 0,
+            "content_margin": [
+                52,
+                10,
+                10,
+                10
+            ],
+            "settings": [
+                "meetio_input_search_icon"
+            ]
+        },
+        {
+            "class": "text_line_control",
+            "parents": [
+                {
+                    "class": "switch_project_window"
+                }
+            ],
+            "layer2.inner_margin": [
+                52,
+                48,
+                0,
+                0
+            ],
+            "layer2.draw_center": false,
+            "layer2.texture": "Meetio Theme/textures/input/search.png",
+            "layer2.tint": "var(accent)",
+            "layer2.opacity": 1,
+            "layer1.opacity": 0,
+            "settings": [
+                "meetio_input_search_icon"
+            ]
+        },
+        {
+            "class": "label_control",
+            "fg": [
+                "foreground",
+                1
+            ],
+            "font.bold": false
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "button_control"
+                }
+            ],
+            "color": [
+                "foreground",
+                1
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "panel_control"
+                }
+            ],
+            "color": [
+                "foreground",
+                1
+            ],
+            "font.bold": true
+        },
+        {
+            "class": "title_label_control",
+            "fg": [
+                "foreground",
+                1
+            ],
+            "font.size": "var(fontSizeHuge)"
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "button_control"
+                }
+            ]
+        },
+        {
+            "class": "overlay_control",
+            "layer0.texture": "Meetio Theme/textures/overlay_bg.png",
+            "layer0.inner_margin": [
+                24,
+                4,
+                24,
+                33
+            ],
+            "layer0.opacity": 1,
+            "layer0.tint": "var(panelControlBackground)",
+            "layer1.texture": "Meetio Theme/textures/quick_panel_background.png",
+            "layer1.inner_margin": [
+                16,
+                0,
+                16,
+                25
+            ],
+            "layer1.opacity": 1,
+            "content_margin": [
+                12,
+                4,
+                13,
+                28
+            ]
+        },
+        {
             "class": "close_button",
             "layer0.texture": "Meetio Theme/textures/actions/close.png",
-            "layer0.tint": "var(colorAccent)",
+            "layer0.tint": "var(accent)",
             "layer0.opacity": 1,
             "layer0.inner_margin": [
                 3,
@@ -1590,7 +1413,7 @@
                 "dirty"
             ],
             "layer0.texture": "Meetio Theme/textures/dirty_icon.png",
-            "layer0.tint": "var(colorAccent)"
+            "layer0.tint": "var(accent)"
         },
         {
             "class": "close_button",
@@ -1599,33 +1422,41 @@
                 "dirty"
             ],
             "layer0.texture": "Meetio Theme/textures/dirty_icon.png",
-            "layer0.tint": "var(colorAccent)"
+            "layer0.tint": "var(accent)"
         },
         {
-            "class": "status_bar",
+            "class": "panel_control",
+            "layer0.tint": "var(panelControlBackground)",
             "layer0.opacity": 1,
-            "layer0.tint": "var(statusbarBackground)",
-            "content_margin": "var(statusbarMargin)",
+            "layer0.inner_margin": [
+                2,
+                2,
+                2,
+                2
+            ],
+            "layer1.opacity": 0,
+            "layer1.draw_center": false,
             "layer1.inner_margin": [
                 0,
                 1,
                 0,
                 0
             ],
-            "layer1.opacity": 0,
-            "layer1.draw_center": false
+            "content_margin": [
+                12,
+                12
+            ]
         },
         {
-            "class": "status_bar",
-            "layer0.tint": "color(var(statusbarBackground) alpha(0.8))",
-            "layer1.tint": "color(#000 l(20%))",
+            "class": "panel_control",
             "layer1.opacity": 1,
+            "layer1.tint": "color(#000 l(20%))",
             "settings": [
                 "meetio_high_contrast"
             ]
         },
         {
-            "class": "status_bar",
+            "class": "panel_control",
             "parents": [
                 {
                     "class": "window",
@@ -1634,100 +1465,65 @@
                     ]
                 }
             ],
-            "layer0.tint": "color(var(statusbarBackground) alpha(0.96))",
-            "layer1.tint": "color(#000 l(80%))",
             "layer1.opacity": 1,
+            "layer1.tint": "color(#000 l(80%))",
             "settings": [
                 "meetio_high_contrast"
             ]
         },
         {
-            "class": "panel_button_control",
-            "layer0.texture": "Meetio Theme/textures/actions/menu.png",
-            "layer0.tint": "var(statusbarIconColor)",
-            "layer0.opacity": 1,
-            "content_margin": 9,
-            "layer0.inner_margin": 4
-        },
-        {
-            "class": "panel_button_control",
-            "attributes": [
-                "hover"
-            ],
-            "layer0.opacity": 0.8
-        },
-        {
-            "class": "vcs_branch_icon",
-            "settings": [
-                "!show_git_status_in_status_bar"
-            ],
-            "content_margin": 0
-        },
-        {
-            "class": "vcs_branch_icon",
-            "settings": [
-                "show_git_status_in_status_bar"
-            ],
-            "layer0.texture": "Meetio Theme/textures/actions/branch.png",
-            "content_margin": 8,
-            "layer0.tint": "var(statusbarIconColor)",
-            "layer0.inner_margin": 2,
-            "layer0.opacity": 1
-        },
-        {
-            "class": "vcs_branch_icon",
-            "attributes": [
-                "hover"
-            ],
-            "layer0.opacity": 0.8
-        },
-        {
-            "class": "sidebar_button_control",
-            "layer0.texture": "Meetio Theme/textures/actions/sidebar.png",
-            "content_margin": 8,
-            "layer0.tint": "var(statusbarIconColor)",
-            "layer0.inner_margin": 2,
-            "layer0.opacity": 1
-        },
-        {
-            "class": "sidebar_button_control",
-            "attributes": [
-                "hover"
-            ],
-            "layer0.opacity": 0.8
-        },
-        {
-            "class": "status_container",
-            "content_margin": [
-                8,
-                0,
-                0,
-                0
-            ]
-        },
-        {
-            "class": "status_button",
-            "content_margin": [
-                10,
-                0,
-                10,
-                0
-            ],
-            "min_size": [
-                80,
-                0
-            ]
-        },
-        {
-            "class": "label_control",
+            "class": "panel_control",
             "parents": [
                 {
-                    "class": "status_bar"
+                    "class": "window"
                 }
+            ]
+        },
+        {
+            "class": "panel_grid_control",
+            "inside_spacing": 4,
+            "outside_hspacing": 4,
+            "outside_vspacing": 4
+        },
+        {
+            "class": "panel_close_button",
+            "layer0.texture": "Meetio Theme/textures/actions/close.png",
+            "layer0.opacity": {
+                "target": 0.4,
+                "speed": 5,
+                "interpolation": "smoothstep"
+            },
+            "layer0.tint": "var(accent)",
+            "settings": [
+                "meetio_panel_close_button"
             ],
-            "font.size": "var(statusbarLabelFontSize)",
-            "color": "var(statusbarLabelColor)",
-            "font.bold": "var(statusbarLabelBold)"
+            "layer0.inner_margin": [
+                3,
+                3
+            ],
+            "content_margin": [
+                8,
+                8
+            ]
+        },
+        {
+            "class": "panel_close_button",
+            "attributes": [
+                "hover"
+            ],
+            "layer0.opacity": {
+                "target": 1,
+                "speed": 5,
+                "interpolation": "smoothstep"
+            }
+        },
+        {
+            "class": "panel_close_button",
+            "settings": [
+                "!meetio_panel_close_button"
+            ],
+            "layer0.inner_margin": 0,
+            "content_margin": 0
         },
         {
             "class": "mini_quick_panel_row",
@@ -1821,7 +1617,7 @@
             "match_fg": "var(panelRowMatchColor)",
             "selected_fg": "var(panelRowSelectedColor)",
             "selected_match_fg": "var(panelRowSelectedMatchColor)",
-            "link_color": "var(colorAccent)"
+            "link_color": "var(accent)"
         },
         {
             "class": "quick_panel_label hint",
@@ -1833,105 +1629,220 @@
             "font.size": "var(panelPathRowFontSize)"
         },
         {
-            "class": "panel_control",
-            "layer0.tint": "var(panelControlBackground)",
-            "layer0.opacity": 1,
-            "layer0.inner_margin": [
-                2,
-                2,
-                2,
-                2
+            "class": "scroll_area_control",
+            "settings": [
+                "overlay_scroll_bars"
             ],
-            "layer1.opacity": 0,
-            "layer1.draw_center": false,
-            "layer1.inner_margin": [
+            "overlay": true
+        },
+        {
+            "class": "scroll_area_control",
+            "settings": [
+                "!overlay_scroll_bars"
+            ],
+            "overlay": false
+        },
+        {
+            "class": "scroll_area_control",
+            "parents": [
+                {
+                    "class": "sidebar_container"
+                }
+            ],
+            "content_margin": [
                 0,
-                1,
+                10,
+                0,
+                10
+            ]
+        },
+        {
+            "class": "scroll_bar_control",
+            "layer0.opacity": 1,
+            "content_margin": 4,
+            "tint_index": 0
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": [
+                "overlay_scroll_bars"
+            ],
+            "layer0.opacity": 0
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": [
+                "!overlay_scroll_bars"
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [
+                {
+                    "class": "popup_control auto_complete_popup"
+                }
+            ],
+            "tint_modifier": [
+                0,
+                0,
+                0,
+                0.05
+            ]
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [
+                {
+                    "class": "switch_project_window"
+                }
+            ],
+            "layer0.tint": [
+                235,
+                237,
+                239
+            ],
+            "tint_index": -1
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [
+                {
+                    "class": "sidebar_container"
+                }
+            ],
+            "layer0.opacity": 0
+        },
+        {
+            "class": "scroll_corner_control",
+            "parents": [
+                {
+                    "class": "sidebar_container"
+                }
+            ],
+            "layer0.opacity": 0
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [
+                {
+                    "class": "overlay_control"
+                }
+            ],
+            "layer0.opacity": 0,
+            "content_margin": [
+                4,
+                0,
                 0,
                 0
-            ],
+            ]
+        },
+        {
+            "class": "scroll_track_control",
+            "layer0.tint": "var(scrollBar)",
+            "layer0.opacity": 1,
+            "layer0.inner_margin": 2,
             "content_margin": [
-                12,
-                12
-            ]
-        },
-        {
-            "class": "panel_control",
-            "layer1.opacity": 1,
-            "layer1.tint": "color(#000 l(20%))",
-            "settings": [
-                "meetio_high_contrast"
-            ]
-        },
-        {
-            "class": "panel_control",
-            "parents": [
-                {
-                    "class": "window",
-                    "attributes": [
-                        "file_light"
-                    ]
-                }
-            ],
-            "layer1.opacity": 1,
-            "layer1.tint": "color(#000 l(80%))",
-            "settings": [
-                "meetio_high_contrast"
-            ]
-        },
-        {
-            "class": "panel_control",
-            "parents": [
-                {
-                    "class": "window"
-                }
-            ]
-        },
-        {
-            "class": "panel_grid_control",
-            "inside_spacing": 4,
-            "outside_hspacing": 4,
-            "outside_vspacing": 4
-        },
-        {
-            "class": "panel_close_button",
-            "layer0.texture": "Meetio Theme/textures/actions/close.png",
-            "layer0.opacity": {
-                "target": 0.4,
-                "speed": 5,
-                "interpolation": "smoothstep"
-            },
-            "layer0.tint": "var(colorAccent)",
-            "settings": [
-                "meetio_panel_close_button"
-            ],
-            "layer0.inner_margin": [
+                4,
+                4,
                 3,
-                3
+                4
+            ]
+        },
+        {
+            "class": "puck_control",
+            "layer0.tint": "var(scrollTrack)",
+            "layer0.opacity": 1
+        },
+        {
+            "class": "scroll_corner_control",
+            "layer0.opacity": 1,
+            "tint_index": 0
+        },
+        {
+            "class": "scroll_track_control",
+            "attributes": [
+                "horizontal"
             ],
+            "layer0.tint": "var(scrollBar)",
             "content_margin": [
-                8,
+                4,
+                4,
+                4,
+                3
+            ]
+        },
+        {
+            "class": "puck_control",
+            "attributes": [
+                "horizontal"
+            ],
+            "layer0.tint": "var(scrollTrack)"
+        },
+        {
+            "class": "progress_bar_control",
+            "layer0.tint": [
+                "background",
+                0.94
+            ],
+            "layer0.opacity": 1
+        },
+        {
+            "class": "progress_gauge_control",
+            "layer0.tint": "var(accent)",
+            "layer0.opacity": 1,
+            "content_margin": [
+                0,
                 8
             ]
         },
         {
-            "class": "panel_close_button",
-            "attributes": [
-                "hover"
-            ],
-            "layer0.opacity": {
-                "target": 1,
-                "speed": 5,
-                "interpolation": "smoothstep"
-            }
+            "class": "sheet_contents",
+            "background_modifier": ""
         },
         {
-            "class": "panel_close_button",
-            "settings": [
-                "!meetio_panel_close_button"
+            "class": "sheet_contents",
+            "settings": {
+                "inactive_sheet_dimming": true
+            },
+            "attributes": [
+                "file_dark",
+                "!highlighted"
             ],
-            "layer0.inner_margin": 0,
-            "content_margin": 0
+            "background_modifier": "var(tabBackgroundSheetModifier)"
+        },
+        {
+            "class": "sheet_contents",
+            "settings": {
+                "inactive_sheet_dimming": true
+            },
+            "attributes": [
+                "file_medium_dark",
+                "!highlighted"
+            ],
+            "background_modifier": "var(tabBackgroundSheetModifier)"
+        },
+        {
+            "class": "sheet_contents",
+            "settings": {
+                "inactive_sheet_dimming": true
+            },
+            "attributes": [
+                "file_medium",
+                "!highlighted"
+            ],
+            "background_modifier": "var(tabBackgroundSheetModifier)"
+        },
+        {
+            "class": "sheet_contents",
+            "settings": {
+                "inactive_sheet_dimming": true
+            },
+            "attributes": [
+                "file_light",
+                "!highlighted"
+            ],
+            "background_modifier": "var(tabBackgroundSheetModifier)"
         },
         {
             "class": "sidebar_container",
@@ -2144,52 +2055,132 @@
             "font.italic": false
         },
         {
-            "class": "sheet_contents",
-            "background_modifier": ""
+            "class": "status_bar",
+            "layer0.opacity": 1,
+            "layer0.tint": "var(statusbarBackground)",
+            "content_margin": "var(statusbarMargin)",
+            "layer1.inner_margin": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "layer1.opacity": 0,
+            "layer1.draw_center": false
         },
         {
-            "class": "sheet_contents",
-            "settings": {
-                "inactive_sheet_dimming": true
-            },
-            "attributes": [
-                "file_dark",
-                "!highlighted"
-            ],
-            "background_modifier": "var(tabBackgroundSheetModifier)"
+            "class": "status_bar",
+            "layer0.tint": "color(var(statusbarBackground) alpha(0.8))",
+            "layer1.tint": "color(#000 l(20%))",
+            "layer1.opacity": 1,
+            "settings": [
+                "meetio_high_contrast"
+            ]
         },
         {
-            "class": "sheet_contents",
-            "settings": {
-                "inactive_sheet_dimming": true
-            },
-            "attributes": [
-                "file_medium_dark",
-                "!highlighted"
+            "class": "status_bar",
+            "parents": [
+                {
+                    "class": "window",
+                    "attributes": [
+                        "file_light"
+                    ]
+                }
             ],
-            "background_modifier": "var(tabBackgroundSheetModifier)"
+            "layer0.tint": "color(var(statusbarBackground) alpha(0.96))",
+            "layer1.tint": "color(#000 l(80%))",
+            "layer1.opacity": 1,
+            "settings": [
+                "meetio_high_contrast"
+            ]
         },
         {
-            "class": "sheet_contents",
-            "settings": {
-                "inactive_sheet_dimming": true
-            },
-            "attributes": [
-                "file_medium",
-                "!highlighted"
-            ],
-            "background_modifier": "var(tabBackgroundSheetModifier)"
+            "class": "panel_button_control",
+            "layer0.texture": "Meetio Theme/textures/actions/menu.png",
+            "layer0.tint": "var(statusbarIconColor)",
+            "layer0.opacity": 1,
+            "content_margin": 9,
+            "layer0.inner_margin": 4
         },
         {
-            "class": "sheet_contents",
-            "settings": {
-                "inactive_sheet_dimming": true
-            },
+            "class": "panel_button_control",
             "attributes": [
-                "file_light",
-                "!highlighted"
+                "hover"
             ],
-            "background_modifier": "var(tabBackgroundSheetModifier)"
+            "layer0.opacity": 0.8
+        },
+        {
+            "class": "vcs_branch_icon",
+            "settings": [
+                "!show_git_status_in_status_bar"
+            ],
+            "content_margin": 0
+        },
+        {
+            "class": "vcs_branch_icon",
+            "settings": [
+                "show_git_status_in_status_bar"
+            ],
+            "layer0.texture": "Meetio Theme/textures/actions/branch.png",
+            "content_margin": 8,
+            "layer0.tint": "var(statusbarIconColor)",
+            "layer0.inner_margin": 2,
+            "layer0.opacity": 1
+        },
+        {
+            "class": "vcs_branch_icon",
+            "attributes": [
+                "hover"
+            ],
+            "layer0.opacity": 0.8
+        },
+        {
+            "class": "sidebar_button_control",
+            "layer0.texture": "Meetio Theme/textures/actions/sidebar.png",
+            "content_margin": 8,
+            "layer0.tint": "var(statusbarIconColor)",
+            "layer0.inner_margin": 2,
+            "layer0.opacity": 1
+        },
+        {
+            "class": "sidebar_button_control",
+            "attributes": [
+                "hover"
+            ],
+            "layer0.opacity": 0.8
+        },
+        {
+            "class": "status_container",
+            "content_margin": [
+                8,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "class": "status_button",
+            "content_margin": [
+                10,
+                0,
+                10,
+                0
+            ],
+            "min_size": [
+                80,
+                0
+            ]
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "status_bar"
+                }
+            ],
+            "font.size": "var(statusbarLabelFontSize)",
+            "color": "var(statusbarLabelColor)",
+            "font.bold": "var(statusbarLabelBold)"
         },
         {
             "class": "symbol_container",
@@ -2646,6 +2637,104 @@
             }
         },
         {
+            "class": "title_bar",
+            "settings": [
+                "themed_title_bar"
+            ],
+            "bg": "var(titleBarBackground)",
+            "fg": "var(titleBarColor)",
+            "style": "system"
+        },
+        {
+            "class": "title_bar",
+            "settings": [
+                "!themed_title_bar"
+            ],
+            "fg": [
+                "background",
+                255,
+                255,
+                255,
+                0.7
+            ],
+            "bg": [
+                "background",
+                0,
+                0,
+                0,
+                0.4
+            ],
+            "style": "system"
+        },
+        {
+            "class": "title_bar",
+            "settings": [
+                "!themed_title_bar"
+            ],
+            "attributes": [
+                "file_dark"
+            ],
+            "bg": [
+                "background",
+                255,
+                255,
+                255,
+                0.15
+            ],
+            "style": "dark"
+        },
+        {
+            "class": "title_bar",
+            "settings": [
+                "!themed_title_bar"
+            ],
+            "attributes": [
+                "file_medium_dark"
+            ],
+            "style": "dark"
+        },
+        {
+            "class": "title_bar",
+            "settings": [
+                "!themed_title_bar"
+            ],
+            "attributes": [
+                "file_medium"
+            ],
+            "bg": [
+                "background",
+                0,
+                0,
+                0,
+                0.2
+            ],
+            "style": "light"
+        },
+        {
+            "class": "title_bar",
+            "settings": [
+                "!themed_title_bar"
+            ],
+            "attributes": [
+                "file_light"
+            ],
+            "fg": [
+                "background",
+                0,
+                0,
+                0,
+                0.7
+            ],
+            "bg": [
+                "background",
+                0,
+                0,
+                0,
+                0.1
+            ],
+            "style": "light"
+        },
+        {
             "class": "vcs_status_badge",
             "parents": [
                 {
@@ -2878,122 +2967,11 @@
             ]
         },
         {
-            "class": "title_bar",
-            "settings": [
-                "themed_title_bar"
-            ],
-            "bg": "var(titleBarBackground)",
-            "fg": "var(titleBarColor)",
-            "style": "system"
-        },
-        {
-            "class": "title_bar",
-            "settings": [
-                "!themed_title_bar"
-            ],
-            "fg": [
-                "background",
-                255,
-                255,
-                255,
-                0.7
-            ],
-            "bg": [
-                "background",
-                0,
-                0,
-                0,
-                0.4
-            ],
-            "style": "system"
-        },
-        {
-            "class": "title_bar",
-            "settings": [
-                "!themed_title_bar"
-            ],
-            "attributes": [
-                "file_dark"
-            ],
-            "bg": [
-                "background",
-                255,
-                255,
-                255,
-                0.15
-            ],
-            "style": "dark"
-        },
-        {
-            "class": "title_bar",
-            "settings": [
-                "!themed_title_bar"
-            ],
-            "attributes": [
-                "file_medium_dark"
-            ],
-            "style": "dark"
-        },
-        {
-            "class": "title_bar",
-            "settings": [
-                "!themed_title_bar"
-            ],
-            "attributes": [
-                "file_medium"
-            ],
-            "bg": [
-                "background",
-                0,
-                0,
-                0,
-                0.2
-            ],
-            "style": "light"
-        },
-        {
-            "class": "title_bar",
-            "settings": [
-                "!themed_title_bar"
-            ],
-            "attributes": [
-                "file_light"
-            ],
-            "fg": [
-                "background",
-                0,
-                0,
-                0,
-                0.7
-            ],
-            "bg": [
-                "background",
-                0,
-                0,
-                0,
-                0.1
-            ],
-            "style": "light"
-        },
-        {
-            "class": "tool_tip_control",
-            "layer0.tint": "var(tooltipBackground)",
-            "layer0.opacity": 1,
-            "content_margin": [
-                12,
-                8
-            ]
-        },
-        {
-            "class": "tool_tip_label_control",
-            "fg": "var(tooltipLabelColor)"
-        },
-        {
             "class": "minimap_control",
             "settings": [
                 "always_show_minimap_viewport"
             ],
-            "viewport_color": "color(var(colorAccent) a(0.2))",
+            "viewport_color": "color(var(accent) a(0.2))",
             "viewport_opacity": "var(minimapOpacity)"
         },
         {
@@ -3020,6 +2998,19 @@
                 "speed": 20,
                 "interpolation": "smoothstep"
             }
+        },
+        {
+            "class": "tool_tip_control",
+            "layer0.tint": "var(tooltipBackground)",
+            "layer0.opacity": 1,
+            "content_margin": [
+                12,
+                8
+            ]
+        },
+        {
+            "class": "tool_tip_label_control",
+            "fg": "var(tooltipLabelColor)"
         }
     ]
 }

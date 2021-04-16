@@ -3,7 +3,7 @@
         "class": "annotation_close_button",
         "content_margin": 8,
         "layer0.texture": "Meetio Theme/textures/actions/close.png",
-        "layer0.tint": "var(colorAccent)",
+        "layer0.tint": "var(accent)",
         "layer0.opacity": {
             "target": 0.5,
             "speed": 5.0,
