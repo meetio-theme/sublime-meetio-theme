@@ -36,7 +36,7 @@
         "@commitlint/cli": "^12.1.1",
         "@commitlint/config-conventional": "^12.1.1",
         "conventional-changelog-cli": "^2.1.1",
-        "@meetio/meetio-colors": "^4.0.2",
+        "@meetio/meetio-colors": "^4.1.0",
         "@meetio/meetio-icons": "^1.10.0",
         "@meetio/scheme-generator": "^2.0.2",
         "@typescript-eslint/eslint-plugin": "4.21.0",
