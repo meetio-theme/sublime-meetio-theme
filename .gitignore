@@ -1,0 +1,16 @@
+# Folders
+node_modules/
+
+# Files In Folders
+schemes/*.chback
+src/*.js
+src/schemes/**/*.js
+
+# Files
+*.sublime-project
+*.sublime-workspace
+package-lock.json
+
+# Other
+.DS_Store
+*.cache

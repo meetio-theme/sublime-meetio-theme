@@ -1,0 +1,38 @@
+[
+    {
+        "class": "sheet_contents",
+        "background_modifier": ""
+    },
+    {
+        "class": "sheet_contents",
+        "settings": {
+            "inactive_sheet_dimming": true
+        },
+        "attributes": ["file_dark", "!highlighted"],
+        "background_modifier": "var(tabBackgroundSheetModifier)"
+    },
+    {
+        "class": "sheet_contents",
+        "settings": {
+            "inactive_sheet_dimming": true
+        },
+        "attributes": ["file_medium_dark", "!highlighted"],
+        "background_modifier": "var(tabBackgroundSheetModifier)"
+    },
+    {
+        "class": "sheet_contents",
+        "settings": {
+            "inactive_sheet_dimming": true
+        },
+        "attributes": ["file_medium", "!highlighted"],
+        "background_modifier": "var(tabBackgroundSheetModifier)"
+    },
+    {
+        "class": "sheet_contents",
+        "settings": {
+            "inactive_sheet_dimming": true
+        },
+        "attributes": ["file_light", "!highlighted"],
+        "background_modifier": "var(tabBackgroundSheetModifier)"
+    }
+]

@@ -1,0 +1,95 @@
+[
+    {
+        "class": "disclosure_button_control",
+        "layer0.texture": "Meetio Theme/textures/disclosure.png",
+        "layer0.tint": ["foreground", 0.6],
+        "layer0.opacity": {
+            "target": 0.3,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        },
+        "content_margin": [0, 0, 0, 0]
+    },
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["expanded"],
+        "layer0.texture": "Meetio Theme/textures/disclosure_expanded.png",
+        "layer0.tint": "var(sidebarIconFolderColor)"
+    },
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["hover"],
+        "layer0.opacity": {
+            "target": 0.5,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        }
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["meetio_sidebar_disclosure"],
+        "content_margin": [8, 8],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "icon_folder",
+        "layer0.texture": "Meetio Theme/textures/tree/folder_closed.png",
+        "layer0.tint": "var(sidebarIconFolderColor)",
+        "layer0.opacity": 1.0,
+        "content_margin": [9, 9]
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
+        "layer0.texture": "Meetio Theme/textures/tree/folder_open.png",
+        "layer0.tint": "var(sidebarIconFolderExpandedColor)",
+        "layer0.opacity": 1.0,
+        "content_margin": [9, 9]
+    },
+    {
+        "class": "icon_folder_dup",
+        "layer0.texture": "Meetio Theme/textures/tree/folder_dup.png",
+        "layer0.tint": "var(sidebarIconFolderColor)",
+        "layer0.opacity": 1.0,
+        "content_margin": [9, 9]
+    },
+    {
+        "class": "icon_folder_loading",
+        "layer0.texture": {
+            "keyframes": [
+                "Meetio Theme/textures/spinner11.png",
+                "Meetio Theme/textures/spinner10.png",
+                "Meetio Theme/textures/spinner9.png",
+                "Meetio Theme/textures/spinner8.png",
+                "Meetio Theme/textures/spinner7.png",
+                "Meetio Theme/textures/spinner6.png",
+                "Meetio Theme/textures/spinner5.png",
+                "Meetio Theme/textures/spinner4.png",
+                "Meetio Theme/textures/spinner3.png",
+                "Meetio Theme/textures/spinner2.png",
+                "Meetio Theme/textures/spinner1.png",
+                "Meetio Theme/textures/spinner.png"
+            ],
+            "loop": true,
+            "frame_time": 0.08
+        },
+        "layer0.tint": "var(sidebarIconFolderColor)",
+        "layer0.opacity": 1.0,
+        "content_margin": [9, 9]
+    },
+    {
+        "class": "icon_file_type",
+        "layer0.opacity": 1.0,
+        "content_margin": "var(sidebarIconFileSize)"
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
+        "layer0.opacity": 1
+    }
+]

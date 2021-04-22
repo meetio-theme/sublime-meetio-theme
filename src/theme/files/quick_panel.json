@@ -1,0 +1,75 @@
+[
+    {
+        "class": "mini_quick_panel_row",
+        "layer0.tint": "var(panelRowBackground)",
+        "layer0.inner_margin": [2, 2, 2, 2],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["selected"],
+        "layer0.tint": "var(panelRowSelectedBackground)"
+    },
+    {
+        "class": "quick_panel",
+        "row_padding": "var(panelRowPadding)",
+        "layer0.tint": ["background", 1],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "quick_panel",
+        "parents": [{ "class": "overlay_control goto_symbol" }],
+        "row_padding": [0, 0, 0, 0]
+    },
+    {
+        "class": "quick_panel",
+        "parents": [{ "class": "overlay_control goto_symbol_in_project" }],
+        "row_padding": [0, 0, 0, 0]
+    },
+    {
+        "class": "quick_panel_row",
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "quick_panel_row",
+        "layer0.tint": "var(panelRowBackground)",
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "quick_panel_row",
+        "attributes": ["selected"],
+        "layer0.tint": "var(panelRowSelectedBackground)"
+    },
+    {
+        "class": "quick_panel_entry",
+        "spacing": 1
+    },
+    {
+        "class": "quick_panel_label",
+        "font.face": "var(fontFace)",
+        "font.size": "var(panelRowFontSize)",
+        "fg": "var(panelRowColor)",
+        "match_fg": "var(panelRowMatchColor)",
+        "selected_fg": "var(panelRowSelectedColor)",
+        "selected_match_fg": "var(panelRowSelectedMatchColor)"
+    },
+    {
+        "class": "quick_panel_path_label",
+        "font.face": "var(fontFace)",
+        "font.size": "var(panelPathRowFontSize)",
+        "fg": "var(panelPathRowColor)",
+        "match_fg": "var(panelRowMatchColor)",
+        "selected_fg": "var(panelRowSelectedColor)",
+        "selected_match_fg": "var(panelRowSelectedMatchColor)",
+        "link_color": "var(accent)"
+    },
+    {
+        "class": "quick_panel_label hint",
+        "font.size": "var(panelPathRowFontSize)",
+        "font.italic": true
+    },
+    {
+        "class": "quick_panel_label key_binding",
+        "font.size": "var(panelPathRowFontSize)"
+    }
+]

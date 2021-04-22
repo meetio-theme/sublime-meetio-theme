@@ -1,0 +1,18 @@
+{
+  // Show icon diff in tab.
+  "meetio_tabs_diff_icon": true,
+  // Show diff pencil icon in tab.
+  "meetio_tabs_diff_pencil_icon": true,
+
+  // option increases the contrast between the editor.
+  "meetio_high_contrast": false,
+
+  // Set disclosure tree controls.
+  "meetio_sidebar_disclosure": false,
+
+  // Show icon search in inputs.
+  "meetio_input_search_icon": true,
+
+  // Show button close on "Find" panel.
+  "meetio_panel_close_button": true
+}

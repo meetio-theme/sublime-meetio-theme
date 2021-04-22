@@ -1,0 +1,87 @@
+[
+    {
+        "class": "status_bar",
+        "layer0.opacity": 1,
+        "layer0.tint": "var(statusbarBackground)",
+        "content_margin": "var(statusbarMargin)",
+        "layer1.inner_margin": [0, 1, 0, 0],
+        "layer1.opacity": 0,
+        "layer1.draw_center": false
+    },
+    {
+        "class": "status_bar",
+        "layer0.tint": "color(var(statusbarBackground) alpha(0.8))",
+        "layer1.tint": "color(#000 l(20%))",
+        "layer1.opacity": 1,
+        "settings": ["meetio_high_contrast"]
+    },
+    {
+        "class": "status_bar",
+        "parents": [{ "class": "window", "attributes": ["file_light"] }],
+        "layer0.tint": "color(var(statusbarBackground) alpha(0.96))",
+        "layer1.tint": "color(#000 l(80%))",
+        "layer1.opacity": 1,
+        "settings": ["meetio_high_contrast"]
+    },
+    {
+        "class": "panel_button_control",
+        "layer0.texture": "Meetio Theme/textures/actions/menu.png",
+        "layer0.tint": "var(statusbarIconColor)",
+        "layer0.opacity": 1,
+        "content_margin": 9,
+        "layer0.inner_margin": 4
+    },
+    {
+        "class": "panel_button_control",
+        "attributes": ["hover"],
+        "layer0.opacity": 0.8
+    },
+    {
+        "class": "vcs_branch_icon",
+        "settings": ["!show_git_status_in_status_bar"],
+        "content_margin": 0
+    },
+    {
+        "class": "vcs_branch_icon",
+        "settings": ["show_git_status_in_status_bar"],
+        "layer0.texture": "Meetio Theme/textures/actions/branch.png",
+        "content_margin": 8,
+        "layer0.tint": "var(statusbarIconColor)",
+        "layer0.inner_margin": 2,
+        "layer0.opacity": 1
+    },
+    {
+        "class": "vcs_branch_icon",
+        "attributes": ["hover"],
+        "layer0.opacity": 0.8
+    },
+    {
+        "class": "sidebar_button_control",
+        "layer0.texture": "Meetio Theme/textures/actions/sidebar.png",
+        "content_margin": 8,
+        "layer0.tint": "var(statusbarIconColor)",
+        "layer0.inner_margin": 2,
+        "layer0.opacity": 1
+    },
+    {
+        "class": "sidebar_button_control",
+        "attributes": ["hover"],
+        "layer0.opacity": 0.8
+    },
+    {
+        "class": "status_container",
+        "content_margin": [8, 0, 0, 0]
+    },
+    {
+        "class": "status_button",
+        "content_margin": [10, 0, 10, 0],
+        "min_size": [80, 0]
+    },
+    {
+        "class": "label_control",
+        "parents": [{ "class": "status_bar" }],
+        "font.size": "var(statusbarLabelFontSize)",
+        "color": "var(statusbarLabelColor)",
+        "font.bold": "var(statusbarLabelBold)"
+    }
+]

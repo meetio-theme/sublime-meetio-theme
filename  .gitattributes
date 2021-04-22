@@ -1,0 +1,11 @@
+.gitattributes    export-ignore
+.gitignore        export-ignore
+
+# Files
+README.md         export-ignore
+gulpfile.babel.js export-ignore
+
+# Folders
+/src              export-ignore
+/public           export-ignore
+/gulp-tasks       export-ignore

@@ -1,0 +1,29 @@
+[
+    {
+        "class": "button_control",
+        "layer0.tint": "var(buttonBackground)",
+        "layer0.opacity": {
+            "target": 0.6,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        },
+        "layer0.inner_margin": [6, 6],
+        "content_margin": [6, 10, 6, 10],
+        "min_size": "var(buttonMinSize)"
+    },
+    {
+        "class": "button_control",
+        "attributes": ["hover"],
+        "layer0.tint": "var(buttonBackgroundHover)",
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "button_control",
+        "attributes": ["pressed"],
+        "layer0.opacity": {
+            "target": 0.1,
+            "speed": 5.0,
+            "interpolation": "smoothstep"
+        }
+    }
+]

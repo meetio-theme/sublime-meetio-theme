@@ -1,0 +1,65 @@
+addon-store-border-color: #d95468 !default;
+addon-store-color: #333 !default;
+
+#app
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  width: 200px;
+  padding-right: @width / 2;
+  padding-left: @width / 2;
+
+  .addons-nav
+    .selected
+      border-bottom-color: addon-store-border-color !default
+      color: addon-store-color
+      font-weight: bold
+      padding: my-calculation-function(10px, 5px)
+
+      border-radius(5px, true, true, true)
+
+      &::after
+        display: block
+        content: '/'
+
+  a
+    color: addon-store-color
+
+    &:hover 
+      color: darken(addon-store-color, 30%)
+
+    &:focus
+      color: lighten(addon-store-color, 30%)
+
+.row
+  grid(true)
+
+/* Mixins */
+funcFlex()
+  display: flex
+
+
+grid(isFlex)
+  if (isFlex)
+    funcFlex()
+   else
+    display: block
+
+/* Functions */
+my-calculation-function(some-number, another-number)
+  return some-number + another-number
+
+
+border-radius(radius: 5px, moz: true, webkit: true, ms: true)
+  if moz
+    -moz-border-radius: radius
+
+  if webkit
+    -webkit-border-radius: radius
+
+  if ms
+    -ms-border-radius: radius
+
+  border-radius: radius
+
