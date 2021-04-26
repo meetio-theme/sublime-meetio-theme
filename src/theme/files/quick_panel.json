@@ -60,7 +60,13 @@
         "fg": "var(panelPathRowColor)",
         "match_fg": "var(panelRowMatchColor)",
         "selected_fg": "var(panelRowSelectedColor)",
-        "selected_match_fg": "var(panelRowSelectedMatchColor)",
+        "selected_match_fg": "var(panelRowSelectedMatchColor)"
+    },
+    {
+        "class": "quick_panel_detail_label",
+        "font.face": "var(fontFace)",
+        "font.size": "var(panelPathRowFontSize)",
+        "fg": "var(panelPathRowColor)",
         "link_color": "var(accent)"
     },
     {
