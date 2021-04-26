@@ -116,6 +116,11 @@
             "foreground": "var(pink)"
         },
         {
+            "name": "Message Error",
+            "scope": "message.error",
+            "background": "var(red)"
+        },
+        {
             "name": "DIFF - Deleted",
             "scope": "diff.deleted",
             "background": "color(var(diffDeleted) alpha(0.20))"

@@ -1,19 +1,8 @@
-import {
-    generateScheme,
-    options,
-    Rules,
-    SchemeSetting,
-} from '@meetio/scheme-generator';
-
+import { options, Rules } from '@meetio/scheme-generator';
+export { generateScheme } from '@meetio/scheme-generator';
 import { getColors, Theme } from './colors';
 
 const { ui, ...rest } = options;
-
-interface Scheme {
-    name: string;
-    author: string;
-    variables: SchemeSetting;
-}
 
 const global = {
     ...ui,
@@ -61,40 +50,3 @@ export function getScheme(theme: Theme) {
         ],
     };
 }
-
-[
-    {
-        name: 'Meetio Lighter',
-        author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
-        variables: getScheme('lighter'),
-    },
-    {
-        name: 'Meetio Darker',
-        author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
-        variables: getScheme('darker'),
-    },
-    {
-        name: 'Meetio Palenight',
-        author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
-        variables: getScheme('palenight'),
-    },
-    {
-        name: 'Meetio Deepocean',
-        author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
-        variables: getScheme('deepocean'),
-    },
-].map((scheme: Scheme) => {
-    const { colors, rules, ui } = scheme.variables;
-    generateScheme({
-        name: scheme.name,
-        author: scheme.author,
-        output: {
-            filename: scheme.name,
-        },
-        settings: {
-            colors,
-            ui,
-            rules,
-        },
-    });
-});

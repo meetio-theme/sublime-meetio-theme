@@ -11,7 +11,7 @@
         "caption": "Meetio Theme: Theme Configuration",
         "command": "edit_settings", "args":
         {
-            "base_file": "${packages}/Meetio Theme/Meetio-Theme.sublime-theme",
+            "base_file": "${packages}/Meetio Theme/Meetio Theme.sublime-theme",
             "default": "{\n    \"variables\": {\n\t\t$0\n\t}\n}\n"
             }
         }

@@ -66,9 +66,6 @@ This theme provide a visual configuration tool that allow you to configure the t
   "meetio_tabs_diff_icon": true, // show icon diff in tab.
   "meetio_tabs_diff_pencil_icon": false, // show diff pencil icon in tab.
 
-  // Global
-  "meetio_high_contrast": false, // increases the contrast between the editor.
-
   // Sidebar
   "meetio_sidebar_disclosure": false, // set disclosure tree controls.
 
