@@ -2245,7 +2245,6 @@ export function getThemeHighContrast(): ThemeSetting {
             ...variables,
             sidebarBackground: "color(var(background) blend(#555 92%))",
             statusbarBackground: "color(var(background) blend(#555 92%))",
-            panelControlBackground: "color(var(background) blend(#555 92%))",
             titleBarBackground: "color(var(background) blend(#555 92%))",
         },
         rules,
