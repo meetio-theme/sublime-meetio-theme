@@ -1,6 +1,6 @@
 import { generateScheme, getScheme } from './scheme';
 import { Scheme, Theme } from './interfaces';
-import { generateTheme, getTheme, getThemeDefault, getThemeHighContrast } from './theme';
+import { generateTheme, getThemeHidden, getThemeDefault, getThemeHighContrast } from './theme';
 
 [
     {
@@ -42,7 +42,7 @@ import { generateTheme, getTheme, getThemeDefault, getThemeHighContrast } from '
 [
     {
         name: 'Meetio Theme',
-        settings: getTheme(),
+        settings: getThemeHidden(),
         hidden: true,
     },
     {

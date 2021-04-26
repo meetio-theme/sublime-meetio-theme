@@ -2223,7 +2223,7 @@ export const rules = [
     },
 ];
 
-export function getTheme(): ThemeSetting {
+export function getThemeHidden(): ThemeSetting {
     return {
         variables,
         rules,
@@ -2243,10 +2243,10 @@ export function getThemeHighContrast(): ThemeSetting {
         extends: 'Meetio Theme.hidden-theme',
         variables: {
             ...variables,
-            sidebarBackground: "color(var(background) blend(#000 92%))",
-            statusbarBackground: "color(var(background) blend(#000 92%))",
-            panelControlBackground: "color(var(background) blend(#000 92%))",
-            titleBarBackground: "color(var(background) blend(#000 92%))",
+            sidebarBackground: "color(var(background) blend(#555 92%))",
+            statusbarBackground: "color(var(background) blend(#555 92%))",
+            panelControlBackground: "color(var(background) blend(#555 92%))",
+            titleBarBackground: "color(var(background) blend(#555 92%))",
         },
         rules,
     };

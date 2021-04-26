@@ -4,20 +4,6 @@ import { getColors, Theme } from './colors';
 
 const { ui, ...rest } = options;
 
-const global = {
-    ...ui,
-    ...{
-        tags_options: 'underline',
-        brackets_options: 'underline, glow',
-        line_highlight: '#00000040',
-        selection: '#61616150',
-        gutter_foreground: '#424242',
-        shadow: '#00000030',
-        find_highlight: '#FFCC00',
-        inactive_selection: '#00000030',
-    },
-};
-
 const rules: Rules[] = [
     {
         name: 'PYTHON - Parameters Annotation ',
@@ -40,7 +26,7 @@ const rules: Rules[] = [
 export function getScheme(theme: Theme) {
     return {
         colors: getColors(theme),
-        ui: global,
+        ui,
         rules: [
             ...[].concat.apply(
                 [],

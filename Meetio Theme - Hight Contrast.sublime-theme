@@ -47,7 +47,7 @@
             "foreground",
             0.1
         ],
-        "panelControlBackground": "color(var(background) blend(#000 92%))",
+        "panelControlBackground": "color(var(background) blend(#555 92%))",
         "panelPathRowFontSize": "var(fontSizeSm)",
         "panelPathRowFontItalic": true,
         "panelPathRowColor": "var(foreground)",
@@ -82,7 +82,7 @@
             12,
             8
         ],
-        "sidebarBackground": "color(var(background) blend(#000 92%))",
+        "sidebarBackground": "color(var(background) blend(#555 92%))",
         "sidebarHeadingFontSize": "var(fontSizeSm)",
         "sidebarLabelFontSize": "var(fontSizeMd)",
         "sidebarLabelPadding": [
@@ -109,7 +109,7 @@
         "sidebarIconFolderColor": "var(sidebarLabelColor)",
         "sidebarIconFolderExpandedColor": "var(sidebarLabelExpandableColor)",
         "sidebarIconFileSize": 7,
-        "statusbarBackground": "color(var(background) blend(#000 92%))",
+        "statusbarBackground": "color(var(background) blend(#555 92%))",
         "statusbarLabelColor": "color(var(colorDark) l(+ 20%))",
         "statusbarIconColor": "var(statusbarLabelColor)",
         "statusbarLabelBold": false,
@@ -150,7 +150,7 @@
         ],
         "tabCloseSelectedColor": "var(foreground)",
         "tabCloseHoverColor": "var(accent)",
-        "titleBarBackground": "color(var(background) blend(#000 92%))",
+        "titleBarBackground": "color(var(background) blend(#555 92%))",
         "titleBarColor": "color(var(colorDark) l(+ 20%))",
         "tooltipBackground": "var(foreground)",
         "tooltipLabelColor": "var(background)",
