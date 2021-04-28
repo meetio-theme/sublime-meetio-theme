@@ -24,12 +24,21 @@ const rules: Rules[] = [
 ];
 
 export function getScheme(theme: Theme) {
+    const { base } = getColors(theme);
+
+    const colors = {
+        ...getColors(theme),
+        diffModified: `${base?.blue}60`,
+        diffAdded: `${base?.green}60`,
+        diffDeleted: `${base?.red}60`,
+    };
+
     return {
-        colors: getColors(theme),
+        colors,
         ui: {
             ...ui,
             ...{
-                line_diff_width: '2',
+                line_diff_width: '3',
             },
         },
         rules: [

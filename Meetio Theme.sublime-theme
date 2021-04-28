@@ -4,7 +4,6 @@
         "accent": "var(--accent)",
         "foreground": "var(--foreground)",
         "background": "var(--background)",
-        "colorDark": "#455A64",
         "fontSizeSm": 11,
         "fontSizeMd": 12,
         "fontSizeLg": 14,
@@ -48,6 +47,7 @@
             0.1
         ],
         "panelControlBackground": "var(background)",
+        "panelControlBorder": "var(panelControlBackground)",
         "panelPathRowFontSize": "var(fontSizeSm)",
         "panelPathRowFontItalic": true,
         "panelPathRowColor": "var(foreground)",
@@ -57,7 +57,7 @@
         ],
         "panelRowFontSize": "var(fontSizeMd)",
         "panelRowBackground": "var(background)",
-        "panelRowColor": "color(var(colorDark) l(+ 20%))",
+        "panelRowColor": "color(#455A64 l(+ 20%))",
         "panelRowSelectedBackground": [
             "foreground",
             0.1
@@ -83,7 +83,7 @@
             8
         ],
         "sidebarBackground": "var(background)",
-        "sidebarBorder": "var(background)",
+        "sidebarBorder": "var(sidebarBackground)",
         "sidebarHeadingFontSize": "var(fontSizeSm)",
         "sidebarLabelFontSize": "var(fontSizeMd)",
         "sidebarLabelPadding": [
@@ -92,7 +92,7 @@
         ],
         "sidebarIndent": 20,
         "sidebarIndentOffset": 14,
-        "sidebarLabelColor": "color(var(colorDark) l(+ 20%))",
+        "sidebarLabelColor": "color(#455A64 l(+ 20%))",
         "sidebarLabelColorHover": "var(foreground)",
         "sidebarLabelSelectedBackground": [
             "foreground",
@@ -111,8 +111,8 @@
         "sidebarIconFolderExpandedColor": "var(sidebarLabelExpandableColor)",
         "sidebarIconFileSize": 7,
         "statusbarBackground": "var(background)",
-        "statusBarBorder": "var(background)",
-        "statusbarLabelColor": "color(var(colorDark) l(+ 20%))",
+        "statusBarBorder": "var(statusbarBackground)",
+        "statusbarLabelColor": "color(#455A64 l(+ 20%))",
         "statusbarIconColor": "var(statusbarLabelColor)",
         "statusbarLabelBold": false,
         "statusbarLabelFontSize": "var(fontSizeSm)",
@@ -129,7 +129,7 @@
             0.5
         ],
         "tabBackground": "var(background)",
-        "tabBorder": "var(background)",
+        "tabBorder": "var(tabBackground)",
         "tabBackgroundSheetModifier": "blend(var(accent) 95%)",
         "tabSelectedBorderColor": "var(accent)",
         "tabSelectedBorderSize": [
@@ -154,10 +154,10 @@
         "tabCloseSelectedColor": "var(foreground)",
         "tabCloseHoverColor": "var(accent)",
         "titleBarBackground": "var(background)",
-        "titleBarColor": "color(var(colorDark) l(+ 20%))",
+        "titleBarColor": "color(#455A64 l(+ 20%))",
         "tooltipBackground": "var(foreground)",
         "tooltipLabelColor": "var(background)",
-        "gridLayoutBorderColor": "color(var(accent) blenda(var(colorDark) 30%))",
+        "gridLayoutBorderColor": "color(var(accent) blenda(#455A64 30%))",
         "gridLayoutBorderSize": 2,
         "minimapColor": "color(var(accent) a(0.2))",
         "minimapOpacity": "0.5",
@@ -171,12 +171,13 @@
         ],
         "vcsBadgeSize": 5,
         "vcsIgnored": "color(var(sidebarLabelColor) a(0.5))",
-        "vcsModified": "var(--redish)",
-        "vcsUnmerged": "var(--bluish)",
-        "vcsDeleted": "var(--bluish)",
-        "vcsStaged": "var(--yellowish)",
-        "vcsUntracked": "var(--greenish)",
-        "vcsMissing": "var(--orangish)"
+        "vcsUntracked": "color(darkseagreen a(0.9))",
+        "vcsModified": "color(cornflowerblue a(0.9))",
+        "vcsMissing": "color(crimson a(0.9))",
+        "vcsAdded": "color(darkseagreen a(0.9))",
+        "vcsStaged": "color(goldenrod a(0.9))",
+        "vcsDeleted": "color(red a(0.9))",
+        "vcsUnmerged": "color(slateblue a(0.9))"
     },
     "rules": [
         {
@@ -2790,7 +2791,7 @@
                 }
             ],
             "layer0.texture": "Meetio Theme/textures/vcs/vcs_added.png",
-            "layer0.tint": "var(vcsUntracked)",
+            "layer0.tint": "var(vcsAdded)",
             "content_margin": "var(vcsBadgeSize)"
         },
         {
@@ -2923,7 +2924,7 @@
                     ]
                 }
             ],
-            "color": "var(vcsUntracked)"
+            "color": "var(vcsAdded)"
         },
         {
             "class": "sidebar_label",
