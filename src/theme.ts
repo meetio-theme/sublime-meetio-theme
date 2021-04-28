@@ -38,7 +38,7 @@ export const variables: ThemeVariables = {
     panelRowPadding: [10, 10],
     panelRowFontSize: 'var(fontSizeMd)',
     panelRowBackground: 'var(background)',
-    panelRowColor: 'color(#455A64 l(+ 20%))',
+    panelRowColor: 'color(var(background) blend(var(foreground) 30%))',
     panelRowSelectedBackground: ['foreground', 0.1],
     panelRowSelectedColor: 'var(foreground)',
     panelRowMatchColor: 'var(accent)',
@@ -54,7 +54,7 @@ export const variables: ThemeVariables = {
     sidebarLabelPadding: [14, 3],
     sidebarIndent: 20,
     sidebarIndentOffset: 14,
-    sidebarLabelColor: 'color(#455A64 l(+ 20%))',
+    sidebarLabelColor: 'color(var(background) blend(var(foreground) 30%))',
     sidebarLabelColorHover: 'var(foreground)',
     sidebarLabelSelectedBackground: ['foreground', 0.06],
     sidebarLabelSelectedColor: 'var(accent)',
@@ -66,7 +66,7 @@ export const variables: ThemeVariables = {
     sidebarIconFileSize: 7,
     statusbarBackground: 'var(background)',
     statusBarBorder: 'var(statusbarBackground)',
-    statusbarLabelColor: 'color(#455A64 l(+ 20%))',
+    statusbarLabelColor: 'color(var(background) blend(var(foreground) 30%))',
     statusbarIconColor: 'var(statusbarLabelColor)',
     statusbarLabelBold: false,
     statusbarLabelFontSize: 'var(fontSizeSm)',
@@ -92,7 +92,7 @@ export const variables: ThemeVariables = {
     tabCloseSelectedColor: 'var(foreground)',
     tabCloseHoverColor: 'var(accent)',
     titleBarBackground: 'var(background)',
-    titleBarColor: 'color(#455A64 l(+ 20%))',
+    titleBarColor: 'color(var(background) blend(var(foreground) 30%))',
     tooltipBackground: 'var(foreground)',
     tooltipLabelColor: 'var(background)',
     gridLayoutBorderColor: 'color(var(accent) blenda(#455A64 30%))',
@@ -109,7 +109,7 @@ export const variables: ThemeVariables = {
     // when a file has been changed on disk
     vcsModified: 'color(cornflowerblue a(0.9))',
     // when one or more of a folder‘s files is no longer on disk
-    vcsMissing: 'color(crimson a(0.9))',
+    vcsMissing: 'color(sandybrown a(0.9))',
     // when a new file has been newly added to the index
     vcsAdded:  'color(darkseagreen a(0.9))',
     // when a modified file has been added to the index
@@ -2280,19 +2280,15 @@ export function getThemeHighContrast(): ThemeSetting {
         extends: 'Meetio Theme.hidden-theme',
         variables: {
             ...variables,
-            titleBarBackground:
-                'color(var(background) blend(var(foreground) 96%))',
-            tabBorder: 'color(var(tabBackground) blend(var(foreground) 90%))',
-            sidebarBackground:
-                'color(var(background) blend(var(foreground) 96%))',
-            sidebarBorder:
-                'color(var(sidebarBackground) blend(var(foreground) 90%))',
-            statusbarBackground:
-                'color(var(background) blend(var(foreground) 96%))',
-            statusBarBorder:
-                'color(var(statusbarBackground) blend(var(foreground) 90%))',
-            panelControlBorder:
-                'color(var(panelControlBackground) blend(var(foreground) 90%))',
+            backgroundContrast: 'color(var(foreground) blend(var(background) 5%)))',
+            borderContrast: 'color(var(foreground) blend(var(background) 15%)))',
+            titleBarBackground: 'var(backgroundContrast)',
+            sidebarBackground: 'var(backgroundContrast)',
+            statusbarBackground: 'var(backgroundContrast)',
+            sidebarBorder: 'var(borderContrast)',
+            tabBorder: 'var(borderContrast)',
+            statusBarBorder: 'var(borderContrast)',
+            panelControlBorder: 'var(borderContrast)',
         },
         rules,
     };

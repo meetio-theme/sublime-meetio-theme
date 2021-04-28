@@ -47,7 +47,7 @@
             0.1
         ],
         "panelControlBackground": "var(background)",
-        "panelControlBorder": "color(var(panelControlBackground) blend(var(foreground) 90%))",
+        "panelControlBorder": "var(borderContrast)",
         "panelPathRowFontSize": "var(fontSizeSm)",
         "panelPathRowFontItalic": true,
         "panelPathRowColor": "var(foreground)",
@@ -57,7 +57,7 @@
         ],
         "panelRowFontSize": "var(fontSizeMd)",
         "panelRowBackground": "var(background)",
-        "panelRowColor": "color(#455A64 l(+ 20%))",
+        "panelRowColor": "color(var(background) blend(var(foreground) 30%))",
         "panelRowSelectedBackground": [
             "foreground",
             0.1
@@ -82,8 +82,8 @@
             12,
             8
         ],
-        "sidebarBackground": "color(var(background) blend(var(foreground) 96%))",
-        "sidebarBorder": "color(var(sidebarBackground) blend(var(foreground) 90%))",
+        "sidebarBackground": "var(backgroundContrast)",
+        "sidebarBorder": "var(borderContrast)",
         "sidebarHeadingFontSize": "var(fontSizeSm)",
         "sidebarLabelFontSize": "var(fontSizeMd)",
         "sidebarLabelPadding": [
@@ -92,7 +92,7 @@
         ],
         "sidebarIndent": 20,
         "sidebarIndentOffset": 14,
-        "sidebarLabelColor": "color(#455A64 l(+ 20%))",
+        "sidebarLabelColor": "color(var(background) blend(var(foreground) 30%))",
         "sidebarLabelColorHover": "var(foreground)",
         "sidebarLabelSelectedBackground": [
             "foreground",
@@ -110,9 +110,9 @@
         "sidebarIconFolderColor": "var(sidebarLabelColor)",
         "sidebarIconFolderExpandedColor": "var(sidebarLabelExpandableColor)",
         "sidebarIconFileSize": 7,
-        "statusbarBackground": "color(var(background) blend(var(foreground) 96%))",
-        "statusBarBorder": "color(var(statusbarBackground) blend(var(foreground) 90%))",
-        "statusbarLabelColor": "color(#455A64 l(+ 20%))",
+        "statusbarBackground": "var(backgroundContrast)",
+        "statusBarBorder": "var(borderContrast)",
+        "statusbarLabelColor": "color(var(background) blend(var(foreground) 30%))",
         "statusbarIconColor": "var(statusbarLabelColor)",
         "statusbarLabelBold": false,
         "statusbarLabelFontSize": "var(fontSizeSm)",
@@ -129,7 +129,7 @@
             0.5
         ],
         "tabBackground": "var(background)",
-        "tabBorder": "color(var(tabBackground) blend(var(foreground) 90%))",
+        "tabBorder": "var(borderContrast)",
         "tabBackgroundSheetModifier": "blend(var(accent) 95%)",
         "tabSelectedBorderColor": "var(accent)",
         "tabSelectedBorderSize": [
@@ -153,8 +153,8 @@
         ],
         "tabCloseSelectedColor": "var(foreground)",
         "tabCloseHoverColor": "var(accent)",
-        "titleBarBackground": "color(var(background) blend(var(foreground) 96%))",
-        "titleBarColor": "color(#455A64 l(+ 20%))",
+        "titleBarBackground": "var(backgroundContrast)",
+        "titleBarColor": "color(var(background) blend(var(foreground) 30%))",
         "tooltipBackground": "var(foreground)",
         "tooltipLabelColor": "var(background)",
         "gridLayoutBorderColor": "color(var(accent) blenda(#455A64 30%))",
@@ -173,11 +173,13 @@
         "vcsIgnored": "color(var(sidebarLabelColor) a(0.5))",
         "vcsUntracked": "color(darkseagreen a(0.9))",
         "vcsModified": "color(cornflowerblue a(0.9))",
-        "vcsMissing": "color(crimson a(0.9))",
+        "vcsMissing": "color(sandybrown a(0.9))",
         "vcsAdded": "color(darkseagreen a(0.9))",
         "vcsStaged": "color(goldenrod a(0.9))",
         "vcsDeleted": "color(red a(0.9))",
-        "vcsUnmerged": "color(slateblue a(0.9))"
+        "vcsUnmerged": "color(slateblue a(0.9))",
+        "backgroundContrast": "color(var(foreground) blend(var(background) 5%)))",
+        "borderContrast": "color(var(foreground) blend(var(background) 15%)))"
     },
     "rules": [
         {

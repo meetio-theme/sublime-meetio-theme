@@ -51,7 +51,7 @@ import { generateTheme, getThemeHidden, getThemeDefault, getThemeHighContrast } 
         hidden: false,
     },
     {
-        name: 'Meetio Theme - Hight Contrast',
+        name: 'Meetio Theme Hight Contrast',
         settings: getThemeHighContrast(),
         hidden: false,
     },
