@@ -4,9 +4,6 @@
   // Show diff pencil icon in tab.
   "meetio_tabs_diff_pencil_icon": true,
 
-  // option increases the contrast between the editor.
-  "meetio_high_contrast": false,
-
   // Set disclosure tree controls.
   "meetio_sidebar_disclosure": false,
 

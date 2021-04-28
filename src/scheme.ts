@@ -29,7 +29,7 @@ export function getScheme(theme: Theme) {
         ui: {
             ...ui,
             ...{
-                line_diff_width: '3',
+                line_diff_width: '2',
             },
         },
         rules: [
