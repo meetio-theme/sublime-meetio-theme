@@ -26,7 +26,12 @@ const rules: Rules[] = [
 export function getScheme(theme: Theme) {
     return {
         colors: getColors(theme),
-        ui,
+        ui: {
+            ...ui,
+            ...{
+                line_diff_width: '3',
+            },
+        },
         rules: [
             ...[].concat.apply(
                 [],

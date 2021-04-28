@@ -48,6 +48,7 @@ export const variables: ThemeVariables = {
     inputBorderSize: [0, 0, 0, 1],
     inputBorderMargin: [12, 8, 12, 8],
     sidebarBackground: 'var(background)',
+    sidebarBorder: 'var(background)',
     sidebarHeadingFontSize: 'var(fontSizeSm)',
     sidebarLabelFontSize: 'var(fontSizeMd)',
     sidebarLabelPadding: [14, 3],
@@ -64,6 +65,7 @@ export const variables: ThemeVariables = {
     sidebarIconFolderExpandedColor: 'var(sidebarLabelExpandableColor)',
     sidebarIconFileSize: 7,
     statusbarBackground: 'var(background)',
+    statusBarBorder: 'var(background)',
     statusbarLabelColor: 'color(var(colorDark) l(+ 20%))',
     statusbarIconColor: 'var(statusbarLabelColor)',
     statusbarLabelBold: false,
@@ -73,6 +75,7 @@ export const variables: ThemeVariables = {
     tabFontSize: 'var(fontSizeSm)',
     tabColor: ['foreground', 0.5],
     tabBackground: 'var(background)',
+    tabBorder: 'var(background)',
     tabBackgroundSheetModifier: 'blend(var(accent) 95%)',
     tabSelectedBorderColor: 'var(accent)',
     tabSelectedBorderSize: [0, 0, 0, 2],
@@ -1065,9 +1068,10 @@ export const rules = [
         'layer0.tint': 'var(panelControlBackground)',
         'layer0.opacity': 1,
         'layer0.inner_margin': [2, 2, 2, 2],
-        'layer1.opacity': 0,
+        'layer1.tint': 'var(panelControlBorder)',
+        'layer1.opacity': 1,
         'layer1.draw_center': false,
-        'layer1.inner_margin': [0, 1, 0, 0],
+        'layer1.inner_margin': [0, 1, 0, 1],
         content_margin: [12, 12],
     },
     {
@@ -1223,12 +1227,23 @@ export const rules = [
     },
     {
         class: 'status_bar',
+        content_margin: 'var(statusbarMargin)',
         'layer0.opacity': 1,
         'layer0.tint': 'var(statusbarBackground)',
-        content_margin: 'var(statusbarMargin)',
         'layer1.inner_margin': [0, 1, 0, 0],
-        'layer1.opacity': 0,
+        'layer1.opacity': 1,
+        'layer1.tint': 'var(statusBarBorder)',
         'layer1.draw_center': false,
+    },
+    {
+        class: 'status_bar',
+        attributes: ['panel_visible'],
+        'layer1.opacity': 0,
+    },
+    {
+        class: 'status_bar',
+        attributes: ['!panel_visible'],
+        'layer1.opacity': 1,
     },
     {
         class: 'panel_button_control',
@@ -1298,9 +1313,11 @@ export const rules = [
     {
         class: 'sidebar_container',
         'layer0.tint': 'var(sidebarBackground)',
-        'layer1.inner_margin': [0, 1, 1, 0],
         'layer0.opacity': 1,
+        'layer1.opacity': 1,
+        'layer1.inner_margin': [0, 1, 1, 0],
         'layer1.draw_center': false,
+        'layer1.tint': 'var(sidebarBorder)',
         content_margin: [0, 6, 0, 0],
     },
     {
@@ -1629,16 +1646,24 @@ export const rules = [
         platforms: ['windows'],
         content_margin: 4,
     },
+
     {
         class: 'tabset_control',
-        'layer0.opacity': 1,
         'layer0.tint': 'var(tabBackground)',
-        tint_index: 1,
+        'layer0.opacity': 1,
+        'layer1.draw_center': false,
+        'layer1.inner_margin': [0, 1, 0, 0],
+        'layer1.tint': 'var(tabBorder)',
+        'layer1.opacity': 1,
+
+        connector_height: 0,
+        tint_index: 0,
         tab_overlap: 0,
         tab_width: 'var(tabWidth)',
         tab_height: 'var(tabHeight)',
         content_margin: 'var(tabMargin)',
         mouse_wheel_switch: false,
+        tint_modifier: 'var(tabBackground)',
     },
     {
         class: 'tabset_control',
@@ -1655,7 +1680,10 @@ export const rules = [
         'layer1.inner_margin': 8,
         'layer1.opacity': 0,
         'layer2.opacity': 0,
-        'layer3.opacity': 0,
+        'layer3.draw_center': false,
+        'layer3.inner_margin': [0, 1, 0, 0],
+        'layer3.tint': 'var(tabBorder)',
+        'layer3.opacity': 1,
         content_margin: [8, 0, 8, 0],
         max_margin_trim: 0,
     },
@@ -2243,9 +2271,19 @@ export function getThemeHighContrast(): ThemeSetting {
         extends: 'Meetio Theme.hidden-theme',
         variables: {
             ...variables,
-            sidebarBackground: "color(var(background) blend(#555 92%))",
-            statusbarBackground: "color(var(background) blend(#555 92%))",
-            titleBarBackground: "color(var(background) blend(#555 92%))",
+            titleBarBackground:
+                'color(var(background) blend(var(foreground) 96%))',
+            tabBorder: 'color(var(tabBackground) blend(var(foreground) 90%))',
+            sidebarBackground:
+                'color(var(background) blend(var(foreground) 96%))',
+            sidebarBorder:
+                'color(var(sidebarBackground) blend(var(foreground) 90%))',
+            statusbarBackground:
+                'color(var(background) blend(var(foreground) 96%))',
+            statusBarBorder:
+                'color(var(statusbarBackground) blend(var(foreground) 90%))',
+            panelControlBorder:
+                'color(var(panelControlBackground) blend(var(foreground) 90%))',
         },
         rules,
     };

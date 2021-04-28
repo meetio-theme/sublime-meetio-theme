@@ -82,7 +82,8 @@
             12,
             8
         ],
-        "sidebarBackground": "color(var(background) blend(#555 92%))",
+        "sidebarBackground": "color(var(background) blend(var(foreground) 96%))",
+        "sidebarBorder": "color(var(sidebarBackground) blend(var(foreground) 90%))",
         "sidebarHeadingFontSize": "var(fontSizeSm)",
         "sidebarLabelFontSize": "var(fontSizeMd)",
         "sidebarLabelPadding": [
@@ -109,7 +110,8 @@
         "sidebarIconFolderColor": "var(sidebarLabelColor)",
         "sidebarIconFolderExpandedColor": "var(sidebarLabelExpandableColor)",
         "sidebarIconFileSize": 7,
-        "statusbarBackground": "color(var(background) blend(#555 92%))",
+        "statusbarBackground": "color(var(background) blend(var(foreground) 96%))",
+        "statusBarBorder": "color(var(statusbarBackground) blend(var(foreground) 90%))",
         "statusbarLabelColor": "color(var(colorDark) l(+ 20%))",
         "statusbarIconColor": "var(statusbarLabelColor)",
         "statusbarLabelBold": false,
@@ -127,6 +129,7 @@
             0.5
         ],
         "tabBackground": "var(background)",
+        "tabBorder": "color(var(tabBackground) blend(var(foreground) 90%))",
         "tabBackgroundSheetModifier": "blend(var(accent) 95%)",
         "tabSelectedBorderColor": "var(accent)",
         "tabSelectedBorderSize": [
@@ -150,7 +153,7 @@
         ],
         "tabCloseSelectedColor": "var(foreground)",
         "tabCloseHoverColor": "var(accent)",
-        "titleBarBackground": "color(var(background) blend(#555 92%))",
+        "titleBarBackground": "color(var(background) blend(var(foreground) 96%))",
         "titleBarColor": "color(var(colorDark) l(+ 20%))",
         "tooltipBackground": "var(foreground)",
         "tooltipLabelColor": "var(background)",
@@ -173,7 +176,8 @@
         "vcsDeleted": "var(--bluish)",
         "vcsStaged": "var(--yellowish)",
         "vcsUntracked": "var(--greenish)",
-        "vcsMissing": "var(--orangish)"
+        "vcsMissing": "var(--orangish)",
+        "panelControlBorder": "color(var(panelControlBackground) blend(var(foreground) 90%))"
     },
     "rules": [
         {
@@ -1359,13 +1363,14 @@
                 2,
                 2
             ],
-            "layer1.opacity": 0,
+            "layer1.tint": "var(panelControlBorder)",
+            "layer1.opacity": 1,
             "layer1.draw_center": false,
             "layer1.inner_margin": [
                 0,
                 1,
                 0,
-                0
+                1
             ],
             "content_margin": [
                 12,
@@ -1580,17 +1585,32 @@
         },
         {
             "class": "status_bar",
+            "content_margin": "var(statusbarMargin)",
             "layer0.opacity": 1,
             "layer0.tint": "var(statusbarBackground)",
-            "content_margin": "var(statusbarMargin)",
             "layer1.inner_margin": [
                 0,
                 1,
                 0,
                 0
             ],
-            "layer1.opacity": 0,
+            "layer1.opacity": 1,
+            "layer1.tint": "var(statusBarBorder)",
             "layer1.draw_center": false
+        },
+        {
+            "class": "status_bar",
+            "attributes": [
+                "panel_visible"
+            ],
+            "layer1.opacity": 0
+        },
+        {
+            "class": "status_bar",
+            "attributes": [
+                "!panel_visible"
+            ],
+            "layer1.opacity": 1
         },
         {
             "class": "panel_button_control",
@@ -1683,14 +1703,16 @@
         {
             "class": "sidebar_container",
             "layer0.tint": "var(sidebarBackground)",
+            "layer0.opacity": 1,
+            "layer1.opacity": 1,
             "layer1.inner_margin": [
                 0,
                 1,
                 1,
                 0
             ],
-            "layer0.opacity": 1,
             "layer1.draw_center": false,
+            "layer1.tint": "var(sidebarBorder)",
             "content_margin": [
                 0,
                 6,
@@ -2126,14 +2148,25 @@
         },
         {
             "class": "tabset_control",
-            "layer0.opacity": 1,
             "layer0.tint": "var(tabBackground)",
-            "tint_index": 1,
+            "layer0.opacity": 1,
+            "layer1.draw_center": false,
+            "layer1.inner_margin": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "layer1.tint": "var(tabBorder)",
+            "layer1.opacity": 1,
+            "connector_height": 0,
+            "tint_index": 0,
             "tab_overlap": 0,
             "tab_width": "var(tabWidth)",
             "tab_height": "var(tabHeight)",
             "content_margin": "var(tabMargin)",
-            "mouse_wheel_switch": false
+            "mouse_wheel_switch": false,
+            "tint_modifier": "var(tabBackground)"
         },
         {
             "class": "tabset_control",
@@ -2162,7 +2195,15 @@
             "layer1.inner_margin": 8,
             "layer1.opacity": 0,
             "layer2.opacity": 0,
-            "layer3.opacity": 0,
+            "layer3.draw_center": false,
+            "layer3.inner_margin": [
+                0,
+                1,
+                0,
+                0
+            ],
+            "layer3.tint": "var(tabBorder)",
+            "layer3.opacity": 1,
             "content_margin": [
                 8,
                 0,
