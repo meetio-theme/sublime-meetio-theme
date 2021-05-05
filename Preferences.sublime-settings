@@ -11,5 +11,5 @@
   "meetio_input_search_icon": true,
 
   // Show button close on "Find" panel.
-  "meetio_panel_close_button": true
+  "meetio_panel_close_button": true,
 }

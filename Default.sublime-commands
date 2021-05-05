@@ -22,5 +22,9 @@
             "base_file": "${packages}/Meetio Theme/Meetio Theme - Hight Contrast.sublime-theme",
             "default": "{\n    \"variables\": {\n\t\t$0\n\t}\n}\n"
         }
+    },
+    {
+        "caption": "Meetio Theme - Configuration",
+        "command": "meetio_settings"
     }
 ]
