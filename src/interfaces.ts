@@ -22,22 +22,23 @@ export interface ThemeSetting {
     rules?: any;
 }
 
+interface Output {
+    /** Scheme file name */
+    filename: string;
+    /** Folder destination */
+    path?: string;
+    /** Extension file */
+    extension?: string;
+}
+
 export interface Theme {
-    name: string;
     settings: ThemeSetting;
-    hidden: boolean;
+    output: Output;
 }
 
 export interface GenerateTheme {
     /** Settings of scheme */
     settings: ThemeSetting;
     /** Output Management */
-    output: {
-        /** Scheme file name */
-        filename: string;
-        /** Folder destination */
-        path?: string;
-        /** Extension file */
-        extension?: string;
-    };
+    output: Output
 }

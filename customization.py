@@ -4,31 +4,27 @@ import sublime_plugin
 OPTIONAL_SETTINGS = {
     "meetio_tabs_diff_icon": {
         "default": True,
-        "description": "Show icon diff if the tab as modified.",
+        "description": "Icon diff if the tab as modified.",
         "title": "Show Tab Diff Icon"
     },
-
     "meetio_tabs_diff_pencil_icon": {
         "default": True,
-        "description": "Show diff pencil if the tab as modified.",
+        "description": "Diff pencil if the tab as modified.",
         "title": "Show Tab Diff Pencil"
     },
-
     "meetio_sidebar_disclosure": {
         "default": True,
-        "description": "Show an expand/collapse icon present in all tree rows that can be expanded.",
+        "description": "An expand/collapse icon present in all tree rows that can be expanded.",
         "title": "Show Sidebar Disclosure"
     },
-
     "meetio_input_search_icon": {
         "default": True,
-        "description": "Show the search icon in the text input used by the Quick Panel.",
+        "description": "The search icon in the text input used by the Quick Panel.",
         "title": "Show Search Icon"
     },
-
     "meetio_panel_close_button": {
         "default": True,
-        "description": "Show the button to close the open panel.",
+        "description": "The button to close the open panel.",
         "title": "Show close button in Panel."
     },
 }
@@ -65,9 +61,7 @@ class MeetioSettingsInputHandler(sublime_plugin.ListInputHandler):
             sublime.ListInputItem(
                 OPTIONAL_SETTINGS[index]['title'],
                 index,
-                '<i> %s </i>' % (
-                OPTIONAL_SETTINGS[index]['description'])
-            )
+                '%s' % (OPTIONAL_SETTINGS[index]['description']))
             for index in OPTIONAL_SETTINGS
         ]
 

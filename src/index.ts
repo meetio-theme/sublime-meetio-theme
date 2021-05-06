@@ -1,3 +1,4 @@
+import * as path from 'path';
 import { generateScheme, getScheme } from './scheme';
 import { Scheme, Theme } from './interfaces';
 import { generateTheme, getThemeHidden, getThemeDefault, getThemeHighContrast } from './theme';
@@ -41,26 +42,29 @@ import { generateTheme, getThemeHidden, getThemeDefault, getThemeHighContrast } 
 
 [
     {
-        name: 'Meetio Theme',
         settings: getThemeHidden(),
-        hidden: true,
+        output: {
+            filename: 'Meetio Theme',
+            extension: '.hidden-theme',
+            // eslint-disable-next-line no-undef
+            path: path.resolve(__dirname, '../themes')
+        },
     },
     {
-        name: 'Meetio Theme',
         settings: getThemeDefault(),
-        hidden: false,
+        output: {
+            filename: 'Meetio Theme',
+        },
     },
     {
-        name: 'Meetio Theme Hight Contrast',
         settings: getThemeHighContrast(),
-        hidden: false,
+        output: {
+            filename: 'Meetio Theme Hight Contrast',
+        },
     },
 ].map((theme: Theme) => {
     generateTheme({
-        output: {
-            filename: theme.name,
-            extension: theme.hidden ? '.hidden-theme' : '.sublime-theme',
-        },
+        output: theme.output,
         settings: theme.settings,
     });
 });

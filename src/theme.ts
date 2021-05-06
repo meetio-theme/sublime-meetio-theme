@@ -67,8 +67,9 @@ export const variables: ThemeVariables = {
     statusbarBackground: 'var(background)',
     statusBarBorder: 'var(statusbarBackground)',
     statusbarLabelColor: 'color(var(background) blend(var(foreground) 30%))',
+    statusbarLabelColorHover: 'var(foreground)',
     statusbarIconColor: 'var(statusbarLabelColor)',
-    statusbarLabelBold: false,
+    statusbarIconColorHover: 'var(statusbarLabelColorHover)',
     statusbarLabelFontSize: 'var(fontSizeSm)',
     statusbarMargin: [10, 4, 0, 4],
     tabBold: false,
@@ -111,7 +112,7 @@ export const variables: ThemeVariables = {
     // when one or more of a folder‘s files is no longer on disk
     vcsMissing: 'color(sandybrown a(0.9))',
     // when a new file has been newly added to the index
-    vcsAdded:  'color(darkseagreen a(0.9))',
+    vcsAdded: 'color(darkseagreen a(0.9))',
     // when a modified file has been added to the index
     vcsStaged: 'color(goldenrod a(0.9))',
     // when one or more of a folder‘s files has been added to the index for removal
@@ -1255,13 +1256,13 @@ export const rules = [
         'layer0.texture': 'Meetio Theme/textures/actions/menu.png',
         'layer0.tint': 'var(statusbarIconColor)',
         'layer0.opacity': 1,
-        content_margin: 9,
         'layer0.inner_margin': 4,
+        content_margin: 9,
     },
     {
         class: 'panel_button_control',
         attributes: ['hover'],
-        'layer0.opacity': 0.8,
+        'layer0.tint': 'var(statusbarIconColorHover)',
     },
     {
         class: 'vcs_branch_icon',
@@ -1280,7 +1281,7 @@ export const rules = [
     {
         class: 'vcs_branch_icon',
         attributes: ['hover'],
-        'layer0.opacity': 0.8,
+        'layer0.tint': 'var(statusbarIconColorHover)',
     },
     {
         class: 'sidebar_button_control',
@@ -1293,7 +1294,7 @@ export const rules = [
     {
         class: 'sidebar_button_control',
         attributes: ['hover'],
-        'layer0.opacity': 0.8,
+        'layer0.tint': 'var(statusbarIconColorHover)',
     },
     {
         class: 'status_container',
@@ -1303,17 +1304,6 @@ export const rules = [
         class: 'status_button',
         content_margin: [10, 0, 10, 0],
         min_size: [80, 0],
-    },
-    {
-        class: 'label_control',
-        parents: [
-            {
-                class: 'status_bar',
-            },
-        ],
-        'font.size': 'var(statusbarLabelFontSize)',
-        color: 'var(statusbarLabelColor)',
-        'font.bold': 'var(statusbarLabelBold)',
     },
     {
         class: 'sidebar_container',
@@ -1460,8 +1450,26 @@ export const rules = [
     },
     {
         class: 'label_control',
-        fg: ['foreground', 1],
-        'font.bold': false,
+        parents: [
+            {
+                class: 'status_bar',
+            },
+        ],
+        'font.size': 'var(statusbarLabelFontSize)',
+        fg: 'var(statusbarLabelColor)',
+    },
+    {
+        class: 'label_control',
+        parents: [
+            {
+                class: 'window',
+            },
+            {
+                class: 'status_button',
+                attributes: ['hover'],
+            },
+        ],
+        fg: 'var(statusbarLabelColorHover)',
     },
     {
         class: 'label_control',
@@ -2276,8 +2284,10 @@ export function getThemeHighContrast(): ThemeSetting {
         extends: 'Meetio Theme.hidden-theme',
         variables: {
             ...variables,
-            backgroundContrast: 'color(var(foreground) blend(var(background) 5%)))',
-            borderContrast: 'color(var(foreground) blend(var(background) 15%)))',
+            backgroundContrast:
+                'color(var(foreground) blend(var(background) 5%)))',
+            borderContrast:
+                'color(var(foreground) blend(var(background) 15%)))',
             titleBarBackground: 'var(backgroundContrast)',
             sidebarBackground: 'var(backgroundContrast)',
             statusbarBackground: 'var(backgroundContrast)',
