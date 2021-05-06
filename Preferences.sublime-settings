@@ -1,15 +1,15 @@
 {
-  // Show icon diff in tab.
-  "meetio_tabs_diff_icon": true,
-  // Show diff pencil icon in tab.
-  "meetio_tabs_diff_pencil_icon": true,
+    // Show icon diff if the tab as modified.
+    "meetio_tabs_diff_icon": true,
+    // Show icon diff if the tab as modified.
+    "meetio_tabs_diff_pencil_icon": true,
 
-  // Set disclosure tree controls.
-  "meetio_sidebar_disclosure": false,
+    // Show an expand/collapse icon present in all tree rows that can be expanded.
+    "meetio_sidebar_disclosure": true,
 
-  // Show icon search in inputs.
-  "meetio_input_search_icon": true,
+    // Show the search icon in the text input used by the Quick Panel.
+    "meetio_input_search_icon": true,
 
-  // Show button close on "Find" panel.
-  "meetio_panel_close_button": true,
+    // Show the button to close the open panel.
+    "meetio_panel_close_button": true
 }

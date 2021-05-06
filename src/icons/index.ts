@@ -162,10 +162,6 @@ export const icons: IOptions[] = [
                 name: 'arrow_right_small',
                 settings: defaultSettings,
             },
-            {
-                name: 'arrow_up',
-                settings: defaultSettings,
-            },
         ],
     },
     {
@@ -184,6 +180,14 @@ export const icons: IOptions[] = [
     {
         folder: 'tree',
         icons: [
+            {
+                name: 'disclosure_collapsed',
+                settings: defaultSettings,
+            },
+            {
+                name: 'disclosure_expanded',
+                settings: defaultSettings,
+            },
             {
                 name: 'folder_closed',
                 settings: defaultSettings,

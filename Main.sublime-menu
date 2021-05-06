@@ -1,8 +1,7 @@
 [
     {
         "id": "preferences",
-        "children":
-        [
+        "children": [
             {
                 "caption": "Package Settings",
                 "id": "package-settings",
@@ -12,27 +11,28 @@
                         "children": [
                             {
                                 "caption": "Edit Settings",
-                                "command": "edit_settings",
-                                "args": {
-                                    "base_file": "${packages}/Meetio Theme/Preferences.sublime-settings",
-                                    "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
-                                }
+                                "command": "meetio_settings"
                             },
                             {
-                                "caption": "Theme Configuration - Default",
-                                "command": "edit_settings",
-                                "args": {
-                                    "base_file": "${packages}/Meetio Theme/Meetio Theme.sublime-theme",
-                                    "default": "{\n    \"variables\": {\n\t\t$0\n\t}\n}\n"
-                                }
-                            },
-                            {
-                                "caption": "Theme Configuration - Hight Contrast",
-                                "command": "edit_settings",
-                                "args": {
-                                    "base_file": "${packages}/Meetio Theme/Meetio Theme - Hight Contrast.sublime-theme",
-                                    "default": "{\n    \"variables\": {\n\t\t$0\n\t}\n}\n"
-                                }
+                                "caption": "Theme Configuration",
+                                "children": [
+                                    {
+                                        "caption": "Default",
+                                        "command": "edit_settings",
+                                        "args": {
+                                            "base_file": "${packages}/Meetio Theme/Meetio Theme.sublime-theme",
+                                            "default": "{\n    \"variables\": {\n\t\t$0\n\t}\n}\n"
+                                        }
+                                    },
+                                    {
+                                        "caption": "Hight Contrast",
+                                        "command": "edit_settings",
+                                        "args": {
+                                            "base_file": "${packages}/Meetio Theme/Meetio Theme - Hight Contrast.sublime-theme",
+                                            "default": "{\n    \"variables\": {\n\t\t$0\n\t}\n}\n"
+                                        }
+                                    }
+                                ]
                             },
                             { "caption": "-" },
                             {

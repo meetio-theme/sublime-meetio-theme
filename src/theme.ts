@@ -248,20 +248,16 @@ export const rules = [
     },
     {
         class: 'disclosure_button_control',
-        'layer0.texture': 'Meetio Theme/textures/disclosure.png',
-        'layer0.tint': ['foreground', 0.6],
-        'layer0.opacity': {
-            target: 0.3,
-            speed: 5,
-            interpolation: 'smoothstep',
-        },
-        content_margin: [0, 0, 0, 0],
+        'layer0.texture': 'Meetio Theme/textures/tree/disclosure_collapsed.png',
+        'layer0.tint': 'var(sidebarIconFolderColor)',
+        'layer0.opacity': 1.0,
+        content_margin: [8, 8],
     },
     {
         class: 'disclosure_button_control',
         attributes: ['expanded'],
-        'layer0.texture': 'Meetio Theme/textures/disclosure_expanded.png',
-        'layer0.tint': 'var(sidebarIconFolderColor)',
+        'layer0.texture': 'Meetio Theme/textures/tree/disclosure_expanded.png',
+        'layer0.tint': 'var(sidebarIconFolderExpandedColor)',
     },
     {
         class: 'disclosure_button_control',
@@ -274,9 +270,9 @@ export const rules = [
     },
     {
         class: 'disclosure_button_control',
-        settings: ['meetio_sidebar_disclosure'],
-        content_margin: [8, 8],
-        'layer0.opacity': 1,
+        settings: ['!meetio_sidebar_disclosure'],
+        content_margin: 0,
+        'layer0.opacity': 0,
     },
     {
         class: 'icon_folder',
