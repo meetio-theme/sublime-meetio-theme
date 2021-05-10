@@ -126,7 +126,7 @@
             4
         ],
         "tabBold": false,
-        "tabFontSize": "var(fontSizeSm)",
+        "tabFontSize": "var(fontSizeMd)",
         "tabColor": [
             "foreground",
             0.5
@@ -139,7 +139,7 @@
             0,
             0,
             0,
-            2
+            1
         ],
         "tabSelectedColor": "var(foreground)",
         "tabDiffIconColor": "var(accent)",
