@@ -15,7 +15,7 @@
     "scripts": {
         "build": "ts-node src/index.ts",
         "icons": "ts-node src/icons.ts",
-        "lint": "eslint \"src/*.ts\" \"src/**/*.ts\" \"src/**/**/*.ts\" \"src/**/*.json\" \"src/**/**/*.json\"",
+        "lint": "eslint \"src/*.ts\" \"src/**/*.ts\"",
         "changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
         "release": "bash scripts/release.sh",
         "test": "echo \"Error: no test specified\" && exit 1"
