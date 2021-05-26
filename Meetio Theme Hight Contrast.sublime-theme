@@ -11,6 +11,7 @@
         "fontFace": "system",
         "kindFontFace": "system",
         "kindFontSize": "var(fontSizeLg)",
+        "dialogLabelColor": "color(var(background) blend(var(foreground) 30%))",
         "buttonBackground": [
             "background",
             0.5
@@ -253,6 +254,17 @@
                 0.94
             ],
             "layer0.opacity": 1
+        },
+        {
+            "class": "label_control",
+            "parents": [
+                {
+                    "class": "dialog"
+                }
+            ],
+            "fg": "var(dialogLabelColor)",
+            "font.face": "var(fontFace)",
+            "font.size": "var(fontSizeMd)"
         },
         {
             "class": "popup_control",
@@ -1334,17 +1346,12 @@
             "attributes": [
                 "dirty"
             ],
-            "layer0.texture": "Meetio Theme/textures/dirty_icon.png",
-            "layer0.tint": "var(accent)"
-        },
-        {
-            "class": "close_button",
-            "attributes": [
-                "hover",
-                "dirty"
-            ],
-            "layer0.texture": "Meetio Theme/textures/dirty_icon.png",
-            "layer0.tint": "var(accent)"
+            "layer0.texture": "Meetio Theme/textures/tab/dirty_pencil.png",
+            "layer0.tint": "var(tabDiffIconColor)",
+            "layer0.inner_margin": [
+                4,
+                4
+            ]
         },
         {
             "class": "panel_control",
@@ -1579,9 +1586,7 @@
                     ]
                 }
             ],
-            "layer0.opacity": 0.4,
-            "layer1.tint": "var(overlay_bg-light)",
-            "layer2.tint": "var(overlay_bc-light)"
+            "layer0.opacity": 0.4
         },
         {
             "class": "progress_bar_control",
@@ -1628,21 +1633,6 @@
                 "!panel_visible"
             ],
             "layer1.opacity": 1
-        },
-        {
-            "class": "panel_button_control",
-            "layer0.texture": "Meetio Theme/textures/actions/menu.png",
-            "layer0.tint": "var(statusbarIconColor)",
-            "layer0.opacity": 1,
-            "layer0.inner_margin": 4,
-            "content_margin": 9
-        },
-        {
-            "class": "panel_button_control",
-            "attributes": [
-                "hover"
-            ],
-            "layer0.tint": "var(statusbarIconColorHover)"
         },
         {
             "class": "vcs_branch_icon",

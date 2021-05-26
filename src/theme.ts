@@ -13,6 +13,7 @@ export const variables: ThemeVariables = {
     fontFace: 'system',
     kindFontFace: 'system',
     kindFontSize: 'var(fontSizeLg)',
+    dialogLabelColor: 'color(var(background) blend(var(foreground) 30%))',
     buttonBackground: ['background', 0.5],
     buttonBackgroundHover: 'color(var(accent) a(0.2))',
     buttonMinSize: [80, 28],
@@ -175,6 +176,13 @@ export const rules = [
         class: 'dialog',
         'layer0.tint': ['background', 0.94],
         'layer0.opacity': 1,
+    },
+    {
+        class: "label_control",
+        parents: [{ "class": "dialog" }],
+        "fg": "var(dialogLabelColor)",
+        "font.face": "var(fontFace)",
+        "font.size": "var(fontSizeMd)"
     },
     {
         class: 'popup_control',
@@ -1062,14 +1070,9 @@ export const rules = [
     {
         class: 'close_button',
         attributes: ['dirty'],
-        'layer0.texture': 'Meetio Theme/textures/dirty_icon.png',
-        'layer0.tint': 'var(accent)',
-    },
-    {
-        class: 'close_button',
-        attributes: ['hover', 'dirty'],
-        'layer0.texture': 'Meetio Theme/textures/dirty_icon.png',
-        'layer0.tint': 'var(accent)',
+        'layer0.texture': 'Meetio Theme/textures/tab/dirty_pencil.png',
+        'layer0.tint': 'var(tabDiffIconColor)',
+        'layer0.inner_margin': [4, 4],
     },
     {
         class: 'panel_control',
@@ -1231,8 +1234,6 @@ export const rules = [
         class: 'overlay_control',
         parents: [{ class: 'window', attributes: ['file_light'] }],
         'layer0.opacity': 0.4,
-        'layer1.tint': 'var(overlay_bg-light)',
-        'layer2.tint': 'var(overlay_bc-light)',
     },
     {
         class: 'progress_bar_control',
@@ -1264,19 +1265,6 @@ export const rules = [
         class: 'status_bar',
         attributes: ['!panel_visible'],
         'layer1.opacity': 1,
-    },
-    {
-        class: 'panel_button_control',
-        'layer0.texture': 'Meetio Theme/textures/actions/menu.png',
-        'layer0.tint': 'var(statusbarIconColor)',
-        'layer0.opacity': 1,
-        'layer0.inner_margin': 4,
-        content_margin: 9,
-    },
-    {
-        class: 'panel_button_control',
-        attributes: ['hover'],
-        'layer0.tint': 'var(statusbarIconColorHover)',
     },
     {
         class: 'vcs_branch_icon',
@@ -2323,8 +2311,7 @@ export function generateTheme(options: GenerateTheme) {
     fs.mkdir(dist, () => {
         try {
             fs.writeFileSync(
-                `${dist}/${output.filename}${
-                    output.extension || '.sublime-theme'
+                `${dist}/${output.filename}${output.extension || '.sublime-theme'
                 }`,
                 JSON.stringify(
                     {
