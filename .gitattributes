@@ -1,0 +1,17 @@
+.gitattributes    export-ignore
+.gitignore        export-ignore
+
+# Files
+.babelrc                export-ignore
+.eslintignore           export-ignore
+.eslintrc               export-ignore
+commitlint.config.js    export-ignore
+prettier.config.js      export-ignore
+README.md               export-ignore
+tsconfig.json           export-ignore
+
+# Folders
+/assets           export-ignore
+/examples         export-ignore
+/scripts          export-ignore
+/src              export-ignore

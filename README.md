@@ -49,7 +49,7 @@ Manually you can go to (**Preferences > Settings - User**) and paste the followi
 ```json
 {
     "color_scheme": "Packages/Meetio Theme/schemes/Meetio Darker.sublime-color-scheme",
-    "theme": "Meetio-Theme.sublime-theme"
+    "theme": "Meetio Theme.sublime-theme"
 }
 ```
 
