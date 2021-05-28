@@ -33,10 +33,10 @@
                                         }
                                     },
                                     {
-                                        "caption": "Hight Contrast",
+                                        "caption": "High Contrast",
                                         "command": "edit_settings",
                                         "args": {
-                                            "base_file": "${packages}/Meetio Theme/Meetio Theme - Hight Contrast.sublime-theme",
+                                            "base_file": "${packages}/Meetio Theme/Meetio Theme High Contrast.sublime-theme",
                                             "default": "{\n    \"variables\": {\n\t\t$0\n\t}\n}\n"
                                         }
                                     }

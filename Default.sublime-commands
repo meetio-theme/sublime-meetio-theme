@@ -20,10 +20,10 @@
         }
     },
     {
-        "caption": "Meetio Theme: Hight Contrast Configuration",
+        "caption": "Meetio Theme: High Contrast Configuration",
         "command": "edit_settings",
         "args": {
-            "base_file": "${packages}/Meetio Theme/Meetio Theme - Hight Contrast.sublime-theme",
+            "base_file": "${packages}/Meetio Theme/Meetio Theme High Contrast.sublime-theme",
             "default": "{\n    \"variables\": {\n\t\t$0\n\t}\n}\n"
         }
     }

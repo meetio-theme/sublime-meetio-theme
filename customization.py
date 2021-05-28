@@ -48,7 +48,7 @@ class MeetioSettingsCommand(sublime_plugin.TextCommand):
     def is_visible(self):
         s = sublime.load_settings('Preferences.sublime-settings')
         theme = s.get('theme')
-        return theme in ['Meetio Theme.sublime-theme', 'Meetio Theme Hight Contrast.sublime-theme']
+        return theme in ['Meetio Theme.sublime-theme', 'Meetio Theme High Contrast.sublime-theme']
 
 class MeetioSettingsInputHandler(sublime_plugin.ListInputHandler):
     def name(self):

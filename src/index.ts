@@ -59,7 +59,7 @@ import { generateTheme, getThemeHidden, getThemeDefault, getThemeHighContrast } 
     {
         settings: getThemeHighContrast(),
         output: {
-            filename: 'Meetio Theme Hight Contrast',
+            filename: 'Meetio Theme High Contrast',
         },
     },
 ].map((theme: Theme) => {
