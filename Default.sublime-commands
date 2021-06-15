@@ -16,7 +16,7 @@
         "command": "edit_settings",
         "args": {
             "base_file": "${packages}/Meetio Theme/Meetio Theme.sublime-theme",
-            "default": "{\n    \"variables\": {\n\t\t$0\n\t}\n}\n"
+            "default": "{\n\t\"variables\": {\n\t\t$0\n\t},\n\t\"rules\": []\n}\n"
         }
     },
     {
@@ -24,7 +24,7 @@
         "command": "edit_settings",
         "args": {
             "base_file": "${packages}/Meetio Theme/Meetio Theme High Contrast.sublime-theme",
-            "default": "{\n    \"variables\": {\n\t\t$0\n\t}\n}\n"
+            "default": "{\n\t\"variables\": {\n\t\t$0\n\t},\n\t\"rules\": []\n}\n"
         }
     }
 ]

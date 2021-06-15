@@ -1841,7 +1841,7 @@ export const rules = [
                 attributes: ['dirty'],
             },
         ],
-        'layer0.texture': 'Theme - Default/common/dark/tab_dirty.png',
+        'layer0.texture': 'Meetio Theme/textures/tab/dirty_dot.png',
     },
     {
         class: 'tab_close_button',
