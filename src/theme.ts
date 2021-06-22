@@ -86,6 +86,9 @@ export const variables: ThemeVariables = {
     tabSelectedColor: 'var(foreground)',
     tabDiffIconColor: 'var(accent)',
     tabDiffColor: 'var(--bluish)',
+    tabCloseNew: 'var(--greenish)',
+    tabCloseModified: 'var(--bluish)',
+    tabCloseDeleted: 'var(--redish)',
     tabDiffItalic: true,
     tabHeight: 45,
     tabWidth: 50,
@@ -178,11 +181,11 @@ export const rules = [
         'layer0.opacity': 1,
     },
     {
-        class: "label_control",
-        parents: [{ "class": "dialog" }],
-        "fg": "var(dialogLabelColor)",
-        "font.face": "var(fontFace)",
-        "font.size": "var(fontSizeMd)"
+        class: 'label_control',
+        parents: [{ class: 'dialog' }],
+        fg: 'var(dialogLabelColor)',
+        'font.face': 'var(fontFace)',
+        'font.size': 'var(fontSizeMd)',
     },
     {
         class: 'popup_control',
@@ -1704,11 +1707,6 @@ export const rules = [
     },
     {
         class: 'tab_control',
-        settings: ['show_tab_close_buttons'],
-        content_margin: [8, 8],
-    },
-    {
-        class: 'tab_control',
         attributes: ['selected', 'dirty'],
         'layer1.opacity': 1,
         settings: ['highlight_modified_tabs'],
@@ -1727,12 +1725,6 @@ export const rules = [
         'layer2.draw_center': false,
         'layer2.tint': 'var(tabSelectedBorderColor)',
         tint_index: 1,
-    },
-    {
-        class: 'tab_control',
-        settings: ['show_tab_close_buttons_on_left'],
-        close_button_side: 'left',
-        content_margin: [8, 8],
     },
     {
         class: 'tab_label',
@@ -1763,9 +1755,21 @@ export const rules = [
         fg: 'var(tabDiffColor)',
         'font.italic': 'var(tabDiffItalic)',
     },
+    // Tabs - close button
+    {
+        class: 'tab_control',
+        settings: ['show_tab_close_buttons_on_left'],
+        close_button_side: 'left',
+        content_margin: [8, 8],
+    },
+    {
+        class: 'tab_control',
+        settings: ['!show_tab_close_buttons']
+    },
     {
         class: 'tab_close_button',
-        content_margin: 0,
+        settings: ['show_tab_close_buttons'],
+        content_margin: [8, 8],
         'layer0.texture': 'Meetio Theme/textures/actions/close.png',
         'layer0.tint': 'var(tabCloseColor)',
         'layer0.opacity': {
@@ -1773,22 +1777,20 @@ export const rules = [
             speed: 5,
             interpolation: 'smoothstep',
         },
-        'layer0.inner_margin': 0,
-        'layer1.texture': 'Meetio Theme/textures/tab/dirty_dot.png',
-        'layer1.tint': 'var(tabDiffIconColor)',
-        'layer1.inner_margin': [2, 2],
-        'layer1.opacity': 0,
+        'layer0.inner_margin': [4, 4],
     },
     {
         class: 'tab_close_button',
-        'layer1.texture': 'Meetio Theme/textures/tab/dirty_pencil.png',
-        'layer1.inner_margin': 0,
+        attributes: ['!hover'],
+        parents: [{ class: 'tab_control', attributes: ['dirty'] }],
+        'layer0.texture': 'Meetio Theme/textures/tab/dirty_dot.png',
+    },
+    {
+        class: 'tab_close_button',
+        attributes: ['!hover'],
+        parents: [{ class: 'tab_control', attributes: ['dirty'] }],
+        'layer0.texture': 'Meetio Theme/textures/tab/dirty_pencil.png',
         settings: ['meetio_tabs_diff_pencil_icon'],
-    },
-    {
-        class: 'tab_close_button',
-        settings: ['show_tab_close_buttons'],
-        content_margin: [7, 7],
     },
     {
         class: 'tab_close_button',
@@ -1818,80 +1820,18 @@ export const rules = [
     },
     {
         class: 'tab_close_button',
-        parents: [
-            {
-                class: 'tab_control',
-                attributes: ['dirty'],
-            },
-        ],
-        settings: ['meetio_tabs_diff_icon'],
-        'layer0.opacity': 0,
-        'layer1.opacity': {
-            target: 1,
-            speed: 5,
-            interpolation: 'smoothstep',
-        },
-        content_margin: [6, 6],
+        parents: [{ class: 'tab_control', attributes: ['added'] }],
+        'layer0.tint': 'var(tabCloseNew)',
     },
     {
         class: 'tab_close_button',
-        parents: [
-            {
-                class: 'tab_control',
-                attributes: ['dirty'],
-            },
-        ],
-        'layer0.texture': 'Meetio Theme/textures/tab/dirty_dot.png',
+        parents: [{ class: 'tab_control', attributes: ['modified'] }],
+        'layer0.tint': 'var(tabCloseModified)',
     },
     {
         class: 'tab_close_button',
-        parents: [
-            {
-                class: 'tab_control',
-                attributes: ['dirty'],
-            },
-        ],
-        settings: ['meetio_tabs_diff_icon'],
-        attributes: ['hover'],
-        'layer0.opacity': 0,
-        'layer1.opacity': {
-            target: 1,
-            speed: 5,
-            interpolation: 'smoothstep',
-        },
-    },
-    {
-        class: 'tab_close_button',
-        parents: [
-            {
-                class: 'tab_control',
-                attributes: ['selected', 'dirty'],
-            },
-        ],
-        settings: ['meetio_tabs_diff_icon'],
-        'layer0.opacity': 0,
-        'layer1.opacity': {
-            target: 1,
-            speed: 5,
-            interpolation: 'smoothstep',
-        },
-    },
-    {
-        class: 'tab_close_button',
-        parents: [
-            {
-                class: 'tab_control',
-                attributes: ['selected', 'dirty'],
-            },
-        ],
-        settings: ['meetio_tabs_diff_icon'],
-        attributes: ['hover'],
-        'layer0.opacity': 0,
-        'layer1.opacity': {
-            target: 1,
-            speed: 5,
-            interpolation: 'smoothstep',
-        },
+        parents: [{ class: 'tab_control', attributes: ['deleted'] }],
+        'layer0.tint': 'var(tabCloseDeleted)',
     },
     {
         class: 'scroll_tabs_left_button',
@@ -2311,7 +2251,8 @@ export function generateTheme(options: GenerateTheme) {
     fs.mkdir(dist, () => {
         try {
             fs.writeFileSync(
-                `${dist}/${output.filename}${output.extension || '.sublime-theme'
+                `${dist}/${output.filename}${
+                    output.extension || '.sublime-theme'
                 }`,
                 JSON.stringify(
                     {

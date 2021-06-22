@@ -38,6 +38,9 @@ export function getScheme(theme: Theme) {
         ui: {
             ...ui,
             ...{
+                popup_css: "html > body div.actions { background-color: red; }",
+                phantom_css: "html > body div.actions { background-color: red; }",
+                sheet_css: "html > body div.actions { background-color: red; }",
                 line_diff_width: '3',
             },
         },

@@ -169,7 +169,27 @@ export const icons: IOptions[] = [
         icons: [
             {
                 name: 'dirty_dot',
-                settings: defaultSettings,
+                settings: [
+                    {
+                        width: 52,
+                        height: 52,
+                        suffix: false,
+                        preserveAspectRatio: 'xMinYMid meet',
+                    },
+                    {
+                        width: 96,
+                        height: 96,
+                        suffix: '@2x',
+                        preserveAspectRatio: 'xMinYMid meet',
+                    },
+                    {
+                        width: 156,
+                        height: 156,
+                        suffix: '@3x',
+                        preserveAspectRatio: 'xMinYMid meet',
+                    },
+                ],
+
             },
             {
                 name: 'dirty_pencil',
