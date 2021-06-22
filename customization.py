@@ -2,11 +2,6 @@ import sublime
 import sublime_plugin
 
 OPTIONAL_SETTINGS = {
-    "meetio_tabs_diff_icon": {
-        "default": True,
-        "description": "Icon diff if the tab as modified.",
-        "title": "Show Tab Diff Icon"
-    },
     "meetio_tabs_diff_pencil_icon": {
         "default": True,
         "description": "Diff pencil if the tab as modified.",
