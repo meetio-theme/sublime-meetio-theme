@@ -1,3 +1,58 @@
+## [7.0.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.0.1) (2021-06-22)
+
+
+* refactor!: drop support for `meetio_tabs_diff_icon` ([0c2c069](https://github.com/meetio-theme/sublime-meetio-theme/commit/0c2c069fa03828b7daeaf44dcb200c81e9b328ee))
+
+
+### Bug Fixes
+
+* border and font size of Tab ([77b70a0](https://github.com/meetio-theme/sublime-meetio-theme/commit/77b70a0a64f67a1a12e0c90b10e1908665e32115))
+* border size of grid ([98471b2](https://github.com/meetio-theme/sublime-meetio-theme/commit/98471b266aa587d0121639c77a02050f1e7783cd))
+* color for sidebar ([3c47821](https://github.com/meetio-theme/sublime-meetio-theme/commit/3c4782191a7dbb9124f30f272095ca009558ef9a))
+* color of label in dialog window ([9865c28](https://github.com/meetio-theme/sublime-meetio-theme/commit/9865c28d08166a99a59d0debfa4eb6d2012663af))
+* color of label in status bar ([e0e28e4](https://github.com/meetio-theme/sublime-meetio-theme/commit/e0e28e4a293281756e8cca694205369540d3d523))
+* cursor color in `Meetio Lighter` ([8129eff](https://github.com/meetio-theme/sublime-meetio-theme/commit/8129eff41a550363231af6bbc74ccd1d58051a61))
+* deprecated `meetio_high_contrast` ([148f2da](https://github.com/meetio-theme/sublime-meetio-theme/commit/148f2da899a5cc89eaaba1fcf3de020954051a64))
+* deprecated `meetio_high_contrast` option ([ad0ea5a](https://github.com/meetio-theme/sublime-meetio-theme/commit/ad0ea5acb69d7d4fc387a37ae44762f5193c0972))
+* hidden theme ([06a451a](https://github.com/meetio-theme/sublime-meetio-theme/commit/06a451af22a05fa2b461cf1d533af3ffbf4ff9d0))
+* high contrast theme ([9aa6b82](https://github.com/meetio-theme/sublime-meetio-theme/commit/9aa6b82f1c5652a5d8dc70430557995318da8ef1))
+* misspelling on theme name ([4adc5aa](https://github.com/meetio-theme/sublime-meetio-theme/commit/4adc5aa83bad612fb9afb34d4db72023bbc04bb3))
+* move `link_color` to `quick_panel_detail_label` closes [#48](https://github.com/meetio-theme/sublime-meetio-theme/issues/48) ([b4f942f](https://github.com/meetio-theme/sublime-meetio-theme/commit/b4f942f95eb16acab9ee868bcf99e5acf60ecc7d))
+* overlay ([5e9d110](https://github.com/meetio-theme/sublime-meetio-theme/commit/5e9d110168f635d894fe1a3c9cef627fb9cc8e4d))
+* path for theme configuration ([0fbde08](https://github.com/meetio-theme/sublime-meetio-theme/commit/0fbde083af6f8a143e008cc55157b2ebf8db1c03))
+* remove `meetio_tab_navigation` use `enable_tab_scrolling` instead ([c778995](https://github.com/meetio-theme/sublime-meetio-theme/commit/c7789959b2526fd4b1c259d602c4d9a56d9e168f))
+* remove all ([8cb1bc2](https://github.com/meetio-theme/sublime-meetio-theme/commit/8cb1bc267e7d975fbd4859973e16a9b37140c92f))
+* revert background color of panel ([65194fc](https://github.com/meetio-theme/sublime-meetio-theme/commit/65194fc625d0c8120eb4f1f60763c61926d62518))
+* revert features from ST4000 ([7c1ce7f](https://github.com/meetio-theme/sublime-meetio-theme/commit/7c1ce7f4dd0318f656d69587b3289fb0a846736c))
+* schemes colors ([a6dd046](https://github.com/meetio-theme/sublime-meetio-theme/commit/a6dd04639feceb4d2b708c6405082de2c349ad20))
+* update colors of diff ([515f5b1](https://github.com/meetio-theme/sublime-meetio-theme/commit/515f5b14735afb6d4474703d25c7b736c50fb522))
+* wrong path for tab_dirty asset closes [#54](https://github.com/meetio-theme/sublime-meetio-theme/issues/54) ([5f421c0](https://github.com/meetio-theme/sublime-meetio-theme/commit/5f421c0d01ce7f0518768bbc83cfe702d7c082fd))
+
+
+### Features
+
+* add Meetio Theme - High Contrast ([98e0dbf](https://github.com/meetio-theme/sublime-meetio-theme/commit/98e0dbfc8cc2fc5aa3ddbd312ac07bec53f3ef59))
+* add new scheme color `Meetio Deepocean` ([2296377](https://github.com/meetio-theme/sublime-meetio-theme/commit/2296377a27b6b27dad5c2915472c55bd09c49e51))
+* add new variables for customize tab close depending if is new/modified/deleted ([4d3be36](https://github.com/meetio-theme/sublime-meetio-theme/commit/4d3be36073ccd26dc1dc20f8a75e1992f911695a))
+* move st4 branch to main ([d3cb3d7](https://github.com/meetio-theme/sublime-meetio-theme/commit/d3cb3d7edffda2f94b147e1ec0118c6752591c98))
+
+
+### BREAKING CHANGES
+
+* `meetio_tabs_diff_icon` settings was removed from Meetio configurations
+* renamed theme to `Meetio Theme High Contrast.sublime-theme` closes #52
+
+
+
+## [4.8.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.0...v4.8.1) (2020-11-26)
+
+
+### Bug Fixes
+
+* theme ([1d3938c](https://github.com/meetio-theme/sublime-meetio-theme/commit/1d3938cb9299a1aa7e108ef803e5acfb1ad328e0))
+
+
+
 # [7.0.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.0.0) (2021-06-22)
 
 
