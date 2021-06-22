@@ -21,7 +21,7 @@ then
 
   # COMMIT AND TAG
   git add CHANGELOG.md package.json
-  git commit -m "chore(release): 4070-$VERSION"
+  git commit -m "feat(release): 4070-$VERSION"
   git tag -a "4070-$VERSION" -m "4070-$VERSION"
 
   # PUBLISH
