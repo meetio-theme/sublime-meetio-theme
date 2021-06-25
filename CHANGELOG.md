@@ -1,4 +1,4 @@
-## [7.0.2](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.0.2) (2021-06-25)
+## [7.0.3](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.0.3) (2021-06-25)
 
 
 ### Bug Fixes
@@ -20,6 +20,7 @@
 * remove `meetio_tab_navigation` use `enable_tab_scrolling` instead ([c778995](https://github.com/meetio-theme/sublime-meetio-theme/commit/c7789959b2526fd4b1c259d602c4d9a56d9e168f))
 * remove all ([8cb1bc2](https://github.com/meetio-theme/sublime-meetio-theme/commit/8cb1bc267e7d975fbd4859973e16a9b37140c92f))
 * revert background color of panel ([65194fc](https://github.com/meetio-theme/sublime-meetio-theme/commit/65194fc625d0c8120eb4f1f60763c61926d62518))
+* revert changes of icon ([7723b1c](https://github.com/meetio-theme/sublime-meetio-theme/commit/7723b1cb34504f054bfc6078a881f1e97f2aed57))
 * revert features from ST4000 ([7c1ce7f](https://github.com/meetio-theme/sublime-meetio-theme/commit/7c1ce7f4dd0318f656d69587b3289fb0a846736c))
 * schemes colors ([a6dd046](https://github.com/meetio-theme/sublime-meetio-theme/commit/a6dd04639feceb4d2b708c6405082de2c349ad20))
 * simplify `text_line_control` for `overlay_control` and `switch_project_window` ([b774ba2](https://github.com/meetio-theme/sublime-meetio-theme/commit/b774ba26d50c84c4ae27692e257ed96610c15654))
@@ -30,6 +31,7 @@
 ### Features
 
 * **release:** 4070-7.0.1 ([f446f1f](https://github.com/meetio-theme/sublime-meetio-theme/commit/f446f1fb71b55ab12f64866bca57b85b15d1a8c0))
+* **release:** 4070-7.0.2 ([34f2dfa](https://github.com/meetio-theme/sublime-meetio-theme/commit/34f2dfa9be133b451d671c20c2ae2f37bd6f4355))
 * add Meetio Theme - High Contrast ([98e0dbf](https://github.com/meetio-theme/sublime-meetio-theme/commit/98e0dbfc8cc2fc5aa3ddbd312ac07bec53f3ef59))
 * add new scheme color `Meetio Deepocean` ([2296377](https://github.com/meetio-theme/sublime-meetio-theme/commit/2296377a27b6b27dad5c2915472c55bd09c49e51))
 * add new variables for customize tab close depending if is new/modified/deleted ([4d3be36](https://github.com/meetio-theme/sublime-meetio-theme/commit/4d3be36073ccd26dc1dc20f8a75e1992f911695a))
