@@ -1000,21 +1000,9 @@ export const rules = [
     },
     {
         class: 'text_line_control',
-        platforms: ['osx', 'linux'],
         parents: [
             {
-                class: 'overlay_control',
-            },
-        ],
-        'layer1.opacity': 0,
-        content_margin: [52, 10, 10, 10],
-        settings: ['meetio_input_search_icon'],
-    },
-    {
-        class: 'text_line_control',
-        parents: [
-            {
-                class: 'overlay_control',
+                class: ['overlay_control', 'switch_project_window'],
             },
         ],
         'layer1.opacity': 0,
@@ -1023,33 +1011,7 @@ export const rules = [
         'layer2.texture': 'Meetio Theme/textures/input/search.png',
         'layer2.tint': 'var(accent)',
         'layer2.opacity': 1,
-        settings: ['meetio_input_search_icon'],
-    },
-    {
-        class: 'text_line_control',
-        platforms: ['osx', 'linux'],
-        parents: [
-            {
-                class: 'switch_project_window',
-            },
-        ],
-        'layer1.opacity': 0,
         content_margin: [52, 10, 10, 10],
-        settings: ['meetio_input_search_icon'],
-    },
-    {
-        class: 'text_line_control',
-        parents: [
-            {
-                class: 'switch_project_window',
-            },
-        ],
-        'layer2.inner_margin': [52, 48, 0, 0],
-        'layer2.draw_center': false,
-        'layer2.texture': 'Meetio Theme/textures/input/search.png',
-        'layer2.tint': 'var(accent)',
-        'layer2.opacity': 1,
-        'layer1.opacity': 0,
         settings: ['meetio_input_search_icon'],
     },
     {
@@ -1764,7 +1726,7 @@ export const rules = [
     },
     {
         class: 'tab_control',
-        settings: ['!show_tab_close_buttons']
+        settings: ['!show_tab_close_buttons'],
     },
     {
         class: 'tab_close_button',
