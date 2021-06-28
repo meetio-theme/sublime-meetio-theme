@@ -1,4 +1,4 @@
-## [7.0.3](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.0.3) (2021-06-25)
+## [7.0.4](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.0.4) (2021-06-28)
 
 
 ### Bug Fixes
@@ -23,6 +23,7 @@
 * revert changes of icon ([7723b1c](https://github.com/meetio-theme/sublime-meetio-theme/commit/7723b1cb34504f054bfc6078a881f1e97f2aed57))
 * revert features from ST4000 ([7c1ce7f](https://github.com/meetio-theme/sublime-meetio-theme/commit/7c1ce7f4dd0318f656d69587b3289fb0a846736c))
 * schemes colors ([a6dd046](https://github.com/meetio-theme/sublime-meetio-theme/commit/a6dd04639feceb4d2b708c6405082de2c349ad20))
+* search icon don't appears if the line padding was not defined closes [#55](https://github.com/meetio-theme/sublime-meetio-theme/issues/55) ([445745f](https://github.com/meetio-theme/sublime-meetio-theme/commit/445745f9360a95b747412deb0e1f5b3f91d44340))
 * simplify `text_line_control` for `overlay_control` and `switch_project_window` ([b774ba2](https://github.com/meetio-theme/sublime-meetio-theme/commit/b774ba26d50c84c4ae27692e257ed96610c15654))
 * update colors of diff ([515f5b1](https://github.com/meetio-theme/sublime-meetio-theme/commit/515f5b14735afb6d4474703d25c7b736c50fb522))
 * wrong path for tab_dirty asset closes [#54](https://github.com/meetio-theme/sublime-meetio-theme/issues/54) ([5f421c0](https://github.com/meetio-theme/sublime-meetio-theme/commit/5f421c0d01ce7f0518768bbc83cfe702d7c082fd))
@@ -32,6 +33,7 @@
 
 * **release:** 4070-7.0.1 ([f446f1f](https://github.com/meetio-theme/sublime-meetio-theme/commit/f446f1fb71b55ab12f64866bca57b85b15d1a8c0))
 * **release:** 4070-7.0.2 ([34f2dfa](https://github.com/meetio-theme/sublime-meetio-theme/commit/34f2dfa9be133b451d671c20c2ae2f37bd6f4355))
+* **release:** 4070-7.0.3 ([2d1650f](https://github.com/meetio-theme/sublime-meetio-theme/commit/2d1650f4b7b35c1c8b3597f7f3f6dd8cde2862ca))
 * add Meetio Theme - High Contrast ([98e0dbf](https://github.com/meetio-theme/sublime-meetio-theme/commit/98e0dbfc8cc2fc5aa3ddbd312ac07bec53f3ef59))
 * add new scheme color `Meetio Deepocean` ([2296377](https://github.com/meetio-theme/sublime-meetio-theme/commit/2296377a27b6b27dad5c2915472c55bd09c49e51))
 * add new variables for customize tab close depending if is new/modified/deleted ([4d3be36](https://github.com/meetio-theme/sublime-meetio-theme/commit/4d3be36073ccd26dc1dc20f8a75e1992f911695a))
