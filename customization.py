@@ -3,7 +3,7 @@ import sublime_plugin
 
 OPTIONAL_SETTINGS = {
     "meetio_tabs_diff_pencil_icon": {
-        "default": True,
+        "default": False,
         "description": "Diff pencil if the tab as modified.",
         "title": "Show Tab Diff Pencil"
     },

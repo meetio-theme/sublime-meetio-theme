@@ -1,6 +1,6 @@
 {
     // Show icon diff if the tab as modified.
-    "meetio_tabs_diff_pencil_icon": true,
+    "meetio_tabs_diff_pencil_icon": false,
 
     // Show an expand/collapse icon present in all tree rows that can be expanded.
     "meetio_sidebar_disclosure": true,
