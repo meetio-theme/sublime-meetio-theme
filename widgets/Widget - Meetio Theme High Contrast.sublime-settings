@@ -1,5 +1,5 @@
 {
-    "draw_shadows": false,
+    "highlight_line": false,
     "line_padding_top": 4,
     "line_padding_bottom": 4
 }
