@@ -1,8 +1,9 @@
-## [7.0.4](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.0.4) (2021-06-28)
+## [7.0.5](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.0.5) (2021-09-03)
 
 
 ### Bug Fixes
 
+* add workaround for find line is highlighted ([b9c984d](https://github.com/meetio-theme/sublime-meetio-theme/commit/b9c984d40a060f0ba2fc66d4ec0d1cfe9231cb9e))
 * border and font size of Tab ([77b70a0](https://github.com/meetio-theme/sublime-meetio-theme/commit/77b70a0a64f67a1a12e0c90b10e1908665e32115))
 * border size of grid ([98471b2](https://github.com/meetio-theme/sublime-meetio-theme/commit/98471b266aa587d0121639c77a02050f1e7783cd))
 * color for sidebar ([3c47821](https://github.com/meetio-theme/sublime-meetio-theme/commit/3c4782191a7dbb9124f30f272095ca009558ef9a))
@@ -34,6 +35,7 @@
 * **release:** 4070-7.0.1 ([f446f1f](https://github.com/meetio-theme/sublime-meetio-theme/commit/f446f1fb71b55ab12f64866bca57b85b15d1a8c0))
 * **release:** 4070-7.0.2 ([34f2dfa](https://github.com/meetio-theme/sublime-meetio-theme/commit/34f2dfa9be133b451d671c20c2ae2f37bd6f4355))
 * **release:** 4070-7.0.3 ([2d1650f](https://github.com/meetio-theme/sublime-meetio-theme/commit/2d1650f4b7b35c1c8b3597f7f3f6dd8cde2862ca))
+* **release:** 4070-7.0.4 ([f33c678](https://github.com/meetio-theme/sublime-meetio-theme/commit/f33c6781b38c7fa166575d9b15021f559106fec4))
 * add Meetio Theme - High Contrast ([98e0dbf](https://github.com/meetio-theme/sublime-meetio-theme/commit/98e0dbfc8cc2fc5aa3ddbd312ac07bec53f3ef59))
 * add new scheme color `Meetio Deepocean` ([2296377](https://github.com/meetio-theme/sublime-meetio-theme/commit/2296377a27b6b27dad5c2915472c55bd09c49e51))
 * add new variables for customize tab close depending if is new/modified/deleted ([4d3be36](https://github.com/meetio-theme/sublime-meetio-theme/commit/4d3be36073ccd26dc1dc20f8a75e1992f911695a))
