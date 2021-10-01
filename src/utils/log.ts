@@ -1,16 +1,16 @@
-import chalk from 'chalk';
+import { bold, underline, bgGreen, cyan, yellow, red } from 'nanocolors';
 
 export const success = (icon: string, folder: string) => {
     console.log(
-        chalk.bold.bgGreen(' SUCCESS ') +
+        bgGreen(bold(' SUCCESS ')) +
             ' － Icon ' +
-            chalk.bold.cyan(`${icon}`) +
+            cyan(bold(`${icon}`)) +
             ' created in ' +
-            chalk.underline.yellow(folder) +
+            yellow(underline(folder)) +
             ' folder'
     );
 };
 
-export const error = (error: string) => console.log(chalk.bold.red(error));
+export const error = (error: string) => console.log(red(bold(error)));
 
 export const log = { success, error };
