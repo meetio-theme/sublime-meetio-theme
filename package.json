@@ -48,6 +48,6 @@
         "svg2img": "^0.9.4",
         "ts-node": "^10.3.0",
         "typescript": "^4.4.4",
-        "nanocolors": "^0.2.13"
+        "picocolors": "^1.0.0"
     }
 }

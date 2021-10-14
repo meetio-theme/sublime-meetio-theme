@@ -1,4 +1,4 @@
-import { bold, underline, bgGreen, cyan, yellow, red } from 'nanocolors';
+import { bold, underline, bgGreen, cyan, yellow, red } from 'picocolors';
 
 export const success = (icon: string, folder: string) => {
     console.log(
