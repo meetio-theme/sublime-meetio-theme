@@ -58,10 +58,7 @@
         "shadow": "color(var(background) alpha(0.5))",
         "stack_guide": "var(brown)",
         "tags_foreground": "var(cyan)",
-        "tags_options": "underline",
-        "popup_css": "html > body div.actions { background-color: red; }",
-        "phantom_css": "html > body div.actions { background-color: red; }",
-        "sheet_css": "html > body div.actions { background-color: red; }"
+        "tags_options": "underline"
     },
     "rules": [
         {
