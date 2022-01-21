@@ -1,27 +1,20 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "declaration": false,
-        "target": "es6",
-        "outDir": "bin",
-        "rootDir": "src/",
-        "lib": ["es7", "dom"],
+        "moduleResolution": "node",
+        "declaration": true,
+        "target": "es2018",
+        "outDir": "dist",
+        "lib": ["es2018", "dom"],
         "esModuleInterop": true,
         "sourceMap": true,
         "allowUnreachableCode": false,
         "noUnusedLocals": true,
-        "allowJs": true,
         "noUnusedParameters": true,
-        "strict": true,
         "noImplicitAny": false,
-        "esModuleInterop": true,
         "resolveJsonModule": true,
-        "resolveJsonModule": true,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "moduleResolution": "node",
-        "typeRoots" : ["./typings", "./node_modules/@types"]
+        "typeRoots": ["./types", "node_modules/@types"]
     },
-    "include": ["src/", "typings/"],
-    "exclude": ["node_modules"]
+    "include": ["src/*.ts"],
+    "exclude": ["node_modules", "dist"]
 }
