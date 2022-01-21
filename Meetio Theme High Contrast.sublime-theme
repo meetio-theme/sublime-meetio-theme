@@ -161,7 +161,7 @@
         "tabCloseSelectedColor": "var(foreground)",
         "tabCloseHoverColor": "var(accent)",
         "titleBarBackground": "var(backgroundContrast)",
-        "titleBarColor": "color(var(background) blend(var(foreground) 40%))",
+        "titleBarColor": "var(foreground)",
         "tooltipBackground": "var(foreground)",
         "tooltipLabelColor": "var(background)",
         "gridLayoutBorderColor": "color(var(accent) blend(var(foreground) 30%))",
