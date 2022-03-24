@@ -1,4 +1,4 @@
-## [7.0.7](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.0.7) (2022-01-21)
+# [7.1.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.1.0) (2022-03-24)
 
 
 ### Bug Fixes
@@ -6,6 +6,7 @@
 * add workaround for find line is highlighted ([b9c984d](https://github.com/meetio-theme/sublime-meetio-theme/commit/b9c984d40a060f0ba2fc66d4ec0d1cfe9231cb9e))
 * border and font size of Tab ([77b70a0](https://github.com/meetio-theme/sublime-meetio-theme/commit/77b70a0a64f67a1a12e0c90b10e1908665e32115))
 * border size of grid ([98471b2](https://github.com/meetio-theme/sublime-meetio-theme/commit/98471b266aa587d0121639c77a02050f1e7783cd))
+* change size of button inside Panel Control ([7a8766a](https://github.com/meetio-theme/sublime-meetio-theme/commit/7a8766ac567691d314d2d5738d478f63e8e224ea))
 * color for sidebar ([3c47821](https://github.com/meetio-theme/sublime-meetio-theme/commit/3c4782191a7dbb9124f30f272095ca009558ef9a))
 * color of label in dialog window ([9865c28](https://github.com/meetio-theme/sublime-meetio-theme/commit/9865c28d08166a99a59d0debfa4eb6d2012663af))
 * color of label in status bar ([e0e28e4](https://github.com/meetio-theme/sublime-meetio-theme/commit/e0e28e4a293281756e8cca694205369540d3d523))
@@ -40,6 +41,7 @@
 * **release:** 4070-7.0.4 ([f33c678](https://github.com/meetio-theme/sublime-meetio-theme/commit/f33c6781b38c7fa166575d9b15021f559106fec4))
 * **release:** 4070-7.0.5 ([396e941](https://github.com/meetio-theme/sublime-meetio-theme/commit/396e941267bc721b9a75ea5374306101574e209c))
 * **release:** 4070-7.0.6 ([eb808ff](https://github.com/meetio-theme/sublime-meetio-theme/commit/eb808ff3edd69c874bee892ee88970434442beed))
+* **release:** 4070-7.0.7 ([e0e40e0](https://github.com/meetio-theme/sublime-meetio-theme/commit/e0e40e05c04cd6186e3c5d004daaaf54c7a7093b))
 * add Meetio Theme - High Contrast ([98e0dbf](https://github.com/meetio-theme/sublime-meetio-theme/commit/98e0dbfc8cc2fc5aa3ddbd312ac07bec53f3ef59))
 * add new scheme color `Meetio Deepocean` ([2296377](https://github.com/meetio-theme/sublime-meetio-theme/commit/2296377a27b6b27dad5c2915472c55bd09c49e51))
 * add new variables for customize tab close depending if is new/modified/deleted ([4d3be36](https://github.com/meetio-theme/sublime-meetio-theme/commit/4d3be36073ccd26dc1dc20f8a75e1992f911695a))
