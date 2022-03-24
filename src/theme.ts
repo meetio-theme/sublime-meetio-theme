@@ -16,7 +16,9 @@ export const variables: ThemeVariables = {
     dialogLabelColor: 'color(var(background) blend(var(foreground) 30%))',
     buttonBackground: ['background', 0.5],
     buttonBackgroundHover: 'color(var(accent) a(0.2))',
-    buttonMinSize: [80, 28],
+    buttonSmall: [80, 16],
+    buttonMedium: [80, 22],
+    buttonLarge: [80, 28],
     buttonIconFileColor: 'color(var(accent) a(0.70))',
     buttonIconFileSelectedColor: 'var(accent)',
     buttonIconFileBackground: 'var(background)',
@@ -150,8 +152,8 @@ export const rules = [
     },
     {
         class: 'button_control',
-        content_margin: [6, 10, 6, 10],
-        min_size: 'var(buttonMinSize)',
+        content_margin: [6, 6],
+        min_size: 'var(buttonSmall)',
         'layer0.tint': 'var(buttonBackground)',
         'layer0.opacity': {
             target: 0.6,
@@ -174,6 +176,18 @@ export const rules = [
             speed: 5,
             interpolation: 'smoothstep',
         },
+    },
+    {
+        class: 'button_control',
+        min_size: 'var(buttonMedium)',
+        content_margin: [6, 8],
+        parents: [{ class: 'dialog' }],
+    },
+    {
+        class: 'button_control',
+        min_size: 'var(buttonLarge)',
+        content_margin: [8, 10],
+        parents: [{ class: 'panel_grid_control' }],
     },
     {
         class: 'dialog',
@@ -1083,6 +1097,12 @@ export const rules = [
                 class: 'window',
             },
         ],
+    },
+    {
+        class: 'switch_project_panel_cancel_container',
+        'layer0.tint': 'var(panelControlBackground)',
+        'layer0.opacity': 1.0,
+        content_margin: [10, 4],
     },
     {
         class: 'panel_grid_control',
