@@ -736,6 +736,16 @@
             "foreground": "var(foreground)"
         },
         {
+            "name": "YAML - Key",
+            "scope": "entity.name.tag.yaml",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "YAML - String",
+            "scope": "source.yaml string.unquoted",
+            "foreground": "var(green)"
+        },
+        {
             "name": "PYTHON - Parameters Annotation ",
             "scope": "source.python meta.function.parameters.annotation.python meta.qualified-name.python meta.generic-name.python",
             "foreground": "var(blue)"
