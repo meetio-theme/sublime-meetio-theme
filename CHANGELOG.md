@@ -1,4 +1,4 @@
-# [7.1.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.1.0) (2022-03-24)
+# [7.2.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.2.0) (2022-05-25)
 
 
 ### Bug Fixes
@@ -35,6 +35,7 @@
 
 ### Features
 
+* add support for YAML ([7155a70](https://github.com/meetio-theme/sublime-meetio-theme/commit/7155a705a4eca532a184d5a506a26316b2b3aee2))
 * **release:** 4070-7.0.1 ([f446f1f](https://github.com/meetio-theme/sublime-meetio-theme/commit/f446f1fb71b55ab12f64866bca57b85b15d1a8c0))
 * **release:** 4070-7.0.2 ([34f2dfa](https://github.com/meetio-theme/sublime-meetio-theme/commit/34f2dfa9be133b451d671c20c2ae2f37bd6f4355))
 * **release:** 4070-7.0.3 ([2d1650f](https://github.com/meetio-theme/sublime-meetio-theme/commit/2d1650f4b7b35c1c8b3597f7f3f6dd8cde2862ca))
@@ -42,6 +43,7 @@
 * **release:** 4070-7.0.5 ([396e941](https://github.com/meetio-theme/sublime-meetio-theme/commit/396e941267bc721b9a75ea5374306101574e209c))
 * **release:** 4070-7.0.6 ([eb808ff](https://github.com/meetio-theme/sublime-meetio-theme/commit/eb808ff3edd69c874bee892ee88970434442beed))
 * **release:** 4070-7.0.7 ([e0e40e0](https://github.com/meetio-theme/sublime-meetio-theme/commit/e0e40e05c04cd6186e3c5d004daaaf54c7a7093b))
+* **release:** 4070-7.1.0 ([3edd114](https://github.com/meetio-theme/sublime-meetio-theme/commit/3edd1148f767a2f3b8ea08de1e50757f91857443))
 * add Meetio Theme - High Contrast ([98e0dbf](https://github.com/meetio-theme/sublime-meetio-theme/commit/98e0dbfc8cc2fc5aa3ddbd312ac07bec53f3ef59))
 * add new scheme color `Meetio Deepocean` ([2296377](https://github.com/meetio-theme/sublime-meetio-theme/commit/2296377a27b6b27dad5c2915472c55bd09c49e51))
 * add new variables for customize tab close depending if is new/modified/deleted ([4d3be36](https://github.com/meetio-theme/sublime-meetio-theme/commit/4d3be36073ccd26dc1dc20f8a75e1992f911695a))
