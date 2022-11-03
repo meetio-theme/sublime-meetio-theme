@@ -1,4 +1,4 @@
-# [7.2.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.2.0) (2022-05-25)
+## [7.2.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.2.1) (2022-11-03)
 
 
 ### Bug Fixes
@@ -23,6 +23,7 @@
 * remove `meetio_tab_navigation` use `enable_tab_scrolling` instead ([c778995](https://github.com/meetio-theme/sublime-meetio-theme/commit/c7789959b2526fd4b1c259d602c4d9a56d9e168f))
 * remove `popup_css`, `phantom_css`, `sheet_css` styles for schemes closes [#57](https://github.com/meetio-theme/sublime-meetio-theme/issues/57) ([784f6a4](https://github.com/meetio-theme/sublime-meetio-theme/commit/784f6a4d420694d74a561cbd0dd14d39d304aabf))
 * remove all ([8cb1bc2](https://github.com/meetio-theme/sublime-meetio-theme/commit/8cb1bc267e7d975fbd4859973e16a9b37140c92f))
+* remove padding on go to symbol ([1842ed2](https://github.com/meetio-theme/sublime-meetio-theme/commit/1842ed229c2c8dbbaee7f9069de0ff91adfef712))
 * revert background color of panel ([65194fc](https://github.com/meetio-theme/sublime-meetio-theme/commit/65194fc625d0c8120eb4f1f60763c61926d62518))
 * revert changes of icon ([7723b1c](https://github.com/meetio-theme/sublime-meetio-theme/commit/7723b1cb34504f054bfc6078a881f1e97f2aed57))
 * revert features from ST4000 ([7c1ce7f](https://github.com/meetio-theme/sublime-meetio-theme/commit/7c1ce7f4dd0318f656d69587b3289fb0a846736c))
@@ -33,9 +34,16 @@
 * wrong path for tab_dirty asset closes [#54](https://github.com/meetio-theme/sublime-meetio-theme/issues/54) ([5f421c0](https://github.com/meetio-theme/sublime-meetio-theme/commit/5f421c0d01ce7f0518768bbc83cfe702d7c082fd))
 
 
+* refactor!: drop support for `meetio_tabs_diff_icon` ([0c2c069](https://github.com/meetio-theme/sublime-meetio-theme/commit/0c2c069fa03828b7daeaf44dcb200c81e9b328ee))
+
+
 ### Features
 
+* add Meetio Theme - High Contrast ([98e0dbf](https://github.com/meetio-theme/sublime-meetio-theme/commit/98e0dbfc8cc2fc5aa3ddbd312ac07bec53f3ef59))
+* add new scheme color `Meetio Deepocean` ([2296377](https://github.com/meetio-theme/sublime-meetio-theme/commit/2296377a27b6b27dad5c2915472c55bd09c49e51))
+* add new variables for customize tab close depending if is new/modified/deleted ([4d3be36](https://github.com/meetio-theme/sublime-meetio-theme/commit/4d3be36073ccd26dc1dc20f8a75e1992f911695a))
 * add support for YAML ([7155a70](https://github.com/meetio-theme/sublime-meetio-theme/commit/7155a705a4eca532a184d5a506a26316b2b3aee2))
+* move st4 branch to main ([d3cb3d7](https://github.com/meetio-theme/sublime-meetio-theme/commit/d3cb3d7edffda2f94b147e1ec0118c6752591c98))
 * **release:** 4070-7.0.1 ([f446f1f](https://github.com/meetio-theme/sublime-meetio-theme/commit/f446f1fb71b55ab12f64866bca57b85b15d1a8c0))
 * **release:** 4070-7.0.2 ([34f2dfa](https://github.com/meetio-theme/sublime-meetio-theme/commit/34f2dfa9be133b451d671c20c2ae2f37bd6f4355))
 * **release:** 4070-7.0.3 ([2d1650f](https://github.com/meetio-theme/sublime-meetio-theme/commit/2d1650f4b7b35c1c8b3597f7f3f6dd8cde2862ca))
@@ -44,13 +52,7 @@
 * **release:** 4070-7.0.6 ([eb808ff](https://github.com/meetio-theme/sublime-meetio-theme/commit/eb808ff3edd69c874bee892ee88970434442beed))
 * **release:** 4070-7.0.7 ([e0e40e0](https://github.com/meetio-theme/sublime-meetio-theme/commit/e0e40e05c04cd6186e3c5d004daaaf54c7a7093b))
 * **release:** 4070-7.1.0 ([3edd114](https://github.com/meetio-theme/sublime-meetio-theme/commit/3edd1148f767a2f3b8ea08de1e50757f91857443))
-* add Meetio Theme - High Contrast ([98e0dbf](https://github.com/meetio-theme/sublime-meetio-theme/commit/98e0dbfc8cc2fc5aa3ddbd312ac07bec53f3ef59))
-* add new scheme color `Meetio Deepocean` ([2296377](https://github.com/meetio-theme/sublime-meetio-theme/commit/2296377a27b6b27dad5c2915472c55bd09c49e51))
-* add new variables for customize tab close depending if is new/modified/deleted ([4d3be36](https://github.com/meetio-theme/sublime-meetio-theme/commit/4d3be36073ccd26dc1dc20f8a75e1992f911695a))
-* move st4 branch to main ([d3cb3d7](https://github.com/meetio-theme/sublime-meetio-theme/commit/d3cb3d7edffda2f94b147e1ec0118c6752591c98))
-
-
-* refactor!: drop support for `meetio_tabs_diff_icon` ([0c2c069](https://github.com/meetio-theme/sublime-meetio-theme/commit/0c2c069fa03828b7daeaf44dcb200c81e9b328ee))
+* **release:** 4070-7.2.0 ([f500939](https://github.com/meetio-theme/sublime-meetio-theme/commit/f500939e2987bf71da282f7ee77ab3b50c9cc4d5))
 
 
 ### BREAKING CHANGES
@@ -115,11 +117,11 @@
 * add new icons ([bbed1b4](https://github.com/meetio-theme/sublime-meetio-theme/commit/bbed1b435b6eee692394c0816bf14fd9ea43f216))
 * entity.filename ([c8f1c72](https://github.com/meetio-theme/sublime-meetio-theme/commit/c8f1c72915936151fba364c1c0340e314be6af04))
 * find in files scheme rules ([c90b6c0](https://github.com/meetio-theme/sublime-meetio-theme/commit/c90b6c0e5350e32543c0c8fc330f56dfdf0a6888))
+* **icons:** move icons to a different folder ([556a1d6](https://github.com/meetio-theme/sublime-meetio-theme/commit/556a1d6a83536523a3149e25db3c488a6a4af538))
+* **infrastructure:** change folder and files struct ([4915a7c](https://github.com/meetio-theme/sublime-meetio-theme/commit/4915a7cae30e73975cc0f228e2966827afdca49f))
 * invalid prop `font.italic`, ran `npm run theme`, bump version ([20d6f76](https://github.com/meetio-theme/sublime-meetio-theme/commit/20d6f76ab838c45e3e51758fac44f55e73b50639))
 * path for icons ([a508bb2](https://github.com/meetio-theme/sublime-meetio-theme/commit/a508bb287df53ee35fc8b8a933500320006dd79b))
 * remove icons duplication ([b30f1b7](https://github.com/meetio-theme/sublime-meetio-theme/commit/b30f1b7eeb175daa74e70d7fbe32c52951057c8f))
-* **icons:** move icons to a different folder ([556a1d6](https://github.com/meetio-theme/sublime-meetio-theme/commit/556a1d6a83536523a3149e25db3c488a6a4af538))
-* **infrastructure:** change folder and files struct ([4915a7c](https://github.com/meetio-theme/sublime-meetio-theme/commit/4915a7cae30e73975cc0f228e2966827afdca49f))
 * **rename scheme:** rename schemes ([4f55f63](https://github.com/meetio-theme/sublime-meetio-theme/commit/4f55f636ca61a4f052dd7976c7ae6a22baba62d4))
 * **schemes:** add accent color ([f3e5a5f](https://github.com/meetio-theme/sublime-meetio-theme/commit/f3e5a5feab32ad7bba6c30c479160fd3ce1d8077))
 * tabs ([ea71471](https://github.com/meetio-theme/sublime-meetio-theme/commit/ea7147185bd8a8569cf66c7c35d437f5486f2da3))
