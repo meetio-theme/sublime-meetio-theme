@@ -12,6 +12,14 @@
         "diffDeleted": "#D9575760",
         "diffModified": "#82AAFF60",
         "invalid": "#D3423E66",
+        "--redish": "#D95757",
+        "--orangish": "#F78C6C",
+        "--yellowish": "#ECF991",
+        "--greenish": "#C3E88D",
+        "--cyanish": "#7FDBCA",
+        "--bluish": "#82AAFF",
+        "--purplish": "#C2AFFF",
+        "--pinkish": "#FF5899",
         "black": "#000000",
         "blue": "#82AAFF",
         "brown": "#996667",
@@ -58,7 +66,9 @@
         "shadow": "color(var(background) alpha(0.5))",
         "stack_guide": "var(brown)",
         "tags_foreground": "var(cyan)",
-        "tags_options": "underline"
+        "tags_options": "underline",
+        "block_caret_border": "red",
+        "block_caret_corner_style": "square"
     },
     "rules": [
         {

@@ -1,5 +1,6 @@
 import { options, Rules } from '@meetio/scheme-generator';
-export { generateScheme } from '@meetio/scheme-generator';
+import { SchemeSetting } from '@meetio/scheme-generator';
+
 import { getColors, Theme } from './colors';
 
 const { ui, ...rest } = options;
@@ -23,7 +24,7 @@ const rules: Rules[] = [
     },
 ];
 
-export function getScheme(theme: Theme) {
+export function getScheme(theme: Theme): SchemeSetting {
     const { base } = getColors(theme);
 
     const colors = {
@@ -38,7 +39,7 @@ export function getScheme(theme: Theme) {
         ui: {
             ...ui,
             ...{
-                line_diff_width: '3',
+                line_diff_width: "3",
             },
         },
         rules: [

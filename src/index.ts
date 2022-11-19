@@ -1,5 +1,6 @@
 import * as path from 'path';
-import { generateScheme, getScheme } from './scheme';
+import { generateScheme } from '@meetio/scheme-generator';
+import { getScheme } from './scheme';
 import { Scheme, Theme } from './interfaces';
 import { generateTheme, getThemeHidden, getThemeDefault, getThemeHighContrast } from './theme';
 
