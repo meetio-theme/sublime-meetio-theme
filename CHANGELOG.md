@@ -1,4 +1,4 @@
-## [7.2.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.2.1) (2022-11-03)
+# [7.3.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.3.0) (2022-11-19)
 
 
 ### Bug Fixes
@@ -53,6 +53,9 @@
 * **release:** 4070-7.0.7 ([e0e40e0](https://github.com/meetio-theme/sublime-meetio-theme/commit/e0e40e05c04cd6186e3c5d004daaaf54c7a7093b))
 * **release:** 4070-7.1.0 ([3edd114](https://github.com/meetio-theme/sublime-meetio-theme/commit/3edd1148f767a2f3b8ea08de1e50757f91857443))
 * **release:** 4070-7.2.0 ([f500939](https://github.com/meetio-theme/sublime-meetio-theme/commit/f500939e2987bf71da282f7ee77ab3b50c9cc4d5))
+* **release:** 4070-7.2.1 ([1e76fc3](https://github.com/meetio-theme/sublime-meetio-theme/commit/1e76fc3f72311d50c724aa6274a18541c5a4d5fa))
+* update `*-ish` colors ([eb56dff](https://github.com/meetio-theme/sublime-meetio-theme/commit/eb56dffc547a67450b6acf661054ee701107fbd3))
+* update `UI` options ([c67f1fe](https://github.com/meetio-theme/sublime-meetio-theme/commit/c67f1feb3b83bfdfb7aa41f88ee85f6ec4ed82fe))
 
 
 ### BREAKING CHANGES
