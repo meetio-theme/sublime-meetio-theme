@@ -39,7 +39,7 @@ export function getScheme(theme: Theme): SchemeSetting {
         ui: {
             ...ui,
             ...{
-                line_diff_width: "3",
+                line_diff_width: '3',
             },
         },
         rules: [
