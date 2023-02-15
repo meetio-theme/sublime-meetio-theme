@@ -1,4 +1,4 @@
-## [7.3.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.3.1) (2022-11-29)
+# [7.4.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.4.0) (2023-02-15)
 
 
 ### Bug Fixes
@@ -42,6 +42,7 @@
 * add Meetio Theme - High Contrast ([98e0dbf](https://github.com/meetio-theme/sublime-meetio-theme/commit/98e0dbfc8cc2fc5aa3ddbd312ac07bec53f3ef59))
 * add new scheme color `Meetio Deepocean` ([2296377](https://github.com/meetio-theme/sublime-meetio-theme/commit/2296377a27b6b27dad5c2915472c55bd09c49e51))
 * add new variables for customize tab close depending if is new/modified/deleted ([4d3be36](https://github.com/meetio-theme/sublime-meetio-theme/commit/4d3be36073ccd26dc1dc20f8a75e1992f911695a))
+* add support for `Better Find Buffer` ([19f7256](https://github.com/meetio-theme/sublime-meetio-theme/commit/19f7256bdbcd999fbb515dc5f1d4dfef64eba88f))
 * add support for YAML ([7155a70](https://github.com/meetio-theme/sublime-meetio-theme/commit/7155a705a4eca532a184d5a506a26316b2b3aee2))
 * move st4 branch to main ([d3cb3d7](https://github.com/meetio-theme/sublime-meetio-theme/commit/d3cb3d7edffda2f94b147e1ec0118c6752591c98))
 * **release:** 4070-7.0.1 ([f446f1f](https://github.com/meetio-theme/sublime-meetio-theme/commit/f446f1fb71b55ab12f64866bca57b85b15d1a8c0))
@@ -55,6 +56,7 @@
 * **release:** 4070-7.2.0 ([f500939](https://github.com/meetio-theme/sublime-meetio-theme/commit/f500939e2987bf71da282f7ee77ab3b50c9cc4d5))
 * **release:** 4070-7.2.1 ([1e76fc3](https://github.com/meetio-theme/sublime-meetio-theme/commit/1e76fc3f72311d50c724aa6274a18541c5a4d5fa))
 * **release:** 4070-7.3.0 ([09af98c](https://github.com/meetio-theme/sublime-meetio-theme/commit/09af98ce6b1156470175f8a51f34aaa3c81651b5))
+* **release:** 4070-7.3.1 ([9344424](https://github.com/meetio-theme/sublime-meetio-theme/commit/93444245c96367c97fb14d327e6dc6fe875ea456))
 * update `*-ish` colors ([eb56dff](https://github.com/meetio-theme/sublime-meetio-theme/commit/eb56dffc547a67450b6acf661054ee701107fbd3))
 * update `UI` options ([c67f1fe](https://github.com/meetio-theme/sublime-meetio-theme/commit/c67f1feb3b83bfdfb7aa41f88ee85f6ec4ed82fe))
 
