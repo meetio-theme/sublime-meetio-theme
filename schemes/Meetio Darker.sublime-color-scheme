@@ -774,7 +774,7 @@
             "name": "Better Find Buffer - Query Files Count",
             "scope": "string.query.find-in-files",
             "foreground": "var(green)",
-            "font_style": ""
+            "font_style": "underline bold"
         },
         {
             "name": "Better Find Buffer - Match Count",
@@ -819,7 +819,7 @@
         {
             "name": "Better Find Buffer - File name",
             "scope": "entity.name.filename.find-in-files",
-            "foreground": "var(foreground)",
+            "foreground": "var(white)",
             "background": "var(accent)",
             "font_style": "bold"
         },
