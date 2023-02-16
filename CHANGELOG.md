@@ -1,4 +1,4 @@
-# [7.4.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.4.0) (2023-02-15)
+## [7.4.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.4.1) (2023-02-16)
 
 
 ### Bug Fixes
@@ -30,6 +30,7 @@
 * schemes colors ([a6dd046](https://github.com/meetio-theme/sublime-meetio-theme/commit/a6dd04639feceb4d2b708c6405082de2c349ad20))
 * search icon don't appears if the line padding was not defined closes [#55](https://github.com/meetio-theme/sublime-meetio-theme/issues/55) ([445745f](https://github.com/meetio-theme/sublime-meetio-theme/commit/445745f9360a95b747412deb0e1f5b3f91d44340))
 * simplify `text_line_control` for `overlay_control` and `switch_project_window` ([b774ba2](https://github.com/meetio-theme/sublime-meetio-theme/commit/b774ba26d50c84c4ae27692e257ed96610c15654))
+* update `foreground` color of file name on Better Find Buffer scope ([98ad81b](https://github.com/meetio-theme/sublime-meetio-theme/commit/98ad81b342af6ba1117fe303d0e603ab31b542dc))
 * update colors of diff ([515f5b1](https://github.com/meetio-theme/sublime-meetio-theme/commit/515f5b14735afb6d4474703d25c7b736c50fb522))
 * wrong path for tab_dirty asset closes [#54](https://github.com/meetio-theme/sublime-meetio-theme/issues/54) ([5f421c0](https://github.com/meetio-theme/sublime-meetio-theme/commit/5f421c0d01ce7f0518768bbc83cfe702d7c082fd))
 
@@ -57,6 +58,7 @@
 * **release:** 4070-7.2.1 ([1e76fc3](https://github.com/meetio-theme/sublime-meetio-theme/commit/1e76fc3f72311d50c724aa6274a18541c5a4d5fa))
 * **release:** 4070-7.3.0 ([09af98c](https://github.com/meetio-theme/sublime-meetio-theme/commit/09af98ce6b1156470175f8a51f34aaa3c81651b5))
 * **release:** 4070-7.3.1 ([9344424](https://github.com/meetio-theme/sublime-meetio-theme/commit/93444245c96367c97fb14d327e6dc6fe875ea456))
+* **release:** 4070-7.4.0 ([fc08fe8](https://github.com/meetio-theme/sublime-meetio-theme/commit/fc08fe82aedcc465b83cb4cb92191e159788acdf))
 * update `*-ish` colors ([eb56dff](https://github.com/meetio-theme/sublime-meetio-theme/commit/eb56dffc547a67450b6acf661054ee701107fbd3))
 * update `UI` options ([c67f1fe](https://github.com/meetio-theme/sublime-meetio-theme/commit/c67f1feb3b83bfdfb7aa41f88ee85f6ec4ed82fe))
 
