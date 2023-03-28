@@ -2660,90 +2660,54 @@
         {
             "class": "title_bar",
             "settings": [
-                "!themed_title_bar"
+                "themed_title_bar"
             ],
-            "fg": [
-                "background",
-                255,
-                255,
-                255,
-                0.7
-            ],
-            "bg": [
-                "background",
-                0,
-                0,
-                0,
-                0.4
-            ],
+            "fg": "var(titleBarColor)",
             "style": "system"
         },
         {
             "class": "title_bar",
             "settings": [
-                "!themed_title_bar"
+                "themed_title_bar"
             ],
             "attributes": [
                 "file_dark"
             ],
-            "bg": [
-                "background",
-                255,
-                255,
-                255,
-                0.15
-            ],
+            "bg": "var(titleBarBackground)",
             "style": "dark"
         },
         {
             "class": "title_bar",
-            "settings": [
-                "!themed_title_bar"
-            ],
             "attributes": [
                 "file_medium_dark"
             ],
+            "settings": [
+                "themed_title_bar"
+            ],
+            "bg": "var(titleBarBackground)",
             "style": "dark"
         },
         {
             "class": "title_bar",
-            "settings": [
-                "!themed_title_bar"
-            ],
             "attributes": [
                 "file_medium"
             ],
-            "bg": [
-                "background",
-                0,
-                0,
-                0,
-                0.2
+            "settings": [
+                "themed_title_bar"
             ],
+            "bg": "var(titleBarBackground)",
             "style": "light"
         },
         {
             "class": "title_bar",
-            "settings": [
-                "!themed_title_bar"
-            ],
             "attributes": [
                 "file_light"
             ],
-            "fg": [
-                "background",
-                0,
-                0,
-                0,
-                0.7
+            "settings": [
+                "themed_title_bar"
             ],
-            "bg": [
-                "background",
-                0,
-                0,
-                0,
-                0.1
-            ],
+            "bg": "var(titleBarBackground)",
+            "fg": "var(titleBarColor)",
             "style": "light"
         },
         {
