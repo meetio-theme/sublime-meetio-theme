@@ -56,7 +56,7 @@ export const variables: ThemeVariables = {
     sidebarBorder: 'var(sidebarBackground)',
     sidebarHeadingFontSize: 'var(fontSizeSm)',
     sidebarLabelFontSize: 'var(fontSizeMd)',
-    sidebarLabelPadding: [14, 3],
+    sidebarLabelPadding: [16, 4],
     sidebarIndent: 20,
     sidebarIndentOffset: 14,
     sidebarLabelColor: 'color(var(background) blend(var(foreground) 30%))',
@@ -174,6 +174,15 @@ export const rules = [
         'layer0.opacity': {
             target: 0.1,
             speed: 5,
+            interpolation: 'smoothstep',
+        },
+    },
+    {
+        class: 'button_control',
+        attributes: ['disabled'],
+        'layer0.opacity': {
+            target: 0,
+            speed: 0,
             interpolation: 'smoothstep',
         },
     },
