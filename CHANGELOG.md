@@ -1,4 +1,4 @@
-## [7.4.1](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.4.1) (2023-02-16)
+# [7.5.0](https://github.com/meetio-theme/sublime-meetio-theme/compare/v4.8.1...v7.5.0) (2023-03-28)
 
 
 ### Bug Fixes
@@ -15,6 +15,7 @@
 * deprecated `meetio_high_contrast` option ([ad0ea5a](https://github.com/meetio-theme/sublime-meetio-theme/commit/ad0ea5acb69d7d4fc387a37ae44762f5193c0972))
 * hidden theme ([06a451a](https://github.com/meetio-theme/sublime-meetio-theme/commit/06a451af22a05fa2b461cf1d533af3ffbf4ff9d0))
 * high contrast theme ([9aa6b82](https://github.com/meetio-theme/sublime-meetio-theme/commit/9aa6b82f1c5652a5d8dc70430557995318da8ef1))
+* improve UI of button disabled ([1e8801a](https://github.com/meetio-theme/sublime-meetio-theme/commit/1e8801a18b5ea89127841b1712023f308584d83d))
 * maximize /minimize window buttons are invisible closes [#56](https://github.com/meetio-theme/sublime-meetio-theme/issues/56) ([b9f98c2](https://github.com/meetio-theme/sublime-meetio-theme/commit/b9f98c293f77a73abc31197ade9207518c490008))
 * misspelling on theme name ([4adc5aa](https://github.com/meetio-theme/sublime-meetio-theme/commit/4adc5aa83bad612fb9afb34d4db72023bbc04bb3))
 * move `link_color` to `quick_panel_detail_label` closes [#48](https://github.com/meetio-theme/sublime-meetio-theme/issues/48) ([b4f942f](https://github.com/meetio-theme/sublime-meetio-theme/commit/b4f942f95eb16acab9ee868bcf99e5acf60ecc7d))
@@ -44,6 +45,7 @@
 * add new scheme color `Meetio Deepocean` ([2296377](https://github.com/meetio-theme/sublime-meetio-theme/commit/2296377a27b6b27dad5c2915472c55bd09c49e51))
 * add new variables for customize tab close depending if is new/modified/deleted ([4d3be36](https://github.com/meetio-theme/sublime-meetio-theme/commit/4d3be36073ccd26dc1dc20f8a75e1992f911695a))
 * add support for `Better Find Buffer` ([19f7256](https://github.com/meetio-theme/sublime-meetio-theme/commit/19f7256bdbcd999fbb515dc5f1d4dfef64eba88f))
+* add support for dark `title_bar` ([3d83870](https://github.com/meetio-theme/sublime-meetio-theme/commit/3d8387002100d56c7605ba0599a4674664feca95))
 * add support for YAML ([7155a70](https://github.com/meetio-theme/sublime-meetio-theme/commit/7155a705a4eca532a184d5a506a26316b2b3aee2))
 * move st4 branch to main ([d3cb3d7](https://github.com/meetio-theme/sublime-meetio-theme/commit/d3cb3d7edffda2f94b147e1ec0118c6752591c98))
 * **release:** 4070-7.0.1 ([f446f1f](https://github.com/meetio-theme/sublime-meetio-theme/commit/f446f1fb71b55ab12f64866bca57b85b15d1a8c0))
@@ -59,6 +61,7 @@
 * **release:** 4070-7.3.0 ([09af98c](https://github.com/meetio-theme/sublime-meetio-theme/commit/09af98ce6b1156470175f8a51f34aaa3c81651b5))
 * **release:** 4070-7.3.1 ([9344424](https://github.com/meetio-theme/sublime-meetio-theme/commit/93444245c96367c97fb14d327e6dc6fe875ea456))
 * **release:** 4070-7.4.0 ([fc08fe8](https://github.com/meetio-theme/sublime-meetio-theme/commit/fc08fe82aedcc465b83cb4cb92191e159788acdf))
+* **release:** 4070-7.4.1 ([8c9921e](https://github.com/meetio-theme/sublime-meetio-theme/commit/8c9921eaae2346d59ca06b43d7fd48a9ac1cbe62))
 * update `*-ish` colors ([eb56dff](https://github.com/meetio-theme/sublime-meetio-theme/commit/eb56dffc547a67450b6acf661054ee701107fbd3))
 * update `UI` options ([c67f1fe](https://github.com/meetio-theme/sublime-meetio-theme/commit/c67f1feb3b83bfdfb7aa41f88ee85f6ec4ed82fe))
 
