@@ -2,6 +2,7 @@
 import * as path from 'path';
 import * as fs from 'fs';
 import { Resvg } from '@resvg/resvg-js';
+import buildIconsType from '@meetio/meetio-icons';
 import { icons, IOptions } from './icons/index';
 
 import { log } from './utils/log';
@@ -44,3 +45,5 @@ icons.forEach((files: IOptions) => {
         });
     });
 });
+
+buildIconsType();

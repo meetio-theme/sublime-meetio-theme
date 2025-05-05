@@ -76,7 +76,6 @@ export const variables: ThemeVariables = {
     statusbarIconColor: 'var(statusbarLabelColor)',
     statusbarIconColorHover: 'var(statusbarLabelColorHover)',
     statusbarLabelFontSize: 'var(fontSizeSm)',
-    statusbarMargin: [10, 4, 10, 4],
     tabBold: false,
     tabFontSize: 'var(fontSizeMd)',
     tabColor: ['foreground', 0.5],
@@ -1275,15 +1274,25 @@ export const rules = [
         'layer0.opacity': 1,
         content_margin: [0, 8],
     },
+    // STATUS BAR
     {
         class: 'status_bar',
-        content_margin: 'var(statusbarMargin)',
         'layer0.opacity': 1,
         'layer0.tint': 'var(statusbarBackground)',
-        'layer1.inner_margin': [0, 1, 0, 0],
         'layer1.opacity': 1,
         'layer1.tint': 'var(statusBarBorder)',
         'layer1.draw_center': false,
+        content_margin: [8, 4, 0, 4],
+    },
+    {
+        class: 'status_bar',
+        settings: ['sidebar_on_right'],
+        content_margin: [0, 4, 8, 4],
+    },
+    {
+        class: 'status_bar',
+        settings: ['!show_sidebar_button'],
+        content_margin: [0, 4, 0, 4],
     },
     {
         class: 'status_bar',
