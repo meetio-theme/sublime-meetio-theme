@@ -76,7 +76,7 @@ export const variables: ThemeVariables = {
     statusbarIconColor: 'var(statusbarLabelColor)',
     statusbarIconColorHover: 'var(statusbarLabelColorHover)',
     statusbarLabelFontSize: 'var(fontSizeSm)',
-    statusbarMargin: [10, 4, 0, 4],
+    statusbarMargin: [10, 4, 10, 4],
     tabBold: false,
     tabFontSize: 'var(fontSizeMd)',
     tabColor: ['foreground', 0.5],
@@ -1314,18 +1314,33 @@ export const rules = [
         attributes: ['hover'],
         'layer0.tint': 'var(statusbarIconColorHover)',
     },
+
+    //  SIDEBAR BUTTON
     {
         class: 'sidebar_button_control',
+        settings: ['show_sidebar_button'],
         'layer0.texture': 'Meetio Theme/textures/actions/sidebar.png',
-        content_margin: 8,
         'layer0.tint': 'var(statusbarIconColor)',
-        'layer0.inner_margin': 2,
+        content_margin: 6,
         'layer0.opacity': 1,
     },
     {
         class: 'sidebar_button_control',
         attributes: ['hover'],
+        settings: ['show_sidebar_button'],
         'layer0.tint': 'var(statusbarIconColorHover)',
+    },
+    {
+        class: 'sidebar_button_control',
+        settings: ['!show_sidebar_button'],
+        content_margin: 0,
+        'layer0.tint': 'var(statusBarForeground)',
+        'layer0.opacity': 0.0,
+    },
+    {
+        class: 'sidebar_button_control',
+        settings: ['sidebar_on_right'],
+        'layer0.texture': 'GitHub Theme/textures/tree/sidebar-button-right.png',
     },
     {
         class: 'status_container',

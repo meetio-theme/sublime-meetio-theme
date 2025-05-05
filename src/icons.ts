@@ -1,8 +1,7 @@
 /* eslint-disable no-undef */
 import * as path from 'path';
 import * as fs from 'fs';
-import svg2img from 'svg2img';
-import buildIconsType from '@meetio/meetio-icons';
+import { Resvg } from '@resvg/resvg-js';
 import { icons, IOptions } from './icons/index';
 
 import { log } from './utils/log';
@@ -25,25 +24,23 @@ icons.forEach((files: IOptions) => {
             // eslint-disable-next-line no-undef
             data = Buffer.from(data, 'utf8');
             icon.settings.forEach((setting) => {
-                const { width, height, suffix } = setting;
+                const { width, suffix } = setting;
                 fs.mkdir(distFolder, function () {
-                    svg2img(data, { width, height }, (_: any, buffer: any) => {
-                        try {
-                            fs.writeFileSync(
-                                `${distFolder}/${
-                                    suffix ? icon.name + suffix : icon.name
-                                }.png`,
-                                buffer
-                            );
-                            log.success(icon.name, distFolder);
-                        } catch (e) {
-                            log.error(e);
-                        }
+                    const resvg = new Resvg(data, {
+                        fitTo: { mode: 'width', value: width },
                     });
+                    const pngData = resvg.render();
+                    const pngBuffer = pngData.asPng();
+
+                    fs.writeFileSync(
+                        `${distFolder}/${
+                            suffix ? icon.name + suffix : icon.name
+                        }.png`,
+                        pngBuffer
+                    );
+                    log.success(icon.name, distFolder);
                 });
             });
         });
     });
 });
-
-buildIconsType();
