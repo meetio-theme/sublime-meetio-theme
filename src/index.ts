@@ -1,10 +1,17 @@
 import * as path from 'path';
+// Utilities
 import { generateScheme } from '@meetio/scheme-generator';
 import { getScheme } from './scheme';
-import { Scheme, Theme } from './interfaces';
 import { generateTheme, getThemeHidden, getThemeDefault, getThemeHighContrast } from './theme';
+// Types
+import type { Scheme, Theme } from './interfaces';
 
 [
+        {
+        name: 'Meetio',
+        author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
+        variables: getScheme('default'),
+    },
     {
         name: 'Meetio Lighter',
         author: 'Mauro Reis Vieira <mauroreisvieira@gmail.com>',
