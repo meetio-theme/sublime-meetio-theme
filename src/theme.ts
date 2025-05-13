@@ -1343,7 +1343,6 @@ export const rules = [
         class: 'sidebar_button_control',
         settings: ['!show_sidebar_button'],
         content_margin: 0,
-        'layer0.tint': 'var(statusBarForeground)',
         'layer0.opacity': 0.0,
     },
     {
