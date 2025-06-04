@@ -64,6 +64,10 @@ export const icons: IOptions[] = [
                 name: 'sidebar',
                 settings: defaultSettings,
             },
+            {
+                name: 'sidebar-right',
+                settings: defaultSettings,
+            },
         ],
     },
     {
@@ -189,7 +193,6 @@ export const icons: IOptions[] = [
                         preserveAspectRatio: 'xMinYMid meet',
                     },
                 ],
-
             },
             {
                 name: 'dirty_pencil',

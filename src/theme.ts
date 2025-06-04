@@ -1348,7 +1348,7 @@ export const rules = [
     {
         class: 'sidebar_button_control',
         settings: ['sidebar_on_right'],
-        'layer0.texture': 'GitHub Theme/textures/tree/sidebar-button-right.png',
+        'layer0.texture': 'GitHub Theme/textures/actions/sidebar-right.png',
     },
     {
         class: 'status_container',

@@ -1,8 +1,10 @@
-import { base } from '@meetio/meetio-colors/dist/variations/base';
-import { darker } from '@meetio/meetio-colors/dist/variations/darker';
-import { lighter } from '@meetio/meetio-colors/dist/variations/lighter';
-import { palenight } from '@meetio/meetio-colors/dist/variations/palenight';
-import { deepocean } from '@meetio/meetio-colors/dist/variations/deepocean';
+import {
+    base,
+    darker,
+    deepocean,
+    lighter,
+    palenight,
+} from '@meetio/meetio-colors';
 
 import { Colors } from '@meetio/scheme-generator';
 
