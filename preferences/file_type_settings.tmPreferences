@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+	<dict>
+		<key>scope</key>
+		<string>source.env, source.ini, source.json.settings, text.plain.settings</string>
+		<key>settings</key>
+		<dict>
+			<key>icon</key>
+			<string>file_type_settings</string>
+		</dict>
+	</dict>
+</plist>
